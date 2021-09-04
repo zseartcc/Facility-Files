@@ -1,4 +1,4 @@
 # Facility Files
 Internal Facility Files
 
-*NOT YET IMPLEMENTED*
+Contains ZSE's pre-release facility files as well as some internal utilities.

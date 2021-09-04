@@ -13,7 +13,7 @@ IF EXIST %userprofile%\Dropbox (
 )
 
 :: ZSE 6. Internal Facility Files location
-IF %USERNAME%==Teddy1 (
+IF %USERNAME%==Teddy (
 	SET IFF_PATH=D:\Git Repos\Facility Files\ZSE 6. Internal Facility Files
 ) ELSE (
 	SET /P IFF_PATH=ZSE 6. Internal Facility Files path: 

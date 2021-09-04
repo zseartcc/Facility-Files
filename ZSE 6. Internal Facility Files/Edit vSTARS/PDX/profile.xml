@@ -1,0 +1,91 @@
+<FacilityBundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Facility>
+    <ID>PDX</ID>
+    <Name>Portland TRACON</Name>
+    <VisibilityRange>80</VisibilityRange>
+    <MagVar>-16</MagVar>
+    <Center Lon="-122.626812777778" Lat="45.5866141666667" />
+    <RadarSites>
+      <RadarSite IsPrimary="true" Character="P" ID="PDX" Elevation="40" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="50.4" IsTerminal="false">
+        <Location Lon="-122.62681" Lat="45.58661" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="L" ID="QFL" Elevation="3630" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-123.57372" Lat="44.923128" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="M" ID="QMO" Elevation="1099" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-123.3233" Lat="44.2823" />
+      </RadarSite>
+    </RadarSites>
+    <RadarSite>-1</RadarSite>
+    <TransitionAltitude>18000</TransitionAltitude>
+    <AirportData>
+      <AirportData ID="KPDX" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KHIO" TowerList="2" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KTTD" TowerList="3" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
+      <AirportData ID="KVUO" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="60" />
+      <AirportData ID="KUAO" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
+      <AirportData ID="KSPB" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="60" />
+      <AirportData ID="KMMV" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="60" />
+    </AirportData>
+    <CALateralMinimum>3</CALateralMinimum>
+    <CAVerticalMinimum>1000</CAVerticalMinimum>
+    <CAFloor>0</CAFloor>
+    <LDBBeaconCodesInhibited>true</LDBBeaconCodesInhibited>
+    <PDBGroundSpeedInhibited>true</PDBGroundSpeedInhibited>
+    <DisplayRequestedAltInFDB>false</DisplayRequestedAltInFDB>
+    <RPCs />
+    <RDVSLandLineSpecs />
+    <RDVSFrequencySpecs>
+      <RDVSFrequencySpec Frequency="24350" />
+      <RDVSFrequencySpec Frequency="18100" />
+      <RDVSFrequencySpec Frequency="26900" />
+      <RDVSFrequencySpec Frequency="26000" />
+      <RDVSFrequencySpec Frequency="34670" />
+      <RDVSFrequencySpec Frequency="23775" />
+      <RDVSFrequencySpec Frequency="21900" />
+      <RDVSFrequencySpec Frequency="24200" />
+      <RDVSFrequencySpec Frequency="20125" />
+    </RDVSFrequencySpecs>
+    <ScratchpadRules>
+      <ScratchpadRule Airport="KPDX" SearchPattern="MINNE#" MinAltitude="0" MaxAltitude="0" Template="MIN" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="COUGA" MinAltitude="0" MaxAltitude="0" Template="CGA" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="LAVAA#" MinAltitude="0" MaxAltitude="0" Template="LAV" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="CASCD#" MinAltitude="0" MaxAltitude="0" Template="CHI" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="KRIEG" MinAltitude="0" MaxAltitude="0" Template="KRG" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="PAPPS" MinAltitude="0" MaxAltitude="0" Template="PAP" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="HRMNS#" MinAltitude="0" MaxAltitude="0" Template="HRM" />
+      <ScratchpadRule Airport="KPDX" SearchPattern="CUKIS" MinAltitude="0" MaxAltitude="0" Template="CUK" />
+    </ScratchpadRules>
+    <CoastSuspendListTimeout>5</CoastSuspendListTimeout>
+    <UseVFRPositionSymbol>true</UseVFRPositionSymbol>
+    <ShowDestinationDepartures>true</ShowDestinationDepartures>
+    <ShowDestinationSatelliteArrivals>true</ShowDestinationSatelliteArrivals>
+    <ShowDestinationPrimaryArrivals>true</ShowDestinationPrimaryArrivals>
+    <Allow4CharacterScratchpad>true</Allow4CharacterScratchpad>
+    <Local>
+      <PrefSets />
+      <NetworkRating>OBS</NetworkRating>
+      <NetworkFacility>OBS</NetworkFacility>
+      <DefaultCallsign />
+      <ObserverCallsign />
+      <ControllerInfo />
+      <SelectedPrefSet>0</SelectedPrefSet>
+      <Bookmarks />
+      <FlightStripBaySeparators />
+      <ShowFlightStripBay>false</ShowFlightStripBay>
+      <AutoAddPrimaryArrivalStrips>false</AutoAddPrimaryArrivalStrips>
+      <AutoAddPrimaryDepartureStrips>false</AutoAddPrimaryDepartureStrips>
+      <AutoAddSecondaryArrivalStrips>false</AutoAddSecondaryArrivalStrips>
+      <AutoAddSecondaryDepartureStrips>false</AutoAddSecondaryDepartureStrips>
+      <AddFlightStripOnTrack>false</AddFlightStripOnTrack>
+      <DeleteFlightStripOnPush>false</DeleteFlightStripOnPush>
+      <DeleteFlightStripOnHandoff>false</DeleteFlightStripOnHandoff>
+      <DeleteFlightStripOnDropTrack>false</DeleteFlightStripOnDropTrack>
+      <PlaySoundWhenFlightStripAdded>true</PlaySoundWhenFlightStripAdded>
+      <AutoDisplayFlightStripBay>true</AutoDisplayFlightStripBay>
+    </Local>
+    <IFRSquawkCodeRange Low="1622" High="1677" />
+    <VFRSquawkCodeRange Low="1601" High="1621" />
+    <RNAVPatterns />
+  </Facility>
+</FacilityBundle>

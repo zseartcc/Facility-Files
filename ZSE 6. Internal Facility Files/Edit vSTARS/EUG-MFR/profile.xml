@@ -1,0 +1,84 @@
+<FacilityBundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Facility>
+    <ID>EUG-MFR</ID>
+    <Name>Cascade</Name>
+    <VisibilityRange>150</VisibilityRange>
+    <MagVar>-16</MagVar>
+    <Center Lon="-123.1407" Lat="43.2415" />
+    <RadarSites>
+      <RadarSite IsPrimary="true" Character="E" ID="EUG" Elevation="423" FloorSlope="0.175" PrimaryRange="60" SecondaryRange="80" ReducedSeparationRange="0" ConeOfSilenceSlope="30" IsTerminal="false">
+        <Location Lon="-123.22548" Lat="44.1246" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="L" ID="QFL" Elevation="3630" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-123.57372" Lat="44.923128" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="M" ID="QMO" Elevation="1099" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-123.3233" Lat="44.2823" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="R" ID="MFR" Elevation="1375" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="50.4" IsTerminal="false">
+        <Location Lon="-122.86301" Lat="42.385153" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="K" ID="LMT" Elevation="6700" FloorSlope="0.3" PrimaryRange="230" SecondaryRange="230" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-121.97216" Lat="42.068819" />
+      </RadarSite>
+    </RadarSites>
+    <RadarSite>-1</RadarSite>
+    <TransitionAltitude>18000</TransitionAltitude>
+    <AirportData>
+      <AirportData ID="KEUG" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KMFR" TowerList="3" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KCVO" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="60" />
+    </AirportData>
+    <CALateralMinimum>3</CALateralMinimum>
+    <CAVerticalMinimum>1000</CAVerticalMinimum>
+    <CAFloor>0</CAFloor>
+    <LDBBeaconCodesInhibited>true</LDBBeaconCodesInhibited>
+    <PDBGroundSpeedInhibited>true</PDBGroundSpeedInhibited>
+    <DisplayRequestedAltInFDB>false</DisplayRequestedAltInFDB>
+    <RPCs />
+    <RDVSLandLineSpecs />
+    <RDVSFrequencySpecs>
+      <RDVSFrequencySpec Frequency="19600" />
+      <RDVSFrequencySpec Frequency="24300" />
+      <RDVSFrequencySpec Frequency="20250" />
+      <RDVSFrequencySpec Frequency="25600" />
+      <RDVSFrequencySpec Frequency="18900" />
+      <RDVSFrequencySpec Frequency="19400" />
+      <RDVSFrequencySpec Frequency="21700" />
+      <RDVSFrequencySpec Frequency="21800" />
+      <RDVSFrequencySpec Frequency="24200" />
+    </RDVSFrequencySpecs>
+    <ScratchpadRules />
+    <CoastSuspendListTimeout>5</CoastSuspendListTimeout>
+    <UseVFRPositionSymbol>true</UseVFRPositionSymbol>
+    <ShowDestinationDepartures>true</ShowDestinationDepartures>
+    <ShowDestinationSatelliteArrivals>true</ShowDestinationSatelliteArrivals>
+    <ShowDestinationPrimaryArrivals>true</ShowDestinationPrimaryArrivals>
+    <Allow4CharacterScratchpad>true</Allow4CharacterScratchpad>
+    <Local>
+      <PrefSets />
+      <NetworkRating>OBS</NetworkRating>
+      <NetworkFacility>OBS</NetworkFacility>
+      <DefaultCallsign />
+      <ObserverCallsign />
+      <ControllerInfo />
+      <SelectedPrefSet>0</SelectedPrefSet>
+      <Bookmarks />
+      <FlightStripBaySeparators />
+      <ShowFlightStripBay>false</ShowFlightStripBay>
+      <AutoAddPrimaryArrivalStrips>false</AutoAddPrimaryArrivalStrips>
+      <AutoAddPrimaryDepartureStrips>false</AutoAddPrimaryDepartureStrips>
+      <AutoAddSecondaryArrivalStrips>false</AutoAddSecondaryArrivalStrips>
+      <AutoAddSecondaryDepartureStrips>false</AutoAddSecondaryDepartureStrips>
+      <AddFlightStripOnTrack>false</AddFlightStripOnTrack>
+      <DeleteFlightStripOnPush>false</DeleteFlightStripOnPush>
+      <DeleteFlightStripOnHandoff>false</DeleteFlightStripOnHandoff>
+      <DeleteFlightStripOnDropTrack>false</DeleteFlightStripOnDropTrack>
+      <PlaySoundWhenFlightStripAdded>true</PlaySoundWhenFlightStripAdded>
+      <AutoDisplayFlightStripBay>true</AutoDisplayFlightStripBay>
+    </Local>
+    <IFRSquawkCodeRange Low="4737" High="4762" />
+    <VFRSquawkCodeRange Low="4726" High="4736" />
+    <RNAVPatterns />
+  </Facility>
+</FacilityBundle>

@@ -236,7 +236,7 @@ class App(tk.Frame):
         # "Do Selected" button
         doSelectedBtn = tk.Button(
             tasksFrame, text="Do Selected Tasks", activebackground="#00ff00",
-            command=lambda: self.doTasks(profiles, tasks, taskVars, progress),
+            command=lambda: self.doTasks(profiles, tasks, taskVars, progress, statText),
             bg="#88ff88", pady=5, padx=5
         )
         doSelectedBtn.pack(pady=10)
@@ -272,7 +272,7 @@ class App(tk.Frame):
             # Get profile's current pre-release .gz file
             preRlsFile = f"{S_OUT_PATH}/vSTARS Facility - {name} ({profile}).gz"
             for task in todo:
-                # statText.v
+                statText.set(f"{profile}: {task.__name__}")
                 root.update_idletasks()  # (Updates GUI after each task is run)
                 try:
                     # Run task!

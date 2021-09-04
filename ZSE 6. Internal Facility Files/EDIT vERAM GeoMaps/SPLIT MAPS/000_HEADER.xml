@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeoMapSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultMap="ZSE">
+  <BcgMenus>
+    <BcgMenu Name="ZSE">
+      <Items>
+        <BcgMenuItem Label="CTR SEC" />
+        <BcgMenuItem Label="CTRINF" />
+        <BcgMenuItem Label="SUA" />
+        <BcgMenuItem Label="AWY" />
+        <BcgMenuItem Label="APPSTD" />
+        <BcgMenuItem Label="TRACON BORDER" />
+        <BcgMenuItem Label="SFC" />
+        <BcgMenuItem Label="SIDS" />
+        <BcgMenuItem Label="WX" />
+        <BcgMenuItem Label="APT/EMR" />
+        <BcgMenuItem Label="TAV" />
+        <BcgMenuItem Label="SEP" />
+        <BcgMenuItem Label="*NAV" />
+        <BcgMenuItem Label="SAT F" />
+        <BcgMenuItem Label="APPALT" />
+        <BcgMenuItem Label="NAV LABELS (ZSE ONLY)" />
+        <BcgMenuItem Label="MVA" />
+        <BcgMenuItem Label="STARS" />
+        <BcgMenuItem Label="APTDGM" />
+        <BcgMenuItem Label="SPEC" />
+      </Items>
+    </BcgMenu>
+  </BcgMenus>
+  <FilterMenus>
+    <FilterMenu Name="ZSE">
+      <Items>
+        <FilterMenuItem LabelLine1="*CTR" LabelLine2="SEC" />
+        <FilterMenuItem LabelLine1="CTR SEC" LabelLine2="INFO" />
+        <FilterMenuItem LabelLine1="SUA" LabelLine2="" />
+        <FilterMenuItem LabelLine1="AWY" LabelLine2="" />
+        <FilterMenuItem LabelLine1="APP" LabelLine2="STD" />
+        <FilterMenuItem LabelLine1="TRACON" LabelLine2="BORDER" />
+        <FilterMenuItem LabelLine1="SFC" LabelLine2="AREA" />
+        <FilterMenuItem LabelLine1="DEP" LabelLine2="" />
+        <FilterMenuItem LabelLine1="*WX" LabelLine2="" />
+        <FilterMenuItem LabelLine1="*APT" LabelLine2="EMRG" />
+        <FilterMenuItem LabelLine1="TAV" LabelLine2="" />
+        <FilterMenuItem LabelLine1="SEP" LabelLine2="" />
+        <FilterMenuItem LabelLine1="*NAV" LabelLine2="" />
+        <FilterMenuItem LabelLine1="SAT F" LabelLine2="" />
+        <FilterMenuItem LabelLine1="APPSEC" LabelLine2="ALT" />
+        <FilterMenuItem LabelLine1="NAV" LabelLine2="LABELS" />
+        <FilterMenuItem LabelLine1="MVA" LabelLine2="" />
+        <FilterMenuItem LabelLine1="ARR" LabelLine2="" />
+        <FilterMenuItem LabelLine1="*APT" LabelLine2="DGM" />
+        <FilterMenuItem LabelLine1="SPEC" LabelLine2="USE" />
+      </Items>
+    </FilterMenu>
+  </FilterMenus>
+  <GeoMaps>
+    <GeoMap Name="ZSE" LabelLine1="ZSE" LabelLine2="" BcgMenuName="ZSE" FilterMenuName="ZSE">
+      <Objects>

@@ -1,0 +1,867 @@
+[LABELS]
+  ;Text from old file
+"FUEL"  N045.32.06.875 W122.57.09.764 ramp   ;- 
+"C"     N045.32.08.673 W122.57.03.795 Taxiway   ;- 
+"B5"    N045.32.01.739 W122.57.04.742 Taxiway   ;- 
+"A"     N045.32.47.286 W122.57.27.250 Taxiway   ;- 
+"A1"    N045.32.55.726 W122.57.34.334 Taxiway   ;- 
+"A2"    N045.32.43.340 W122.57.21.862 Taxiway   ;- 
+"A3"    N045.32.27.483 W122.57.05.052 Taxiway   ;- 
+"A4"    N045.32.20.831 W122.56.58.475 Taxiway   ;- 
+"A6"    N045.32.12.102 W122.56.49.029 Taxiway   ;- 
+"A7"    N045.32.06.624 W122.56.43.522 Taxiway   ;- 
+"A8"    N045.32.04.102 W122.56.40.772 Taxiway   ;- 
+"PARK"  N045.32.01.065 W122.56.50.303 ramp   ;- 
+"B"     N045.32.18.235 W122.56.43.753 Taxiway   ;- 
+"B2"    N045.32.23.959 W122.56.38.582 Taxiway   ;- 
+"B1"    N045.32.30.046 W122.56.31.393 Taxiway   ;- 
+"AA"    N045.32.19.903 W122.57.04.990 Taxiway   ;- 
+"TOWER" N046.58.26.261 W122.54.31.153 TaxiwayLabel
+"TERM"  N046.58.32.498 W122.54.33.114 TaxiwayLabel
+"FBO"   N046.58.37.246 W122.53.48.758 TaxiwayLabel
+"FBO"   N046.58.21.617 W122.53.35.028 TaxiwayLabel
+"FUEL"  N046.58.21.504 W122.53.36.526 TaxiwayLabel
+"E"     N046.58.39.855 W122.54.00.380 TaxiwayLabel
+"E"     N046.58.35.729 W122.53.55.787 TaxiwayLabel
+"E"     N046.58.24.791 W122.53.48.339 TaxiwayLabel
+"E"     N046.58.13.510 W122.53.36.826 TaxiwayLabel
+"G"     N046.58.04.824 W122.53.33.250 TaxiwayLabel
+"G"     N046.58.03.224 W122.53.41.791 TaxiwayLabel
+"G"     N046.58.03.151 W122.54.09.898 TaxiwayLabel
+"G"     N046.58.03.065 W122.54.24.029 TaxiwayLabel
+"F"     N046.57.49.099 W122.54.14.055 TaxiwayLabel
+"F"     N046.58.06.436 W122.54.00.905 TaxiwayLabel
+"F"     N046.57.55.790 W122.54.04.466 TaxiwayLabel
+"F"     N046.58.16.845 W122.53.48.679 TaxiwayLabel
+"C"     N046.58.18.692 W122.53.59.364 TaxiwayLabel
+"D"     N046.58.29.550 W122.54.00.354 TaxiwayLabel
+"B"     N046.58.40.886 W122.54.11.505 TaxiwayLabel
+"W"     N046.58.27.184 W122.54.27.532 TaxiwayLabel
+"W"     N046.58.08.871 W122.54.27.642 TaxiwayLabel
+"W"     N046.57.56.503 W122.54.27.973 TaxiwayLabel
+"A"     N047.53.53.790 W122.17.00.954 TaxiwayLabel
+"A"     N047.54.11.933 W122.17.01.016 TaxiwayLabel
+"A"     N047.54.55.541 W122.17.01.802 TaxiwayLabel
+"AA"    N047.55.14.633 W122.17.07.725 TaxiwayLabel
+"A1"    N047.55.11.918 W122.17.06.086 TaxiwayLabel
+"A2"    N047.54.48.782 W122.17.05.843 TaxiwayLabel
+"A3"    N047.54.38.600 W122.17.05.424 TaxiwayLabel
+"A4"    N047.54.24.051 W122.17.04.933 TaxiwayLabel
+"A5"    N047.54.21.481 W122.17.04.649 TaxiwayLabel
+"A6"    N047.54.07.028 W122.17.04.183 TaxiwayLabel
+"A7"    N047.54.02.877 W122.17.04.661 TaxiwayLabel
+"A8"    N047.53.48.212 W122.17.03.979 TaxiwayLabel
+"A9"    N047.53.44.320 W122.17.03.901 TaxiwayLabel
+"K6"    N047.54.06.805 W122.17.16.659 TaxiwayLabel
+"K5"    N047.54.12.308 W122.17.16.810 TaxiwayLabel
+"B"     N047.54.38.537 W122.16.54.440 TaxiwayLabel
+"C"     N047.54.33.168 W122.16.58.331 TaxiwayLabel
+"D"     N047.54.31.385 W122.16.58.733 TaxiwayLabel
+"D1"    N047.54.28.775 W122.16.53.088 TaxiwayLabel
+"D"     N047.54.26.929 W122.16.52.020 TaxiwayLabel
+"C"     N047.54.26.761 W122.16.48.507 TaxiwayLabel
+"D2"    N047.54.23.394 W122.16.48.348 TaxiwayLabel
+"D3"    N047.54.20.400 W122.16.43.491 TaxiwayLabel
+"D4"    N047.54.13.276 W122.16.32.581 TaxiwayLabel
+"D"     N047.54.11.146 W122.16.27.923 TaxiwayLabel
+"G"     N047.54.14.923 W122.16.20.735 TaxiwayLabel
+"G1"    N047.54.22.447 W122.16.20.734 TaxiwayLabel
+"G2"    N047.54.18.587 W122.16.20.699 TaxiwayLabel
+"G3"    N047.54.12.795 W122.16.20.758 TaxiwayLabel
+"G4"    N047.54.04.852 W122.16.20.838 TaxiwayLabel
+"G5"    N047.53.58.429 W122.16.20.816 TaxiwayLabel
+"G6"    N047.53.56.348 W122.16.20.803 TaxiwayLabel
+"F6"    N047.53.55.107 W122.16.15.708 TaxiwayLabel
+"F4"    N047.54.04.742 W122.16.15.533 TaxiwayLabel
+"F2"    N047.54.18.566 W122.16.15.739 TaxiwayLabel
+"F1"    N047.54.22.541 W122.16.15.895 TaxiwayLabel
+"F"     N047.54.10.560 W122.16.15.047 TaxiwayLabel
+"E"     N047.54.05.383 W122.16.27.735 TaxiwayLabel
+"E"     N047.54.06.541 W122.16.45.608 TaxiwayLabel
+"H"     N047.54.09.328 W122.16.58.525 TaxiwayLabel
+"H"     N047.54.21.545 W122.16.58.742 TaxiwayLabel
+"W1"    N047.54.17.655 W122.16.47.155 TaxiwayLabel
+"WRAMP" N047.54.10.778 W122.16.53.406 TaxiwayLabel
+"SRAMP" N047.53.56.505 W122.16.53.152 TaxiwayLabel
+"ERAMP" N047.54.11.460 W122.16.11.998 TaxiwayLabel
+"CNTRL" N047.54.19.445 W122.16.36.486 TaxiwayLabel
+"RAMP"  N047.54.18.654 W122.16.36.473 TaxiwayLabel
+"TOWER" N047.54.27.815 W122.16.47.350 TaxiwayLabel
+"NRAMP" N047.54.31.386 W122.16.33.701 TaxiwayLabel
+"RAMP"  N047.54.50.004 W122.16.51.545 TaxiwayLabel
+"BOENG" N047.54.51.160 W122.16.51.569 TaxiwayLabel
+"BOENG" N047.55.21.795 W122.16.39.830 TaxiwayLabel
+"RAMP"  N047.55.20.839 W122.16.39.837 TaxiwayLabel
+"FUEL"  N047.54.23.882 W122.16.39.698 TaxiwayLabel
+"TERM"  N047.54.29.890 W122.16.44.877 TaxiwayLabel
+"W" N045.35.11.455 W122.34.42.878 TaxiwayLabel
+"T" N045.35.17.030 W122.35.52.078 TaxiwayLabel
+"B" N045.34.58.444 W122.35.13.366 TaxiwayLabel
+"B" N045.32.18.235 W122.56.43.752 TaxiwayLabel
+"B2" N045.32.23.959 W122.56.38.580 TaxiwayLabel
+"B1" N045.32.30.046 W122.56.31.392 TaxiwayLabel
+"AA" N045.32.19.902 W122.57.04.988 TaxiwayLabel
+"V" N045.35.22.401 W122.35.12.034 TaxiwayLabel
+"K (T)" N045.35.32.579 W122.35.44.244 TaxiwayLabel
+"K (T)" N045.35.26.322 W122.35.27.912 TaxiwayLabel
+"K" N045.35.39.607 W122.36.00.278 TaxiwayLabel
+"K1" N045.35.45.665 W122.36.01.097 16777215
+"A1" N045.34.58.930 W122.34.02.087 TaxiwayLabel
+"A2" N045.35.01.410 W122.34.08.667 TaxiwayLabel
+"A4" N045.35.19.839 W122.34.55.734 TaxiwayLabel
+"A5" N045.35.25.155 W122.35.08.922 TaxiwayLabel
+"A6" N045.35.31.611 W122.35.26.219 TaxiwayLabel
+"T (A7)" N045.35.39.181 W122.35.45.762 TaxiwayLabel
+"E" N045.35.26.910 W122.36.09.617 TaxiwayLabel
+"E" N045.35.40.850 W122.35.50.217 TaxiwayLabel
+"A" N045.35.35.119 W122.35.40.217 TaxiwayLabel
+"A" N045.35.28.944 W122.35.24.107 TaxiwayLabel
+"A3" N045.35.11.550 W122.34.34.923 TaxiwayLabel
+"A" N045.35.14.524 W122.34.47.673 TaxiwayLabel
+"T" N045.35.32.681 W122.35.53.241 TaxiwayLabel
+"T" N045.35.26.033 W122.36.04.650 TaxiwayLabel
+"T" N045.35.08.887 W122.35.33.781 TaxiwayLabel
+"M" N045.35.28.637 W122.36.05.149 TaxiwayLabel
+"M" N045.35.29.025 W122.36.21.612 TaxiwayLabel
+"D" N045.35.47.453 W122.36.26.098 TaxiwayLabel
+"E" N045.35.35.059 W122.35.58.519 TaxiwayLabel
+"E2" N045.35.31.053 W122.35.59.682 TaxiwayLabel
+"E" N045.35.15.300 W122.36.26.354 TaxiwayLabel
+"E3" N045.35.23.981 W122.36.10.791 TaxiwayLabel
+"E4" N045.35.09.542 W122.36.32.904 TaxiwayLabel
+"E" N045.35.04.261 W122.36.42.083 TaxiwayLabel
+"E5" N045.34.58.052 W122.36.48.982 TaxiwayLabel
+"E6" N045.34.54.664 W122.36.56.588 TaxiwayLabel
+"G" N045.35.12.896 W122.36.45.451 TaxiwayLabel
+"C" N045.35.22.754 W122.36.39.830 TaxiwayLabel
+"C" N045.35.27.857 W122.37.02.099 TaxiwayLabel
+"C1" N045.35.40.830 W122.37.18.431 TaxiwayLabel
+"C" N045.35.15.547 W122.36.20.454 TaxiwayLabel
+"C5" N045.35.04.819 W122.35.56.215 TaxiwayLabel
+"C6" N045.34.59.809 W122.35.34.340 TaxiwayLabel
+"C" N045.34.52.550 W122.35.21.000 TaxiwayLabel
+"C8" N045.34.48.348 W122.35.04.621 TaxiwayLabel
+"F" N045.35.11.166 W122.36.03.275 TaxiwayLabel
+"F" N045.35.10.941 W122.36.19.683 TaxiwayLabel
+"J" N045.35.05.728 W122.36.03.931 TaxiwayLabel
+"B1" N045.35.43.873 W122.37.15.734 TaxiwayLabel
+"B" N045.35.40.715 W122.36.56.243 TaxiwayLabel
+"B2" N045.35.34.923 W122.36.47.879 TaxiwayLabel
+"B" N045.35.32.032 W122.36.33.878 TaxiwayLabel
+"B" N045.35.21.841 W122.36.13.058 TaxiwayLabel
+"B3" N045.35.17.504 W122.36.07.984 TaxiwayLabel
+"B4" N045.35.16.221 W122.36.04.051 TaxiwayLabel
+"B5" N045.35.10.654 W122.35.51.100 TaxiwayLabel
+"B" N045.35.09.556 W122.35.41.739 TaxiwayLabel
+"B6" N045.35.03.052 W122.35.32.030 TaxiwayLabel
+"B8" N045.34.52.866 W122.35.01.409 TaxiwayLabel
+"Ameriflight" N045.35.06.733 W122.36.15.663 BuildingTerminalLabels
+"DHL Express" N045.34.54.664 W122.36.32.359 BuildingTerminalLabels
+"Boeing Paint Hangers" N045.34.46.663 W122.36.50.317 BuildingTerminalLabels
+"FedEx" N045.34.41.985 W122.36.39.219 BuildingTerminalLabels
+"UPS" N045.34.59.875 W122.36.30.264 BuildingTerminalLabels
+"Horizon Ops" N045.34.58.653 W122.36.17.760 BuildingTerminalLabels
+"Atlantic" N045.35.05.801 W122.34.45.593 BuildingTerminalLabels
+"Flight Craft" N045.35.09.797 W122.34.55.859 BuildingTerminalLabels
+"Boutique Air" N045.35.13.962 W122.35.04.174 BuildingTerminalLabels
+"(Old Atlantic)" N045.35.12.892 W122.35.04.595 BuildingTerminalLabels
+"USPS" N045.35.02.493 W122.35.01.825 BuildingTerminalLabels
+"Airline Cargo" N045.34.57.860 W122.34.47.868 BuildingTerminalLabels
+"PANG" N045.34.46.859 W122.35.58.679 BuildingTerminalLabels
+"Alert Barn" N045.34.40.688 W122.35.17.018 BuildingTerminalLabels
+"OR ANG" N045.34.49.152 W122.35.33.394 RampLabels
+"OR ANG West" N045.34.55.950 W122.35.50.440 RampLabels
+"Reserve" N045.34.59.526 W122.35.59.585 RampLabels
+"Central" N045.35.08.991 W122.36.21.511 RampLabels
+"South Central" N045.35.03.103 W122.36.37.079 RampLabels
+"South" N045.34.52.682 W122.36.43.314 RampLabels
+"Southwest" N045.35.19.999 W122.36.51.119 RampLabels
+"Northwest" N045.35.47.291 W122.36.23.198 RampLabels
+"North" N045.35.16.204 W122.35.03.741 RampLabels
+"GA Parking" N045.35.08.260 W122.34.43.823 RampLabels
+"Alpha" N045.35.11.448 W122.35.32.712 RampLabels
+"Bravo" N045.35.16.592 W122.35.38.673 RampLabels
+"Charlie" N045.35.21.092 W122.35.50.818 RampLabels
+"Delta" N045.35.27.345 W122.35.41.673 RampLabels
+"Echo" N045.35.23.318 W122.35.29.566 RampLabels
+"Southeast" N045.34.53.235 W122.34.51.466 RampLabels
+"B"      N047.29.10.629 W122.12.49.351 TaxiwayLabel 
+"B"      N047.29.16.013 W122.12.49.045 TaxiwayLabel 
+"B"      N047.29.26.756 W122.12.50.702 TaxiwayLabel
+"K"      N047.29.21.014 W122.12.51.110 TaxiwayLabel
+"L"      N047.29.32.391 W122.12.53.105 TaxiwayLabel
+"M"      N047.29.38.043 W122.12.53.896 TaxiwayLabel
+"N"      N047.29.44.578 W122.12.54.907 TaxiwayLabel
+"A"      N047.29.09.338 W122.12.56.079 TaxiwayLabel
+"A"      N047.29.20.482 W122.12.58.843 TaxiwayLabel
+"C"      N047.29.15.732 W122.12.56.907 TaxiwayLabel
+"D"      N047.29.23.093 W122.12.58.439 TaxiwayLabel
+"E"      N047.29.31.896 W122.12.59.719 TaxiwayLabel
+"F"      N047.29.34.636 W122.13.00.105 TaxiwayLabel
+"G"      N047.29.44.005 W122.13.01.462 TaxiwayLabel
+"H"      N047.29.54.064 W122.13.02.861 TaxiwayLabel
+"A"      N047.29.59.900 W122.13.03.693 TaxiwayLabel
+"FUEL"   N047.29.54.282 W122.13.07.931 TaxiwayLabel
+"TOWER"  N047.29.30.244 W122.13.03.516 TaxiwayLabel
+"FUEL"   N047.29.08.465 W122.13.00.342 TaxiwayLabel
+"B"     N045.32.55.240 W122.24.33.537 TaxiwayLabel   ;- 
+"B1"    N045.32.55.183 W122.24.41.503 TaxiwayLabel   ;- 
+"B2"    N045.32.55.427 W122.24.27.811 TaxiwayLabel   ;- 
+"B4"    N045.32.55.684 W122.24.05.004 TaxiwayLabel   ;- 
+"B6"    N045.32.55.859 W122.23.49.448 TaxiwayLabel   ;- 
+"B"     N045.32.55.948 W122.23.41.557 TaxiwayLabel   ;- 
+"B7"    N045.32.56.032 W122.23.36.971 TaxiwayLabel   ;- 
+"B8"    N045.32.56.107 W122.23.27.416 TaxiwayLabel   ;- 
+"A8"    N045.33.00.035 W122.23.27.491 TaxiwayLabel   ;- 
+"A7"    N045.32.59.927 W122.23.37.091 TaxiwayLabel   ;- 
+"A6"    N045.32.59.817 W122.23.49.687 TaxiwayLabel   ;- 
+"A4"    N045.32.59.584 W122.24.05.029 TaxiwayLabel   ;- 
+"A3"    N045.32.59.315 W122.24.14.099 TaxiwayLabel   ;- 
+"A2"    N045.32.59.159 W122.24.27.972 TaxiwayLabel   ;- 
+"A1"    N045.32.59.036 W122.24.41.789 TaxiwayLabel   ;- 
+"A"     N045.32.59.453 W122.24.34.053 TaxiwayLabel   ;- 
+"A"     N045.32.59.785 W122.24.08.409 TaxiwayLabel   ;- 
+"A"     N045.32.59.946 W122.23.54.099 TaxiwayLabel   ;- 
+"A"     N045.33.00.183 W122.23.33.077 TaxiwayLabel   ;- 
+"FUEL"  N045.33.08.157 W122.23.28.029 BuildingTerminalLabels   ;- 
+"PARK"  N045.33.01.940 W122.23.50.064 NonMovementAreaBoundary   ;- 
+"SRAMP" N045.32.53.573 W122.23.50.915 NonMovementAreaBoundary   ;- 
+  ;
+  ;KSEA
+"B" N047.27.39.530 W122.18.22.310 twyrwy_labels
+"B" N047.27.04.604 W122.18.22.607 twyrwy_labels
+"B" N047.26.41.064 W122.18.22.676 twyrwy_labels
+"B" N047.26.05.352 W122.18.20.407 twyrwy_labels
+"S" N047.26.10.189 W122.18.26.310 twyrwy_labels
+"Q" N047.26.17.046 W122.18.26.435 twyrwy_labels
+"Q" N047.26.16.898 W122.18.34.839 twyrwy_labels
+"Q" N047.26.20.873 W122.18.51.666 twyrwy_labels
+"Q" N047.26.30.673 W122.18.59.879 twyrwy_labels
+"R" N047.26.26.318 W122.19.01.905 twyrwy_labels
+"T" N047.26.27.010 W122.18.49.347 twyrwy_labels
+"T" N047.27.03.048 W122.18.49.207 twyrwy_labels
+"T" N047.27.43.457 W122.18.48.808 twyrwy_labels
+"T" N047.27.20.948 W122.18.49.195 twyrwy_labels
+"A" N047.27.08.881 W122.18.18.160 twyrwy_labels
+"G" N047.27.25.713 W122.18.20.181 twyrwy_labels
+"C" N047.27.49.538 W122.18.25.424 twyrwy_labels
+"C" N047.27.49.062 W122.18.34.039 twyrwy_labels
+"C" N047.27.49.211 W122.18.53.547 twyrwy_labels
+"D" N047.27.46.313 W122.18.25.405 twyrwy_labels
+"D" N047.27.46.508 W122.18.34.009 twyrwy_labels
+"E" N047.27.36.261 W122.18.25.537 twyrwy_labels
+"E" N047.27.36.319 W122.18.34.099 twyrwy_labels
+"E" N047.27.35.469 W122.18.55.991 twyrwy_labels
+"J" N047.27.17.133 W122.18.57.390 twyrwy_labels
+"J" N047.27.18.101 W122.18.38.072 twyrwy_labels
+"H" N047.27.13.509 W122.18.36.951 twyrwy_labels
+"H" N047.27.20.430 W122.18.25.678 twyrwy_labels
+"K" N047.27.08.298 W122.18.25.956 twyrwy_labels
+"K" N047.27.04.974 W122.18.34.317 twyrwy_labels
+"L" N047.27.00.411 W122.18.26.138 twyrwy_labels
+"Z" N047.27.44.595 W122.18.59.194 twyrwy_labels
+"N" N047.26.49.337 W122.18.57.390 twyrwy_labels
+"N" N047.26.41.207 W122.18.35.072 twyrwy_labels
+"M" N047.26.48.684 W122.18.34.546 twyrwy_labels
+"M" N047.26.45.244 W122.18.26.337 twyrwy_labels
+"N" N047.26.36.559 W122.18.26.830 twyrwy_labels
+"P" N047.26.39.008 W122.18.58.053 twyrwy_labels
+"P" N047.26.23.972 W122.18.35.093 twyrwy_labels
+"T" N047.26.44.310 W122.18.48.903 twyrwy_labels
+"34C" N047.26.06.862 W122.18.46.568 twyrwy_labels
+"34L" N047.26.18.630 W122.19.09.525 twyrwy_labels
+"34R" N047.25.41.362 W122.18.23.085 twyrwy_labels
+"F" N047.27.32.763 W122.18.34.143 twyrwy_labels
+"16R" N047.27.56.734 W122.19.08.764 twyrwy_labels
+"16C" N047.27.56.313 W122.18.44.726 twyrwy_labels
+"16L" N047.27.56.435 W122.18.23.406 twyrwy_labels
+"P" N047.26.20.525 W122.18.26.264 twyrwy_labels
+"A" N047.27.40.439 W122.18.17.912 twyrwy_labels
+"Transient" N047.26.19.788 W122.18.55.526 ramp_labels
+"Cargo 7" N047.26.08.382 W122.18.15.736 ramp_labels
+"Cargo 6" N047.27.06.403 W122.18.13.321 ramp_labels
+"Cargo 5" N047.27.14.523 W122.18.09.639 ramp_labels
+"Cargo 4" N047.27.23.486 W122.18.12.607 ramp_labels
+"Cargo 3" N047.27.39.280 W122.18.06.378 ramp_labels
+"Maintenance" N047.27.35.268 W122.18.12.649 ramp_labels
+"Cargo 2" N047.27.44.659 W122.18.04.484 ramp_labels
+"Cargo 1" N047.27.50.899 W122.18.14.839 ramp_labels
+"Alpha" N047.26.30.022 W122.18.01.864 ramp_labels
+"Bravo" N047.26.29.752 W122.18.13.830 ramp_labels
+"Charlie" N047.26.40.933 W122.18.14.169 ramp_labels
+"Delta" N047.26.41.240 W122.18.03.937 ramp_labels
+"TWR" N047.27.20.580 W122.18.04.073 building_labels
+"Signature" N047.26.21.360 W122.18.58.216 building_labels
+"South Sat / US Customs" N047.26.19.739 W122.18.11.354 building_labels
+"Terminal" N047.26.37.264 W122.18.08.767 building_labels
+"North Sat" N047.26.55.276 W122.18.10.919 building_labels
+"Alaska Facility" N047.26.08.950 W122.18.07.676 building_labels
+"99" N047.26.14.014 W122.18.17.446 taxilane_labels
+"88" N047.26.23.657 W122.18.16.997 taxilane_labels
+"77" N047.26.36.441 W122.18.18.109 taxilane_labels
+"66" N047.26.51.557 W122.18.17.093 taxilane_labels
+"55" N047.27.01.116 W122.18.11.671 taxilane_labels
+"W" N047.26.16.923 W122.18.19.738 taxilane_labels
+"W" N047.26.48.892 W122.18.19.740 taxilane_labels
+"W" N047.26.33.704 W122.18.19.775 taxilane_labels
+"90" N047.26.20.126 W122.18.19.778 taxilane_labels
+"44" N047.27.25.545 W122.18.14.977 taxilane_labels
+"22" N047.27.42.578 W122.18.14.856 taxilane_labels
+"50" N047.27.14.222 W122.18.15.024 taxilane_labels
+  ;
+  ;KSFF
+"A" N047.41.08.512 W117.18.57.124 twyrwy_labels
+"A" N047.41.01.852 W117.18.50.815 twyrwy_labels
+"A" N047.40.56.685 W117.18.53.917 twyrwy_labels
+"A" N047.40.48.288 W117.19.27.221 twyrwy_labels
+"A" N047.40.43.590 W117.19.51.222 twyrwy_labels
+"B" N047.40.52.047 W117.19.20.835 twyrwy_labels
+"B" N047.40.59.691 W117.19.05.738 twyrwy_labels
+"C" N047.40.51.018 W117.19.33.265 twyrwy_labels
+"C" N047.40.48.848 W117.19.30.918 twyrwy_labels
+"D" N047.40.53.325 W117.19.14.626 twyrwy_labels
+"E" N047.40.49.696 W117.19.24.707 twyrwy_labels
+"(E)" N047.40.50.036 W117.19.30.170 twyrwy_labels
+"4L" N047.40.45.724 W117.19.56.531 twyrwy_labels
+"22R" N047.41.12.292 W117.19.00.567 twyrwy_labels
+"22L" N047.41.07.973 W117.18.55.444 twyrwy_labels
+"4R" N047.40.52.123 W117.19.29.632 twyrwy_labels
+"GA Parking" N047.40.47.621 W117.19.24.540 ramp_labels
+"Parkwater Aviation" N047.40.44.455 W117.19.34.248 building_labels
+"Western Aviation" N047.40.48.076 W117.19.17.255 building_labels
+"Felts Field Aviation" N047.40.50.815 W117.19.04.850 building_labels
+"TWR" N047.40.49.985 W117.19.10.086 building_labels
+  ;
+  ;KRDM
+"F" N044.15.04.668 W121.09.37.705 twyrwy_labels
+"F" N044.15.18.590 W121.09.03.979 twyrwy_labels
+"E" N044.14.59.897 W121.09.43.540 twyrwy_labels
+"B (G)" N044.14.57.439 W121.08.33.406 twyrwy_labels
+"B (G)" N044.15.07.582 W121.08.55.884 twyrwy_labels
+"B (G)" N044.15.22.541 W121.09.29.468 twyrwy_labels
+"B4 (M)" N044.14.53.684 W121.08.20.916 twyrwy_labels
+"C4 (M)" N044.14.58.128 W121.08.17.078 twyrwy_labels
+"B3 (J)" N044.15.03.976 W121.08.43.835 twyrwy_labels
+"C3 (J)" N044.15.07.416 W121.08.40.958 twyrwy_labels
+"N" N044.15.25.974 W121.08.40.167 twyrwy_labels
+"D" N044.15.29.534 W121.09.10.641 twyrwy_labels
+"D (B)" N044.15.29.569 W121.08.46.075 twyrwy_labels
+"C2 (D)" N044.15.24.822 W121.09.17.808 twyrwy_labels
+"B2 (D)" N044.15.20.147 W121.09.21.849 twyrwy_labels
+"Z3" N044.15.23.220 W121.09.34.472 twyrwy_labels
+"Z2 (A)" N044.15.25.586 W121.09.40.612 twyrwy_labels
+"Z1" N044.15.28.580 W121.09.46.899 twyrwy_labels
+"B1" N044.15.30.006 W121.09.41.781 twyrwy_labels
+"(A)" N044.15.29.195 W121.09.40.411 twyrwy_labels
+"K" N044.15.34.881 W121.08.21.586 twyrwy_labels
+"C1 (A)" N044.15.33.268 W121.09.38.768 twyrwy_labels
+"C" N044.15.22.956 W121.09.09.457 twyrwy_labels
+"C" N044.15.12.825 W121.08.46.809 twyrwy_labels
+"C" N044.15.04.359 W121.08.28.208 twyrwy_labels
+"(B)" N044.15.31.113 W121.09.14.032 twyrwy_labels
+"11" N044.15.31.393 W121.09.45.160 twyrwy_labels
+"23" N044.15.31.038 W121.08.15.090 twyrwy_labels
+"29" N044.14.56.004 W121.08.14.509 twyrwy_labels
+"5" N044.14.55.230 W121.09.42.833 twyrwy_labels
+"F" N044.15.31.149 W121.08.33.076 twyrwy_labels
+"USFS Ramps" N044.15.31.975 W121.08.56.969 ramp_labels
+"GA North" N044.15.32.559 W121.09.26.839 ramp_labels
+"GA South" N044.15.22.728 W121.09.38.095 ramp_labels
+"Air Carrier" N044.15.07.413 W121.09.36.980 ramp_labels
+"Leading Edge Jet Center" N044.15.35.334 W121.09.22.515 building_labels
+"USFS Air Tanker Base" N044.15.36.572 W121.08.48.853 building_labels
+"Terminal" N044.15.10.760 W121.09.39.710 building_labels
+"TWR" N044.15.16.193 W121.09.32.659 building_labels
+  ;
+  ;KPSC
+"21R" N046.16.16.510 W119.06.43.047 twyrwy_labels
+"21L" N046.16.08.235 W119.06.30.747 twyrwy_labels
+"30" N046.15.29.268 W119.06.20.809 twyrwy_labels
+"12" N046.16.25.863 W119.07.41.402 twyrwy_labels
+"3L" N046.15.21.314 W119.08.04.335 twyrwy_labels
+"3R" N046.15.37.593 W119.07.23.895 twyrwy_labels
+"A" N046.15.21.608 W119.07.52.139 twyrwy_labels
+"B" N046.15.31.988 W119.07.37.160 twyrwy_labels
+"A" N046.15.32.904 W119.07.21.632 twyrwy_labels
+"C" N046.15.41.183 W119.07.22.578 twyrwy_labels
+"D" N046.16.16.116 W119.07.36.970 twyrwy_labels
+"D6" N046.16.22.710 W119.07.42.377 twyrwy_labels
+"D5 (F)" N046.16.09.917 W119.07.26.195 twyrwy_labels
+"D4" N046.15.54.415 W119.07.02.799 twyrwy_labels
+"A" N046.15.46.521 W119.06.32.883 twyrwy_labels
+"E" N046.15.53.461 W119.06.27.691 twyrwy_labels
+"E" N046.16.11.692 W119.06.39.316 twyrwy_labels
+"E3" N046.16.03.285 W119.06.29.564 twyrwy_labels
+"E2" N046.15.56.337 W119.06.27.824 twyrwy_labels
+"E1" N046.15.40.659 W119.06.19.953 twyrwy_labels
+"E" N046.15.35.112 W119.06.18.890 twyrwy_labels
+"D1" N046.15.28.893 W119.06.26.875 twyrwy_labels
+"D" N046.15.35.964 W119.06.40.696 twyrwy_labels
+"D2" N046.15.32.210 W119.06.39.070 twyrwy_labels
+"D3" N046.15.37.553 W119.06.46.711 twyrwy_labels
+"D" N046.15.53.878 W119.07.05.896 twyrwy_labels
+"GA North" N046.15.52.135 W119.06.22.218 ramp_labels
+"GA South" N046.15.39.117 W119.06.15.997 ramp_labels
+"Transient" N046.15.36.302 W119.07.04.036 ramp_labels
+"Bergstrom Aircraft (FBO)" N046.15.52.257 W119.06.18.162 building_labels
+"Terminal" N046.15.33.649 W119.06.53.774 building_labels
+"TWR" N046.15.36.441 W119.06.58.085 building_labels
+"Fire Station" N046.15.30.901 W119.07.11.511 building_labels
+"Fedex" N046.15.24.133 W119.06.37.611 building_labels
+  ;
+  ;KOTH
+"A" N043.25.10.501 W124.14.51.473 twyrwy_labels
+"A" N043.24.50.399 W124.14.35.122 twyrwy_labels
+"A" N043.24.35.680 W124.14.22.932 twyrwy_labels
+"A1" N043.25.02.985 W124.14.42.925 twyrwy_labels
+"A3" N043.24.41.837 W124.14.25.889 twyrwy_labels
+"A4" N043.24.32.872 W124.14.18.501 twyrwy_labels
+"31" N043.24.30.976 W124.14.09.879 twyrwy_labels
+"A2" N043.24.55.974 W124.14.37.217 twyrwy_labels
+"C" N043.25.13.430 W124.14.37.414 twyrwy_labels
+"C" N043.24.59.508 W124.15.11.335 twyrwy_labels
+"C1" N043.25.20.184 W124.14.27.257 twyrwy_labels
+"C2" N043.25.16.998 W124.14.35.016 twyrwy_labels
+"C3" N043.25.04.801 W124.15.05.645 twyrwy_labels
+"C4" N043.24.58.005 W124.15.21.946 twyrwy_labels
+"C5" N043.24.51.834 W124.15.37.246 twyrwy_labels
+"D" N043.25.02.817 W124.14.58.304 twyrwy_labels
+"13" N043.25.17.041 W124.14.57.907 twyrwy_labels
+"22" N043.25.27.709 W124.14.24.095 twyrwy_labels
+"4" N043.24.51.111 W124.15.51.485 twyrwy_labels
+"Boat Ramp" N043.25.17.885 W124.14.20.220 ramp_labels
+"GA Parking" N043.24.56.429 W124.14.46.621 ramp_labels
+"USCG" N043.24.38.029 W124.14.30.293 ramp_labels
+"South Hangers" N043.24.31.232 W124.14.23.179 ramp_labels
+"Coos Aviation" N043.24.51.606 W124.14.41.113 building_labels
+"USCG Air Station" N043.24.34.693 W124.14.30.560 building_labels
+"TWR" N043.25.04.721 W124.14.52.636 building_labels
+"Terminal" N043.24.58.527 W124.14.57.996 building_labels
+  ;
+  ;KMFR
+"A" N042.22.58.763 W122.52.45.125 twyrwy_labels
+"A" N042.22.40.321 W122.52.35.427 twyrwy_labels
+"A" N042.22.15.637 W122.52.22.980 twyrwy_labels
+"A" N042.21.55.909 W122.52.12.161 twyrwy_labels
+"B" N042.22.19.629 W122.52.28.111 twyrwy_labels
+"B" N042.22.24.417 W122.52.42.743 twyrwy_labels
+"B2" N042.22.22.900 W122.52.41.054 twyrwy_labels
+"B1" N042.22.23.424 W122.52.47.183 twyrwy_labels
+"B1" N042.22.27.342 W122.52.45.169 twyrwy_labels
+"C1" N042.22.34.299 W122.52.37.735 twyrwy_labels
+"C" N042.22.38.571 W122.52.38.073 twyrwy_labels
+"C" N042.22.46.247 W122.52.42.019 twyrwy_labels
+"C" N042.22.53.932 W122.52.45.558 twyrwy_labels
+"A4" N042.22.34.243 W122.52.29.334 twyrwy_labels
+"A3" N042.22.24.240 W122.52.24.193 twyrwy_labels
+"A3" N042.22.27.342 W122.52.13.308 twyrwy_labels
+"A5" N042.22.50.129 W122.52.37.548 twyrwy_labels
+"A6" N042.23.09.301 W122.52.47.643 twyrwy_labels
+"A2" N042.22.01.520 W122.52.12.331 twyrwy_labels
+"A1" N042.21.49.083 W122.52.05.753 twyrwy_labels
+"32" N042.21.46.123 W122.51.57.029 twyrwy_labels
+"14" N042.23.16.781 W122.52.44.574 twyrwy_labels
+"B3" N042.22.26.012 W122.52.31.218 twyrwy_labels
+"C3" N042.22.56.128 W122.52.45.187 twyrwy_labels
+"Transient" N042.22.17.922 W122.52.38.461 ramp_labels
+"GA Parking" N042.22.29.705 W122.52.42.043 ramp_labels
+"South Cargo" N042.21.57.156 W122.52.18.132 ramp_labels
+"Transient" N042.22.49.294 W122.52.46.645 ramp_labels
+"Terminal" N042.22.05.756 W122.52.29.170 building_labels
+"TWR" N042.22.12.510 W122.52.32.187 building_labels
+"Million Air" N042.22.13.954 W122.52.38.628 building_labels
+"Fire Station" N042.22.01.445 W122.52.21.446 building_labels
+"Fedex" N042.21.59.134 W122.52.23.301 building_labels
+"US Forest Service" N042.22.32.429 W122.52.52.775 building_labels
+"CAP" N042.22.52.533 W122.52.48.383 building_labels
+  ;
+  ;KEUG
+"A" N044.06.38.308 W123.13.01.066 twyrwy_labels
+"A" N044.06.58.694 W123.13.01.366 twyrwy_labels
+"A" N044.07.22.978 W123.13.01.839 twyrwy_labels
+"A" N044.07.50.367 W123.13.02.032 twyrwy_labels
+"A1" N044.08.07.048 W123.13.07.313 twyrwy_labels
+"A2" N044.08.04.534 W123.13.07.447 twyrwy_labels
+"A3" N044.07.48.579 W123.13.07.264 twyrwy_labels
+"A4" N044.07.32.995 W123.13.06.378 twyrwy_labels
+"A5" N044.07.15.112 W123.13.06.589 twyrwy_labels
+"A6" N044.07.13.298 W123.13.06.351 twyrwy_labels
+"A7" N044.06.48.795 W123.13.06.087 twyrwy_labels
+"D" N044.07.25.301 W123.12.59.407 twyrwy_labels
+"D" N044.07.18.677 W123.12.53.760 twyrwy_labels
+"P" N044.07.21.129 W123.12.59.534 twyrwy_labels
+"P" N044.07.28.488 W123.12.48.834 twyrwy_labels
+"C" N044.07.34.714 W123.12.48.114 twyrwy_labels
+"C" N044.07.34.904 W123.12.19.863 twyrwy_labels
+"M" N044.07.33.444 W123.12.19.808 twyrwy_labels
+"M" N044.07.33.242 W123.12.38.819 twyrwy_labels
+"K" N044.07.30.117 W123.12.38.617 twyrwy_labels
+"K" N044.07.20.144 W123.12.46.600 twyrwy_labels
+"G" N044.07.13.187 W123.12.56.282 twyrwy_labels
+"G" N044.07.05.109 W123.12.59.294 twyrwy_labels
+"F" N044.07.09.515 W123.12.59.398 twyrwy_labels
+"B" N044.07.44.640 W123.12.15.388 twyrwy_labels
+"B" N044.07.07.183 W123.12.14.983 twyrwy_labels
+"B" N044.07.26.476 W123.12.15.187 twyrwy_labels
+"B1" N044.07.58.233 W123.12.12.794 twyrwy_labels
+"B2" N044.07.35.065 W123.12.12.457 twyrwy_labels
+"B3" N044.07.18.088 W123.12.12.343 twyrwy_labels
+"B4" N044.06.59.725 W123.12.12.025 twyrwy_labels
+"L" N044.06.42.551 W123.12.58.417 twyrwy_labels
+"J" N044.06.35.506 W123.12.59.439 twyrwy_labels
+"34L" N044.06.37.629 W123.13.18.054 twyrwy_labels
+"34R" N044.06.47.594 W123.12.02.562 twyrwy_labels
+"16L" N044.08.07.012 W123.12.03.799 twyrwy_labels
+"16R" N044.08.17.083 W123.13.18.760 twyrwy_labels
+"H" N044.06.55.754 W123.13.00.081 twyrwy_labels
+"E" N044.07.15.205 W123.12.58.384 twyrwy_labels
+"GA North" N044.07.23.319 W123.12.41.578 ramp_labels
+"GA South" N044.07.01.886 W123.12.58.117 ramp_labels
+"Cargo" N044.06.38.231 W123.12.55.297 ramp_labels
+"Atlantic Aviation" N044.07.00.396 W123.12.52.462 building_labels
+"Lawrence Air Service" N044.06.40.932 W123.12.50.159 building_labels
+"LCC Aviation" N044.06.51.583 W123.12.56.933 building_labels
+"CAP - OR Wing HQ" N044.06.51.350 W123.12.47.659 building_labels
+"TWR" N044.07.03.333 W123.12.44.024 building_labels
+"Terminal" N044.07.09.055 W123.12.46.394 building_labels
+"Fire Station" N044.07.25.468 W123.12.32.669 building_labels
+"Weyerhaeuser" N044.07.40.782 W123.12.32.610 building_labels
+"Maintenance" N044.07.37.563 W123.12.46.407 building_labels
+"LCC Maintenance" N044.06.46.581 W123.12.51.481 building_labels
+"Sky Harbor Aviation" N044.07.22.889 W123.12.25.025 building_labels
+  ;
+  ;KBFI
+"A" N047.32.24.890 W122.18.30.994 twyrwy_labels
+"A" N047.32.03.485 W122.18.11.791 twyrwy_labels
+"A" N047.31.42.199 W122.17.54.387 twyrwy_labels
+"A" N047.31.19.019 W122.17.38.698 twyrwy_labels
+"A1" N047.32.27.276 W122.18.36.982 twyrwy_labels
+"A2" N047.32.15.583 W122.18.29.917 twyrwy_labels
+"B2" N047.32.13.794 W122.18.34.518 twyrwy_labels
+"A3" N047.32.06.853 W122.18.16.205 twyrwy_labels
+"A4" N047.32.02.214 W122.18.18.735 twyrwy_labels
+"B3" N047.32.01.607 W122.18.23.924 twyrwy_labels
+"A5" N047.31.58.427 W122.18.08.773 twyrwy_labels
+"A7" N047.31.49.357 W122.18.07.723 twyrwy_labels
+"B4" N047.31.47.703 W122.18.12.295 twyrwy_labels
+"A8" N047.31.44.207 W122.18.03.479 twyrwy_labels
+"A9" N047.31.37.656 W122.17.58.057 twyrwy_labels
+"A10" N047.31.22.912 W122.17.45.580 twyrwy_labels
+"A11" N047.31.09.405 W122.17.32.711 twyrwy_labels
+"B5" N047.31.36.094 W122.18.02.648 twyrwy_labels
+"B9" N047.31.07.906 W122.17.38.894 twyrwy_labels
+"B7" N047.31.21.156 W122.17.49.856 twyrwy_labels
+"B10" N047.31.00.789 W122.17.32.776 twyrwy_labels
+"Z" N047.32.28.536 W122.18.49.088 twyrwy_labels
+"B1" N047.32.24.409 W122.18.43.317 twyrwy_labels
+"B" N047.32.18.012 W122.18.40.259 twyrwy_labels
+"B" N047.31.57.972 W122.18.23.442 twyrwy_labels
+"B" N047.31.15.050 W122.17.47.548 twyrwy_labels
+"B" N047.31.41.576 W122.18.09.457 twyrwy_labels
+"B6" N047.31.27.903 W122.17.58.995 twyrwy_labels
+"32L" N047.30.59.860 W122.17.22.563 twyrwy_labels
+"32R" N047.31.41.928 W122.18.01.274 twyrwy_labels
+"14L" N047.32.18.007 W122.18.31.397 twyrwy_labels
+"14R" N047.32.34.975 W122.18.57.253 twyrwy_labels
+"Transient" N047.32.16.750 W122.18.20.063 ramp_labels
+"Modern Aviation" N047.31.39.511 W122.17.46.641 building_labels
+"Signature" N047.32.15.858 W122.18.14.828 building_labels
+"US Customs" N047.32.10.948 W122.18.13.101 building_labels
+"Museum of Flight" N047.31.05.350 W122.17.50.567 building_labels
+  ; Data in this section below this line courtesy Christopher Bennett
+"A" N046.05.07.949 W118.17.20.763 TaxiwayLabel
+"C" N046.05.42.991 W118.17.18.061 TaxiwayLabel
+"B" N046.05.43.761 W118.16.45.726 TaxiwayLabel
+"D" N046.05.25.193 W118.17.05.327 TaxiwayLabel
+"E" N046.05.14.422 W118.17.16.718 TaxiwayLabel
+"A" N046.05.05.110 W118.17.32.206 TaxiwayLabel
+  ; Data in this section below this line courtesy Christopher Bennett
+  ;KBFI
+  ;
+  ;Tower data
+"A"     N044.07.13.511 W123.13.01.460 RAMP
+"A"     N044.07.55.814 W123.13.02.562 RAMP
+"A"     N044.07.40.217 W123.13.02.076 RAMP
+"A"     N044.07.23.667 W123.13.01.958 RAMP
+"A"     N044.07.07.309 W123.13.01.460 RAMP
+"A"     N044.06.50.653 W123.13.01.424 RAMP
+"A1"    N044.08.07.172 W123.13.05.916 RAMP
+"A2"    N044.08.04.662 W123.13.05.537 RAMP
+"A3"    N044.07.47.995 W123.13.05.321 RAMP
+"A4"    N044.07.31.576 W123.13.04.618 RAMP
+"A5"    N044.07.15.190 W123.13.04.200 RAMP
+"A6"    N044.07.12.779 W123.13.04.200 RAMP
+"A7"    N044.06.59.834 W123.13.03.560 RAMP
+"A8"    N044.06.51.357 W123.13.03.453 RAMP
+"A9"    N044.06.49.136 W123.13.03.061 RAMP
+"B"     N044.07.38.833 W123.12.14.431 RAMP
+"B"     N044.07.32.315 W123.12.14.382 RAMP
+"B"     N044.07.20.410 W123.12.14.236 RAMP
+"B1"    N044.07.58.373 W123.12.12.005 RAMP
+"B2"    N044.07.35.082 W123.12.12.332 RAMP
+"B3"    N044.07.18.218 W123.12.12.308 RAMP
+"B4"    N044.06.59.943 W123.12.11.112 RAMP
+"C"     N044.07.34.827 W123.12.51.150 RAMP
+"C"     N044.07.35.212 W123.12.29.101 RAMP
+"C"     N044.07.35.063 W123.12.37.962 RAMP
+"C"     N044.07.35.008 W123.12.17.531 RAMP
+"D"     N044.07.25.403 W123.12.59.425 RAMP
+"D"     N044.07.20.506 W123.12.55.477 RAMP
+"E"     N044.07.15.406 W123.12.53.735 RAMP
+"E"     N044.07.15.244 W123.12.58.861 RAMP
+"F"     N044.07.08.636 W123.12.58.114 RAMP
+"F"     N044.07.10.017 W123.12.59.893 RAMP
+"G"     N044.07.05.223 W123.12.59.146 RAMP
+"G"     N044.07.11.777 W123.12.56.832 RAMP
+"H"     N044.06.56.096 W123.13.00.071 RAMP
+"K"     N044.07.18.517 W123.12.48.225 RAMP
+"K"     N044.07.31.905 W123.12.36.963 RAMP
+"K"     N044.07.34.166 W123.12.36.025 RAMP
+"K1"    N044.07.32.143 W123.12.39.310 RAMP
+"L"     N044.06.47.944 W123.13.01.317 RAMP
+"M"     N044.07.33.466 W123.12.38.328 RAMP
+"M"     N044.07.33.447 W123.12.29.126 RAMP
+"M"     N044.07.33.540 W123.12.17.434 RAMP
+"N"     N044.07.34.283 W123.12.22.023 RAMP
+"P"     N044.07.29.600 W123.12.47.418 RAMP
+"P"     N044.07.21.452 W123.12.59.642 RAMP
+"R"     N044.07.18.051 W123.12.16.848 RAMP
+"RAMP"  N044.07.07.661 W123.12.55.942 RAMP
+"TOWER" N044.07.03.246 W123.12.45.400 RAMP
+"16L"   N044.08.08.983 W123.12.10.051 RunwayLabel
+"34R"   N044.06.54.580 W123.12.08.585 RunwayLabel
+"34L"   N044.06.41.571 W123.13.07.515 RunwayLabel
+"16R"   N044.08.16.382 W123.13.09.469 RunwayLabel
+"16R"   N044.08.07.611 W123.13.08.936 RunwayLabel
+  ; Data in this section below this line taken from KHIO_BASEv0.99
+"FUEL" N045.32.06.875 W122.57.09.764 ramp   ;- 
+"C"     N045.32.08.673 W122.57.03.795 Taxiway   ;- 
+"B5"    N045.32.01.739 W122.57.04.742 Taxiway   ;- 
+"A"     N045.32.47.286 W122.57.27.250 Taxiway   ;- 
+"A1"    N045.32.55.726 W122.57.34.334 Taxiway   ;- 
+"A2"    N045.32.43.340 W122.57.21.862 Taxiway   ;- 
+"A3"    N045.32.27.483 W122.57.05.052 Taxiway   ;- 
+"A4"    N045.32.20.831 W122.56.58.475 Taxiway   ;- 
+"A6"    N045.32.12.102 W122.56.49.029 Taxiway   ;- 
+"A7"    N045.32.06.624 W122.56.43.522 Taxiway   ;- 
+"A8"    N045.32.04.102 W122.56.40.772 Taxiway   ;- 
+"PARK"  N045.32.01.065 W122.56.50.303 ramp   ;- 
+"B"     N045.32.18.235 W122.56.43.753 Taxiway   ;- 
+"B2"    N045.32.23.959 W122.56.38.582 Taxiway   ;- 
+"B1"    N045.32.30.046 W122.56.31.393 Taxiway   ;- 
+"AA"    N045.32.19.903 W122.57.04.990 Taxiway   ;- 
+  ; Data Below this line is from KOLM Base v1.00
+"TOWER" N046.58.26.261 W122.54.31.153 TaxiwayLabel
+"TERM"  N046.58.32.498 W122.54.33.114 TaxiwayLabel
+"FBO"   N046.58.37.246 W122.53.48.758 TaxiwayLabel
+"FBO"   N046.58.21.617 W122.53.35.028 TaxiwayLabel
+"FUEL"  N046.58.21.504 W122.53.36.526 TaxiwayLabel
+"E"     N046.58.39.855 W122.54.00.380 TaxiwayLabel
+"E"     N046.58.35.729 W122.53.55.787 TaxiwayLabel
+"E"     N046.58.24.791 W122.53.48.339 TaxiwayLabel
+"E"     N046.58.13.510 W122.53.36.826 TaxiwayLabel
+"G"     N046.58.04.824 W122.53.33.250 TaxiwayLabel
+"G"     N046.58.03.224 W122.53.41.791 TaxiwayLabel
+"G"     N046.58.03.151 W122.54.09.898 TaxiwayLabel
+"G"     N046.58.03.065 W122.54.24.029 TaxiwayLabel
+"F"     N046.57.49.099 W122.54.14.055 TaxiwayLabel
+"F"     N046.58.06.436 W122.54.00.905 TaxiwayLabel
+"F"     N046.57.55.790 W122.54.04.466 TaxiwayLabel
+"F"     N046.58.16.845 W122.53.48.679 TaxiwayLabel
+"C"     N046.58.18.692 W122.53.59.364 TaxiwayLabel
+"D"     N046.58.29.550 W122.54.00.354 TaxiwayLabel
+"B"     N046.58.40.886 W122.54.11.505 TaxiwayLabel
+"W"     N046.58.27.184 W122.54.27.532 TaxiwayLabel
+"W"     N046.58.08.871 W122.54.27.642 TaxiwayLabel
+"W"     N046.57.56.503 W122.54.27.973 TaxiwayLabel
+  ; Data Below this line is from KPAE Base v1.00
+"A"     N047.53.53.790 W122.17.00.954 TaxiwayLabel
+"A"     N047.54.11.933 W122.17.01.016 TaxiwayLabel
+"A"     N047.54.55.541 W122.17.01.802 TaxiwayLabel
+"AA"    N047.55.14.633 W122.17.07.725 TaxiwayLabel
+"A1"    N047.55.11.918 W122.17.06.086 TaxiwayLabel
+"A2"    N047.54.48.782 W122.17.05.843 TaxiwayLabel
+"A3"    N047.54.38.600 W122.17.05.424 TaxiwayLabel
+"A4"    N047.54.24.051 W122.17.04.933 TaxiwayLabel
+"A5"    N047.54.21.481 W122.17.04.649 TaxiwayLabel
+"A6"    N047.54.07.028 W122.17.04.183 TaxiwayLabel
+"A7"    N047.54.02.877 W122.17.04.661 TaxiwayLabel
+"A8"    N047.53.48.212 W122.17.03.979 TaxiwayLabel
+"A9"    N047.53.44.320 W122.17.03.901 TaxiwayLabel
+"K6"    N047.54.06.805 W122.17.16.659 TaxiwayLabel
+"K5"    N047.54.12.308 W122.17.16.810 TaxiwayLabel
+"B"     N047.54.38.537 W122.16.54.440 TaxiwayLabel
+"C"     N047.54.33.168 W122.16.58.331 TaxiwayLabel
+"D"     N047.54.31.385 W122.16.58.733 TaxiwayLabel
+"D1"    N047.54.28.775 W122.16.53.088 TaxiwayLabel
+"D"     N047.54.26.929 W122.16.52.020 TaxiwayLabel
+"C"     N047.54.26.761 W122.16.48.507 TaxiwayLabel
+"D2"    N047.54.23.394 W122.16.48.348 TaxiwayLabel
+"D3"    N047.54.20.400 W122.16.43.491 TaxiwayLabel
+"D4"    N047.54.13.276 W122.16.32.581 TaxiwayLabel
+"D"     N047.54.11.146 W122.16.27.923 TaxiwayLabel
+"G"     N047.54.14.923 W122.16.20.735 TaxiwayLabel
+"G1"    N047.54.22.447 W122.16.20.734 TaxiwayLabel
+"G2"    N047.54.18.587 W122.16.20.699 TaxiwayLabel
+"G3"    N047.54.12.795 W122.16.20.758 TaxiwayLabel
+"G4"    N047.54.04.852 W122.16.20.838 TaxiwayLabel
+"G5"    N047.53.58.429 W122.16.20.816 TaxiwayLabel
+"G6"    N047.53.56.348 W122.16.20.803 TaxiwayLabel
+"F6"    N047.53.55.107 W122.16.15.708 TaxiwayLabel
+"F4"    N047.54.04.742 W122.16.15.533 TaxiwayLabel
+"F2"    N047.54.18.566 W122.16.15.739 TaxiwayLabel
+"F1"    N047.54.22.541 W122.16.15.895 TaxiwayLabel
+"F"     N047.54.10.560 W122.16.15.047 TaxiwayLabel
+"E"     N047.54.05.383 W122.16.27.735 TaxiwayLabel
+"E"     N047.54.06.541 W122.16.45.608 TaxiwayLabel
+"H"     N047.54.09.328 W122.16.58.525 TaxiwayLabel
+"H"     N047.54.21.545 W122.16.58.742 TaxiwayLabel
+"W1"    N047.54.17.655 W122.16.47.155 TaxiwayLabel
+"WRAMP" N047.54.10.778 W122.16.53.406 TaxiwayLabel
+"SRAMP" N047.53.56.505 W122.16.53.152 TaxiwayLabel
+"ERAMP" N047.54.11.460 W122.16.11.998 TaxiwayLabel
+"CNTRL" N047.54.19.445 W122.16.36.486 TaxiwayLabel
+"RAMP"  N047.54.18.654 W122.16.36.473 TaxiwayLabel
+"TOWER" N047.54.27.815 W122.16.47.350 TaxiwayLabel
+"NRAMP" N047.54.31.386 W122.16.33.701 TaxiwayLabel
+"RAMP"  N047.54.50.004 W122.16.51.545 TaxiwayLabel
+"BOENG" N047.54.51.160 W122.16.51.569 TaxiwayLabel
+"BOENG" N047.55.21.795 W122.16.39.830 TaxiwayLabel
+"RAMP"  N047.55.20.839 W122.16.39.837 TaxiwayLabel
+"FUEL"  N047.54.23.882 W122.16.39.698 TaxiwayLabel
+"TERM"  N047.54.29.890 W122.16.44.877 TaxiwayLabel
+  ; KPDX Labels
+"W" N045.35.11.455 W122.34.42.878 TaxiwayLabel
+"T" N045.35.17.030 W122.35.52.078 TaxiwayLabel
+"B" N045.34.58.444 W122.35.13.366 TaxiwayLabel
+"B" N045.32.18.235 W122.56.43.752 TaxiwayLabel
+"B2" N045.32.23.959 W122.56.38.580 TaxiwayLabel
+"B1" N045.32.30.046 W122.56.31.392 TaxiwayLabel
+"AA" N045.32.19.902 W122.57.04.988 TaxiwayLabel
+"V" N045.35.22.401 W122.35.12.034 TaxiwayLabel
+"K (T)" N045.35.32.579 W122.35.44.244 TaxiwayLabel
+"K (T)" N045.35.26.322 W122.35.27.912 TaxiwayLabel
+"K" N045.35.39.607 W122.36.00.278 TaxiwayLabel
+"K1" N045.35.45.665 W122.36.01.097 16777215
+"A1" N045.34.58.930 W122.34.02.087 TaxiwayLabel
+"A2" N045.35.01.410 W122.34.08.667 TaxiwayLabel
+"A4" N045.35.19.839 W122.34.55.734 TaxiwayLabel
+"A5" N045.35.25.155 W122.35.08.922 TaxiwayLabel
+"A6" N045.35.31.611 W122.35.26.219 TaxiwayLabel
+"T (A7)" N045.35.39.181 W122.35.45.762 TaxiwayLabel
+"E" N045.35.26.910 W122.36.09.617 TaxiwayLabel
+"E" N045.35.40.850 W122.35.50.217 TaxiwayLabel
+"A" N045.35.35.119 W122.35.40.217 TaxiwayLabel
+"A" N045.35.28.944 W122.35.24.107 TaxiwayLabel
+"A3" N045.35.11.550 W122.34.34.923 TaxiwayLabel
+"A" N045.35.14.524 W122.34.47.673 TaxiwayLabel
+"T" N045.35.32.681 W122.35.53.241 TaxiwayLabel
+"T" N045.35.26.033 W122.36.04.650 TaxiwayLabel
+"T" N045.35.08.887 W122.35.33.781 TaxiwayLabel
+"M" N045.35.28.637 W122.36.05.149 TaxiwayLabel
+"M" N045.35.29.025 W122.36.21.612 TaxiwayLabel
+"E" N045.35.35.059 W122.35.58.519 TaxiwayLabel
+"E2" N045.35.31.053 W122.35.59.682 TaxiwayLabel
+"E" N045.35.15.300 W122.36.26.354 TaxiwayLabel
+"E3" N045.35.23.981 W122.36.10.791 TaxiwayLabel
+"E4" N045.35.09.542 W122.36.32.904 TaxiwayLabel
+"E" N045.35.04.261 W122.36.42.083 TaxiwayLabel
+"E5" N045.34.58.052 W122.36.48.982 TaxiwayLabel
+"E6" N045.34.54.664 W122.36.56.588 TaxiwayLabel
+"G" N045.35.12.896 W122.36.45.451 TaxiwayLabel
+"C" N045.35.22.754 W122.36.39.830 TaxiwayLabel
+"C" N045.35.27.857 W122.37.02.099 TaxiwayLabel
+"C1" N045.35.40.830 W122.37.18.431 TaxiwayLabel
+"C" N045.35.15.547 W122.36.20.454 TaxiwayLabel
+"C5" N045.35.04.819 W122.35.56.215 TaxiwayLabel
+"C6" N045.34.59.809 W122.35.34.340 TaxiwayLabel
+"C" N045.34.52.550 W122.35.21.000 TaxiwayLabel
+"C8" N045.34.48.348 W122.35.04.621 TaxiwayLabel
+"F" N045.35.11.166 W122.36.03.275 TaxiwayLabel
+"F" N045.35.10.941 W122.36.19.683 TaxiwayLabel
+"J" N045.35.05.728 W122.36.03.931 TaxiwayLabel
+"B1" N045.35.43.873 W122.37.15.734 TaxiwayLabel
+"B" N045.35.40.715 W122.36.56.243 TaxiwayLabel
+"B2" N045.35.34.923 W122.36.47.879 TaxiwayLabel
+"B" N045.35.32.032 W122.36.33.878 TaxiwayLabel
+"B" N045.35.21.841 W122.36.13.058 TaxiwayLabel
+"B3" N045.35.17.504 W122.36.07.984 TaxiwayLabel
+"B4" N045.35.16.221 W122.36.04.051 TaxiwayLabel
+"B5" N045.35.10.654 W122.35.51.100 TaxiwayLabel
+"B" N045.35.09.556 W122.35.41.739 TaxiwayLabel
+"B6" N045.35.03.052 W122.35.32.030 TaxiwayLabel
+"B8" N045.34.52.866 W122.35.01.409 TaxiwayLabel
+"Ameriflight" N045.35.06.733 W122.36.15.663 BuildingTerminalLabels
+"DHL Express" N045.34.54.664 W122.36.32.359 BuildingTerminalLabels
+"Boeing Paint Hangers" N045.34.46.663 W122.36.50.317 BuildingTerminalLabels
+"FedEx" N045.34.41.985 W122.36.39.219 BuildingTerminalLabels
+"UPS" N045.34.59.875 W122.36.30.264 BuildingTerminalLabels
+"Horizon Ops" N045.34.58.653 W122.36.17.760 BuildingTerminalLabels
+"Atlantic" N045.35.05.801 W122.34.45.593 BuildingTerminalLabels
+"Flight Craft" N045.35.09.797 W122.34.55.859 BuildingTerminalLabels
+"Boutique Air" N045.35.13.962 W122.35.04.174 BuildingTerminalLabels
+"(Old Atlantic)" N045.35.12.892 W122.35.04.595 BuildingTerminalLabels
+"USPS" N045.35.02.493 W122.35.01.825 BuildingTerminalLabels
+"Airline Cargo" N045.34.57.860 W122.34.47.868 BuildingTerminalLabels
+"PANG" N045.34.46.859 W122.35.58.679 BuildingTerminalLabels
+"Alert Barn" N045.34.40.688 W122.35.17.018 BuildingTerminalLabels
+"OR ANG" N045.34.49.152 W122.35.33.394 RampLabels
+"OR ANG West" N045.34.55.950 W122.35.50.440 RampLabels
+"Reserve" N045.34.59.526 W122.35.59.585 RampLabels
+"Central" N045.35.08.991 W122.36.21.511 RampLabels
+"South Central" N045.35.03.103 W122.36.37.079 RampLabels
+"South" N045.34.52.682 W122.36.43.314 RampLabels
+"Southwest" N045.35.19.999 W122.36.51.119 RampLabels
+"Northwest" N045.35.47.291 W122.36.23.198 RampLabels
+"North" N045.35.16.204 W122.35.03.741 RampLabels
+"GA Parking" N045.35.08.260 W122.34.43.823 RampLabels
+"Alpha" N045.35.11.448 W122.35.32.712 RampLabels
+"Bravo" N045.35.16.592 W122.35.38.673 RampLabels
+"Charlie" N045.35.21.092 W122.35.50.818 RampLabels
+"Delta" N045.35.27.345 W122.35.41.673 RampLabels
+"Echo" N045.35.23.318 W122.35.29.566 RampLabels
+"Southeast" N045.34.53.235 W122.34.51.466 RampLabels
+  ; Data Below this line is from KRNT Base v1.00
+"B"      N047.29.10.629 W122.12.49.351 TaxiwayLabel 
+"B"      N047.29.16.013 W122.12.49.045 TaxiwayLabel 
+"B"      N047.29.26.756 W122.12.50.702 TaxiwayLabel
+"K"      N047.29.21.014 W122.12.51.110 TaxiwayLabel
+"L"      N047.29.32.391 W122.12.53.105 TaxiwayLabel
+"M"      N047.29.38.043 W122.12.53.896 TaxiwayLabel
+"N"      N047.29.44.578 W122.12.54.907 TaxiwayLabel
+"A"      N047.29.09.338 W122.12.56.079 TaxiwayLabel
+"A"      N047.29.20.482 W122.12.58.843 TaxiwayLabel
+"C"      N047.29.15.732 W122.12.56.907 TaxiwayLabel
+"D"      N047.29.23.093 W122.12.58.439 TaxiwayLabel
+"E"      N047.29.31.896 W122.12.59.719 TaxiwayLabel
+"F"      N047.29.34.636 W122.13.00.105 TaxiwayLabel
+"G"      N047.29.44.005 W122.13.01.462 TaxiwayLabel
+"H"      N047.29.54.064 W122.13.02.861 TaxiwayLabel
+"A"      N047.29.59.900 W122.13.03.693 TaxiwayLabel
+"FUEL"   N047.29.54.282 W122.13.07.931 TaxiwayLabel
+"TOWER"  N047.29.30.244 W122.13.03.516 TaxiwayLabel
+"FUEL"   N047.29.08.465 W122.13.00.342 TaxiwayLabel
+  ;
+  ; Data in this section below this line taken from KTTD_BASEv0.99
+"B"     N045.32.55.240 W122.24.33.537 TaxiwayLabel   ;- 
+"B1"    N045.32.55.183 W122.24.41.503 TaxiwayLabel   ;- 
+"B2"    N045.32.55.427 W122.24.27.811 TaxiwayLabel   ;- 
+"B4"    N045.32.55.684 W122.24.05.004 TaxiwayLabel   ;- 
+"B6"    N045.32.55.859 W122.23.49.448 TaxiwayLabel   ;- 
+"B"     N045.32.55.948 W122.23.41.557 TaxiwayLabel   ;- 
+"B7"    N045.32.56.032 W122.23.36.971 TaxiwayLabel   ;- 
+"B8"    N045.32.56.107 W122.23.27.416 TaxiwayLabel   ;- 
+"A8"    N045.33.00.035 W122.23.27.491 TaxiwayLabel   ;- 
+"A7"    N045.32.59.927 W122.23.37.091 TaxiwayLabel   ;- 
+"A6"    N045.32.59.817 W122.23.49.687 TaxiwayLabel   ;- 
+"A4"    N045.32.59.584 W122.24.05.029 TaxiwayLabel   ;- 
+"A3"    N045.32.59.315 W122.24.14.099 TaxiwayLabel   ;- 
+"A2"    N045.32.59.159 W122.24.27.972 TaxiwayLabel   ;- 
+"A1"    N045.32.59.036 W122.24.41.789 TaxiwayLabel   ;- 
+"A"     N045.32.59.453 W122.24.34.053 TaxiwayLabel   ;- 
+"A"     N045.32.59.785 W122.24.08.409 TaxiwayLabel   ;- 
+"A"     N045.32.59.946 W122.23.54.099 TaxiwayLabel   ;- 
+"A"     N045.33.00.183 W122.23.33.077 TaxiwayLabel   ;- 
+"FUEL"  N045.33.08.157 W122.23.28.029 BuildingTerminalLabels   ;- 
+"PARK"  N045.33.01.940 W122.23.50.064 NonMovementAreaBoundary   ;- 
+"SRAMP" N045.32.53.573 W122.23.50.915 NonMovementAreaBoundary   ;- 

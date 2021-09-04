@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppxProvisionList xmlns="http://schemas.microsoft.com/appx/2013/appxprovisionpackage">
+  <EndOfLife>
+    <Package FamilyName="Microsoft.Camera_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Bing_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Alarms_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Calculate_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.InsiderHub_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.Windows.FeatureOnDemand.InsiderHub_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.SoundRecorder_8wekyb3d8bbwe"/>
+    <Package FamilyName="microsoft.windowsphotos_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.PPISkype_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.BingMaps_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Maps3DPreview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.BioEnrollment_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.ShellExperienceHost_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.ContentDeliveryManager_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Spartan_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.Spartan_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.AnswerDesk_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.AccountsControl_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.HelpAndTips_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.CloudExperienceHost_8wekyb3d8bbwe"/>
+    <Package FamilyName="microsoft.windowsdefaultlockscreen_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.AAD.BrokerPlugin_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.MicrosoftFeedback_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.WindowsFeedback_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.PPIWelcome_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.PPIProjection_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Office.OneNote_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.Music.Preview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Video.Preview_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.WelcomeScreen_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.XboxLIVEGames_8wekyb3d8bbwe"/>
+    <Package FamilyName="AssignedAccessLockApp_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.XboxIdentityProvider_cw5n1h2txyewy"/>
+    <Package FamilyName="14C78905.TrendMicroMalwareMap_y1xsffnhj35f6"/>
+    <Package FamilyName="14C78905.TrendMicroConnect_y1xsffnhj35f6"/>
+    <Package FamilyName="Windows.PurchaseDialog_cw5n1h2txyewy"/>
+    <Package FamilyName="RaraMediaGroupLtd.raramusicwithLenovo_974r2wkty6q6y"/>
+    <Package FamilyName="NeonRabbit.Laszlo_en4prcah77pjg"/>
+    <Package FamilyName="Windows.MiracastView_cw5n1h2txyewy"/>
+    <Package FamilyName="Holograms_cw5n1h2txyewy"/>
+    <Package FamilyName="HolographicViewer_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.WindowsPhone_8wekyb3d8bbwe"/>
+    <Package FamilyName="Microsoft.Windows.Cortana_cw5n1h2txyewy"/>
+    <Package FamilyName="MicrosoftWindows.UX.Client.ST_cw5n1h2txyewy"/>
+    <Package FamilyName="Microsoft.WindowsNotepad_8wekyb3d8bbwe"/>
+  </EndOfLife>
+</AppxProvisionList>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DetailedReadingTable>
+  <Character value="65">
+    <Reading value="Alfa" />
+  </Character>
+  <Character value="66">
+    <Reading value="Bravo" />
+  </Character>
+  <Character value="67">
+    <Reading value="Charlie" />
+  </Character>
+  <Character value="68">
+    <Reading value="Delta" />
+  </Character>
+  <Character value="69">
+    <Reading value="Echo" />
+  </Character>
+  <Character value="70">
+    <Reading value="Foxtrot" />
+  </Character>
+  <Character value="71">
+    <Reading value="Golf" />
+  </Character>
+  <Character value="72">
+    <Reading value="Hotel" />
+  </Character>
+  <Character value="73">
+    <Reading value="India" />
+  </Character>
+  <Character value="74">
+    <Reading value="Juliett" />
+  </Character>
+  <Character value="75">
+    <Reading value="Kilo" />
+  </Character>
+  <Character value="76">
+    <Reading value="Lima" />
+  </Character>
+  <Character value="77">
+    <Reading value="Mike" />
+  </Character>
+  <Character value="78">
+    <Reading value="November" />
+  </Character>
+  <Character value="79">
+    <Reading value="Oscar" />
+  </Character>
+  <Character value="80">
+    <Reading value="Papa" />
+  </Character>
+  <Character value="81">
+    <Reading value="Quebec" />
+  </Character>
+  <Character value="82">
+    <Reading value="Romeo" />
+  </Character>
+  <Character value="83">
+    <Reading value="Sierra" />
+  </Character>
+  <Character value="84">
+    <Reading value="Tango" />
+  </Character>
+  <Character value="85">
+    <Reading value="Uniform" />
+  </Character>
+  <Character value="86">
+    <Reading value="Victor" />
+  </Character>
+  <Character value="87">
+    <Reading value="Whiskey" />
+  </Character>
+  <Character value="88">
+    <Reading value="X-ray" />
+  </Character>
+  <Character value="89">
+    <Reading value="Yankee" />
+  </Character>
+  <Character value="90">
+    <Reading value="Zulu" />
+  </Character>
+  <Character value="97">
+    <Reading value="Alfa" />
+  </Character>
+  <Character value="98">
+    <Reading value="Bravo" />
+  </Character>
+  <Character value="99">
+    <Reading value="Charlie" />
+  </Character>
+  <Character value="100">
+    <Reading value="Delta" />
+  </Character>
+  <Character value="101">
+    <Reading value="Echo" />
+  </Character>
+  <Character value="102">
+    <Reading value="Foxtrot" />
+  </Character>
+  <Character value="103">
+    <Reading value="Golf" />
+  </Character>
+  <Character value="104">
+    <Reading value="Hotel" />
+  </Character>
+  <Character value="105">
+    <Reading value="India" />
+  </Character>
+  <Character value="106">
+    <Reading value="Juliett" />
+  </Character>
+  <Character value="107">
+    <Reading value="Kilo" />
+  </Character>
+  <Character value="108">
+    <Reading value="Lima" />
+  </Character>
+  <Character value="109">
+    <Reading value="Mike" />
+  </Character>
+  <Character value="110">
+    <Reading value="November" />
+  </Character>
+  <Character value="111">
+    <Reading value="Oscar" />
+  </Character>
+  <Character value="112">
+    <Reading value="Papa" />
+  </Character>
+  <Character value="113">
+    <Reading value="Quebec" />
+  </Character>
+  <Character value="114">
+    <Reading value="Romeo" />
+  </Character>
+  <Character value="115">
+    <Reading value="Sierra" />
+  </Character>
+  <Character value="116">
+    <Reading value="Tango" />
+  </Character>
+  <Character value="117">
+    <Reading value="Uniform" />
+  </Character>
+  <Character value="118">
+    <Reading value="Victor" />
+  </Character>
+  <Character value="119">
+    <Reading value="Whiskey" />
+  </Character>
+  <Character value="120">
+    <Reading value="X-ray" />
+  </Character>
+  <Character value="121">
+    <Reading value="Yankee" />
+  </Character>
+  <Character value="122">
+    <Reading value="Zulu" />
+  </Character>
+</DetailedReadingTable><?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<templateTable>
+    <control elementType="Element">
+        <fullTemplate/>
+    </control>
+    <control elementType="ElementBase">
+        <fullTemplate>Name</fullTemplate>
+    </control>
+    <control elementType="TextPatternElement">
+        <fullTemplate>Name Pause LocalizedControlType Pause Formula Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Formula</brailleTemplate>
+    </control>
+    <control elementType="TextPatternElement_RangeOnly">
+        <fullTemplate>Document</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Document</brailleTemplate>
+    </control>
+    <control elementType="TextPatternElement_Document">
+        <shortTemplate>Name Pause Editing_Text Pause</shortTemplate>
+        <fullTemplate>Name Pause Editing_Text Pause Formula Pause</fullTemplate>
+        <brailleTemplate>Editable_Braille RemoveSpace LocalizedControlType IsEnabled Name Formula</brailleTemplate>
+    </control>
+    <control elementType="TextPatternElement_ReadOnly">
+        <shortTemplate>Name</shortTemplate>
+        <fullTemplate>Name Pause Formula Pause</fullTemplate>
+        <brailleTemplate>ReadOnly_Braille RemoveSpace LocalizedControlType IsEnabled Name Formula</brailleTemplate>
+    </control>
+    <control elementType="TextPatternElement_EditableNotFocused">
+        <shortTemplate>Name Pause EditableText_Text Pause</shortTemplate>
+        <fullTemplate>Name Pause EditableText_Text Pause Formula Pause</fullTemplate>
+        <brailleTemplate>Editable_Braille RemoveSpace LocalizedControlType IsEnabled Name Formula</brailleTemplate>
+    </control>
+    <control elementType="Button">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause ToggleState Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause Value Pause ToggleState Pause ExpandCollapseState Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ToggleState ExpandCollapseState Name Value PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="Calendar">
+        <fullTemplate>Value Pause LocalizedControlType Pause</fullTemplate>
+    </control>
+    <control elementType="Checkbox">
+        <shortTemplate>Name LocalizedControlType ToggleState Pause</shortTemplate>
+        <fullTemplate>Name LocalizedControlType ToggleState Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ToggleState Name PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="Checkbox_StateChanged">
+        <fullTemplate>ToggleState Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ToggleState Name</brailleTemplate>
+    </control>
+    <control elementType="Combobox">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause Value Pause LocalizedControlType Pause ValueIsReadOnly Pause ExpandCollapseState Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType IsEnabled ExpandCollapseState Name Value PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="ComboboxEdit">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause Value Pause LocalizedControlType Pause ValueIsReadOnly Pause ExpandCollapseState Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType IsEnabled ExpandCollapseState Name Value PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="DataGrid">
+        <fullTemplate>Name Pause LocalizedControlType Pause Contains_GridColCount_GridRowCount Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Contains_GridColCount_GridRowCount</brailleTemplate>
+    </control>
+    <control elementType="DataGridColumns">
+        <fullTemplate>Name Pause LocalizedControlType Pause TableColumnNames_Contains_GridRowCount Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name TableColumnNames_Contains_GridRowCount</brailleTemplate>
+    </control>
+    <control elementType="DataGridRows">
+        <fullTemplate>Name Pause LocalizedControlType Pause Contains_GridColCount_Columns_TableRowNames Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Contains_GridColCount_Columns_TableRowNames_NoPause</brailleTemplate>
+    </control>
+    <control elementType="DataGridColumnsAndRows">
+        <fullTemplate>Name Pause LocalizedControlType Pause Columns_TableColumnNames_TableRowNames Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Columns_TableColumnNames_TableRowNames</brailleTemplate>
+    </control>
+    <control elementType="TableColumns">
+      <shortTemplate>Name Pause LocalizedControlType Pause Has_GridRowCount_And_GridColCount Pause</shortTemplate>
+      <fullTemplate>Name Pause LocalizedControlType Pause TableColumnNames Pause Has_GridRowCount_And_GridColCount Pause</fullTemplate>
+    </control>
+    <control elementType="TableRows">
+      <shortTemplate>Name Pause LocalizedControlType Pause Has_GridRowCount_And_GridColCount Pause</shortTemplate>
+      <fullTemplate>Name Pause LocalizedControlType Pause TableRowNames Pause Has_GridRowCount_And_GridColCount Pause</fullTemplate>
+    </control>
+    <control elementType="TableColumnsAndRows">
+      <shortTemplate>Name Pause LocalizedControlType Pause Has_GridRowCount_And_GridColCount Pause</shortTemplate>
+      <fullTemplate>Name Pause LocalizedControlType Pause Columns_TableColumnNames_TableRowNames Pause Has_GridRowCount_And_GridColCount Pause</fullTemplate>
+    </control>
+    <control elementType="DataItem">
+        <shortTemplate>Name Pause Value Pause Formula Pause</shortTemplate>
+        <fullTemplate>Name Pause SelectionItem_IsSelected Pause ValueIsReadOnly Pause Value Pause Formula Pause ItemStatus Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType IsEnabled SelectionItem_IsSelected Name Value Formula ItemStatus</brailleTemplate>
+    </control>
+    <control elementType="DataItem_Table">
+        <fullTemplate>Name Pause SelectionItem_IsSelected Pause ValueIsReadOnly Pause Column_TableItemColumn_Row_TableItemRow Pause Value Pause Formula Pause ItemStatus Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType IsEnabled SelectionItem_IsSelected Name Column_TableItemColumn_Row_TableItemRow_Lower Value Formula ItemStatus</brailleTemplate>
+    </control>
+    <control elementType="DataItem_Grid">
+        <fullTemplate>Name Pause SelectionItem_IsSelected Pause ValueIsReadOnly Pause GridItem_ColRow Pause LocalizedControlType Pause Value Pause Formula Pause ItemStatus Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType IsEnabled SelectionItem_IsSelected Name GridItem_ColRow Value Formula ItemStatus</brailleTemplate>
+    </control>
+    <control elementType="DataItem_SpreadsheetItem">
+        <fullTemplate>Value Pause Name Pause Formula Pause ItemStatus Pause</fullTemplate>
+        <brailleTemplate>Value Name Formula ItemStatus</brailleTemplate>
+    </control>
+    <control elementType="Edit">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause Value Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Value Formula PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="Edit_ReadOnly">
+        <shortTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause Value Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>ReadOnly_Braille RemoveSpace LocalizedControlType IsEnabled Name Value Formula PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="Group">
+        <fullTemplate>Name Pause LocalizedControlType Pause ExpandCollapseState Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ExpandCollapseState Name</brailleTemplate>
+    </control>
+    <control elementType="Header">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType Name</brailleTemplate>
+    </control>
+    <control elementType="HeaderItem">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause Formula Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause ValueIsReadOnly Pause Value Pause Formula Pause ItemStatus Pause</fullTemplate>
+        <brailleTemplate>ValueIsReadOnly RemoveSpace LocalizedControlType Name Value Formula ItemStatus</brailleTemplate>
+    </control>
+    <control elementType="Hyperlink">
+        <shortTemplate>LocalizedControlType Pause Name Pause</shortTemplate>
+        <fullTemplate>LocalizedControlType Pause Name Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="Image">
+        <fullTemplate>Name Pause LocalizedControlType Pause ItemStatus Pause Value Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name ItemStatus Value Formula PrimaryDescription Pause</brailleTemplate>
+    </control>
+    <control elementType="IPAddress">
+        <fullTemplate>IpAddress_Text Value Pause</fullTemplate>
+    </control>
+    <control elementType="IPOctet">
+        <fullTemplate>OctetPosition_Value Pause</fullTemplate>
+    </control>
+    <control elementType="List">
+        <fullTemplate>Name Pause SelectionItemSelected_Text Pause SelectionType_Contains_ItemCount Pause</fullTemplate>
+    </control>
+    <control elementType="List_NoSelection">
+        <fullTemplate>Name Pause Contains_ItemCount Pause</fullTemplate>
+    </control>
+    <control elementType="List_SuggestionState">
+        <fullTemplate>ItemCountsuggestions_Text Pause</fullTemplate>
+    </control>
+    <control elementType="ListItem">
+        <shortTemplate>Name Pause ItemType Pause Value Pause Formula Pause SelectionItem_IsSelected Pause ToggleState Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause ItemType Pause StructuralNavString Pause Value Pause Formula Pause SelectionItem_IsSelected Pause ToggleState Pause ExpandCollapseState Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected ToggleState ExpandCollapseState Name ItemType StructuralNavString Value Formula</brailleTemplate>
+    </control>
+    <control elementType="ListItem_WithSubItems">
+        <shortTemplate>Name Pause ItemType Pause ListItemSubItemNames Pause</shortTemplate>
+        <fullTemplate>Name Pause ItemType Pause ListItemSubItemNames Pause StructuralNavString Pause SelectionItem_IsSelected Pause ToggleState Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected ToggleState Name ItemType ListItemSubItemNames StructuralNavString</brailleTemplate>
+    </control>
+    <control elementType="ListItem_MogoTile">
+        <fullTemplate>Name Pause ItemType Pause ItemStatus Pause TileNotification Pause SelectionItem_IsSelected Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected Name ItemType ItemStatus TileNotification</brailleTemplate>
+    </control>
+    <control elementType="Menu">
+        <fullTemplate>Name Pause ExpandCollapseState Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ExpandCollapseState Name Value</brailleTemplate>
+    </control>
+    <control elementType="Menu_NoExpandCollapse">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="MenuBar">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="MenuItem">
+        <shortTemplate>Name Pause LocalizedControlType Pause CheckState Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause CheckState Pause ExpandCollapseState Pause StructuralNavString Pause SelectionItem_IsSelected</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected ExpandCollapseState Name CheckState StructuralNavString</brailleTemplate>
+    </control>
+    <control elementType="Pane">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="Password">
+        <shortTemplate>Name Pause Passwordfield_Text Pause</shortTemplate>
+        <fullTemplate>Name Pause Passwordfield_Text Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>Name Passwordfield_Text PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="ProgressBar_Breadcrumb">
+        <fullTemplate>LocationBar_Address Pause</fullTemplate>
+        <brailleTemplate>LocationBar_Address</brailleTemplate>
+    </control>
+    <control elementType="ProgressBar">
+        <fullTemplate>Name Pause Percent LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Percent</brailleTemplate>
+    </control>
+    <control elementType="RadioButton">
+        <shortTemplate>Name Pause LocalizedControlType Pause SelectionItem_IsSelected</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause SelectionItem_IsSelected ItemIndex_Of_ItemCount Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected Name ItemIndex_Of_ItemCount PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="RadioButton_InBigList">
+        <shortTemplate>Name Pause LocalizedControlType Pause SelectionItem_IsSelected</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause SelectionItem_IsSelected Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected Name PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="ScrollBar">
+        <fullTemplate>Name Pause LocalizedControlType_AtPercent Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name_AtPercent</brailleTemplate>
+    </control>
+    <control elementType="Separator">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+    </control>
+    <control elementType="SemanicZoom">
+        <fullTemplate>Name Pause ToggleState Pause LocalizedControlType Pause</fullTemplate>
+    </control>
+    <control elementType="SimpleEdit">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause Value Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType Name Value Formula PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="SimpleEdit_ReadOnly_NoValue">
+        <shortTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>ReadOnly_Braille RemoveSpace LocalizedControlType Name Formula PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="SimpleEdit_Edit_ReadOnly">
+        <shortTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause ReadOnly_Text Pause Value Pause Formula Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>ReadOnly_Braille RemoveSpace LocalizedControlType Name Value Formula PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="Slider_Selection">
+        <shortTemplate>Name Pause LocalizedControlType_AtSelectionItem Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType_AtSelectionItem Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name_AtSelectionItem</brailleTemplate>
+    </control>
+    <control elementType="Slider">
+        <shortTemplate>Name Pause LocalizedControlType Pause Percent Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause Percent Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Percent</brailleTemplate>
+    </control>
+    <control elementType="Spinner">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause Value Pause ValueIsReadOnly Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name Value</brailleTemplate>
+    </control>
+    <control elementType="Spinner_RangeValue">
+        <shortTemplate>Name Pause LocalizedControlType Pause RangeValue Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause RangeValue Pause Minimum_And_Maximum_RangeValue Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name RangeValue Minimum_And_Maximum_RangeValue</brailleTemplate>
+    </control>
+    <control elementType="Splitbutton">
+        <shortTemplate>Name Pause LocalizedControlType Pause Value Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause ToggleState Pause ExpandCollapseState Pause Value Pause PrimaryDescription Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ToggleState ExpandCollapseState Name Value PrimaryDescription</brailleTemplate>
+    </control>
+    <control elementType="StatusBar">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="SuperGrid">
+        <fullTemplate>ItemType Pause Name IsEnabled Pause</fullTemplate>
+    </control>
+    <control elementType="Tab">
+        <shortTemplate>Name LocalizedControlType Pause</shortTemplate>
+        <fullTemplate>Name LocalizedControlType_ContainsItemCount Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="TabItem">
+        <shortTemplate>Name LocalizedControlType Pause</shortTemplate>
+        <fullTemplate>Name LocalizedControlType Pause StructuralNavString Pause SelectionItem_IsSelected Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected Name StructuralNavString</brailleTemplate>
+    </control>
+    <control elementType="Table">
+        <fullTemplate>Name LocalizedControlType_WithGridRowCount Pause GridColCountColumns_Text Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType Name_WithGridRowCount GridColCountColumns_Text</brailleTemplate>
+    </control>
+    <control elementType="Thumb">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+    </control>
+    <control elementType="TitleBar">
+        <fullTemplate>LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled</brailleTemplate>
+    </control>
+    <control elementType="ToolBar">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="ToolTip">
+        <fullTemplate>LocalizedControlType Pause Name Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="TreeView">
+        <shortTemplate>Name Pause LocalizedControlType Pause</shortTemplate>
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="TreeViewItem">
+        <shortTemplate>Name Pause CheckState Pause ExpandCollapseState Pause</shortTemplate>
+        <fullTemplate>Name Pause StructuralNavString Pause CheckState Pause ExpandCollapseState Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled ExpandCollapseState CheckState Name StructuralNavString</brailleTemplate>
+    </control>
+    <control elementType="Window">
+        <fullTemplate>Name LocalizedControlType Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Name</brailleTemplate>
+    </control>
+    <control elementType="TaskSwitcher">
+        <fullTemplate>Name Pause StructuralNavString Pause</fullTemplate>
+    </control>
+    <control elementType="CustomControl">
+        <fullTemplate>Name Pause LocalizedControlType Pause</fullTemplate>
+    </control>
+    <control elementType="ImeCandidate">
+        <fullTemplate>Name Pause HelpText Pause</fullTemplate>
+    </control>
+    <control elementType="SoftKeyboardKey">
+        <fullTemplate>Name Pause ExpandCollapseState Pause ToggleState Pause</fullTemplate>
+    </control>
+    <control elementType="ListItem_MogoTile_Selected">
+        <fullTemplate>SelectionItem_IsSelected Pause Name Pause ItemType</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled SelectionItem_IsSelected Name ItemType</brailleTemplate>
+    </control>
+    <control elementType="ListItemFocusMonitored">
+        <fullTemplate>Name Pause ExpandCollapseState Pause SelectionItem_IsSelected</fullTemplate>
+    </control>
+    <control elementType="TableEntry">
+      <shortTemplate>Name Pause</shortTemplate>
+      <fullTemplate>Table_Text Name Pause HelpText Pause Has_GridRowCount_And_GridColCount Pause</fullTemplate>
+    </control>
+    <control elementType="TableHeaders">
+        <fullTemplate>RowHeaderDiffSub ColHeaderDiffSub</fullTemplate>
+    </control>
+    <control elementType="TableCellType">
+        <fullTemplate>TableItemCellType</fullTemplate>
+    </control>
+    <control elementType="TableCellCoordinate">
+        <fullTemplate>RowLocationDiffSub ColLocationDiffSub</fullTemplate>
+    </control>
+    <control elementType="TableMergedCell">
+        <fullTemplate>TableMergedCellText TableGridItemSpan</fullTemplate>
+    </control>
+    <control elementType="TableHeaderText">
+        <fullTemplate>Name Pause Value</fullTemplate>
+    </control>
+    <templateSnippet elementType="ElementSuffix">
+        <fullTemplate>IsEnabled Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ElementShortcutSuffix">
+        <fullTemplate>AccessKey Pause AcceleratorKey Pause</fullTemplate>
+        <brailleTemplate>Hk_Braille AccessKey AcceleratorKey</brailleTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ExpandCollapsePattern">
+        <fullTemplate>ExpandCollapseState Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="GridPattern">
+        <fullTemplate>Contains_GridColCount_GridRowCount Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="SelectionPattern">
+        <fullTemplate>SelectionType Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="DockPattern">
+        <fullTemplate>DockPosition_Text DockPosition Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="GridItemPattern">
+        <fullTemplate>GridItem_ColRow Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled GridItem_ColRow</brailleTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="RangeValuePattern">
+        <fullTemplate>CurrentValue_Text RangeValue Pause MinimumValue_Text RangeValueMin Pause MaximumValue_Text RangeValueMax Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ScrollPattern">
+        <fullTemplate>Scrollinfo_WithText Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ScrollPattern_UniDirection">
+        <fullTemplate>ScrollPercent_AndScrollType Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ScrollPattern_ScrollCommand">
+        <fullTemplate>ScrolledTo</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableItemPattern">
+        <fullTemplate>Column_TableItemColumn_Row_TableItemRow Pause</fullTemplate>
+        <brailleTemplate>LocalizedControlType IsEnabled Column_TableItemColumn_Row_TableItemRow_Lower</brailleTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TransformationPattern">
+        <fullTemplate>TransformCanMove Pause TransformCanResize Pause TransformCanRotate Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ValuePattern">
+        <fullTemplate>Value_Text Value Pause ValueIsReadOnly Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="WindowPattern">
+        <fullTemplate>Window_Text Pause WindowIsModal Pause WindowIsTopmost Pause WindowSizing Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TablePattern">
+        <fullTemplate>Contains_GridColCount_Columns_And_GridRowCount Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TablePatternColumns">
+        <fullTemplate>Columns_TableColumnNames_Contains_GridRowCount Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TablePatternRows">
+        <fullTemplate>Contains_GridColCount_Columns_Pause_RowstableRowNames Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TablePatternColumnsAndRows">
+        <fullTemplate>TableColNames_TableRowNames Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="ElementText">
+        <fullTemplate>TableReadingPrefix ElementText TableReadingSuffix</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="WindowChange">
+        <fullTemplate>WindowText ElementText</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="AdvancedInformation">
+        <fullTemplate>FormulaValue Pause FullDescription Pause DescribedBy Pause HelpText Pause ItemStatus Pause ItemType Pause SelectionItem_IsSelected Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="Invoke">
+        <fullTemplate>CanBePressed_Text Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="DragPattern">
+        <fullTemplate>Draggable</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="PrimaryHint">
+        <fullTemplate>DoubleTapTo_Text PrimaryAction Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="SecondaryHint">
+        <fullTemplate>TripleTapTo_Text SecondaryAction Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TooltipHint_Dismiss">
+        <fullTemplate>Dismiss_Text</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="EditDocument_NotFocused_Hint">
+        <fullTemplate>DoubleTapToEdit_Text Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNav_Full">
+        <fullTemplate>PositionInSet_SizeOfSet Pause Level</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNav_PosSize">
+        <fullTemplate>PositionInSet_SizeOfSet</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNav_PosLevel">
+        <fullTemplate>Item_PositioninSet_OfLevel</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNav_Level">
+        <fullTemplate>AtLevel</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNav_Pos">
+        <fullTemplate>ItemPositionInSet_Text</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="Landmark_Suffix">
+        <fullTemplate>Landmark Pause</fullTemplate>
+        <brailleTemplate>Landmark_Braille LandmarkType</brailleTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="HeadingSuffix">
+        <fullTemplate>HeadingLevel Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="StructuralNavSuffix">
+        <fullTemplate>StructuralNavString Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="HasPopupSuffix">
+        <fullTemplate>HasPopup Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="FormProperties">
+        <fullTemplate>IsRequired Pause IsInvalid Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TabReadPosSize">
+        <fullTemplate>Tab_Text PositionInSet_SizeOfSet</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableExit">
+        <fullTemplate>TableExit_Text Pause</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableRowHeaderDiff">
+        <fullTemplate>Pause TableRowHeader</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableRowColDiff">
+        <fullTemplate>Pause TableColumnHeader</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableRowLocationDiff">
+        <fullTemplate>Pause GridItemRow_OfCount</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableColLocationDiff">
+        <fullTemplate>Pause GridItemCol_OfCount</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableRowHeaderLevel">
+        <fullTemplate>Pause TableItem_RowHeader_LevelDepth</fullTemplate>
+    </templateSnippet>
+    <templateSnippet elementType="TableColHeaderLevel">
+        <fullTemplate>Pause TableItem_ColHeader_LevelDepth</fullTemplate>
+    </templateSnippet>
+</templateTable>
+<ViewerConfig>
+<QueryConfig>
+<QueryParams>
+<Simple>
+<Source>Microsoft-Windows-Diagnostics-Networking</Source>
+<Channel>System</Channel>
+<RelativeTimeInfo>0</RelativeTimeInfo>
+<EventId>6100</EventId>
+</Simple></QueryParams>
+<QueryNode>
+<Name ResourceId="%windir%\system32\ndfapi.dll, -40124">Network Diagnostics Events</Name>
+<QueryList>
+<Query Id="0" Path="System"><Select Path="System">*[System[Provider[@Name='Microsoft-Windows-Diagnostics-Networking'] and (EventID=6100)]]</Select></Query>
+</QueryList>
+</QueryNode>
+</QueryConfig>
+</ViewerConfig><?xml version="1.0"?>
+  <DataCollectorSet>
+    <Name>Network Diagnostics</Name>
+    <DisplayName>@%systemroot%\system32\nettrace.dll,#6908</DisplayName>
+    <Keyword>wireless</Keyword>
+    <Keyword>wired</Keyword>
+    <Keyword>nettrace</Keyword>
+    <Description>@%systemroot%\system32\nettrace.dll,#6909</Description>
+
+    <!-- RootPath and Subdirectory are overridden by netsh trace -->
+    <RootPath>%windir%\tracing</RootPath>
+    <Subdirectory></Subdirectory>
+    <SubdirectoryFormat>1</SubdirectoryFormat>
+
+    <Task>\Microsoft\Windows\NetTrace\GatherNetworkInfo</Task>
+    <TaskArguments>
+    </TaskArguments>
+    <TaskUserTextArguments>
+    </TaskUserTextArguments>
+    <TaskSetWorkingDirectory>-1</TaskSetWorkingDirectory>
+    <TaskRunAsSelf>-1</TaskRunAsSelf>
+    <UserAccount>System</UserAccount>
+    <Security>D:(A;;FA;;;SY)(A;;FA;;;BA)(A;;FA;;;S-1-5-21-1411029045-1427091228-2459915340-500)(A;;FR;;;LU)</Security>
+
+    <SegmentMaxSize>10</SegmentMaxSize>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>SSOInfo</Name>
+      <FileName>config\SSOInfo</FileName>
+      <FileNameFormat>0</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>UpgradeMigrationInfo</Name>
+      <FileName>config\upgMigInfo</FileName>
+      <FileNameFormat>0</FileNameFormat>
+      <FileNameFormatPattern/>
+      <LogOverwrite>-1</LogOverwrite>
+      <LogCircular>-1</LogCircular>
+      <LatestOutputLocation/>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <SystemStateFile/>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>GPInfo</Name>
+      <FileName>config\GPInfo</FileName>
+      <FileNameFormat>0</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <File>%windir%\Wlansvc\policies\\</File>
+      <File>%windir%\Dot3svc\policies\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>ConfigData</Name>
+      <FileName>config\ConfigData</FileName>
+      <FileNameFormat>0</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <File>%SystemDrive%\ProgramData\Microsoft\Wlansvc\\</File>
+      <File>%SystemDrive%\ProgramData\Microsoft\Dot3svc\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+        <Name>Operating System</Name>
+        <FileName>temp\Operating System</FileName>
+        <FileNameFormat>1</FileNameFormat>
+        <LogOverwrite>-1</LogOverwrite>
+        <LogCircular>-1</LogCircular>
+        <ManagementQuery>root\cimv2:SELECT Caption, Version, BuildNumber, BuildType FROM Win32_OperatingSystem</ManagementQuery>
+        <ManagementQuery>root\cimv2:SELECT Manufacturer, Model, UserName FROM Win32_ComputerSystem</ManagementQuery>
+        <ManagementQuery>root\wmi:SELECT PowerOnline FROM BatteryStatus</ManagementQuery>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <Name>System Services</Name>
+      <FileName>temp\System Services</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <LogOverwrite>-1</LogOverwrite>
+      <LogCircular>-1</LogCircular>
+      <ManagementQuery>root\cimv2:SELECT __Relpath, Name, Caption, Description, DisplayName, PathName, Started, ExitCode, State, ServiceSpecificExitCode FROM Win32_Service</ManagementQuery>
+    </ConfigurationDataCollector>
+
+    <PerformanceCounterDataCollector>
+      <Name>Performance Counter</Name>
+      <FileName>temp\Performance Counter</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <LogOverwrite>-1</LogOverwrite>
+      <LogCircular>-1</LogCircular>
+      <SampleInterval>1</SampleInterval>
+      <Counter>\Network Interface(*)\*</Counter>
+      <Counter>\UDPv4\*</Counter>
+      <Counter>\TCPv4\*</Counter>
+      <Counter>\IPv4\*</Counter>
+      <Counter>\UDPV6\*</Counter>
+      <Counter>\TCPv6\*</Counter>
+      <Counter>\IPv6\*</Counter>
+    </PerformanceCounterDataCollector>
+
+
+    <ConfigurationDataCollector>
+      <Name>NetworkAdapters</Name>
+      <FileName>temp\NetworkAdapters</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <LogOverwrite>-1</LogOverwrite>
+      <LogCircular>-1</LogCircular>
+      <QueryNetworkAdapters>-1</QueryNetworkAdapters>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WirelessFileVersions</Name>
+      <FileName>temp\fileversions.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'onex'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'l2nacp'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanapi'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlancfg'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanconn'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlandlg'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanext'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlangpui'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanhc'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanhlp'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanmm'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanmmhc'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanmsm'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanpref'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlansec'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlansvc'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlanui'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'wlgpclnt'</ManagementQuery>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WiredFileVersions</Name>
+      <FileName>temp\fileversions.wired</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'onex'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3api'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3cfg'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3dlg'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3gpclnt'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3gpui'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3msm'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3svc'</ManagementQuery>
+      <ManagementQuery>root\cimv2: SELECT Name, Version from CIM_Datafile Where Path = '\\windows\\system32\\' AND FileName = 'dot3ui'</ManagementQuery>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WirelessAdapterInfo</Name>
+      <FileName>temp\adapterInfo.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <ManagementQuery>root\wmi:SELECT * FROM MSNdis_EnumerateAdapter</ManagementQuery>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WiredAdapterInfo</Name>
+      <FileName>temp\adapterInfo.wired</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <ManagementQuery>root\wmi:SELECT * FROM MSNdis_EnumerateAdapter</ManagementQuery>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WLan Extension Processes</Name>
+      <FileName>temp\wlanextProcesses.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <ManagementQuery>root\cimv2:SELECT * FROM Win32_Process WHERE Name LIKE 'wlanext.exe%'</ManagementQuery>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WirelessGPInfo2</Name>
+      <FileName>temp\GPInfo.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <RegistryKey>HKLM\SOFTWARE\Policies\Microsoft\Windows\Wireless\GPTWirelessPolicy\\</RegistryKey>
+      <File>%windir%\Wlansvc\policies\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WiredGPInfo2</Name>
+      <FileName>temp\GPInfo.wired</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <RegistryKey>HKLM\SOFTWARE\Policies\Microsoft\Windows\WiredL2\GP_Policy\\</RegistryKey>
+      <File>%windir%\dot3svc\policies\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WirelessConfigData2</Name>
+      <FileName>temp\ConfigData.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <File>%SystemDrive%\ProgramData\Microsoft\Wlansvc\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WiredConfigData2</Name>
+      <FileName>temp\ConfigData.wired</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <File>%SystemDrive%\ProgramData\Microsoft\dot3svc\\</File>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WirelessRegAdapterInfo</Name>
+      <FileName>temp\regAdapterInfo.wireless</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+      <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <RegistryKey>HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\\</RegistryKey>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <ConfigurationDataCollector>
+      <DataCollectorType>2</DataCollectorType>
+      <Name>WiredRegAdapterInfo</Name>
+      <FileName>temp\regAdapterInfo.wired</FileName>
+      <FileNameFormat>1</FileNameFormat>
+      <FileNameFormatPattern>
+      </FileNameFormatPattern>
+      <LogAppend>0</LogAppend>
+        <LogCircular>-1</LogCircular>
+      <LogOverwrite>-1</LogOverwrite>
+      <LatestOutputLocation>
+      </LatestOutputLocation>
+      <QueryNetworkAdapters>0</QueryNetworkAdapters>
+      <RegistryKey>HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\\</RegistryKey>
+      <FileMaxCount>0</FileMaxCount>
+      <FileMaxTotalSize>0</FileMaxTotalSize>
+      <FileMaxRecursiveDepth>0</FileMaxRecursiveDepth>
+      <RegistryMaxRecursiveDepth>0</RegistryMaxRecursiveDepth>
+      <SystemStateFile>
+      </SystemStateFile>
+    </ConfigurationDataCollector>
+
+    <DataManager>
+      <Enabled>-1</Enabled>
+      <CheckBeforeRunning>-1</CheckBeforeRunning>
+      <MinFreeDisk>200</MinFreeDisk>
+      <MaxSize>1024</MaxSize>
+      <MaxFolderCount>100</MaxFolderCount>
+      <ResourcePolicy>0</ResourcePolicy>
+      <FolderAction>
+          <Size>0</Size>
+          <Age>0</Age>
+          <Actions>8</Actions>
+          <SendCabTo>
+          </SendCabTo>
+      </FolderAction>
+      <FolderAction>
+          <Size>0</Size>
+          <Age>0</Age>
+          <Actions>1</Actions>
+          <SendCabTo>
+          </SendCabTo>
+      </FolderAction>
+
+      <ReportFileName>report.html</ReportFileName>
+
+      <ReportSchema>
+        <Report name="Network Trace" version="1" threshold="9999">
+          <Import file="%systemroot%\pla\reports\Report.System.Common.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.Configuration.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.CPU.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.Wired.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.Wireless.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.NetDiagFramework.xml"/>
+          <Import file="%systemroot%\pla\reports\Report.System.Summary.xml" />
+        </Report>
+      </ReportSchema>
+
+      <Rules>
+        <Import file="%systemroot%\pla\rules\Rules.System.Common.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Configuration.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.CPU.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Wired.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Wireless.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.NetDiagFramework.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Summary.xml" />
+        <Import file="%systemroot%\pla\rules\Rules.System.Finale.xml"/>
+      </Rules>
+    </DataManager>
+  </DataCollectorSet>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+  <Association Identifier=".3g2" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.3G2" />
+  <Association Identifier=".3gp" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.3GP" />
+  <Association Identifier=".3gp2" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.3G2" />
+  <Association Identifier=".3gpp" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.3GP" />
+  <Association Identifier=".3mf" ProgId="AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg" ApplicationName="3D Builder" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXr0rz9yckydawgnrx5df1t9s57ne60yhn;AppX4r6v2fg5b2qwg1jprp713smfp4wb02yp;AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" />
+  <Association Identifier=".aac" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".ac3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".adt" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".adts" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".amr" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".arw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".avi" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.AVI" />
+  <Association Identifier=".bmp" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;Paint.Picture" />
+  <Association Identifier=".cr2" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".crw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".dib" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;Paint.Picture" />
+  <Association Identifier=".ec3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".epub" ProgId="AppXvepbp3z66accmsd0x877zbbxjctkpr6t" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+  <Association Identifier=".erf" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".fbx" ProgId="AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" ApplicationName="Mixed Reality Viewer" ApplyOnUpgrade="true" />
+  <Association Identifier=".flac" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".gif" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;giffile" />
+  <Association Identifier=".glb" ProgId="AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" ApplicationName="Mixed Reality Viewer" ApplyOnUpgrade="true" />
+  <Association Identifier=".gltf" ProgId="AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" ApplicationName="Mixed Reality Viewer" ApplyOnUpgrade="true" />
+  <Association Identifier=".htm" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX6k1pws1pa7jjhchyzw9jce3e6hg6vn8d" />
+  <Association Identifier=".html" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX6k1pws1pa7jjhchyzw9jce3e6hg6vn8d" />
+  <Association Identifier=".inf" ProgId="inffile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXzwr976v2e060wada4gabrk1x69h2dbwy" />
+  <Association Identifier=".ini" ProgId="inifile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhk4des8gf2xat3wtyzc5q06ny78jhkqx" />
+  <Association Identifier=".jfif" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;pjpegfile" />
+  <Association Identifier=".jpe" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;jpegfile" />
+  <Association Identifier=".jpeg" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;jpegfile" />
+  <Association Identifier=".jpg" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;jpegfile" />
+  <Association Identifier=".jxr" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;wdpfile" />
+  <Association Identifier=".kdc" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".log" ProgId="txtfile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" />
+  <Association Identifier=".m2t" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.M2TS" />
+  <Association Identifier=".m2ts" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.M2TS" />
+  <Association Identifier=".m3u" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".m4a" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".m4r" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".m4v" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.MP4" />
+  <Association Identifier=".mka" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".mkv" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MKV" />
+  <Association Identifier=".mod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MPEG" />
+  <Association Identifier=".mov" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.MOV" />
+  <Association Identifier=".mrw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".MP2" ProgId="WMP11.AssocFile.MP3" ApplicationName="Windows Media Player" />
+  <Association Identifier=".mp3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".mp4" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.MP4" />
+  <Association Identifier=".mp4v" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.MP4" />
+  <Association Identifier=".mpa" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".MPE" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MPEG" />
+  <Association Identifier=".mpeg" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MPEG" />
+  <Association Identifier=".mpg" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MPEG" />
+  <Association Identifier=".mpv2" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.MPEG" />
+  <Association Identifier=".mts" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.M2TS" />
+  <Association Identifier=".nef" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".nrw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".obj" ProgId="AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" ApplicationName="Mixed Reality Viewer" ApplyOnUpgrade="true" />
+  <Association Identifier=".oga" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".ogg" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".ogm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".ogv" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".ogx" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".opus" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".orf" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".oxps" ProgId="Windows.XPSReachViewer" ApplicationName="XPS Viewer" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX86746z2101ayy2ygv3g96e4eqdf8r99j" />
+  <Association Identifier=".pdf" ProgId="AppXd4nrz8ff68srnhf9t5a8sbjyar1cr723" NewBrowserProgId="MSEdgePDF" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXk660crfh0gw7gd9swc1nws708mn7qjr1;AppX86746z2101ayy2ygv3g96e4eqdf8r99j" />
+  <Association Identifier=".pef" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".ply" ProgId="AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k" ApplicationName="Mixed Reality Viewer" ApplyOnUpgrade="true" />
+  <Association Identifier=".png" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype;pngfile" />
+  <Association Identifier=".ps1" ProgId="Microsoft.PowerShellScript.1" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXxf01pj590w7z9mxmyv3nx0a9ewj3e51g" />
+  <Association Identifier=".psd1" ProgId="Microsoft.PowerShellData.1" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXc9vj55m1n3559gcjff0scsqeket80zp7" />
+  <Association Identifier=".psm1" ProgId="Microsoft.PowerShellModule.1" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX1b0e9ytcwx0wcmvkdey0h6af04t1ta3z" />
+  <Association Identifier=".raf" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".raw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".rw2" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".rwl" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".tif" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX86746z2101ayy2ygv3g96e4eqdf8r99j;AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;TIFImage.Document" />
+  <Association Identifier=".tiff" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX86746z2101ayy2ygv3g96e4eqdf8r99j;AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;TIFImage.Document" />
+  <Association Identifier=".tod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".scp" ProgId="txtfile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" />
+  <Association Identifier=".sr2" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".srw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".stl" ProgId="AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg" ApplicationName="3D Builder" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXr0rz9yckydawgnrx5df1t9s57ne60yhn;AppX4r6v2fg5b2qwg1jprp713smfp4wb02yp;AppXmgw6pxxs62rbgfp9petmdyb4fx7rnd4k"  />
+  <Association Identifier=".svg" ProgId="AppXde74bfzw9j31bzhcvsrxsyjnhhbq66cs" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+  <Association Identifier=".TS" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.TTS" />
+  <Association Identifier=".TTS" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="WMP11.AssocFile.TTS" />
+  <Association Identifier=".txt" ProgId="txtfile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" />
+  <Association Identifier=".url" ProgId="IE.AssocFile.URL" ApplicationName="Internet Explorer" />
+  <Association Identifier=".wav" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".wdp" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" ApplicationName="Photos" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX9vdwcvrwnbettpahnt26jswq0n8hgyah;Paint.Paint;Microsoft.PhotoManager.imagetype" />
+  <Association Identifier=".webm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".website" ProgId="IE.AssocFile.WEBSITE" ApplicationName="Internet Explorer" />
+  <Association Identifier=".wm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.ASF" />
+  <Association Identifier=".wma" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".wmv" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXhjhjmgrfm2d7rd026az898dy2p1pcsyt;WMP11.AssocFile.WMV" />
+  <Association Identifier=".WPL" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier=".wsb" ProgId="Windows.Sandbox" ApplicationName="Windows Sandbox" />
+  <Association Identifier=".wtx" ProgId="txtfile" ApplicationName="Notepad" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" />
+  <Association Identifier=".xps" ProgId="Windows.XPSReachViewer" ApplicationName="XPS Viewer" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppX86746z2101ayy2ygv3g96e4eqdf8r99j" />
+  <Association Identifier=".xvid" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier=".zpl" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier="bingmaps" ProgId="AppXp9gkwccvk6fa6yyfq3tmsk8ws2nprk1p" ApplicationName="Maps" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXde453qzh223ys1wt2jpyxz3z4cn10ngt;AppXsmrmb683pb8qxt0pktr3q27hkbyjm8sb" />
+  <Association Identifier="http" ProgId="AppXq0fevzme2pys62n3e0fbqa7peapykr8v" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXehk712w0hx4w5b8k25kg808a9h84jamg" />
+  <Association Identifier="https" ProgId="AppX90nv6nhay5n6a98fnetv7tpk64pp35es" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" OverwriteIfProgIdIs="AppXz8ws88f5y0y5nyrw1b3pj7xtm779tj2t" />
+  <Association Identifier="mailto" ProgId="AppXydk58wgm44se4b399557yyyj1w7mbmvd" ApplicationName="Mail" ApplyOnUpgrade="true" />
+  <Association Identifier="mswindowsmusic" ProgId="AppXtggqqtcfspt6ks3fjzyfppwc05yxwtwy" ApplicationName="Music" ApplyOnUpgrade="true" />
+  <Association Identifier="mswindowsvideo" ProgId="AppX6w6n4f8xch1s3vzwf3af6bfe88qhxbza" ApplicationName="Movies &amp; TV" ApplyOnUpgrade="true" />
+  <Association Identifier="microsoft-edge" ProgId="AppX7rm9drdg8sk7vqndwj3sdjw11x96jc0y" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+  <Association Identifier="microsoft-edge-holographic" ProgId="AppX3xxs313wwkfjhythsb8q46xdsq8d2cvv" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+  <Association Identifier="ms-xbl-3d8b930f" ProgId="AppXdn5b0j699ka5fqvrr3pgjad0evqarm6d" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+  <Association Identifier="read" ProgId="AppXe862j7twqs4aww05211jaakwxyfjx4da" NewBrowserProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" ApplyOnUpgrade="true" />
+</DefaultAssociations>
+<?xml version="1.0" encoding="UTF-16"?><WinSAT><ProgramInfo><Name>WinSAT</Name><Version>V10.0 ENG Build-17134.1</Version><WinEIVersion>WinEI-1.60</WinEIVersion><Title>Windows System Assessment Tool</Title><ModulePath>C:\Windows\System32\WinSAT.exe</ModulePath><CmdLine><![CDATA["C:\Windows\System32\WinSAT.exe" dwm -xml results.xml]]></CmdLine><Note><![CDATA[]]></Note></ProgramInfo><SystemEnvironment><ExecDateTOD Friendly="Tuesday March 26, 2019  11:47:33am">737144:42453348</ExecDateTOD><IsOfficial>1</IsOfficial><RanOverTs>0</RanOverTs><RanOnBatteries>0</RanOnBatteries></SystemEnvironment><WinSPR><VideoEncodeScore>9.9</VideoEncodeScore><GraphicsScore>9.1</GraphicsScore><Dx9SubScore>9.9</Dx9SubScore><Dx10SubScore>9.9</Dx10SubScore><GamingScore>9.9</GamingScore><LimitsApplied><GamingScore><LimitApplied Friendly="We no longer run the D3D test. Returned scores and metrics are hardcoded sentinel values.">NoD3DTestRun</LimitApplied></GamingScore></LimitsApplied></WinSPR><Metrics><CPUMetrics><DshowEncodeTime units="s">0.00000</DshowEncodeTime></CPUMetrics><GraphicsMetrics><DWMFps units="F/s">6330.48000</DWMFps><VideoMemBandwidth units="MB/s">107487.00000</VideoMemBandwidth><DshowVideoDecodeDur units="s">0.00000</DshowVideoDecodeDur><MFVideoDecodeDur units="s">0.00000</MFVideoDecodeDur></GraphicsMetrics></Metrics><SystemConfig><OperationVersion Major="1" Minor="0" Build="0" Revision="0"/><CmdLine/><OSVersion><Major>10</Major><Minor>0</Minor><Build>17134</Build><ProductType>48</ProductType><ProductName>Windows 10 Pro</ProductName><OSName><![CDATA[Windows 10 Pro]]></OSName><BuildLab>17134.rs4_release.180410-1804</BuildLab></OSVersion><HistoryVersion>0</HistoryVersion><Platform><IsMobile>0</IsMobile><PlatformRole desc="Desktop">1</PlatformRole></Platform><System><MotherBoard><Manufacturer><![CDATA[Alienware]]></Manufacturer><Product><![CDATA[0VDT73]]></Product><Type>10</Type></MotherBoard><BIOS><Vendor><![CDATA[Alienware]]></Vendor><Version><![CDATA[1.0.18]]></Version><ReleaseDate><![CDATA[01/17/2019]]></ReleaseDate></BIOS><Machine><Manufacturer><![CDATA[Alienware]]></Manufacturer><ProductName><![CDATA[Alienware Aurora R7]]></ProductName><Version><![CDATA[1.0.18]]></Version></Machine></System><Processor><Instance id="0"><ProcessorName>Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz</ProcessorName><TSCFrequency>0</TSCFrequency><NumProcs>1</NumProcs><NumCores>6</NumCores><NumCPUs>12</NumCPUs><NumCPUsPerCore>2</NumCPUsPerCore><NumCoresPerProcessor>6</NumCoresPerProcessor><CoresAreThreaded>1</CoresAreThreaded><X64Capable>1</X64Capable><X64Running>1</X64Running><Signature><Manufacturer friendly="Intel">2</Manufacturer><Stepping>10</Stepping><Model>14</Model><Family>6</Family><ExtendedModel>9</ExtendedModel><ExtendedFamily>0</ExtendedFamily><CompactSignature>591594</CompactSignature></Signature><L1Cache><Size>32768</Size><Ways>8</Ways><LineSize>64</LineSize><SectorSize>32768</SectorSize></L1Cache><L2Cache><Size>262144</Size><Ways>4</Ways><LineSize>64</LineSize><SectorSize>262144</SectorSize></L2Cache><L3Cache><Size>12582912</Size><Ways>16</Ways><LineSize>64</LineSize><SectorSize>12582912</SectorSize></L3Cache><MMX>Yes</MMX><SSE>Yes</SSE><SSE2>Yes</SSE2><SSE3>Yes</SSE3><LogicalProcessorInfo><RelationProcessorCore><Mask>0000000000000003</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>0000000000000003</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>0000000000000003</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>0000000000000003</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationProcessorCore><Mask>000000000000000C</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>000000000000000C</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>000000000000000C</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>000000000000000C</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationProcessorCore><Mask>0000000000000030</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>0000000000000030</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>0000000000000030</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>0000000000000030</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationProcessorCore><Mask>00000000000000C0</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>00000000000000C0</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>00000000000000C0</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>00000000000000C0</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationProcessorCore><Mask>0000000000000300</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>0000000000000300</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>0000000000000300</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>0000000000000300</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationProcessorPackage><Mask>0000000000000FFF</Mask></RelationProcessorPackage><RelationProcessorCore><Mask>0000000000000C00</Mask><Flags>01</Flags></RelationProcessorCore><RelationCache><Mask>0000000000000C00</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>D-Cache</Type></RelationCache><RelationCache><Mask>0000000000000C00</Mask><Level>1</Level><Size>32768</Size><LineSize>64</LineSize><Associativity>8</Associativity><Type>I-Cache</Type></RelationCache><RelationCache><Mask>0000000000000C00</Mask><Level>2</Level><Size>262144</Size><LineSize>64</LineSize><Associativity>4</Associativity><Type>Unified</Type></RelationCache><RelationCache><Mask>0000000000000FFF</Mask><Level>3</Level><Size>12582912</Size><LineSize>64</LineSize><Associativity>16</Associativity><Type>Unified</Type></RelationCache><RelationNumaNode><Mask>0000000000000FFF</Mask><NodeNum>0</NodeNum></RelationNumaNode></LogicalProcessorInfo></Instance></Processor><Memory><TotalPhysical><Size>16GB</Size><Bytes>16981430272</Bytes></TotalPhysical><AvailablePhysical><Size>12GB</Size><Bytes>12550656000</Bytes></AvailablePhysical><DIMM><SizeInKB>8388608</SizeInKB><Manufacturer><![CDATA[00002C0F0000]]></Manufacturer><PartNumber><![CDATA[8ATF1G64AZ-2G6H1]]></PartNumber><FormFactor>9</FormFactor><MemoryType>26</MemoryType><TypeDetail>16512</TypeDetail></DIMM><DIMM><SizeInKB>8388608</SizeInKB><Manufacturer><![CDATA[00002C0F0000]]></Manufacturer><PartNumber><![CDATA[8ATF1G64AZ-2G6H1]]></PartNumber><FormFactor>9</FormFactor><MemoryType>26</MemoryType><TypeDetail>16512</TypeDetail></DIMM></Memory><Monitors><Count>1</Count><TotalMonitorPixels>2304000</TotalMonitorPixels><Monitor id="0" primary="1"><DeviceName><![CDATA[\\.\DISPLAY1]]></DeviceName><Width>1920</Width><Height>1200</Height><TotalMonitorPixels>2304000</TotalMonitorPixels></Monitor></Monitors><Graphics><AdapterDescription><![CDATA[NVIDIA GeForce GTX 1080]]></AdapterDescription><AdapterManufacturer><![CDATA[NVIDIA]]></AdapterManufacturer><DriverProvider><![CDATA[NVIDIA]]></DriverProvider><DriverVersion Friendly="25.21.14.1701">7036964612998821</DriverVersion><DriverDate Friendly="2018\11\15">737013:0</DriverDate><DedicatedVideoMemory>8471445504</DedicatedVideoMemory><DedicatedSystemMemory>0</DedicatedSystemMemory><SharedSystemMemory>8490715136</SharedSystemMemory><Suports32BitsPerPixel>1</Suports32BitsPerPixel><D3D9OrBetter>1</D3D9OrBetter><VertexShaderProfile>vs_3_0</VertexShaderProfile><PixelShaderProfile>ps_3_0</PixelShaderProfile><PixelShader2OrBetter>1</PixelShader2OrBetter><PixelShader3OrBetter>1</PixelShader3OrBetter><LDDM>1</LDDM><WHQL>0</WHQL><PNPID><![CDATA[PCI\VEN_10DE&DEV_1B80&SUBSYS_33661028&REV_A1]]></PNPID><DWMRunningOnStart>1</DWMRunningOnStart><DWMRunning>0</DWMRunning></Graphics><Disk><Disk id="\\.\PhysicalDrive0"><DiskNum>0</DiskNum><Vendor><![CDATA[]]></Vendor><Model><![CDATA[TOSHIBA DT01ACA200]]></Model><Size units="bytes">2000398934016</Size><WriteCacheEnabled>TRUE</WriteCacheEnabled></Disk><SystemDisk id="\\.\PhysicalDrive1"><DiskNum>1</DiskNum><Vendor><![CDATA[]]></Vendor><Model><![CDATA[KXG50ZNV256G NVMe TOSHIBA 256GB]]></Model><Size units="bytes">256060514304</Size><WriteCacheEnabled>TRUE</WriteCacheEnabled></SystemDisk><Disk id="\\.\PhysicalDrive2"><DiskNum>2</DiskNum><Vendor><![CDATA[SMI     ]]></Vendor><Model><![CDATA[USB DISK        ]]></Model><Size units="bytes">4027580416</Size><WriteCacheEnabled>UNKNOWN</WriteCacheEnabled></Disk><Disk id="\\.\PhysicalDrive3"><DiskNum>3</DiskNum><Vendor><![CDATA[Kingston]]></Vendor><Model><![CDATA[DataTraveler 2.0]]></Model><Size units="bytes">7756087296</Size><WriteCacheEnabled>UNKNOWN</WriteCacheEnabled></Disk></Disk><CompletionStatus description="Success">0</CompletionStatus><AssessmentRunTime><Seconds>0</Seconds><Description>00:00:00.00</Description></AssessmentRunTime></SystemConfig><DWMAssessment AssessmentName="DWM"><OperationVersion Major="1" Minor="0" Build="0" Revision="0"/><CmdLine/><DXVersion>9</DXVersion><Results><CmdLine><![CDATA[-aname DWM -time 10 -fbc 10 -disp off -normalw 1 -alphaw 2 -width 1280 -height 1024 -winwidth C(1144) -winheight C(915) -rendertotex 6 -rtdelta 3 -nolock]]></CmdLine><Valid>1</Valid><HRESULT>0</HRESULT><TierNum>0</TierNum><FPS>6330.48</FPS><TierFPS>6330.48</TierFPS><FramesRendered>63356</FramesRendered><TierFramesRendered>63356</TierFramesRendered><AverageFrameTimeMS>0.157834</AverageFrameTimeMS><TierAverageFrameTimeMS>0.157834</TierAverageFrameTimeMS><StDevFrameTimeMS>0.164158</StDevFrameTimeMS><TierStDevFrameTimeMS>0.164158</TierStDevFrameTimeMS><Duration>10.0081</Duration><TierDuration>10.0081</TierDuration><StartTime>83646855</StartTime><DevCreateStartTime>82146160</DevCreateStartTime><DevCreateEndTime>82185567</DevCreateEndTime><DevFirstPresentEndTime>0</DevFirstPresentEndTime><TierStartTime>83646855</TierStartTime><WorkingSetAtStart>0</WorkingSetAtStart><WorkingSetBeforeDevCreate>0</WorkingSetBeforeDevCreate><WorkingSetAfterDevCreate>0</WorkingSetAfterDevCreate><WorkingSetAtEnd>0</WorkingSetAtEnd><EndTime>114843971</EndTime><Frequency>3117190</Frequency><MbVideoMemPerSecond>107487</MbVideoMemPerSecond></Results><CompletionStatus description="Success">0</CompletionStatus><AssessmentRunTime><Seconds>12.265</Seconds><Description>00:00:12.27</Description></AssessmentRunTime></DWMAssessment><CompletionStatus description="Success">0</CompletionStatus><TotalRunTime><Seconds>12.63</Seconds><Description>00:00:12.63</Description></TotalRunTime></WinSAT>﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<ScavengeSpace>
+  <Edition
+      name="Microsoft-Windows-StarterEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="490"
+      />
+  <Edition
+      name="Microsoft-Windows-HomeBasicEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="500"
+      />
+  <Edition
+      name="Microsoft-Windows-HomePremiumEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="650"
+      />
+  <Edition
+      name="Microsoft-Windows-BusinessEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="470"
+      />
+  <Edition
+      name="Microsoft-Windows-EnterpriseEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="380"
+      />
+  <Edition
+      name="Microsoft-Windows-UltimateEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="530"
+      />
+  <Edition
+      name="Microsoft-Windows-HomeBasicNEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="430"
+      />
+  <Edition
+      name="Microsoft-Windows-HomePremiumNEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="550"
+      />
+  <Edition
+      name="Microsoft-Windows-BusinessNEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="420"
+      />
+  <Edition
+      name="Microsoft-Windows-EnterpriseNEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="360"
+      />
+  <Edition
+      name="Microsoft-Windows-UltimateNEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="390"
+      />
+  <Edition
+      name="Microsoft-Windows-StarterEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="620"
+      />
+  <Edition
+      name="Microsoft-Windows-HomeBasicEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1180"
+      />
+  <Edition
+      name="Microsoft-Windows-HomePremiumEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="920"
+      />
+  <Edition
+      name="Microsoft-Windows-BusinessEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="660"
+      />
+  <Edition
+      name="Microsoft-Windows-EnterpriseEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="540"
+      />
+  <Edition
+      name="Microsoft-Windows-UltimateEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="640"
+      />
+  <Edition
+      name="Microsoft-Windows-HomeBasicNEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="600"
+      />
+  <Edition
+      name="Microsoft-Windows-HomePremiumNEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="780"
+      />
+  <Edition
+      name="Microsoft-Windows-BusinessNEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="940"
+      />
+  <Edition
+      name="Microsoft-Windows-EnterpriseNEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="940"
+      />
+  <Edition
+      name="Microsoft-Windows-UltimateNEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="550"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerEnterpriseIA64Edition"
+      processorArchitecture="ia64"
+      sp="7601"
+      space="1400"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerEnterpriseEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1350"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerDatacenterEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1420"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStandardEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWebEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerStorageExpressEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1140"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageWorkgroupEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageStandardEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageEnterpriseEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerEnterpriseVEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerDatacenterVEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStandardVEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerSBSPremiumEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerSBSPrimeEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerSBSStandardEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWinSBEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWinSBVEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessManagementEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessSecurityEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessMessagingEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerHomeStandardEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerHomePremiumEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerComputeClusterEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerEnterpriseEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1350"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerDatacenterEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1420"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStandardEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWebEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerStorageExpressEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageWorkgroupEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageStandardEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStorageEnterpriseEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerEnterpriseVEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerDatacenterVEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerStandardVEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerSBSPremiumEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+ <Edition
+      name="Microsoft-Windows-ServerSBSPrimeEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerSBSStandardEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWinSBEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerWinSBVEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessManagementEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessSecurityEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerMediumBusinessMessagingEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerHomeStandardEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerHomePremiumEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-ServerComputeClusterEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="1440"
+      />
+  <Edition
+      name="Microsoft-Windows-EmbeddedEdition"
+      processorArchitecture="x86"
+      sp="7601"
+      space="160"
+      />
+  <Edition
+      name="Microsoft-Windows-EmbeddedEdition"
+      processorArchitecture="amd64"
+      sp="7601"
+      space="260"
+      />
+</ScavengeSpace>
+<?xml version='1.0'?>
+<bidi:Schema xmlns:bidi='http://schemas.microsoft.com/windows/2005/03/printing/bidi'>
+    <Property name='Printer'>
+        <Property name='DeviceInfo'>
+            <BuiltIn name='Manufacturer'     classId='DeviceInfo:Manufacturer'/>
+            <BuiltIn name='ModelName'        classId='DeviceInfo:ModelName'/>
+            <BuiltIn name='IEEE1284DeviceId' classId='DeviceInfo:IEEE1284DeviceId'/>
+            <BuiltIn name='HardwareId'       classId='DeviceInfo:HardwareId'/>
+            <BuiltIn name='CompatibleId'     classId='DeviceInfo:CompatibleId'/>
+            <Property name='NetworkingInfo'>
+                <BuiltIn name='PresentationUrl'  classId='NetworkingInfo:PresentationUrl'/>
+            </Property>
+        </Property>
+        <Property name='Configuration'>
+            <Property name='Memory'>
+                <Value name='Size' oid='1.3.6.1.2.1.25.2.2' type='BIDI_INT' drvPrinterEvent='true' refreshInterval='600'/>
+            </Property>
+            <Property name='HardDisk'>
+                <Installed name='Installed' oid='1.3.6.1.2.1.25.2.3.1.2' deviceIndex='false' drvPrinterEvent='true' refreshInterval='600'>
+                    <Lookup value='1.3.6.1.2.1.25.2.1.4'/>
+                </Installed>
+            </Property>
+            <Property name='DuplexUnit'>
+                <Installed name='Installed' oid='1.3.6.1.2.1.43.13.4.1.9' deviceIndex='true' refreshInterval='600' drvPrinterEvent='true'>
+                    <Lookup value='3'/>
+                    <Lookup value='4'/>
+                </Installed>
+            </Property>
+        </Property>
+    </Property>
+</bidi:Schema>
+
+
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+  <settings pass="specialize">
+    <component name="Microsoft-Windows-UnattendedJoin" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" processorArchitecture="amd64">
+      <Identification>
+        <UnsecureJoin>true</UnsecureJoin>        
+      </Identification>
+    </component>
+    <component name="Microsoft-Windows-Shell-Setup" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" processorArchitecture="amd64">
+    </component>
+  </settings>
+</unattend><?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0">
+  <Configuration>
+    <MaxProfilesToStart Value="64" />
+    <QueryRuntimePropertiesInterval Value="1000" />
+    <SaveRecordingKeyboardShortcut WinKey="true" CtrlKey="true" ShiftKey="false" AltKey="false" CharKey="r" VirtualKeyCode="0" />
+    <SaveWaypointsKeyboardShortcut WinKey="true" CtrlKey="true" ShiftKey="false" AltKey="true" CharKey="w" VirtualKeyCode="0" />
+    <FireEventKeyboardShortcut WinKey="true" CtrlKey="true" ShiftKey="false" AltKey="true" CharKey="x" VirtualKeyCode="0" />
+    <NGenPdbsCachePath Value="%ProgramData%\WindowsPerformanceRecorder\NGenPdbs_Cache" />
+  </Configuration>
+</WindowsPerformanceRecorder>
+<configSchema>  
+  <sectionSchema name="system.webServer/system.management.wsmanagement.config">    
+    <element name="OperationsConfiguration">      
+      <attribute name="MaxEnvelopeSizeKB" type="uint" defaultValue="500"  validationType="integerRange" validationParameter="32,4294967295" />
+      <attribute name="MaxOperationTimeoutSeconds" type="uint" defaultValue="60"  validationType="integerRange" validationParameter="1,4294967295" />
+      <attribute name="MaxEnumerateIdleTimeoutSeconds" type="uint" defaultValue="60" validationType="integerRange" validationParameter="1,4294967295"/>
+      <attribute name="MaxSubscribeIdleTimeoutSeconds" type="uint" defaultValue="60" validationType="integerRange" validationParameter="1,4294967295"/>
+      <attribute name="MaxShellIdleTimeoutMinutes" type="uint" defaultValue="15" validationType="integerRange" validationParameter="0,4294967295"/>
+      <attribute name="MaxPacketRetrievalTimeSeconds" type="uint" defaultValue="120" validationType="integerRange" validationParameter="0,4294967295"/>
+      <attribute name="QuotaRefreshIntervalSeconds" type="uint" defaultValue="60" validationType="integerRange" validationParameter="0,4294967295"/>
+      <attribute name="QuotaSystemWindowSeconds" type="uint" defaultValue="2" validationType="integerRange" validationParameter="0,4294967295"/>
+      <attribute name="QuotaSystemWindowOperations" type="uint" defaultValue="1000" validationType="integerRange" validationParameter="0,4294967295"/>
+    </element>
+    <element name="PluginModules">
+      <collection addElement="AuthorizationPlugin">
+        <attribute name="Name" type="string" isUniqueKey="true" required="true" validationType="nonEmptyString"/>
+        <attribute name="Filename" type="string" required="true" validationType="nonEmptyString"/>
+        <attribute name="SDKVersion" type="uint" required="true" />
+        <attribute name="SupportsQuota" type="bool" defaultValue="false" />
+        <attribute name="IgnoreTransportToken" type="bool" defaultValue="false" />
+      </collection>
+      <element name="OperationsPlugins">
+        <collection addElement="Plugin">
+          <attribute name="Name" type="string" isUniqueKey="true" required="true" validationType="nonEmptyString"/>
+          <attribute name="Filename" type="string"  required="true" validationType="nonEmptyString"/>
+          <attribute name="SDKVersion" type="uint" required="true" />
+          <attribute name="XmlRenderingType" type="enum"  defaultValue="text">
+            <enum name="text" value="1" />
+            <enum name="XmlReader" value="2" />
+          </attribute>
+          <attribute name="Enabled" type="bool" defaultValue="true" />
+          <element name="InitializationParameters">
+            <collection addElement="Param">
+              <attribute name="Name" type="string" isUniqueKey="true" required="true" validationType="nonEmptyString"/>
+              <attribute name="Value" type="string" required="true" validationType="nonEmptyString"/>
+            </collection>
+          </element>
+          <element name="Resources">
+            <collection addElement="Resource">
+              <attribute name="ResourceUri" type="string" isUniqueKey="true" required="true" validationType="nonEmptyString"/>
+              <attribute name="SupportsOptions" type="bool" defaultValue="false" />
+              <attribute name="ExactMatch" type="bool" defaultValue="false" />
+              <collection addElement="Security">
+                <attribute name="Uri" type="string" />
+                <attribute name="ExactMatch" type="bool" defaultValue="false" />
+                <attribute name="Sddl" type="string" required="true" />
+              </collection>
+              <collection addElement="Capability">
+                <attribute name="Type" type="enum" isUniqueKey="true" required="true">
+                  <enum name="Get" value="1"/>
+                  <enum name="Put" value="2"/>
+                  <enum name="Create" value="3"/>
+                  <enum name="Delete" value="4"/>
+                  <enum name="Invoke" value="5"/>
+                  <enum name="Enumerate" value="6"/>
+                  <enum name="Subscribe" value="7"/>
+                  <enum name="Shell" value="8"/>
+                </attribute>
+                <attribute name="SupportsFragment" type="bool" default="false"/>
+                <attribute name="SupportsFiltering" type="bool" default="false"/>
+              </collection>
+            </collection>
+          </element>
+        </collection>
+      </element>
+    </element>
+  </sectionSchema>
+</configSchema>
+<?xml version="1.0"?><CERTIFICATECHAIN><CERTIFICATE>PABYAHIATQBMACAAeABtAGwAOgBzAHAAYQBjAGUAPQAiAHAAcgBlAHMAZQByAHYAZQAiACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADIAIgA+ADwAQgBPAEQAWQAgAHQAeQBwAGUAPQAiAEwASQBDAEUATgBTAEUAIgAgAHYAZQByAHMAaQBvAG4APQAiADMALgAwACIAPgA8AEkAUwBTAFUARQBEAFQASQBNAEUAPgAyADAAMAA3AC0AMAA3AC0AMgA2AFQAMAAyADoAMAA3ADwALwBJAFMAUwBVAEUARABUAEkATQBFAD4APABEAEUAUwBDAFIASQBQAFQATwBSAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAE0AYQBuAGkAZgBlAHMAdAAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBNAFMALQBHAFUASQBEACIAPgB7ADkAMgAzADkAZAA2ADYAMQAtADEAOAA2AGUALQA0ADkAMQA4AC0AOQA1ADQAZQAtADYAYgAxADAANABkADUAMAAzAGIANwA5AH0APAAvAEkARAA+ADwALwBPAEIASgBFAEMAVAA+ADwALwBEAEUAUwBDAFIASQBQAFQATwBSAD4APABJAFMAUwBVAEUAUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBDAG8AcgBwAG8AcgBhAHQAaQBvAG4AIgA+ADwASQBEACAAdAB5AHAAZQA9ACIATQBTAC0ARwBVAEkARAAiAD4AewAxADEAMQAxADEAMQAxADEALQAxADEAMQAxAC0AMQAxADEAMQAtADEAMQAxADEALQAxADEAMQAxADEAMQAxADEAMQAxADEAMQB9ADwALwBJAEQAPgA8AE4AQQBNAEUAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEMAbwByAHAAbwByAGEAdABpAG8AbgA8AC8ATgBBAE0ARQA+ADwAQQBEAEQAUgBFAFMAUwAgAHQAeQBwAGUAPQAiAFUAUgBMACIAPgBoAHQAdABwADoALwAvAHcAdwB3AC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQA8AC8AQQBEAEQAUgBFAFMAUwA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQAwADIANAAiAD4AWgBZAEYAMwBsAEgAWgBoAEgATQBPAHIAUABGAFIAVgByAEYANAAwAE0ATwAyADcANwBYAGMAVwBXAG0AagBPAFYATABuAFMAUQA3AG0AMgAzAEwASQA4AGYANwBwAEgAawBOAFUAeQBoAFEAbwBJAEIAcgBnADUAbwAxAFEAdQBDAFUAKwBlAGsAQgBSAHYAdQBUAGwAWQA2AFUATQBYAEEAOQBhAHMAUwBSAFMAaQB0AEQAZgAzAHMAdgBYAHoAawAxAFUASABTAEwAeAB2AFoARQB0ADQANQBBAEEAZwB4ADkATAB2AGEAagB1AG0AWQA5AC8AbgBEAEoAbwBHAHoAUgBEAE4AcwB3ADYAZAB4AGYAMwBEAGEAQgB1AEwAegBGAEQAVwB2AGUAaABRAG0ATAAxAGgAUwBDAG8AWQBHAE4AdgBxAHoAQQByAFMAZABiAHcAPQA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APAAvAFAAVQBCAEwASQBDAEsARQBZAD4APAAvAEkAUwBTAFUARQBSAD4APAAhAC0ALQAgAEMAcgBlAGEAdABlAGQAIABiAHkAIABHAGUAbgBtAGEAbgBpAGYAZQBzAHQAIAB2ADIALgA1ACAAQwBvAHAAeQByAGkAZwBoAHQAIAAyADAAMAAyAC0AMgAwADAAMwAgAE0AaQBjAHIAbwBzAG8AZgB0ACAAQwBvAHIAcABvAHIAYQB0AGkAbwBuAC4AIAAgAC0ALQA+ADwATQBPAEQAVQBMAEUATABJAFMAVAA+ADwATQBPAEQAVQBMAEUAIAB0AHkAcABlAD0AIgByAGUAcQB1AGkAcgBlAGQAIgA+ADwATwBCAEoARQBDAFQAPgA8AEkARAAgAHQAeQBwAGUAPQAiAGYAaQBsAGUAbgBhAG0AZQAiAD4AeABwAHMAcgBjAGgAdgB3AC4AZQB4AGUAPAAvAEkARAA+ADwALwBPAEIASgBFAEMAVAA+ADwALwBNAE8ARABVAEwARQA+ADwATQBPAEQAVQBMAEUAIAB0AHkAcABlAD0AIgByAGUAcQB1AGkAcgBlAGQAIgA+ADwATwBCAEoARQBDAFQAPgA8AEkARAAgAHQAeQBwAGUAPQAiAGYAaQBsAGUAbgBhAG0AZQAiAD4AbQBzAGQAcgBtAC4AZABsAGwAPAAvAEkARAA+ADwALwBPAEIASgBFAEMAVAA+ADwALwBNAE8ARABVAEwARQA+ADwALwBNAE8ARABVAEwARQBMAEkAUwBUAD4APABQAE8ATABJAEMAWQBMAEkAUwBUACAAdAB5AHAAZQA9ACIAaQBuAGMAbAB1AHMAaQBvAG4AIgA+ADwAUABPAEwASQBDAFkAPgA8AFAAVQBCAEwASQBDAEsARQBZAD4APABBAEwARwBPAFIASQBUAEgATQA+AFIAUwBBADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAUABBAFIAQQBNAEUAVABFAFIAIABuAGEAbQBlAD0AIgBwAHUAYgBsAGkAYwAtAGUAeABwAG8AbgBlAG4AdAAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGkAbgB0AGUAZwBlAHIAMwAyACIAPgA2ADUANQAzADcAPAAvAFYAQQBMAFUARQA+ADwALwBQAEEAUgBBAE0ARQBUAEUAUgA+ADwAUABBAFIAQQBNAEUAVABFAFIAIABuAGEAbQBlAD0AIgBtAG8AZAB1AGwAdQBzACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAYgBhAHMAZQA2ADQAIgAgAHMAaQB6AGUAPQAiADIAMAA0ADgAIgA+AGUANQB0ADUATAByAHgAeQB6AFgAdQBJAEMAYgA5AGwAUwBLAGUAYgA4AEMATgBlAEUASABLACsAeQBmACsASABDADAAUABoAE0ARwBmAG8ATgBPAE8AMgArAGIASgBtAFEARABDAHAAWQB3AGgAawB1AEYAeAAxAFYAdQBiAG4AcQBFAGwASABMAFcAVwBZAFkAZABzAEsAQgBnAFYAWABDAHUAcABqAGYAUwBLAFQAagBBAE0AOQB2AFkAMABGAEwASAB0AEQAQgBSAFUAYgB2ADYARgBYAEoAVQAxAFEAagBtAHAAKwBlAHEAbABEAFcAaQAxAFUARAAxADcAMQBJAFMAeABLAGEAZAB0AEoAaABoADEAWAB0AEIAaQA0AEwAawBZAEYANgA5AHoAWABwAHAAVABSAG8AWAA1AE0AUwBzAEwASQBwAEgALwBKAGMAawBpAFgAYQBUADcAUgBDADgASAAyAE4AbwArAGgAMQB1AFYAdAB4AFEATwB2AGIAMgBIAGgAQgB6AEsARgB1AHMAZABzAGgAcgBCADgAYgBRAGcAUwBwAHkAMABkAFUASABFAGEAdwBEACsAUQBIADcAUABZAHoAQQBmAFkAZQBPAFgAegBKAEYAWgBaADAAaAB3AEQAegBWAFgAUgBTADkAMQBGAFUAMgBEAEMAcABtADgAcwB5AFEAbgBSADAAOABYAGEAbgBUAHgATAAyAFIAWgBNAFAAUwBtAHUAQwArAEEAeQBjAHEAMAA1AE4AVwBEAEsAVAB5AGwAMgBpAFcAeQBPAHMATgAvAGIAegBxAEcAagBhAFkAQwA0AC8AQgAwACsAaQB5ADQAYgBqAHcAZABLAGwAaQBpAHYAaQBmAFcAYgBaAEcANAAvADQANwBvAEkAMwB3AD0APQA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APAAvAFAAVQBCAEwASQBDAEsARQBZAD4APAAvAFAATwBMAEkAQwBZAD4APABQAE8ATABJAEMAWQA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMgAwADQAOAAiAD4AMwA0AFUAVABkAHkAQwB6AHkAWQBVAEcAcwB6AEEAaQBvAHcAagB3AHYATQBvADgAWABIAEkAYQBwADkAWgAvAHoAYgBEACsAbABZAEMAdQB2AHYAYgBhAEIASABlAEIARgBsADQANwB0AHUAOQBYAFYAbwBIAFMAcABnAGcASwBaAHEAVAA3AFcALwA5AFcAUABBAGMAUwBTADcAcwAzAGEAVwBDAFEAVgB3AEEAaABLAEEAbQBXAHoAQgBpAHYAVABuAFIAdABlAHEAZgA5AHIAawA2AFUAVgBPAHcANgB2ADQAQwBKAHMAMABWAFYAdgA5AE0AYgB4AGcASwBVADcANgBmADMAaAAxAEkAMwBIAFoAOQBsAEIAVgBoAGcARgBHAE8AWQBQAGUAWQBZAEsANQBIAG4AcQBaADgAVQBKAEEAZwB4AEgARgBDAGEATwAyAFMAMABtAGUAbABNAGQAeQAxAGcAbwBYAHkAQwByAEcARgBWAGIASgBxADcARAA0AFQAagBRAG8ATgBKADcASwBnADUASwBLAGsAcwBsAGoAZwArAEMAdQBkAEcAdwBTAFoAWQB0AFEAeQAvAEwARAByAFEAbQBTAFoAbwBtAHAAcABtAEwAYgAvAEUAbAB1AGkAUwBBAFEALwBlAFAAQgAzAFcASQAyAEoANgBhADgAVwB6AFoAbwBTAGYAagB4AHkARwBuAE8AdgB5ADIAbABUAEoAZABxAHoAdQBlAFcAUgBDADAAVwBzAHkAWQBJACsAaQBtADYASgBSAGYARAA0AGcAbwBwADMAKwB0ADYATgBNAGwAZgA3ADQAWAB5AFcATgBxAGEATABxAE0ARgA1ADQAbAA1ADgAbwBHADAANwB5AE8AKwBaAHcAdwBiADAAQwBxAFEAPQA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8AUABPAEwASQBDAFkAPgA8AFAATwBMAEkAQwBZAD4APABQAFUAQgBMAEkAQwBLAEUAWQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAcAB1AGIAbABpAGMALQBlAHgAcABvAG4AZQBuAHQAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBpAG4AdABlAGcAZQByADMAMgAiAD4ANgA1ADUAMwA3ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAbQBvAGQAdQBsAHUAcwAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADAAMgA0ACIAPgBaAFkARgAzAGwASABaAGgASABNAE8AcgBQAEYAUgBWAHIARgA0ADAATQBPADIANwA3AFgAYwBXAFcAbQBqAE8AVgBMAG4AUwBRADcAbQAyADMATABJADgAZgA3AHAASABrAE4AVQB5AGgAUQBvAEkAQgByAGcANQBvADEAUQB1AEMAVQArAGUAawBCAFIAdgB1AFQAbABZADYAVQBNAFgAQQA5AGEAcwBTAFIAUwBpAHQARABmADMAcwB2AFgAegBrADEAVQBIAFMATAB4AHYAWgBFAHQANAA1AEEAQQBnAHgAOQBMAHYAYQBqAHUAbQBZADkALwBuAEQASgBvAEcAegBSAEQATgBzAHcANgBkAHgAZgAzAEQAYQBCAHUATAB6AEYARABXAHYAZQBoAFEAbQBMADEAaABTAEMAbwBZAEcATgB2AHEAegBBAHIAUwBkAGIAdwA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8AUABPAEwASQBDAFkAPgA8AFAATwBMAEkAQwBZAD4APABQAFUAQgBMAEkAQwBLAEUAWQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAcAB1AGIAbABpAGMALQBlAHgAcABvAG4AZQBuAHQAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBpAG4AdABlAGcAZQByADMAMgAiAD4ANgA1ADUAMwA3ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAbQBvAGQAdQBsAHUAcwAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADUAMwA2ACIAPgBGADkAUQB5AFoATABsAEcAMgBXAG0AWQBJAGQAWQBnAHIAbQA2AHEAZAAxAFAATQBEAHAAcAB2AGEAZAAxAEcAKwA3AHAAawBUAGIAVwBYAFQAWQB2AFMAZQBvAHEAcQA2AGcAMQA5ADkAQwBUAHQAdgBpAEUAVABLAHIAQQB5AHcARQA2AHEASgBrAHUAeQBlAHoASwA3AHgASgB3AFMAbgBRACsAegB3AFQAbAAzAFkAWABpAFoARABWADYAQQB4AG4AVgBRAHgANABzAG4AMABrADkARwBPAGsAVgB2AEoAVQBYAEkATwA1AFUAawB4ADYARABXACsARAArAHkARwBmAEYAVgAwAFMAOABjAGIAcwBjAE0AUQA4AEYANABPAC8AdgBwAE8AbABPAFcAbwBLAC8ARQBlAGwAdgBMAFYAawBZAHoATQA3AGUARwBBAGQAKwBxAGwAWAAyAEYAUwBGAHIAcAArAC8AQwBUAHcAbABiAFkAbQA4AEYAbAA2AFEAVQBQACsANAB1AG4AZABIAEsARwA0AGIAYwBTADAAdwA3AFQASgBZAHoAWQBTAG8AUABIADcAbwB4AGoAVgBpAG4ARgBKAEQAdwA5AGYAZwB3AG8ARAA4AFAAbABrAEkAQgBiAFMAdwB6AFQAdABXADEAWQBnADYAcQBwADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8AUABPAEwASQBDAFkAPgA8AC8AUABPAEwASQBDAFkATABJAFMAVAA+ADwAUABPAEwASQBDAFkATABJAFMAVAAgAHQAeQBwAGUAPQAiAGUAeABjAGwAdQBzAGkAbwBuACIAPgA8AC8AUABPAEwASQBDAFkATABJAFMAVAA+ADwALwBCAE8ARABZAD4APABTAEkARwBOAEEAVABVAFIARQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQAgAFAASwBDAFMAIwAxAC0AVgAxAC4ANQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AEQASQBHAEUAUwBUAD4APABBAEwARwBPAFIASQBUAEgATQA+AFMASABBADEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APAAvAEQASQBHAEUAUwBUAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADAAMgA0ACIAPgBzAGoASQBVAHIALwBjAHAAdgBoAEQAVgBQAEUAMwBjAFIASwBGAHoAegBvAHoAZgBYAG4AcgBhAEQANwBqAEIAbgBxAFYAYgBSAGsATQBKADUAMQBWAHMAbQB6ADYAagB1AE8AbQBhAHgANgBVAFgATgAwADkANgBTAHUAYQBMAHAAKwB3AFMAOQBOAGYAeQBzAHIAQwBuAE4AUwA1AEMAWABzAFQANQB5AGsARwBXAHYATwBsADIAMgAxAFEAdgBsAHcAQQBMAFIAZAB3AHMARwBHAE4AVQBrACsAcwB3AGcAZgBGAFUALwB5AG4ALwBjAGwAaABKAGsARABWAHgAKwBkAEoATwBFAG8AcwAzAG8AUgBTAEsAUgB6AE4ARAB2AEgASgA1AGkAZQBTAGwAWgBDADcAdABRAGEAUABHAG4AagBWAEMAYgBVAGUASwB1AHMAZwA9ADwALwBWAEEATABVAEUAPgA8AC8AUwBJAEcATgBBAFQAVQBSAEUAPgA8AC8AWAByAE0ATAA+AA==</CERTIFICATE><CERTIFICATE>PABYAHIATQBMACAAeABtAGwAbgBzAD0AIgAiACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADIAIgA+ADwAQgBPAEQAWQAgAHQAeQBwAGUAPQAiAEwASQBDAEUATgBTAEUAIgAgAHYAZQByAHMAaQBvAG4APQAiADMALgAwACIAPgA8AEkAUwBTAFUARQBEAFQASQBNAEUAPgAyADAAMAA1AC0AMAA4AC0AMQA3AFQAMQA4ADoAMwA0ADwALwBJAFMAUwBVAEUARABUAEkATQBFAD4APABWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARgBSAE8ATQA+ADIAMAAwADMALQAwADIALQAwADUAVAAwADAAOgAwADAAPAAvAEYAUgBPAE0APgA8AFUATgBUAEkATAA+ADIAMAAxADcALQAwADgALQAxADQAVAAxADgAOgAzADQAPAAvAFUATgBUAEkATAA+ADwALwBWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARABFAFMAQwBSAEkAUABUAE8AUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALQBTAGkAZwBuAGkAbgBnAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAMwA4ADcAMQAxAGMAMABhAC0AZABjAGQAYQAtADQAZAA5ADkALQBhAGQAMAA2AC0AYQA5ADAAMQBmAGUANwBjAGYAZAA3ADIAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APAAvAEQARQBTAEMAUgBJAFAAVABPAFIAPgA8AEkAUwBTAFUARQBSAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAEQAUgBNAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlAC0AQQB1AHQAaABvAHIAaQB0AHkAIgA+ADwASQBEACAAdAB5AHAAZQA9ACIATQBTAC0ARwBVAEkARAAiAD4AewA2ADUAMwBhADUAMAAzAGQALQAzADUANgA3AC0ANAAyADMAZgAtAGEAMAA4ADQALQAwAGYANAA4ADEAMQAxADMANwAwAGQANwB9ADwALwBJAEQAPgA8AE4AQQBNAEUAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEQAUgBNACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAE0AYQBuAGkAZgBlAHMAdAAgAFMAaQBnAG4AaQBuAGcAIABLAGUAeQAgAEMAQQA8AC8ATgBBAE0ARQA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQAwADIANAAiAD4AZwA4AEoATgBGAGsASwA4AGgAUwBnAFIAKwBFAFYASAA3AHoAWABQAG8ATAA4ACsATABYAC8ANgB0ADQAZwBlAFoALwA5AC8ATABHAGMAeABrAEwAUgBqAGQAVABDAGkAaQBjAFQANwBoAHUAUgA4AHkAVgBtAHgAMQBUAHYAVwBBAHkAYwBXAHEAcQBIAE8AcQB0ADUAOQBnAEEARwBoADYARwBtAEoAUAB5AGgAdQBsAEsAYwBtAFoASwBCAHAANwBsAGIAZwBRADIAYgBvAFIAZQA2AEUATwBMAFEAbwBmADIAagBvAG8AdgBkAFMATwBYAEYAeABnAFgAawBEAGQAQQBBAHQATAAxAGUAOABjAEUAcQA2AGkAdABmAE4AWQA0ADEASABHADAAWgBIAGoASwBzADgAOABpAGYAUgBOAG0ASgBYAFcAcwBlAFoAWABNAE0APQA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APAAvAFAAVQBCAEwASQBDAEsARQBZAD4APAAvAEkAUwBTAFUARQBSAD4APABJAFMAUwBVAEUARABQAFIASQBOAEMASQBQAEEATABTAD4APABQAFIASQBOAEMASQBQAEEATAAgAGkAbgB0AGUAcgBuAGEAbAAtAGkAZAA9ACIAMQAiAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAE0AYQBuAGkAZgBlAHMAdAAtAFMAaQBnAG4AaQBuAGcALQBLAGUAeQAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBNAFMALQBHAFUASQBEACIAPgB7ADgAMwBkAGIAOAA5AGYANAAtADcANwAwADUALQA0ADIANwA3AC0AOQA2ADYAOAAtAGQAOAAzADgAYgAxADIAOQBjADIAMAAyAH0APAAvAEkARAA+ADwATgBBAE0ARQA+AEQAMgBfAFAAcgBvAGQAdQBjAHQAaQBvAG4AXwBDAGgAYQBpAG4AXwBQAHIAZQBzAGgAaQBwADwALwBOAEEATQBFAD4APAAvAE8AQgBKAEUAQwBUAD4APABQAFUAQgBMAEkAQwBLAEUAWQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAcAB1AGIAbABpAGMALQBlAHgAcABvAG4AZQBuAHQAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBpAG4AdABlAGcAZQByADMAMgAiAD4ANgA1ADUAMwA3ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAbQBvAGQAdQBsAHUAcwAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADAAMgA0ACIAPgBaAFkARgAzAGwASABaAGgASABNAE8AcgBQAEYAUgBWAHIARgA0ADAATQBPADIANwA3AFgAYwBXAFcAbQBqAE8AVgBMAG4AUwBRADcAbQAyADMATABJADgAZgA3AHAASABrAE4AVQB5AGgAUQBvAEkAQgByAGcANQBvADEAUQB1AEMAVQArAGUAawBCAFIAdgB1AFQAbABZADYAVQBNAFgAQQA5AGEAcwBTAFIAUwBpAHQARABmADMAcwB2AFgAegBrADEAVQBIAFMATAB4AHYAWgBFAHQANAA1AEEAQQBnAHgAOQBMAHYAYQBqAHUAbQBZADkALwBuAEQASgBvAEcAegBSAEQATgBzAHcANgBkAHgAZgAzAEQAYQBCAHUATAB6AEYARABXAHYAZQBoAFEAbQBMADEAaABTAEMAbwBZAEcATgB2AHEAegBBAHIAUwBkAGIAdwA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8AUABSAEkATgBDAEkAUABBAEwAPgA8AC8ASQBTAFMAVQBFAEQAUABSAEkATgBDAEkAUABBAEwAUwA+ADwAVwBPAFIASwA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALQBTAGkAZwBuAGkAbgBnAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAMwA4ADcAMQAxAGMAMABhAC0AZABjAGQAYQAtADQAZAA5ADkALQBhAGQAMAA2AC0AYQA5ADAAMQBmAGUANwBjAGYAZAA3ADIAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APABSAEkARwBIAFQAUwBHAFIATwBVAFAAIABuAGEAbQBlAD0AIgBNAGEAaQBuAC0AUgBpAGcAaAB0AHMAIgA+ADwAUgBJAEcASABUAFMATABJAFMAVAA+ADwAUgBJAEcASABUACAAbgBhAG0AZQA9ACIASQBTAFMAVQBFACIAPgA8AEMATwBOAEQASQBUAEkATwBOAEwASQBTAFQAPgA8AFQASQBNAEUAPgA8AFIAQQBOAEcARQBUAEkATQBFAD4APABGAFIATwBNAD4AMgAwADAAMwAtADAAMgAtADAANQBUADAAMAA6ADAAMAA8AC8ARgBSAE8ATQA+ADwAVQBOAFQASQBMAD4AMgAwADEAMgAtADAAOAAtADEANQBUADEAOAA6ADMANAA8AC8AVQBOAFQASQBMAD4APAAvAFIAQQBOAEcARQBUAEkATQBFAD4APAAvAFQASQBNAEUAPgA8AEEAQwBDAEUAUwBTAD4APABQAFIASQBOAEMASQBQAEEATAAgAGkAbgB0AGUAcgBuAGEAbAAtAGkAZAA9ACIAMQAiACAALwA+ADwALwBBAEMAQwBFAFMAUwA+ADwALwBDAE8ATgBEAEkAVABJAE8ATgBMAEkAUwBUAD4APAAvAFIASQBHAEgAVAA+ADwALwBSAEkARwBIAFQAUwBMAEkAUwBUAD4APAAvAFIASQBHAEgAVABTAEcAUgBPAFUAUAA+ADwALwBXAE8AUgBLAD4APAAvAEIATwBEAFkAPgA8AFMASQBHAE4AQQBUAFUAUgBFAD4APABEAEkARwBFAFMAVAA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBTAEgAQQAxADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAUABBAFIAQQBNAEUAVABFAFIAIABuAGEAbQBlAD0AIgBjAG8AZABpAG4AZwB0AHkAcABlACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAcwB0AHIAaQBuAGcAIgA+AHMAdQByAGYAYQBjAGUALQBjAG8AZABpAG4AZwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADYAMAAiAD4ARQBuAEkAOQBqAHEAegA4AE4AZABJAEMAdABhAFcAaQBLAGsATwBqAHMAWgAxAHYAaABaADgAPQA8AC8AVgBBAEwAVQBFAD4APAAvAEQASQBHAEUAUwBUAD4APABBAEwARwBPAFIASQBUAEgATQA+AFIAUwBBACAAUABLAEMAUwAjADEALQBWADEALgA1ADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQAwADIANAAiAD4AdQBaAEEAUgBFAGkAUQB3AGgAeAA1AGIAOABwAGcATQBXAEkANwBoAFEAMgBBAHIASwBiAFYAcwAvAE8AcgArADYAMAArAHoAeABHADgAMABJAE4ANABIAHUAQgBKADYASQBGAHoARABYAFAAZwBJADkAWgByAGsAWQBrAHgAWgBHAFAAbQA3AGMARwBYADUAZQBMAFEASgBYADEAawBlAHgAMABGAEcAMwAxAHAAUgBKAHEAaAB0AGcANABlAGQAdQBiAFQASgBwAE4AZQBEAGgANwBKAFUANgBIAFoAawBJAHkANwBXAGEANgAxADUAZQBWAFEARgBPADYAZwBuAHUARQBGAGYAQgBUAHMAUABmAHIANABaAFMARQBPAC8ANQAxAFgARwBDAEoASgBuADYANQBNAFAAYQBzAGQAUABIAEMAVgBHADYAZwB5AEkATgBIADQAPQA8AC8AVgBBAEwAVQBFAD4APAAvAFMASQBHAE4AQQBUAFUAUgBFAD4APAAvAFgAcgBNAEwAPgA=</CERTIFICATE><CERTIFICATE>PABYAHIATQBMACAAeABtAGwAbgBzAD0AIgAiACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADIAIgA+ADwAQgBPAEQAWQAgAHQAeQBwAGUAPQAiAEwASQBDAEUATgBTAEUAIgAgAHYAZQByAHMAaQBvAG4APQAiADMALgAwACIAPgA8AEkAUwBTAFUARQBEAFQASQBNAEUAPgAyADAAMAA1AC0AMAAzAC0AMAAzAFQAMgAyADoANQA3ADwALwBJAFMAUwBVAEUARABUAEkATQBFAD4APABWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARgBSAE8ATQA+ADIAMAAwADIALQAxADEALQAyADIAVAAyADIAOgA1ADAAPAAvAEYAUgBPAE0APgA8AFUATgBUAEkATAA+ADIAMAAxADUALQAwADYALQAwADEAVAAyADIAOgA1ADcAPAAvAFUATgBUAEkATAA+ADwALwBWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARABFAFMAQwBSAEkAUABUAE8AUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALQBTAGkAZwBuAGkAbgBnAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAZgAxADAAOAA4ADUANAAzAC0ANAA4AGUANgAtADQANQBhAGQALQA5AGYAOQBhAC0AMgAzAGIANQA4AGYAZABiADAAZgBmADQAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APAAvAEQARQBTAEMAUgBJAFAAVABPAFIAPgA8AEkAUwBTAFUARQBSAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAEQAUgBNAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlAC0AQQB1AHQAaABvAHIAaQB0AHkAIgA+ADwASQBEACAAdAB5AHAAZQA9ACIAYQBzAGMAaQBpAC0AdABhAGcAIgA+AE0AaQBjAHIAbwBzAG8AZgB0ACAARABSAE0AIABQAHIAbwBkAHUAYwB0AGkAbwBuACAAQQBwAHAAbABpAGMAYQB0AGkAbwBuACAAUwBpAGcAbgBpAG4AZwAgAFMAZQByAHYAZQByACAAQwBBADwALwBJAEQAPgA8AE4AQQBNAEUAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEQAUgBNACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAEEAcABwAGwAaQBjAGEAdABpAG8AbgAgAFMAaQBnAG4AaQBuAGcAIABTAGUAcgB2AGUAcgAgAEMAQQA8AC8ATgBBAE0ARQA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQAwADIANAAiAD4AYgBUAGkATgB4AE4AeABUAGgAUQBiAEUAVgB5AC8AagA2AE8AcQBrAEIAUABpAHEAbgBlAGgAagBhAGcAWAArAFAAdwBJAHUAagBMAEIAbQBkAEUARQA0AFEAUgBpAFMAMwA5AE4AawBuAHkAOQBVAGsATABmAE4AcgBCAGgAagBlAEgAVQBHAG8AeABjAHUANQBpAG8AYQBmAEYAMwAvAFkAZgBVAEoAZgBwACsALwB0AEIANQBsAG0AUwBCAG0AOABXAHQAVgBGAC8AZwBCAEcAYQBkAHcASgBrAHkAUQBJAFYAVwBXAHIARwAxAEoATgA3AEkAQwA3AGYAZQBqAEQAbgBjAFoAVABtADAAUgA5ADAAYQAxAEwAdQB5AGQATABoADcAUAB2AHoARQBpAHcAYQB3AGUARQBlACsASwBYAC8AUABSAEsAYQBaAG0AcABMAFkAPQA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APAAvAFAAVQBCAEwASQBDAEsARQBZAD4APAAvAEkAUwBTAFUARQBSAD4APABJAFMAUwBVAEUARABQAFIASQBOAEMASQBQAEEATABTAD4APABQAFIASQBOAEMASQBQAEEATAAgAGkAbgB0AGUAcgBuAGEAbAAtAGkAZAA9ACIAMQAiAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAEQAUgBNAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlAC0AQQB1AHQAaABvAHIAaQB0AHkAIgA+ADwASQBEACAAdAB5AHAAZQA9ACIATQBTAC0ARwBVAEkARAAiAD4AewA2ADUAMwBhADUAMAAzAGQALQAzADUANgA3AC0ANAAyADMAZgAtAGEAMAA4ADQALQAwAGYANAA4ADEAMQAxADMANwAwAGQANwB9ADwALwBJAEQAPgA8AE4AQQBNAEUAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEQAUgBNACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAE0AYQBuAGkAZgBlAHMAdAAgAFMAaQBnAG4AaQBuAGcAIABLAGUAeQAgAEMAQQA8AC8ATgBBAE0ARQA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQAwADIANAAiAD4AZwA4AEoATgBGAGsASwA4AGgAUwBnAFIAKwBFAFYASAA3AHoAWABQAG8ATAA4ACsATABYAC8ANgB0ADQAZwBlAFoALwA5AC8ATABHAGMAeABrAEwAUgBqAGQAVABDAGkAaQBjAFQANwBoAHUAUgA4AHkAVgBtAHgAMQBUAHYAVwBBAHkAYwBXAHEAcQBIAE8AcQB0ADUAOQBnAEEARwBoADYARwBtAEoAUAB5AGgAdQBsAEsAYwBtAFoASwBCAHAANwBsAGIAZwBRADIAYgBvAFIAZQA2AEUATwBMAFEAbwBmADIAagBvAG8AdgBkAFMATwBYAEYAeABnAFgAawBEAGQAQQBBAHQATAAxAGUAOABjAEUAcQA2AGkAdABmAE4AWQA0ADEASABHADAAWgBIAGoASwBzADgAOABpAGYAUgBOAG0ASgBYAFcAcwBlAFoAWABNAE0APQA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APAAvAFAAVQBCAEwASQBDAEsARQBZAD4APAAvAFAAUgBJAE4AQwBJAFAAQQBMAD4APAAvAEkAUwBTAFUARQBEAFAAUgBJAE4AQwBJAFAAQQBMAFMAPgA8AFcATwBSAEsAPgA8AE8AQgBKAEUAQwBUACAAdAB5AHAAZQA9ACIAQQBwAHAAbABpAGMAYQB0AGkAbwBuAC0AUwBpAGcAbgBpAG4AZwAtAEMAZQByAHQAaQBmAGkAYwBhAHQAZQAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBNAFMALQBHAFUASQBEACIAPgB7AGYAMQAwADgAOAA1ADQAMwAtADQAOABlADYALQA0ADUAYQBkAC0AOQBmADkAYQAtADIAMwBiADUAOABmAGQAYgAwAGYAZgA0AH0APAAvAEkARAA+ADwALwBPAEIASgBFAEMAVAA+ADwAUgBJAEcASABUAFMARwBSAE8AVQBQACAAbgBhAG0AZQA9ACIATQBhAGkAbgAtAFIAaQBnAGgAdABzACIAPgA8AFIASQBHAEgAVABTAEwASQBTAFQAPgA8AFIASQBHAEgAVAAgAG4AYQBtAGUAPQAiAEkAUwBTAFUARQAiAD4APABDAE8ATgBEAEkAVABJAE8ATgBMAEkAUwBUAD4APABUAEkATQBFAD4APABSAEEATgBHAEUAVABJAE0ARQA+ADwARgBSAE8ATQA+ADIAMAAwADIALQAxADEALQAyADIAVAAyADIAOgA1ADAAPAAvAEYAUgBPAE0APgA8AFUATgBUAEkATAA+ADIAMAAxADMALQAwADYALQAwADEAVAAyADIAOgA1ADcAPAAvAFUATgBUAEkATAA+ADwALwBSAEEATgBHAEUAVABJAE0ARQA+ADwALwBUAEkATQBFAD4APABBAEMAQwBFAFMAUwA+ADwAUABSAEkATgBDAEkAUABBAEwAIABpAG4AdABlAHIAbgBhAGwALQBpAGQAPQAiADEAIgAgAC8APgA8AC8AQQBDAEMARQBTAFMAPgA8AC8AQwBPAE4ARABJAFQASQBPAE4ATABJAFMAVAA+ADwALwBSAEkARwBIAFQAPgA8AC8AUgBJAEcASABUAFMATABJAFMAVAA+ADwALwBSAEkARwBIAFQAUwBHAFIATwBVAFAAPgA8AC8AVwBPAFIASwA+ADwALwBCAE8ARABZAD4APABTAEkARwBOAEEAVABVAFIARQA+ADwARABJAEcARQBTAFQAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUwBIAEEAMQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAYwBvAGQAaQBuAGcAdAB5AHAAZQAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAHMAdAByAGkAbgBnACIAPgBzAHUAcgBmAGEAYwBlAC0AYwBvAGQAaQBuAGcAPAAvAFYAQQBMAFUARQA+ADwALwBQAEEAUgBBAE0ARQBUAEUAUgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMQA2ADAAIgA+AHYAZwBiAHgAdgB6AFoAVwA5AFcAWQAvAG8AKwBaAGIAUgB1AFMARABiADQAQgBLAFUAUABVAD0APAAvAFYAQQBMAFUARQA+ADwALwBEAEkARwBFAFMAVAA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQAgAFAASwBDAFMAIwAxAC0AVgAxAC4ANQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAYgBhAHMAZQA2ADQAIgAgAHMAaQB6AGUAPQAiADEAMAAyADQAIgA+AHIAOQBtAG8AaQBoAGQAcABGAHEANwA4AGkAagBHAGwAcwBqAGwAcQBqAGkAcgA0AGkAaABRAEoAcAA0ADgAagBUAFQANwBzADAARgBYAEYAcQBkAGwASABzAG4AbgB6AGMAagBOAHgAaQBQAHIAcABXAEsAUwA5AEQAUgBCADMAZABjAEsAcQBzAFgALwBNADEAdQBnAEgAdAA0AFcAYwBKAEoAbgBOAGQARwBHAHAAYwBmAGgAMgA1ADIAcgA0AHYAVABFAGoANgByADIAYQBOAFEAUgBzAGMANgB6AHYAbQB4ADgAYQA5AEIAZAAxAGkAVwBlAG8ANQBwAGUARgB0AGEAQQBNAE0ASQBDAFUAZQB6AGwAcwBhAE8AQQBhAFMAeAA5AHoARgBsAFIAdQBhAEEAMwBWAC8AQgBUAFgAbAB1AEMARwBSAFkAVABsAGIAYwBzAD0APAAvAFYAQQBMAFUARQA+ADwALwBTAEkARwBOAEEAVABVAFIARQA+ADwALwBYAHIATQBMAD4A</CERTIFICATE><CERTIFICATE>PABYAHIATQBMACAAeABtAGwAbgBzAD0AIgAiACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADIAIgA+ADwAQgBPAEQAWQAgAHQAeQBwAGUAPQAiAEwASQBDAEUATgBTAEUAIgAgAHYAZQByAHMAaQBvAG4APQAiADMALgAwACIAPgA8AEkAUwBTAFUARQBEAFQASQBNAEUAPgAyADAAMAA1AC0AMAAxAC0AMQAwAFQAMgAxADoAMwAwADwALwBJAFMAUwBVAEUARABUAEkATQBFAD4APABWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARgBSAE8ATQA+ADIAMAAwADIALQAxADIALQAwADUAVAAwADEAOgAwADcAPAAvAEYAUgBPAE0APgA8AFUATgBUAEkATAA+ADIAMAAxADUALQAxADEALQAyADkAVAAyADEAOgAzADAAPAAvAFUATgBUAEkATAA+ADwALwBWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARABFAFMAQwBSAEkAUABUAE8AUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALQBTAGkAZwBuAGkAbgBnAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAZAAxADMAMwAyAGQAZQBmAC0AMQA5ADYANQAtADQAYQA2ADgALQA4ADAAOAA2AC0AZAA4AGIAMwA2AGUAYgAzADUAMQBhAGQAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APAAvAEQARQBTAEMAUgBJAFAAVABPAFIAPgA8AEkAUwBTAFUARQBSAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAEQAUgBNAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlAC0AQQB1AHQAaABvAHIAaQB0AHkAIgA+ADwASQBEACAAdAB5AHAAZQA9ACIAYQBzAGMAaQBpAC0AdABhAGcAIgA+AE0AaQBjAHIAbwBzAG8AZgB0ACAARABSAE0AIABQAHIAbwBkAHUAYwB0AGkAbwBuACAAQwBBADwALwBJAEQAPgA8AE4AQQBNAEUAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEQAUgBNACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAEMAQQA8AC8ATgBBAE0ARQA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMgAwADQAOAAiAD4ATgBRAHIAWQBTAEEAYwA0ADMAVgA3AE4AUgBUAFcAOABWAFQANQBFADIAWABoAE0AYwB3AG0AbQBPAE4ANwBUAGsAUQA3AEUAVABVAEkAVwBHAHEAbABQAFQAdgBGAFMAdwA3ADkAOABnAEYAZwBJAFgAQgBjAEYATQB0AEMAZABJAHkAZgAzAFYATQBPADUAWQBHAE8ASwBKAEQAMQB3AG4AYwAyAHkAZABsAG8AegBmADEANgBWAEgARgA1AFUAcgBGAGcAdABrAFQALwA5AHUASwA3AHUAUgBzAGgAagB5AEgANQAxADYASAAvAGMAQwBLAEoAeQBJAHkAUABhAFkARQBrAFcAKwBwAEkANwB4ADgAKwBjAGYAZwBWAGMAVQBYAFoALwBvAEMAcgBGAEgAZAB1AGUAWABMAFMANABjAGUALwBuAGEAbABzADQANQBxAHgANQBxAHEAYwBkAE0ANwBZADAAOABvADUAYQAxAGsAWAAvAHkAbwBpAFAATABiAG8AOQBtAEsAUwAvAE4AbAB6AEUAZgBjAFIAdgBSAE4AaQBBAEMANgBXAHEAbABJAHYAOABNAGcATgB4AHAAQQBtAFUANwBGAFIAVQBIAFQAUABjAGsALwBnAE8AOQBYADAAYQBmAGgANwBWAGsAdwBSAHEAMwAzAFQAagByAEMAUwArAFUAaQBkAG8AeAB3AE8ASQAyAEUAMABEAEsATQBtAHQAZwBVAE0AQQAyAHUAMAA0AE8ALwBmAGcAUgAwAEwAZQBVAHIAdQBUAFkAWQBqACsAUQB6ADIASQBJADgAMgBxAGMAegA3ACsAZgBlAHQARQBkAFUAcwB2AEsASwBhADEAWgBCAEsAOABGAG4AbQB3ADEAQgBGAFAAZQBvAHkAWAA5AGcAPQA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8ASQBTAFMAVQBFAFIAPgA8AEkAUwBTAFUARQBEAFAAUgBJAE4AQwBJAFAAQQBMAFMAPgA8AFAAUgBJAE4AQwBJAFAAQQBMACAAaQBuAHQAZQByAG4AYQBsAC0AaQBkAD0AIgAxACIAPgA8AE8AQgBKAEUAQwBUACAAdAB5AHAAZQA9ACIARABSAE0ALQBDAGUAcgB0AGkAZgBpAGMAYQB0AGUALQBBAHUAdABoAG8AcgBpAHQAeQAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBhAHMAYwBpAGkALQB0AGEAZwAiAD4ATQBpAGMAcgBvAHMAbwBmAHQAIABEAFIATQAgAFAAcgBvAGQAdQBjAHQAaQBvAG4AIABBAHAAcABsAGkAYwBhAHQAaQBvAG4AIABTAGkAZwBuAGkAbgBnACAAUwBlAHIAdgBlAHIAIABDAEEAPAAvAEkARAA+ADwATgBBAE0ARQA+AE0AaQBjAHIAbwBzAG8AZgB0ACAARABSAE0AIABQAHIAbwBkAHUAYwB0AGkAbwBuACAAQQBwAHAAbABpAGMAYQB0AGkAbwBuACAAUwBpAGcAbgBpAG4AZwAgAFMAZQByAHYAZQByACAAQwBBADwALwBOAEEATQBFAD4APAAvAE8AQgBKAEUAQwBUAD4APABQAFUAQgBMAEkAQwBLAEUAWQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAcAB1AGIAbABpAGMALQBlAHgAcABvAG4AZQBuAHQAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBpAG4AdABlAGcAZQByADMAMgAiAD4ANgA1ADUAMwA3ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAbQBvAGQAdQBsAHUAcwAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADAAMgA0ACIAPgBiAFQAaQBOAHgATgB4AFQAaABRAGIARQBWAHkALwBqADYATwBxAGsAQgBQAGkAcQBuAGUAaABqAGEAZwBYACsAUAB3AEkAdQBqAEwAQgBtAGQARQBFADQAUQBSAGkAUwAzADkATgBrAG4AeQA5AFUAawBMAGYATgByAEIAaABqAGUASABVAEcAbwB4AGMAdQA1AGkAbwBhAGYARgAzAC8AWQBmAFUASgBmAHAAKwAvAHQAQgA1AGwAbQBTAEIAbQA4AFcAdABWAEYALwBnAEIARwBhAGQAdwBKAGsAeQBRAEkAVgBXAFcAcgBHADEASgBOADcASQBDADcAZgBlAGoARABuAGMAWgBUAG0AMABSADkAMABhADEATAB1AHkAZABMAGgANwBQAHYAegBFAGkAdwBhAHcAZQBFAGUAKwBLAFgALwBQAFIASwBhAFoAbQBwAEwAWQA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8AUABSAEkATgBDAEkAUABBAEwAPgA8AC8ASQBTAFMAVQBFAEQAUABSAEkATgBDAEkAUABBAEwAUwA+ADwAVwBPAFIASwA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ALQBTAGkAZwBuAGkAbgBnAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAZAAxADMAMwAyAGQAZQBmAC0AMQA5ADYANQAtADQAYQA2ADgALQA4ADAAOAA2AC0AZAA4AGIAMwA2AGUAYgAzADUAMQBhAGQAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APABSAEkARwBIAFQAUwBHAFIATwBVAFAAIABuAGEAbQBlAD0AIgBNAGEAaQBuAC0AUgBpAGcAaAB0AHMAIgA+ADwAUgBJAEcASABUAFMATABJAFMAVAA+ADwAUgBJAEcASABUACAAbgBhAG0AZQA9ACIASQBTAFMAVQBFACIAPgA8AEMATwBOAEQASQBUAEkATwBOAEwASQBTAFQAPgA8AFQASQBNAEUAPgA8AFIAQQBOAEcARQBUAEkATQBFAD4APABGAFIATwBNAD4AMgAwADAAMgAtADEAMgAtADAANQBUADAAMQA6ADAANwA8AC8ARgBSAE8ATQA+ADwAVQBOAFQASQBMAD4AMgAwADEAMwAtADEAMQAtADIAOQBUADIAMQA6ADMAMAA8AC8AVQBOAFQASQBMAD4APAAvAFIAQQBOAEcARQBUAEkATQBFAD4APAAvAFQASQBNAEUAPgA8AEEAQwBDAEUAUwBTAD4APABQAFIASQBOAEMASQBQAEEATAAgAGkAbgB0AGUAcgBuAGEAbAAtAGkAZAA9ACIAMQAiACAALwA+ADwALwBBAEMAQwBFAFMAUwA+ADwALwBDAE8ATgBEAEkAVABJAE8ATgBMAEkAUwBUAD4APAAvAFIASQBHAEgAVAA+ADwALwBSAEkARwBIAFQAUwBMAEkAUwBUAD4APAAvAFIASQBHAEgAVABTAEcAUgBPAFUAUAA+ADwALwBXAE8AUgBLAD4APAAvAEIATwBEAFkAPgA8AFMASQBHAE4AQQBUAFUAUgBFAD4APABEAEkARwBFAFMAVAA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBTAEgAQQAxADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAUABBAFIAQQBNAEUAVABFAFIAIABuAGEAbQBlAD0AIgBjAG8AZABpAG4AZwB0AHkAcABlACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAcwB0AHIAaQBuAGcAIgA+AHMAdQByAGYAYQBjAGUALQBjAG8AZABpAG4AZwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADYAMAAiAD4AbwBtAGEATQBXAEwAaQBRAHgAdgAvADIAeQBuADIANQB2AC8ASQBrAG4ATgBoAHAAUgB6ADgAPQA8AC8AVgBBAEwAVQBFAD4APAAvAEQASQBHAEUAUwBUAD4APABBAEwARwBPAFIASQBUAEgATQA+AFIAUwBBACAAUABLAEMAUwAjADEALQBWADEALgA1ADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMgAwADQAOAAiAD4AUAA3AFYAUgBMAEoAOQBLAC8ALwBjAEMATQBzAE0AQQBQAHgAMwB0AGgATABBAGwANwBIAEoAMgBhAEkAMwBLAFQAKwB2AE4AUgA4AFYARQBvAC8AeQBHAFMATQBDAEEANQBsAHAAbwBMACsAZAA5AFoAZwBOAFAAUQB5ADAAWgBXAHQAegB2AFYAcgA3AGMARABzAFUANQB5AGcAYQBPAFUAUABEAGkAbQBYAHEAdgBCAFQAdwBRAHYAcABiAE0ARgBFAGgAZQArAGoAYgBmAEgATgBYAGMAbAAxAEcAbgByAHoAZAB0AE0AeABmAE4ANgA0AFgAZwBoAHUAWQBnADcASgBhAFAATgB5AHoAcgB5AHoAVQBmAGQAMgBQADAAWgBTAEkARAB6AEIAMgBzAHMAZwA1AHcARABVAG0AUgA0ADMAUQBmAG8AMwB2ADEARwBjAEsAdQBhAGgARwBnAFYAWABUAFcANgBRAGwAcgA5AHUAcwAvAFEAeQAzAGUAagBTAGQAZABSAHkAYgBKAFgAWABEAFoAbgBpAGIAcwA0AGIATwA1AEcATQBoAFQAbAA4AGwAWAAxAHoAdQBZAGIAUwAvAGwAcQBzAGgAWAA1AEoAMwBXAEYAdgBZAGMAMABSAHUAQwAvAHEAeABtADAAQQAvAFMASQBoAEQAdABNAHcAOQBoAE8AVwBvAGQAdQBPAFMAZQAvAGkAZABhAFYAUQB0AHgAUABUAHUARgBxAHEASQB1AGcAaQBJAGsAcAAwAGIAcQA4AFQASgByAHoANQBpAEsAZgBSAEUARgBjAFoAZQBYAEgAVgBqADUAcgBQAEUAZABiAHgARABtAEIAbwB5AHkAMABjAGwAdQB4AG8AZgB3ADUAQQA0AGQALwBvAGIANgBxAEEAPQA9ADwALwBWAEEATABVAEUAPgA8AC8AUwBJAEcATgBBAFQAVQBSAEUAPgA8AC8AWAByAE0ATAA+AA==</CERTIFICATE><CERTIFICATE>PABYAHIATQBMACAAeABtAGwAbgBzAD0AIgAiACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADIAIgA+ADwAQgBPAEQAWQAgAHQAeQBwAGUAPQAiAEwASQBDAEUATgBTAEUAIgAgAHYAZQByAHMAaQBvAG4APQAiADMALgAwACIAPgA8AEkAUwBTAFUARQBEAFQASQBNAEUAPgAyADAAMAA1AC0AMAAxAC0AMAA3AFQAMgAzADoANAA5ADwALwBJAFMAUwBVAEUARABUAEkATQBFAD4APABWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARgBSAE8ATQA+ADIAMAAwADIALQAxADIALQAwADUAVAAwADEAOgAwADcAPAAvAEYAUgBPAE0APgA8AFUATgBUAEkATAA+ADIAMAAxADUALQAxADEALQAyADYAVAAyADMAOgA0ADkAPAAvAFUATgBUAEkATAA+ADwALwBWAEEATABJAEQASQBUAFkAVABJAE0ARQA+ADwARABFAFMAQwBSAEkAUABUAE8AUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBEAFIATQAtAEMAQQAtAEMAZQByAHQAaQBmAGkAYwBhAHQAZQAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBNAFMALQBHAFUASQBEACIAPgB7ADMAZAA0AGEAOAA1AGMAZQAtAGUAYQBhAGYALQA0ADAAZAAwAC0AYQA2AGQAMgAtAGEANQBiADUAYwA4AGEANAAxAGYAZQA2AH0APAAvAEkARAA+ADwALwBPAEIASgBFAEMAVAA+ADwALwBEAEUAUwBDAFIASQBQAFQATwBSAD4APABJAFMAUwBVAEUAUgA+ADwATwBCAEoARQBDAFQAIAB0AHkAcABlAD0AIgBEAFIATQAtAEMAZQByAHQAaQBmAGkAYwBhAHQAZQAtAEEAdQB0AGgAbwByAGkAdAB5ACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAGEAcwBjAGkAaQAtAHQAYQBnACIAPgBNAGkAYwByAG8AcwBvAGYAdAAgAEQAUgBNACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAFIAbwBvAHQAPAAvAEkARAA+ADwATgBBAE0ARQA+AE0AaQBjAHIAbwBzAG8AZgB0ACAARABSAE0AIABQAHIAbwBkAHUAYwB0AGkAbwBuACAAUgBvAG8AdAA8AC8ATgBBAE0ARQA+ADwALwBPAEIASgBFAEMAVAA+ADwAUABVAEIATABJAEMASwBFAFkAPgA8AEEATABHAE8AUgBJAFQASABNAD4AUgBTAEEAPAAvAEEATABHAE8AUgBJAFQASABNAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAHAAdQBiAGwAaQBjAC0AZQB4AHAAbwBuAGUAbgB0ACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAaQBuAHQAZQBnAGUAcgAzADIAIgA+ADYANQA1ADMANwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABQAEEAUgBBAE0ARQBUAEUAUgAgAG4AYQBtAGUAPQAiAG0AbwBkAHUAbAB1AHMAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMgAwADQAOAAiAD4AWAB5AGwAQwB3AFMAbwBvAHcAMwBNAGQAbgBzAFYAUABrAFQAdAB3AEkAWQA1AHIAawA2ADQANwBiAFMANgA0AE4AZgA3AE0AMgBIAFMAOABrAGwAUgBrADUAYQBoAGgAYwBNAHgAOQBWAE8AbABuAHQAegBxAFgAMwBTAFkAeQBxAHgAbwBYAFEARgBEAFIALwBrAFQAVwBWAFQAcABiAFgAVgBNAHMAUwBZAEwAeABxAHIAKwBXAEQAMQBqAFQAZABIAHMAdgAvAC8ANwA5AFEAdwBIAHQAcgBLAGgATABNAFIANwBqAGMATABjAE0AbgBYAGYAQQBFADMAOQBLAGEAVQBBAFoAZwAzAGQARgBTAEUAdAArAEoAWQBiAFoAYgBvAFMAagBQAGUASgBvADYARAAxAGEAWgBtAGMAWgB2AGwAYQBkAHIASQBxACsASwBwAEIAcQBiAGcASQBFAHEAYQBiAHEAUABBAGcARwA4AC8ASQBiAGgAdABOAGIAbABhAEQAawBUAG8ANwBlAHYAKwBBAHUASQBXAGUAYwA5AEUAagBIAEoAQwBZAGsAMABUAFMAegBKAGYANAAyADMAaQBIAFoAWQBKAFgARABNAHoAMAA4ADEATwBCAHIASwBZACsAagBNAHQAcQBrADgAYQBNAHAAaQBxAHYAYwBYADYAbQB2ADcAbQBUADcASQB3AFkAdwA5AGEARQBrAGwAeAArADMAcABtAEwAcQBCAFkAOAA3AFYAVwB6AGwAeABGAEsAOAA4AGoAbAA1AEMATABIAGIASgBxAHgATAA1AGkAdwBDADMAVgBwAGYAVgB6ADAAVQBhAGwAbgBnADEASwB0AEQAcQBaAG0AYwBaAGQAagB3AFAAYwBRAGMAMwBSAE0AeABsAGcAPQA9ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AC8AUABVAEIATABJAEMASwBFAFkAPgA8AC8ASQBTAFMAVQBFAFIAPgA8AEkAUwBTAFUARQBEAFAAUgBJAE4AQwBJAFAAQQBMAFMAPgA8AFAAUgBJAE4AQwBJAFAAQQBMACAAaQBuAHQAZQByAG4AYQBsAC0AaQBkAD0AIgAxACIAPgA8AE8AQgBKAEUAQwBUACAAdAB5AHAAZQA9ACIARABSAE0ALQBDAGUAcgB0AGkAZgBpAGMAYQB0AGUALQBBAHUAdABoAG8AcgBpAHQAeQAiAD4APABJAEQAIAB0AHkAcABlAD0AIgBhAHMAYwBpAGkALQB0AGEAZwAiAD4ATQBpAGMAcgBvAHMAbwBmAHQAIABEAFIATQAgAFAAcgBvAGQAdQBjAHQAaQBvAG4AIABDAEEAPAAvAEkARAA+ADwATgBBAE0ARQA+AE0AaQBjAHIAbwBzAG8AZgB0ACAARABSAE0AIABQAHIAbwBkAHUAYwB0AGkAbwBuACAAQwBBADwALwBOAEEATQBFAD4APAAvAE8AQgBKAEUAQwBUAD4APABQAFUAQgBMAEkAQwBLAEUAWQA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBSAFMAQQA8AC8AQQBMAEcATwBSAEkAVABIAE0APgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAcAB1AGIAbABpAGMALQBlAHgAcABvAG4AZQBuAHQAIgA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBpAG4AdABlAGcAZQByADMAMgAiAD4ANgA1ADUAMwA3ADwALwBWAEEATABVAEUAPgA8AC8AUABBAFIAQQBNAEUAVABFAFIAPgA8AFAAQQBSAEEATQBFAFQARQBSACAAbgBhAG0AZQA9ACIAbQBvAGQAdQBsAHUAcwAiAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAyADAANAA4ACIAPgBOAFEAcgBZAFMAQQBjADQAMwBWADcATgBSAFQAVwA4AFYAVAA1AEUAMgBYAGgATQBjAHcAbQBtAE8ATgA3AFQAawBRADcARQBUAFUASQBXAEcAcQBsAFAAVAB2AEYAUwB3ADcAOQA4AGcARgBnAEkAWABCAGMARgBNAHQAQwBkAEkAeQBmADMAVgBNAE8ANQBZAEcATwBLAEoARAAxAHcAbgBjADIAeQBkAGwAbwB6AGYAMQA2AFYASABGADUAVQByAEYAZwB0AGsAVAAvADkAdQBLADcAdQBSAHMAaABqAHkASAA1ADEANgBIAC8AYwBDAEsASgB5AEkAeQBQAGEAWQBFAGsAVwArAHAASQA3AHgAOAArAGMAZgBnAFYAYwBVAFgAWgAvAG8AQwByAEYASABkAHUAZQBYAEwAUwA0AGMAZQAvAG4AYQBsAHMANAA1AHEAeAA1AHEAcQBjAGQATQA3AFkAMAA4AG8ANQBhADEAawBYAC8AeQBvAGkAUABMAGIAbwA5AG0ASwBTAC8ATgBsAHoARQBmAGMAUgB2AFIATgBpAEEAQwA2AFcAcQBsAEkAdgA4AE0AZwBOAHgAcABBAG0AVQA3AEYAUgBVAEgAVABQAGMAawAvAGcATwA5AFgAMABhAGYAaAA3AFYAawB3AFIAcQAzADMAVABqAHIAQwBTACsAVQBpAGQAbwB4AHcATwBJADIARQAwAEQASwBNAG0AdABnAFUATQBBADIAdQAwADQATwAvAGYAZwBSADAATABlAFUAcgB1AFQAWQBZAGoAKwBRAHoAMgBJAEkAOAAyAHEAYwB6ADcAKwBmAGUAdABFAGQAVQBzAHYASwBLAGEAMQBaAEIASwA4AEYAbgBtAHcAMQBCAEYAUABlAG8AeQBYADkAZwA9AD0APAAvAFYAQQBMAFUARQA+ADwALwBQAEEAUgBBAE0ARQBUAEUAUgA+ADwALwBQAFUAQgBMAEkAQwBLAEUAWQA+ADwALwBQAFIASQBOAEMASQBQAEEATAA+ADwALwBJAFMAUwBVAEUARABQAFIASQBOAEMASQBQAEEATABTAD4APABXAE8AUgBLAD4APABPAEIASgBFAEMAVAAgAHQAeQBwAGUAPQAiAEQAUgBNAC0AQwBBAC0AQwBlAHIAdABpAGYAaQBjAGEAdABlACIAPgA8AEkARAAgAHQAeQBwAGUAPQAiAE0AUwAtAEcAVQBJAEQAIgA+AHsAMwBkADQAYQA4ADUAYwBlAC0AZQBhAGEAZgAtADQAMABkADAALQBhADYAZAAyAC0AYQA1AGIANQBjADgAYQA0ADEAZgBlADYAfQA8AC8ASQBEAD4APAAvAE8AQgBKAEUAQwBUAD4APABSAEkARwBIAFQAUwBHAFIATwBVAFAAIABuAGEAbQBlAD0AIgBNAGEAaQBuAC0AUgBpAGcAaAB0AHMAIgA+ADwAUgBJAEcASABUAFMATABJAFMAVAA+ADwAUgBJAEcASABUACAAbgBhAG0AZQA9ACIASQBTAFMAVQBFACIAPgA8AEMATwBOAEQASQBUAEkATwBOAEwASQBTAFQAPgA8AFQASQBNAEUAPgA8AFIAQQBOAEcARQBUAEkATQBFAD4APABGAFIATwBNAD4AMgAwADAAMgAtADEAMgAtADAANQBUADAAMQA6ADAANwA8AC8ARgBSAE8ATQA+ADwAVQBOAFQASQBMAD4AMgAwADEAMwAtADEAMQAtADIANgBUADIAMwA6ADQAOQA8AC8AVQBOAFQASQBMAD4APAAvAFIAQQBOAEcARQBUAEkATQBFAD4APAAvAFQASQBNAEUAPgA8AEEAQwBDAEUAUwBTAD4APABQAFIASQBOAEMASQBQAEEATAAgAGkAbgB0AGUAcgBuAGEAbAAtAGkAZAA9ACIAMQAiACAALwA+ADwALwBBAEMAQwBFAFMAUwA+ADwALwBDAE8ATgBEAEkAVABJAE8ATgBMAEkAUwBUAD4APAAvAFIASQBHAEgAVAA+ADwALwBSAEkARwBIAFQAUwBMAEkAUwBUAD4APAAvAFIASQBHAEgAVABTAEcAUgBPAFUAUAA+ADwALwBXAE8AUgBLAD4APAAvAEIATwBEAFkAPgA8AFMASQBHAE4AQQBUAFUAUgBFAD4APABEAEkARwBFAFMAVAA+ADwAQQBMAEcATwBSAEkAVABIAE0APgBTAEgAQQAxADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAUABBAFIAQQBNAEUAVABFAFIAIABuAGEAbQBlAD0AIgBjAG8AZABpAG4AZwB0AHkAcABlACIAPgA8AFYAQQBMAFUARQAgAGUAbgBjAG8AZABpAG4AZwA9ACIAcwB0AHIAaQBuAGcAIgA+AHMAdQByAGYAYQBjAGUALQBjAG8AZABpAG4AZwA8AC8AVgBBAEwAVQBFAD4APAAvAFAAQQBSAEEATQBFAFQARQBSAD4APABWAEEATABVAEUAIABlAG4AYwBvAGQAaQBuAGcAPQAiAGIAYQBzAGUANgA0ACIAIABzAGkAegBlAD0AIgAxADYAMAAiAD4AdABLAFIAVwAyAEcAOQBlAFgANAB6ADkAWABmAHMARQBBAGsARQBYAEYAawA3AE0AUQBVADQAPQA8AC8AVgBBAEwAVQBFAD4APAAvAEQASQBHAEUAUwBUAD4APABBAEwARwBPAFIASQBUAEgATQA+AFIAUwBBACAAUABLAEMAUwAjADEALQBWADEALgA1ADwALwBBAEwARwBPAFIASQBUAEgATQA+ADwAVgBBAEwAVQBFACAAZQBuAGMAbwBkAGkAbgBnAD0AIgBiAGEAcwBlADYANAAiACAAcwBpAHoAZQA9ACIAMgAwADQAOAAiAD4AUQBvAFoATAB4AEwAMABvAHgAMgBsADgAdgBxAFYASABsAHkAUABMAGIAUQA3ADEAYwBiAGUAMwA5AGUALwBNAGIANQBJAGMAeQBjAEMAUgB4AHIAQgB2AEkAaABWAGQAaQAxAHYAcQA5ADgAWgBpAHQAOAB5AHkANABFAFAAUABtAE8AZABKAC8AZABJAHAAcwBjAEsAZQBiAFoAaABRAFUALwBPAEIAcABiAHUAdQBIAGYASAB0AFYAQQA1AG8AMAB2AE0AWgBhAHIAdQAyAGYAWgBFAGoAZABNAGEAMQAxAEsAZgBmAEUAawBTAEsAZQB0AHkAVwBpAFYASABvAHMAaAAxAE4AOQAxAGQAawBNADYASQBtADkAUgAvAFMARgBvAFAAVABqAGQAUgBzAFkAUQByAFQAVwBOADcARwBIAEYANwB2ADAAYQBrACsAWgBiAHUATABjAEcANQBUAGEAdgA2ADkALwBRAFAAZgBJAFAATwByAEkAbQBDAEkAVwA1ADIAWABDAFoANQBlAE8AMABJAFEAOABEAFkAYgBkAEgAaAA5ADcATwBGAEkANgA3ADQAbQB5ADUAdwBtADgAawBjAFcAbQBHAEgAeAA1AEwAcQAxAEQASgA5ADUANgArAG4ASgBLAHMAMgBVAFgAQgBGAGcAbQBZAE0AUgB3AEMASABRAFcAUgBXAHgAawBvAC8ANgBxAHgATgBuAEMAMQA0AFMAMgBTAHMAcAB3AFQARgBFAFcAcABTAEkAZABsADgAcgBaAFUAMQBtAEYASgBXADUAbwBUAGQAbABiAFIAbABtAEEAOQBTAHQARwBEAFoAOQBEAFcAbwBVADkANgBUAEgAbAA4ADIASABLAG4AWABuAFcAegBiAFgASgBpAEQAVgBFAFEAPQA9ADwALwBWAEEATABVAEUAPgA8AC8AUwBJAEcATgBBAFQAVQBSAEUAPgA8AC8AWAByAE0ATAA+AA==</CERTIFICATE></CERTIFICATECHAIN>

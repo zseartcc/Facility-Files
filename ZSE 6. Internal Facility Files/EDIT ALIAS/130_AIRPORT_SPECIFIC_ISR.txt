@@ -1,0 +1,10668 @@
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 0S9 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; 0S9 RNAV (GPS)-A
+
+
+.0S9RA .FD 0S9_RNAV (GPS)-A
+
+.0S9RAF .FF JIGEB YAYUB WIKUV WATTR JAWBN
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 2S8 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; 2S8 RNAV (GPS)-A
+
+
+.2S8RA .FD 2S8_RNAV (GPS)-A
+
+.2S8RAF .FF WIPES OWOSE UXICY YOLDU
+
+
+
+
+
+
+
+
+; 2S8 WIPES
+
+
+.2S8WIPES .FD 2S8_WIPES
+
+.2S8WIPESDEL .MSG ZSE_ISR ***WIPES 1 ::: RNAV-ODP ::: RWY 2, 20 :::  ::: CVS   ::: CRZ-10min(Listed) ::: DEP FREQ 126.1
+
+.2S8WIPESGND .MSG ZSE_ISR ***WIPES 1 ::: RWY 2, 20 ::: Airport is not provided Ground Control Services
+
+.2S8WIPESTWR .MSG ZSE_ISR ***WIPES 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.1
+
+.2S8WIPESDEP .MSG ZSE_ISR ***WIPES 1 ::: RNAV-ODP ::: CVS   issued by DEL ::: CRZ-10min(Listed) ::: TopAlt 5k :::
+
+.2S8WIPESCTR .MSG ZSE_ISR ***WIPES 1 ::: CRZ-10min(Listed) ::: TopAlt 5k
+
+.TCRAFT2S8WIPES Cleared to $arr. Depart via the WIPES1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFT2S8WIPESU Cleared to $arr. Depart via the WIPES1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 3S8 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; 3S8 RNAV (GPS)-A
+
+
+.3S8RA .FD 3S8_RNAV (GPS)-A
+
+.3S8RAF .FF WALVI KUSHI
+
+
+
+
+
+
+
+
+; 3S8 RNAV (GPS) RWY 13
+
+
+.3S8R13 .FD 3S8_RNAV (GPS) RWY 13
+
+.3S8R13F .FF PUYNO HISIG JITRI ZIGIK YYUD WAMEP UVBOH ISNEJ WIROG ZUNPA CEXUN
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 65S AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+; 65S RNAV (GPS) RWY 2
+
+
+.65SR02 .FD 65S_RNAV (GPS) RWY 2
+
+.65SR02F .FF HITRU WEBDA JATLI ODXEW KARPS CLASS ARHIY
+
+
+
+
+
+
+
+
+; 65S KARPS
+
+
+.65SKARPS .FD 65S_KARPS
+
+.65SKARPSDEL .MSG ZSE_ISR ***KARPS 2 ::: RNAV-ODP ::: RWY 20 :::  ::: Maint 10k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 123.95
+
+.65SKARPSGND .MSG ZSE_ISR ***KARPS 2 ::: RWY 20 ::: Airport is not provided Ground Control Services
+
+.65SKARPSTWR .MSG ZSE_ISR ***KARPS 2 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 123.95
+
+.65SKARPSDEP .MSG ZSE_ISR ***KARPS 2 ::: RNAV-ODP ::: Maint 10k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: (Acft will cross KARPS at MEA for assigned route of flight)
+
+.65SKARPSCTR .MSG ZSE_ISR ***KARPS 2 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFT65SKARPS Cleared to $arr. Depart via the KARPS2 Obstacle Departure Procedure. $route. Maintain 10k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFT65SKARPSU Cleared to $arr. Depart via the KARPS2 Obstacle Departure Procedure. $route. Maintain 10k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 77S AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+; 77S RNAV (GPS) RWY 16
+
+
+.77SR16 .FD 77S_RNAV (GPS) RWY 16
+
+.77SR16F .FF ALFOR IYAYE WOSLO ZEMAM UWZAB CURTI
+
+
+
+
+
+
+
+
+; 77S 77S
+
+
+.77S77S .FD 77S_77S77S
+
+.77S77SF .FF EUG
+
+.77S77SDEL .MSG ZSE_ISR ***77S 2 ::: ODP ::: RWY 34 :::  ::: Maint 4k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 119.6
+
+.77S77SGND .MSG ZSE_ISR ***77S 2 ::: RWY 34 ::: Airport is not provided Ground Control Services
+
+.77S77STWR .MSG ZSE_ISR ***77S 2 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 119.6
+
+.77S77SDEP .MSG ZSE_ISR ***77S 2 ::: ODP ::: Maint 4k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: (Acft wanting to VCOA should circle 77S until AOA 2.7k)
+
+.77S77SCTR .MSG ZSE_ISR ***77S 2 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFT77S77S Cleared to $arr. Depart via the 77S2 Obstacle Departure Procedure. $route. Maintain 4k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFT77S77SU Cleared to $arr. Depart via the 77S2 Obstacle Departure Procedure. $route. Maintain 4k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 9S9 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; 9S9 RNAV (GPS)-A
+
+
+.9S9RA .FD 9S9_RNAV (GPS)-A
+
+.9S9RAF .FF ECHOD HUBAT JOLEX DILAC CELIB FOGAL
+
+
+
+
+
+
+
+
+; 9S9 RNAV (GPS) RWY 8
+
+
+.9S9R08 .FD 9S9_RNAV (GPS) RWY 8
+
+.9S9R08F .FF FODIN CELIB FAVDA WALDA LOAMS BREED LTJ
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; AAT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+; AAT RNAV (GPS) RWY 13
+
+
+.AATR31 .FD AAT_RNAV (GPS) RWY 13
+
+.AATR31F .FF NONIY LUTIY TEFAN BACHS
+
+
+
+
+
+
+
+
+; AAT BACHS
+
+
+.AATBACHS .FD AAT_BACHS
+
+.AATBACHSDEL .MSG ZSE_ISR ***BACHS 2 ::: RNAV-ODP ::: RWY 3, 13, 21, 31 :::  ::: Maint 9k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.6
+
+.AATBACHSGND .MSG ZSE_ISR ***BACHS 2 ::: RWY 3, 13, 21, 31 ::: Airport is not provided Ground Control Services
+
+.AATBACHSTWR .MSG ZSE_ISR ***BACHS 2 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.6
+
+.AATBACHSDEP .MSG ZSE_ISR ***BACHS 2 ::: RNAV-ODP ::: Maint 9k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published :::
+
+.AATBACHSCTR .MSG ZSE_ISR ***BACHS 2 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTAATBACHS Cleared to $arr. Depart via the BACHS2 Obstacle Departure Procedure. $route. Maintain 9k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTAATBACHSU Cleared to $arr. Depart via the BACHS2 Obstacle Departure Procedure. $route. Maintain 9k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+; AAT CHOIR
+
+
+.AATCHOIR .FD AAT_CHOIR
+
+.AATCHOIRDEL .MSG ZSE_ISR ***CHOIR 3 ::: RNAV-PilotNav ::: RWY 3, 13 :::  ::: Maint 11k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 127.6
+
+.AATCHOIRGND .MSG ZSE_ISR ***CHOIR 3 ::: RWY 3, 13 ::: Airport is not provided Ground Control Services
+
+.AATCHOIRTWR .MSG ZSE_ISR ***CHOIR 3 ::: RNAV-PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.6
+
+.AATCHOIRDEP .MSG ZSE_ISR ***CHOIR 3 ::: RNAV-PilotNav ::: Maint 11k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft might climb in holding at CHOIR)
+
+.AATCHOIRCTR .MSG ZSE_ISR ***CHOIR 3 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTAATCHOIR Cleared to $arr.  $route. Maintain 11k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTAATCHOIRU Cleared to $arr.  $route. Maintain 11k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; ACV AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; ACV ILS RWY 32
+
+
+.ACVi32 .FD ACV_ILS RWY 32
+
+.ACVi32F .FF YAGER VOMAC JEGBA SAWGU VOLEW ZUVKU ULAMY FOT CULDU
+
+
+
+
+
+
+
+
+; ACV LOC RWY 32
+
+
+.ACVL32 .FD ACV_LOC RWY 32
+
+.ACVL32F .FF YAGER VOMAC JEGBA SAWGU VOLEW ZUVKU ULAMY FOT CULDU
+
+
+
+
+
+
+
+
+; ACV RNAV (GPS) RWY 1
+
+
+.ACVR01 .FD ACV_RNAV (GPS) RWY 1
+
+.ACVR01F .FF SEGVE OGMOW HIPGI CULDU
+
+
+
+
+
+
+
+
+; ACV RNAV (GPS) RWY 14
+
+
+.ACVR14 .FD ACV_RNAV (GPS) RWY 14
+
+.ACVR14F .FF CULDU UYFOR SEGVE
+
+
+
+
+
+
+
+
+; ACV RNAV (GPS) RWY 32
+
+
+.ACVR32 .FD ACV_RNAV (GPS) RWY 32
+
+.ACVR32F .FF YAGER VOMAC JEGBA SAWGU VOLEW ZUVKU ULAMY CULDU HOCUT FOT
+
+
+
+
+
+
+
+
+; ACV HOCUT
+
+
+.ACVHOCUT .FD ACV_HOCUT
+
+.ACVHOCUTDEL .MSG ZSE_ISR ***HOCUT 5 ::: PilotNav ::: RWY 1, 32, 14, 19 ::: CEC_FOT ::: Maint 4k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 124.85
+
+.ACVHOCUTGND .MSG ZSE_ISR ***HOCUT 5 ::: RWY 1, 32, 14, 19 ::: Airport is not provided Ground Control Services
+
+.ACVHOCUTTWR .MSG ZSE_ISR ***HOCUT 5 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.85
+
+.ACVHOCUTDEP .MSG ZSE_ISR ***HOCUT 5 ::: PilotNav ::: Maint 4k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: Caution terrain east of ACV
+
+.ACVHOCUTCTR .MSG ZSE_ISR ***HOCUT 5 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTACVHOCUT Cleared to $arr. $route. Maintain 4k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTACVHOCUTU Cleared to $arr. $route. Maintain 4k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; ALW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; ALW ILS Y RWY 20
+
+
+.ALWiY0 .FD ALW_ILS Y RWY 20
+
+.ALWiY0F .FF RENGO HOLOW COSUV HIVOP BACUN DATES TRINA
+
+
+
+
+
+
+
+
+; ALW LOC RWY 20
+
+
+.ALWL20 .FD ALW_LOC RWY 20
+
+.ALWL20F .FF RENGO HOLOW COSUV HIVOP BACUN DATES TRINA
+
+
+
+
+
+
+
+
+; ALW ILS Z RWY 20
+
+
+.ALWiZ0 .FD ALW_ILS Z RWY 20
+
+.ALWiZ0F .FF RENGO HOLOW RIRRO ZALBI COSUV HIVOP BACUN BUTOC
+
+
+
+
+
+
+
+
+; ALW LOC/DME RWY 20
+
+
+.ALWK20 .FD ALW_LOC/DME RWY 20
+
+.ALWK20F .FF RENGO HOLOW RIRRO ZALBI COSUV HIVOP BACUN BUTOC
+
+
+
+
+
+
+
+
+; ALW RNAV (GPS) RWY 2
+
+
+.ALWR02 .FD ALW_RNAV (GPS) RWY 2
+
+.ALWR02F .FF TACUP ZUMPU TOLGA ZETIG CILON HIPUX COSUV DATES
+
+
+
+
+
+
+
+
+; ALW RNAV (GPS) RWY 20
+
+
+.ALWR20 .FD ALW_RNAV (GPS) RWY 20
+
+.ALWR20F .FF RENGO YALLO KIMIW COSUV WACKE CILON BACUN
+
+
+
+
+
+
+
+
+; ALW VOR/DME RWY 2
+
+
+.ALWF02 .FD ALW_VOR/DME RWY 2
+
+.ALWF02F .FF ORAHU CUCAB ALW
+
+
+
+
+
+
+
+
+; ALW VOR RWY 20
+
+
+.ALWV20 .FD ALW_VOR RWY 20
+
+.ALWV20F .FF BUTOC HODIM TRINA JOSBO AL ALW
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; AST AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; AST ILS RWY 26
+
+
+.ASTi26 .FD AST_ILS RWY 26
+
+.ASTi26F .FF PULYI ZIGPI ZINKY ZUNAB JUNSA AST
+
+
+
+
+
+
+
+
+; AST RNAV (GPS) RWY 8
+
+
+.ASTR08 .FD AST_RNAV (GPS) RWY 8
+
+.ASTR08F .FF ILWAX SEAME SAAND HISET
+
+
+
+
+
+
+
+
+; AST RNAV (GPS) RWY 26
+
+
+.ASTR26 .FD AST_RNAV (GPS) RWY 26
+
+.ASTR26F .FF HOMKU PITER SMOAK KKARP YUZPI RROCK IPUPE STAZY YUXBU KULOA
+
+
+
+
+
+
+
+
+; AST VOR RWY 8
+
+
+.ASTO08 .FD AST_VOR RWY 8
+
+.ASTO08F .FF AST
+
+
+
+
+
+
+
+
+; AST COPTER LOC RWY 26
+
+
+.ASTL26 .FD AST_COPTER LOC RWY 26
+
+.ASTL26F .FF ZERDI WUNUG OBGEW UWYUK AST
+
+
+
+
+
+
+
+
+; AST AST
+
+
+.ASTAST .FD AST_AST
+
+.ASTASTDEL .MSG ZSE_ISR ***AST 3 ::: ODP ::: RWY 8, 14, 26, 32 :::  ::: CVS Exct Maint 5k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 124.2
+
+.ASTASTGND .MSG ZSE_ISR ***AST 3 ::: RWY 8, 14, 26, 32 ::: Airport is not provided Ground Control Services
+
+.ASTASTTWR .MSG ZSE_ISR ***AST 3 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.2
+
+.ASTASTDEP .MSG ZSE_ISR ***AST 3 ::: ODP ::: CVS Exct Maint 5k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft executing VCOA will hold over AST until AOA 2.3k)
+
+.ASTASTCTR .MSG ZSE_ISR ***AST 3 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTASTAST Cleared to $arr. Depart via the AST3 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 5k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTASTASTU Cleared to $arr. Depart via the AST3 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 5k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; AWO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; AWO RNAV (GPS) RWY 34
+
+
+.AWOR34 .FD AWO_RNAV (GPS) RWY 34
+
+.AWOR34F .FF PAE SAVOY YAYKU WIGIB
+
+
+
+
+
+
+
+
+; AWO LOC RWY 34
+
+
+.AWOL34 .FD AWO_LOC RWY 34
+
+.AWOL34F .FF PAE SAVOY AW
+
+
+
+
+
+
+
+
+; AWO NDB RWY 34
+
+
+.AWON34 .FD AWO_NDB RWY 34
+
+.AWON34F .FF PAE SAVOY AW
+
+
+
+
+
+
+
+
+; AWO AWO
+
+
+.AWOAWO .FD AWO_AWO
+
+.AWOAWODEL .MSG ZSE_ISR ***AWO 2 ::: Hybrid ::: RWY 16, 34 :::  ::: CVS   ::: CRZ-5min(Listed) ::: DEP FREQ 128.5
+
+.AWOAWOGND .MSG ZSE_ISR ***AWO 2 ::: RWY 16, 34 ::: Airport is not provided Ground Control Services
+
+.AWOAWOTWR .MSG ZSE_ISR ***AWO 2 ::: Hybrid ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 128.5
+
+.AWOAWODEP .MSG ZSE_ISR ***AWO 2 ::: Hybrid ::: CVS   issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 2k ::: Vector to assigned route
+
+.AWOAWOCTR .MSG ZSE_ISR ***AWO 2 ::: CRZ-5min(Listed) ::: TopAlt 2k
+
+.TCRAFTAWOAWO Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTAWOAWOU Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; BDN AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; BDN RNAV (GPS) RWY 34
+
+
+.BDNR34 .FD BDN_RNAV (GPS) RWY 34
+
+.BDNR34F .FF POCIT HARBU NALOE CODAY GUPYE FEDKU CELVA DSD
+
+
+
+
+
+
+
+
+; BDN RNAV (GPS) Y RWY 16
+
+
+.BDNRY6 .FD BDN_RNAV (GPS) Y RWY 16
+
+.BDNRY6F .FF DUMMP HERBS HORRN BOTTL EENIE TABSE SNOKY FOSNI DSD FOGIV COMEK HONDU HITUP WOTLO HATMO
+
+
+
+
+
+
+
+
+; BDN RNAV (GPS) Z RWY 16
+
+
+.BDNRZ6 .FD BDN_RNAV (GPS) Z RWY 16
+
+.BDNRZ6F .FF HERBS FOMBO DSD HEKIL JOGON SAKKO
+
+
+
+
+
+
+
+
+; BDN VOR/DME RWY 16
+
+
+.BDNF16 .FD BDN_VOR/DME RWY 16
+
+.BDNF16F .FF DUMMP HERBS HORRN BOTTL EENIE TABSE SNOKY FOSNI DSD JESAV HANIX
+
+
+
+
+
+
+
+
+; BDN BDN
+
+
+.BDNBDN .FD BDN_BDN
+
+.BDNBDNDEL .MSG ZSE_ISR ***BDN 1 ::: ODP ::: RWY 16, 34 :::  ::: Maint MEA for route of flight ::: CRZ-5min(Not-Listed) ::: DEP FREQ 126.15
+
+.BDNBDNGND .MSG ZSE_ISR ***BDN 1 ::: RWY 16, 34 ::: Airport is not provided Ground Control Services
+
+.BDNBDNTWR .MSG ZSE_ISR ***BDN 1 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.15
+
+.BDNBDNDEP .MSG ZSE_ISR ***BDN 1 ::: ODP ::: Maint MEA for route of flight issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold over DSD until AOA MEA for route of flight)
+
+.BDNBDNCTR .MSG ZSE_ISR ***BDN 1 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTBDNBDN Cleared to $arr. Depart via the BDN1 Obstacle Departure Procedure. $route. Maintain MEA for route of flight. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTBDNBDNU Cleared to $arr. Depart via the BDN1 Obstacle Departure Procedure. $route. Maintain MEA for route of flight. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; BFI AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; BFI ILS RWY 14R
+
+
+.BFIi4R .FD BFI_ILS RWY 14R
+
+.BFIi4RF .FF ISOGE TOGAE SOTEE OCEZE BLAKO
+
+
+
+
+
+
+
+
+; BFI LOC RWY 14R
+
+
+.BFIL4R .FD BFI_LOC RWY 14R
+
+.BFIL4RF .FF ISOGE TOGAE SOTEE OCEZE BLAKO
+
+
+
+
+
+
+
+
+; BFI ILS RWY 32L
+
+
+.BFIi2L .FD BFI_ILS RWY 32L
+
+.BFIi2LF .FF LACKR DUANE LOFAL
+
+
+
+
+
+
+
+
+; BFI LOC RWY 32L
+
+
+.BFIL2L .FD BFI_LOC RWY 32L
+
+.BFIL2LF .FF LACKR DUANE LOFAL
+
+
+
+
+
+
+
+
+; BFI RNAV (RNP) Z RWY 14R
+
+
+.BFIRZ4R .FD BFI_RNAV (RNP) Z RWY 14R
+
+.BFIRZ4RF .FF LOFAL ZUVEN FOGUL JUGOK JAMRO COMMB ORABE OCEZE BLAKO
+
+
+
+
+
+
+
+
+; BFI RNAV (GPS) Y RWY 14R
+
+
+.BFIRY4R .FD BFI_RNAV (GPS) Y RWY 14R
+
+.BFIRY4RF .FF LOFAL PAE ZUVEN JUGOK FISEN ZAGRO OCEZE BLAKO
+
+
+
+
+
+
+
+
+; BFI HARBOR VISUAL RWY 14R
+
+
+.BFIVH .FD BFI_HARBOR VISUAL RWY 14R
+
+
+
+
+
+
+
+
+; BFI NRVNA
+
+
+.BFINRVNA .FD BFI_NRVNA
+
+.BFINRVNADEL .MSG ZSE_ISR *** NRVNA 1 ::: RNAV-Hybrid ::: RWY 14R  ::: CVS  ::: CRZ-3min(Listed) ::: DEP FREQ 119.2
+
+.BFINRVNAGND .MSG ZSE_ISR *** NRVNA 1 ::: RWY 14R
+
+.BFINRVNATWR .MSG ZSE_ISR *** NRVNA 1 ::: RNAV-Hybrid ::: DEP FREQ 119.2
+
+.BFINRVNADEP .MSG ZSE_ISR *** NRVNA 1 ::: RNAV-Hybrid ::: CVS issued by DEL ::: CRZ-3min(Listed) ::: TopAlt 2k ::: Assign 15k or filed alt. After NRVNA vector to assigned route
+
+.BFINRVNACTR .MSG ZSE_ISR *** NRVNA 1 ::: CRZ-3min(Listed) ::: TopAlt 2k
+
+.TCRAFTBFINRVNA Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTBFINRVNAU Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; BFI CBAIN
+
+
+.BFICBAIN .FD BFI_CBAIN
+
+.BFICBAINDEL .MSG ZSE_ISR *** CBAIN 1 ::: RNAV-Hybrid ::: RWY 32L ::: CVS ::: CRZ-3min(Listed) ::: DEP FREQ 119.2
+
+.BFICBAINGND .MSG ZSE_ISR *** CBAIN 1 ::: RWY 32L
+
+.BFICBAINTWR .MSG ZSE_ISR *** CBAIN 1 ::: RNAV-Hybrid ::: DEP FREQ 119.2
+
+.BFICBAINDEP .MSG ZSE_ISR *** CBAIN 1 ::: RNAV-Hybrid ::: CVS issued by DEL ::: CRZ-3min(Listed) ::: TopAlt 2.1k ::: After CBAIN vector to assigned route. Assign 15k or filed alt
+
+.BFICBAINCTR .MSG ZSE_ISR *** CBAIN 1 ::: CRZ-3min(Listed) ::: TopAlt 2.1k
+
+.TCRAFTBFICBAIN Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTBFICBAINU Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; BFI KENT
+
+
+.BFIKENT .FD BFI_KENT
+
+.BFIKENTDEL .MSG ZSE_ISR *** KENT 8 ::: Hybrid ::: RWY 14L/R ::: CVS Exct Maint 2.1k ::: CRZ-3min(Listed) ::: DEP FREQ 119.2
+
+.BFIKENTGND .MSG ZSE_ISR *** KENT 8 ::: RWY 14L/R
+
+.BFIKENTTWR .MSG ZSE_ISR *** KENT 8 ::: Hybrid ::: DEP FREQ 119.2
+
+.BFIKENTDEP .MSG ZSE_ISR *** KENT 8 ::: Hybrid ::: CVS Exct Maint 2.1k issued by DEL ::: CRZ-3min(Listed) ::: TopAlt 2k ::: After ZIGED vector to assigned route. Assign 15k or filed alt
+
+.BFIKENTCTR .MSG ZSE_ISR *** KENT 8 ::: CRZ-3min(Listed) ::: TopAlt 2k
+
+.TCRAFTBFIKENT Cleared to $arr via $route. Climb Via SID Except Maintain 2.1k. Expect $cruise 3min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTBFIKENTU Cleared to $arr via $route. Climb Via SID Except Maintain 2.1k. Expect $cruise 3min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; BFI NEEDLE
+
+
+.BFINEEDLE .FD BFI_NEEDLE
+
+.BFINEEDLEDEL .MSG ZSE_ISR *** NEEDLE 1 ::: Vectored ::: RWY 32L/R ::: CVS ::: CRZ-3min(Listed) ::: DEP FREQ 119.2
+
+.BFINEEDLEGND .MSG ZSE_ISR *** NEEDLE 1 ::: RWY 32L/R
+
+.BFINEEDLETWR .MSG ZSE_ISR *** NEEDLE 1 ::: Vectored ::: DEP FREQ 119.2
+
+.BFINEEDLEDEP .MSG ZSE_ISR *** NEEDLE 1 ::: Vectored ::: CVS issued by DEL ::: CRZ-3min(Listed) ::: TopAlt 2.1k ::: Vector to assigned route. Assign 15k or filed alt
+
+.BFINEEDLECTR .MSG ZSE_ISR *** NEEDLE 1 ::: CRZ-3min(Listed) ::: TopAlt 2.1k
+
+.TCRAFTBFINEEDLE Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTBFINEEDLEU Cleared to $arr via $route. Climb Via SID. Expect $cruise 3min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; BFI CHINS
+
+.BFICHINS .FD SEA_CHINS
+
+.BFICHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 11k 250kts, props cross @ 10k ::: BFI altim A$altim(KBFI)
+
+.BFICHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
+
+.TBFICHINSCTRN Cross RADDY at and maintain 11k and 250kts (props cross RADDY at 10k). BFI Landing North. Altimeter A$altim(KBFI)
+
+.TBFICHINSAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+
+.TBFICHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY at 10k). BFI Landing South. Altimeter A$altim(KBFI)
+
+.TBFICHINSAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+
+
+
+
+
+
+
+
+; BFI EPH
+
+
+.BFIEPH .FD SEA_EPH
+
+.BFIEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: BFI altim A$altim(KBFI)
+
+.BFIEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: BFI altim A$altim(KBFI)
+
+.TBFIEPHCTRN BFI Landing North. Altimeter A$altim(KBFI)
+
+.TBFIEPHAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+
+.TBFIEPHCTRS BFI Landing South. Altimeter A$altim(KBFI)
+
+.TBFIEPHAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+
+
+
+
+
+
+
+
+; BFI GLASR
+
+
+.BFIGLASR .FD SEA_GLASR
+
+.BFIGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Cross JAKSN @ 11k 250kts, props @ 10k ::: BFI altim A$altim(KBFI)
+
+.BFIGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: BFI altim A$altim(KBFI)
+
+.TBFIGLASRCTRS Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). BFI Landing South. Altimeter A$altim(KBFI)
+
+.TBFIGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+
+.TBFIGLASRCTRN Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). BFI Landing North. Altimeter A$altim(KBFI)
+
+.TBFIGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+
+
+
+
+
+
+
+
+; BFI JAWBN
+
+
+.BFIJAWBN .FD SEA_JAWBN
+
+.BFIJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 11k 250kts, other 10k 250kts ::: BFI altim A$altim(KBFI)
+
+.BFIJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
+
+.TBFIJAWBNCTRN Cross JAWBN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). BFI Landing North. Altimeter A$altim(KBFI)
+
+.TBFIJAWBNAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+
+.TBFIJAWBNCTRS Cross JAWBN at and maintain 11k and 250kts (non-jets cross at 10k and 250 kts). BFI Landing South. Altimeter A$altim(KBFI)
+
+.TBFIJAWBNAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+
+
+
+
+
+
+
+
+; BFI OLM
+
+
+.BFIOLM .FD SEA_OLM
+
+.BFIOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: BFI altim A$altim(KBFI)
+
+.BFIOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
+
+.TBFIOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). BFI Landing North. Altimeter A$altim(KBFI)
+
+.TBFIOLMAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+
+.TBFIOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). BFI Landing South. Altimeter A$altim(KBFI)
+
+.TBFIOLMAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; BLI AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+;BLI RNAV (RNP) Z RWY 16 
+ 
+ 
+.BLIRZ6 .FD BLI_RNAV (RNP) Z RWY 16 
+ 
+.BLIRZ6C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045rrz16.pdf#nameddest=(BLI) 
+.BLIRZ62C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIRZ63C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIRZ6F .FF TECUV APDON UCAKI CUSEL HONUV SECOG WUGUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI RNAV (RNP) Z RWY 34 
+ 
+ 
+.BLIRZ4 .FD BLI_RNAV (RNP) Z RWY 34 
+ 
+.BLIRZ4C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045rrz34.pdf#nameddest=(BLI) 
+.BLIRZ42C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIRZ43C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIRZ4F .FF IWANY TUBTY OHADO ZEJYA ISUWU UPEKE HUH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI RNAV (GPS) Y RWY 16 
+ 
+ 
+.BLIRY6 .FD BLI_RNAV (GPS) Y RWY 16 
+ 
+.BLIRY6C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045ry16.pdf#nameddest=(BLI) 
+.BLIRY62C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIRY63C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIRY6F .FF SECOG WUGUT TECUV 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI RNAV (GPS) Y RWY 34 
+ 
+ 
+.BLIRY4 .FD BLI_RNAV (GPS) Y RWY 34 
+ 
+.BLIRY4C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045ry34.pdf#nameddest=(BLI) 
+.BLIRY42C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIRY43C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIRY4F .FF IWANY BUICK ZONUV TUBTY OHADO HUH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI ILS RWY 16 
+ 
+ 
+.BLIi16 .FD BLI_ILS RWY 16 
+ 
+.BLIi16C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045il16.pdf#nameddest=(BLI) 
+.BLIi162C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIi163C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIi16F .FF SECOG WUGUT CEPUM TECUV HUH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI LOC RWY 16 
+ 
+ 
+.BLIL16 .FD BLI_LOC RWY 16 
+ 
+.BLIL16C .OPENURL https://aeronav.faa.gov/d-tpp/2101/00045il16.pdf#nameddest=(BLI) 
+.BLIL162C .OPENURL There Are No Additional Pages for This Procedure 
+.BLIL163C .OPENURL There Are No Additional Pages for This Procedure 
+ 
+.BLIL16F .FF SECOG WUGUT CEPUM TECUV HUH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI KIENO 
+ 
+ 
+.KIENO .FD BLI_KIENO 
+ 
+.KIENODEL .MSG ZSE_ISR ***KIENO 6 ::: PilotNav ::: RWY 16, 34 ::: DNHRT_CVV ::: Maint 3k ::: CRZ-10min(Listed) ::: DEP FREQ 132.7 
+ 
+.KIENOGND .MSG ZSE_ISR ***KIENO 6 ::: RWY 16, 34 :::  
+ 
+.KIENOTWR .MSG ZSE_ISR ***KIENO 6 ::: PilotNav :::  ::: DEP FREQ 132.7 
+ 
+.KIENODEP .MSG ZSE_ISR ***KIENO 6 ::: PilotNav ::: Maint 3k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Vancouver ACC handles departure radar services 
+ 
+.KIENOCTR .MSG ZSE_ISR ***KIENO 6 ::: CRZ-10min(Listed) ::: TopAlt Not Published 
+ 
+.TCRAFTKIENO Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+ 
+.TCRAFTKIENOU Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;BLI MADEE 
+ 
+ 
+.MADEE .FD BLI_MADEE 
+ 
+.MADEECTR .MSG ZSE_ISR *** MADEE 4 ::: RNAV ::: Handoff 30NM prior to CYYJ_APP airspace @ 9k ::: BLI A$altim(KBLI) 
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; BVS AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; BVS RNAV (GPS) RWY 29
+
+
+.BVSR29 .FD BVS_RNAV (GPS) RWY 29
+
+.BVSR29F .FF BARKL KIREC ENNGL OPIXE TOKSE ECARI SOCLO
+
+
+
+
+
+
+
+
+; BVS RNAV (GPS) RWY 11
+
+
+.BVSR11 .FD BVS_RNAV (GPS) RWY 11
+
+.BVSR11F .FF CANDL SOCLO ENSEW BRENN AMHER
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; CEC AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; CEC ILS RWY 12
+
+
+.CECi12 .FD CEC_ILS RWY 12
+
+.CECi12F .FF WIPOG GUKTE TAPUE HUVMA CHIDE YOBUN SLAMM YACUS
+
+
+
+
+
+
+
+
+; CEC LOC RWY 12
+
+
+.CECL12 .FD CEC_LOC RWY 12
+
+.CECL12F .FF WIPOG GUKTE TAPUE HUVMA CHIDE YOBUN SLAMM YACUS
+
+
+
+
+
+
+
+
+; CEC RNAV (GPS) RWY 12
+
+
+.CECR12 .FD CEC_RNAV (GPS) RWY 12
+
+.CECR12F .FF WIPOG CIMEL ANAJE HUVEX FURNS SLAMM CHIDE
+
+
+
+
+
+
+
+
+; CEC RNAV (GPS) RWY 36
+
+
+.CECR36 .FD CEC_RNAV (GPS) RWY 36
+
+.CECR36F .FF OLJEK CIGCA KAWIS
+
+
+
+
+
+
+
+
+; CEC VOR/DME RWY 12
+
+
+.CECF12 .FD CEC_VOR/DME RWY 12
+
+.CECF12F .FF WIPOG GUKTE TAPUE WEOB CHIDE YOBUN ROZEY FEPDU CEC
+
+
+
+
+
+
+
+
+; CEC VOR/DME RWY 36
+
+
+.CECF36 .FD CEC_VOR/DME RWY 36
+
+.CECF36F .FF ZIKNO CHIDE PICON YOGRU CEC
+
+
+
+
+
+
+
+
+; CEC VOR RWY 12
+
+
+.CECO12 .FD CEC_VOR RWY 12
+
+.CECO12F .FF CEC
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; CLM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; CLM ILS RWY 8
+
+
+.CLMi08 .FD CLM_ILS RWY 8
+
+.CLMi08F .FF TOU YUCSU HUTUK OCUVI CL JIGEB
+
+
+
+
+
+
+
+
+; CLM LOC RWY 8
+
+
+.CLML08 .FD CLM_LOC RWY 8
+
+.CLML08F .FF TOU YUCSU HUTUK OCUVI CL JIGEB
+
+
+
+
+
+
+
+
+; CLM RNAV (GPS) RWY 8
+
+
+.CLMR08 .FD CLM_RNAV (GPS) RWY 8
+
+.CLMR08F .FF YUCSU OCUVI LIGIY WATTR JIGEB
+
+
+
+
+
+
+
+
+; CLM RNAV (GPS) RWY 26
+
+
+.CLMR26 .FD CLM_RNAV (GPS) RWY 26
+
+.CLMR26F .FF WATTR JAWBN COBUX FAMUV SBTY MIDWI YUCSU
+
+
+
+
+
+
+
+
+; CLM WATTR
+
+
+.CLMWATTR .FD CLM_WATTR
+
+.CLMWATTRDEL .MSG ZSE_ISR ***WATTR 7 ::: ODP ::: RWY 8, 13, 26, 31 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 118.2
+
+.CLMWATTRGND .MSG ZSE_ISR ***WATTR 7 ::: RWY 8, 13, 26, 31 ::: Airport is not provided Ground Control Services
+
+.CLMWATTRTWR .MSG ZSE_ISR ***WATTR 7 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 118.2
+
+.CLMWATTRDEP .MSG ZSE_ISR ***WATTR 7 ::: ODP ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 5.4K ::: (Acft executing VCOA will hold over CLM until AOA 3.4k)
+
+.CLMWATTRCTR .MSG ZSE_ISR ***WATTR 7 ::: CRZ-5min(Not-Listed) ::: TopAlt 5.4K
+
+.TCRAFTCLMWATTR Cleared to $arr. Depart via the WATTR7 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTCLMWATTRU Cleared to $arr. Depart via the WATTR7 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; CLS AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; CLS RNAV (GPS) RWY 16
+
+
+.CLSR16 .FD CLS_RNAV (GPS) RWY 16
+
+.CLSR16F .FF DOCRA DUMBS OLM ZUMET MCKEN RELTE NOYID OPICO CETUV
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; COE AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; COE ILS RWY 6
+
+
+.COEi06 .FD COE_ILS RWY 6
+
+.COEi06F .FF GEG POBIY CIPUT ONUCU TIYOS COE
+
+
+
+
+
+
+
+
+; COE LOC/DME RWY 6
+
+
+.COEK06 .FD COE_LOC/DME RWY 6
+
+.COEK06F .FF GEG POBIY CIPUT ONUCU TIYOS COE
+
+
+
+
+
+
+
+
+; COE RNAV (GPS) RWY 6
+
+
+.COER06 .FD COE_RNAV (GPS) RWY 6
+
+.COER06F .FF GEG JOMRU ROPES VUNUC POBIY CIPUT CIMAL CODSA DIANN
+
+
+
+
+
+
+
+
+; COE COE
+
+
+.COECOE .FD COE_COE
+
+.COECOEDEL .MSG ZSE_ISR ***COE 2 ::: ODP ::: RWY 2, 6, 20, 24 :::  ::: CVS Exct Maint MEA for route of flight ::: CRZ-10min(Not-Listed) ::: DEP FREQ 132.1
+
+.COECOEGND .MSG ZSE_ISR ***COE 2 ::: RWY 2, 6, 20, 24 ::: Airport is not provided Ground Control Services
+
+.COECOETWR .MSG ZSE_ISR ***COE 2 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 132.1
+
+.COECOEDEP .MSG ZSE_ISR ***COE 2 ::: ODP ::: CVS Exct Maint MEA for route of flight issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft executing VCOA should hold over COE until AOA 5.3k)
+
+.COECOECTR .MSG ZSE_ISR ***COE 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTCOECOE Cleared to $arr. Depart via the COE2 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain MEA for route of flight. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTCOECOEU Cleared to $arr. Depart via the COE2 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain MEA for route of flight. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; CVO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; CVO ILS RWY 17
+
+
+.CVOi17 .FD CVO_ILS RWY 17
+
+.CVOi17F .FF BREAF ZIKDO LWG SHEDD MAGOT SL CRAAF
+
+
+
+
+
+
+
+
+; CVO LOC RWY 17
+
+
+.CVOL17 .FD CVO_LOC RWY 17
+
+.CVOL17F .FF BREAF ZIKDO LWG SHEDD MAGOT SL CRAAF
+
+
+
+
+
+
+
+
+; CVO RNAV (GPS) RWY 17
+
+
+.CVOR17 .FD CVO_RNAV (GPS) RWY 17
+
+.CVOR17F .FF CRAAF ADLOW MAGOT INNOP EBGEW ACVOL CAYJU
+
+
+
+
+
+
+
+
+; CVO RNAV (GPS) RWY 35
+
+
+.CVOR35 .FD CVO_RNAV (GPS) RWY 35
+
+.CVOR35F .FF EUG DERAY WENKA ACOTY CESDO
+
+
+
+
+
+
+
+
+; CVO VOR RWY 17
+
+
+.CVOO17 .FD CVO_VOR RWY 17
+
+.CVOO17F .FF MAGOT ADLOW CHEPO CEDNU FADDY CVO SHEDD
+
+
+
+
+
+
+
+
+; CVO VOR-A
+
+
+.CVOOA .FD CVO_VOR-A
+
+.CVOOAF .FF CVO SHEDD MAGOT ALFOR
+
+
+
+
+
+
+
+
+; CVO SHEDD
+
+
+.CVOSHEDD .FD CVO_SHEDD
+
+.CVOSHEDDDEL .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: RWY 9, 17, 27, 35 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.5
+
+.CVOSHEDDGND .MSG ZSE_ISR ***SHEDD 3 ::: RWY 9, 17, 27, 35 ::: Airport is not provided Ground Control Services
+
+.CVOSHEDDTWR .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
+
+.CVOSHEDDDEP .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 3k :::
+
+.CVOSHEDDCTR .MSG ZSE_ISR ***SHEDD 3 ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
+
+.TCRAFTCVOSHEDD Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTCVOSHEDDU Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+; CVO CVO
+
+
+.CVOCVO .FD CVO_CVO
+
+.CVOCVODEL .MSG ZSE_ISR ***CVO 2 ::: PilotNav ::: RWY 9, 17, 27, 35 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 127.5
+
+.CVOCVOGND .MSG ZSE_ISR ***CVO 2 ::: RWY 9, 17, 27, 35 ::: Airport is not provided Ground Control Services
+
+.CVOCVOTWR .MSG ZSE_ISR ***CVO 2 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
+
+.CVOCVODEP .MSG ZSE_ISR ***CVO 2 ::: PilotNav ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt 4k :::
+
+.CVOCVOCTR .MSG ZSE_ISR ***CVO 2 ::: CRZ-10min(Not-Listed) ::: TopAlt 4k
+
+.TCRAFTCVOCVO Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTCVOCVOU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. . Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; DEW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; DEW RNAV (GPS) RWY 34
+
+
+.DEWR34 .FD DEW_RNAV (GPS) RWY 34
+
+.DEWR34F .FF GEG JURSY KECCE HOKAS WUSED DIANN
+
+
+
+
+
+
+
+
+; DEW RNAV (GPS) RWY 16
+
+
+.DEWR16 .FD DEW_RNAV (GPS) RWY 16
+
+.DEWR16F .FF DIANN CABGO FANGI APODS BADKE GEG
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; DLS AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; DLS RNAV (GPS)-A
+
+
+.DLSRA .FD DLS_RNAV (GPS)-A
+
+.DLSRAF .FF KUKTE CEVBI SURDE FEDUM GOCEN HEMAB
+
+
+
+
+
+
+
+
+; DLS LDA/DME RWY 25
+
+
+.DLSA25 .FD DLS_LDA/DME RWY 25
+
+.DLSA25F .FF VECCU CITAV LIREY JIREN
+
+
+
+
+
+
+
+
+; DLS DALLS
+
+
+.DLSDALLS .FD DLS_DALLS
+
+.DLSDALLSDEL .MSG ZSE_ISR ***DALLS 1 ::: ODP ::: RWY 7, 13, 31 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 119.65
+
+.DLSDALLSGND .MSG ZSE_ISR ***DALLS 1 ::: RWY 7, 13, 31 ::: Airport is not provided Ground Control Services
+
+.DLSDALLSTWR .MSG ZSE_ISR ***DALLS 1 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 119.65
+
+.DLSDALLSDEP .MSG ZSE_ISR ***DALLS 1 ::: ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold east over LTJ until AOA MEA for route of flight)
+
+.DLSDALLSCTR .MSG ZSE_ISR ***DALLS 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTDLSDALLS Cleared to $arr. Depart via the DALLS1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTDLSDALLSU Cleared to $arr. Depart via the DALLS1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; EAT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; EAT ILS Y RWY 12
+
+
+.EATiY2 .FD EAT_ILS Y RWY 12
+
+.EATiY2F .FF WINIM YOYUG ZARLO REINO FILTU EAT QUINT
+
+
+
+
+
+
+
+
+; EAT ILS Z RWY 12
+
+
+.EATiZ2 .FD EAT_ILS Z RWY 12
+
+.EATiZ2F .FF WINIM YOYUG ZARLO EWJOR COYYA
+
+
+
+
+
+
+
+
+; EAT RNAV (RNP) RWY 12
+
+
+.EATR12 .FD EAT_RNAV (RNP) RWY 12
+
+.EATR12F .FF CASHS ZUBEX VENJU QUINT EPH JETNU WULIPP FEMAM CIRZI YUBBU JOKRU
+
+
+
+
+
+
+
+
+; EAT RNAV (RNP) RWY 30
+
+
+.EATR30 .FD EAT_RNAV (RNP) RWY 30
+
+.EATR30F .FF EAT VEDUC CORTH QUINT ZAXUL HESNI DOOGI CUKSI YURLU KULOC FEXUB
+
+
+
+
+
+
+
+
+; EAT VOR-A
+
+
+.EATOA .FD EAT_VOR-A
+
+.EATOAF .FF COYYA QUINT CRUMM CEXOS IKMIQ EAT
+
+
+
+
+
+
+
+
+; EAT VOR-B
+
+
+.EATOB .FD EAT_VOR-B
+
+.EATOBF .FF ELN FITGA WINIM CUNUR HEMOL IZROM ROSTB EAT
+
+
+
+
+
+
+
+
+; EAT OFARO
+
+
+.EATOFARO .FD EAT_OFARO
+
+.EATOFARODEL .MSG ZSE_ISR ***OFARO 2 ::: RNAV-PilotNav ::: RWY 12, 30 ::: EPH_QUINT_ZAXUL ::: Maint 5k ::: CRZ-10min(Listed) ::: DEP FREQ 126.1
+
+.EATOFAROGND .MSG ZSE_ISR ***OFARO 2 ::: RWY 12, 30 ::: Airport is not provided Ground Control Services
+
+.EATOFAROTWR .MSG ZSE_ISR ***OFARO 2 ::: RNAV-PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.1
+
+.EATOFARODEP .MSG ZSE_ISR ***OFARO 2 ::: RNAV-PilotNav ::: Maint 5k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published :::
+
+.EATOFAROCTR .MSG ZSE_ISR ***OFARO 2 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTEATOFARO Cleared to $arr.  $route. Maintain 5k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTEATOFAROU Cleared to $arr.  $route. Maintain 5k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+; EAT ZARLO
+
+
+.EATZARLO .FD EAT_ZARLO
+
+.EATZARLODEL .MSG ZSE_ISR ***ZARLO 2 ::: RNAV-PilotNav ::: RWY 12, 30 ::: GLASR_SKYKO ::: CVS Exct Maint 10k ::: CRZ-10min(Listed) ::: DEP FREQ 126.1
+
+.EATZARLOGND .MSG ZSE_ISR ***ZARLO 2 ::: RWY 12, 30 ::: Airport is not provided Ground Control Services
+
+.EATZARLOTWR .MSG ZSE_ISR ***ZARLO 2 ::: RNAV-PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.1
+
+.EATZARLODEP .MSG ZSE_ISR ***ZARLO 2 ::: RNAV-PilotNav ::: CVS Exct Maint 10k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published :::
+
+.EATZARLOCTR .MSG ZSE_ISR ***ZARLO 2 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTEATZARLO Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTEATZARLOU Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+; EAT EAT
+
+
+.EATEAT .FD EAT_EAT
+
+.EATEATDEL .MSG ZSE_ISR ***EAT 2 ::: ODP ::: RWY 12, 30 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.1
+
+.EATEATGND .MSG ZSE_ISR ***EAT 2 ::: RWY 12, 30 ::: Airport is not provided Ground Control Services
+
+.EATEATTWR .MSG ZSE_ISR ***EAT 2 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.1
+
+.EATEATDEP .MSG ZSE_ISR ***EAT 2 ::: ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold over EAT until AOA MEA for direction of flight)
+
+.EATEATCTR .MSG ZSE_ISR ***EAT 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTEATEAT Cleared to $arr. Depart via the EAT2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTEATEATU Cleared to $arr. Depart via the EAT2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; EKA AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; EKA RNAV (GPS)-B
+
+
+.EKARB .FD EKA_RNAV (GPS)-B
+
+.EKARBF .FF TUNGS FOT CIRTO SHUKS MABFI
+
+
+
+
+
+
+
+
+; EKA RNAV (GPS) RWY 12
+
+
+.EKAR12 .FD EKA_RNAV (GPS) RWY 12
+
+.EKAR12F .FF TRIAL SCUPY WAVLI XUNXO FOT
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; ELN AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; ELN VOR-B
+
+
+.ELNOB .FD ELN_VOR-B
+
+.ELNOBF .FF PIGVE ICEBE JIDES KADSE ELN MIVSE
+
+
+
+
+
+
+
+
+; ELN RNAV (GPS) RWU 29
+
+
+.ELNR29 .FD ELN_RNAV (GPS) RWU 29
+
+.ELNR29F .FF BOVYA ELIYO LARDY NELUE KITSE
+
+
+
+
+
+
+
+
+; ELN RNAV (GPS)-C
+
+
+.ELNRC .FD ELN_RNAV (GPS)-C
+
+.ELNRCF .FF BANDR BEEZR WUSVI ZOBIM COBDI FOGIG GEBTE SELAH
+
+
+
+
+
+
+
+
+; ELN VOR-A
+
+
+.ELNOA .FD ELN_VOR-A
+
+.ELNOAF .FF CETEP DACPE ECILA FEDVU GEBTE DIBPE ELN MIVSE
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; EPH AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; EPH VOR RWY 21
+
+
+.EPHO21 .FD EPH_VOR RWY 21
+
+.EPHO21F .FF WIPES WAGOB EPH PLUSS
+
+
+
+
+
+
+
+
+; EPH RNAV (GPS) RWY 3
+
+
+.EPHR03 .FD EPH_RNAV (GPS) RWY 3
+
+.EPHR03F .FF ELN DOFDO UDECU WIMBU WIGEB TICYU
+
+
+
+
+
+
+
+
+; EPH RNAV (GPS) RWY 21
+
+
+.EPHR21 .FD EPH_RNAV (GPS) RWY 21
+
+.EPHR21F .FF WIPES TICYU CIGUM UDECU
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; EUG AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; EUG ILS RWY 16L
+
+
+.EUGi6L .FD EUG_ILS RWY 16L
+
+.EUGi6LF .FF CVO SHEDD FIPMA ZUNAX SAGIN
+
+
+
+
+
+
+
+
+; EUG LOC RWY 16L
+
+
+.EUGL6L .FD EUG_LOC RWY 16L
+
+.EUGL6LF .FF CVO SHEDD FIPMA ZUNAX SAGIN HULTA
+
+
+
+
+
+
+
+
+; EUG ILS RWY 16R
+
+
+.EUGi6R .FD EUG_ILS RWY 16R
+
+.EUGi6RF .FF CVO HOCUM MACTA WENIT VAUGN
+
+
+
+
+
+
+
+
+; EUG LOC RWY 16R
+
+
+.EUGL6R .FD EUG_LOC RWY 16R
+
+.EUGL6RF .FF CVO HOCUM MACTA WENIT VAUGN
+
+
+
+
+
+
+
+
+; EUG RNAV (RNP) Z RWY 16L
+
+
+.EUGRZ6L .FD EUG_RNAV (RNP) Z RWY 16L
+
+.EUGRZ6LF .FF CVO SHEDD FIPMA VAUGN HIDJI CISOK HOVLO ZUTUR VIDAS SOVOC JUXAS CIDEM SAGIN PORIE DOYON HEMIB WENUM COLOX
+
+
+
+
+
+
+
+
+; EUG RNAV (RNP) Z RWY 16R
+
+
+.EUGRZ6R .FD EUG_RNAV (RNP) Z RWY 16R
+
+.EUGRZ6RF .FF CVO SHEDD HOCUM VAUGN SAGIN HIDJI ZARSO WASEK WODGO VIDAS YOYUT HIVAM FITOK OVOJO FIDOL TIPIE ROKBE
+
+
+
+
+
+
+
+
+; EUG RNAV (RNP) Z RWY 34R
+
+
+.EUGRZ4R .FD EUG_RNAV (RNP) Z RWY 34R
+
+.EUGRZ4RF .FF SAGIN ZUMAG SEYOK VAUGN WOLKU HABGI SHEDD YIRSU ZUBOL RORBY WORLI VIDAS ZASUK ICAVA KIKBE ALFOR
+
+
+
+
+
+
+
+
+; EUG RNAV (GPS) Y RWY 16L
+
+
+.EUGRY6L .FD EUG_RNAV (GPS) Y RWY 16L
+
+.EUGRY6LF .FF CVO SHEDD FIPMA YUKUS HULTA WELID SAGIN
+
+
+
+
+
+
+
+
+; EUG RNAV (GPS) Y RWY 16R
+
+
+.EUGRY6R .FD EUG_RNAV (GPS) Y RWY 16R
+
+.EUGRY6RF .FF CVO SHEDD HOCUM WATAL WENIT TIPIE VAUGN
+
+
+
+
+
+
+
+
+; EUG RNAV (GPS) Y RWY 34L
+
+
+.EUGRY4L .FD EUG_RNAV (GPS) Y RWY 34L
+
+.EUGRY4LF .FF DRAIN CURTI CHEEZ PEBIC VAUGN UJOKU ICACA FEKOS ZIMKE UNIYE
+
+
+
+
+
+
+
+
+; EUG RNAV (GPS) RWY 34R
+
+
+.EUGRY4R .FD EUG_RNAV (GPS) RWY 34R
+
+.EUGRY4RF .FF DRAIN CURTI CHEEZ PEBIC VAUGN NIBPI SEYOK ZOPNO ICAVA JUGIX KIKBE ALFOR
+
+
+
+
+
+
+
+
+; EUG VOR RWY 34L
+
+
+.EUGO4L .FD EUG_VOR RWY 34L
+
+.EUGO4LF .FF VAUGN SAGIN JUXIB HUSBU ERVIJ DUKKS KOAAR MAFEZ
+
+
+
+
+
+
+
+
+; EUG RNAV (RNP) Z RWY 34L
+
+
+.EUGRZ4L .FD EUG_RNAV (RNP) Z RWY 34L
+
+.EUGRZ4LF .FF DRAIN UJOKU ICACA VAUGN JURLO KEBRE ZIMKE SHEDD JALBU WUSAR ZIVLI WIRLU VIDAS ZUPON EGVEH
+
+
+
+
+
+
+
+
+; EUG EUG
+
+
+.EUGEUG .FD EUG_EUG
+
+.EUGEUGDEL .MSG ZSE_ISR *** EUG 1 ::: Vectored ::: RWY 16L/R, 34L/R ::: CVS ::: CRZ-5min(Listed) ::: DEP FREQ 119.6
+
+.EUGEUGGND .MSG ZSE_ISR *** EUG 1 ::: RWY 16L/R, 34L/R
+
+.EUGEUGTWR .MSG ZSE_ISR *** EUG 1 ::: Vectored ::: DEP FREQ 119.6
+
+.EUGEUGDEP .MSG ZSE_ISR *** EUG 1 ::: Vectored ::: CVS   issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 9k ::: Vectors to assigned route
+
+.EUGEUGCTR .MSG ZSE_ISR *** EUG 1 ::: CRZ-5min(Listed) ::: TopAlt 9k
+
+.TCRAFTEUGEUG Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTEUGEUGU Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; FHR AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; FHR NDB RWY 34
+
+
+.FHRN34 .FD FHR_NDB RWY 34
+
+.FHRN34F .FF BUICK ISLND WATTR FHR
+
+
+
+
+
+
+
+
+; FHR RNAV (GPS) RWY 34
+
+.FHRR34 .FD FHR_RNAV (GPS) RWY 34
+
+.FHRR34F .FF BUICK ISLND CVV NEPDE WATTR JVOLK DFUCA MUNVE
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; FOT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; FOT GPS RWY 29
+
+
+.FOTG29 .FD FOT_GPS RWY 29
+
+.FOTG29F .FF PLYAT DINSE YAGER SPHER JEVSY IZPUH FOT
+
+
+
+
+
+
+
+
+; FOT GPS RWY 11
+
+
+.FOTG11 .FD FOT_GPS RWY 11
+
+.FOTG11F .FF FOYTE ULINN JAYEF FOT
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; GCD AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; GCD RNAV (GPS) Z RWY 9
+
+
+.GCDRZ9 .FD GCD_RNAV (GPS) Z RWY 9
+
+.GCDRZ9F .FF JONWE WIPLO VECUC UDEYI JUVUL YERPU OXVEN
+
+
+
+
+
+
+
+
+; GCD RNAV (GPS) Y RWY 9
+
+
+.GCDRY9 .FD GCD_RNAV (GPS) Y RWY 9
+
+.GCDRY9F .FF JONWE DOWCY AKUKY YAQER WIMOL SUHRO ZABMU TERJE OXVEN
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; GEG AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; GEG ILS RWY 3
+
+
+.GEGi03 .FD GEG_ILS RWY 3
+
+.GEGi03F .FF YICUB JEGDU GEG CARUT ZONOM 
+
+
+
+
+
+
+
+
+; GEG LOC RWY 3
+
+
+.GEGL03 .FD GEG_LOC RWY 3
+
+.GEGl03F .FF YICUB JEGDU GEG CARUT ZONOM 
+
+
+
+
+
+
+
+
+; GEG ILS RWY 21
+
+
+.GEGi21 .FD GEG_ILS RWY 21
+
+.GEGi21F .FF LUCEV SIGYO GEG
+
+
+
+
+
+
+
+
+; GEG LOC RWY 21
+
+
+.GEGL21 .FD GEG_LOC RWY 21
+
+.GEGL21F .FF LUCEV SIGYO GEG
+
+
+
+
+
+
+
+
+; GEG RNAV (RNP) Z RWY 3
+
+
+.GEGRZ3 .FD GEG_RNAV (RNP) Z RWY 3
+
+.GEGRZ3F .FF JOMRU HODIX JEVPI ZOOMR GANGS ZIBOB HUNUN ATOXE ROPES CUMOG WIPRO IRLUC WEJPE OTEPE ZORIL HUPRA
+
+
+
+
+
+
+
+
+; GEG RNAV (RNP) Z RWY 8
+
+
+.GEGRZ8 .FD GEG_RNAV (RNP) Z RWY 8
+
+.GEGRZ8F .FF JOMRU WONEV ZINAG OMPIZ WOLDA ZOOMR GANGS ZANAT ATOXE ZOTAV ROPES HUBSI JILEB JUKDO WEKU HUREV JERPU OZALO
+
+
+
+
+
+
+
+
+; GEG RNAV (RNP) Z RWY 21
+
+
+.GEGRZ1 .FD GEG_RNAV (RNP) Z RWY 21
+
+.GEGRZ1F .FF ZOOMR WEGNE JIVBO OXOJO JOMRU CEBUS ROPES CUFYE CUMUR INVUW ATOXE CAHLA ZUDSI OPITY JIXEG WAVIX IRUHO GANGS
+
+
+
+
+
+
+
+
+; GEG RNAV (RNP) Z RWY 26
+
+
+.GEGRZ6 .FD GEG_RNAV (RNP) Z RWY 26
+
+.GEGRZ6F .FF JOMRU IQITO YOCUG HIPRR ROPES HITVI ATOXE UNIYA GANGS WOSAX HUKIG ZARFE KAXYU WARKI TEFXY
+
+
+
+
+
+
+
+
+; GEG RNAV (GPS) Y RWY 3
+
+
+.GEGRY3 .FD GEG_RNAV (GPS) Y RWY 3
+
+.GEGRY3F .FF ZOOMR IPANE HILIE ATOXE HUNUN CARUT ZORIL LUCEV
+
+
+
+
+
+
+
+
+; GEG RNAV (GPS) Y RWY 8
+
+
+.GEGRY8 .FD GEG_RNAV (GPS) Y RWY 8
+
+.GEGRY8F .FF ZOOMR JOLDIS WOLDA GEG JIVKA HUREV ATOXE
+
+
+
+
+
+
+
+
+; GEG RNAV (GPS) Y RWY 21
+
+
+.GEGRY1 .FD GEG_RNAV (GPS) Y RWY 21
+
+.GEGRY1F .FF ZOOMR WATRU CEMOM HILIE EPENE CEBUS SIGYO IRUHO GANGS
+
+
+
+
+
+
+
+
+; GEG RNAV (GPS) Y RWY 26
+
+
+.GEGRY6 .FD GEG_RNAV (GPS) Y RWY 26
+
+.GEGRY6F .FF CESNO HILIE FISKI OZOLA CUGEV NAXAF WIVUP CUVES GANGS
+
+
+
+
+
+
+
+
+; GEG VOR RWY 3
+
+
+.GEGO03 .FD GEG_VOR RWY 3
+
+.GEGO03F .FF EPAFY HINUB ZEGRO GEG
+
+
+
+
+
+
+
+
+; GEG RIDDLE HILL VISUAL RWY 8
+
+
+.GEGVRH .FD GEG_RIDDLE HILL VISUAL RWY 8
+
+
+
+
+
+
+
+
+; GEG GEG
+
+
+.GEGGEG .FD GEG_GEG
+
+.GEGGEGDEL .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: ALL RWYS ::: CVS ::: CRZ-10min(Listed) ::: DEP FREQ 123.75(W), 133.35(E)
+
+.GEGGEGGND .MSG ZSE_ISR *** GEG 6 ::: ALL RWYS
+
+.GEGGEGTWR .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: DEP FREQ 123.75(W), 133.35(E)
+
+.GEGGEGDEP .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: CVS issued by DEL ::: CRZ-10min(Listed) ::: TopAlt 6k ::: Vector to assigned route
+
+.GEGGEGCTR .MSG ZSE_ISR *** GEG 6 ::: CRZ-10min(Listed) ::: TopAlt 6k
+
+.TCRAFTGEGGEG Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTGEGGEGU Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; GEG ZOOMR
+
+.GEGZOOMR .FD GEG_ZOOMR
+
+.GEGZOOMRCTR .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: Cross ZOOMR @ 12k, props 10k ::: GEG altim A$altim(KGEG)
+
+.GEGZOOMRAPP .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: After GANGS vector to final ::: GEG altim A$altim(KGEG)
+
+.TGEGZOOMRCTRN Cross ZOOMR at and maintain 12k (props 10k). GEG Landing North. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRAPPN Except vectors for the ILS rwy 3 approach. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRCTRS Cross ZOOMR at and maintain 12k (props 10k). GEG Landing South. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRAPPS Expect vectors for the ILS rwy 21 approach. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRCTRE Cross ZOOMR at and maintain 12k (props 10k). GEG Landing East. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRAPPE Expect visual approach rwy 8. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRCTRW Cross ZOOMR at and maintain 12k (props 10k). GEG Landing West. Altimeter A$altim(KGEG)
+
+.TGEGZOOMRAPPW Expect visual approach rwy 26. Altimeter A$altim(KGEG)
+
+
+
+
+
+
+
+
+; GEG HILIE
+
+
+.GEGHILIE .FD GEG_HILIE
+
+.GEGHILIECTR .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Cross HILIE @ 12k, props 10k ::: GEG altim A$altim(KGEG)
+
+.GEGHILIEAPP .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Vector to final ::: GEG altim A$altim(KGEG)
+
+.TGEGHILIECTRN Cross HILIE at and maintain 12k (props cross at 10k). GEG Landing North. Altimeter A$altim(KGEG)
+
+.TGEGHILIEAPPN Except vectors for the ILS rwy 3 approach. Altimeter A$altim(KGEG)
+
+.TGEGHILIECTRS Cross HILIE at and maintain 12k (props 10k). GEG Landing South. Altimeter A$altim(KGEG)
+
+.TGEGHILIEAPPS Expect vectors for the ILS rwy 21 approach. Altimeter A$altim(KGEG)
+
+.TGEGHILIECTRE Cross HILIE at and maintain 12k (props 10k). GEG Landing East. Altimeter A$altim(KGEG)
+
+.TGEGHILIEAPPE Expect visual approach rwy 8. Altimeter A$altim(KGEG)
+
+.TGEGHILIECTRW Cross HILIE at and maintain 12k (props 10k). GEG Landing West. Altimeter A$altim(KGEG)
+
+.TGEGHILIEAPPW Expect visual approach rwy 26. Altimeter A$altim(KGEG)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; GIC AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; GIC RNAV (GPS) RWY 8
+
+
+.GICR08 .FD GIC_RNAV (GPS) RWY 8
+
+.GICR08F .FF OXLEY ZOSNO RIDIH IDAGY ZATIP AWOYO
+
+
+
+
+
+
+
+
+; GIC RNAV (GPS) RWY 26
+
+
+.GICG26 .FD GIC_RNAV (GPS) RWY 26
+
+.GICG26F .FF ZILRA RAIRE VEZAM UYINA WEDMU GEGYE FERDI
+
+
+
+
+
+
+
+
+; GIC MELLR
+
+
+.GICMELLR .FD GIC_MELLR
+
+.GICMELLRDEL .MSG ZSE_ISR ***MELLR 1 ::: RNAV-ODP ::: RWY 26 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.95
+
+.GICMELLRGND .MSG ZSE_ISR ***MELLR 1 ::: RWY 26 ::: Airport is not provided Ground Control Services
+
+.GICMELLRTWR .MSG ZSE_ISR ***MELLR 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 123.95
+
+.GICMELLRDEP .MSG ZSE_ISR ***MELLR 1 ::: RNAV-ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft SE bound on V253 will hold @ MELLR until AOA MEA)
+
+.GICMELLRCTR .MSG ZSE_ISR ***MELLR 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTGICMELLR Cleared to $arr. Depart via the MELLR1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTGICMELLRU Cleared to $arr. Depart via the MELLR1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; GRF AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; GRF ILS RWY 15
+
+
+.GRFi15 .FD GRF_ILS RWY 15
+
+.GRFi15F .FF SEA CIKRI EMOFO ZAPEB OLM
+
+
+
+
+
+
+
+
+; GRF LOC RWY 15
+
+
+.GRFL15 .FD GRF_LOC RWY 15
+
+.GRFL15F .FF SEA CIKRI EMOFO ZAPEB OLM
+
+
+
+
+
+
+
+
+; GRF RNAV (GPS) RWY 15
+
+
+.GRFR15 .FD GRF_RNAV (GPS) RWY 15
+
+.GRFR15F .FF SEA CARRO CIKRI EMOFO ZAPEB
+
+
+
+
+
+
+
+
+; GRF RNAV (GPS) RWY 33
+
+
+.GRFR33 .FD GRF_RNAV (GPS) RWY 33
+
+.GRFR33F .FF ECEKO ALDER HUMUT ETAHO UGVIF CIKRI
+
+
+
+
+
+
+
+
+; GRF GRAY (LEWIS)
+
+
+.GRFGRAY .FD GRF_GRAY
+
+.GRFGRAYDEL .MSG ZSE_ISR ***GRAY (LEWIS) 3 ::: Hybrid ::: RWY 15, 33 :::  ::: Maint 3k ::: CRZ-5min(Listed) ::: DEP FREQ 120.1
+
+.GRFGRAYGND .MSG ZSE_ISR ***GRAY (LEWIS) 3 ::: RWY 15, 33 :::
+
+.GRFGRAYTWR .MSG ZSE_ISR ***GRAY (LEWIS) 3 ::: Hybrid :::  ::: DEP FREQ 120.1
+
+.GRFGRAYDEP .MSG ZSE_ISR ***GRAY (LEWIS) 3 ::: Hybrid ::: Maint 3k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Vectors to assigned route after initial turn
+
+.GRFGRAYCTR .MSG ZSE_ISR ***GRAY (LEWIS) 3 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTGRFGRAY Cleared to $arr.  $route. Maintain 3k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTGRFGRAYU Cleared to $arr.  $route. Maintain 3k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; HIO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; HIO ILS 13R
+
+
+.HIOi3R .FD HIO_ILS 13R
+
+.HIOi3RF .FF DUCKA COUVE DOLLA JIKIM UBG DAFFI CANBY
+
+
+
+
+
+
+
+
+; HIO LOC RWY 13R
+
+
+.HIOL3R .FD HIO_LOC RWY 13R
+
+.HIOL3RF .FF DUCKA COUVE DOLLA JIKIM UBG DAFFI CANBY
+
+
+
+
+
+
+
+
+; HIO RNAV (GPS) RWY 13R
+
+
+.HIOR3R .FD HIO_RNAV (GPS) RWY 13R
+
+.HIOR3RF .FF DUCKA DAFFI COUVE DOLLA JIKIM UBG BTG
+
+
+
+
+
+
+
+
+; HIO RNAV (GPS) RWY 31L
+
+
+.HIOR1L .FD HIO_RNAV (GPS) RWY 31L
+
+.HIOR1LF .FF VANTZ ELKES HOBGU BONVE CUKIS FLOWR NNIKE MULES INTLL ZABAX DUCKA
+
+
+
+
+
+
+
+
+; HIO VOR-C
+
+
+.HIOOC .FD HIO_VOR-C
+
+.HIOOCF .FF UBG CIGOP EYODA HINTS MEMLE
+
+
+
+
+
+
+
+
+; HIO NDB-B
+
+
+.HIONB .FD HIO_NDB-B
+
+.HIONBF .FF PND UBG CANBY
+
+
+
+
+
+
+
+
+; HIO BERNI
+
+
+.HIOBERNI .FD HIO_BERNI
+
+.HIOBERNIDEL .MSG ZSE_ISR ***BERNI 3 ::: RNAV-PilotNav ::: RWY 13R, 31L ::: EASON_EUG_FAMUK_HARPR ::: Maint 4k ::: CRZ-10min(Listed) ::: DEP FREQ 126.0
+
+.HIOBERNIGND .MSG ZSE_ISR ***BERNI 3 ::: RWY 13R, 31L ::: (SE-bound)
+
+.HIOBERNITWR .MSG ZSE_ISR ***BERNI 3 ::: RNAV-PilotNav :::  ::: DEP FREQ 126.0
+
+.HIOBERNIDEP .MSG ZSE_ISR ***BERNI 3 ::: RNAV-PilotNav ::: Maint 4k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published :::
+
+.HIOBERNICTR .MSG ZSE_ISR ***BERNI 3 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTHIOBERNI Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTHIOBERNIU Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; HIO CANBY
+
+
+.HIOCANBY .FD HIO_CANBY
+
+.HIOCANBYDEL .MSG ZSE_ISR ***CANBY 2 ::: PilotNav ::: RWY ALL :::  ::: Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0
+
+.HIOCANBYGND .MSG ZSE_ISR ***CANBY 2 ::: RWY ALL :::
+
+.HIOCANBYTWR .MSG ZSE_ISR ***CANBY 2 ::: PilotNav ::: (RWYS 2,31L/R,13L/R)-(H120) __ (RWY 20)-(H100) ::: DEP FREQ 126.0
+
+.HIOCANBYDEP .MSG ZSE_ISR ***CANBY 2 ::: PilotNav ::: Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published :::
+
+.HIOCANBYCTR .MSG ZSE_ISR ***CANBY 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTHIOCANBY Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTHIOCANBYU Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; HIO CHISM
+
+
+.HIOCHISM .FD HIO_CHISM
+
+.HIOCHISMDEL .MSG ZSE_ISR ***CHISM 4 ::: RNAV-PilotNav ::: RWY 13R, 31L ::: DSD_JOGEN_IMB_PAWLI_RIELY_SMIGE ::: Maint 4k ::: CRZ-10min(Listed) ::: DEP FREQ 126.0
+
+.HIOCHISMGND .MSG ZSE_ISR ***CHISM 4 ::: RWY 13R, 31L ::: (SE-bound)
+
+.HIOCHISMTWR .MSG ZSE_ISR ***CHISM 4 ::: RNAV-PilotNav :::  ::: DEP FREQ 126.0
+
+.HIOCHISMDEP .MSG ZSE_ISR ***CHISM 4 ::: RNAV-PilotNav ::: Maint 4k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published :::
+
+.HIOCHISMCTR .MSG ZSE_ISR ***CHISM 4 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTHIOCHISM Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTHIOCHISMU Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; HIO FARM
+
+
+.HIOFARM .FD HIO_FARM
+
+.HIOFARMDEL .MSG ZSE_ISR ***FARM 7 ::: PilotNav ::: RWY ALL :::  ::: Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0
+
+.HIOFARMGND .MSG ZSE_ISR ***FARM 7 ::: RWY ALL :::
+
+.HIOFARMTWR .MSG ZSE_ISR ***FARM 7 ::: PilotNav ::: (RWYS 2,13L/R)-(H210) __ (RWYS 20,31L/R)-(H120) ::: DEP FREQ 126.0
+
+.HIOFARMDEP .MSG ZSE_ISR ***FARM 7 ::: PilotNav ::: Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published :::
+
+.HIOFARMCTR .MSG ZSE_ISR ***FARM 7 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTHIOFARM Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTHIOFARMU Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; HIO SCAPO
+
+
+.HIOSCAPO .FD HIO_SCAPO
+
+.HIOSCAPODEL .MSG ZSE_ISR ***SCAPO 7 ::: PilotNav ::: RWY ALL :::  ::: Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0 ::: Coordinate with PDX_APP. (Route crosses PDX apch corridor)
+
+.HIOSCAPOGND .MSG ZSE_ISR ***SCAPO 7 ::: RWY ALL :::
+
+.HIOSCAPOTWR .MSG ZSE_ISR ***SCAPO 7 ::: PilotNav ::: (RWYS 2,13L/R,20)-(H270) __ (RWYS 31L/R)-(H308) ::: DEP FREQ 126.0
+
+.HIOSCAPODEP .MSG ZSE_ISR ***SCAPO 7 ::: PilotNav ::: Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Be mindful. Route crosses PDX apch corridor)
+
+.HIOSCAPOCTR .MSG ZSE_ISR ***SCAPO 7 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTHIOSCAPO Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTHIOSCAPOU Cleared to $arr.  $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; HIO OCITY
+
+
+.HIOOCITY .FD HIO_OCITY
+
+.HIOOCITYCTR .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: Jets cross VANTZ @ 12k 250kts, other @ 10k 250kts ::: HIO altim A$altim(KHIO)
+
+.HIOOCITYAPP .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: After OCITY vector to final ::: HIO altim A$altim(KHIO)
+
+.THIOOCITYCTRE Cross VANTZ at and maintain 12k (props 10k) and 250kts. HIO Landing East. Altimeter A$altim(KHIO)
+.THIOOCITYCTRS Cross VANTZ at and maintain 12k (props 10k) and 250kts. HIO Landing East. Altimeter A$altim(KHIO)
+
+.THIOOCITYAPPE Expect vectors for the ILS rwy 13R approach. Altimeter A$altim(KHIO)
+.THIOOCITYAPPS Expect vectors for the ILS rwy 13R approach. Altimeter A$altim(KHIO)
+
+.THIOOCITYCTRW Cross VANTZ at and maintain 12k (props 10k) and 250kts. HIO Landing West. Altimeter A$altim(KHIO)
+.THIOOCITYCTRN Cross VANTZ at and maintain 12k (props 10k) and 250kts. HIO Landing West. Altimeter A$altim(KHIO)
+
+.THIOOCITYAPPW Expect vectors for the RNAV rwy 31L approach. Altimeter A$altim(KHIO)
+.THIOOCITYAPPN Expect vectors for the RNAV rwy 31L approach. Altimeter A$altim(KHIO)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; HQM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; HQM VOR RWY 6
+
+
+.HQMO06 .FD HQM_VOR RWY 6
+
+.HQMO06F .FF WAVLU ESIXE HQM TEKYU
+
+
+
+
+
+
+
+
+; HQM ILS RWY 24
+
+
+.HQMi24 .FD HQM_ILS RWY 24
+
+.HQMi24F .FF ZEDAT PUGIC ONPAE SOUPY ULESS COXOD LAMMB NEYDI WIMET HQM
+
+
+
+
+
+
+
+
+; HQM LOC/DME RWY 24
+
+
+.HQMK24 .FD HQM_LOC/DME RWY 24
+
+.HQMK24F .FF ZEDAT PUGIC ONPAE SOUPY ULESS COXOD LAMMB NEYDI WIMET HQM
+
+
+
+
+
+
+
+
+; HQM RNAV (GPS) RWY 6
+
+
+.HQMR06 .FD HQM_RNAV (GPS) RWY 6
+
+.HQMR06F .FF WAVLU HIGDA OZALU ZUNAD JUDSA LAMMB
+
+
+
+
+
+
+
+
+; HQM RNAV (GPS) RWY 24
+
+
+.HQMR24 .FD HQM_RNAV (GPS) RWY 24
+
+.HQMR24F .FF PUGIC ULESS SOUPY LAMMB NEYDI FODUL ZUNAD
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; HRI AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; HRI VOR-A
+
+
+.HRIOA .FD HRI_VOR-A
+
+.HRIOAF .FF CABAN PIANO PDT BAKYA HONUP MLIPS
+
+
+
+
+
+
+
+
+; HRI RNAV (GPS)-B
+
+
+.HRIRB .FD HRI_RNAV (GPS)-B
+
+.HRIRBF .FF CABAN PIANO PDT BAKYA HONUP MLIPS
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; KLS AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; KLS RNAV (GPS) RWY 12
+
+
+.KLSR12 .FD KLS_RNAV (GPS) RWY 12
+
+.KLSR12F .FF WINLO ONALS KLCUP LOATH AMAVE YAPLEX COSRA UXALE ANIGE SOWAL
+
+
+
+
+
+
+
+
+; KLS KELSO
+
+
+.KLSKELSO .FD KLS_KELSO
+
+.KLSKELSODEL .MSG ZSE_ISR ***KELSO 2 ::: RNAV-ODP ::: RWY 30 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 124.2
+
+.KLSKELSOGND .MSG ZSE_ISR ***KELSO 2 ::: RWY 30 ::: Airport is not provided Ground Control Services
+
+.KLSKELSOTWR .MSG ZSE_ISR ***KELSO 2 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.2
+
+.KLSKELSODEP .MSG ZSE_ISR ***KELSO 2 ::: RNAV-ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold @ KELNG at or below 230kts until AOA 4k)
+
+.KLSKELSOCTR .MSG ZSE_ISR ***KELSO 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTKLSKELSO Cleared to $arr. Depart via the KELSO2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTKLSKELSOU Cleared to $arr. Depart via the KELSO2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; LGD AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; LGD NDB-B
+
+
+.LGDNB .FD LGD_NDB-B
+
+.LGDNBF .FF LGD
+
+
+
+
+
+
+
+
+; LGD RNAV (GPS) RWY 16
+
+
+.LGDR16 .FD LGD_RNAV (GPS) RWY 16
+
+.LGDR16F .FF ATOKE TOLGA USOWE EGHEB LIPMY HIPVO NUDEQ
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; LKV AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; LKV RNAV (GPS) RWY 35
+
+
+.LKVR35 .FD LKV_RNAV (GPS) RWY 35
+
+.LKVR35F .FF CHOIR NUSME WIPUL EYIGO SABPO
+
+
+
+
+
+
+
+
+; LKV RNAV (GPS) RWY 17
+
+
+.LKVR17 .FD LKV_RNAV (GPS) RWY 17
+
+.LKVR17F .FF LKV FASAB ZIKEX YOCKU BEPVE EYIGO CHOIR
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; LMT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; LMT ILS RWY 32
+
+
+.LMTi32 .FD LMT_ILS RWY 32
+
+.LMTi32F .FF MUREX TULIP TAHNE MZAMA SRCUS FNGRR LMT
+
+
+
+
+
+
+
+
+; LMT LOC/DME RWY 32
+
+
+.LMTK32 .FD LMT_LOC/DME RWY 32
+
+.LMTK32F .FF MUREX TULIP TAHNE MZAMA SRCUS FNGRR LMT
+
+
+
+
+
+
+
+
+; LMT RNAV (GPS) RWY 14
+
+
+.LMTR14 .FD LMT_RNAV (GPS) RWY 14
+
+.LMTR14F .FF MIXUP SPRAG PIKYI CUTOK FOVMI HOKBI WILLK LAGYI MUREX
+
+
+
+
+
+
+
+
+; LMT RNAV (GPS) RWY 32
+
+
+.LMTR32 .FD LMT_RNAV (GPS) RWY 32
+
+.LMTR32F .FF MUREX TUPLI ZOOMI MZAMA SRCUS YUPUS FEXAV LEESR
+
+
+
+
+
+
+
+
+; LMT VOR/DME RWY 14
+
+
+.LMTF14 .FD LMT_VOR/DME RWY 14
+
+.LMTF14F .FF LEIFF NECIE MIXUP MUPEE KOTTA EYOWO ZAPUL CLEET MAFEG LMT MUREX
+
+
+
+
+
+
+
+
+; LMT TACAN RWY 14
+
+
+.LMTT14 .FD LMT_TACAN RWY 14
+
+.LMTT14F .FF LEIFF NECIE MIXUP MUPEE KOTTA EYOWO ZAPUL CLEET MAFEG LMT MUREX
+
+
+
+
+
+
+
+
+; LMT VOR/DME RWY 32
+
+
+.LMTF32 .FD LMT_VOR/DME RWY 32
+
+.LMTF32F .FF MUREX TUPLI CURVN JIDAL FEPNU HEGEX LMT FNGRR
+
+
+
+
+
+
+
+
+; LMT TACAN RWY 32
+
+
+.LMTT32 .FD LMT_TACAN RWY 32
+
+.LMTT32F .FF MUREX TUPLI CURVN JIDAL FEPNU HEGEX LMT FNGRR
+
+
+
+
+
+
+
+
+; LMT LMT
+
+
+.LMTLMT .FD LMT_LMT
+
+.LMTLMTDEL .MSG ZSE_ISR ***LMT 6 ::: Vectored ::: RWY 14, 25, 32 :::  ::: Maint 10K ::: CRZ-5min(Listed) ::: DEP FREQ 123.675
+
+.LMTLMTGND .MSG ZSE_ISR ***LMT 6 ::: RWY 14, 25, 32 :::
+
+.LMTLMTTWR .MSG ZSE_ISR ***LMT 6 ::: Vectored ::: (RWY 14)-(H141) __ (RWY 25)-(H253) __ (RWY 32)-(H321) ::: DEP FREQ 123.675
+
+.LMTLMTDEP .MSG ZSE_ISR ***LMT 6 ::: Vectored ::: Maint 10K issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Vectors to assigned route
+
+.LMTLMTCTR .MSG ZSE_ISR ***LMT 6 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTLMTLMT Cleared to $arr.  $route. Maintain 10K. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTLMTLMTU Cleared to $arr.  $route. Maintain 10K. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; LWS AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; LWS ILS RWY 26
+
+
+.LWSi26 .FD LWS_ILS RWY 26
+
+.LWSi26F .FF PIYOL ZAGIM WHELE WIXOP CUPEV MQG
+
+
+
+
+
+
+
+
+; LWS RNAV (RNP) RWY 30
+
+
+.LWSR30 .FD LWS_RNAV (RNP) RWY 30
+
+.LWSR30F .FF PUW ODTIF COSFU JETTS OFINO FERDI LEZLE FESEX OHAXI EZHUS OXLEY UDAGE LIMBY SEGHA ZEBEL ILVEC HERAG VESVY ISEKE MQG
+
+
+
+
+
+
+
+
+; LWS RNAV (RNP) Z RWY 8
+
+
+.LWSRZ8 .FD LWS_RNAV (RNP) Z RWY 8
+
+.LWSRZ8F .FF BIDDY SEVER EVOYU OZWAL CENEV FEVNI OFINO
+
+
+
+
+
+
+
+
+; LWS RNAV (RNP) Z RWY 12
+
+
+.LWSRZ12 .FD LWS_RNAV (RNP) Z RWY 12
+
+.LWSRZ12F .FF OFINO MQG FOWBO WANEY TIZHO HILUR JENAS PUW BIDDY FOJJO HOBOP NILDE ONLAW IYTAM VOSKY EVHOG
+
+
+
+
+
+
+
+
+; LWS RNAV (RNP) Z RWY 26
+
+
+.LWSRZ26 .FD LWS_RNAV (RNP) Z RWY 26
+
+.LWSRZ26F .FF OFINO FERDI NEKTE HORET CUBLU CENEV SEVER
+
+
+
+
+
+
+
+
+; LWS RNAV (GPS) Y RWY 8
+
+
+.LWSRY8 .FD LWS_RNAV (GPS) Y RWY 8
+
+.LWSRY8F .FF BIDDY EVOYU MABIZ GIYES WERAS HOSOV PETEZ PIYOL WESEV
+
+
+
+
+
+
+
+
+; LWS RNAV (GPS) Y RWY 12
+
+
+.LWSRY12 .FD LWS_RNAV (GPS) Y RWY 12
+
+.LWSRY12F .FF PUW LEKIC COKEB JUGON DIPBA PETEZ
+
+
+
+
+
+
+
+
+; LWS RNAV (GPS) Y RWY 26
+
+
+.LWSRY26 .FD LWS_RNAV (GPS) Y RWY 26
+
+.LWSRY26F .FF PETEZ ZATIP SAKME HENVO FONDA JANIG GAGGO GIYES SEVER
+
+
+
+
+
+
+
+
+; LWS POTOR
+
+
+.LWSPOTOR .FD LWS_POTOR
+
+.LWSPOTORDEL .MSG ZSE_ISR ***POTOR 2 ::: PilotNav ::: RWY 8, 12, 26, 30 ::: CLOVA_PUW ::: CVS Exct Maint 8k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.95
+
+.LWSPOTORGND .MSG ZSE_ISR ***POTOR 2 ::: RWY 8, 12, 26, 30 :::
+
+.LWSPOTORTWR .MSG ZSE_ISR ***POTOR 2 ::: PilotNav ::: (RWY 8, 12)-(H290) __ (RWY 26, 30)-(H200) ::: DEP FREQ 123.95
+
+.LWSPOTORDEP .MSG ZSE_ISR ***POTOR 2 ::: PilotNav ::: CVS Exct Maint 8k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published :::
+
+.LWSPOTORCTR .MSG ZSE_ISR ***POTOR 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTLWSPOTOR Cleared to $arr.  $route. Climb Via SID Except Maintain 8k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTLWSPOTORU Cleared to $arr.  $route. Climb Via SID Except Maintain 8k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; MFR AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; MFR ILS RWY 14
+
+
+.MFRi14 .FD MFR_ILS RWY 14
+
+.MFRi14F .FF SAMIE FISTA AMASE OSSAJ PUMIE JILOK OED
+
+
+
+
+
+
+
+
+; MFR LOC RWY 14
+
+
+.MFRL14 .FD MFR_LOC RWY 14
+
+.MFRL14F .FF SAMIE FISTA AMASE OSSAJ PUMIE JILOK OED
+
+
+
+
+
+
+
+
+; MFR RNAV (RNP) RWY 32
+
+
+.MFRR32 .FD MFR_RNAV (RNP) RWY 32
+
+.MFRR32F .FF SAMIE RURTE ZIDAX WONIG PUNRE ACLOB KUSNE INITY BAYTS OMACO ZUNAS NIGEE IPAGY HIDVO FILPU ERBAW CUNBA SUYRU TULNE CUTTR
+
+
+
+
+
+
+
+
+; MFR RNAV (RNP) Z RWY 14
+
+
+.MFRRZ4 .FD MFR_RNAV (RNP) Z RWY 14
+
+.MFRRZ4F .FF PAPLE JIVIT HOMAB ODSTO SAMIE FISTA AMASE LANKS WOTSU YIDUG OSSAJ ZOPRA WEMOM CUBUB TALEM HUBUX HORUG CUTTR
+
+
+
+
+
+
+
+
+; MFR RNAV (GPS) Y RWY 14
+
+
+.MFRRY4 .FD MFR_RNAV (GPS) Y RWY 14
+
+.MFRRY4F .FF SAMIE FISTA AMASE OSSAJ JUROD SAMIE
+
+
+
+
+
+
+
+
+; MFR RNAV (GPS)-D
+
+
+.MFRRD .FD MFR_RNAV (GPS)-D
+
+.MFRRDF .FF FJS ROMAE BRKET GOLLD HURLO CEGAN CONLI OED
+
+
+
+
+
+
+
+
+; MFR VOR/DME RWY 14
+
+
+.MFRF14 .FD MFR_VOR/DME RWY 14
+
+.MFRF14F .FF OLECY UZEHE BROKN LANKS UPONE ORNEQ OED JAGEN
+
+
+
+
+
+
+
+
+ ; MFR VOR/DME-C
+
+
+.MFRFC .FD MFR_VOR/DME-C
+
+.MFRFCF .FF CONLI ROMAE BRKET CEGAN SERTE GOLLD HURLO HALAK OED
+
+
+
+
+
+
+
+
+; MFR VOA-A
+
+
+.MFROA .FD MFR_VOA-A
+
+.MFROAF .FF OED
+
+
+
+
+
+
+
+
+; MFR BRUTE
+
+
+.MFRBRUTE .FD MFR_BRUTE
+
+.MFRBRUTEDEL .MSG ZSE_ISR ***BRUTE 7 ::: PilotNav ::: RWY 14, 32 ::: COPPO_CUTTR_DREWS_GRENA_HANDY_LANKS_MOURN_TALEM_UZEHE ::: CVS Exct Maint 10k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 124.3
+
+.MFRBRUTEGND .MSG ZSE_ISR ***BRUTE 7 ::: RWY 14, 32 :::
+
+.MFRBRUTETWR .MSG ZSE_ISR ***BRUTE 7 ::: PilotNav ::: (RWY 14)-(Rht turn dct MEF) __ (RWY 32)-(H060) ::: DEP FREQ 124.3
+
+.MFRBRUTEDEP .MSG ZSE_ISR ***BRUTE 7 ::: PilotNav ::: CVS Exct Maint 10k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt 11k ::: (Acft will fly OED 15 DME arc)
+
+.MFRBRUTECTR .MSG ZSE_ISR ***BRUTE 7 ::: CRZ-10min(Not-Listed) ::: TopAlt 11k
+
+.TCRAFTMFRBRUTE Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTMFRBRUTEU Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; MFR EAGLE
+
+
+.MFREAGLE .FD MFR_EAGLE
+
+.MFREAGLEDEL .MSG ZSE_ISR ***EAGLE 6 ::: Hybrid ::: RWY 32 :::  ::: CVS Exct Maint 10k ::: CRZ-5min(Listed) ::: DEP FREQ 124.3
+
+.MFREAGLEGND .MSG ZSE_ISR ***EAGLE 6 ::: RWY 32 :::
+
+.MFREAGLETWR .MSG ZSE_ISR ***EAGLE 6 ::: Hybrid ::: (H323) ::: DEP FREQ 124.3
+
+.MFREAGLEDEP .MSG ZSE_ISR ***EAGLE 6 ::: Hybrid ::: CVS Exct Maint 10k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 11k ::: (Acft on H323 until AOA 1700, then rht H015). Vectors to assigned route
+
+.MFREAGLECTR .MSG ZSE_ISR ***EAGLE 6 ::: CRZ-5min(Listed) ::: TopAlt 11k
+
+.TCRAFTMFREAGLE Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTMFREAGLEU Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; MFR GNATS
+
+
+.MFRGNATS .FD MFR_GNATS
+
+.MFRGNATSDEL .MSG ZSE_ISR ***GNATS 7 ::: PilotNav ::: RWY 14, 32 ::: COPPO_DREWS_HANDY_KOLER_MOURN_TALEM ::: Maint 10k(rwy 14) CVS Exct Maint 10k(rwy 32) ::: CRZ-10min(Not-Listed) ::: DEP FREQ 124.3
+
+.MFRGNATSGND .MSG ZSE_ISR ***GNATS 7 ::: RWY 14, 32 :::
+
+.MFRGNATSTWR .MSG ZSE_ISR ***GNATS 7 ::: PilotNav ::: (RWY 14)-(rht H350) __ (RWY 32)-(H323) ::: DEP FREQ 124.3
+
+.MFRGNATSDEP .MSG ZSE_ISR ***GNATS 7 ::: PilotNav ::: Maint(rwy 14) / CVS Exct Maint(rwy 32) 10k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt 11k ::: (Acft will fly CCW OED 15 arc)
+
+.MFRGNATSCTR .MSG ZSE_ISR ***GNATS 7 ::: CRZ-10min(Not-Listed) ::: TopAlt 11k
+
+.TCRAFTMFRGNATS14 Cleared to $arr.  $route. Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTMFRGNATSU14 Cleared to $arr.  $route. Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TCRAFTMFRGNATS32 Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTMFRGNATSU32 Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; MFR JKSN
+
+
+.MFRJKSN .FD MFR_JKSN
+
+.MFRJKSNDEL .MSG ZSE_ISR ***JKSN 1 ::: PilotNav ::: RWY 14, 32 :::  ::: Maint 10k(rwy 14) CVS Exct Maint 10k(rwy 32) ::: CRZ-10min(Not-Listed) ::: DEP FREQ 124.3
+
+.MFRJKSNGND .MSG ZSE_ISR ***JKSN 1 ::: RWY 14, 32 :::
+
+.MFRJKSNTWR .MSG ZSE_ISR ***JKSN 1 ::: PilotNav ::: (RWY 14)-(H143) __ (RWY 32)-(H323) ::: DEP FREQ 124.3
+
+.MFRJKSNDEP .MSG ZSE_ISR ***JKSN 1 ::: PilotNav ::: Maint(rwy 14) / CVS Exct Maint(rwy 32) 10k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold @ OED until AOA MEA/MCA for drctn of flt)
+
+.MFRJKSNCTR .MSG ZSE_ISR ***JKSN 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTMFRJKSN14 Cleared to $arr.  $route. Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. .
+
+.TCRAFTMFRJKSNU14 Cleared to $arr.  $route. Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. .
+
+.TCRAFTMFRJKSN32 Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. .
+
+.TCRAFTMFRJKSNU32 Cleared to $arr.  $route. Climb Via SID Except Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. .
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; MMV AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; MMV VOR/DME-B
+
+
+.MMVFB .FD MMV_VOR/DME-B
+
+.MMVFBF .FF COGOK OBDAE BERNI HIXUR MABEZ
+
+
+
+
+
+
+
+
+; MMV ILS RWY 22
+
+
+.MMVi22 .FD MMV_ILS RWY 22
+
+.MMVi22F .FF BTG TOCBU OZIER RAWER UNECE LIYEV LUSEY
+
+
+
+
+
+
+
+
+; MMV LOC RWY 22
+
+
+.MMVL22 .FD MMV_LOC RWY 22
+
+.MMVL22F .FF BTG TOCBU OZIER RAWER UNECE LIYEV LUSEY
+
+
+
+
+
+
+
+
+; MMV RNAV (GPS) RWY 4
+
+
+.MMVR04 .FD MMV_RNAV (GPS) RWY 4
+
+.MMVR04F .FF CRAAF TIYOT PUCIV RIGOE JODVI VESYU
+
+
+
+
+
+
+
+
+; MMV RNAV (GPS) RWY 22
+
+
+.MMVR22 .FD MMV_RNAV (GPS) RWY 22
+
+.MMVR22F .FF BTG TOCBU RAWER OZIER UNECE LIYEV KIGKE OVUGE PUCIV
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; MWH AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; MWH ILS RWY 32R
+
+
+.MWHi32R .FD MWH_ILS RWY 32R
+
+.MWHi32RF .FF WIPES EPH BATUM QUINT PLUSS RUBEL MW
+
+
+
+
+
+
+
+
+; MWH LOC RWY 32R
+
+
+.MWHL32R .FD MWH_LOC RWY 32R
+
+.MWHL32RF .FF WIPES EPH BATUM QUINT PLUSS RUBEL MW
+
+
+
+
+
+
+
+
+; MWH RNAV (RNP) Z RWY 4
+
+
+.MWHRZ4 .FD MWH_RNAV (RNP) Z RWY 4
+
+.MWHRZ4F .FF EDSEW RUBEL ZIRVO WESKO JUSMI UBGUY YELLUG WIPES
+
+
+
+
+
+
+
+
+; MWH RNAV (RNP) Z RWY 14L
+
+
+.MWHRZ4L .FD MWH_RNAV (RNP) Z RWY 14L
+
+.MWHRZ4LF .FF WIPES WOXOL HUGTI SUGSE WEXAG ZITNI LACIP JOMPU HODPA JIDAG WOTKU BATUM
+
+
+
+
+
+
+
+
+; MWH RNAV (RNP) Z RWY 22
+
+
+.MWHRZ22 .FD MWH_RNAV (RNP) Z RWY 22
+
+.MWHRZ22F .FF EPH YERUD SUBDY MALEE OPMIE IPROF ONPIC
+
+
+
+
+
+
+
+
+; MWH RNAV (RNP) Z RWY 32R
+
+
+.MWHRZ32R .FD MWH_RNAV (RNP) Z RWY 32R
+
+.MWHRZ32RF .FF SUBDY WIDKO COYYA PLUSS CUSPI FEBUS JIBOD ZONOK IWKID HIXOS ZOBLI ZETEK ZAVYO FORWY WEPMO BATUM
+
+
+
+
+
+
+
+
+; MWH RNAV (GPS) Y RWY 4
+
+
+.MWHRY4 .FD MWH_RNAV (GPS) Y RWY 4
+
+.MWHRY4F .FF EDSEW RUBEL ONPIC UBGUY ZOBEM YELUG WIPES
+
+
+
+
+
+
+
+
+; MWH RNAV (GPS) Y RWY 14L
+
+
+.MWHRY4L .FD MWH_RNAV (GPS) Y RWY 14L
+
+.MWHRY4LF .FF QUINT WIPES JUKRI ILARE VIMFY HEBDI UPBOB
+
+
+
+
+
+
+
+
+; MWH RNAV (GPS) Y RWY 22
+
+
+.MWHRY22 .FD MWH_RNAV (GPS) RWY 22
+
+.MWHRY22F .FF EPH SUBDY MALEE IPROF EVUCU ONPIC
+
+
+
+
+
+
+
+
+; MWH RNAV (GPS) Y RWY 32R
+
+
+.MWHRY3R .FD MWH_RNAV (GPS) Y RWY 32R
+
+.MWHRY3RF .FF SUBDY YUNUV FEBUS PEWYE ODECE UPBOB IWKID ZAVYO UKMEZ JUKRI
+
+
+
+
+
+
+
+
+; MWH VOR RWY 4
+
+
+.MWHO4 .FD MWH_VOR RWY 4
+
+.MWHO4F .FF TAUNT BATUM
+
+
+
+
+
+
+
+
+; MWH VOR RWY 22
+
+
+.MWHO22 .FD MWH_VOR RWY 22
+
+.MWHO22F .FF YOYOS BATUM
+
+
+
+
+
+
+
+
+; MWH VOR RWY 32R
+
+
+.MWHO3R .FD MWH_VOR RWY 32R
+
+.MWHO3RF .FF MW BATUM WIPES
+
+
+
+
+
+
+
+
+; MWH VOR-1 RWY 14L
+
+
+.MWHO14L .FD MWH_VOR-1 RWY 14L
+
+.MWHO14LF .FF EPH HABBI BATUM
+
+
+
+
+
+
+
+
+; MWH VOR-3 RWY 14L
+
+
+.MWHO34L .FD MWH_VOR-3 RWY 14L
+
+.MWHO34LF .FF SOAP MWH BATUM
+
+
+
+
+
+
+
+
+; MWH NDB RWY 32R
+
+
+.MWHN3R .FD MWH_NDB RWY 32R
+
+.MWHN3RF .FF WIPES QUINT RUBEL PLUSS MW BATUM
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; NOW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; NOW COPTER NDB 242
+
+
+.NOWN .FD NOW_COPTER NDB 242
+
+.NOWNF .FF NOW
+
+
+
+
+
+
+
+
+; NOW COPTER RNAV (GPS) RWY 26
+
+
+.NOWR26 .FD NOW_COPTER RNAV (GPS) RWY 26
+
+.NOWR26F .FF KACNE GOLTE
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; NUW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; NUW ILS RWY 14
+
+
+.NUWi14 .FD NUW_ILS RWY 14
+
+.NUWi14F .FF CVV SOBEE LETEC ZONGU MEVRE
+
+
+
+
+
+
+
+
+; NUW LOC/DME RWY 14
+
+
+.NUWK14 .FD NUW_LOC/DME RWY 14
+
+.NUWK14F .FF CVV SOBEE LETEC ZONGU MEVRE
+
+
+
+
+
+
+
+
+; NUW RNAV (GPS) RWY 7
+
+
+.NUWR07 .FD NUW_RNAV (GPS) RWY 7
+
+.NUWR07F .FF ORCUS OMRAE ZATAX KASEY
+
+
+
+
+
+
+
+
+; NUW RNAV (GPS) RWY 14
+
+
+.NUWR14 .FD NUW_RNAV (GPS) RWY 14
+
+.NUWR14F .FF SOBEE ZONGU FIDPO WADPA
+
+
+
+
+
+
+
+
+; NUW RNAV (GPS) RWY 25
+
+
+.NUWR25 .FD NUW_RNAV (GPS) RWY 25
+
+.NUWR25F .FF BOCAT HIGET PEMRE TOTKE TOCUY NEDOE
+
+
+
+
+
+
+
+
+; NUW RNAV (GPS) RWY 32
+
+
+.NUWR32 .FD NUW_RNAV (GPS) RWY 32
+
+.NUWR32F .FF NICIT UREAL LATRE JVOLK
+
+
+
+
+
+
+
+
+; NUW TACAN RWY 7
+
+
+.NUWT07 .FD NUW_TACAN RWY 7
+
+.NUWT07F .FF KASEY KAMLE KOYED JOGIP JAVTO NUW
+
+
+
+
+
+
+
+
+; NUW TACAN RWY 14
+
+
+.NUWT14 .FD NUW_TACAN RWY 14
+
+.NUWT14F .FF LUPEZ WETLI ELLEK FAXUT JOVPO CANUN NUW
+
+
+
+
+
+
+
+
+; NUW TACAN RWY 25
+
+
+.NUWT25 .FD NUW_TACAN RWY 25
+
+.NUWT25F .FF KASEY MIGLE LEDY KIGVE NEDOE NUW
+
+
+
+
+
+
+
+
+; NUW TACAN RWY 32
+
+
+.NUWT32 .FD NUW_TACAN RWY 32
+
+.NUWT32F .FF KASEY CANUN MANKE NAVOE LUPEZ NUW
+
+
+
+
+
+
+
+
+; NUW CVV
+
+
+.NUWCVV .FD NUW_CVV
+
+.NUWCVVF .FF CVV DIGGN PAE
+
+.NUWCVVDEL .MSG ZSE_ISR ***CVV 5 ::: Hybrid ::: RWY 25 ::: DIGGN_PAE ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 120.7(E), 118.2(W)
+
+.NUWCVVGND .MSG ZSE_ISR ***CVV 5 ::: RWY 25 :::
+
+.NUWCVVTWR .MSG ZSE_ISR ***CVV 5 ::: Hybrid ::: (Acft will fly H249 until AOA 900 then will make left turn) ::: DEP FREQ 120.7(E), 118.2(W)
+
+.NUWCVVDEP .MSG ZSE_ISR ***CVV 5 ::: Hybrid ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: If not on a transition, vector to assigned route after CVV (acft will fly H158 after CVV until vectors given)
+
+.NUWCVVCTR .MSG ZSE_ISR ***CVV 5 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTNUWCVV Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTNUWCVVU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; NUW NASWI
+
+
+.NUWNASWI .FD NUW_NASWI
+
+.NUWNASWIF .FF NUW CVV
+
+.NUWNASWIDEL .MSG ZSE_ISR ***NASWI 2 ::: ODP ::: RWY ALL ::: N ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 120.7(E), 118.2(W)
+
+.NUWNASWIGND .MSG ZSE_ISR ***NASWI 2 ::: RWY ALL ::: (DP instructions are different for military and civil acft)
+
+.NUWNASWITWR .MSG ZSE_ISR ***NASWI 2 ::: ODP ::: (DP instructions are different for military vs civil acft) ::: DEP FREQ 120.7(E), 118.2(W)
+
+.NUWNASWIDEP .MSG ZSE_ISR ***NASWI 2 ::: ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: Vector to assigned route
+
+.NUWNASWICTR .MSG ZSE_ISR ***NASWI 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTNUWNASWI Cleared to $arr. Depart via the NASWI2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTNUWNASWIU Cleared to $arr. Depart via the NASWI2 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; O46 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; O46 RNAV (GPS) RWY 14
+
+
+.O46R14 .FD O46_RNAV (GPS) RWY 14
+
+.O46R14F .FF KLAMA FOBRO HIVEG EHPUG GRENA DIMGE CANKI ZIXIB ISAVE
+
+
+
+
+
+
+
+
+; O46 FOBRO
+
+
+.O46FOBRO .FD O46_FOBRO
+
+.O46FOBROF .FF DIMGE FOBRO
+
+.O46FOBRODEL .MSG ZSE_ISR ***FOBRO 1 ::: RNAV-ODP ::: RWY 32 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 124.85
+
+.O46FOBROGND .MSG ZSE_ISR ***FOBRO 1 ::: RWY 32 ::: Airport is not provided Ground Control Services
+
+.O46FOBROTWR .MSG ZSE_ISR ***FOBRO 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.85
+
+.O46FOBRODEP .MSG ZSE_ISR ***FOBRO 1 ::: RNAV-ODP ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published :::
+
+.O46FOBROCTR .MSG ZSE_ISR ***FOBRO 1 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTO46FOBRO Cleared to $arr. Depart via the FOBRO1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTO46FOBROU Cleared to $arr. Depart via the FOBRO1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; OKH AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; OKH RNAV (GPS) RWY 7
+
+
+.OKHR07 .FD OKH_RNAV (GPS) RWY 7
+
+.OKHR07F .FF ICILA ISLND ORCUS LUCRI WATTR JEKPO VUCUS CVV
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; OLM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; OLM ILS RWY 17
+
+
+.OLMi17 .FD OLM_ILS RWY 17
+
+.OLMi17F .FF HOOME YIYSU OPOYU CETRA
+
+
+
+
+
+
+
+
+; OLM LOC RWY 17
+
+
+.OLML17 .FD OLM_LOC RWY 17
+
+.OLML17F .FF HOOME YIYSU OPOYU CETRA
+
+
+
+
+
+
+
+
+; OLM RNAV (GPS) RWY 17
+
+
+.OLMR17 .FD OLM_RNAV (GPS) RWY 17
+
+.OLMR17F .FF WONKU CARRO SEA HOGVU BOSTO OPOYU CORER CETRA
+
+
+
+
+
+
+
+
+; OLM RNAV (GPS) RWY 35
+
+
+.OLMR35 .FD OLM_RNAV (GPS) RWY 35
+
+.OLMR35F .FF RINDS TONNO CETRA CORER BOSTO
+
+
+
+
+
+
+
+
+; OLM VOR RWY 35
+
+
+.OLMO35 .FD OLM_VOR RWY 35
+
+.OLMO35F .FF MCKEN HOKBO JOGLU OZEYO SCOOT COYAS OLM ZAVIT
+
+
+
+
+
+
+
+
+; OLM VOR-A
+
+
+.OLMOA .FD OLM_VOR-A
+
+.OLMOAF .FF HABOR ZIMBU OLM
+
+
+
+
+
+
+
+
+; OLM YELM
+
+
+.OLMYELM .FD OLM_YELM
+
+.OLMYELMDEL .MSG ZSE_ISR ***YELM 5 ::: Vectored ::: RWY 17, 35 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 121.1
+
+.OLMYELMGND .MSG ZSE_ISR ***YELM 5 ::: RWY 17, 35 :::
+
+.OLMYELMTWR .MSG ZSE_ISR ***YELM 5 ::: Vectored ::: (RWY 17)-(Rht H060) __ (RWY 35)-(Lft H064) ::: DEP FREQ 121.1
+
+.OLMYELMDEP .MSG ZSE_ISR ***YELM 5 ::: Vectored ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt 3k ::: Vectors on course
+
+.OLMYELMCTR .MSG ZSE_ISR ***YELM 5 ::: CRZ-10min(Not-Listed) ::: TopAlt 3k
+
+.TCRAFTOLMYELM Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTOLMYELMU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; OMK AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; OMK GPS RWY 35
+
+
+.OMKG35 .FD OMK_GPS RWY 35
+
+.OMKG35F .FF EPH PAWYO ETORY WAYWE
+
+
+
+
+
+
+
+
+; OMK GETNG
+
+
+.OMKGETNG .FD OMK_GETNG
+
+.OMKGETNGDEL .MSG ZSE_ISR ***GETNG 1 ::: RNAV-ODP ::: RWY 17 :::  ::: CVS Exct Maint 6k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 126.1
+
+.OMKGETNGGND .MSG ZSE_ISR ***GETNG 1 ::: RWY 17 ::: Airport is not provided Ground Control Services
+
+.OMKGETNGTWR .MSG ZSE_ISR ***GETNG 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.1
+
+.OMKGETNGDEP .MSG ZSE_ISR ***GETNG 1 ::: RNAV-ODP ::: CVS Exct Maint 6k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published :::
+
+.OMKGETNGCTR .MSG ZSE_ISR ***GETNG 1 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTOMKGETNG Cleared to $arr. Depart via the GETNG1 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 6k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTOMKGETNGU Cleared to $arr. Depart via the GETNG1 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 6k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; ONP AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; ONP ILS RWY 16
+
+
+.ONPi16 .FD ONP_ILS RWY 16
+
+.ONPi16F .FF CUTEL LANKE BOLIR BUHRS WUKON ONP
+
+
+
+
+
+
+
+
+; ONP LOC RWY 16
+
+
+.ONPL16 .FD ONP_LOC RWY 16
+
+.ONPL16F .FF CUTEL LANKE BOLIR BUHRS WUKON ONP
+
+
+
+
+
+
+
+
+; ONP RNAV (GPS) RWY 16
+
+
+.ONPR16 .FD ONP_RNAV (GPS) RWY 16
+
+.ONPR16F .FF LANKE DOYER CUTEL BOLIR BUHRS CALAX
+
+
+
+
+
+
+
+
+; ONP RNAV (GPS) RWY 34
+
+
+.ONPR34 .FD ONP_RNAV (GPS) RWY 34
+
+.ONPR34F .FF BOSVE TULBE WILIK JONLA AVAVE
+
+
+
+
+
+
+
+
+; ONP VOR-A
+
+
+.ONPOA .FD ONP_VOR-A
+
+.ONPOAF .FF ONP
+
+
+
+
+
+
+
+
+; ONP ONP
+
+
+.ONPONP .FD ONP_ONP
+
+.ONPONPF .FF ONP
+
+.ONPONPDEL .MSG ZSE_ISR ***ONP 1 ::: ODP ::: RWY 16, 20, 34 :::  ::: CVS   ::: CRZ-10min(Not-Listed) ::: DEP FREQ 125.8
+
+.ONPONPGND .MSG ZSE_ISR ***ONP 1 ::: RWY 16, 20, 34 ::: Airport is not provided Ground Control Services
+
+.ONPONPTWR .MSG ZSE_ISR ***ONP 1 ::: ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 125.8
+
+.ONPONPDEP .MSG ZSE_ISR ***ONP 1 ::: ODP ::: CVS   issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published :::
+
+.ONPONPCTR .MSG ZSE_ISR ***ONP 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTONPONP Cleared to $arr. Depart via the ONP1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTONPONPU Cleared to $arr. Depart via the ONP1 Obstacle Departure Procedure. $route. Climb Via SID  . Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; OTH AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; OTH ILS RWY 5
+
+
+.OTHi05 .FD OTH_ILS RWY 5
+
+.OTHi05F .FF LUPCI RARES MITUE LEAST OTH
+
+
+
+
+
+
+
+
+; OTH LOC RWY 5
+
+
+.OTHL05 .FD OTH_LOC RWY 5
+
+.OTHL05F .FF LUPCI RARES MITUE LEAST OTH
+
+
+
+
+
+
+
+
+; OTH RNAV (RNP) Z RWY 5
+
+
+.OTHRZ5 .FD OTH_RNAV (RNP) Z RWY 5
+
+.OTHRZ5F .FF GAMMA RARES SCOTY KISEY HOTLY LEDGE DEROY SOZKY JISDI HIVOR IPOVY HEKNO PIVLY FOGIX OXVAK EJLEL ERQAS OTH
+
+
+
+
+
+
+
+
+; OTH RNAV (GPS) Y RWY 5
+
+
+.OTHRY5 .FD OTH_RNAV (GPS) Y RWY 5
+
+.OTHRY5F .FF RARES MITUE FAMLL LUPCI OXVAK RUNUE
+
+
+
+
+
+
+
+
+; OTH VOR-B
+
+
+.OTHOB .FD OTH_VOR-B
+
+.OTHOBF .FF YUPVU OLINE COOSE JORAN NEWRI OTH CIYTY MAHIZ
+
+
+
+
+
+
+
+
+; OTH COPTER ILS RWY 5
+
+
+.OTHi05 .FD OTH_COPTER ILS RWY 5
+
+.OTHi05F .FF JUGMI LIYDI MITUE LEAST OTH
+
+
+
+
+
+
+
+
+; OTH COPTER LOC RWY 5
+
+
+.OTHL05 .FD OTH_COPTER LOC RWY 5
+
+.OTHL05F .FF JUGMI LIYDI MITUE LEAST OTH
+
+
+
+
+
+
+
+
+; OTH OTH
+
+
+.OTHOTH .FD OTH_OTH
+
+.OTHOTHDEL .MSG ZSE_ISR ***OTH 7 ::: PilotNav ::: RWY 5, 31, 13, 23 ::: DEROY_GAMMA_LEDGE_RARES_SCOTY ::: Maint 5k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 121.4
+
+.OTHOTHGND .MSG ZSE_ISR ***OTH 7 ::: RWY 5, 31, 13, 23 :::
+
+.OTHOTHTWR .MSG ZSE_ISR ***OTH 7 ::: PilotNav :::  ::: DEP FREQ 121.4
+
+.OTHOTHDEP .MSG ZSE_ISR ***OTH 7 ::: PilotNav ::: Maint 5k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published :::
+
+.OTHOTHCTR .MSG ZSE_ISR ***OTH 7 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTOTHOTH Cleared to $arr.  $route. Maintain 5k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTOTHOTHU Cleared to $arr.  $route. Maintain 5k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PAE AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PAE ILS Y RWY 16R
+
+
+.PAEiY6R .FD PAE_ILS Y RWY 16R
+
+.PAEiY6RF .FF CVV EYWOK ITIPE ECEPO
+
+
+
+
+
+
+
+
+; PAE LOC Y RWY 16R
+
+
+.PAELY6R .FD PAE_LOC Y RWY 16R
+
+.PAELY6RF .FF CVV EYWOK ITIPE ECEPO
+
+
+
+
+
+
+
+
+; PAE ILS Z RWY 16R
+
+
+.PAEiZ6R .FD PAE_ILS Z RWY 16R
+
+.PAEiZ6RF .FF CVV WEBVE JUGBA HITUT ECEPO
+
+
+
+
+
+
+
+
+; PAE LOC Z RWY 16R
+
+
+.PAELZ6R .FD PAE_LOC Z RWY 16R
+
+.PAELZ6RF .FF CVV WEBVE JUGBA HITUT ECEPO
+
+
+
+
+
+
+
+
+; PAE RNAV (GPS) RWY 34L
+
+
+.PAER4L .FD PAE_RNAV (GPS) RWY 34L
+
+.PAER4LF .FF SEA RARYO USDAW ZEREN EYWOK
+
+
+
+
+
+
+
+
+; PAE RNAV (GPS) Y RWY 16R
+
+
+.PAERY6R .FD PAE_RNAV (GPS) Y RWY 16R
+
+.PAERY6RF .FF AMEKE EYWOK ITIPE ECEPO
+
+
+
+
+
+
+
+
+; PAE RNAV (GPS) Z RWY 16R
+
+
+.PAERZ6R .FD PAE_RNAV (GPS) Z RWY 16R
+
+.PAERZ6RF .FF AMEKE WEBVE JUGBA HITUT ECEPO
+
+
+
+
+
+
+
+
+; PAE VOR-A
+
+
+.PAEOA .FD PAE_VOR-A
+
+.PAEOAF .FF ECEPO NICIT YAVUR CEVLI ZELIG XUKRE
+
+
+
+
+
+
+
+
+; PAE PAINE
+
+
+.PAEPAINE .FD PAE_PAINE
+
+.PAEPAINEDEL .MSG ZSE_ISR ***PAINE 6 ::: Vectored ::: RWY ALL :::  ::: Maint 2k ::: CRZ-5min(Listed) ::: DEP FREQ 128.5
+
+.PAEPAINEGND .MSG ZSE_ISR ***PAINE 6 ::: RWY ALL :::
+
+.PAEPAINETWR .MSG ZSE_ISR ***PAINE 6 ::: Vectored :::  ::: DEP FREQ 128.5
+
+.PAEPAINEDEP .MSG ZSE_ISR ***PAINE 6 ::: Vectored ::: Maint 2k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Vector to assigned route
+
+.PAEPAINECTR .MSG ZSE_ISR ***PAINE 6 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPAEPAINE Cleared to $arr. $route. Maintain 2k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPAEPAINEU Cleared to $arr. $route. Maintain 2k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; PAE DEVYN
+
+
+.PAEDEVYN .FD PAE_DEVYN
+
+.PAEDEVYNCTR .MSG ZSE_ISR *** DEVYN 2 ::: RNAV ::: Descend via STAR ::: A$altim(KPAE)
+
+.PAEDEVYNAPP .MSG ZSE_ISR *** DEVYN 2 ::: RNAV ::: [16R] Vectors to final after BOJET __ [34L] Assign RNAV 34L apch ::: A$altim(KPAE)
+
+.TPAEDEVYNCTRS Descend via the DEVYN2 arrival. PAE Landing South. Altimeter A$altim(KPAE)
+
+.TPAEDEVYNAPPS After BOJET expect vectors to final. Altimeter A$altim(KPAE)
+
+.TPAEDEVYNCTRN Descend via the DEVYN2 arrival. PAE Landing North. Altimeter A$altim(KPAE)
+
+.TPAEDEVYNAPPN Expect RNAV GPS RWY 34L apch. Altimeter A$altim(KPAE)
+
+
+
+
+
+
+
+
+; PAE CHINS
+
+
+.PAECHINS .FD SEA_CHINS
+
+.PAECHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: PAE altim A$altim(KPAE)
+
+.PAECHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: PAE altim A$altim(KPAE)
+
+.TPAECHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). PAE Landing North. Altimeter A$altim(KPAE)
+
+.TPAECHINSAPPN Expect vectors for the RNAV rwy 34L approach. Altimeter A$altim(KPAE)
+
+.TPAECHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). PAE Landing South. Altimeter A$altim(KPAE)
+
+.TPAECHINSAPPS Expect vectors for the ILS Z rwy 16R approach. Altimeter A$altim(KPAE)
+
+
+
+
+
+
+
+
+; PAE OLM
+
+
+.PAEOLM .FD SEA_OLM
+
+.PAEOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: PAE altim A$altim(KPAE)
+
+.PAEOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: PAE altim A$altim(KPAE)
+
+.TPAEOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). PAE Landing North. Altimeter A$altim(KPAE)
+
+.TPAEOLMAPPN Expect vectors for the RNAV rwy 34L approach. Altimeter A$altim(KPAE)
+
+.TPAEOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). PAE Landing South. Altimeter A$altim(KPAE)
+
+.TPAEOLMAPPS Expect vectors for the ILS Z rwy 16R approach. Altimeter A$altim(KPAE)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PDT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PDT ILS RWY 26
+
+
+.PDTi26 .FD PDT_ILS RWY 26
+
+.PDTi26F .FF LACIB GINLE ZUTED GARYC HEKPI EYUYA REYOT FAVUB SAYOS PDT
+
+
+
+
+
+
+
+
+; PDT LOC RWY 26
+
+
+.PDTL26 .FD PDT_LOC RWY 26
+
+.PDTL26F .FF LACIB GINLE ZUTED GARYC HEKPI EYUYA REYOT FAVUB SAYOS PDT
+
+
+
+
+
+
+
+
+; PDT RNAV (GPS) RWY 8
+
+
+.PDTR08 .FD PDT_RNAV (GPS) RWY 8
+
+.PDTR08F .FF CORDO LOAMS TEKBE EFAKE CIMAG CESMI ZUTED
+
+
+
+
+
+
+
+
+; PDT RNAV (GPS) RWY 11
+
+
+.PDTR11 .FD PDT_RNAV (GPS) RWY 11
+
+.PDTR11F .FF GINLE CORDO ECHOD PRUCE DRVIG ADXAB ZUTED
+
+
+
+
+
+
+
+
+; PDT RNAV (GPS) RWY 26
+
+
+.PDTR26 .FD PDT_RNAV (GPS) RWY 26
+
+.PDTR26F .FF ALW GOLGA BUMBE LACED ATRAW GARYC REYOT FAVUB SAYOS CESMI PDT
+
+
+
+
+
+
+
+
+; PDT RNAV (GPS) RWY 29
+
+
+.PDTR29 .FD PDT_RNAV (GPS) RWY 29
+
+.PDTR29F .FF HAGRD LACED SERDY CUPOK ADXAB DRVIG GINLE
+
+
+
+
+
+
+
+
+; PDT VOR RWY 8
+
+
+.PDTO08 .FD PDT_VOR RWY 8
+
+.PDTO08F .FF OLODE CORDO HEMAP OLNUC FODOP PDT
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PDX AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PDX ILS RWY 10L
+
+
+.PDXi0L .FD PDX_ILS RWY 10L
+
+.PDXi0LF .FF BUXOM TRAYL BLAZR JALAG BTG AASEN
+
+
+
+
+
+
+
+
+; PDX LOC RWY 10L
+
+
+.PDXL0L .FD PDX_LOC RWY 10L
+
+.PDXL0LF .FF BUXOM TRAYL BLAZR JALAG BTG AASEN
+
+
+
+
+
+
+
+
+; PDX ILS RWY 10R
+
+
+.PDXi0R .FD PDX_ILS RWY 10R
+
+.PDXi0RF .FF SCAPO HAIRN POWLZ JADNU MULES UBG
+
+
+
+
+
+
+
+
+; PDX LOC RWY 10R
+
+
+.PDXL0R .FD PDX_LOC RWY 10R
+
+.PDXL0RF .FF SCAPO HAIRN POWLZ JADNU MULES UBG
+
+
+
+
+
+
+
+
+; PDX ILS RWY 28L
+
+
+.PDXi8L .FD PDX_ILS RWY 28L
+
+.PDXi8LF .FF WALAP SHAFR REEDI HPSTR HANAH ADDUM YINUP UBG ENDZZ
+
+
+
+
+
+
+
+
+; PDX LOC RWY 28L
+
+
+.PDXL8L .FD PDX_LOC RWY 28L
+
+.PDXL8LF .FF WALAP SHAFR REEDI HPSTR HANAH ADDUM YINUP UBG ENDZZ
+
+
+
+
+
+
+
+
+; PDX ILS RWY 28R
+
+
+.PDXi8R .FD PDX_ILS RWY 28R
+
+.PDXi8RF .FF CUKIS SHAFR REEDI NACIY OMMSI TOLOC WUGPU BTG AASEN
+
+
+
+
+
+
+
+
+; PDX LOC RWY 28R
+
+
+.PDXL8R .FD PDX_LOC RWY 28R
+
+.PDXL8RF .FF CUKIS SHAFR REEDI NACIY OMMSI TOLOC WUGPU BTG AASEN
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Y RWY 28L
+
+
+.PDXRY8L .FD PDX_RNAV (RNP) Y RWY 28L
+
+.PDXRY8LF .FF SHAFR DLILE EJAYE LIQWD SSSUN CATMI EVIDE MUBAE PULOE UBG
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Y RWY 28R
+
+
+.PDXRY8R .FD PDX_RNAV (RNP) Y RWY 28R
+
+.PDXRY8RF .FF SHAFR DLILE EJAYE LIQWD SSSUN CATMI DIKKE YANNO HULAB BATYL
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Z RWY 10L
+
+
+.PDXRZ0L .FD PDX_RNAV (RNP) Z RWY 10L
+
+.PDXRZ0LF .FF VOODU CIZZL DAYSS RIPPP TTIDE BUXOM MYCRO GAMBE BLAZR BATYL
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Z RWY 10R
+
+
+.PDXRZ0R .FD PDX_RNAV (RNP) Z RWY 10R
+
+.PDXRZ0RF .FF SCAPO WETTR SAUVI VOODU CIZZL DAYSS CATUL MYCRO TOWWN MIVUE POWLZ MULES
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Z RWY 28L
+
+
+.PDXRZ8L .FD PDX_RNAV (RNP) Z RWY 28L
+
+.PDXRZ8LF .FF WIDMR DSHUT NOLGE HPSTR HANAH ADDUM UBG
+
+
+
+
+
+
+
+
+; PDX RNAV (RNP) Z RWY 28R
+
+
+.PDXRZ8R .FD PDX_RNAV (RNP) Z RWY 28R
+
+.PDXRZ8RF .FF WIDMR BYKES NACIY OMMSI TOLOC BATYL
+
+
+
+
+
+
+
+
+; PDX RNAV (GPS) X RWY 28L
+
+
+.PDXRX8L .FD PDX_RNAV (GPS) X RWY 28L
+
+.PDXRX8LF .FF WALAP SHAFR REEDI HPSTR HANAH ADDUM YINUP UBG
+
+
+
+
+
+
+
+
+; PDX RNAV (GPS) X RWY 28R
+
+
+.PDXRX8R .FD PDX_RNAV (GPS) X RWY 28R
+
+.PDXRX8RF .FF CUKIS SHAFR REEDI NACIY OMMSI TOLOC WUGPU BTG
+
+
+
+
+
+
+
+
+; PDX RNAV (GPS) Y RWY 10L
+
+
+.PDXRY0L .FD PDX_RNAV (GPS) Y RWY 10L
+
+.PDXRY0LF .FF PITER ANINE HOGUM BUXOM TRAYL BLAZR BTG
+
+
+
+
+
+
+
+
+; PDX RNAV (GPS) Y RWY 10R
+
+
+.PDXRY0R .FD PDX_RNAV (GPS) Y RWY 10R
+
+.PDXRY0RF .FF PITER HOGUM WETTR SAUVI POWLZ JADNU MULES
+
+
+
+
+
+
+
+
+; PDX LOC/DME RWY 21
+
+
+.PDXK21 .FD PDX_LOC/DME RWY 21
+
+.PDXK21F .FF CREAK NULRE YIPYU COVDU HUDUT JAXAG BTG
+
+
+
+
+
+
+
+
+; PDX VOR-A
+
+
+.PDXOA .FD PDX_VOR-A
+
+.PDXOAF .FF ROARK BTG ZOLIL FISUM
+
+
+
+
+
+
+
+
+; PDX TACAN RWY 28L
+
+
+.PDXT8L .FD PDX_TACAN RWY 28L
+
+.PDXT8LF .FF ROVTE ARLEH HAXOB ZAPLO BEAST AASEN BTG
+
+
+
+
+
+
+
+
+; PDX COLUMBIA VISUAL
+
+
+.PDXVC .FD PDX_COLUMBIA VISUAL RWY 10L
+
+.PDXVCF .FF CNFLU
+
+
+
+
+
+
+
+
+; PDX MILL VISUAL
+
+
+.PDXVM .FD PDX_MILL VISUAL 28L
+
+.PDXVMF .FF PAAPR ANTNA
+
+
+
+
+
+
+
+
+; PDX CASCD
+
+
+.PDXCASCD .FD PDX_CASCD
+
+.PDXCASCDDEL .MSG ZSE_ISR *** CASCD 2 ::: RNAV-PilotNav ::: JETS ONLY ::: RWY 10L/R, 28L/R ::: DSD, JOGEN, PAWLI, SMIGE ::: Maint 7k ::: CRZ-10min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXCASCDGND .MSG ZSE_ISR *** CASCD 2 ::: RWY 10L/R, 28L/R
+
+.PDXCASCDTWR .MSG ZSE_ISR *** CASCD 2 ::: RNAV-PilotNav ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXCASCDDEP .MSG ZSE_ISR *** CASCD 2 ::: RNAV-PilotNav ::: JETS ONLY ::: Maint 7k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.PDXCASCDCTR .MSG ZSE_ISR *** CASCD 2 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXCASCD Cleared to $arr via $route. Maintain 7k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXCASCDU Cleared to $arr via $route. Maintain 7k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCCASCD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCCASCDU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX HRMNS
+
+.PDXHRMNS .FD PDX_HRMNS
+
+.PDXHRMNSDEL .MSG ZSE_ISR *** HRMNS 5 ::: RNAV-PilotNav ::: JETS ONLY ::: RWY 10L/R, 28L/R ::: Maint 7k ::: CRZ-10min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXHRMNSGND .MSG ZSE_ISR *** HRMNS 5 ::: RWY 10L/R, 28L/R
+
+.PDXHRMNSTWR .MSG ZSE_ISR *** HRMNS 5 ::: RNAV-PilotNav ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXHRMNSDEP .MSG ZSE_ISR *** HRMNS 5 ::: RNAV-PilotNav ::: JETS ONLY ::: Maint 7k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.PDXHRMNSCTR .MSG ZSE_ISR *** HRMNS 5 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXHRMNS Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXHRMNSU Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCHRMNS .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCHRMNSU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX LAVAA
+
+
+.PDXLAVAA .FD PDX_LAVAA
+
+.PDXLAVAADEL .MSG ZSE_ISR *** LAVAA 6 ::: RNAV-PilotNav ::: JETS ONLY ::: RWY 10L/R, 28L/R ::: PDT, YKM ::: Maint 7k ::: CRZ-10min(Listed) ::: DEP FREQ 124.35
+
+.PDXLAVAAGND .MSG ZSE_ISR *** LAVAA 6 ::: RWY 10L/R, 28L/R
+
+.PDXLAVAATWR .MSG ZSE_ISR *** LAVAA 6 ::: RNAV-PilotNav ::: DEP FREQ 124.35
+
+.PDXLAVAADEP .MSG ZSE_ISR *** LAVAA 6 ::: RNAV-PilotNav ::: JETS ONLY ::: Maint 7k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.PDXLAVAACTR .MSG ZSE_ISR *** LAVAA 6 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXLAVAA Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXLAVAAU Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCLAVAA .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCLAVAAU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX MINNE
+
+
+.PDXMINNE .FD PDX_MINNE
+
+.PDXMINNEDEL .MSG ZSE_ISR *** MINNE 5 ::: RNAV-PilotNav ::: JETS ONLY ::: RWY 10L/R, 28L/R ::: EASON, FAMUK, HISKU ::: Maint 7k ::: CRZ-10min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXMINNEGND .MSG ZSE_ISR *** MINNE 5 ::: RWY 10L/R, 28L/R
+
+.PDXMINNETWR .MSG ZSE_ISR *** MINNE 5 ::: RNAV-PilotNav ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXMINNEDEP .MSG ZSE_ISR *** MINNE 5 ::: RNAV-PilotNav ::: JETS ONLY ::: Maint 7k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.PDXMINNECTR .MSG ZSE_ISR *** MINNE 5 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXMINNE Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXMINNEU Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCMINNE .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCMINNEU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX PTLD
+
+
+.PDXPTLD .FD PDX_PTLD
+
+.PDXPTLDDEL .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: ALL RWYS ::: Maint 6k(J&T), 3k(P) ::: CRZ-5min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXPTLDGND .MSG ZSE_ISR *** PTLD 2 ::: ALL RWYS ::: [Northbound] PREF-10L/28R [Southbound] PREF-10R/28L
+
+.PDXPTLDTWR .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: [RWY 28L/R] H280 (J), H280/H240 (T), H170/H330 (P) __ [RWY 10L/R] H085 (J), H085/H120 (T), H150/H010 (P) __ [RWY 21] H290 (J), H250/H290 (T), H170/H310 (P) __ (H280,H240,H170,H150 req APREQ w/ PDX_S_TWR), (H330,H085,H010 req APREQ w/ PDX_N_TWR) ::: DEP FREQ 124.35
+
+.PDXPTLDDEP .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: Maint 6k(J&T), 3k(P) issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.PDXPTLDCTR .MSG ZSE_ISR *** PTLD 2 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCPTLD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCPTLDU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX WHAMY
+
+
+.PDXWHAMY .FD PDX_WHAMY
+
+.PDXWHAMYDEL .MSG ZSE_ISR *** WHAMY 4 ::: RNAV-PilotNav ::: JETS ONLY ::: RWY 10L/R, 28L/R ::: IMB, KOATA, RIELY ::: Maint 7k ::: CRZ-10min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXWHAMYGND .MSG ZSE_ISR *** WHAMY 4 ::: RWY 10L/R, 28L/R
+
+.PDXWHAMYTWR .MSG ZSE_ISR *** WHAMY 4 ::: RNAV-PilotNav ::: DEP FREQ 118.1(S), 124.35(N)
+
+.PDXWHAMYDEP .MSG ZSE_ISR *** WHAMY 4 ::: RNAV-PilotNav ::: JETS ONLY ::: Maint 7k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Assign 15 or filed alt
+
+.PDXWHAMYCTR .MSG ZSE_ISR *** WHAMY 4 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTPDXWHAMY Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPDXWHAMYU Cleared to $arr via $route. Maint 7k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCWHAMY .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCWHAMYU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; PDX HELNS
+
+
+.PDXHELNS .FD PDX_HELNS
+
+.PDXHELNSCTR .MSG ZSE_ISR *** HELNS 6 ::: Non-RNAV ::: Cross KRATR @ 12k 270kts; props @ 10k ::: A$altim(KPDX)
+
+.PDXHELNSAPP .MSG ZSE_ISR *** HELNS 6 ::: Non-RNAV ::: (KRATR @ 12k 270kts, props @ 10k assigned by CTR). After BTG vector to final ::: A$altim(KPDX)
+
+.TPDXHELNSCTRE Cross KRATR at and maintain 12k (props 10k) and 270kts. PDX Landing East. Altimeter A$altim(KPDX)
+
+.TPDXHELNSAPPE Expect vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
+
+.TPDXHELNSCTRW Cross KRATR at and maintain 12k (props 10k) and 270kts. PDX Landing West. Altimeter A$altim(KPDX)
+
+.TPDXHELNSAPPW Expect vectors for the ILS rwy 28R approach. Altimeter A$altim(KPDX)
+
+
+
+
+
+
+
+
+; PDX HHOOD
+
+
+.PDXHHOOD .FD PDX_HHOOD
+
+.PDXHHOODCTR .MSG ZSE_ISR *** HHOOD 4 ::: RNAV ::: [PDX] Descend via STAR __ [TTD] Cross HHOOD @ 8k __ [Other] Cross HHOOD @ 16k ::: A$altim(KPDX)
+
+.PDXHHOODAPP .MSG ZSE_ISR *** HHOOD 4 ::: RNAV ::: (Descend via STAR issued by CTR). [EAST OPS] After NNUTT vector to final __ [WEST OPS] Assign ILS 28L/R from SHAFR __ [SOUTH OPS] After SOOZN vector to final ::: A$altim(KPDX)
+
+.TPDXHHOODCTRE Descend via the HHOOD4 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+
+.TPDXHHOODAPPE Expect vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
+
+.TPDXHHOODCTRW Descend via the HHOOD4 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+
+.TPDXHHOODAPPW At SHAFR clrd ILS 28R approach. Altimeter A$altim(KPDX)
+
+.TPDXHHOODCTRS Descend via the HHOOD4 arrival. PDX Landing South. Altimeter A$altim(KPDX)
+
+.TPDXHHOODAPPS Expect vectors for visual approach rwy 21. Altimeter A$altim(KPDX)
+
+
+
+
+
+
+
+
+; PDX KRATR
+
+
+.PDXKRATR .FD PDX_KRATR
+
+.PDXKRATRCTR .MSG ZSE_ISR *** KRATR 2 ::: RNAV ::: Descend via the STAR ::: A$altim(KPDX)
+
+.PDXKRATRAPP .MSG ZSE_ISR *** KRATR 2 ::: RNAV ::: (Descend via STAR issued by CTR). [EAST OPS] After NNUTT vector to final __ [WEST OPS] After SHYNE vector to final __ [SOUT OPS] After BATYL vector to final ::: A$altim(KPDX)
+
+.TPDXKRATRCTRE Descend via the KRATR2 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+
+.TPDXKRATRAPPE Except vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
+
+.TPDXKRATRCTRW Descend via the KRATR2 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+
+.TPDXKRATRAPPW Expect vectors for the ILS rwy 28R approach. Altimeter A$altim(KPDX)
+
+.TPDXKRATRCTRS Descend via the KRATR2 arrival. PDX Landing South. Altimeter A$altim(KPDX)
+
+.TPDXKRATRAPPS Expect vectors for visual approach rwy 21. Altimeter A$altim(KPDX)
+
+
+
+
+
+
+
+
+; PDX OCITY
+
+
+.PDXOCITY .FD PDX_OCITY
+
+.PDXOCITYCTR .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: Jets cross VANTZ @ 12k, other @ 10k ::: PDX altim A$altim(KPDX)
+
+.PDXOCITYAPP .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: After OCITY vector to final ::: PDX altim A$altim(KPDX)
+
+.TPDXOCITYCTRE Cross VANTZ at and maintain 12k (props 10k) and 250kts. PDX Landing East. Altimeter A$altim(KPDX)
+
+.TPDXOCITYAPPE Expect vectors for the ILS rwy 10R approach. Altimeter A$altim(KPDX)
+
+.TPDXOCITYCTRW Cross VANTZ at and maintain 12k (props 10k) and 250kts. PDX Landing West. Altimeter A$altim(KPDX)
+
+.TPDXOCITYAPPW Expect vectors for the ILS rwy 28L approach. Altimeter A$altim(KPDX)
+
+
+
+
+
+
+
+
+; PDX TMBRS
+
+
+.PDXTMBRS .FD PDX_TMBRS
+
+.PDXTMBRSCTR .MSG ZSE_ISR *** TMBRS 2 ::: RNAV ::: Descend via the STAR ::: A$altim(KPDX)
+
+.PDXTMBRSAPP .MSG ZSE_ISR *** TMBRS 2 ::: RNAV ::: (Descend via STAR issued by CTR). [EAST OPS] After PUBBB vector to final __ [WEST OPS] After ICEAX vector to final __ [SOUTH OPS] After HHOPZ vector to final ::: A$altim(KPDX)
+
+.TPDXTMBRSCTRE Descend via the TMBRS2 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+
+.TPDXTMBRSAPPE Expect vectors to final after PUBBB. Altimeter A$altim(KPDX)
+
+.TPDXTMBRSCTRS Descend via the TMBRS2 arrival. PDX Landing South. Altimeter A$altim(KPDX)
+
+.TPDXTMBRSAPPS Expect vectors to final after HHOPZ. Altimeter A$altim(KPDX)
+
+.TPDXTMBRSCTRW Descend via the TMBRS2 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+
+.TPDXTMBRSAPPW Expect vectors to final after ICEAX. Altimeter A$altim(KPDX)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PLU AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PLU RNAV (GPS) RWY 35
+
+
+.PLUR35 .FD PLU_RNAV (GPS) RWY 35
+
+.PLUR35F .FF ALDER ARWEL BANFO PULLI
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PSC AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PSC ILS RWY 21R
+
+
+.PSCi1R .FD PSC_ILS RWY 21R
+
+.PSCi1RF .FF GUSSE EXODE ZALUX ALW CITYS JIVDO JEROG
+
+
+
+
+
+
+
+
+; PSC LOC 21R
+
+
+.PSCL1R .FD PSC_LOC 21R
+
+.PSCL1RF .FF GUSSE EXODE ZALUX ALW CITYS JIVDO JEROG
+
+
+
+
+
+
+
+
+; PSC RNAV (RNP) Z RWY 3L
+
+
+.PSCRZ3L .FD PSC_RNAV (RNP) Z RWY 3L
+
+.PSCRZ3LF .FF AMPLE OPPAV KADDE ORIYU NIALS RAPIDS HUGET NUNIY CORDO ONSEW HEROG JUTAM CITYS EVVOR CUTAS HIDLI ZOGOL KUMKE ZOGEN IDUSY WATSY
+
+
+
+
+
+
+
+
+; PSC RNAV (RNP) Z RWY 12
+
+
+.PSCRZ2 .FD PSC_RNAV (RNP) Z RWY 12
+
+.PSCRZ2F .FF NIALS HILOB PAIDS YIZED GINLE MOJUY CITYS ZEGRU JIGPI OTAVY HUKAK WIDAK WATSY CULRI JUMAT WEDAV
+
+
+
+
+
+
+
+
+; PSC RNAV (RNP) Z RWY 21R
+
+
+.PSCRZ1R .FD PSC_RNAV (RNP) Z RWY 21R
+
+.PSCRZ1RF .FF NIALS ZONOP WAPMU WATSY RYENS GADNE CITYS HONAG GINLE MOJUY ZUDAV CUGLU HOSEG KARTE DAMSE PAIDS AMPLE KADDE
+
+
+
+
+
+
+
+
+; PSC RNAV (RNP) Z RWY 30
+
+
+.PSCRZ0 .FD PSC_RNAV (RNP) Z RWY 30
+
+.PSCRZ0F .FF WATSY RYENS HIYGE CITYS XELOW OLODE AMPLE KADDE JUDIV WISBI IZCED HUKUP JIGPI WEDAV YOCUY PAIDS
+
+
+
+
+
+
+
+
+; PSC RNAV (GPS) Y RWY 3L
+
+
+.PSCRY3L .FD PSC_RNAV (GPS) Y RWY 3L
+
+.PSCRY3LF .FF AMPLE INUDE CORDO KADDE FOGUT TAYON CITYS
+
+
+
+
+
+
+
+
+; PSC RNAV (GPS) Y RWY 12
+
+
+.PSCRY2 .FD PSC_RNAV (GPS) Y RWY 12
+
+.PSCRY2F .FF OLFUS NIALS PAPPS AIDER PAIDS HILOB FAXAX ZAPOV CITYS
+
+
+
+
+
+
+
+
+; PSC RNAV (GPS) Y RWY 21R
+
+
+.PSCRY1R .FD PSC_RNAV (GPS) Y RWY 21R
+
+.PSCRY1RF .FF OLFUS WATSY BACUN RYENS JIVDO JEROG PAIDS
+
+
+
+
+
+
+
+
+; PSC RNAV (GPS) Y RWY 30
+
+
+.PSCRY0 .FD PSC_RNAV (GPS) Y RWY 30
+
+.PSCRY0F .FF BACUN CITYS PDT AMPLE EYORY IHAYO ACWEW PASBE PAIDS
+
+
+
+
+
+
+
+
+; PSC VOR RWY 21R
+
+
+.PSCO1R .FD PSC_VOR RWY 21R
+
+.PSCO1RF .FF GUSSE EXODE DMAGY CITYS RASPY FAMES PSC CITYS
+
+
+
+
+
+
+
+
+; PSC VOR RWY 30
+
+
+.PSCO30 .FD PSC_VOR RWY 30
+
+.PSCO30F .FF OYREX CITYS ALW USENY GAWWY WARNU MOJUY WOZER JIKSU
+
+
+
+
+
+
+
+
+; PSC TRI-CITIES
+
+
+.PSCTRICITIES .FD PSC_TRICITIES
+
+.PSCTRICITIESDEL .MSG ZSE_ISR ***TRI-CITIES 7 ::: Vectored ::: RWY 21L/R, 12, 30, 3L/R :::  ::: CVS  ::: CRZ-5min(Listed) ::: DEP FREQ 128.75
+
+.PSCTRICITIESGND .MSG ZSE_ISR ***TRI-CITIES 7 ::: RWY 21L/R, 12, 30, 3L/R :::
+
+.PSCTRICITIESTWR .MSG ZSE_ISR ***TRI-CITIES 7 ::: Vectored ::: Assign takeoff heading ::: DEP FREQ 128.75
+
+.PSCTRICITIESDEP .MSG ZSE_ISR ***TRI-CITIES 7 ::: Vectored ::: CVS issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 10k ::: (Hdg assigned by TWR). Vector to assigned route
+
+.PSCTRICITIESCTR .MSG ZSE_ISR ***TRI-CITIES 7 ::: CRZ-5min(Listed) ::: TopAlt 10k
+
+.TCRAFTPSCTRICITIES Cleared to $arr.  $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTPSCTRICITIESU Cleared to $arr.  $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PUW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PUW VOR RWY 5
+
+
+.PUWO05 .FD PUW_VOR RWY 5
+
+.PUWO05F .FF MQG BIDDY PUW SODME
+
+
+
+
+
+
+
+
+; PUW ILS RWY 5
+
+
+.PUWi05 .FD PUW_ILS RWY 5
+
+.PUWi05F .FF WAZOO RYPEN MAAYZ PUW
+
+
+
+
+
+
+
+
+; PUW LOC RWY 5
+
+
+.PUWL05 .FD PUW_LOC RWY 5
+
+.PUWL05F .FF WAZOO RYPEN MAAYZ PUW
+
+
+
+
+
+
+
+
+; PUW RNAV (RNP) Z RWY 33
+
+
+.PUWRZ3 .FD PUW_RNAV (RNP) Z RWY 33
+
+.PUWRZ3F .FF JETTS JAKLU TONRE CAVPA WAXIT SPITE ZONOS AXION WAZOO
+
+
+
+
+
+
+
+
+; PUW RNAV (GPS) RWY 5
+
+
+.PUWR05 .FD PUW_RNAV (GPS) RWY 5
+
+.PUWR05F .FF WAZOO UTLEE PLUUR RYPEN ZODID
+
+
+
+
+
+
+
+
+; PUW RNAV (GPS) Y RWY 23
+
+
+.PUWRY3 .FD PUW_RNAV (GPS) Y RWY 23
+
+.PUWRY3F .FF JETTS JAKLU CEPER MQG CESIN WAXIT VNDEL JORER WIMAP WAZOO
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; PWT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; PWT RNAV (GPS) RWY 20
+
+
+.PWTR20 .FD PWT_RNAV (GPS) RWY 20
+
+.PWTR20F .FF LOFAL GITRE WUMOX CEBOD CARRO
+
+
+
+
+
+
+
+
+; PWT ILS RWY 20
+
+
+.PWTi20 .FD PWT_ILS RWY 20
+
+.PWTi20F .FF OLM WUMOX CARRO
+
+
+
+
+
+
+
+
+; PWT LOC RWY 20
+
+
+.PWTL20 .FD PWT_LOC RWY 20
+
+.PWTL20F .FF OLM WUMOX CARRO
+
+
+
+
+
+
+
+
+; PWT RNAV (GPS) RWY 2
+
+
+.PWTR02 .FD PWT_RNAV (GPS) RWY 2
+
+.PWTR02F .FF SANDR OLM ZOLGI CEBOD
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; RBG AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; RBG VOR-A
+
+
+.RBGOA .FD RBG_VOR-A
+
+.RBGOAF .FF RBG
+
+
+
+
+
+
+
+
+; RBG RNAV (GPS)-B
+
+
+.RBGRB .FD RBG_RNAV (GPS)-B
+
+.RBGRBF .FF CAMAS EROWY IDISY EHHID OCUKY IJOZI ZUMDO
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; RDM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; RDM ILS RWY 23
+
+
+.RDMi23 .FD RDM_ILS RWY 23
+
+.RDMi23F .FF CUPRI FESOD RUSRE FLUSS YUBUB HUTKI VERNN ZETLI DSD
+
+
+
+
+
+
+
+
+; RDM LOC RWY 23
+
+
+.RDML23 .FD RDM_LOC RWY 23
+
+.RDML23F .FF CUPRI FESOD RUSRE FLUSS YUBUB HUTKI VERNN ZETLI DSD
+
+
+
+
+
+
+
+
+; RDM RNAV (RNP) Z RWY 5
+
+
+.RDMRZ5 .FD RDM_RNAV (RNP) Z RWY 5
+
+.RDMRZ5F .FF WISSL JURDY ARNOY VUCUV CESUK WONEK EENIE LOYCE FESOD OCTAD YUNNU NISVE DOYEP JUGVU WEBGO RARBE HITGU SAKKO
+
+
+
+
+
+
+
+
+; RDM RNAV (RNP) Z RWY 23
+
+
+.RDMRZ3 .FD RDM_RNAV (RNP) Z RWY 23
+
+.RDMRZ3F .FF SAKKO IGISE CUXEP FIXEV URBIA FOVOK POWEL JAPUV HOGEP WUSIV ARNOY WURUK CAGOG RETDO DSD CANAM URHAZ WISSL CUPRI JUSLU JIDUT YIGUS ZETBU TIKNE PUKAJ
+
+
+
+
+
+
+
+
+; RDM RNAV (GPS) RWY 11
+
+
+.RDMR11 .FD RDM_RNAV (GPS) RWY 11
+
+.RDMR11F .FF YONKU JJETT IYIVA WALDO UNUNE SNOKY DRACK SMRDK JURDY ZEVAD URBIA
+
+
+
+
+
+
+
+
+; RDM RNAV (GPS) Y RWY 5
+
+
+.RDMRY5 .FD RDM_RNAV (GPS) Y RWY 5
+
+.RDMRY5F .FF CUPRI WISSL HORRN SMRDK SAKKO WUMUT COPRR OCTAD ZIBID KICBY PIBME COFMO
+
+
+
+
+
+
+
+
+; RDM RNAV (GPS) Y RWY 23
+
+
+.RDMRY3 .FD RDM_RNAV (GPS) Y RWY 23
+
+.RDMRY3F .FF URBIA FESOD SAKKO NIFLI HORRN CUPRI ARNOY YUBUB HUTKI VERNN ARUBE WELPU
+
+
+
+
+
+
+
+
+; RDM RNAV (GPS) Y RWY 29
+
+
+.RDMRY9 .FD RDM_RNAV (GPS) Y RWY 29
+
+.RDMRY9F .FF POCIT NUCLA FUFQO AWBAN TISTE HAPET JEKMO BODKE YONKU
+
+
+
+
+
+
+
+
+; RDM RNAV (GPS) Z RWY 29
+
+
+.RDMRZ9 .FD RDM_RNAV (GPS) Z RWY 29
+
+.RDMRZ9F .FF POCIT NUCLA FUFQO AWBAN COLTA YONKU
+
+
+
+
+
+
+
+
+; RDM VOR-A
+
+
+.RDMOA .FD RDM_VOR-A
+
+.RDMOAF .FF EENIE BOTTL HORRN HERBS TABSE DSD UCIBA
+
+
+
+
+
+
+
+
+; RDM JUNPIER VISUAL RWY 23
+
+
+.RDMVJ .FD RDM_JUNPIER VISUAL RWY 23
+
+.RDMVJF .FF
+
+
+
+
+
+
+
+
+; RDM RDM
+
+
+.RDM .FD RDM_RDM
+
+.RDMRDMDEL .MSG ZSE_ISR ***RDM 3 ::: Vectored ::: RWY 5, 11, 23, 29 :::  ::: Maint 14k ::: CRZ-5min(Listed) ::: DEP FREQ 126.15
+
+.RDMRDMGND .MSG ZSE_ISR ***RDM 3 ::: RWY 5, 11, 23, 29 :::
+
+.RDMRDMTWR .MSG ZSE_ISR ***RDM 3 ::: Vectored ::: Assign rwy hdg on takeoff ::: DEP FREQ 126.15
+
+.RDMRDMDEP .MSG ZSE_ISR ***RDM 3 ::: Vectored ::: Maint 14k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: (Rwy hdg assigned by TWR). Vector to assigned route
+
+.RDMRDMCTR .MSG ZSE_ISR ***RDM 3 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTRDMRDM Cleared to $arr.  $route. Maintain 14k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTRDMRDMU Cleared to $arr.  $route. Maintain 14k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; RLD AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; RLD VOR/DME-A
+
+
+.RLDFA .FD RLD_VOR/DME-A
+
+.RLDFAF .FF OZONI OZODU HOVOK FINIV CHAZZ STAID MACUF PSC
+
+
+
+
+
+
+
+
+; RLD RNAV (GPS) RWY 26
+
+
+.RLDR26 .FD RLD_RNAV (GPS) RWY 26
+
+.RLDR26F .FF SMITT LYLES CUTAS HOTGA JILPU NIALS
+
+
+
+
+
+
+
+
+; RLD RNAV (GPS) Y RWY 19
+
+
+.RLDRY9 .FD RLD_RNAV (GPS) Y RWY 19
+
+.RLDRY9F .FF NIALS SMITT BAKCA FIXOV
+
+
+
+
+
+
+
+
+; RLD RNAV (GPS) Z RWY 19
+
+
+.RLDRZ9 .FD RLD_RNAV (GPS) Z RWY 19
+
+.RLDRZ9F .FF NIALS SMITT FAKCA FIXOV AYABE
+
+
+
+
+
+
+
+
+; RLD LOC RWY 19
+
+
+.RLDL19 .FD RLD_LOC RWY 19
+
+.RLDL19F .FF BAKCA FIXOV HOTUX JUDUB
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; RNT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; RNT RNAV (GPS) Y RWY 16
+
+
+.RNTRY6 .FD RNT_RNAV (GPS) Y RWY 16
+
+.RNTRY6F .FF PAE WUNVA LUTSY BLEIR ZULAV TOYOL ZEBKU
+
+
+
+
+
+
+
+
+; RNT RNAV (GPS) Z RWY 16
+
+
+.RNTRZ6 .FD RNT_RNAV (GPS) Z RWY 16
+
+.RNTRZ6F .FF PAE WUNVA LUTSY WIBAT ZEBKU
+
+
+
+
+
+
+
+
+; RNT BELVU
+
+
+.RNTBELVU .FD RNT_BELVU
+
+.RNTBELVUDEL .MSG ZSE_ISR ***BELVU 4 ::: Vectored ::: RWY 34 :::  ::: CVS   ::: CRZ-5min(Listed) ::: DEP FREQ 119.2
+
+.RNTBELVUGND .MSG ZSE_ISR ***BELVU 4 ::: RWY 34 :::
+
+.RNTBELVUTWR .MSG ZSE_ISR ***BELVU 4 ::: Vectored :::  ::: DEP FREQ 119.2
+
+.RNTBELVUDEP .MSG ZSE_ISR ***BELVU 4 ::: Vectored ::: CVS   issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 3k ::: Assign 15k. Vector to assigned route. (SEA_Y_APP assign 4k and handoff to next APP sector above you)
+
+.RNTBELVUCTR .MSG ZSE_ISR ***BELVU 4 ::: CRZ-5min(Listed) ::: TopAlt 3k
+
+.TCRAFTRNTBELVU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTRNTBELVUU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; RNT RENTN
+
+
+.RNTRENTN .FD RNT_RENTN
+
+.RNTRENTNDEL .MSG ZSE_ISR ***RENTN 3 ::: Vectored ::: RWY 16 :::  ::: CVS   ::: CRZ-5min(Listed) ::: DEP FREQ 119.2
+
+.RNTRENTNGND .MSG ZSE_ISR ***RENTN 3 ::: RWY 16 :::
+
+.RNTRENTNTWR .MSG ZSE_ISR ***RENTN 3 ::: Vectored :::  ::: DEP FREQ 119.2
+
+.RNTRENTNDEP .MSG ZSE_ISR ***RENTN 3 ::: Vectored ::: CVS   issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 3k ::: Assign 15k. Vector to assigned route. (SEA_Y_APP assign 4k and handoff to next sector above you)
+
+.RNTRENTNCTR .MSG ZSE_ISR ***RENTN 3 ::: CRZ-5min(Listed) ::: TopAlt 3k
+
+.TCRAFTRNTRENTN Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTRNTRENTNU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; RNT CHINS
+
+
+.RNTCHINS .FD SEA_CHINS
+
+.RNYCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: RNT altim A$altim(KRNT)
+
+.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
+
+.TRNTCHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+
+.TRNTCHINSAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
+
+.TRNTCHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). RNT Landing South. Altimeter A$altim(KRNT)
+
+.TRNTCHINSAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
+
+
+
+
+
+
+
+
+; RNT EPH
+
+
+.RNTEPH .FD SEA_EPH
+
+.RNTEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: RNT altim A$altim(KRNT)
+
+.RNTEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: RNT altim A$altim(KRNT)
+
+.TRNTEPHCTRN RNT Landing North. Altimeter A$altim(KRNT)
+
+.TRNTEPHAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
+
+.TRNTEPHCTRS RNT Landing South. Altimeter A$altim(KRNT)
+
+.TRNTEPHAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
+
+
+
+
+
+
+
+
+; RNT GLASR
+
+
+.RNTGLASR .FD SEA_GLASR
+
+.RNTGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 11k 250kts, props @ 10k ::: RNT altim A$altim(KRNT)
+
+.RNTGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: RNT altim A$altim(KRNT)
+
+.TRNTGLASRCTRS Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). RNT Landing South. Altimeter A$altim(KRNT)
+
+.TRNTGLASRAPPS Descend and maintain 7k, depart WOODI heading 250. Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
+
+.TRNTGLASRCTRN Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+
+.TRNTGLASRAPPN Descend and maintain 7k. Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
+
+
+
+
+
+
+
+
+; RNT OLM
+
+
+.RNTOLM .FD SEA_OLM
+
+.RNTOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: RNT altim A$altim(KRNT)
+
+.RNTOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: RNT altim A$altim(KRNT)
+
+.TRNTOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). RNT Landing North. Altimeter A$altim(KRNT)
+
+.TRNTOLMAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
+
+.TRNTOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). RNT Landing South. Altimeter A$altim(KRNT)
+
+.TRNTOLMAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S12 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S12 VOR/DME
+
+
+.S12F .FD S12_VOR/DME
+
+.S12FF .FF CVO
+
+
+
+
+
+
+
+
+; S12 GPS-A
+
+
+.S12GA .FD S12_GPS-A
+
+.S12GAF .FF CVO
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S21 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S21 RNAV (GPS) RWY 18
+
+
+.S21R18 .FD S21_RNAV (GPS) RWY 18
+
+.S21R18F .FF DSD TUPSE DRACK URBIA OCTAD HESKI GAPEY
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S33 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S33 RNAV (GPS) RWY 34
+
+
+.S33R34 .FD S33_RNAV (GPS) RWY 34
+
+.S33R34F .FF DSD YUDUB WUREX CUYAD JUVET TUDTO GASHE
+
+
+
+
+
+
+
+
+; S33 RNAV (GPS) RWY 16
+
+
+.S33R16 .FD S33_RNAV (GPS) RWY 16
+
+.S33R16F .FF COVBO ZEMAB SUPOC HETIM TIWEP KIKCE FEPOS HUKRI JOREM
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S39 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S39 RNAV (GPS) RWY 10
+
+
+.S39R10 .FD S39_RNAV (GPS) RWY 10
+
+.S39R10F .FF HORRN BOTTL DSD HERBS IVVIB RUVHE ASICU
+
+
+
+
+
+
+
+
+; S39 RNAV (GPS) RWY 28
+
+
+.S39R28 .FD S39_RNAV (GPS) RWY 28
+
+.S39R28F .FF IMB ROAMS GASHE ZUDMI NAXZY IKZIV UHUFY JOYXE OGEYU CUSVA DSD UPEFI
+
+
+
+
+
+
+
+
+; S39 DSD
+
+
+.S39DSD .FD S39_DSD
+
+.S39DSDDEL .MSG ZSE_ISR ***DSD 2 ::: RNAV-PilotNav ::: RWY ALL :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 126.15
+
+.S39DSDGND .MSG ZSE_ISR ***DSD 2 ::: RWY ALL ::: Airport is not provided Ground Control Services
+
+.S39DSDTWR .MSG ZSE_ISR ***DSD 2 ::: RNAV-PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 126.15
+
+.S39DSDDEP .MSG ZSE_ISR ***DSD 2 ::: RNAV-PilotNav ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: (Acft should cross DSD AOA MEA for route of flight)
+
+.S39DSDCTR .MSG ZSE_ISR ***DSD 2 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTS39DSD Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTS39DSDU Cleared to $arr.  $route. Climb Via SID  . Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S43 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S43 RNAV (GPS)-A
+
+
+.S43RA .FD S43_RNAV (GPS)-A
+
+.S43RAF .FF PAE HAVHO DEDBE USUXY AW
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S50 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S50 RNAV (GPS)-A
+
+
+.S50RA .FD S50_RNAV (GPS)-A
+
+.S50RAF .FF CIDUG ORTIN JISTA CAXAM
+
+
+
+
+
+
+
+
+; S50 BLAKO
+
+
+.S50BLAKO .FD S50_BLAKO
+
+.S50BLAKODEL .MSG ZSE_ISR *** BLAKO 1 ::: RNAV-ODP ::: ALL RWYS ::: CVS ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.85
+
+.S50BLAKOGND .MSG ZSE_ISR *** BLAKO 1 ::: ALL RWYS ::: Airport is not provided Ground Control Services
+
+.S50BLAKOTWR .MSG ZSE_ISR *** BLAKO 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 123.85
+
+.S50BLAKODEP .MSG ZSE_ISR *** BLAKO 1 ::: RNAV-ODP ::: CVS issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will hold @ BLAKO until AOA MEA for route of flight)
+
+.S50BLAKOCTR .MSG ZSE_ISR *** BLAKO 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTS50BLAKO Cleared to $arr. Depart via the BLAKO1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTS50BLAKOU Cleared to $arr. Depart via the BLAKO1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. . Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; S59 AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; S59 GPS-A
+
+
+.S59GA .FD S59_GPS-A
+
+.S59GAF .FF PACCE RELXU EYESE
+
+
+
+
+
+
+
+
+; S59 EYESE
+
+
+.S59EYESE .FD S59_EYESE
+
+.S59EYESEDEL .MSG ZSE_ISR *** EYESE 1 ::: RNAV-ODP ::: RWY 15 ::: CVS ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.95
+
+.S59EYESEGND .MSG ZSE_ISR *** EYESE 1 ::: RWY 15 ::: Airport is not provided Ground Control Services
+
+.S59EYESETWR .MSG ZSE_ISR *** EYESE 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 123.95
+
+.S59EYESEDEP .MSG ZSE_ISR *** EYESE 1 ::: RNAV-ODP ::: CVS issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft will climb to 12k while holding SE of EYESE)
+
+.S59EYESECTR .MSG ZSE_ISR *** EYESE 1 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTS59EYESE Cleared to $arr. Depart via the EYESE1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTS59EYESEU Cleared to $arr. Depart via the EYESE1 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. . Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SEA AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SEA ILS RWY 16C
+
+
+.SEAi6C .FD SEA_ILS RWY 16C
+
+.SEAi6CF .FF PAE JINRU GRIFY ERYKA HULTO MGNUM ANVIL SODOE TEBNE MILLT PEYOY
+
+
+
+
+
+
+
+
+; SEA LOC RWY 16C
+
+
+.SEAL6C .FD SEA_LOC RWY 16C
+
+.SEAL6CF .FF PAE JINRU GRIFY ERYKA HULTO MGNUM ANVIL SODOE TEBNE MILLT PEYOY
+
+
+
+
+
+
+
+
+; SEA ILS RWY 16L
+
+
+.SEAi6L .FD SEA_ILS RWY 16L
+
+.SEAi6LF .FF PAE ZEDKI WUMUL KENMO GRIFY HELZR KARFO DGLAS TEBNE MILLT PEYOY
+
+
+
+
+
+
+
+
+; SEA LOC RWY 16L
+
+
+.SEAL6L .FD SEA_LOC RWY 16L
+
+.SEAL6LF .FF PAE ZEDKI WUMUL KENMO GRIFY HELZR KARFO DGLAS TEBNE MILLT PEYOY
+
+
+
+
+
+
+
+
+; SEA ILS RWY 16R
+
+
+.SEAi6R .FD SEA_ILS RWY 16R
+
+.SEAi6RF .FF PAE ZIKRO CIBUX GRIFY AGANE CELAK BUGNE FINKA TECEE ZERLI PEYOY
+
+
+
+
+
+
+
+
+; SEA LOC RWY 16R
+
+
+.SEAL6R .FD SEA_LOC RWY 16R
+
+.SEAL6RF .FF PAE ZIKRO CIBUX GRIFY AGANE CELAK BUGNE FINKA TECEE ZERLI PEYOY
+
+
+
+
+
+
+
+
+; SEA ILS RWY 34C
+
+
+.SEAi4C .FD SEA_ILS RWY 34C
+
+.SEAi4CF .FF CIDUG SONDR LORIE ODBOE TIFYS RYBKA UFMOP COYLA MGNUM PAE
+
+
+
+
+
+
+
+
+; SEA LOC RWY 34C
+
+
+.SEAL4C .FD SEA_LOC RWY 34C
+
+.SEAL4CF .FF CIDUG SONDR LORIE ODBOE TIFYS RYBKA UFMOP COYLA MGNUM PAE
+
+
+
+
+
+
+
+
+; SEA ILS RWY 34L
+
+
+.SEAi4L .FD SEA_ILS RWY 34L
+
+.SEAi4LF .FF CIDUG SONDR HIPRO JOSTA JALON HOVOS WEXUB LOFAL PAE
+
+
+
+
+
+
+
+
+; SEA LOC RWY 34L
+
+
+.SEAL4L .FD SEA_LOC RWY 34L
+
+.SEAL4LF .FF CIDUG SONDR HIPRO JOSTA JALON HOVOS WEXUB LOFAL PAE
+
+
+
+
+
+
+
+
+; SEA ILS RWY 34R
+
+
+.SEAi4R .FD SEA_ILS RWY 34R
+
+.SEAi4RF .FF JIPOX SONDR WAGTI NEEAL KLEWS BUCKK CNNTI JEVUN COYLA MGNUM PAE
+
+
+
+
+
+
+
+
+; SEA LOC RWY 34R
+
+
+.SEAL4R .FD SEA_LOC RWY 34R
+
+.SEAL4RF .FF JIPOX SONDR WAGTI NEEAL KLEWS BUCKK CNNTI JEVUN COYLA MGNUM PAE
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 16C
+
+
+.SEARZ6C .FD SEA_RNAV (RNP) Z RWY 16C
+
+.SEARZ6CF .FF GRIFY PPAUL FERIE HEGEM VASHN RAYUU SEGAW PINTR PAE ERYKA MGNUM ANVIL EPUDE SODOE ZIVDI MILLT
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 16L
+
+
+.SEARZ6L .FD SEA_RNAV (RNP) Z RWY 16L
+
+.SEARZ6LF .FF PAE KENMO GRIFY HELZR KARFO DGLAS YORUC MILLT
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 16R
+
+
+.SEARZ6R .FD SEA_RNAV (RNP) Z RWY 16R
+
+.SEARZ6RF .FF PAE AGANE GRIFY CELAK BUGNE PPAUL FERIE HEGEM VASHN RAYUU SEGAW PINTR WOTIK FINKA ZERLI
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 34C
+
+
+.SEARZ4C .FD SEA_RNAV (RNP) Z RWY 34C
+
+.SEARZ4CF .FF SONDR LORIE SHIPZ BELNE LANGL FAWNA ZINUB TIFYS MGNUM
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 34L
+
+
+.SEARZ4L .FD SEA_RNAV (RNP) Z RWY 34L
+
+.SEARZ4LF .FF SONDR HIPRO SHIPZ BELNE LANGL BAKMN JALON LOFAL
+
+
+
+
+
+
+
+
+; SEA RNAV (RNP) Z RWY 34R
+
+
+.SEARZ4R .FD SEA_RNAV (RNP) Z RWY 34R
+
+.SEARZ4RF .FF SONDR NEEAL BEKKR BUCKK CASDA MGNUM
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 16C
+
+
+.SEARY6C .FD SEA_RNAV (GPS) Y RWY 16C
+
+.SEARY6CF .FF PAE ERYKA GRIFY MGNUM ANVIL SODOE OTLIE MILLT
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 16L
+
+
+.SEARY6L .FD SEA_RNAV (GPS) Y RWY 16L
+
+.SEARY6LF .FF PAE KENMO GRIFY HELZR KARFO DGLAS CAVOB MILLT
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 16R
+
+
+.SEARY6R .FD SEA_RNAV (GPS) Y RWY 16R
+
+.SEARY6RF .FF PAE AGANE GRIFY CELAK BUGNE FINKA ZERLI
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 34C
+
+
+.SEARY4C .FD SEA_RNAV (GPS) Y RWY 34C
+
+.SEARY4CF .FF CIDUG ATEVE SONDR LORIE ODBOE TIFYS RYBKA MGNUM
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 34L
+
+
+.SEARY4L .FD SEA_RNAV (GPS) Y RWY 34L
+
+.SEARY4LF .FF CIDUG SONDR HIPRO JOSTA JALON HOVOS LOFAL
+
+
+
+
+
+
+
+
+; SEA RNAV (GPS) Y RWY 34R
+
+
+.SEARY4R .FD SEA_RNAV (GPS) Y RWY 34R
+
+.SEARY4RF .FF CIDUG EBOCA SONDR NEEAL KLEWS BUCKK CNNTI DODVE MGNUM
+
+
+
+
+
+
+
+
+; SEA BAY VISUAL RWY 16R/C/L
+
+
+.SEAVB .FD SEA_BAY VISUAL RWY 16R/C/L
+
+
+
+
+
+
+
+
+; SEA HUSKY VISUAL RWY 16R/C/L
+
+
+.SEAVH .FD SEA_HUSKY VISUAL RWY 16R/C/L
+
+
+
+
+
+
+
+
+; SEA MALL VISUAL RWY 34R/C/L
+
+
+.SEAVM .FD SEA_MALL VISUAL RWY 34R/C/L
+
+
+
+
+
+
+
+
+; SEA BANGR
+
+
+.SEABANGR .FD SEA_BANGR
+
+.SEABANGRDEL .MSG ZSE_ISR *** BANGR 9 ::: RNAV-PilotNav ::: ALL RWYS ::: ARRIE, PANGL ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 120.4
+
+.SEABANGRGND .MSG ZSE_ISR *** BANGR 9 ::: ALL RWYS
+
+.SEABANGRTWR .MSG ZSE_ISR *** BANGR 9 ::: RNAV-PilotNav ::: DEP FREQ 120.4
+
+.SEABANGRDEP .MSG ZSE_ISR *** BANGR 9 ::: RNAV-PilotNav ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k
+
+.SEABANGRCTR .MSG ZSE_ISR *** BANGR 9 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+
+.TCRAFTSEABANGR Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEABANGRU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCBANGR .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCBANGRU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA ELMAA
+
+
+.SEAELMAA .FD SEA_ELMAA
+
+.SEAELMAADEL .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: RWY 16L/R/C ::: CVO, HQM ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 120.4
+
+.SEAELMAAGND .MSG ZSE_ISR *** ELMAA 3 ::: RWY 16L/R/C
+
+.SEAELMAATWR .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: DEP FREQ 120.4
+
+.SEAELMAADEP .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k
+
+.SEAELMAACTR .MSG ZSE_ISR *** ELMAA 3 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+
+.TCRAFTSEAELMAA Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAELMAAU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCELMAA .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCELMAAU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA HAROB
+
+
+.SEAHAROB .FD SEA_HAROB
+
+.SEAHAROBDEL .MSG ZSE_ISR *** HAROB 6 ::: RNAV-PilotNav ::: ALL RWYS ::: ERAVE, FEPOT, HISKU, HQM ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 120.4
+
+.SEAHAROBGND .MSG ZSE_ISR *** HAROB 6 ::: ALL RWYS
+
+.SEAHAROBTWR .MSG ZSE_ISR *** HAROB 6 ::: RNAV-PilotNav ::: DEP FREQ 120.4
+
+.SEAHAROBDEP .MSG ZSE_ISR *** HAROB 6 ::: RNAV-PilotNav ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k
+
+.SEAHAROBCTR .MSG ZSE_ISR *** HAROB 6 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+
+.TCRAFTSEAHAROB Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAHAROBU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCHAROB .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCHAROBU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA ISBRG
+
+
+.SEAISBRG .FD SEA_ISBRG
+
+.SEAISBRGDEL .MSG ZSE_ISR *** ISBRG 1 ::: RNAV-Hybrid ::: RWY 34L/R/C ::: CVS Exct Maint 7k ::: CRZ-5min(Listed) ::: DEP FREQ 120.4
+
+.SEAISBRGGND .MSG ZSE_ISR *** ISBRG 1 ::: RWY 34L/R/C
+
+.SEAISBRGTWR .MSG ZSE_ISR *** ISBRG 1 ::: RNAV-Hybrid ::: DEP FREQ 120.4
+
+.SEAISBRGDEP .MSG ZSE_ISR *** ISBRG 1 ::: RNAV-Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: Assign 15k. After ISBRG vector to assigned route
+
+.SEAISBRGCTR .MSG ZSE_ISR *** ISBRG 1 ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: CVS Exct Maint 7k issued by DEL
+
+.TCRAFTSEAISBRG Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAISBRGU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCISBRG .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCISBRGU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA JEFPO
+
+
+.SEAJEFPO .FD SEA_JEFPO
+
+.SEAJEFPODEL .MSG ZSE_ISR *** JEFPO 1 ::: RNAV-Hybrid ::: RWY 34L/R/C ::: CVS Exct Maint 7k ::: CRZ-5min(Listed) ::: DEP FREQ 120.4
+
+.SEAJEFPOGND .MSG ZSE_ISR *** JEFPO 1 ::: RWY 34L/R/C
+
+.SEAJEFPOTWR .MSG ZSE_ISR *** JEFPO 1 ::: RNAV-Hybrid ::: DEP FREQ 120.4
+
+.SEAJEFPODEP .MSG ZSE_ISR *** JEFPO 1 ::: RNAV-Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: Assign 15k. After JEFPO vector to assigned route
+
+.SEAJEFPOCTR .MSG ZSE_ISR *** JEFPO 1 ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: CVS Exct Maint 7k issued by DEL
+
+.TCRAFTSEAJEFPO Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAJEFPOU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCJEFPO .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCJEFPOU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA MONTN
+
+
+.SEAMONTN .FD SEA_MONTN
+
+.SEAMONTNDEL .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: ALL RWYS ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 119.2
+
+.SEAMONTNGND .MSG ZSE_ISR *** MONTN 1 ::: ALL RWYS
+
+.SEAMONTNTWR .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: DEP FREQ 119.2
+
+.SEAMONTNDEP .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k __ [NORTH OPS] After NEZUG vector to assigned route __ [SOUTH OPS] After NICHY vector to assigned route
+
+.SEAMONTNCTR .MSG ZSE_ISR *** MONTN 1 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+
+.TCRAFTSEAMONTN Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAMONTNU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCMONTN .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCMONTNU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA OZWLD
+
+
+.SEAOZWLD .FD SEA_OZWLD
+
+.SEAOZWLDDEL .MSG ZSE_ISR *** OZWLD 1 ::: RNAV-Hybrid ::: RWY 34L/R/C ::: CVS Exct Maint 7k ::: CRZ-5min(Listed) ::: DEP FREQ 120.4
+
+.SEAOZWLDGND .MSG ZSE_ISR *** OZWLD 1 ::: RWY 34L/R/C
+
+.SEAOZWLDTWR .MSG ZSE_ISR *** OZWLD 1 ::: RNAV-Hybrid ::: DEP FREQ 120.4
+
+.SEAOZWLDDEP .MSG ZSE_ISR *** OZWLD 1 ::: RNAV-Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: Assign 15k. After OZWLD vector to assigned route
+
+.SEAOZWLDCTR .MSG ZSE_ISR *** OZWLD 1 ::: CRZ-5min(Listed) ::: Published TopAlt 9k ::: CVS Exct Maint 7k issued by DEL
+
+.TCRAFTSEAOZWLD Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEAOZWLDU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+.TPDCOZWLD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCOZWLDU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA SEA
+
+
+.SEASEA .FD SEA_SEA
+
+.SEASEADEL .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: ALL RWYS ::: Maint 7k ::: CRZ-15 NM from SEA(Not-Listed) ::: DEP FREQ 119.2
+
+.SEASEAGND .MSG ZSE_ISR *** SEA 7 ::: ALL RWYS :::
+
+.SEASEATWR .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: DEP FREQ 119.2
+
+.SEASEADEP .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. Vector to assigned route
+
+.SEASEACTR .MSG ZSE_ISR *** SEA 7 ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTSEASEA Cleared to $arr via $route. Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEASEAU Cleared to $arr via $route. Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCSEA .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCSEAU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA SUMMA
+
+
+.SEASUMMA .FD SEA_SUMMA
+
+.SEASUMMADEL .MSG ZSE_ISR *** SUMMA 2 ::: Hybrid (N), PilotNav (S) ::: ALL RWYS ::: BKE, LKV ::: CVS Exct Maint 7k (N), Maint 7k (S) ::: CRZ-15 NM from SEA(Not-Listed) ::: DEP FREQ 119.2 (N), 120.4 (S)
+
+.SEASUMMAGND .MSG ZSE_ISR *** SUMMA 2 ::: ALL RWYS :::
+
+.SEASUMMATWR .MSG ZSE_ISR *** SUMMA 2 ::: Hybrid (N), PilotNav (S) :::  ::: DEP FREQ 119.2 (N), 120.4 (S)
+
+.SEASUMMADEP .MSG ZSE_ISR *** SUMMA 2 ::: Hybrid (N), PilotNav (S) ::: CVS Exct Maint 7k (N), Maint 7k (S) issued by DEL ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. (NORTH OPS - After NEZUG vector to SUMMA)
+
+.SEASUMMACTR .MSG ZSE_ISR *** SUMMA 2 ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTSEASUMMA .MSG ZSE_ISR *** SUMMA2 is different in North and South ops. Add either 'N' or 'S' to the end of this command depending on the flow (e.g. in north ops type '.TCRAFTSUMMAN')
+
+.TCRAFTSEASUMMAN Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEASUMMANU Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TCRAFTSEASUMMAS Cleared to $arr via $route. Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSEASUMMASU Cleared to $arr via $route. Maintain 7k. Expect $cruise 15 NM from SEA. Departure OFFLINE, squawk $squawk.
+
+.TPDCSUMMA .MSG ZSE_ISR *** SUMMA2 is different in North and South ops. Add either 'N' or 'S' to the end of this command depending on the flow (e.g. in north ops type '.TPDCSUMMAN')
+
+.TPDCSUMMAN .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCSUMMANU .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCSUMMAS .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+.TPDCSUMMASU .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
+
+
+
+
+
+
+
+; SEA CHINS
+
+
+.SEACHINS .FD SEA_CHINS
+
+.SEACHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: SEA altim A$altim(KSEA)
+
+.SEACHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: SEA altim A$altim(KSEA)
+
+.TSEACHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEACHINSAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
+
+.TSEACHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEACHINSAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+; SEA EPH
+
+
+.SEAEPH .FD SEA_EPH
+
+.SEAEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: SEA altim A$altim(KSEA)
+
+.SEAEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: SEA altim A$altim(KSEA)
+
+.TSEAEPHCTRN SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAEPHAPPN Expect vectors for the ILS rwy 34R approach. Altimeter A$altim(KSEA)
+
+.TSEAEPHCTRS SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAEPHAPPS Expect vectors for the ILS rwy 16L approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+
+
+; SEA GLASR
+
+
+.GLASR .FD SEA_GLASR
+
+.SEAGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 12k 250kts, props @ 10k __ [NORTH OPS] Cross JAKSN @ 16k 270kts, props @ 10k ::: SEA altim A$altim(KSEA)
+
+.SEAGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN (must be @ 7k by midfield). Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: SEA altim A$altim(KSEA)
+
+.TSEAGLASRCTRS Cross JAKSN at and maintain 12k and 250kts (props cross at 10k). SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 16L approach. Altimeter A$altim(KSEA)
+
+.TSEAGLASRCTRN Cross JAKSN at and maintain 16k and 270kts (props cross at 10k). SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34R approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+; SEA HAWKZ
+
+
+.SEAHAWKZ .FD SEA_HAWKZ
+
+.SEAHAWKZCTR .MSG ZSE_ISR *** HAWKZ 7 ::: RNAV ::: Descend via STAR ::: A$altim(KSEA)
+
+.SEAHAWKZAPP .MSG ZSE_ISR *** HAWKZ 7 ::: RNAV ::: [NORTH OPS] @ SONDR clrd ILS 34L/R/C __ [SOUTH OPS] After VASHN vector to final ::: A$altim(KSEA)
+
+.TSEAHAWKZCTRN Descend via the HAWKZ7 arrival. SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAHAWKZAPPN At SONDR cleared ILS 34L approach. Altimeter A$altim(KSEA)
+
+.TSEAHAWKZCTRS Descend via the HAWKZ7 arrival. SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAHAWKZAPPS Expect vectors for the ILS 16R approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+; SEA JAWBN
+
+
+.SEAJAWBN .FD SEA_JAWBN
+
+.SEAJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 12k 250kts, other 10k __ [BFI SOUTH] Cross JAWBN @ 11k 250kts ::: A$altim(KSEA)
+
+.SEAJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final ::: A$altim(KSEA)
+
+.TSEAJAWBNCTRN Cross JAWBN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAJAWBNAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
+
+.TSEAJAWBNCTRS Cross JAWBN at and maintain 12k and 250kts (non-jets cross at 10k and 250 kts). SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAJAWBNAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+; SEA MARNR
+
+
+.SEAMARNR .FD SEA_MARNR
+
+.SEAMARNRCTR .MSG ZSE_ISR *** MARNR 7 ::: RNAV ::: Descend via STAR ::: A$altim(KSEA)
+
+.SEAMARNRAPP .MSG ZSE_ISR *** MARNR 7 ::: RNAV ::: [SOUTH OPS] ILS 16L/R/C @ GRIFY __ [NORTH OPS] Vector to final after EMMSS ::: A$altim(KSEA)
+
+.TSEAMARNRCTRN Descend via the MARNR7 arrival. SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAMARNRAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
+
+.TSEAMARNRCTRS Descend via the MARNR7 arrival. SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAMARNRAPPS At GRIFY cleared ILS rwy 16L approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+; SEA OLM
+
+
+.SEAOLM .FD SEA_OLM
+
+.SEAOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: A$altim(KSEA)
+
+.SEAOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: A$altim(KSEA)
+
+.TSEAOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). SEA Landing North. Altimeter A$altim(KSEA)
+
+.TSEAOLMAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
+
+.TSEAOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). SEA Landing South. Altimeter A$altim(KSEA)
+
+.TSEAOLMAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SFF AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SFF ILS RWY 22R
+
+
+.SFFi2R .FD SFF_ILS RWY 22R
+
+.SFFi2RF .FF HILIE COE AZTEM DIYSA HANSN LOLCI IZELY GEG
+
+
+
+
+
+
+
+
+; SFF LOC RWY 22R
+
+
+.SFFL2R .FD SFF_LOC RWY 22R
+
+.SFFL2RF .FF HILIE COE AZTEM DIYSA HANSN LOLCI IZELY GEG
+
+
+
+
+
+
+
+
+; SFF RNAV (GPS) RWY 4L
+
+
+.SFFR4L .FD SFF_RNAV (GPS) RWY 4L
+
+.SFFR4LF .FF DIANN ZOPEL SOLJR GRPAH ETFEM ODOCE CEBTA ALAYE CEVOS KARPS
+
+
+
+
+
+
+
+
+; SFF VOR RWY 4L
+
+
+.SFFO4L .FD SFF_VOR RWY 4L
+
+.SFFO4LF .FF GEG LOWAL
+
+
+
+
+
+
+
+
+; SFF SFF
+
+
+.SFFSFF .FD SFF_SFF
+
+.SFFSFFDEL .MSG ZSE_ISR *** SFF 4 ::: Vectored ::: RWY 4L/R, 22L/R ::: CVS ::: CRZ-10min(Listed) ::: DEP FREQ 133.35
+
+.SFFSFFGND .MSG ZSE_ISR *** SFF 4 ::: RWY 4L/R, 22L/R
+
+.SFFSFFTWR .MSG ZSE_ISR *** SFF 4 ::: Vectored ::: DEP FREQ 133.35
+
+.SFFSFFDEP .MSG ZSE_ISR *** SFF 4 ::: Vectored ::: CVS issued by DEL ::: CRZ-10min(Listed) ::: TopAlt 12k ::: Vector to assigned route
+
+.SFFSFFCTR .MSG ZSE_ISR *** SFF 4 ::: CRZ-10min(Listed) ::: TopAlt 12k
+
+.TCRAFTSFFSFF Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSFFSFFU Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; SFF HAYDEN
+
+
+.SFFHAYDEN .FD SFF_HAYDEN
+
+.SFFHAYDENDEL .MSG ZSE_ISR ***HAYDEN 4 ::: Vectored ::: RWY 4L/R ::: CVS ::: CRZ-5min(Not-Listed) ::: DEP FREQ 133.35
+
+.SFFHAYDENGND .MSG ZSE_ISR ***HAYDEN 4 ::: RWY 4L/R
+
+.SFFHAYDENTWR .MSG ZSE_ISR ***HAYDEN 4 ::: Vectored ::: DEP FREQ 133.35
+
+.SFFHAYDENDEP .MSG ZSE_ISR ***HAYDEN 4 ::: Vectored ::: CVS issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 12k ::: Vector to assigned route
+
+.SFFHAYDENCTR .MSG ZSE_ISR ***HAYDEN 4 ::: CRZ-5min(Not-Listed) ::: TopAlt 12k
+
+.TCRAFTSFFHAYDEN Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSFFHAYDENU Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; SFF ZOOMR
+
+
+.SFFZOOMR .FD GEG_ZOOMR
+
+.SFFZOOMRCTR .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: Cross ZOOMR @ 12k, props 10k ::: SFF altim A$altim(KSFF)
+
+.SFFZOOMRAPP .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: After GANGS vector to final ::: SFF altim A$altim(KSFF)
+
+.TSFFZOOMRCTRE Cross ZOOMR at and maintain 12k (props 10k). SFF Landing East. Altimeter A$altim(KSFF)
+.TSFFZOOMRCTRN Cross ZOOMR at and maintain 12k (props 10k). SFF Landing East. Altimeter A$altim(KSFF)
+
+.TSFFZOOMRAPPE Expect visual approach rwy 4L. Altimeter A$altim(KSFF)
+.TSFFZOOMRAPPN Expect visual approach rwy 4L. Altimeter A$altim(KSFF)
+
+.TSFFZOOMRCTRW Cross ZOOMR at and maintain 12k (props 10k). SFF Landing West. Altimeter A$altim(KSFF)
+.TSFFZOOMRCTRS Cross ZOOMR at and maintain 12k (props 10k). SFF Landing West. Altimeter A$altim(KSFF)
+
+.TSFFZOOMRAPPW Expect vectors for ILS rwy 22R approach. Altimeter A$altim(KSFF)
+.TSFFZOOMRAPPS Expect vectors for ILS rwy 22R approach. Altimeter A$altim(KSFF)
+
+
+
+
+
+
+
+
+
+
+; SFF HILIE
+
+
+.SFFHILIE .FD GEG_HILIE
+
+.SFFHILIECTR .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Cross HILIE @ 12k, props 10k ::: SFF altim A$altim(KSFF)
+
+.SFFHILIEAPP .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Vector to final ::: SFF altim A$altim(KSFF)
+
+.TSFFHILIECTRE Cross HILIE at and maintain 12k (props 10k). SFF Landing East. Altimeter A$altim(KSFF)
+.TSFFHILIECTRN Cross HILIE at and maintain 12k (props 10k). SFF Landing East. Altimeter A$altim(KSFF)
+
+.TSFFHILIEAPPE Expect visual approach rwy 4L. Altimeter A$altim(KSFF)
+.TSFFHILIEAPPN Expect visual approach rwy 4L. Altimeter A$altim(KSFF)
+
+.TSFFHILIECTRW Cross HILIE at and maintain 12k (props 10k). SFF Landing West. Altimeter A$altim(KSFF)
+.TSFFHILIECTRS Cross HILIE at and maintain 12k (props 10k). SFF Landing West. Altimeter A$altim(KSFF)
+
+.TSFFHILIEAPPW Expect vectors for ILS rwy 22R approach. Altimeter A$altim(KSFF)
+.TSFFHILIEAPPS Expect vectors for ILS rwy 22R approach. Altimeter A$altim(KSFF)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SHN AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SHN RNAV (GPS) RWY 23
+
+
+.SHNR23 .FD SHN_RNAV (GPS) RWY 23
+
+.SHNR23F .FF JUVGA OKM HOOME OYRED PORSY ULESS
+
+
+
+
+
+
+
+
+; SHN RNAV (GPS) RWY 5
+
+
+.SHNR05 .FD SHN_RNAV (GPS) RWY 5
+
+.SHNR05F .FF RINDS OTOTE ULESS IMINE ALARE CARRO
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SIY AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SIY NDB
+
+
+.SIYN .FD SIY_NDB
+
+.SIYNF .FF MOG
+
+
+
+
+
+
+
+
+; SIY GPS-A
+
+
+.SIYGA .FD SIY_GPS-A
+
+.SIYGAF .FF MOG
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SKA AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SKA ILS RWY 5
+
+
+.SKAi05 .FD SKA_ILS RWY 5
+
+.SKAi05F .FF KNOCK CATET PAIGE BAPLE FANOT
+
+
+
+
+
+
+
+
+; SKA LOC RWY 5
+
+
+.SKAL05 .FD SKA_LOC RWY 5
+
+.SKAL05F .FF KNOCK CATET PAIGE BAPLE FANOT
+
+
+
+
+
+
+
+
+; SKA ILS RWY 23
+
+
+.SKAi23 .FD SKA_ILS RWY 23
+
+.SKAi23F .FF KNOCK MEDNE APPAT HAFRD OLMAE CAGAM
+
+
+
+
+
+
+
+
+; SKA LOC RWY 23
+
+
+.SKAL23 .FD SKA_LOC RWY 23
+
+.SKAL23F .FF KNOCK MEDNE APPAT HAFRD OLMAE CAGAM
+
+
+
+
+
+
+
+
+; SKA RNAV (GPS) RWY 5
+
+
+.SKAR05 .FD SKA_RNAV (GPS) RWY 5
+
+.SKAR05F .FF GRAPH YICUB CATET PAIGE KNOCK
+
+
+
+
+
+
+
+
+; SKA RNAV (GPS) RWY 23
+
+
+.SKAR23 .FD SKA_RNAV (GPS) RWY 23
+
+.SKAR23F .FF CEMOM JURSY MEDNE HAFRD KNOCK
+
+
+
+
+
+
+
+
+; SKA TACAN RWY 5
+
+
+.SKAT05 .FD SKA_TACAN RWY 5
+
+.SKAT05F .FF KNOCK WUGUX JESCA JIMDU WUNON FANOT
+
+
+
+
+
+
+
+
+; SKA TACAN RWY 23
+
+
+.SKAT23 .FD SKA_TACAN RWY 23
+
+.SKAT23F .FF KNOCK ROSAE ERUBE WINGI ITODE CAGAM
+
+
+
+
+
+
+
+
+; SKA ZOOMR
+
+
+.SKAZOOMR .FD GEG_ZOOMR
+
+.SKAZOOMRCTR .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: Cross ZOOMR @ 12k, props 10k ::: SKA altim A$altim(KSKA)
+
+.SKAZOOMRAPP .MSG ZSE_ISR *** ZOOMR 1 ::: Non-RNAV ::: After GANGS vector to final ::: SKA altim A$altim(KSKA)
+
+.TSKAZOOMRCTRN Cross ZOOMR at and maintain 12k (props 10k). SKA Landing East. Altimeter A$altim(KSKA)
+
+.TSKAZOOMRAPPN Expect vectors for the ILS rwy 5 approach. Altimeter A$altim(KSKA)
+
+.TSKAZOOMRCTRS Cross ZOOMR at and maintain 12k (props 10k). SKA Landing West. Altimeter A$altim(KSKA)
+
+.TSKAZOOMRAPPS Expect vectors for ILS rwy 23 approach. Altimeter A$altim(KSKA)
+
+
+
+
+
+
+
+
+; SKA HILIE
+
+
+.SKAHILIE .FD GEG_HILIE
+
+.SKAHILIECTR .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Cross HILIE @ 12k, props 10k ::: SKA altim A$altim(KSKA)
+
+.SKAHILIEAPP .MSG ZSE_ISR *** HILIE 2 ::: Non-RNAV ::: Vector to final ::: SKA altim A$altim(KSKA)
+
+.TSKAHILIECTRN Cross HILIE at and maintain 12k (props 10k). SKA Landing East. Altimeter A$altim(KSKA)
+
+.TSKAHILIEAPPN Expect vectors for the ILS rwy 5 approach. Altimeter A$altim(KSKA)
+
+.TSKAHILIECTRS Cross HILIE at and maintain 12k (props 10k). SKA Landing West. Altimeter A$altim(KSKA)
+
+.TSKAHILIEAPPS Expect vectors for ILS rwy 23 approach. Altimeter A$altim(KSKA)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SLE AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SLE ILS Z RWY 31
+
+
+.SLEiZ1 .FD SLE_ILS Z RWY 31
+
+.SLEiZ1F .FF JAIME GLORR SCIOS CVO LOTKE ARTTY
+
+
+
+
+
+
+
+
+; SLE LOC Z RWY 31
+
+
+.SLELZ1 .FD SLE_LOC Z RWY 31
+
+.SLELZ1F .FF JAIME GLORR SCIOS CVO LOTKE ARTTY
+
+
+
+
+
+
+
+
+; SLE RNAV (GPS) RWY 13
+
+
+.SLER13 .FD SLE_RNAV (GPS) RWY 13
+
+.SLER13F .FF UBG MCCOY IVRSN ARTTY NECIP
+
+
+
+
+
+
+
+
+; SLE RNAV (GPS) RWY 13
+
+
+.SLER31 .FD SLE_RNAV (GPS) RWY 13
+
+.SLER31F .FF CVO DIYAT GLORR NECIP LOTKE CUKEV ARTTY
+
+
+
+
+
+
+
+
+; SLE LOC Y RWY 31
+
+
+.SLELY1 .FD SLE_LOC Y RWY 31
+
+.SLELY1F .FF JAIM GLORR SCIOS HINER SL ZEGNA ARTTY
+
+
+
+
+
+
+
+
+; SLE SLE
+
+
+.SLESLE .FD SLE_SLE
+
+.SLESLEDEL .MSG ZSE_ISR *** SLE 4 ::: Hybrid ::: RWY 13, 31, 34, 16 ::: Maint 9k ::: CRZ-10min(Listed) ::: DEP FREQ 125.8
+
+.SLESLEGND .MSG ZSE_ISR *** SLE 4 ::: RWY 13, 31, 34, 16
+
+.SLESLETWR .MSG ZSE_ISR *** SLE 4 ::: Hybrid ::: DEP FREQ 125.8
+
+.SLESLEDEP .MSG ZSE_ISR *** SLE 4 ::: Hybrid ::: Maint 9k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Vector to assigned route
+
+.SLESLECTR .MSG ZSE_ISR *** SLE 4 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTSLESLE Cleared to $arr via $route. Maintain 9k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTSLESLEU Cleared to $arr via $route. Maintain 9k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SPB AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SPB VOR/DME-A
+
+
+.SPBFA .FD SPB_VOR/DME-A
+
+.SPBFAF .FF OKARE OJUMU DMAZH AXOOX PIQRI BTG EYAVU MAHKE
+
+
+
+
+
+
+
+
+; SPB RNAV (GPS) RWY 15
+
+
+.SPBR15 .FD SPB_RNAV (GPS) RWY 15
+
+.SPBR15F .FF COUGA IMJUS LOATH PITER COVHO ISRIY WEAV ZIRBA
+
+
+
+
+
+
+
+
+; SPB LOC/DME RWY 15
+
+
+.SPBK15 .FD SPB_LOC/DME RWY 15
+
+.SPBK15F .FF EXRAY RIXUQ EDUME HOXIB
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; SZT AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; SZT LOC-A
+
+
+.SZTLA .FD SZT_LOC-A
+
+.SZTLAF .FF GEG COE INOBE CORDU FINTA ROPLE SZT
+
+
+
+
+
+
+
+
+; SZT RNAV (GPS) Y RWY 20
+
+
+.SZTRY0 .FD SZT_RNAV (GPS) Y RWY 20
+
+.SZTRY0F .FF DIANN AGUMY BILOE CESIG CAPGO DOATS ELLRA FAPIK
+
+
+
+
+
+
+
+
+; SZT RNAV (GPS) Z RWY 20
+
+
+.SZTRZ0 .FD SZT_RNAV (GPS) Z RWY 20
+
+.SZTRZ0F .FF AGUMY DIANN BILOE CESIG CAPGO DOATS ELLRA FAPIK GARRT HAKUP
+
+
+
+
+
+
+
+
+; SZT RNAV (GPS)-B
+
+
+.SZTRB .FD SZT_RNAV (GPS)-B
+
+.SZTRBF .FF DIANN KARPS CESIG CLASS CELUS FEPMI FINTA
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; TCM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; TCM ILS RWY 34
+
+
+.TCMi34 .FD TCM_ILS RWY 34
+
+.TCMi34F .FF SQRIT RIMOE MCKEN ALDER CFKTV CFGHB OOHOP JETEM SPAAN GUTBE OYABO
+
+
+
+
+
+
+
+
+; TCM LOC RWY 34
+
+
+.TCML34 .FD TCM_LOC RWY 34
+
+.TCML34F .FF SQRIT RIMOE MCKEN ALDER CFKTV CFGHB OOHOP JETEM SPAAN GUTBE OYABO
+
+
+
+
+
+
+
+
+; TCM ILS Z RWY 16
+
+
+.TCMiZ6 .FD TCM_ILS Z RWY 16
+
+.TCMiZ6F .FF STEIL UCONA LETME BEPAN CHENU FABOD MIPLE
+
+
+
+
+
+
+
+
+; TCM LOC Z RWY 16
+
+
+.TCMLZ6 .FD TCM_LOC Z RWY 16
+
+.TCMLZ6F .FF STEIL UCONA LETME BEPAN CHENU FABOD MIPLE
+
+
+
+
+
+
+
+
+; TCM RNAV (GPS) RWY 16
+
+
+.TCMR16 .FD TCM_RNAV (GPS) RWY 16
+
+.TCMR16F .FF LETME BEPEM CHENY JODOR
+
+
+
+
+
+
+
+
+; TCM RNAV (GPS) RWY 34
+
+
+.TCMR34 .FD TCM_RNAV (GPS) RWY 34
+
+.TCMR34F .FF MCKEN ALDER RIMOE SPAAN ZOSAV
+
+
+
+
+
+
+
+
+; TCM TACAN RWY 16
+
+
+.TCMT16 .FD TCM_TACAN RWY 16
+
+.TCMT16F .FF STEIL UCONA ECUVO FIFFE WALRO MIPLE
+
+
+
+
+
+
+
+
+; TCM TACAN RWY 34
+
+
+.TCMT34 .FD TCM_TACAN RWY 34
+
+.TCMT34F .FF SQRIT CEVET OOHOP CFXPL CFTGH MCKEN ALDER FEGAK EDEBE OYABO
+
+
+
+
+
+
+
+
+; TCM ALDER
+
+
+.TCMALDER .FD TCM_ALDER
+
+.TCMALDERF .FF ALDER MIRYM OLM
+
+.TCMALDERDEL .MSG ZSE_ISR *** ALDER 2 ::: PilotNav ::: RWY 16, 34 ::: CVS Exct Maint 3k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.5
+
+.TCMALDERGND .MSG ZSE_ISR *** ALDER 2 ::: RWY 16, 34
+
+.TCMALDERTWR .MSG ZSE_ISR *** ALDER 2 ::: PilotNav ::: DEP FREQ 126.5
+
+.TCMALDERDEP .MSG ZSE_ISR *** ALDER 2 ::: PilotNav ::: CVS Exct Maint 3k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. When SEA is in N flow release reqd from SEA_F_APP
+
+.TCMALDERCTR .MSG ZSE_ISR *** ALDER 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTTCMALDER Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. .
+
+.TCRAFTTCMALDERU Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. .
+
+
+
+
+
+
+
+
+; TCM MOCAA
+
+
+.TCMMOCAA .FD TCM_MOCAA
+
+.TCMMOCAADEL .MSG ZSE_ISR *** MOCAA 3 ::: RNAV-PilotNav ::: RWY 16, 34 ::: BKE JINMO IMB ::: CVS ::: CRZ-5min(Listed) ::: DEP FREQ 126.5
+
+.TCMMOCAAGND .MSG ZSE_ISR *** MOCAA 3 ::: RWY 16, 34
+
+.TCMMOCAATWR .MSG ZSE_ISR *** MOCAA 3 ::: RNAV-PilotNav ::: DEP FREQ 126.5
+
+.TCMMOCAADEP .MSG ZSE_ISR *** MOCAA 3 ::: RNAV-PilotNav ::: CVS  issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 9k ::: Assign 15k.
+
+.TCMMOCAACTR .MSG ZSE_ISR *** MOCAA 3 ::: CRZ-5min(Listed) ::: TopAlt 9k
+
+.TCRAFTTCMMOCAA Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTTCMMOCAAU Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; TCM OLYMPIC
+
+
+.TCMOLYMPIC .FD TCM_OLYMPIC
+
+.TCMOLYMPICF .FF
+
+.TCMOLYMPICDEL .MSG ZSE_ISR *** OLYMPIC 4 ::: Hybrid ::: RWY 16, 34 ::: CVS Exct Maint 3k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 126.5
+
+.TCMOLYMPICGND .MSG ZSE_ISR *** OLYMPIC 4 ::: RWY 16, 34
+
+.TCMOLYMPICTWR .MSG ZSE_ISR *** OLYMPIC 4 ::: Hybrid ::: DEP FREQ 126.5
+
+.TCMOLYMPICDEP .MSG ZSE_ISR *** OLYMPIC 4 ::: Hybrid ::: CVS Exct Maint 3k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. [RWY 34] Vector to assigned route after acft turns to H255 __ [RWY 16] Vector to assigned route within TCM 8 DME
+
+.TCMOLYMPICCTR .MSG ZSE_ISR *** OLYMPIC 4 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTTCMOLYMPIC Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTTCMOLYMPICU Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; TCM PUGET
+
+
+.TCMCMPUGET .FD TCM_PUGET
+
+.TCMPUGETDEL .MSG ZSE_ISR *** PUGET 6 ::: Hybrid ::: RWY 16, 34 ::: CVS Exct Maint 3k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 126.5
+
+.TCMPUGETGND .MSG ZSE_ISR *** PUGET 6 ::: RWY 16, 34
+
+.TCMPUGETTWR .MSG ZSE_ISR *** PUGET 6 ::: Hybrid ::: DEP FREQ 126.5
+
+.TCMPUGETDEP .MSG ZSE_ISR *** PUGET 6 ::: Hybrid ::: CVS Exct Maint 3k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. Vector to assigned route
+
+.TCMPUGETCTR .MSG ZSE_ISR *** PUGET 6 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTTCMPUGET Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTTCMPUGETU Cleared to $arr via $route. Climb Via SID Except Maintain 3k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; TCM WHYTE
+
+
+.TCMWHYTE .FD TCM_WHYTE
+
+.TCMWHYTECTR .MSG ZSE_ISR *** WHYTE 6 ::: Non-RNAV ::: Cross WEBIM @ 10k ::: A$altim(KTCM)
+
+.TCMWHYTEAPP .MSG ZSE_ISR *** WHYTE 6 ::: Non-RNAV ::: [RWY 34] @ ALDER clrd ILS RWY 34 __ [RWY 16] @ STEIL clrd ILS or TACAN RWY 16 ::: A$altim(KTCM)
+
+.TTCMWHYTECTRN Cross WEBIM at and maintain 10k. TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMWHYTEAPPN Cross ALDER at or above 4k. At ALDER cleared ILS rwy 34 approach. Altimeter A$altim(KTCM)
+
+.TTCMWHYTECTRS Cross WEBIM at and maintain 10k. TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMWHYTEAPPS Cross STEIL at or above 4k. At STEIL clrd ILS 16 approach. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+; TCM ADYMS
+
+
+.TCMADYMS .FD TCM_ADYMS
+
+.TCMADYMSCTR .MSG ZSE_ISR *** ADYMS 2 ::: RNAV ::: Descend via STAR ::: A$altim(KTCM)
+
+.TCMADYMSAPP .MSG ZSE_ISR *** ADYMS 2 ::: RNAV ::: [RWY 16] After ELBBE vector to final __ [RWY 34] @ RIMOE clrd ILS 34 apch ::: A$altim(KTCM)
+
+.TTCMADYMSCTRN Descend via the ADYMS2 arrival. TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMADYMSAPPN At RIMOE cleared ILS 34 approach. Altimeter A$altim(KTCM)
+
+.TTCMADYMSCTRS Descend via the ADYMS2 arrival. TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMADYMSAPPS Expect vectors to final after ELBBE. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+; TCM ARRIE
+
+
+.TCMARRIE .FD TCM_ARRIE
+
+.TCMARRIECTR .MSG ZSE_ISR *** ARRIE 7 ::: Non-RNAV ::: Cross EMDEN @ 10k ::: A$altim(KTCM)
+
+.TCMARRIEAPP .MSG ZSE_ISR *** ARRIE 7 ::: Non-RNAV ::: After CUBIT vector to final ::: A$altim(KTCM)
+
+.TTCMARRIECTRN Cross EMDEN at and maintain 10k. TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMARRIEAPPN Expect vectors for the ILS 34 approach. Altimeter A$altim(KTCM)
+
+.TTCMARRIECTRS Cross EMDEN at and maintain 10k. TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMARRIEAPPS Expect vectors for the ILS Z 16 approach. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+; TCM ELN
+
+
+.TCMELN .FD TCM_ELN
+
+.TCMELNCTR .MSG ZSE_ISR *** ELN 3 ::: RNAV ::: Descend via STAR ::: A$altim(KTCM)
+
+.TCMELNAPP .MSG ZSE_ISR *** ELN 3 ::: RNAV ::: [RWY 16] Vector to final after WAALP __ [RWY 34] @ JETEM clrd ILS 34 apch ::: A$altim(KTCM)
+
+.TTCMELNCTRN Descend via the ELN3 arrival. TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMELNAPPN Cross JETEM at or above 3200. At JETEM clrd ILS 34 approach. Altimeter A$altim(KTCM)
+
+.TTCMELNCTRS Descend via the ELN3 arrival. TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMELNAPPS Expect vectors for the ILS Z 16 apch. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+; TCM GLASR
+
+
+.TCMGLASR .FD SEA_GLASR
+
+.TCMGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 12k 250kts, props @ 10k __ [NORTH OPS] Cross JAKSN @ 16k 270kts, props @ 10k ::: TCM altim A$altim(KTCM)
+
+.TCMGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (Acft will fly dct SEA VORTAC after HETHR if no prior instructions given) ::: TCM altim A$altim(KTCM)
+
+.TTCMGLASRCTRS Cross JAKSN at and maintain 12k and 250kts (props cross at 10k). TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMGLASRAPPS Descend and maintain 7k. Expect vectors for the ILS Z rwy 16 approach. Altimeter A$altim(KTCM)
+
+.TTCMGLASRCTRN Cross JAKSN at and maintain 16k and 270kts (props cross at 10k). TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34 approach. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+; TCM JAWBN
+
+
+.TCMJAWBN .FD SEA_JAWBN
+
+.TCMJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 12k 250kts, other 10k ::: TCM altim A$altim(KTCM)
+
+.TCMJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final. (Acft will fly dct SEA VORTAC after ALKIA if no prior instructions given) ::: TCM altim A$altim(KTCM)
+
+.TTCMJAWBNCTRN Cross JAKSN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). TCM Landing North. Altimeter A$altim(KTCM)
+
+.TTCMJAWBNAPPN Expect vectors for the ILS rwy 34 approach. Altimeter A$altim(KTCM)
+
+.TTCMJAWBNCTRS Cross JAKSN at and maintain 12k and 250kts (non-jets cross at 10k and 250 kts). TCM Landing South. Altimeter A$altim(KTCM)
+
+.TTCMJAWBNAPPS Expect vectors for the ILS Z rwy 16 approach. Altimeter A$altim(KTCM)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; TDO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; TDO RNAV (GPS) RWY 6
+
+
+.TDOR06 .FD TDO_RNAV (GPS) RWY 6
+
+.TDOR06F .FF CETUV AST LOATH HEMZO WINLO EYNAM ASAXE FIFDE COKAM TONNO
+
+
+
+
+
+
+
+
+; TDO RNAV (GPS) RWY 24
+
+
+.TDOR24 .FD TDO_RNAV (GPS) RWY 24
+
+.TDOR24F .FF ALDER FISUS COUGA TOUTL HEGMU COXER HEMZO HEVOL
+
+
+
+
+
+
+
+
+; TDO ATASY
+
+
+.TDOATASY .FD TDO_ATASY
+
+.TDOATASYDEL .MSG ZSE_ISR *** ATASY 2 ::: RNAV-ODP ::: ALL RWYS ::: CVS Exct Maint 6k ::: CRZ-10min(Listed) ::: DEP FREQ 124.2
+
+.TDOATASYGND .MSG ZSE_ISR *** ATASY 2 ::: ALL RWYS ::: Airport is not provided Ground Control Services
+
+.TDOATASYTWR .MSG ZSE_ISR *** ATASY 2 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.2
+
+.TDOATASYDEP .MSG ZSE_ISR *** ATASY 2 ::: RNAV-ODP ::: CVS Exct Maint 6k issued by DEL ::: CRZ-10min(Listed) ::: TopAlt Not Published ::: Instruct acft to climb-in-hold @ ATASY to 6k
+
+.TDOATASYCTR .MSG ZSE_ISR *** ATASY 2 ::: CRZ-10min(Listed) ::: TopAlt Not Published
+
+.TCRAFTTDOATASY Cleared to $arr. Depart via the ATASY2 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 6k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release
+
+.TCRAFTTDOATASYU Cleared to $arr. Depart via the ATASY2 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 6k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. . Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; TIW AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; TIW ILS RWY 17
+
+
+.TIWi17 .FD TIW_ILS RWY 17
+
+.TIWi17F .FF SCENN
+
+
+
+
+
+
+
+
+; TIW LOC RWY 17
+
+
+.TIWL17 .FD TIW_LOC RWY 17
+
+.TIWL17F .FF SCENN
+
+
+
+
+
+
+
+
+; TIW RNAV (GPS) RWY 17
+
+
+.TIWR17 .FD TIW_RNAV (GPS) RWY 17
+
+.TIWR17F .FF CARRO JUYCU FAVDU TETGE WAPGI
+
+
+
+
+
+
+
+
+; TIW RNAV (GPS) RWY 35
+
+
+.TIWR35 .FD TIW_RNAV (GPS) RWY 35
+
+.TIWR35F .FF OLM FESAS GANCA KEFPU ECAZA CARRO
+
+
+
+
+
+
+
+
+; TIW TIW
+
+
+.TIWTIW .FD TIW_TIW
+
+.TIWTIWF .FF
+
+.TIWTIWDEL .MSG ZSE_ISR *** TIW 1 ::: Hybrid ::: ALL RWYS ::: CVS Exct Maint 2k ::: CRZ-5min(Listed) ::: DEP FREQ 120.1
+
+.TIWTIWGND .MSG ZSE_ISR *** TIW 1 ::: ALL RWYS
+
+.TIWTIWTWR .MSG ZSE_ISR *** TIW 1 ::: Hybrid ::: DEP FREQ 120.1
+
+.TIWTIWDEP .MSG ZSE_ISR *** TIW 1 ::: Hybrid ::: CVS Exct Maint 2k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k and vector to assigned route
+
+.TIWTIWCTR .MSG ZSE_ISR *** TIW 1 ::: CRZ-5min(Listed) ::: TopAlt Not Published
+
+.TCRAFTTIWTIW Cleared to $arr via $route. Climb Via SID Except Maintain 2k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTTIWTIWU Cleared to $arr via $route. Climb Via SID Except Maintain 2k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; TMK AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; TMK RNAV (GPS) RWY 13
+
+
+.TMKR13 .FD TMK_RNAV (GPS) RWY 13
+
+.TMKR13F .FF EYCEH JEOEF FETUJ INSAJ QUCYO ULKAW
+
+
+
+
+
+
+
+
+; TMK FETUJ
+
+
+.TMKFETUJ .FD TMK_FETUJ
+
+.TMKFETUJDEL .MSG ZSE_ISR *** FETUJ 3 ::: RNAV-ODP ::: RWY 31 ::: CVS Exct Maint 5k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 124.2
+
+.TMKFETUJGND .MSG ZSE_ISR *** FETUJ 3 ::: RWY 31 ::: Airport is not provided Ground Control Services
+
+.TMKFETUJTWR .MSG ZSE_ISR *** FETUJ 3 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 124.2
+
+.TMKFETUJDEP .MSG ZSE_ISR *** FETUJ 3 ::: RNAV-ODP ::: CVS Exct Maint 5k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TMKFETUJCTR .MSG ZSE_ISR *** FETUJ 3 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTTMKFETUJ Cleared to $arr. Depart via the FETUJ3 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 5k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+
+.TCRAFTTMKFETUJU Cleared to $arr. Depart via the FETUJ3 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 5k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; TTD AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; TTD RNAV (GPS)-A
+
+
+.TTDRA .FD TTD_RNAV (GPS)-A
+
+.TTDRAF .FF GLARA SSHAM WOODD FAIYR APACE MILLL BTG
+
+
+
+
+
+
+
+
+; TTD BLUELAKE
+
+
+.TTDBLUELAKE .FD TTD_BLUELAKE
+
+.TTDBLUELAKEF .FF
+
+.TTDBLUELAKEDEL .MSG ZSE_ISR *** BLUELAKE 3 ::: Vectored ::: ALL RWYS ::: Maint 4k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 124.35(N)
+
+.TTDBLUELAKEGND .MSG ZSE_ISR *** BLUELAKE 3 ::: ALL RWYS
+
+.TTDBLUELAKETWR .MSG ZSE_ISR *** BLUELAKE 3 ::: Vectored ::: Coordinate w/ PDX_TWR for all TTD IFR deps ::: DEP FREQ 124.35(N)
+
+.TTDBLUELAKEDEP .MSG ZSE_ISR *** BLUELAKE 3 ::: Vectored ::: Maint 4k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+
+.TTDBLUELAKECTR .MSG ZSE_ISR ***BLUELAKE 3 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTTTDBLUELAKE Cleared to $arr via $route. Maintain 4k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTTTDBLUELAKEU Cleared to $arr via $route. Maintain 4k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; TTD OCITY
+
+
+.TTDOCITY .FD TTD_OCITY
+
+.TTDOCITYCTR .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: Jets cross VANTZ @ 12k 250kts, other @ 10k 250kts ::: TTD altim A$altim(KTTD)
+
+.TTDOCITYAPP .MSG ZSE_ISR *** OCITY 3 ::: Non-RNAV ::: After OCITY vector to final ::: TTD altim A$altim(KTTD)
+
+.TTTDOCITYCTRE Cross VANTZ at and maintain 12k (props 10k) and 250kts. TTD Landing East. Altimeter A$altim(KTTD)
+
+.TTTDOCITYAPPE Expect vectors for visual approach rwy 7. Altimeter A$altim(KTTD)
+
+.TTTDOCITYCTRW Cross VANTZ at and maintain 12k (props 10k) and 250kts. TTD Landing West. Altimeter A$altim(KTTD)
+
+.TTTDOCITYAPPW Expect vectors for visual approach 25. Altimeter A$altim(KTTD)
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; UAO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; UAO RNAV (GPS) RWY 35
+
+
+.UAOR35 .FD UAO_RNAV (GPS) RWY 35
+
+.UAOR35F .FF EMADE DUBMY HITAK CIGRU TAZZE LUTZZ
+
+
+
+
+
+
+
+
+; UAO LOC RWY 17
+
+
+.UAOL17 .FD UAO_LOC RWY 17
+
+.UAOL17F .FF BTG MOKIY LUTZZ FIDOV GLARA UBG
+
+
+
+
+
+
+
+
+; UAO RNAV (GPS) RWY 17
+
+
+.UAOR17 .FD UAO_RNAV (GPS) RWY 17
+
+.UAOR17F .FF MOKIY LUTZZ FIDOV DUBMY
+
+
+
+
+
+
+
+
+; UAO GLARA
+
+
+.UAOGLARA .FD UAO_GLARA
+
+.UAOGLARADEL .MSG ZSE_ISR *** GLARA 2 ::: RNAV-PilotNav ::: RWY 17, 35 ::: CVS Exct Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0
+
+.UAOGLARAGND .MSG ZSE_ISR *** GLARA 2 ::: RWY 17, 35
+
+.UAOGLARATWR .MSG ZSE_ISR *** GLARA 2 ::: RNAV-PilotNav ::: DEP FREQ 126.0
+
+.UAOGLARADEP .MSG ZSE_ISR *** GLARA 2 ::: RNAV-PilotNav ::: CVS Exct Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. (Acft climbing via SID will hold @ GLARA until at/above 4k)
+
+.UAOGLARACTR .MSG ZSE_ISR *** GLARA 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTUAOGLARA Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTGLARAU Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; UAO GNNET
+
+
+.UAOGNNET .FD UAO_GNNET
+
+.UAOGNNETDEL .MSG ZSE_ISR *** GNNET 2 ::: RNAV-PilotNav ::: RWY 17, 35 ::: CVS Exct Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0
+
+.UAOGNNETGND .MSG ZSE_ISR *** GNNET 2 ::: RWY 17, 35
+
+.UAOGNNETTWR .MSG ZSE_ISR *** GNNET 2 ::: RNAV-PilotNav ::: DEP FREQ 126.0
+
+.UAOGNNETDEP .MSG ZSE_ISR *** GNNET 2 ::: RNAV-PilotNav ::: CVS Exct Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. (Acft climbing via SID will hold @ GNNET until at/above 5k)
+
+.UAOGNNETCTR .MSG ZSE_ISR *** GNNET 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTUAOGNNET Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTUAOGNNETU Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; UAO UBG
+
+
+.UAOUBG .FD UAO_UBG
+
+.UAOUBGDEL .MSG ZSE_ISR *** UBG 2 ::: RNAV-PilotNav ::: RWY 17, 35 ::: CVS Exct Maint 4k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 126.0
+
+.UAOUBGGND .MSG ZSE_ISR *** UBG 2 ::: RWY 17, 35
+
+.UAOUBGTWR .MSG ZSE_ISR *** UBG 2 ::: RNAV-PilotNav ::: DEP FREQ 126.0
+
+.UAOUBGDEP .MSG ZSE_ISR *** UBG 2 ::: RNAV-PilotNav ::: CVS Exct Maint 4k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. (Acft climbing via SID will hold @ UBG until at/above 4k)
+
+.UAOUBGCTR .MSG ZSE_ISR *** UBG 2 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTUAOUBG Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTUAOUBGU Cleared to $arr via $route. Climb Via SID Except Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; VUO AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; VUO LDA-A
+
+
+.VUODA .FD VUO_LDA-A
+
+.VUODAF .FF BUXOM TRAYL ZEZJI QEHBY BTG AASEN
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; YKM AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+
+
+
+
+; YKM ILS RWY 27
+
+
+.YKMi27 .FD YKM_ILS RWY 27
+
+.YKMi27F .FF CIDOG FITIM MARRK SUNED OPISE WIKIK ZITLU XOWLO FIGRU CISUS YKM
+
+
+
+
+
+
+
+
+; YKM LOC RWY 27
+
+
+.YKML27 .FD YKM_LOC RWY 27
+
+.YKML27F .FF CIDOG FITIM MARRK SUNED OPISE WIKIK ZITLU XOWLO FIGRU CISUS YKM
+
+
+
+
+
+
+
+
+; YKM RNAV (RNP) RWY 9
+
+
+.YKMR09 .FD YKM_RNAV (RNP) RWY 9
+
+.YKMR09F .FF DATYE HOBVA YKM JUXOM YINUL WIRDI OXNAS SIMCO WAPSI ZIGLO OTTEG LUSNY CUSOM MUDLE
+
+
+
+
+
+
+
+
+; YKM RNAV (RNP) Y RWY 27
+
+
+.YKMRY7 .FD YKM_RNAV (RNP) Y RWY 27
+
+.YKMRY7F .FF SIMCO MUDLE ZOTOG YIGUN SUNED JURET PAPPS WUDEB DATVE ZIVOM OVTEE WUPRO CURKA OAKSS PUBBO SIBSY
+
+
+
+
+
+
+
+
+; YKM RNAV (RNP) Z RWY 27
+
+
+.YKMRZ7 .FD YKM_RNAV (RNP) Z RWY 27
+
+.YKMRZ7F .FF DATVE ZIVOM OVTEE WUPRO PAPPS WUDEB CURKA SUNED JURET SIMCO MUDLE YIGUN ZOTOG OAKSS YEPCU JOPDI ZEMUN
+
+
+
+
+
+
+
+
+; YKM RNAV (GPS) X RWY 27
+
+
+.YKMRX7 .FD YKM_RNAV (GPS) X RWY 27
+
+.YKMRX7F .FF SUNED MARRK OPISE ZUDAX RACOB AGITY GEBTE
+
+
+
+
+
+
+
+
+; YKM VOR/DME RWY 27
+
+
+.YKMF27 .FD YKM_VOR/DME RWY 27
+
+.YKMF27F .FF CIDOG FITIM SUNED PAPPS FAYCE WIKIK EMAME YKM
+
+
+
+
+
+
+
+
+; YKM TACAN RWY 27
+
+
+.YKMT27 .FD YKM_TACAN RWY 27
+
+.YKMT27F .FF CIDOG FITIM SUNED PAPPS FAYCE WIKIK EMAME YKM
+
+
+
+
+
+
+
+
+; YKM VOR-A
+
+
+.YKMOA .FD YKM_VOR-A
+
+.YKMOAF .FF YKM EMAME JAMDA
+
+
+
+
+
+
+
+
+; YKM GROMO
+
+
+.YKMGROMO .FD YKM_GROMO
+
+.YKMGROMODEL .MSG ZSE_ISR *** GROMO 4 ::: PilotNav ::: RWY 9, 27, 22 ::: GUBSE_HITCH_PAPPS_SIMCO_SUNED_TAMPO ::: Maint 10k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.8
+
+.YKMGROMOGND .MSG ZSE_ISR *** GROMO 4 ::: RWY 9, 27, 22
+
+.YKMGROMOTWR .MSG ZSE_ISR *** GROMO 4 ::: PilotNav ::: DEP FREQ 123.8
+
+.YKMGROMODEP .MSG ZSE_ISR *** GROMO 4 ::: PilotNav ::: Maint 10k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.YKMGROMOCTR .MSG ZSE_ISR *** GROMO 4 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTYKMGROMO Cleared to $arr via $route. Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTYKMGROMOU Cleared to $arr via $route. Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; YKM NACHES
+
+
+.YKMNACHESDEL .MSG ZSE_ISR *** NACHES 4 ::: Vectored ::: RWY 9, 22, 27 ::: CVS ::: CRZ-5min(Listed) ::: DEP FREQ 123.8
+
+.YKMNACHESGND .MSG ZSE_ISR *** NACHES 4 ::: RWY 9, 22, 27
+
+.YKMNACHESTWR .MSG ZSE_ISR *** NACHES 4 ::: Vectored ::: DEP FREQ 123.8
+
+.YKMNACHESDEP .MSG ZSE_ISR *** NACHES 4 ::: Vectored ::: CVS issued by DEL ::: CRZ-5min(Listed) ::: TopAlt 10k ::: Vector to assigned route
+
+.YKMNACHESCTR .MSG ZSE_ISR *** NACHES 4 ::: CRZ-5min(Listed) ::: TopAlt 10k
+
+.TCRAFTYKMNACHES Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTYKMNACHESU Cleared to $arr via $route. Climb Via SID. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; YKM WENAS
+
+
+.YKMWENAS .FD YKM_WENAS
+
+.YKMWENASDEL .MSG ZSE_ISR *** WENAS 7 ::: PilotNav ::: RWY 9, 27, 22 ::: ELN_PAPPS_PERTT_RUBEL_SUNED_TITON ::: Maint 10k ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.8
+
+.YKMWENASGND .MSG ZSE_ISR *** WENAS 7 ::: RWY 9, 27, 22
+
+.YKMWENASTWR .MSG ZSE_ISR *** WENAS 7 ::: PilotNav ::: DEP FREQ 123.8
+
+.YKMWENASDEP .MSG ZSE_ISR *** WENAS 7 ::: PilotNav ::: Maint 10k issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.YKMWENASCTR .MSG ZSE_ISR *** WENAS 7 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTYKMWENAS Cleared to $arr via $route. Maintain 10k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTYKMWENASU Cleared to $arr via $route. Maintain 10k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; YKM YKM
+
+
+.YKMYKM .FD YKM_YKM
+
+.YKMYKMDEL .MSG ZSE_ISR *** YKM 7 ::: PilotNav ::: RWY 9, 22, 27 ::: CVS ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.8
+
+.YKMYKMGND .MSG ZSE_ISR *** YKM 7 ::: RWY 9, 22, 27
+
+.YKMYKMTWR .MSG ZSE_ISR *** YKM 7 ::: PilotNav ::: DEP FREQ 123.8
+
+.YKMYKMDEP .MSG ZSE_ISR *** YKM 7 ::: PilotNav ::: CVS issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft should climb-in-hold @ TITON until AOA MEA for route of flight)
+
+.YKMYKMCTR .MSG ZSE_ISR *** YKM 7 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTYKMYKM Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTYKMYKMU Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+
+
+
+
+
+
+
+
+; YKM ZILLA
+
+
+.YKMZILLA .FD YKM_ZILLA
+
+.YKMZILLADEL .MSG ZSE_ISR *** ZILLA 3 ::: ODP ::: RWY 9, 22, 27 ::: CVS ::: CRZ-10min(Not-Listed) ::: DEP FREQ 123.8
+
+.YKMZILLAGND .MSG ZSE_ISR *** ZILLA 3 ::: RWY 9, 22, 27
+
+.YKMZILLATWR .MSG ZSE_ISR *** ZILLA 3 ::: ODP ::: DEP FREQ 123.8
+
+.YKMZILLADEP .MSG ZSE_ISR *** ZILLA 3 ::: ODP ::: CVS issued by DEL ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published ::: (Acft not on V4-298 should hold @ YKM until AOA MEA for route of flight)
+
+.YKMZILLACTR .MSG ZSE_ISR *** ZILLA 3 ::: CRZ-10min(Not-Listed) ::: TopAlt Not Published
+
+.TCRAFTYKMZILLA Cleared to $arr. Depart via the ZILLA3 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+
+.TCRAFTYKMZILLAU Cleared to $arr. Depart via the ZILLA3 Obstacle Departure Procedure. $route. Climb Via SID. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;------------- 
+; YVR AIRPORT 
+;------------- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+; YVR GRIZZ 
+ 
+
+.YVRGRIZZ1C .OPENURL https://imageserver.fltplan.com/merge/Canada/merge210812/Single/CYVR_GRIZZ_SIX_ARR_EGRET_GRIZZ6_ARRIVAL_ROUTES_STAR-5C.pdf?_ga=2.249611846.1327163672.1629561990-625090037.1596497241
+
+.YVRGRIZZ2C .OPENURL https://imageserver.fltplan.com/merge/Canada/merge210812/Single/CYVR_GRIZZ_SIX_ARR_EGRET_GRIZZ6_ARRIVAL_ROUTES_STAR-5B.pdf?_ga=2.249611846.1327163672.1629561990-625090037.1596497241
+
+.YVRGRIZZ3C .OPENURL https://imageserver.fltplan.com/merge/Canada/merge210812/Single/CYVR_GRIZZ_SIX_ARR_EGRET_GRIZZ6_TRANSITION_ROUTES.pdf?_ga=2.249611846.1327163672.1629561990-625090037.1596497241
+ 
+.YVRGRIZZ .FD YVR_GRIZZ 
+ 
+.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+ 
+.YVRGRIZZAPP .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
+ 
+.TYVRGRIZZCTR (Turbo)props cross EGRET at 10k, jets cross EGRET at 12k. YVR Landing West. Altimeter A$altim(KYVR) 
+ 
+.TYVRGRIZZAPP . Altimeter A$altim(KYVR) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+; YVR PAINE 
+ 
+
+.YVRPAINEC .OPENURL https://imageserver.fltplan.com/merge/Canada/merge210812/Single/CYVR_PAINE_FOUR_ARR_PAE_PAINE4.pdf?_ga=2.249611846.1327163672.1629561990-625090037.1596497241
+
+.YVRPAINE .FD YVR_PAINE 
+ 
+.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+ 
+.YVRPAINEAPP .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
+ 
+.TYVRPAINECTR Jets cross EGRET at 12k, (turbo)props cross EGRET at 10k. YVR Landing West. Altimeter A$altim(KYVR) 
+ 
+.TYVRPAINEAPP . Altimeter A$altim(KYVR) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+;------------- 
+; YYJ AIRPORT 
+;------------- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+; YYJ DISCO 
+ 
+
+.YYJDISCOC .OPENURL https://imageserver.fltplan.com/merge/Canada/merge210812/Single/CYYJ_DISCO_FOUR_ARR_DISCO_DISCO4.pdf?_ga=2.79425108.1327163672.1629561990-625090037.1596497241
+ 
+.YYJDISCO .FD YYJ_DISCO 
+ 
+.YYJDISCOCTR .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: Cross DISCO @ 5k ::: A$altim(KYYJ) 
+ 
+.YYJDISCOAPP .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: HANDOFF TO CYYJ_APP ::: A$altim(KYYJ) 
+ 
+.TYYJDISCOCTRW Cross DISCO at 5k. YYJ Landing West. Altimeter A$altim(KYYJ) 
+ 
+.TYYJDISCOAPPW . Altimeter A$altim(KYYJ) 

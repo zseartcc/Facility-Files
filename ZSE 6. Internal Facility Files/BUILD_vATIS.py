@@ -15,12 +15,12 @@ for file in os.listdir(EDIT_PATH):
 	if file.endswith(".xml"):
 		print(file)
 		# Get icao ident and name
-		tree = ET.parse(EDIT_PATH+file)
+		tree = ET.parse(EDIT_PATH + file)
 		root = tree.getroot()
 		icao = root.get("ID")
 		name = root.get("Name")
 		# Write to pre-release file
-		with gzip.open(PR_PATH+f"vATIS Facility - {name} ({icao}).gz", "w") as prfile:
+		with gzip.open(PR_PATH + f"vATIS Facility - {name} ({icao}).gz", "w") as prfile:
 			if hasattr(ET, "indent"):
 				# (ET.indent only works in Python 3.9+)
 				ET.indent(tree)

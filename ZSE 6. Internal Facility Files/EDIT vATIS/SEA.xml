@@ -26,6 +26,11 @@
       <Notams>LOW VISIBILITY PROCS. STOP BARS ARE OPERATIONAL. DO NOT CROSS STOP BARS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
+    <Profile Name="SOUTH SUGGESTED ">
+      <AirportConditions>SUGGESTED RUNWAYS 16L &amp; 16R.  SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
     <Profile Name="NORTH VIS">
       <AirportConditions>SIMUL VIS APCHS 34R &amp; 34L IN USE. CHARTED VIS APCHS IN USE. DEPTG RWYS 34R &amp; 34C.</AirportConditions>
       <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
@@ -39,6 +44,11 @@
     <Profile Name="NORTH LOW VIS">
       <AirportConditions>ILS RWY 34L &amp; 34R APCHS IN USE. DEPTG RWYS 34R &amp; 34C.</AirportConditions>
       <Notams>LOW VISIBILITY PROCS. STOP BARS ARE OPERATIONAL. DO NOT CROSS STOP BARS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="NORTH SUGGESTED">
+      <AirportConditions>SUGGESTED RUNWAYS 34R &amp; 34L.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
   </Profiles>

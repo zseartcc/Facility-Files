@@ -30,6 +30,11 @@
       <Notams>OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. PUSHBACK ONTO TWYS T &amp; *K REQS ATC CLNC.</Notams>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
+    <Profile Name="EAST SUGGESTED">
+      <AirportConditions>SUGGESTED RUNWAYS 10L and 10R</AirportConditions>
+      <Notams>PUSHBACK ONTO TWYS T &amp; *K REQS ATC CLNC.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
     <Profile Name="WEST VIS (DAY)">
       <AirportConditions>SIMUL VIS APCHS IN USE RWYS 28L &amp; 28R. TURBOJET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS 28L &amp; 28R.</AirportConditions>
       <Notams>PUSHBACK ONTO TWYS T &amp; *K REQS ATC CLNC.</Notams>
@@ -48,6 +53,11 @@
     <Profile Name="WEST LOW VIS">
       <AirportConditions>LOW VISIBILITY OPS IN EFCT. SIMUL ILS RWY 28L APCHS IN USE. DEPTG RWYS 28L &amp; 28R.</AirportConditions>
       <Notams>OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. PUSHBACK ONTO TWYS T &amp; *K REQS ATC CLNC.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="WEST SUGGESTED">
+      <AirportConditions>SUGGESTED RUNWAYS 28L and 28R</AirportConditions>
+      <Notams>PUSHBACK ONTO TWYS T &amp; *K REQS ATC CLNC.</Notams>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
   </Profiles>

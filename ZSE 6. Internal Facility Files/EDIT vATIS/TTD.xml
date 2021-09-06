@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KTTD" Name="Troutdale" UpdatedOn="2021-08-15T09:07:57.5778179-07:00">
-  <Frequency>18000</Frequency>
+  <Frequency>135625</Frequency>
   <InformationDisplaySystemEndpoint>https://ids.zseartcc.org/remote/atis</InformationDisplaySystemEndpoint>
   <MetarObservation ObservationTimeValue="0" Enable="false" />
   <MagneticVariation MagneticVariationValue="20" Option="Subtract" />

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KSEA" Name="Seattle" UpdatedOn="2021-05-19T16:08:27.6736198-07:00">
+  <Frequency>18000</Frequency>
+  <InformationDisplaySystemEndpoint>https://ids.zseartcc.org/remote/atis</InformationDisplaySystemEndpoint>
+  <MetarObservation ObservationTimeValue="0" Enable="false" />
+  <MagneticVariation MagneticVariationValue="20" Option="Subtract" />
+  <Contractions>
+    <Contraction Key="SEA APRT" Value="SEATTLE AIRPORT" />
+    <Contraction Key="BFI" Value="BOEING FIELD" />
+    <Contraction Key="PROCS" Value="PROCEDURES" />
+    <Contraction Key="RNAV" Value="ARE-NAV" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="SOUTH VIS ">
+      <AirportConditions>SIMUL VIS APCHS 16L &amp; 16R IN USE. CHARTED VIS APCHS IN USE. DEPTG RWYS 16L &amp; 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="SOUTH ILS">
+      <AirportConditions>SIMUL ILS RWY 16R &amp; 16L APCHS IN USE. DEPTG RWYS 16L &amp; 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="SOUTH LOW VIS">
+      <AirportConditions>ILS RWY 16R &amp; 16L APCHS IN USE. DEPTG RWYS 16L &amp; 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.</AirportConditions>
+      <Notams>LOW VISIBILITY PROCS. STOP BARS ARE OPERATIONAL. DO NOT CROSS STOP BARS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="NORTH VIS">
+      <AirportConditions>SIMUL VIS APCHS 34R &amp; 34L IN USE. CHARTED VIS APCHS IN USE. DEPTG RWYS 34R &amp; 34C.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="NORTH ILS">
+      <AirportConditions>SIMUL ILS RWY 34L &amp; 34R APCHS IN USE. DEPTG RWYS 34R &amp; 34C.</AirportConditions>
+      <Notams>ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="NORTH LOW VIS">
+      <AirportConditions>ILS RWY 34L &amp; 34R APCHS IN USE. DEPTG RWYS 34R &amp; 34C.</AirportConditions>
+      <Notams>LOW VISIBILITY PROCS. STOP BARS ARE OPERATIONAL. DO NOT CROSS STOP BARS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.</Notams>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="GATE HOLD PROCS ARE IN EFCT, CTC GND ON 121.7 PRIOR TO PUSHBACK." IsSelected="false" />
+  </Notams>
+  <AirportConditions>
+    <AirportCondition Message="RNAV APCHS AVBL ON RQST." IsSelected="false" />
+    <AirportCondition Message="VFR ACFT SAY DRCTN OF FLT." IsSelected="false" />
+  </AirportConditions>
+</Facility>

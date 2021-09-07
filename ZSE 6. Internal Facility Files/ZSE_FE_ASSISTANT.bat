@@ -28,9 +28,9 @@ CLS
 
 ECHO.
 ECHO.
-ECHO                      **********
-ECHO                       ADVISORY
-ECHO                      **********
+ECHO                   **********
+ECHO                    ADVISORY
+ECHO                   **********
 ECHO.
 ECHO This batch script requires Dropbox to be at:
 ECHO.

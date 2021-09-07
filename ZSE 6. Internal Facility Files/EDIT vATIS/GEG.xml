@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KGEG" Name="Spokane" UpdatedOn="2021-08-15T09:15:53.8296149-07:00">
+  <Frequency>24325</Frequency>
+  <InformationDisplaySystemEndpoint>https://ids.zseartcc.org/remote/atis</InformationDisplaySystemEndpoint>
+  <MetarObservation ObservationTimeValue="0" Enable="false" />
+  <MagneticVariation MagneticVariationValue="20" Option="Subtract" />
+  <Contractions>
+    <Contraction Key="RNAV" Value="ARE-NAV" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="21 VIS">
+      <AirportConditions>SIMUL VIS APCHS IN USE RWY 21. DEPTG RWY 21. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="21 ILS">
+      <AirportConditions>SIMUL ILS APCHS IN USE RWY 21. DEPTG RWY 21.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="3 VIS">
+      <AirportConditions>SIMUL VIS APCHS IN USE RWY 3. DEPTG RWY 3. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+    <Profile Name="3 ILS">
+      <AirportConditions>SIMUL ILS APCHS IN USE RWY 3. DEPTG RWY 3.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="LOW VISIBILITY PROCS IN EFCT. STOP BARS OPERATIONAL. DO NOT CROSS STOP BARS." IsSelected="false" />
+  </Notams>
+  <AirportConditions>
+    <AirportCondition Message="RNAV APCHS AVBL ON RQST." IsSelected="true" />
+  </AirportConditions>
+</Facility>

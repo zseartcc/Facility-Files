@@ -342,6 +342,7 @@
 .tpbo Push back onto $1 approved, face $2.
 
 ; Tower
+.tluaw Runway $1, line up and wait.
 .tcl Runway $1, Wind $winds, cleared to land.
 .tct Runway $1, Wind $winds, cleared for takeoff.
 .tlmalocal Leaving my airspace, frequency change approved.

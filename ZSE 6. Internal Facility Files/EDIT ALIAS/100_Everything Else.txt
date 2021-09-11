@@ -198,6 +198,7 @@
 .ANM .MSG $atccallsign($1) *** $arr :: $aircraft :: $2 $3 $4 $5 $6 $7 $8 $9
 .RC .MSG $atccallsign($1) *** $aircraft rolling rwy $2 :: $3 $4 $5 $6 $7 $8 $9
 .RT .MSG $atccallsign($1) *** $aircraft rejected takeoff rwy $2 :: $3 $4 $5 $6 $7 $8 $9
+.LD .MSG $atccallsign($1) *** $aircraft landed :: $2 $3 $4 $5 $6 $7 $8 $9
 
 ; Departure Release Requests
 .RR .MSG $atccallsign($1) *** RELEASE REQUEST *** $dep :: $aircraft :: $type($aircraft) :: $route :: $alt :: $2 $3 $4 $5 $6 $7 $8 $9

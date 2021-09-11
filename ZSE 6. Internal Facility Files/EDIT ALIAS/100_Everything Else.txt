@@ -336,15 +336,16 @@
 .TNOPDC .msg $aircraft ***ADVISORY*** A Pre-Departure Clearance (PDC) was unable to be sent to you due to a lack of sufficient information in your flight plan. Please contact $radioname($1) on $freq($1) for your clearance.
 
 ; Ground
-.trtv Runway $uc($1), taxi via $2 $3
-.ttpv Taxi to parking via $1 $2
-.tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $1.
-.tpbo Push back onto $1 approved, face $2.
+.trtv Runway $uc($1), taxi via $uc($2) $uc($3)
+.ttpv Taxi to parking via $uc($1) $uc($2)
+.ths Hold short of $uc($1)
+.tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $uc($1).
+.tpbo Push back onto $uc($1) approved, face $2.
 
 ; Tower
-.tluaw Runway $1, line up and wait.
-.tcl Runway $1, Wind $winds, cleared to land.
-.tct Runway $1, Wind $winds, cleared for takeoff.
+.tluaw Runway $uc($1), line up and wait.
+.tcl Runway $uc($1), Wind $winds, cleared to land.
+.tct Runway $uc($1), Wind $winds, cleared for takeoff.
 .tlmalocal Leaving my airspace, frequency change approved.
 
 ; Radar-General

@@ -71,6 +71,7 @@
 ;Update 5.03 - Jan 2021: Added new sectors for upcoming sector changes
 ;Update 5.04 - Apr 2021: Update to use 25 kHz spacing
 ;Update 5.05 - Aug 2021: Update BLI_TWR and add NUW_DEL.  Fix tower name for MWH.
+;Update 5.06 - Sep 2021: Add combined SEA_CTR position
 
 
 ; Use this file to create unique static controller position id's for your radar client.

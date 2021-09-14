@@ -2,7 +2,7 @@
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2108
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2109
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT
@@ -80,9 +80,9 @@
 
 ; Quick Reference Pages
 
-.COMMANDS .OPENURL https://docs.google.com/document/d/1iAt_F1GjQIlLn8nJ5klua_BtQ5Gtlmilg_EcGdShXLY/edit  ; vats.im/zse-commands
-.FEEDBACK .OPENURL https://docs.google.com/forms/d/e/1FAIpQLSfdbuZfA8bBQRw7ISvtAEDyvPzMIU2iHG13d_ZMb6QQv4SvVA/viewform  ; vats.im/zse-feedback
-.CHANGELOG .OPENURL https://docs.google.com/document/d/19gwgsfu63_h7yDh98o9fZ-LsaSnijRXGbTWhqg0R56s/edit  ; vats.im/zse-changelog
+.COMMANDS .OPENURL https://docs.google.com/document/d/1S2VIBptdUzZTP9B4shXyFPhAtxTP6d6_7md5Y3OoRCg  ; vats.im/zse-commands
+.FEEDBACK .OPENURL https://docs.google.com/forms/d/e/1FAIpQLScL-cVWTUY_Kf6DR1YidcBEkiVglKIMvUjVVbVMLUI0e1eZqQ/viewform  ; vats.im/zse-feedback
+.CHANGELOG .OPENURL https://docs.google.com/document/d/1csWtxWXDbbzZVXlLGqMnU-Bgz6DgQ47VWMH7BRt3r_Q  ; vats.im/zse-changelog
 .CID .OPENURL https://stats.vatsim.net/stats/$1
 
 
@@ -183,8 +183,6 @@
 .idCPC .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
 .idEMPRESS .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
 
-.tnoatc No further ATC available.  Frequency change to advisory (122.800) approved.
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -200,6 +198,7 @@
 .ANM .MSG $atccallsign($1) *** $arr :: $aircraft :: $2 $3 $4 $5 $6 $7 $8 $9
 .RC .MSG $atccallsign($1) *** $aircraft rolling rwy $2 :: $3 $4 $5 $6 $7 $8 $9
 .RT .MSG $atccallsign($1) *** $aircraft rejected takeoff rwy $2 :: $3 $4 $5 $6 $7 $8 $9
+.LD .MSG $atccallsign($1) *** $aircraft landed :: $2 $3 $4 $5 $6 $7 $8 $9
 
 ; Departure Release Requests
 .RR .MSG $atccallsign($1) *** RELEASE REQUEST *** $dep :: $aircraft :: $type($aircraft) :: $route :: $alt :: $2 $3 $4 $5 $6 $7 $8 $9
@@ -312,16 +311,25 @@
 
 
 ; General
-.tsq Squawk $squawk
 .tcon Contact $radioname($1) on $freq($1).
 .tmon Monitor $radioname($1) on $freq($1).
-.tCLOSING  ****NOTAM $radioname() is closing in $1 minutes. ****
-.tCLOSED  ****NOTAM $radioname() closed at $time Zulu. ****
+.tnoatc No further ATC available.  Frequency change to advisory (122.800) approved.
+.thanks Thanks for flying with us in ZSE.  C'ya.
+
+.tBRB *** NOTAM: $radioname() will be back in $1 minutes. ***
+.tBK *** NOTAM: $radioname() is back. ***
+
+.tCLOSING  *** NOTAM: $radioname() is closing in $1 minutes. ***
+.tCLOSED  *** NOTAM: $radioname() closed at $time Zulu. ***
+.tCLOSEDU .TCLOSED .tNOATC .thanks
+.tCLOSEDHO .TCLOSED .tMON $1 .thanks
+
 .THOTMIC ATTENTION ALL AIRCRAFT: Someone is continuing to press the MIC button. Please check your connections and resolve this issue as it is disrupting communications on this frequency.
 .TEQUIP What is your equipment suffix code?
 
 ; Clearance Delivery
 .trbc Read Back Correct.
+.tREFILE your flight plan not on file, please refile your flight plan.
 
 ; General CRAFT
 .TCRAFTU Cleared to $arr via $route. Departure frequency is with UNICOM 122.800, squawk $squawk
@@ -329,19 +337,22 @@
 .TNOPDC .msg $aircraft ***ADVISORY*** A Pre-Departure Clearance (PDC) was unable to be sent to you due to a lack of sufficient information in your flight plan. Please contact $radioname($1) on $freq($1) for your clearance.
 
 ; Ground
-.trtv Runway $uc($1), taxi via $2 $3
-.ttpv Taxi to parking via $1 $2
-.tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $1.
-.tpbo Push back onto $1 approved, face $2.
+.trtv Runway $uc($1), taxi via $uc($2) $uc($3)
+.ttpv Taxi to parking via $uc($1) $uc($2)
+.ths Hold short of $uc($1)
+.tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $uc($1).
+.tpbo Push back onto $uc($1) approved, face $2.
 
 ; Tower
-.tcl Runway $1, Wind $winds, cleared to land.
-.tct Runway $1, Wind $winds, cleared for takeoff.
+.tluaw Runway $uc($1), line up and wait.
+.tcl Runway $uc($1), Wind $winds, cleared to land.
+.tct Runway $uc($1), Wind $winds, cleared for takeoff.
 .tlmalocal Leaving my airspace, frequency change approved.
 
 ; Radar-General
 .tsq squawk $squawk
 .ti ident
+.tsqi squawk $squawk and ident
 .trc Radar contact
 .tfh Fly heading $1
 .ttl Turn left heading $1
@@ -386,6 +397,7 @@
 .PDCENDSEA ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 .PDCENDSEARAMP ADDITIONAL INFO: >>RAMP CONTROL IN EFFECT.  CONTACT $uc($radioname($1)) ON $freq($1) FOR PUSH AND START CLEARANCE.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
+.PDCEXPECT *** EXPECT RUNWAY $uc($1) FOR DEPARTURE
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

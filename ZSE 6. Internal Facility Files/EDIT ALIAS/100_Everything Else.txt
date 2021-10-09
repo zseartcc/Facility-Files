@@ -340,6 +340,7 @@
 .trtv Runway $uc($1), taxi via $uc($2) $uc($3)
 .ttpv Taxi to parking via $uc($1) $uc($2)
 .ths Hold short of $uc($1)
+.tcross Cross $uc($1)
 .tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $uc($1).
 .tpbo Push back onto $uc($1) approved, face $2.
 

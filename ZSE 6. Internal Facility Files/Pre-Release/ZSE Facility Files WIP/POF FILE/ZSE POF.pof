@@ -36,6 +36,7 @@ Seattle 07 Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:6601:6677
 ;Seattle 09 Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:6601:6677
 ;Seattle 10 Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:6601:6677
 Seattle 11 Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:6601:6677
+Seattle 11 Center:Seattle Center:119.220:S11:S:SEA:CTR:SEA:11-CTR:6601:6677  ; Fix vERAM issue
 Seattle 12 Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:6601:6677
 Seattle 13 Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:6601:6677
 Seattle 14 Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:6601:6677
@@ -53,6 +54,7 @@ Seattle 42 Center:Seattle Center:132.070:S42:S:SEA:CTR:SEA:42-CTR:6601:6677  ; F
 Seattle 46 Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:6601:6677
 Seattle 47 Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:6601:6677
 ;Seattle 48 Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:6601:6677
+;Seattle 48 Center:Seattle Center:118.620:S48:S:SEA:CTR:SEA:48-CTR:6601:6677  ; Fix vERAM issue
 
 
 ; Seattle TRACON (S46)

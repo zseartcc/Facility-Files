@@ -2,7 +2,7 @@
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2109
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2110
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT
@@ -312,6 +312,7 @@
 
 ; General
 .tcon Contact $radioname($1) on $freq($1).
+.tctc .tcon $1
 .tmon Monitor $radioname($1) on $freq($1).
 .tnoatc No further ATC available.  Frequency change to advisory (122.800) approved.
 .thanks Thanks for flying with us in ZSE.  C'ya.
@@ -340,6 +341,7 @@
 .trtv Runway $uc($1), taxi via $uc($2) $uc($3)
 .ttpv Taxi to parking via $uc($1) $uc($2)
 .ths Hold short of $uc($1)
+.tcross Cross $uc($1)
 .tpb Push back into alley at pilot's discretion.  Call when ready for taxi, holding short of $uc($1).
 .tpbo Push back onto $uc($1) approved, face $2.
 
@@ -360,12 +362,17 @@
 .trst Radar service terminated
 .tcm Climb and maintain $1
 .tdm Descend and maintain $1
+.tspd Maintain $1 knots.
+.tmach Maintain mach $1.
+.tunctrld No traffic observed between you and the $arr airport. Report IFR cancellation or missed approach this frequency. Radar service terminated. Frequency change approved.
+.tuc .tunctrld
 
 ; Departure
 .thfr Hold for release.
 .trfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now- $time Zulu. Frequency change approved.
 
 ; Approach
+.tdva Descend via the $uc($1) arrival. $arr altimeter $altim($arr).  Landing $2.
 .tptac $dist($1) miles from $uc($1), Fly heading $2. Maintain $3 until established on the localizer. Cleared $4 runway $5 approach.
 .tptacils $dist($1) miles from $uc($1), Fly heading $2. Maintain $3 until established on the localizer. Cleared ILS runway $4 approach.
 .trfis Airport is at your $oclock($arr), $dist($arr) miles, report in sight
@@ -373,6 +380,7 @@
 
 ; En-Route
 .trcdb Radar Contact $dist($1) miles $bear($1) of $uc($1)
+.posdb .msg ZSE_ISR $aircraft: $dist($1) miles $bear($1) of $uc($1)
 .tlma Leaving my airspace, radar service terminated, frequency change approved.
 
 
@@ -390,14 +398,15 @@
 
 ; Base templates
 .PDCGEN .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 
-.PDCGENCV .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN $1* | DEP $2 | 
+.PDCGENCV .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID* | DEP $1 | 
+.PDCGENCVX .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN $1* | DEP $2 | 
 
 ; Airport specific templates
-.PDCENDPDX  ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
-.PDCENDSEA ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
-.PDCENDSEARAMP ADDITIONAL INFO: >>RAMP CONTROL IN EFFECT.  CONTACT $uc($radioname($1)) ON $freq($1) FOR PUSH AND START CLEARANCE.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
-
-.PDCEXPECT *** EXPECT RUNWAY $uc($1) FOR DEPARTURE
+.PDCENDPDX  ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< .PDCEND
+.PDCENDSEA ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< .PDCEND
+.PDCENDSEARAMP ADDITIONAL INFO: >>RAMP CONTROL IN EFFECT.  CONTACT $uc($radioname($1)) ON $freq($1) FOR PUSH AND START CLEARANCE.<< .PDCEND
+.PDCEND THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+.PDCEXPECT *** EXPECT RUNWAY $uc($1) FOR DEPARTURE ***
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

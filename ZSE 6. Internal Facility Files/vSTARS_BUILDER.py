@@ -30,9 +30,9 @@ import fetools.alias
 import fetools.pof
 
 
-##############
-# Parameters #
-##############
+################
+#  Parameters  #
+################
 
 # Path to 'EDIT vSTARS' folder (no "/" at the end)
 S_EDIT_PATH = "EDIT vSTARS"
@@ -80,7 +80,6 @@ def updateAliases(profId, name, profGZ, config):
             ET.indent(tree)
         tree.write(facility)
 
-
 def updatePositions(profId, name, profGZ, config):
     # Load/convert pof file
     with open(POF_PATH) as f:
@@ -108,7 +107,6 @@ def updatePositions(profId, name, profGZ, config):
             ET.indent(tree)
         tree.write(facility)
 
-
 def updateMaps(profId, name, profGZ, config):
     # Load current pre-release .gz file
     with gzip.open(profGZ) as preRlsFile:
@@ -125,11 +123,14 @@ def updateMaps(profId, name, profGZ, config):
             videoMaps.append(diagram)
     # Write new video maps to pre-release file
     with gzip.open(profGZ, "w") as preRlsFile:
-        # (Only Python 3.9+ supports .indent())
-        try:
-            preRlsXML.indent()
-        except:
-            pass
+        # # (Only Python 3.9+ supports .indent())
+        # try:
+        #     preRlsXML.indent()
+        # except:
+        #     pass
+        if hasattr(ET, "indent"):
+            # # (ET.indent only works in Python 3.9+)
+            ET.indent(preRlsXML)
         preRlsXML.write(preRlsFile)
 
 
@@ -152,17 +153,20 @@ def assemble(profId, name, profGZ, config):
         old.text = new.text
     # Write updated profile
     with gzip.open(profGZ, "w") as preRlsFile:
-        # (Only Python 3.9+ supports .indent())
-        try:
-            preRlsXML.indent()
-        except:
-            pass
+        # # (Only Python 3.9+ supports .indent())
+        # try:
+        #     preRlsXML.indent()
+        # except:
+        #     pass
+        if hasattr(ET, "indent"):
+            # (ET.indent only works in Python 3.9+)
+            ET.indent(preRlsXML)
         preRlsXML.write(preRlsFile)
 
 
-###################
-# Main GUI Window #
-###################
+#####################
+#  Main GUI Window  #
+#####################
 
 root = tk.Tk()
 
@@ -272,7 +276,7 @@ class App(tk.Frame):
             # Get profile's current pre-release .gz file
             preRlsFile = f"{S_OUT_PATH}/vSTARS Facility - {name} ({profile}).gz"
             for task in todo:
-                statText.set(f"{profile}: {task.__name__}")
+                statText.set(f"             {profile}: {task.__name__}             ")
                 root.update_idletasks()  # (Updates GUI after each task is run)
                 try:
                     # Run task!

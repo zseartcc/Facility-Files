@@ -3,7 +3,7 @@
     <ID>PSC-YKM</ID>
     <Name>Chinook</Name>
     <VisibilityRange>80</VisibilityRange>
-    <MagVar>-15</MagVar>
+    <MagVar>-14.6</MagVar>
     <Center Lon="-119.76" Lat="46.39" />
     <RadarSites>
       <RadarSite IsPrimary="true" Character="G" ID="PSC" Elevation="450" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">

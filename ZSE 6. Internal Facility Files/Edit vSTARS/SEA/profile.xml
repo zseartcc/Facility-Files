@@ -1,9 +1,10 @@
-<FacilityBundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0"?>
+<FacilityBundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Facility>
     <ID>SEA</ID>
     <Name>Seattle TRACON</Name>
-    <VisibilityRange>90</VisibilityRange>
-    <MagVar>-20</MagVar>
+    <VisibilityRange>50</VisibilityRange>
+    <MagVar>-15.6</MagVar>
     <Center Lon="-122.32273" Lat="47.45133" />
     <RadarSites>
       <RadarSite IsPrimary="true" Character="R" ID="SEA" Elevation="654" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
@@ -98,7 +99,7 @@
       <AutoDisplayFlightStripBay>true</AutoDisplayFlightStripBay>
     </Local>
     <IFRSquawkCodeRange Low="1501" High="1577" />
-    <VFRSquawkCodeRange Low="101" High="177" />
+    <VFRSquawkCodeRange Low="1501" High="1577" />
     <RNAVPatterns />
   </Facility>
 </FacilityBundle>

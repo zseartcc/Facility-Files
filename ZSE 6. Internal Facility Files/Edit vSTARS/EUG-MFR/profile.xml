@@ -3,7 +3,7 @@
     <ID>EUG-MFR</ID>
     <Name>Cascade</Name>
     <VisibilityRange>150</VisibilityRange>
-    <MagVar>-16</MagVar>
+    <MagVar>-14.9</MagVar>
     <Center Lon="-123.1407" Lat="43.2415" />
     <RadarSites>
       <RadarSite IsPrimary="true" Character="E" ID="EUG" Elevation="423" FloorSlope="0.175" PrimaryRange="60" SecondaryRange="80" ReducedSeparationRange="0" ConeOfSilenceSlope="30" IsTerminal="false">

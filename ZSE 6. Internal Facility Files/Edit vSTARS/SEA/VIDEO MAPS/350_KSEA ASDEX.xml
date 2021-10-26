@@ -1,4 +1,5 @@
-<VideoMap ShortName="KSEA ASDEX" LongName="KSEA ASDEX" STARSGroup="" STARSTDMOnly="false" VisibleInList="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2021-10-14 -->
+<VideoMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ShortName="KSEA ASDEX" LongName="KSEA ASDEX" STARSGroup="" STARSTDMOnly="false" VisibleInList="false">
   <Colors>
     <NamedColor Red="255" Green="0" Blue="0" Name="CLOSE" />
     <NamedColor Red="56" Green="56" Blue="56" Name="TWAY" />
@@ -6,6 +7,7 @@
     <NamedColor Red="81" Green="81" Blue="81" Name="BLDG" />
     <NamedColor Red="73" Green="73" Blue="73" Name="RAMP" />
     <NamedColor Red="0" Green="96" Blue="120" Name="BGND" />
+    <NamedColor Red="201" Green="201" Blue="201" Name="LABELS" />
   </Colors>
   <Elements>
     <Element xsi:type="Path" Color="RAMP" Closed="true" Filled="true" Style="Solid" Thickness="0">
@@ -1226,27 +1228,17 @@
         <WorldPoint Lon="-122.3064907795472" Lat="47.45161129915942" />
         <WorldPoint Lon="-122.3064617526769" Lat="47.45152710174592" />
         <WorldPoint Lon="-122.3064646656322" Lat="47.45090030587162" />
-        <WorldPoint Lon="-122.3065353352519" Lat="47.45054567828063" />
-        <WorldPoint Lon="-122.3065570763484" Lat="47.45049279389621" />
-        <WorldPoint Lon="-122.3065810694455" Lat="47.45046663550394" />
-        <WorldPoint Lon="-122.3068199682235" Lat="47.45030834600441" />
-        <WorldPoint Lon="-122.3068772102172" Lat="47.45028856824805" />
-        <WorldPoint Lon="-122.3072156006025" Lat="47.4502899771314" />
-        <WorldPoint Lon="-122.307277846418" Lat="47.45030224737104" />
-        <WorldPoint Lon="-122.3073346983218" Lat="47.4503253849807" />
-        <WorldPoint Lon="-122.3075828778904" Lat="47.45049551707156" />
-        <WorldPoint Lon="-122.3075919879245" Lat="47.44973492426356" />
-        <WorldPoint Lon="-122.3073452223654" Lat="47.44989776929837" />
-        <WorldPoint Lon="-122.3072898595846" Lat="47.44992284926937" />
-        <WorldPoint Lon="-122.3072255808176" Lat="47.44993320476149" />
-        <WorldPoint Lon="-122.3069093770489" Lat="47.44993246608662" />
-        <WorldPoint Lon="-122.3068517219835" Lat="47.44992211237398" />
-        <WorldPoint Lon="-122.3068051786491" Lat="47.44990219071377" />
-        <WorldPoint Lon="-122.306606430571" Lat="47.4497602340276" />
-        <WorldPoint Lon="-122.3065678061413" Lat="47.44972070441219" />
-        <WorldPoint Lon="-122.306542350414" Lat="47.44967712612728" />
-        <WorldPoint Lon="-122.3064915798277" Lat="47.44941401487708" />
-        <WorldPoint Lon="-122.3064835345458" Lat="47.44935571499284" />
+        <WorldPoint Lon="-122.3064662747294" Lat="47.45013204863424" />
+        <WorldPoint Lon="-122.3064931408333" Lat="47.44973996182907" />
+        <WorldPoint Lon="-122.3066645510629" Lat="47.44931980915425" />
+        <WorldPoint Lon="-122.3070866156976" Lat="47.44924461935194" />
+        <WorldPoint Lon="-122.3075075490669" Lat="47.44932540893099" />
+        <WorldPoint Lon="-122.3076113561262" Lat="47.44954297536041" />
+        <WorldPoint Lon="-122.3076247592047" Lat="47.4485638716094" />
+        <WorldPoint Lon="-122.3075162930541" Lat="47.44881223310328" />
+        <WorldPoint Lon="-122.3071000235548" Lat="47.44888550998676" />
+        <WorldPoint Lon="-122.3066684116012" Lat="47.44880529707094" />
+        <WorldPoint Lon="-122.3065050962004" Lat="47.44842235334767" />
         <WorldPoint Lon="-122.3065022520812" Lat="47.44669497860286" />
         <WorldPoint Lon="-122.3065720868488" Lat="47.44634553090047" />
         <WorldPoint Lon="-122.3065968081432" Lat="47.44629582927757" />

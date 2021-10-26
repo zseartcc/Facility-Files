@@ -1,4 +1,4 @@
-  <VideoMap ShortName="APTS" LongName="AIRPORTS" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true">
+  <VideoMap ShortName="APTS" LongName="AIRPORTS" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Colors>
       <NamedColor Red="80" Green="80" Blue="40" Name="R80G80B40" />
     </Colors>

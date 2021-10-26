@@ -1,4 +1,4 @@
-  <VideoMap ShortName="EUG-ZSE" LongName="EUG-MFR-ZSE HANDOFF MAP" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true">
+  <VideoMap ShortName="EUG-ZSE" LongName="EUG-MFR-ZSE HANDOFF MAP" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Colors>
       <NamedColor Red="0" Green="102" Blue="51" Name="TRACON" />
       <NamedColor Red="136" Green="137" Blue="127" Name="ZSEHO" />

@@ -5,7 +5,9 @@
   <InformationDisplaySystemEndpoint>https://ids.zseartcc.org/remote/atis</InformationDisplaySystemEndpoint>
   <MetarObservation ObservationTimeValue="0" Enable="false" />
   <MagneticVariation MagneticVariationValue="20" Option="Subtract" />
-  <Contractions />
+  <Contractions>
+    <Contraction Key="AVAIL" Value="AVAILABLE" />
+  </Contractions>
   <Profiles>
     <Profile Name="SOUTH ILS">
       <AirportConditions>LDG AND DEPTG RWYS 16L AND 16R. ILS APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>

@@ -7,6 +7,7 @@
   <MagneticVariation MagneticVariationValue="20" Option="Subtract" />
   <Contractions>
     <Contraction Key="LOC" Value="LOCALIZER" />
+    <Contraction Key="AVAIL" Value="AVAILABLE" />
   </Contractions>
   <Profiles>
     <Profile Name="NORTH VIS">

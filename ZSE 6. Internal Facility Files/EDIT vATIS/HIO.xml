@@ -7,6 +7,7 @@
   <MagneticVariation MagneticVariationValue="20" Option="Subtract" />
   <Contractions>
     <Contraction Key="RNAV" Value="ARE-NAV" />
+    <Contraction Key="AVAIL" Value="AVAILABLE" />
   </Contractions>
   <Profiles>
     <Profile Name="31 VIS">

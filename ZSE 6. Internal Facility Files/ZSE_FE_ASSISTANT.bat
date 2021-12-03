@@ -56,7 +56,7 @@ ECHO.
 ECHO      A) Split a current vERAM ZSE GeoMaps.xml or vSTARS Video Maps.xml into multiple individual files.
 ECHO.
 ECHO.
-ECHO      B) Take the export data from the NASR_2_SCT parser and transfer to coorisponding EDIT files.
+ECHO      B) Take the export data from the FE-BUDDY parser and transfer to coorisponding EDIT files.
 ECHO.
 ECHO.
 ECHO      C) Combine split GeoMaps or Video Maps into a single ZSE GeoMaps.xml or ___ Video Maps.xml file.
@@ -920,10 +920,10 @@ GOTO HELLO2
 
 ECHO.
 ECHO.
-ECHO  *** NASR_2_SCT Output to EDIT FOLDERS ***
+ECHO  *** FE-BUDDY Output to EDIT FOLDERS ***
 ECHO.
 ECHO.
-ECHO  This BATCH File will take the export data from the NASR_2_SCT parser and
+ECHO  This BATCH File will take the export data from the FE-BUDDY parser and
 ECHO  transfer the following to the coorisponding files:
 ECHO.
 ECHO.
@@ -1005,14 +1005,14 @@ CLS
 
 ECHO.
 ECHO.
-ECHO Select the NASR2SCT_Output Folder
+ECHO Select the FE-BUDDY_Output Folder
 ECHO.
 ECHO.
 
 set SOURCE_DIR=NOTHING
 
 set "psCommand="(new-object -COM 'Shell.Application')^
-.BrowseForFolder(0,'Select the NASR2SCT_Output Folder',0,0).self.path""
+.BrowseForFolder(0,'Select the FE-BUDDY_Output Folder',0,0).self.path""
 
 	for /f "usebackq delims=" %%I in (`powershell %psCommand%`) do set "SOURCE_DIR=%%I"
 	
@@ -1020,11 +1020,11 @@ set "psCommand="(new-object -COM 'Shell.Application')^
 		
 		SET SOURCE_DIR_CHK=%SOURCE_DIR:~-15%
 		
-		IF NOT "%SOURCE_DIR_CHK%"=="NASR2SCT_Output" (
+		IF NOT "%SOURCE_DIR_CHK%"=="FE-BUDDY_Output" (
 			ECHO.
 			ECHO.
 			ECHO.
-			ECHO The expected "Source" folder is "NASR2SCT_Output"
+			ECHO The expected "Source" folder is "FE-BUDDY_Output"
 			ECHO.
 			ECHO You selected:
 			echo    %SOURCE_DIR%

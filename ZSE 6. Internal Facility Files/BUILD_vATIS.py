@@ -28,4 +28,4 @@ for file in os.listdir(EDIT_PATH):
 
 
 print("\nDone!\n")
-input("Press ENTER to continue")
+input("Press Enter to continue . . . ")

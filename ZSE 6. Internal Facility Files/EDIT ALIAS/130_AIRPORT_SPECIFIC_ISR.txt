@@ -1932,15 +1932,15 @@
 
 .CVOSHEDD .FD CVO_SHEDD
 
-.CVOSHEDDDEL .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: RWY 9, 17, 27, 35 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.5
+.CVOSHEDDDEL .MSG ZSE_ISR *** SHEDD 4 ::: PilotNav ::: RWY 10, 17, 27, 35 ::: CVS ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.5
 
-.CVOSHEDDGND .MSG ZSE_ISR ***SHEDD 3 ::: RWY 9, 17, 27, 35 ::: Airport is not provided Ground Control Services
+.CVOSHEDDGND .MSG ZSE_ISR *** SHEDD 4 ::: RWY 10, 17, 27, 35 ::: Airport is not provided Ground Control Services
 
-.CVOSHEDDTWR .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
+.CVOSHEDDTWR .MSG ZSE_ISR *** SHEDD 4 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
 
-.CVOSHEDDDEP .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 3k :::
+.CVOSHEDDDEP .MSG ZSE_ISR *** SHEDD 4 ::: PilotNav ::: CVS issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
 
-.CVOSHEDDCTR .MSG ZSE_ISR ***SHEDD 3 ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
+.CVOSHEDDCTR .MSG ZSE_ISR *** SHEDD 4 ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
 
 .TCRAFTCVOSHEDD Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
 
@@ -3805,6 +3805,28 @@
 
 
 
+
+
+
+
+; LGD LGD 
+ 
+ 
+.LGDLGD .FD LGD_LGD 
+ 
+.LGDLGDDEL .MSG ZSE_ISR *** LGD 1 ::: RNAV-ODP ::: RWY 12, 17, 30, 35 :::  ::: CVS Exct Maint 7k ::: CRZ-5min(Not-Listed) ::: DEP FREQ 132.6 
+ 
+.LGDLGDGND .MSG ZSE_ISR *** LGD 1 ::: RWY 12, 17, 30, 35 ::: Airport is not provided Ground Control Services 
+ 
+.LGDLGDTWR .MSG ZSE_ISR *** LGD 1 ::: RNAV-ODP ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 132.6 
+ 
+.LGDLGDDEP .MSG ZSE_ISR *** LGD 1 ::: RNAV-ODP ::: CVS Exct Maint 7k issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published :::  
+ 
+.LGDLGDCTR .MSG ZSE_ISR *** LGD 1 ::: CRZ-5min(Not-Listed) ::: TopAlt Not Published 
+ 
+.TCRAFTLGDLGD Cleared to $arr via Depart via the LGD1 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. . Hold For Release 
+ 
+.TCRAFTLGDLGDU Cleared to $arr via Depart via the LGD1 Obstacle Departure Procedure. $route. Climb Via SID Except Maintain 7k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. . Hold For Release 
 
 
 

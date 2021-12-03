@@ -456,6 +456,9 @@
 ;                            PDC Templates
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+; Reroute warning
+.PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
+
 ; Base templates
 .PDCGEN .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 
 .PDCGENCV .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID* | DEP $1 | 

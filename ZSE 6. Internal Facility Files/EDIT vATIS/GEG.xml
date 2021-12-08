@@ -10,19 +10,19 @@
   </Contractions>
   <Profiles>
     <Profile Name="21 VIS">
-      <AirportConditions>SIMUL VIS APCHS IN USE RWY 21. DEPTG RWY 21. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
+      <AirportConditions>VIS RWY 21 APCH IN USE. DEPTG RWY 21. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
     <Profile Name="21 ILS">
-      <AirportConditions>SIMUL ILS APCHS IN USE RWY 21. DEPTG RWY 21.</AirportConditions>
+      <AirportConditions>ILS RWY 21 APCH IN USE. DEPTG RWY 21.</AirportConditions>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
     <Profile Name="3 VIS">
-      <AirportConditions>SIMUL VIS APCHS IN USE RWY 3. DEPTG RWY 3. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
+      <AirportConditions>VIS RWY 3 APCH IN USE RWY 3. DEPTG RWY 3. VFR ACFT SAY DRCTN OF FLT.</AirportConditions>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
     <Profile Name="3 ILS">
-      <AirportConditions>SIMUL ILS APCHS IN USE RWY 3. DEPTG RWY 3.</AirportConditions>
+      <AirportConditions>ILS RWY 3 APCH IN USE RWY 3. DEPTG RWY 3.</AirportConditions>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]</AtisTemplate>
     </Profile>
   </Profiles>

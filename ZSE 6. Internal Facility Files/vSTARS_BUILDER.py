@@ -36,19 +36,14 @@ def updateAliases(profId, name, profGZ, config):
 	# Load/convert alias file
 	with open(ALIAS_PATH) as f:
 		aliases = fetools.alias.load(f)._dumpxml()
-	# Extract CommandAlias tags
-	aliases = aliases.findall(".//CommandAlias")
 	# Replace profile's CommandAlias-es with the `aliases` ones
 	with gzip.open(profGZ) as facility:
 		# Load/parse pre-release .gz file
 		tree = ET.parse(facility)
 	# Get current CommandAliases element
 	current = tree.find(".//CommandAliases")
-	# Clear it...
-	current.clear()
-	# ... and add all the new commands
-	for a in aliases:
-		current.append(a)
+	# Replace with the new commands
+	current[:] = aliases
 	# Update CommandAliasesLastImported
 	time = datetime.datetime.now().astimezone().isoformat()
 	tree.find(".//CommandAliasesLastImported").text = time
@@ -63,19 +58,14 @@ def updatePositions(profId, name, profGZ, config):
 	# Load/convert pof file
 	with open(POF_PATH) as f:
 		positions = fetools.pof.load(f)._dumpxml()
-	# Extract PositionInfo tags
-	positions = positions.findall(".//PositionInfo")
 	# Replace profile's PositionInfo-s with the `positions` ones
 	with gzip.open(profGZ) as facility:
 		# Load/parse pre-release .gz file
 		tree = ET.parse(facility)
 	# Get current Positions element
 	current = tree.find(".//Positions")
-	# Clear it...
-	current.clear()
-	# ... and add all the new positions
-	for p in positions:
-		current.append(p)
+	# Replace with new positions
+	current[:] = positions
 	# Update PositionsLastImported
 	time = datetime.datetime.now().astimezone().isoformat()
 	tree.find(".//PositionsLastImported").text = time

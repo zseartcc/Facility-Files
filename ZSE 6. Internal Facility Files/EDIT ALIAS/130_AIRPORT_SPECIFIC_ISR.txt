@@ -6418,9 +6418,15 @@
 
 .PDXPTLDCTR .MSG ZSE_ISR *** PTLD 2 ::: CRZ-5min(Listed) ::: TopAlt Not Published
 
-.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTPDXPTLD .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, T, or P) as in 'TCRAFTPDXPTLDJ' or 'TCRAFTPDXPTLDP'
+.TCRAFTPDXPTLDJ Cleared to $arr via $route. Maintain 6k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTPDXPTLDT Cleared to $arr via $route. Maintain 6k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTPDXPTLDP Cleared to $arr via $route. Maintain 3k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
 
-.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+.TCRAFTPDXPTLDU .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, T, or P) as in 'TCRAFTPDXPTLDJU' or 'TCRAFTPDXPTLDPU'
+.TCRAFTPDXPTLDJU Cleared to $arr via $route. Maintain 6k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+.TCRAFTPDXPTLDTU Cleared to $arr via $route. Maintain 6k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+.TCRAFTPDXPTLDPU Cleared to $arr via $route. Maintain 3k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
 
 .TPDCPTLD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 

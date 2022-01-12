@@ -393,6 +393,7 @@
 ; Clearance Delivery
 .trbc Read Back Correct.
 .tREFILE your flight plan not on file, please refile your flight plan.
+.tinvalt cruise altitude $uc($cruise) not valid for your direction of flight, would you like $uc($1) or $uc($2)?
 
 ; General CRAFT
 .TCRAFTU Cleared to $arr via $route. Departure frequency is with UNICOM 122.800, squawk $squawk

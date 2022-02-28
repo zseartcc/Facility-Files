@@ -59,7 +59,7 @@
             <Element xsi:type="Text" Filters="" Lat="60.47485" Lon="-150.878763" Lines="OLT SOLDOTNA NDB/DME" />
             <Element xsi:type="Text" Filters="" Lat="61.10175" Lon="-155.568647" Lines="CRN CAIRN MOUNTAIN NDB" />
             <Element xsi:type="Text" Filters="" Lat="56.571906" Lon="-169.647561" Lines="SRI PRIBILOF NDB/DME" />
-            <Element xsi:type="Text" Filters="" Lat="62.059386" Lon="-163.281894" Lines="SMA ST MARYS NDB" />
+            <Element xsi:type="Text" Filters="" Lat="62.059387" Lon="-163.281903" Lines="SMA ST MARYS NDB" />
             <Element xsi:type="Text" Filters="" Lat="57.156999" Lon="-170.232992" Lines="SPY ST PAUL ISLAND NDB/DME" />
             <Element xsi:type="Text" Filters="" Lat="62.331044" Lon="-150.096408" Lines="PEE PETERS CREEK NDB" />
             <Element xsi:type="Text" Filters="" Lat="65.561731" Lon="-167.924803" Lines="TNC TIN CITY NDB/DME" />
@@ -158,7 +158,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.004104" Lon="-80.98622" Lines="SV WASSA NDB" />
             <Element xsi:type="Text" Filters="" Lat="32.415374" Lon="-81.664033" Lines="BZ BULLO NDB" />
             <Element xsi:type="Text" Filters="" Lat="32.666532" Lon="-82.452708" Lines="EEX EMANUEL COUNTY NDB" />
-            <Element xsi:type="Text" Filters="" Lat="32.649171" Lon="-81.594277" Lines="JYL SYLVANIA NDB" />
+            <Element xsi:type="Text" Filters="" Lat="32.649166" Lon="-81.594258" Lines="JYL SYLVANIA NDB" />
             <Element xsi:type="Text" Filters="" Lat="32.9193" Lon="-84.187139" Lines="OP YATES NDB" />
             <Element xsi:type="Text" Filters="" Lat="30.957555" Lon="-83.826671" Lines="GTP PATON NDB" />
             <Element xsi:type="Text" Filters="" Lat="33.533283" Lon="-82.614369" Lines="AA CEDAR NDB" />
@@ -175,7 +175,6 @@
             <Element xsi:type="Text" Filters="" Lat="40.654358" Lon="-91.123226" Lines="BR BURNS NDB" />
             <Element xsi:type="Text" Filters="" Lat="43.133917" Lon="-92.728191" Lines="IY CHUKK NDB" />
             <Element xsi:type="Text" Filters="" Lat="41.751545" Lon="-90.390354" Lines="FN HILLZ NDB" />
-            <Element xsi:type="Text" Filters="" Lat="43.10068" Lon="-94.708268" Lines="EGQ EMMETSBURG NDB" />
             <Element xsi:type="Text" Filters="" Lat="42.514493" Lon="-94.305578" Lines="FO BARRO NDB" />
             <Element xsi:type="Text" Filters="" Lat="42.453485" Lon="-91.950423" Lines="IIB WAPSIE NDB" />
             <Element xsi:type="Text" Filters="" Lat="40.464694" Lon="-91.433583" Lines="EOK KEOKUK NDB" />
@@ -1177,7 +1176,7 @@
             <Element xsi:type="Text" Filters="" Lat="44.896499" Lon="-93.236532" Lines="MSP MINNEAPOLIS VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="44.972676" Lon="-95.712192" Lines="MVE MONTEVIDEO VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="45.565419" Lon="-95.969334" Lines="MOX MORRIS VOR/DME" />
-            <Element xsi:type="Text" Filters="" Lat="44.204432" Lon="-93.370504" Lines="FOW HALFWAY VOR/DME" />
+            <Element xsi:type="Text" Filters="" Lat="44.204444" Lon="-93.3705" Lines="FOW HALFWAY VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="43.912329" Lon="-91.467516" Lines="ODI NODINE VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="46.898086" Lon="-95.07101" Lines="PKD PARK RAPIDS DME" />
             <Element xsi:type="Text" Filters="" Lat="44.467274" Lon="-95.12823" Lines="RWF REDWOOD FALLS VOR/DME" />
@@ -1530,7 +1529,7 @@
             <Element xsi:type="Text" Filters="" Lat="36.01855" Lon="-89.317692" Lines="DYR DYERSBURG VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="36.437056" Lon="-82.1296" Lines="HMV HOLSTON MOUNTAIN VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="35.603565" Lon="-88.910429" Lines="MKL MC KELLAR VOR/DME" />
-            <Element xsi:type="Text" Filters="" Lat="35.904836" Lon="-83.89472" Lines="VXV VOLUNTEER VORTAC" />
+            <Element xsi:type="Text" Filters="" Lat="35.904839" Lon="-83.894721" Lines="VXV VOLUNTEER VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="36.584509" Lon="-85.166623" Lines="LVT LIVINGSTON VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="35.015106" Lon="-89.983202" Lines="MEM MEMPHIS VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="36.13696" Lon="-86.684771" Lines="BNA NASHVILLE VORTAC" />
@@ -1705,7 +1704,7 @@
             <Element xsi:type="Text" Filters="" Lat="43.109776" Lon="-88.037281" Lines="LJT TIMMERMAN DME" />
             <Element xsi:type="Text" Filters="" Lat="43.990432" Lon="-88.555932" Lines="OSH OSHKOSH VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="42.762169" Lon="-87.814728" Lines="HRK HORLICK DME" />
-            <Element xsi:type="Text" Filters="" Lat="45.633775" Lon="-89.457788" Lines="RHI RHINELANDER VOR/DME" />
+            <Element xsi:type="Text" Filters="" Lat="45.633789" Lon="-89.457781" Lines="RHI RHINELANDER VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="43.768786" Lon="-87.848769" Lines="FAH FALLS DME" />
             <Element xsi:type="Text" Filters="" Lat="45.820445" Lon="-92.374516" Lines="RZN SIREN DME" />
             <Element xsi:type="Text" Filters="" Lat="44.846777" Lon="-89.586578" Lines="AUW WAUSAU VOR/DME" />

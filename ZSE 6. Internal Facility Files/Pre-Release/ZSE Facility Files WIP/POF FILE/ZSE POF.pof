@@ -91,14 +91,14 @@ Grant County Approach:-:126.400:5A:A:MWH:APP:MWH:APP:3560:3577
 ; Grant County Approach:-:126.100:5D:D:MWH:APP:MWH:APP:3560:3577
 
 ; Chinook Approach (6's)
-Chinook Approach:Chinook Approach:128.750:6C:A:PSC:APP:PSC:C-APP:4601:4643  ; Combined
+Chinook Approach:-:128.750:6C:A:PSC:APP:PSC:C-APP:4601:4643  ; Combined
 Chinook Approach Pasco:Chinook Approach:128.750:6N:A:PSC:APP:PSC:APP:4601:4643
 Chinook Approach Pasco North:Chinook Approach:128.750:6N:N:PSC:APP:PSC:N-APP:4601:4643
 Chinook Approach Pasco South:Chinook Approach:133.150:6S:S:PSC:APP:PSC:S-APP:4601:4643
 Chinook Approach Yakima:Chinook Approach:123.800:6Y:Y:YKM:APP:YKM:APP:4601:4643
 
 ; Cascade Approach (7's)
-Cascade Approach:Cascade Approach:119.600:7C:A:EUG:APP:EUG:C-APP:4726:4777  ; Combined
+Cascade Approach:-:119.600:7C:A:EUG:APP:EUG:C-APP:4726:4777  ; Combined
 Cascade Approach Eugene:Cascade Approach:119.600:7W:A:EUG:APP:EUG:APP:4726:4762
 Cascade Approach Eugene East:Cascade Approach:119.600:7W:W:EUG:APP:EUG:W-APP:4726:4762
 Cascade Approach Eugene West:Cascade Approach:120.250:7E:E:EUG:APP:EUG:E-APP:4726:4762
@@ -106,7 +106,7 @@ Cascade Approach Medford:Cascade Approach:124.300:7M:M:MFR:APP:MFR:APP:4763:4777
 Kingsley Approach:-:123.675:8K:L:LMT:APP:LMT:APP:4701:4725
 
 ; Whidbey Approach (9's)
-Whidbey Approach:Whidbey Approach:118.200:9W:W:NUW:APP:NUW:APP:4654:4677  ; Combined
+Whidbey Approach:-:118.200:9W:W:NUW:APP:NUW:APP:4654:4677  ; Combined
 Whidbey West Approach:-:118.200:9W:W:NUW:APP:NUW:W-APP:4654:4677
 Whidbey East Approach:-:120.700:9E:E:NUW:APP:NUW:E-APP:4654:4677
 
@@ -138,7 +138,7 @@ Felts Ground:-:121.700:4Z:-:SFF:GND:SFF:GND:6601:6677
 
 ; Grant County KMWH
 Grant County Tower:-:118.250:5T:T:MWH:TWR:MWH:TWR:3560:3577
-Grant County Tower:-:128.000:5W:W:MWH:TWR:MWH:W-TWR:3560:3577
+Grant County West Tower:-:128.000:5W:W:MWH:TWR:MWH:W-TWR:3560:3577
 Grant County Ground:-:121.900:5G:-:MWH:GND:MWH:GND:3560:3577
 
 ; Gray AAF KGRF

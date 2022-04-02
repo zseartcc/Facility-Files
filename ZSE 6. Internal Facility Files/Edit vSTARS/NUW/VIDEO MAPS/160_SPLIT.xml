@@ -1,0 +1,19 @@
+<VideoMap ShortName="SPLIT" LongName="SPLIT" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Colors>
+    <NamedColor Red="80" Green="80" Blue="40" Name="R80G80B40" />
+  </Colors>
+  <Elements>
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="0" StartLat="0" EndLon="0" EndLat="0" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.5333333" StartLat="48.1" EndLon="-122.5519997" EndLat="48.1308917" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.5706886" StartLat="48.1617806" EndLon="-122.5894003" EndLat="48.1926664" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.6081342" StartLat="48.2235489" EndLon="-122.6268908" EndLat="48.2544286" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.64567" StartLat="48.2853053" EndLon="-122.6463481" EndLat="48.2864189" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.6463481" StartLat="48.2864189" EndLon="-122.6751558" EndLat="48.3136653" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.7039944" StartLat="48.3409044" EndLon="-122.7328639" EndLat="48.3681361" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.7617644" StartLat="48.3953608" EndLon="-122.7906956" EndLat="48.4225781" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.8196581" StartLat="48.4497883" EndLon="-122.8486514" EndLat="48.4769911" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.8776758" StartLat="48.5041867" EndLon="-122.9067314" EndLat="48.5313747" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.9358181" StartLat="48.5585558" EndLon="-122.9649364" EndLat="48.5857294" Style="Solid" Thickness="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.9940858" StartLat="48.6128956" EndLon="-123.0232664" EndLat="48.6400544" Style="Solid" Thickness="0" />
+  </Elements>
+</VideoMap>

@@ -1,0 +1,57 @@
+{
+  "Name": "Paine Field",
+  "Identifier": "KPAE",
+  "Contractions": [
+    {
+      "String": "AVAIL",
+      "Spoken": "AVAILABLE"
+    }
+  ],
+  "AtisFrequency": 28650,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "LDG AND DEPTG RWYS 16L AND 16R. ILS APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "LDG AND DEPTG RWYS 16L AND 16R. VIS AND ILS APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH ILS",
+      "AirportConditions": "LDG AND DEPTG RWYS 34L AND 34R. INST APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "LDG AND DEPTG RWYS 34L AND 34R. VIS AND INST APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

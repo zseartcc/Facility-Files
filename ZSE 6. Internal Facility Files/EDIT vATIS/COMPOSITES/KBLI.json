@@ -1,0 +1,87 @@
+{
+  "Name": "Bellingham",
+  "Identifier": "KBLI",
+  "Contractions": [
+    {
+      "String": "RNAV",
+      "Spoken": "ARE NAV"
+    },
+    {
+      "String": "PROCS",
+      "Spoken": "PROCEDURES"
+    },
+    {
+      "String": "AVAIL",
+      "Spoken": "AVAILABLE"
+    }
+  ],
+  "AtisFrequency": 34450,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 34. DEPTG RWY 34.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH RNAV",
+      "AirportConditions": "SIMUL RNAV *Y RWY 34 APCHS IN USE. DEPTG RWY 34.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "GATE HOLD PROCS IN EFCT. CTC GND 127.4 PRIOR TO PUSHBACK.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "BIRDS INVOF AIRPORT.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

@@ -1,0 +1,85 @@
+{
+  "Name": "Boeing Field",
+  "Identifier": "KBFI",
+  "Contractions": [
+    {
+      "String": "BFI",
+      "Spoken": "BOEING FIELD"
+    },
+    {
+      "String": "SEA APRT",
+      "Spoken": "SEATTLE AIRPORT"
+    },
+    {
+      "String": "MODE C",
+      "Spoken": "MODE CHARLIE"
+    },
+    {
+      "String": "RNAV",
+      "Spoken": "ARE-NAV"
+    },
+    {
+      "String": "PROCS",
+      "Spoken": "PROCEDURES"
+    }
+  ],
+  "AtisFrequency": 27750,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 53
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 14R. HARBOR VIS APCH IN USE. DEPTG RWY 14R. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": "SIMUL APCHS IN USE TO BFI AND SEA APRT. TFC ABOVE YOU ON FINAL. OPER XPNDR MODE C ON ALL TWYS AND RWYS.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 14R. DEPTG RWY 14R.",
+      "Notams": "SIMUL APCHS IN USE TO BFI AND SEA APRT. TFC ABOVE YOU ON FINAL. OPER XPNDR MODE C ON ALL TWYS AND RWYS.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 32L. DEPTG RWY 32L. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": "OPER XPNDR MODE C ON ALL TWYS AND RWYS.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 32L. DEPTG RWY 32L.",
+      "Notams": "OPER XPNDR MODE C ON ALL TWYS AND RWYS.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "GATE HOLD PROCS IN EFCT. CTC GND 121.9 PRIOR TO PUSHBACK.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

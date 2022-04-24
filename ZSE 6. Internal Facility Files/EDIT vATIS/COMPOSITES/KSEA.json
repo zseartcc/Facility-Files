@@ -1,0 +1,118 @@
+{
+  "Name": "Seattle",
+  "Identifier": "KSEA",
+  "Contractions": [
+    {
+      "String": "SEA APRT",
+      "Spoken": "SEATTLE AIRPORT"
+    },
+    {
+      "String": "BFI",
+      "Spoken": "BOEING FIELD"
+    },
+    {
+      "String": "PROCS",
+      "Spoken": "PROCEDURES"
+    },
+    {
+      "String": "RNAV",
+      "Spoken": "ARE-NAV"
+    },
+    {
+      "String": "AVAIL",
+      "Spoken": "AVAILABLE"
+    }
+  ],
+  "AtisFrequency": 18000,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "SOUTH VIS ",
+      "AirportConditions": "SIMUL VIS APCHS 16L & 16R IN USE. CHARTED VIS APCHS IN USE. DEPTG RWYS 16L & 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "SIMUL ILS RWY 16R & 16L APCHS IN USE. DEPTG RWYS 16L & 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH LOW VIS",
+      "AirportConditions": "ILS RWY 16R & 16L APCHS IN USE. DEPTG RWYS 16L & 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+      "Notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH SUGGESTED ",
+      "AirportConditions": "SUGGESTED RUNWAYS 16L & 16R.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS 34R & 34L IN USE. CHARTED VIS APCHS IN USE. DEPTG RWYS 34R & 34C.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH ILS",
+      "AirportConditions": "SIMUL ILS RWY 34L & 34R APCHS IN USE. DEPTG RWYS 34R & 34C.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH LOW VIS",
+      "AirportConditions": "ILS RWY 34L & 34R APCHS IN USE. DEPTG RWYS 34R & 34C.",
+      "Notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH SUGGESTED",
+      "AirportConditions": "SUGGESTED RUNWAYS 34R & 34L.",
+      "Notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE], [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "GATE HOLD PROCS ARE IN EFCT. CTC RAMP CONTROL PRIOR TO PUSH AND START.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

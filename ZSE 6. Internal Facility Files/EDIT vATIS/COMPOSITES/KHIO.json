@@ -1,0 +1,67 @@
+{
+  "Name": "Hillsboro",
+  "Identifier": "KHIO",
+  "Contractions": [
+    {
+      "String": "RNAV",
+      "Spoken": "ARE-NAV"
+    },
+    {
+      "String": "AVAIL",
+      "Spoken": "AVAILABLE"
+    }
+  ],
+  "AtisFrequency": 27650,
+  "ObservationTime": {
+    "Enabled": true,
+    "Time": 53
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "31 VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 31L. DEPTG RWY 31L. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": "",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "31 RNAV",
+      "AirportConditions": "SIMUL RNAV RWY 31L APCHS IN USE. DEPTG RWY 31L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "13 VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 13R. DEPTG RWY 13R. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "13 ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 13R. DEPTG RWY 13R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "VOR AND NDB APCHS AVBL ON RQST.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

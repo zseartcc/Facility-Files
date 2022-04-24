@@ -1,0 +1,67 @@
+{
+  "Name": "Medford",
+  "Identifier": "KMFR",
+  "Contractions": [
+    {
+      "String": "LOC",
+      "Spoken": "LOCALIZER"
+    },
+    {
+      "String": "AVAIL",
+      "Spoken": "AVAILABLE"
+    }
+  ],
+  "AtisFrequency": 27250,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 32. DEPTG RWY 32. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "NORTH RNAV",
+      "AirportConditions": "RNAV APCHS IN USE RWY 32. DEPTG RWY 32.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 14. DEPTG RWY 14. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    },
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 14. DEPTG RWY 14.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "LOC AND VOR APCHS AVBL ON RQST.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

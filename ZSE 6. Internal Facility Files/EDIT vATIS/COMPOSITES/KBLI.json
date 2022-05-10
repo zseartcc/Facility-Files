@@ -1,20 +1,7 @@
 {
   "Name": "Bellingham",
   "Identifier": "KBLI",
-  "Contractions": [
-    {
-      "String": "RNAV",
-      "Spoken": "ARE NAV"
-    },
-    {
-      "String": "PROCS",
-      "Spoken": "PROCEDURES"
-    },
-    {
-      "String": "AVAIL",
-      "Spoken": "AVAILABLE"
-    }
-  ],
+  "Contractions": [],
   "AtisFrequency": 34450,
   "ObservationTime": {
     "Enabled": false,
@@ -32,31 +19,31 @@
   "Presets": [
     {
       "Name": "NORTH VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 34. DEPTG RWY 34.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH RNAV",
-      "AirportConditions": "SIMUL RNAV *Y RWY 34 APCHS IN USE. DEPTG RWY 34.",
+      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "AirportConditions": "VIS APCHS IN USE RWY 16. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH ILS",
-      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     }
   ],
   "AirportConditionDefinitions": [
@@ -71,17 +58,6 @@
       "Enabled": false
     }
   ],
-  "NotamDefinitions": [
-    {
-      "Ordinal": 1,
-      "Text": "GATE HOLD PROCS IN EFCT. CTC GND 127.4 PRIOR TO PUSHBACK.",
-      "Enabled": false
-    },
-    {
-      "Ordinal": 2,
-      "Text": "BIRDS INVOF AIRPORT.",
-      "Enabled": false
-    }
-  ],
+  "NotamDefinitions": [],
   "TransitionLevels": []
 }

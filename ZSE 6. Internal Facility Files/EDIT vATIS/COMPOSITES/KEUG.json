@@ -19,28 +19,28 @@
   "Presets": [
     {
       "Name": "SOUTH ILS",
-      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 16R AND 16L. DEPTG RWY 16R AND 16L.",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWYS 16R AND 16L.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 16R AND 16L. DEPTG RWY 16R AND 16L.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 16R AND 16L.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "NORTH GPS",
-      "AirportConditions": "GPS APCHS IN USE RWY 34L AND 34R. DEPTG RWY 34L AND 34R.",
+      "Name": "NORTH RNAV",
+      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWYS 34L AND 34R.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 34L AND 34R. DEPTG RWY 34L AND 34R.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
@@ -49,12 +49,12 @@
   "AirportConditionDefinitions": [
     {
       "Ordinal": 1,
-      "Text": "RNAV APCHS AVBL ON RQST",
+      "Text": "RNAV APCHS AVBL ON RQST.",
       "Enabled": false
     },
     {
       "Ordinal": 2,
-      "Text": "VFR ACFT SAY DRCTN OF FLT",
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
       "Enabled": false
     }
   ],

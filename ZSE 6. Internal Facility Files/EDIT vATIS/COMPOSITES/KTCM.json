@@ -1,8 +1,8 @@
 {
-  "Name": "Kingsley",
-  "Identifier": "KLMT",
+  "Name": "McChord",
+  "Identifier": "KTCM",
   "Contractions": [],
-  "AtisFrequency": 18325,
+  "AtisFrequency": 35825,
   "ObservationTime": {
     "Enabled": false,
     "Time": 0
@@ -12,35 +12,35 @@
     "MagneticDegrees": -20
   },
   "AtisVoice": {
-    "UseTextToSpeech": false,
+    "UseTextToSpeech": true,
     "Voice": "Default"
   },
   "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
   "Presets": [
     {
-      "Name": "32 ILS",
-      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "SOUTH ILS",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "32 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "SOUTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 RNAV",
-      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "NORTH ILS",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "NORTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."

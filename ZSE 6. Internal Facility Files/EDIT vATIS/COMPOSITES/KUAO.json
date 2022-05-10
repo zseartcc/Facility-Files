@@ -1,8 +1,8 @@
 {
-  "Name": "Kingsley",
-  "Identifier": "KLMT",
+  "Name": "Aurora",
+  "Identifier": "KUAO",
   "Contractions": [],
-  "AtisFrequency": 18325,
+  "AtisFrequency": 18525,
   "ObservationTime": {
     "Enabled": false,
     "Time": 0
@@ -18,29 +18,29 @@
   "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
   "Presets": [
     {
-      "Name": "32 ILS",
-      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "17 GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "32 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "17 VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 RNAV",
-      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "35 GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "35 VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
@@ -49,7 +49,7 @@
   "AirportConditionDefinitions": [
     {
       "Ordinal": 1,
-      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Text": "LOC APCH AVBL ON RQST.",
       "Enabled": false
     },
     {

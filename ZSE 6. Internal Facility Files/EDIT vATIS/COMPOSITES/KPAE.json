@@ -1,12 +1,7 @@
 {
   "Name": "Paine Field",
   "Identifier": "KPAE",
-  "Contractions": [
-    {
-      "String": "AVAIL",
-      "Spoken": "AVAILABLE"
-    }
-  ],
+  "Contractions": [],
   "AtisFrequency": 28650,
   "ObservationTime": {
     "Enabled": false,
@@ -24,34 +19,45 @@
   "Presets": [
     {
       "Name": "SOUTH ILS",
-      "AirportConditions": "LDG AND DEPTG RWYS 16L AND 16R. ILS APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 16L AND 16R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH VIS",
-      "AirportConditions": "LDG AND DEPTG RWYS 16L AND 16R. VIS AND ILS APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "SIMUL VIS APCHS IN USE. LDG AND DEPTG RWY 16L AND 16R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH ILS",
-      "AirportConditions": "LDG AND DEPTG RWYS 34L AND 34R. INST APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH VIS",
-      "AirportConditions": "LDG AND DEPTG RWYS 34L AND 34R. VIS AND INST APPS IN USE. RNAV APPS AVAIL ON RQST. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "SIMUL VIS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     }
   ],
-  "AirportConditionDefinitions": [],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
   "NotamDefinitions": [],
   "TransitionLevels": []
 }

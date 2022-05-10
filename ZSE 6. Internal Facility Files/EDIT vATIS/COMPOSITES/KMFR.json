@@ -1,16 +1,7 @@
 {
   "Name": "Medford",
   "Identifier": "KMFR",
-  "Contractions": [
-    {
-      "String": "LOC",
-      "Spoken": "LOCALIZER"
-    },
-    {
-      "String": "AVAIL",
-      "Spoken": "AVAILABLE"
-    }
-  ],
+  "Contractions": [],
   "AtisFrequency": 27250,
   "ObservationTime": {
     "Enabled": false,
@@ -28,37 +19,42 @@
   "Presets": [
     {
       "Name": "NORTH VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 32. DEPTG RWY 32. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH RNAV",
-      "AirportConditions": "RNAV APCHS IN USE RWY 32. DEPTG RWY 32.",
+      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 32.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 14. DEPTG RWY 14. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH ILS",
-      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 14. DEPTG RWY 14.",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 14.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     }
   ],
   "AirportConditionDefinitions": [
     {
       "Ordinal": 1,
       "Text": "LOC AND VOR APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
       "Enabled": false
     }
   ],

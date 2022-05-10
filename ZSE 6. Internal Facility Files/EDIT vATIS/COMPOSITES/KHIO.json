@@ -3,12 +3,8 @@
   "Identifier": "KHIO",
   "Contractions": [
     {
-      "String": "RNAV",
-      "Spoken": "ARE-NAV"
-    },
-    {
-      "String": "AVAIL",
-      "Spoken": "AVAILABLE"
+      "String": "PDX NOT TAKING",
+      "Spoken": "PORTLAND NOT TAKING"
     }
   ],
   "AtisFrequency": 27650,
@@ -28,31 +24,31 @@
   "Presets": [
     {
       "Name": "31 VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 31L. DEPTG RWY 31L. VFR ACFT SAY DRCTN OF FLT.",
-      "Notams": "",
-      "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
-    },
-    {
-      "Name": "31 RNAV",
-      "AirportConditions": "SIMUL RNAV RWY 31L APCHS IN USE. DEPTG RWY 31L.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 31L.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "31 GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 31L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "13 VIS",
-      "AirportConditions": "SIMUL VIS APCHS IN USE RWY 13R. DEPTG RWY 13R. VFR ACFT SAY DRCTN OF FLT.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "13 ILS",
-      "AirportConditions": "SIMUL ILS APCHS IN USE RWY 13R. DEPTG RWY 13R.",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 13R.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     }
   ],
   "AirportConditionDefinitions": [
@@ -60,8 +56,19 @@
       "Ordinal": 1,
       "Text": "VOR AND NDB APCHS AVBL ON RQST.",
       "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
     }
   ],
-  "NotamDefinitions": [],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "PDX NOT TAKING SFC AREA TRANSITIONS.",
+      "Enabled": false
+    }
+  ],
   "TransitionLevels": []
 }

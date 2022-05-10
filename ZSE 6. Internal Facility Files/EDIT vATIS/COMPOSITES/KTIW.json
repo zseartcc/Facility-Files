@@ -1,8 +1,13 @@
 {
-  "Name": "Kingsley",
-  "Identifier": "KLMT",
-  "Contractions": [],
-  "AtisFrequency": 18325,
+  "Name": "Tacoma",
+  "Identifier": "KTIW",
+  "Contractions": [
+    {
+      "String": "SEA NOT TAKING",
+      "Spoken": "SEATTLE NOT TAKING"
+    }
+  ],
+  "AtisFrequency": 24050,
   "ObservationTime": {
     "Enabled": false,
     "Time": 0
@@ -18,29 +23,29 @@
   "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
   "Presets": [
     {
-      "Name": "32 ILS",
-      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "SOUTH ILS",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "32 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32.",
+      "Name": "SOUTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 RNAV",
-      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "NORTH GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "14 VIS",
-      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14.",
+      "Name": "NORTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
@@ -49,15 +54,16 @@
   "AirportConditionDefinitions": [
     {
       "Ordinal": 1,
-      "Text": "RNAV APCHS AVBL ON RQST.",
-      "Enabled": false
-    },
-    {
-      "Ordinal": 2,
       "Text": "VFR ACFT SAY DRCTN OF FLT.",
       "Enabled": false
     }
   ],
-  "NotamDefinitions": [],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+      "Enabled": false
+    }
+  ],
   "TransitionLevels": []
 }

@@ -19,28 +19,28 @@
   "Presets": [
     {
       "Name": "17 ILS",
-      "AirportConditions": "ILS APCHS IN USE RWY 17. DEPTG RWY 17.",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "17 VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 17. DEPTG RWY 17.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "35 GPS",
-      "AirportConditions": "GPS APCHS IN USE RWY 35. DEPTG RWY 35.",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "35 VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 35. DEPTG RWY 35.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."

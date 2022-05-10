@@ -1,7 +1,12 @@
 {
   "Name": "Renton",
   "Identifier": "KRNT",
-  "Contractions": [],
+  "Contractions": [
+    {
+      "String": "SEA NOT TAKING",
+      "Spoken": "SEATTLE NOT TAKING"
+    }
+  ],
   "AtisFrequency": 26950,
   "ObservationTime": {
     "Enabled": false,
@@ -18,29 +23,29 @@
   "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
   "Presets": [
     {
-      "Name": "SOUTH GPS",
-      "AirportConditions": "GPS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "Name": "SOUTH RNAV",
+      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "SOUTH VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 16. DEPTG RWY 16.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
-      "Name": "NORTH GPS",
-      "AirportConditions": "GPS APCHS IN USE RWY 34. DEPTG RWY 34.",
+      "Name": "NORTH RNAV",
+      "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
     },
     {
       "Name": "NORTH VIS",
-      "AirportConditions": "VIS APCHS IN USE RWY 34. DEPTG RWY 34.",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
@@ -53,6 +58,12 @@
       "Enabled": false
     }
   ],
-  "NotamDefinitions": [],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+      "Enabled": false
+    }
+  ],
   "TransitionLevels": []
 }

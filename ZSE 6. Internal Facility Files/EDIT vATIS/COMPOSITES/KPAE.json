@@ -1,0 +1,63 @@
+{
+  "Name": "Paine Field",
+  "Identifier": "KPAE",
+  "Contractions": [],
+  "AtisFrequency": 28650,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 16L AND 16R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE. LDG AND DEPTG RWY 16L AND 16R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "NORTH ILS",
+      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "SIMUL VIS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

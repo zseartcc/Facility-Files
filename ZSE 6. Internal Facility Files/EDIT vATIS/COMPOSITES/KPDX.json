@@ -1,0 +1,137 @@
+{
+  "Name": "Portland",
+  "Identifier": "KPDX",
+  "Contractions": [
+    {
+      "String": "PROCS",
+      "Spoken": "PROCEDURES"
+    },
+    {
+      "String": "REQS",
+      "Spoken": "REQUIRES"
+    },
+    {
+      "String": "TWYS T AND K",
+      "Spoken": "TAXIWAYS TANGO AND KILO"
+    },
+    {
+      "String": "MODE C",
+      "Spoken": "MODE CHARLIE"
+    },
+    {
+      "String": "UNAVBL",
+      "Spoken": "UNAVAILABLE"
+    }
+  ],
+  "AtisFrequency": 28350,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "EAST VIS (DAY)",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWYS 10L AND 10R. JET ACFT EXPT THE COLUMBIA VIS APCH. DEPTG RWYS 10L AND 10R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST VIS (NIGHT)",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWYS 10L AND 10R. DEPTG RWYS 10L AND 10R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST ILS",
+      "AirportConditions": "ILS RWY 10R SIMUL ILS RWY 10L APCHS IN USE. DEPTG RWYS 10L AND 10R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST LOW VIS",
+      "AirportConditions": "LOW VISIBILITY OPS IN EFCT. SIMUL ILS RWY 10R APCHS IN USE. DEPTG RWYS 10L AND 10R.",
+      "Notams": "OPER XPNDR ON MODE C ON ALL TWYS AND RWYS. PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST SUGGESTED",
+      "AirportConditions": "SUGGESTED RUNWAYS 10L AND 10R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST VIS (DAY)",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWYS 28L AND 28R. JET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS 28L AND 28R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST VIS (NIGHT)",
+      "AirportConditions": "SIMUL VIS APCHS IN USE RWYS 28L AND 28R. DEPTG RWYS 28L AND 28R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST ILS",
+      "AirportConditions": "ILS RWY 28L SIMUL ILS RWY 28R APCHS IN USE. DEPTG RWYS 28L AND 28R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST LOW VIS",
+      "AirportConditions": "LOW VISIBILITY OPS IN EFCT. SIMUL ILS RWY 28L APCHS IN USE. DEPTG RWYS 28L AND 28R.",
+      "Notams": "OPER XPNDR ON MODE C ON ALL TWYS AND RWYS. PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST SUGGESTED",
+      "AirportConditions": "SUGGESTED RUNWAYS 28L AND 28R.",
+      "Notams": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "GATE HOLD PROCS ARE IN EFCT FOR ALL DEPTG ACFT. ALL ACFT CTC GND ON 121.9 PRIOR TO PUSH AND START.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "CLSD TFC UNAVBL.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

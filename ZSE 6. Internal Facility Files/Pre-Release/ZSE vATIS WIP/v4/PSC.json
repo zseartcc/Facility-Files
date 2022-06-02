@@ -1,0 +1,164 @@
+{
+  "Name": "PSC",
+  "Composites": [
+    {
+      "Name": "Tri-Cities",
+      "Identifier": "KPSC",
+      "Contractions": [],
+      "AtisFrequency": 25650,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -20
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "21 VIS",
+          "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 21R AND 21L.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "21 ILS",
+          "AirportConditions": "ILS APCHS IN USE RWY 21R. LDG AND DEPTG RWYS 21R AND 21L.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "3 VIS",
+          "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 3L AND 3R.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "3 RNAV",
+          "AirportConditions": "RNAV APCHS IN USE RWY 3L. LDG AND DEPTG RWYS 3L AND 3R.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "30 VIS",
+          "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 30.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "30 RNAV",
+          "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 30.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "12 VIS",
+          "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 12.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "12 RNAV",
+          "AirportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 12.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "RNAV APCHS AVBL ON RQST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "VFR ACFT SAY DRCTN OF FLT.",
+          "Enabled": false
+        }
+      ],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Yakima",
+      "Identifier": "KYKM",
+      "Contractions": [],
+      "AtisFrequency": 25250,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -20
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "WEST ILS",
+          "AirportConditions": "ILS APCHS IN USE RWY 27. LDG AND DEPTG RWYS 27 AND 22.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "WEST VIS",
+          "AirportConditions": "IFR ACFT EXPT VIS APCH RWY 27. LDG AND DEPTG RWYS 27 AND 22.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "EAST VIS",
+          "AirportConditions": "IFR ACFT EXPT VIS APCH RWY 9. LDG AND DEPTG RWYS 9 AND 4.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "EAST RNAV",
+          "AirportConditions": "RNAV APCHS IN USE RWY 9. LDG AND DEPTG RWYS 9 AND 4.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "RNAV APCHS AVBL ON RQST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "VOR APCHS AVBL ON RQST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "VFR ACFT SAY DRCTN OF FLT.",
+          "Enabled": false
+        }
+      ],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

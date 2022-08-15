@@ -6385,19 +6385,19 @@
 
 .PDXPTLD .FD PDX_PTLD
 
-.PDXPTLDDEL .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: ALL RWYS ::: Maint 6k(J&T), 3k(P) ::: CRZ-5min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+.PDXPTLDDEL .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: ALL RWYS ::: Maint 6k(J&L), 3k(S) ::: CRZ-5min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
 
 .PDXPTLDGND .MSG ZSE_ISR *** PTLD 2 ::: ALL RWYS ::: [Northbound] PREF-10L/28R [Southbound] PREF-10R/28L
 
-.PDXPTLDTWR .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: [RWY 28L/R] H280 (J), H280/H240 (T), H170/H330 (P) __ [RWY 10L/R] H085 (J), H085/H120 (T), H150/H010 (P) __ [RWY 21] H290 (J), H250/H290 (T), H170/H310 (P) __ (H280,H240,H170,H150 req APREQ w/ PDX_S_TWR), (H330,H085,H010 req APREQ w/ PDX_N_TWR) ::: DEP FREQ 124.35
+.PDXPTLDTWR .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: [RWY 28L/R] H280 (J), H280/H240 (L), H170/H330 (S) __ [RWY 10L/R] H085 (J), H085/H120 (L), H150/H010 (S) __ [RWY 21] H290 (J), H250/H290 (L), H170/H310 (S) __ (H280,H240,H170,H150 req APREQ w/ PDX_S_TWR), (H330,H085,H010 req APREQ w/ PDX_N_TWR) ::: DEP FREQ 124.35
 
-.PDXPTLDDEP .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: Maint 6k(J&T), 3k(P) issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+.PDXPTLDDEP .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: Maint 6k(J&L), 3k(S) issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
 
 .PDXPTLDCTR .MSG ZSE_ISR *** PTLD 2 ::: CRZ-5min(Listed) ::: TopAlt Not Published
 
-.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&L), 3k(S). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
 
-.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&L), 3k(S). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
 
 .TPDCPTLD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
@@ -10656,7 +10656,7 @@
  
 .YVRGRIZZ .FD YVR_GRIZZ 
  
-.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
  
 .YVRGRIZZAPP .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
  
@@ -10678,7 +10678,7 @@
 
 .YVRPAINE .FD YVR_PAINE 
  
-.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
  
 .YVRPAINEAPP .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
  

@@ -1,0 +1,74 @@
+{
+  "Name": "Hillsboro",
+  "Identifier": "KHIO",
+  "Contractions": [
+    {
+      "String": "PDX NOT TAKING",
+      "Spoken": "PORTLAND NOT TAKING"
+    }
+  ],
+  "AtisFrequency": 27650,
+  "ObservationTime": {
+    "Enabled": true,
+    "Time": 53
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "31 VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 31L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "31 GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 31L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "13 VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "13 ILS",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 13R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "VOR AND NDB APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "PDX NOT TAKING SFC AREA TRANSITIONS.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

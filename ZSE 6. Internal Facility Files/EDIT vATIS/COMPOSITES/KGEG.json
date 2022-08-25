@@ -1,0 +1,83 @@
+{
+  "Name": "Spokane",
+  "Identifier": "KGEG",
+  "Contractions": [
+    {
+      "String": "PROCS",
+      "Spoken": "PROCEDURES"
+    },
+    {
+      "String": "UNAVBL",
+      "Spoken": "UNAVAILABLE"
+    }
+  ],
+  "AtisFrequency": 24325,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "21 VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 21.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "21 ILS",
+      "AirportConditions": "ILS RWY 21 APCH IN USE. LDG AND DEPTG RWY 21.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "3 VIS",
+      "AirportConditions": "VIS RWY 3 APCH IN USE RWY 3. DEPTG RWY 3. VFR ACFT SAY DRCTN OF FLT.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "3 ILS",
+      "AirportConditions": "ILS RWY 3 APCH IN USE RWY 3. DEPTG RWY 3.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": true
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": true
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "LOW VISIBILITY PROCS IN EFCT. STOP BARS OPERATIONAL. DO NOT CROSS STOP BARS.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "CLSD TFC UNAVBL.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

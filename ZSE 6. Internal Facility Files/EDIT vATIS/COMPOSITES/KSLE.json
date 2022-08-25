@@ -1,0 +1,63 @@
+{
+  "Name": "Salem",
+  "Identifier": "KSLE",
+  "Contractions": [],
+  "AtisFrequency": 24550,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "NORTH ILS",
+      "AirportConditions": "ILS APCHS IN USE RWY 31. LDG AND DEPTG RWY 31 AND 34.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 31 AND 34.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "SOUTH GPS",
+      "AirportConditions": "GPS APCHS IN USE RWY 13. LDG AND DEPTG RWY 13 AND 16.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13 AND 16.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "RNAV APCHS AVBL ON RQST.",
+      "Enabled": false
+    },
+    {
+      "Ordinal": 2,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

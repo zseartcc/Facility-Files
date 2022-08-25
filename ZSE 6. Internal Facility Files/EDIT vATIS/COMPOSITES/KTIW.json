@@ -1,0 +1,69 @@
+{
+  "Name": "Tacoma",
+  "Identifier": "KTIW",
+  "Contractions": [
+    {
+      "String": "SEA NOT TAKING",
+      "Spoken": "SEATTLE NOT TAKING"
+    }
+  ],
+  "AtisFrequency": 24050,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "SOUTH ILS",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 17.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "SOUTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "NORTH GPS",
+      "AirportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 35.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "NORTH VIS",
+      "AirportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+      "Enabled": false
+    }
+  ],
+  "TransitionLevels": []
+}

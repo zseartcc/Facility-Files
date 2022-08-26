@@ -12,7 +12,7 @@ IF EXIST %userprofile%\Dropbox (
 
 :: ZSE 6. Internal Facility Files location
 IF EXIST "%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files" (
-	SET IFF_PATH=%userprofile%\Facility-Files\ZSE 6. Internal Facility Files
+	SET IFF_PATH=%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE IF %USERNAME%==mgg4b (
 	SET IFF_PATH=C:\Users\mgg4b\OneDrive\Documents\GitHub\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE (

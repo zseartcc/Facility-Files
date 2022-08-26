@@ -6,15 +6,13 @@ TITLE ZSE FE ASSISTANT
 :: Dropbox location (for ZSE PUBLIC)
 IF EXIST %userprofile%\Dropbox (
 	SET DROPBOX_PATH=%userprofile%\Dropbox
-) ELSE IF EXIST D:\Dropbox (
-	SET DROPBOX_PATH=D:\Dropbox
 ) ELSE (
 	SET /P DROPBOX_PATH=Dropbox path: 
 )
 
 :: ZSE 6. Internal Facility Files location
-IF %USERNAME%==Teddy (
-	SET IFF_PATH=C:\Users\Teddy\Documents\Facility-Files\ZSE 6. Internal Facility Files
+IF EXIST "%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files" (
+	SET IFF_PATH=%userprofile%\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE IF %USERNAME%==mgg4b (
 	SET IFF_PATH=C:\Users\mgg4b\OneDrive\Documents\GitHub\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE (
@@ -71,7 +69,7 @@ ECHO              ---REMINDER: Launch vSTARS/vERAM, load new Alias/POF/GEOMAPs a
 ECHO                 export the .gz to Pre-Release folder.
 ECHO.
 ECHO.
-ECHO      F) Transfer Pre-Release Files to ZSE Public Folder.
+ECHO      F) Transfer Pre-Release Files to ZSE PUBLIC Folder.
 ECHO.
 ECHO.
 
@@ -1761,11 +1759,11 @@ GOTO HELLO2
 
 ECHO.
 ECHO.
-ECHO  *** AUTO-TRANSFER Pre-Release Files to ZSE Public Folder ***
+ECHO  *** AUTO-TRANSFER Pre-Release Files to ZSE PUBLIC Folder ***
 echo.
 echo.
 echo    You Are About To Move The Following Contents From The Pre-Release Folder
-echo    To The Appropriate ZSE Public Folder.
+echo    To The Appropriate ZSE PUBLIC Folder.
 echo.
 echo.
 echo    If You Do Not Wish To Do This, Please Close This Window Now.
@@ -1842,7 +1840,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\Other Downloads WIP"
-copy "%IFF_PATH%\Pre-Release\Other Downloads WIP\*.*" "%DROPBOX_PATH%\ZSE public\Other Downloads"
+copy "%IFF_PATH%\Pre-Release\Other Downloads WIP\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\Other Downloads"
 
 	IF /I %MOVE%==O GOTO DONE_AUTO_TRANSFER
 
@@ -1877,7 +1875,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\ALIAS FILES"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\ALIAS FILES"
 
 	IF /I %MOVE%==A GOTO DONE_AUTO_TRANSFER
 	IF /I %MOVE%==AS GOTO SECTOR
@@ -1913,10 +1911,10 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\vSTARS"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\vSTARS"
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\vERAM"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\vERAM"
 
 	IF /I %MOVE%==SE GOTO DONE_AUTO_TRANSFER
 
@@ -1951,7 +1949,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\POF FILE"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\POF FILE"
 
 	IF /I %MOVE%==P GOTO DONE_AUTO_TRANSFER
 
@@ -1986,7 +1984,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\SECTOR FILES"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\SECTOR FILES"
 
 	IF /I %MOVE%==S GOTO DONE_AUTO_TRANSFER
 	IF /I %MOVE%==APS GOTO DONE_AUTO_TRANSFER
@@ -2023,7 +2021,8 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE vATIS WIP"
-copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\*.*" "%DROPBOX_PATH%\ZSE public\ZSE vATIS"
+copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE vATIS"
+copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\v4\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE vATIS\v4"
 
 :DONE_AUTO_TRANSFER
 

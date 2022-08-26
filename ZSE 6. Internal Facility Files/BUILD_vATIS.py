@@ -9,7 +9,7 @@ COMP_PATH = "EDIT vATIS/COMPOSITES/"
 PROF_PATH = "EDIT vATIS/PROFILES/"
 
 # Path to pre-release vATIS folder
-PR_PATH = "Pre-Release/ZSE vATIS WIP/v4/"
+PR_PATH = "Pre-Release/ZSE vATIS WIP/"
 
 
 print("Assembling profiles:\n")

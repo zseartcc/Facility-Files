@@ -7443,15 +7443,15 @@
 
 .RNTCHINS .FD SEA_CHINS
 
-.RNYCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: RNT altim A$altim(KRNT)
+.RNTCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [ALL OPS] J cross RADDY @ 11k, L & S cross @ 10k ::: RNT altim A$altim(KRNT)
 
-.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
+.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-11k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTCHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRN Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTCHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRS Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 

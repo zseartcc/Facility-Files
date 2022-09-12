@@ -1176,22 +1176,22 @@
 
 
 
-; BFI EPH
+; BFI SKYKO
 
 
-.BFIEPH .FD SEA_EPH
+.BFISKYKO .FD SEA_SKYKO
 
-.BFIEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: BFI altim A$altim(KBFI)
+.BFISKYKOCTR .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descend via STAR ::: BFI altim A$altim(KBFI)
 
-.BFIEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: BFI altim A$altim(KBFI)
+.BFISKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: BFI altim A$altim(KBFI)
 
-.TBFIEPHCTRN BFI Landing North. Altimeter A$altim(KBFI)
+.TBFISKYKOCTRN Descend via STAR. BFI Landing North. Altimeter A$altim(KBFI)
 
-.TBFIEPHAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
+.TBFISKYKOAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
-.TBFIEPHCTRS BFI Landing South. Altimeter A$altim(KBFI)
+.TBFISKYKOCTRS Descend via STAR. BFI Landing South. Altimeter A$altim(KBFI)
 
-.TBFIEPHAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
+.TBFISKYKOAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
 
 
@@ -1932,15 +1932,15 @@
 
 .CVOSHEDD .FD CVO_SHEDD
 
-.CVOSHEDDDEL .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: RWY 9, 17, 27, 35 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.5
+.CVOSHEDDDEL .MSG ZSE_ISR ***SHEDD 4 ::: PilotNav ::: RWY 10, 17, 27, 35 :::  ::: CVS   ::: CRZ-5min(Not-Listed) ::: DEP FREQ 127.5
 
-.CVOSHEDDGND .MSG ZSE_ISR ***SHEDD 3 ::: RWY 9, 17, 27, 35 ::: Airport is not provided Ground Control Services
+.CVOSHEDDGND .MSG ZSE_ISR ***SHEDD 4 ::: RWY 10, 17, 27, 35 ::: Airport is not provided Ground Control Services
 
-.CVOSHEDDTWR .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
+.CVOSHEDDTWR .MSG ZSE_ISR ***SHEDD 4 ::: PilotNav ::: Airport is not provided Local (TWR) Control Services ::: DEP FREQ 127.5
 
-.CVOSHEDDDEP .MSG ZSE_ISR ***SHEDD 3 ::: PilotNav ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 3k :::
+.CVOSHEDDDEP .MSG ZSE_ISR ***SHEDD 4 ::: PilotNav ::: CVS   issued by DEL ::: CRZ-5min(Not-Listed) ::: TopAlt 3k :::
 
-.CVOSHEDDCTR .MSG ZSE_ISR ***SHEDD 3 ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
+.CVOSHEDDCTR .MSG ZSE_ISR ***SHEDD 4 ::: CRZ-5min(Not-Listed) ::: TopAlt 3k
 
 .TCRAFTCVOSHEDD Cleared to $arr. $route. Climb Via SID. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
 
@@ -6273,11 +6273,10 @@
 
 .TPDCCASCDU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
+
 ; New PDC commands
 .PDCCASCD .PDCGEN 7k $freq($1) .PDCENDPDX
 .PDCCASCDU .PDCGEN 7k OFFLINE .PDCENDPDX
-
-
 
 
 
@@ -6305,6 +6304,7 @@
 .TPDCHRMNS .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
 .TPDCHRMNSU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
+
 
 ; New PDC commands
 .PDCHRMNS .PDCGEN 7k $freq($1) .PDCENDPDX
@@ -6338,10 +6338,10 @@
 
 .TPDCLAVAAU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
+
 ; New PDC commands
 .PDCLAVAA .PDCGEN 7k $freq($1) .PDCENDPDX
 .PDCLAVAAU .PDCGEN 7k OFFLINE .PDCENDPDX
-
 
 
 
@@ -6380,42 +6380,38 @@
 
 
 
-
 ; PDX PTLD
 
 
 .PDXPTLD .FD PDX_PTLD
 
-.PDXPTLDDEL .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: ALL RWYS ::: Maint 6k(J&T), 3k(P) ::: CRZ-5min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
+.PDXPTLDDEL .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: ALL RWYS ::: Maint 6k(J&L), 3k(S) ::: CRZ-5min(Listed) ::: DEP FREQ 118.1(S), 124.35(N)
 
 .PDXPTLDGND .MSG ZSE_ISR *** PTLD 2 ::: ALL RWYS ::: [Northbound] PREF-10L/28R [Southbound] PREF-10R/28L
 
-.PDXPTLDTWR .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: [RWY 28L/R] H280 (J), H280/H240 (T), H170/H330 (P) __ [RWY 10L/R] H085 (J), H085/H120 (T), H150/H010 (P) __ [RWY 21] H290 (J), H250/H290 (T), H170/H310 (P) __ (H280,H240,H170,H150 req APREQ w/ PDX_S_TWR), (H330,H085,H010 req APREQ w/ PDX_N_TWR) ::: DEP FREQ 124.35
+.PDXPTLDTWR .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: [RWY 28L/R] H280 (J), H280/H240 (L), H170/H330 (S) __ [RWY 10L/R] H085 (J), H085/H120 (L), H150/H010 (S) __ [RWY 21] H290 (J), H250/H290 (L), H170/H310 (S) __ (H280,H240,H170,H150 req APREQ w/ PDX_S_TWR), (H330,H085,H010 req APREQ w/ PDX_N_TWR) ::: DEP FREQ 124.35
 
-.PDXPTLDDEP .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: Maint 6k(J&T), 3k(P) issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
+.PDXPTLDDEP .MSG ZSE_ISR *** PTLD 2 ::: Vectored ::: Maint 6k(J&L), 3k(S) issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign 15k or filed alt
 
 .PDXPTLDCTR .MSG ZSE_ISR *** PTLD 2 ::: CRZ-5min(Listed) ::: TopAlt Not Published
 
-.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTPDXPTLD Cleared to $arr via $route. Maintain 6k(J&L), 3k(S). Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk.
 
-.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&T), 3k(P). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
+.TCRAFTPDXPTLDU Cleared to $arr via $route. Maintain 6k(J&L), 3k(S). Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk.
 
 .TPDCPTLD .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP FREQ $freq($1) | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
 .TPDCPTLDU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *JETS AND TURBOPROPS MAINT 6k, PROPS 3k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
 ; New PDC commands
-.PDCPTLD .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, T, or P) as in 'PDCPTLDJ' or 'PDCPTLDP'
-.PDCPTLDU .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, T, or P) as in 'PDCPTLDUJ' or 'PDCPTLDUP'
+.PDCPTLD .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, L, or S) as in 'PDCPTLDJ' or 'PDCPTLDS'
+.PDCPTLDU .MSG FAA_ISR *** MUST SPECIFY AIRCRAFT TYPE (J, L, or S) as in 'PDCPTLDJU' or 'PDCPTLDSU'
 .PDCPTLDJ .PDCGEN 6k $freq($1) .PDCENDPDX
-.PDCPTLDUJ .PDCGEN 6k OFFLINE .PDCENDPDX
-.PDCPTLDT .PDCGEN 6k $freq($1) .PDCENDPDX
-.PDCPTLDUT .PDCGEN 6k OFFLINE .PDCENDPDX
-.PDCPTLDP .PDCGEN 3k $freq($1) .PDCENDPDX
-.PDCPTLDUP .PDCGEN 3k OFFLINE .PDCENDPDX
-
-
-
+.PDCPTLDJU .PDCGEN 6k OFFLINE .PDCENDPDX
+.PDCPTLDL .PDCGEN 6k $freq($1) .PDCENDPDX
+.PDCPTLDLU .PDCGEN 6k OFFLINE .PDCENDPDX
+.PDCPTLDS .PDCGEN 3k $freq($1) .PDCENDPDX
+.PDCPTLDSU .PDCGEN 3k OFFLINE .PDCENDPDX
 
 
 
@@ -6443,9 +6439,9 @@
 
 .TPDCWHAMYU .msg $aircraft PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
+; New PDC commands
 .PDCWHAMY .PDCGEN 7k $freq($1) .PDCENDPDX
 .PDCWHAMYU .PDCGEN 7k OFFLINE .PDCENDPDX
-
 
 
 
@@ -7447,15 +7443,15 @@
 
 .RNTCHINS .FD SEA_CHINS
 
-.RNYCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: RNT altim A$altim(KRNT)
+.RNTCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [ALL OPS] J cross RADDY @ 11k, L & S cross @ 10k ::: RNT altim A$altim(KRNT)
 
-.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
+.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-11k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTCHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRN Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTCHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRS Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
@@ -7466,22 +7462,22 @@
 
 
 
-; RNT EPH
+; RNT SKYKO
 
 
-.RNTEPH .FD SEA_EPH
+.RNTSKYKO .FD SEA_SKYKO
 
-.RNTEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: RNT altim A$altim(KRNT)
+.RNTSKYKOCTR .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descend via STAR ::: RNT altim A$altim(KRNT)
 
-.RNTEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: RNT altim A$altim(KRNT)
+.RNTSKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTEPHCTRN RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTSKYKOCTRN Descend via STAR. RNT Landing North. Altimeter A$altim(KRNT)
 
-.TRNTEPHAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
+.TRNTSKYKOAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTEPHCTRS RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTSKYKOCTRS Descend via STAR. RNT Landing South. Altimeter A$altim(KRNT)
 
-.TRNTEPHAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
+.TRNTSKYKOAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
 
 
@@ -8314,7 +8310,6 @@
 
 
 
-
 ; SEA ELMAA
 
 
@@ -8343,7 +8338,6 @@
 .PDCELMAAU .PDCGENCVX 7k OFFLINE .PDCENDSEA
 .PDCELMAAR .PDCGENCVX 7k $freq($1) .PDCENDSEARAMP $2
 .PDCELMAAUR .PDCGENCVX 7k OFFLINE .PDCENDSEARAMP $1
-
 
 
 
@@ -8384,7 +8378,6 @@
 
 
 
-
 ; SEA ISBRG
 
 
@@ -8413,7 +8406,6 @@
 .PDCISBRGU .PDCGENCVX 7k OFFLINE .PDCENDSEA
 .PDCISBRGR .PDCGENCVX 7k $freq($1) .PDCENDSEARAMP $2
 .PDCISBRGUR .PDCGENCVX 7k OFFLINE .PDCENDSEARAMP $1
-
 
 
 
@@ -8454,7 +8446,6 @@
 
 
 
-
 ; SEA MONTN
 
 
@@ -8483,7 +8474,6 @@
 .PDCMONTNU .PDCGENCVX 7k OFFLINE .PDCENDSEA
 .PDCMONTNR .PDCGENCVX 7k $freq($1) .PDCENDSEARAMP $2
 .PDCMONTNUR .PDCGENCVX 7k OFFLINE .PDCENDSEARAMP $1
-
 
 
 
@@ -8524,7 +8514,6 @@
 
 
 
-
 ; SEA SEA
 
 
@@ -8553,7 +8542,6 @@
 .PDCSEAU .PDCGEN 7k OFFLINE .PDCENDSEA
 .PDCSEAR .PDCGEN 7k $freq($1) .PDCENDSEARAMP $2
 .PDCSEAUR .PDCGEN 7k OFFLINE .PDCENDSEARAMP $1
-
 
 
 
@@ -8595,7 +8583,8 @@
 
 .TPDCSUMMASU .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN 7k* | DEP OFFLINE | ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
 
-; New PDC 
+; New PDC
+.PDCSUMMA .MSG ZSE_ISR *** SUMMA2 is different in North and South ops. Add either 'N' or 'S' to the end of this command depending on the flow (e.g. in north ops type '.PDCSUMMAN' or '.PDCSUMMANU') 
 .PDCSUMMAS .PDCGEN 7k $freq($1) .PDCENDSEA
 .PDCSUMMASU .PDCGEN 7k OFFLINE .PDCENDSEA
 .PDCSUMMASR .PDCGEN 7k $freq($1) .PDCENDSEARAMP $2
@@ -8604,7 +8593,6 @@
 .PDCSUMMANU .PDCGENCVX 7k OFFLINE .PDCENDSEA
 .PDCSUMMANR .PDCGENCVX 7k $freq($1) .PDCENDSEARAMP $2
 .PDCSUMMANUR .PDCGENCVX 7k OFFLINE .PDCENDSEARAMP $1
-
 
 
 
@@ -8635,22 +8623,22 @@
 
 
 
-; SEA EPH
+; SEA SKYKO
 
 
-.SEAEPH .FD SEA_EPH
+.SEASKYKO .FD SEA_SKYKO
 
-.SEAEPHCTR .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: Give descent instructions (use your judgement) ::: SEA altim A$altim(KSEA)
+.SEASKYKOCTR .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descend via STAR ::: SEA altim A$altim(KSEA)
 
-.SEAEPHAPP .MSG ZSE_ISR *** EPH 8 ::: Non-RNAV ::: After HETHR vector to final ::: SEA altim A$altim(KSEA)
+.SEASKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: SEA altim A$altim(KSEA)
 
-.TSEAEPHCTRN SEA Landing North. Altimeter A$altim(KSEA)
+.TSEASKYKOCTRN Descend via STAR. SEA Landing North. SEA altimeter A$altim(KSEA)
 
-.TSEAEPHAPPN Expect vectors for the ILS rwy 34R approach. Altimeter A$altim(KSEA)
+.TSEASKYKOAPPN Expect vectors for the ILS rwy 34R approach. SEA altimeter A$altim(KSEA)
 
-.TSEAEPHCTRS SEA Landing South. Altimeter A$altim(KSEA)
+.TSEASKYKOCTRS Descend via STAR. SEA Landing South. SEA altimeter A$altim(KSEA)
 
-.TSEAEPHAPPS Expect vectors for the ILS rwy 16L approach. Altimeter A$altim(KSEA)
+.TSEASKYKOAPPS Expect vectors for the ILS rwy 16L approach. SEA altimeter A$altim(KSEA)
 
 
 
@@ -8664,7 +8652,7 @@
 ; SEA GLASR
 
 
-.SEAGLASR .FD SEA_GLASR
+.GLASR .FD SEA_GLASR
 
 .SEAGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 12k 250kts, props @ 10k __ [NORTH OPS] Cross JAKSN @ 16k 270kts, props @ 10k ::: SEA altim A$altim(KSEA)
 
@@ -10668,7 +10656,7 @@
  
 .YVRGRIZZ .FD YVR_GRIZZ 
  
-.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
  
 .YVRGRIZZAPP .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
  
@@ -10690,7 +10678,7 @@
 
 .YVRPAINE .FD YVR_PAINE 
  
-.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(P/T), 12k(J) ::: A$altim(KYVR) 
+.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
  
 .YVRPAINEAPP .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
  

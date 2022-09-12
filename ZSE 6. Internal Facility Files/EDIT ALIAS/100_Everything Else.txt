@@ -2,7 +2,7 @@
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2110
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2209
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT
@@ -182,6 +182,10 @@
 .idWALKER .MSG ZSE_ISR *** 3LD: WAT ___ TELEPHONY: WALKER
 .idCPC .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
 .idEMPRESS .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
+.idMET .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METRO AIR
+.idMETROAIR .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METRO AIR
+.idCXA .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
+.idCANADIANEXPRESS .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -290,10 +294,68 @@
 .AT .center /3 $arr
 .TA .center /3 $arr
 
+; Convenience commands for setting autotrack for vERAM users
+
+; All of S16
+.autotrackallon .autotrack .atlists46on .atlistp80on .atlistgegon .atlistpscon .atlisteugon .atlistmwhon .atlistlmton .atlistnuwon .atlistotherson
+.autotrackalloff .autotrack .atlists46off .atlistp80off .atlistgegoff .atlistpscoff .atlisteugoff .atlistmwhoff .atlistlmtoff .atlistnuwoff .atlistothersoff
+
+; KSEA
+.autotracks46on .autotrack .atlists46on
+.autotracks46off .autotrack .atlists46off
+.atlistp80on ksea kbfi kpae kolm ktiw krnt ktcm kgrf kshn kpwt kawo
+.atlistp80off -ksea -kbfi -kpae -kolm -ktiw -krnt -ktcm -kgrf -kshn -kpwt -kawo
+
+; KPDX
+.autotrackp80on .autotrack .atlistp80on
+.autotrackp80off .autotrack .atlistp80off
+.atlistp80on kpdx khio kttd kvuo kuao kspb kmmv
+.atlistp80off -kpdx -khio -kttd -kvuo -kuao -kspb -kmmv
+
+; KGEG
+.autotrackgegon .autotrack .atlistgegon
+.autotrackgegoff .autotrack .atlistgegoff
+.atlistgegon kgeg kska ksff kcoe kmso
+.atlistgegoff -kgeg -kska -ksff -kcoe -kmso
+
+; KPSC (Chinook)
+.autotrackpscon .autotrack .atlistpscon
+.autotrackpscoff .autotrack .atlistpscoff
+.atlistpscon kpsc kalw kpdt kykm
+.atlistpscoff -kpsc -kalw -kpdt -kykm
+
+; KEUG (Cascade)
+.autotrackeugon .autotrack .atlisteugon
+.autotrackeugoff .autotrack .atlisteugoff
+.atlisteugon keug kmfr kcvo
+.atlisteugoff -keug -kmfr -kcvo
+
+; KMWH (Grant County)
+.autotrackmwhon .autotrack .atlistmwhon
+.autotrackmwhoff .autotrack .atlistmwhoff
+.atlistmwhon kmwh
+.atlistmwhoff -kmwh
+
+; KLMT (Kingsley)
+.autotracklmton .autotrack .atlistlmton
+.autotracklmtoff .autotrack .atlistlmtoff
+.atlistlmton klmt
+.atlistlmtoff -klmt
+
+; KNUW (Whidbey)
+.autotracknuwon .autotrack .atlistnuwon
+.autotracknuwoff .autotrack .atlistnuwoff
+.atlistnuwon knuw kclm kors kfhr kbvs know
+.atlistnuwoff -knuw -kclm -kors -kfhr -kbvs -know
+
+; OTHERS (outside of TRACONs)
+.autotrackotherson .autotrack .atlistotherson
+.autotrackothersoff .autotrack .atlistothersoff
+.atlistotherson kast
+.atlistothersoff -kast
 
 
 ; Scope De-Clutter/Diagram Setup
-
 
 ; Draw Towered Airports on Scope
 .FIELDS .FF KSEA KPDX KGEG KBLI KEUG KHIO KLMT KMFR KMSO KMWH KOLM KOTH KPDT KPSC KRDM KSFF KSLE KUAO KYKM CYVR
@@ -331,6 +393,7 @@
 ; Clearance Delivery
 .trbc Read Back Correct.
 .tREFILE your flight plan not on file, please refile your flight plan.
+.tinvalt cruise altitude $uc($cruise) not valid for your direction of flight, would you like $uc($1) or $uc($2)?
 
 ; General CRAFT
 .TCRAFTU Cleared to $arr via $route. Departure frequency is with UNICOM 122.800, squawk $squawk
@@ -396,10 +459,13 @@
 ;                            PDC Templates
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+; Reroute warning
+.PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
+
 ; Base templates
-.PDCGEN .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 
-.PDCGENCV .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID* | DEP $1 | 
-.PDCGENCVX .msg $aircraft *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN $1* | DEP $2 | 
+.PDCGEN .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 
+.PDCGENCV .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID* | DEP $1 | 
+.PDCGENCVX .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN $1* | DEP $2 | 
 
 ; Airport specific templates
 .PDCENDPDX  ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< .PDCEND

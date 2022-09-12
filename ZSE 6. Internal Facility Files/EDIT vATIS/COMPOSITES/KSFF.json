@@ -1,0 +1,58 @@
+{
+  "Name": "Felts Field",
+  "Identifier": "KSFF",
+  "Contractions": [],
+  "AtisFrequency": 20550,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": true,
+    "MagneticDegrees": -20
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": false,
+    "Voice": "Default"
+  },
+  "IDSEndpoint": "https://ids.zseartcc.org/remote/atis",
+  "Presets": [
+    {
+      "Name": "WEST ILS",
+      "AirportConditions": "ILS APCHS IN USE RWY 22R. DEPTG RWY 22R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "WEST VIS",
+      "AirportConditions": "VIS APCHS IN USE RWY 22R AND 22L. DEPTG RWY 22R AND 22L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST GPS",
+      "AirportConditions": "GPS APCHS IN USE RWY 4L. DEPTG RWY 4L.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+    },
+    {
+      "Name": "EAST VIS",
+      "AirportConditions": "VIS APCHS IN USE RWY 4L AND 4R. DEPTG RWY 4L AND 4R.",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+    }
+  ],
+  "AirportConditionDefinitions": [
+    {
+      "Ordinal": 1,
+      "Text": "VFR ACFT SAY DRCTN OF FLT.",
+      "Enabled": false
+    }
+  ],
+  "NotamDefinitions": [],
+  "TransitionLevels": []
+}

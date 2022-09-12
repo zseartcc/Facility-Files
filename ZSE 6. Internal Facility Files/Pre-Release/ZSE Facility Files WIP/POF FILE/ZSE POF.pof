@@ -11,70 +11,71 @@
 
 
 ; SQUAWK CODE ALLOCATION
-; 1501-1577 -- S46, BFI, GRF, TCM, OLM,
-;              PAE, RDM, RNT, SEA, TIW
-; 1601-1677 -- P80, UAO, HIO, PDX, TTD
+; 1501-1677 -- S46, BFI, GRF, TCM, OLM, PAE, RDM, RNT, SEA, TIW
+;              P80, UAO, HIO, PDX, TTD
+;              (Note: some airports have a subset of this range.)
 ; 3560-3577 -- MWH
 ; 4601-4643 -- PSC, PDT, ALW, YKM
 ; 4644-4653 -- LWS
 ; 4654-4677 -- NUW, BLI
 ; 4701-4725 -- LMT
 ; 4726-4777 -- EUG, MFR, OTH, SLE
-; 6601-6677 -- ZSE, GEG, SKA, SFF
+; 5101-5277 -- ZSE (CTR Positions)
+; 6601-6677 -- GEG, SKA, SFF
 
 
 ; Seattle Center
-Seattle Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:CTR:6601:6677  ; Combined
-;Seattle 01 Center:Seattle Center:120.300:S01:S:SEA:CTR:SEA:01-CTR:6601:6677
-Seattle 02 Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:02-CTR:6601:6677
-Seattle 03 Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:03-CTR:6601:6677
-;Seattle 04 Center:Seattle Center:124.200:S04:S:SEA:CTR:SEA:04-CTR:6601:6677
-;Seattle 05 Center:Seattle Center:128.150:S05:S:SEA:CTR:SEA:05-CTR:6601:6677
-Seattle 06 Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:06-CTR:6601:6677
-Seattle 07 Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:6601:6677
-;Seattle 08 Center:Seattle Center:123.950:S08:S:SEA:CTR:SEA:08-CTR:6601:6677
-;Seattle 09 Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:6601:6677
-;Seattle 10 Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:6601:6677
-Seattle 11 Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:6601:6677
-Seattle 12 Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:6601:6677
-Seattle 13 Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:6601:6677
-Seattle 14 Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:6601:6677
-Seattle 15 Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:15-CTR:6601:6677
-Seattle 16 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:16-CTR:6601:6677
-;Seattle 18 Center:Seattle Center:126.100:S18:S:SEA:CTR:SEA:18-CTR:6601:6677
-;Seattle 30 Center:Seattle Center:135.150:S30:S:SEA:CTR:SEA:30-CTR:6601:6677
-;Seattle 31 Center:Seattle Center:127.050:S31:S:SEA:CTR:SEA:31-CTR:6601:6677
-;Seattle 32 Center:Seattle Center:126.600:S32:S:SEA:CTR:SEA:32-CTR:6601:6677
-Seattle 34 Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:34-CTR:6601:6677
-;Seattle 35 Center:Seattle Center:126.150:S35:S:SEA:CTR:SEA:35-CTR:6601:6677
-;Seattle 36 Center:Seattle Center:124.850:S36:S:SEA:CTR:SEA:36-CTR:6601:6677
-Seattle 42 Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:42-CTR:6601:6677
-Seattle 46 Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:6601:6677
-Seattle 47 Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:6601:6677
-;Seattle 48 Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:6601:6677
+Seattle Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:CTR:5101:5277  ; Combined
+;Seattle 01 Center:Seattle Center:120.300:S01:S:SEA:CTR:SEA:01-CTR:5101:5277
+Seattle 02 Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:02-CTR:5101:5277
+Seattle 03 Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:03-CTR:5101:5277
+;Seattle 04 Center:Seattle Center:124.200:S04:S:SEA:CTR:SEA:04-CTR:5101:5277
+;Seattle 05 Center:Seattle Center:128.150:S05:S:SEA:CTR:SEA:05-CTR:5101:5277
+Seattle 06 Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:06-CTR:5101:5277
+Seattle 07 Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:5101:5277
+;Seattle 08 Center:Seattle Center:123.950:S08:S:SEA:CTR:SEA:08-CTR:5101:5277
+;Seattle 09 Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:5101:5277
+;Seattle 10 Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:5101:5277
+Seattle 11 Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:5101:5277
+Seattle 12 Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:5101:5277
+Seattle 13 Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:5101:5277
+Seattle 14 Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:5101:5277
+Seattle 15 Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:15-CTR:5101:5277
+Seattle 16 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:16-CTR:5101:5277
+;Seattle 18 Center:Seattle Center:126.100:S18:S:SEA:CTR:SEA:18-CTR:5101:5277
+;Seattle 30 Center:Seattle Center:135.150:S30:S:SEA:CTR:SEA:30-CTR:5101:5277
+;Seattle 31 Center:Seattle Center:127.050:S31:S:SEA:CTR:SEA:31-CTR:5101:5277
+;Seattle 32 Center:Seattle Center:126.600:S32:S:SEA:CTR:SEA:32-CTR:5101:5277
+Seattle 34 Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:34-CTR:5101:5277
+;Seattle 35 Center:Seattle Center:126.150:S35:S:SEA:CTR:SEA:35-CTR:5101:5277
+;Seattle 36 Center:Seattle Center:124.850:S36:S:SEA:CTR:SEA:36-CTR:5101:5277
+Seattle 42 Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:42-CTR:5101:5277
+Seattle 46 Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:5101:5277
+Seattle 47 Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:5101:5277
+;Seattle 48 Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:5101:5277
 
 
 ; Seattle TRACON (S46)
-Seattle Combined Approach:-:125.600:1W:W:SEA:APP:SEA:APP:1501:1577
-Seattle East Feeder:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1577
-Seattle West Feeder:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1577
-Seattle Final (Sea-Tac):-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1577
-Seattle Final (Boeing):-:125.900:1D:D:SEA:APP:SEA:D-APP:1501:1577
-Seattle Final (Boeing):-:125.900:1O:O:SEA:APP:SEA:O-APP:1501:1577
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:DEP:SEA:Y-DEP:1501:1577
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1577
-Seattle Departure East:-:119.200:1A:A:SEA:APP:SEA:A-APP:1501:1577
-Seattle Satellite Approach McChord/Combined:-:126.500:1N:N:SEA:APP:SEA:N-APP:1501:1577
-Seattle Approach Narrows/Bremerton:-:127.100:1K:K:SEA:APP:SEA:K-APP:1501:1577
-Seattle Satellite Paine:-:128.500:1P:P:SEA:APP:SEA:P-APP:1501:1577
+Seattle Combined Approach:-:125.600:1W:W:SEA:APP:SEA:APP:1501:1677
+Seattle East Feeder:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1677
+Seattle West Feeder:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1677
+Seattle Final (Sea-Tac):-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1677
+Seattle Final (Boeing):-:125.900:1D:D:SEA:APP:SEA:D-APP:1501:1677
+Seattle Final (Boeing):-:125.900:1O:O:SEA:APP:SEA:O-APP:1501:1677
+Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:DEP:SEA:Y-DEP:1501:1677
+Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1677
+Seattle Departure East:-:119.200:1A:A:SEA:APP:SEA:A-APP:1501:1677
+Seattle Satellite Approach McChord/Combined:-:126.500:1N:N:SEA:APP:SEA:N-APP:1501:1677
+Seattle Approach Narrows/Bremerton:-:127.100:1K:K:SEA:APP:SEA:K-APP:1501:1677
+Seattle Satellite Paine:-:128.500:1P:P:SEA:APP:SEA:P-APP:1501:1677
 
 ; Portland TRACON (P80)
-Portland Combined Approach:-:124.350:3A:N:PDX:APP:PDX:APP:1601:1677
-Portland North Approach:-:124.350:3N:N:PDX:APP:PDX:N-APP:1601:1677
-Portland South Approach:-:118.100:3S:S:PDX:APP:PDX:S-APP:1601:1677
-Portland Final Approach:-:126.900:3F:F:PDX:APP:PDX:F-APP:1601:1677
-;Portland Arrival Approach:-:134.675:3R:A:PDX:APP:PDX:A-APP:1601:1677
-Portland Newberg Approach:-:126.000:3U:U:PDX:APP:PDX:U-APP:1601:1677
+Portland Combined Approach:-:124.350:3A:N:PDX:APP:PDX:APP:1501:1677
+Portland North Approach:-:124.350:3N:N:PDX:APP:PDX:N-APP:1501:1677
+Portland South Approach:-:118.100:3S:S:PDX:APP:PDX:S-APP:1501:1677
+Portland Final Approach:-:126.900:3F:F:PDX:APP:PDX:F-APP:1501:1677
+;Portland Arrival Approach:-:134.675:3R:A:PDX:APP:PDX:A-APP:1501:1677
+Portland Newberg Approach:-:126.000:3U:U:PDX:APP:PDX:U-APP:1501:1677
 
 ; Spokane Approach (4's)
 Spokane Combined Approach:-:133.350:4C:E:GEG:APP:GEG:APP:6601:6677
@@ -180,11 +181,11 @@ Pendleton Tower:-:119.700:6P:-:PDT:TWR:PDT:TWR:4601:4643
 Pendleton Ground:-:121.900:6U:-:PDT:GND:PDT:GND:4601:4643
 
 ; Portland Intl KPDX
-Portland Combined Tower:-:123.775:3T:T:PDX:TWR:PDX:TWR:1601:1677
-Portland North Tower:-:118.700:3O:T:PDX:TWR:PDX:N-TWR:1601:1677
-Portland South Tower:-:123.775:3E:E:PDX:TWR:PDX:S-TWR:1601:1677
-Portland Ground:-:121.900:3G:G:PDX:GND:PDX:GND:1601:1677
-Portland Clearance:-:120.125:3D:-:PDX:DEL:PDX:DEL:1601:1677
+Portland Combined Tower:-:123.775:3T:T:PDX:TWR:PDX:TWR:1501:1677
+Portland North Tower:-:118.700:3O:T:PDX:TWR:PDX:N-TWR:1501:1677
+Portland South Tower:-:123.775:3E:E:PDX:TWR:PDX:S-TWR:1501:1677
+Portland Ground:-:121.900:3G:G:PDX:GND:PDX:GND:1501:1677
+Portland Clearance:-:120.125:3D:-:PDX:DEL:PDX:DEL:1501:1677
 
 ; Redmond KRDM
 Redmond Tower:-:124.500:8R:-:RDM:TWR:RDM:TWR:4701:4725
@@ -199,14 +200,14 @@ Salem Tower:-:119.100:8S:-:SLE:TWR:SLE:TWR:4726:4777
 Salem Ground:-:121.900:8J:-:SLE:GND:SLE:GND:4726:4777
 
 ; Seattle-Tacoma Intl KSEA
-Seattle Combined Tower:-:119.900:2T:T:SEA:TWR:SEA:TWR:1501:1577
-Seattle West Tower:-:120.950:2J:J:SEA:TWR:SEA:W-TWR:1501:1577
-Seattle East Tower:-:119.900:2A:T:SEA:TWR:SEA:E-TWR:1501:1577
-Seattle Ground:-:121.700:2G:-:SEA:GND:SEA:GND:1501:1577
-Seattle Clearance:-:128.000:2L:-:SEA:DEL:SEA:DEL:1501:1577
-Seattle Ramp:-:126.875:2R:-:SEA:DEL:SEA:RMP:1501:1577
-Seattle North Ramp:Seattle Ramp:126.875:2R:-:SEA:DEL:SEA:N-RMP:1501:1577
-Seattle South Ramp:Seattle Ramp:122.275:2S:-:SEA:DEL:SEA:S-RMP:1501:1577
+Seattle Combined Tower:-:119.900:2T:T:SEA:TWR:SEA:TWR:1501:1677
+Seattle West Tower:-:120.950:2J:J:SEA:TWR:SEA:W-TWR:1501:1677
+Seattle East Tower:-:119.900:2A:T:SEA:TWR:SEA:E-TWR:1501:1677
+Seattle Ground:-:121.700:2G:-:SEA:GND:SEA:GND:1501:1677
+Seattle Clearance:-:128.000:2L:-:SEA:DEL:SEA:DEL:1501:1677
+Seattle Ramp:-:126.875:2R:-:SEA:DEL:SEA:RMP:1501:1677
+Seattle North Ramp:Seattle Ramp:126.875:2R:-:SEA:DEL:SEA:N-RMP:1501:1677
+Seattle South Ramp:Seattle Ramp:122.275:2S:-:SEA:DEL:SEA:S-RMP:1501:1677
 
 ; Spokane KGEG
 Spokane Tower:-:118.300:4T:T:GEG:TWR:GEG:TWR:6601:6677
@@ -248,29 +249,28 @@ Yakima Ground:-:121.900:6R:-:YKM:GND:YKM:GND:4601:4643
 Edmonton Center:-:132.850:07:-:CZEG:CTR:EDM:CTR::
 
 ; Oakland ARTCC
-OAK_10_CTR:Oakland Center:128.700:O10:O:OAK:CTR:ZOA:10::
-OAK_11_CTR:Oakland Center:133.700:O11:O:OAK:CTR:ZOA:11::
-OAK_13_CTR:Oakland Center:127.450:O13:O:OAK:CTR:ZOA:13::
-OAK_14_CTR:Oakland Center:134.550:O14:O:OAK:CTR:ZOA:14::
-OAK_15_CTR:Oakland Center:132.800:O15:O:OAK:CTR:ZOA:15::
-OAK_16_CTR:Oakland Center:123.800:O16:O:OAK:CTR:ZOA:16::
-OAK_22_CTR:Oakland Center:121.250:O22:O:OAK:CTR:ZOA:22::
-OAK_29_CTR:Oakland Center:119.750:O29:O:OAK:CTR:ZOA:29::
-OAK_30_CTR:Oakland Center:127.150:O30:O:OAK:CTR:ZOA:30::
-OAK_31_CTR:Oakland Center:134.975:O31:O:OAK:CTR:ZOA:31::
-OAK_32_CTR:Oakland Center:132.950:O32:O:OAK:CTR:ZOA:32::
-OAK_33_CTR:Oakland Center:132.050:O33:O:OAK:CTR:ZOA:33::
-OAK_34_CTR:Oakland Center:134.370:O34:O:OAK:CTR:ZOA:34::
-OAK_35_CTR:Oakland Center:134.150:O35:O:OAK:CTR:ZOA:35::
-OAK_36_CTR:Oakland Center:119.970:O36:O:OAK:CTR:ZOA:36::
-OAK_40_CTR:Oakland Center:127.800:O40:O:OAK:CTR:ZOA:40::
-OAK_41_CTR:Oakland Center:125.850:O41:O:OAK:CTR:ZOA:41::
-OAK_42_CTR:Oakland Center:132.200:O42:O:OAK:CTR:ZOA:42::
-OAK_43_CTR:Oakland Center:134.450:O43:O:OAK:CTR:ZOA:43::
-OAK_44_CTR:Oakland Center:127.950:O44:O:OAK:CTR:ZOA:44::
-OAK_45_CTR:Oakland Center:128.800:O45:O:OAK:CTR:ZOA:45::
-OAK_46_CTR:Oakland Center:125.750:O46:O:OAK:CTR:ZOA:46::
-Oakland Oceanic:San Francisco Radio:131.950:OA04:C:KZAK:FSS:KZAK:FSS::
+ZOA 10:Oakland Center:128.700:O10:C:OAK:CTR:ZOA:10
+ZOA 11:Oakland Center:133.700:O11:C:OAK:CTR:ZOA:11
+ZOA 13:Oakland Center:127.450:O13:C:OAK:CTR:ZOA:13
+ZOA 14:Oakland Center:134.550:O14:C:OAK:CTR:ZOA:14
+ZOA 15:Oakland Center:132.800:O15:C:OAK:CTR:ZOA:15
+ZOA 16:Oakland Center:123.800:O16:C:OAK:CTR:ZOA:16
+ZOA 22:Oakland Center:121.250:O22:C:OAK:CTR:ZOA:22
+ZOA 29:Oakland Center:119.750:O29:C:OAK:CTR:ZOA:29
+ZOA 30:Oakland Center:127.150:O30:C:OAK:CTR:ZOA:30
+ZOA 31:Oakland Center:134.975:O31:C:OAK:CTR:ZOA:31
+ZOA 32:Oakland Center:132.950:O32:C:OAK:CTR:ZOA:32
+ZOA 33:Oakland Center:132.050:O33:C:OAK:CTR:ZOA:33
+ZOA 34:Oakland Center:134.375:O34:C:OAK:CTR:ZOA:34
+ZOA 35:Oakland Center:134.150:O35:C:OAK:CTR:ZOA:35
+ZOA 36:Oakland Center:119.975:O36:C:OAK:CTR:ZOA:36
+ZOA 40:Oakland Center:127.800:O40:C:OAK:CTR:ZOA:40
+ZOA 41:Oakland Center:125.850:O41:C:OAK:CTR:ZOA:41
+ZOA 42:Oakland Center:132.200:O42:C:OAK:CTR:ZOA:42
+ZOA 43:Oakland Center:134.450:O43:C:OAK:CTR:ZOA:43
+ZOA 44:Oakland Center:127.950:O44:C:OAK:CTR:ZOA:44
+ZOA 45:Oakland Center:128.800:O45:C:OAK:CTR:ZOA:45
+ZOA 46:Oakland Center:125.750:O46:C:OAK:CTR:ZOA:46
 
 ; Salt Lake City ARTCC
 SLC_03_CTR:Salt Lake City Center:119.950:U03:U:SLC:CTR:SLC:CTR:6001:6077
@@ -290,7 +290,7 @@ SLC_20_CTR:Salt Lake City Center:119.750:U20:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_30_CTR:Salt Lake City Center:128.050:U30:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_31_CTR:Salt Lake City Center:118.050:U31:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_32_CTR:Salt Lake City Center:133.900:U32:U:SLC:CTR:SLC:CTR:6001:6077
-SLC_33_CTR:Salt Lake City Center:120.270:U33:U:SLC:CTR:SLC:CTR:6001:6077
+SLC_33_CTR:Salt Lake City Center:120.275:U33:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_34_CTR:Salt Lake City Center:127.920:U34:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_39_CTR:Salt Lake City Center:132.420:U39:U:SLC:CTR:SLC:CTR:6001:6077
 SLC_40_CTR:Salt Lake City Center:128.550:U40:U:SLC:CTR:SLC:CTR:6001:6077

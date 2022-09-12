@@ -1,31 +1,34 @@
-import gzip
+import json
 import os
-import xml.etree.ElementTree as ET
 
 
-# Path to EDIT vATIS folder (with trailing "/")
-EDIT_PATH = "EDIT vATIS/"
+# Path to folder containing the composites
+COMP_PATH = "EDIT vATIS/COMPOSITES/"
 
-# Path to vATIS pre-release folder (with trailing "/")
+# Path to folder containing the profiles
+PROF_PATH = "EDIT vATIS/PROFILES/"
+
+# Path to pre-release vATIS folder
 PR_PATH = "Pre-Release/ZSE vATIS WIP/"
 
 
-# For each EDIT file...
-for file in os.listdir(EDIT_PATH):
-	if file.endswith(".xml"):
-		print(file)
-		# Get icao ident and name
-		tree = ET.parse(EDIT_PATH + file)
-		root = tree.getroot()
-		icao = root.get("ID")
-		name = root.get("Name")
-		# Write to pre-release file
-		with gzip.open(PR_PATH + f"vATIS Facility - {name} ({icao}).gz", "w") as prfile:
-			if hasattr(ET, "indent"):
-				# (ET.indent only works in Python 3.9+)
-				ET.indent(tree)
-			tree.write(prfile)
+print("Assembling profiles:\n")
+for entry in os.listdir(PROF_PATH):
+	if entry.endswith(".json"):
+		# Print the profile's name
+		name = entry.strip(".json")
+		print(name)
+		# Retrieve the profile definition
+		with open(PROF_PATH + entry) as f:
+			definition = json.load(f)
+		# Add the composites
+		composites = []
+		for airport in definition["Composites"]:
+			with open(COMP_PATH + airport + ".json") as f:
+				comp = json.load(f)
+			composites.append(comp)
+		# Save pre-release file
+		with open(PR_PATH + f"vATIS Profile - {name}.json", "w") as f:
+			json.dump({"Name": name, "Composites": composites}, f, indent="  ")
 
-
-print("\nDone!\n")
-input("Press ENTER to continue")
+input("\nComplete!\nPress ENTER to continue . . . ")

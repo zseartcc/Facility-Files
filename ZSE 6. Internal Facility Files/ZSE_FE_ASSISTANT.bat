@@ -6,15 +6,13 @@ TITLE ZSE FE ASSISTANT
 :: Dropbox location (for ZSE PUBLIC)
 IF EXIST %userprofile%\Dropbox (
 	SET DROPBOX_PATH=%userprofile%\Dropbox
-) ELSE IF EXIST D:\Dropbox (
-	SET DROPBOX_PATH=D:\Dropbox
 ) ELSE (
 	SET /P DROPBOX_PATH=Dropbox path: 
 )
 
 :: ZSE 6. Internal Facility Files location
-IF %USERNAME%==Teddy (
-	SET IFF_PATH=D:\Git Repos\Facility Files\ZSE 6. Internal Facility Files
+IF EXIST "%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files" (
+	SET IFF_PATH=%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE IF %USERNAME%==mgg4b (
 	SET IFF_PATH=C:\Users\mgg4b\OneDrive\Documents\GitHub\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE (
@@ -56,7 +54,7 @@ ECHO.
 ECHO      A) Split a current vERAM ZSE GeoMaps.xml or vSTARS Video Maps.xml into multiple individual files.
 ECHO.
 ECHO.
-ECHO      B) Take the export data from the NASR_2_SCT parser and transfer to coorisponding EDIT files.
+ECHO      B) Take the export data from the FE-BUDDY parser and transfer to coorisponding EDIT files.
 ECHO.
 ECHO.
 ECHO      C) Combine split GeoMaps or Video Maps into a single ZSE GeoMaps.xml or ___ Video Maps.xml file.
@@ -71,7 +69,7 @@ ECHO              ---REMINDER: Launch vSTARS/vERAM, load new Alias/POF/GEOMAPs a
 ECHO                 export the .gz to Pre-Release folder.
 ECHO.
 ECHO.
-ECHO      F) Transfer Pre-Release Files to ZSE Public Folder.
+ECHO      F) Transfer Pre-Release Files to ZSE PUBLIC Folder.
 ECHO.
 ECHO.
 
@@ -920,10 +918,10 @@ GOTO HELLO2
 
 ECHO.
 ECHO.
-ECHO  *** NASR_2_SCT Output to EDIT FOLDERS ***
+ECHO  *** FE-BUDDY Output to EDIT FOLDERS ***
 ECHO.
 ECHO.
-ECHO  This BATCH File will take the export data from the NASR_2_SCT parser and
+ECHO  This BATCH File will take the export data from the FE-BUDDY parser and
 ECHO  transfer the following to the coorisponding files:
 ECHO.
 ECHO.
@@ -1005,14 +1003,14 @@ CLS
 
 ECHO.
 ECHO.
-ECHO Select the NASR2SCT_Output Folder
+ECHO Select the FE-BUDDY_Output Folder
 ECHO.
 ECHO.
 
 set SOURCE_DIR=NOTHING
 
 set "psCommand="(new-object -COM 'Shell.Application')^
-.BrowseForFolder(0,'Select the NASR2SCT_Output Folder',0,0).self.path""
+.BrowseForFolder(0,'Select the FE-BUDDY_Output Folder',0,0).self.path""
 
 	for /f "usebackq delims=" %%I in (`powershell %psCommand%`) do set "SOURCE_DIR=%%I"
 	
@@ -1020,11 +1018,11 @@ set "psCommand="(new-object -COM 'Shell.Application')^
 		
 		SET SOURCE_DIR_CHK=%SOURCE_DIR:~-15%
 		
-		IF NOT "%SOURCE_DIR_CHK%"=="NASR2SCT_Output" (
+		IF NOT "%SOURCE_DIR_CHK%"=="FE-BUDDY_Output" (
 			ECHO.
 			ECHO.
 			ECHO.
-			ECHO The expected "Source" folder is "NASR2SCT_Output"
+			ECHO The expected "Source" folder is "FE-BUDDY_Output"
 			ECHO.
 			ECHO You selected:
 			echo    %SOURCE_DIR%
@@ -1761,11 +1759,11 @@ GOTO HELLO2
 
 ECHO.
 ECHO.
-ECHO  *** AUTO-TRANSFER Pre-Release Files to ZSE Public Folder ***
+ECHO  *** AUTO-TRANSFER Pre-Release Files to ZSE PUBLIC Folder ***
 echo.
 echo.
 echo    You Are About To Move The Following Contents From The Pre-Release Folder
-echo    To The Appropriate ZSE Public Folder.
+echo    To The Appropriate ZSE PUBLIC Folder.
 echo.
 echo.
 echo    If You Do Not Wish To Do This, Please Close This Window Now.
@@ -1842,7 +1840,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\Other Downloads WIP"
-copy "%IFF_PATH%\Pre-Release\Other Downloads WIP\*.*" "%DROPBOX_PATH%\ZSE public\Other Downloads"
+copy "%IFF_PATH%\Pre-Release\Other Downloads WIP\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\Other Downloads"
 
 	IF /I %MOVE%==O GOTO DONE_AUTO_TRANSFER
 
@@ -1877,7 +1875,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\ALIAS FILES"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\ALIAS FILES\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\ALIAS FILES"
 
 	IF /I %MOVE%==A GOTO DONE_AUTO_TRANSFER
 	IF /I %MOVE%==AS GOTO SECTOR
@@ -1913,10 +1911,10 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\vSTARS"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vSTARS\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\vSTARS"
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\vERAM"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\vERAM\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\vERAM"
 
 	IF /I %MOVE%==SE GOTO DONE_AUTO_TRANSFER
 
@@ -1951,7 +1949,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\POF FILE"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\POF FILE\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\POF FILE"
 
 	IF /I %MOVE%==P GOTO DONE_AUTO_TRANSFER
 
@@ -1986,7 +1984,7 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES"
-copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES\*.*" "%DROPBOX_PATH%\ZSE public\ZSE Facility Files (Live Update)\SECTOR FILES"
+copy "%IFF_PATH%\Pre-Release\ZSE Facility Files WIP\SECTOR FILES\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE Facility Files (Live Update)\SECTOR FILES"
 
 	IF /I %MOVE%==S GOTO DONE_AUTO_TRANSFER
 	IF /I %MOVE%==APS GOTO DONE_AUTO_TRANSFER
@@ -2023,7 +2021,8 @@ echo.
 echo.
 
 CD "%IFF_PATH%\Pre-Release\ZSE vATIS WIP"
-copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\*.*" "%DROPBOX_PATH%\ZSE public\ZSE vATIS"
+copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE vATIS"
+copy "%IFF_PATH%\Pre-Release\ZSE vATIS WIP\v4\*.*" "%DROPBOX_PATH%\ZSE PUBLIC\ZSE vATIS\v4"
 
 :DONE_AUTO_TRANSFER
 

@@ -234,9 +234,9 @@ class App(tk.Frame):
 					# Run task!
 					task(profId=profile, name=name, profGZ=preRlsFile, config=config)
 				except Exception as e:
-					# title = type(e).__name__
-					# message = f"({task.__name__}, {profile})\n{e}"
-					# showerror(title=title, message=message)
+					title = type(e).__name__
+					message = f"({task.__name__}, {profile})\n{e}"
+					showerror(title=title, message=message)
 					print(f"{profile}: {task.__name__}")
 					raise e
 				# After 1st task completes, pretend like we started at 0, not 1

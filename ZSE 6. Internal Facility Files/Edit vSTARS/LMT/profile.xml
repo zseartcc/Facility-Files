@@ -1,0 +1,67 @@
+<FacilityBundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Facility>
+    <ID>LMT</ID>
+    <Name>Kingsley</Name>
+    <VisibilityRange>90</VisibilityRange>
+    <MagVar>-14.2</MagVar>
+    <Center Lon="-121.7333" Lat="42.15667" />
+    <RadarSites>
+      <RadarSite IsPrimary="false" Character="R" ID="MFR" Elevation="1375" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="50.4" IsTerminal="false">
+        <Location Lon="-122.86301" Lat="42.385153" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="K" ID="LMT" Elevation="6700" FloorSlope="0.3" PrimaryRange="230" SecondaryRange="230" ReducedSeparationRange="0" ConeOfSilenceSlope="60.4" IsTerminal="false">
+        <Location Lon="-121.97216" Lat="42.068819" />
+      </RadarSite>
+    </RadarSites>
+    <RadarSite>-1</RadarSite>
+    <TransitionAltitude>18000</TransitionAltitude>
+    <AirportData>
+      <AirportData ID="KLMT" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
+    </AirportData>
+    <CALateralMinimum>3</CALateralMinimum>
+    <CAVerticalMinimum>1000</CAVerticalMinimum>
+    <CAFloor>0</CAFloor>
+    <LDBBeaconCodesInhibited>true</LDBBeaconCodesInhibited>
+    <PDBGroundSpeedInhibited>true</PDBGroundSpeedInhibited>
+    <DisplayRequestedAltInFDB>false</DisplayRequestedAltInFDB>
+    <RPCs />
+    <RDVSLandLineSpecs />
+    <RDVSFrequencySpecs>
+      <RDVSFrequencySpec Frequency="23675" />
+      <RDVSFrequencySpec Frequency="33975" />
+      <RDVSFrequencySpec Frequency="21900" />
+    </RDVSFrequencySpecs>
+    <ScratchpadRules />
+    <CoastSuspendListTimeout>5</CoastSuspendListTimeout>
+    <UseVFRPositionSymbol>false</UseVFRPositionSymbol>
+    <ShowDestinationDepartures>false</ShowDestinationDepartures>
+    <ShowDestinationSatelliteArrivals>true</ShowDestinationSatelliteArrivals>
+    <ShowDestinationPrimaryArrivals>true</ShowDestinationPrimaryArrivals>
+    <Allow4CharacterScratchpad>false</Allow4CharacterScratchpad>
+    <Local>
+      <PrefSets />
+      <NetworkRating>OBS</NetworkRating>
+      <NetworkFacility>OBS</NetworkFacility>
+      <DefaultCallsign />
+      <ObserverCallsign />
+      <ControllerInfo />
+      <SelectedPrefSet>0</SelectedPrefSet>
+      <Bookmarks />
+      <FlightStripBaySeparators />
+      <ShowFlightStripBay>false</ShowFlightStripBay>
+      <AutoAddPrimaryArrivalStrips>false</AutoAddPrimaryArrivalStrips>
+      <AutoAddPrimaryDepartureStrips>false</AutoAddPrimaryDepartureStrips>
+      <AutoAddSecondaryArrivalStrips>false</AutoAddSecondaryArrivalStrips>
+      <AutoAddSecondaryDepartureStrips>false</AutoAddSecondaryDepartureStrips>
+      <AddFlightStripOnTrack>false</AddFlightStripOnTrack>
+      <DeleteFlightStripOnPush>false</DeleteFlightStripOnPush>
+      <DeleteFlightStripOnHandoff>false</DeleteFlightStripOnHandoff>
+      <DeleteFlightStripOnDropTrack>false</DeleteFlightStripOnDropTrack>
+      <PlaySoundWhenFlightStripAdded>true</PlaySoundWhenFlightStripAdded>
+      <AutoDisplayFlightStripBay>true</AutoDisplayFlightStripBay>
+    </Local>
+    <IFRSquawkCodeRange Low="3000" High="6777" />
+    <VFRSquawkCodeRange Low="1000" High="2777" />
+    <RNAVPatterns />
+  </Facility>
+</FacilityBundle>

@@ -1567,8 +1567,7 @@
             <Element xsi:type="Line" Filters="" StartLat="27.452583" StartLon="-82.134361" EndLat="27.691833" EndLon="-82.422528" />
             <Element xsi:type="Line" Filters="" StartLat="27.691833" StartLon="-82.422528" EndLat="27.907778" EndLon="-82.684306" />
             <Element xsi:type="Line" Filters="" StartLat="27.452583" StartLon="-82.134361" EndLat="27.691833" EndLon="-82.422528" />
-            <Element xsi:type="Line" Filters="" StartLat="26.828194" StartLon="-81.391444" EndLat="27.250806" EndLon="-81.892861" />
-            <Element xsi:type="Line" Filters="" StartLat="27.250806" StartLon="-81.892861" EndLat="27.452583" EndLon="-82.134361" />
+            <Element xsi:type="Line" Filters="" StartLat="26.828194" StartLon="-81.391444" EndLat="27.452583" EndLon="-82.134361" />
             <Element xsi:type="Line" Filters="" StartLat="26.529889" StartLon="-81.775778" EndLat="27.250806" EndLon="-81.892861" />
             <Element xsi:type="Line" Filters="" StartLat="27.250806" StartLon="-81.892861" EndLat="27.452583" EndLon="-82.134361" />
             <Element xsi:type="Line" Filters="" StartLat="26.78275" StartLon="-80.691444" EndLat="27.452583" EndLon="-82.134361" />
@@ -2150,14 +2149,12 @@
             <Element xsi:type="Line" Filters="" StartLat="46.8115" StartLon="-120.952167" EndLat="47.074472" EndLon="-121.516194" />
             <Element xsi:type="Line" Filters="" StartLat="47.074472" StartLon="-121.516194" EndLat="47.209389" EndLon="-121.810139" />
             <Element xsi:type="Line" Filters="" StartLat="47.209389" StartLon="-121.810139" EndLat="47.361778" EndLon="-122.145972" />
-            <Element xsi:type="Line" Filters="" StartLat="44.648389" StartLon="-119.711639" EndLat="46.294889" EndLon="-119.960056" />
-            <Element xsi:type="Line" Filters="" StartLat="46.294889" StartLon="-119.960056" EndLat="46.57025" EndLon="-120.444639" />
-            <Element xsi:type="Line" Filters="" StartLat="46.57025" StartLon="-120.444639" EndLat="46.8115" EndLon="-120.952167" />
             <Element xsi:type="Line" Filters="" StartLat="45.698417" StartLon="-118.938722" EndLat="46.191361" EndLon="-119.780056" />
             <Element xsi:type="Line" Filters="" StartLat="46.191361" StartLon="-119.780056" EndLat="46.294889" EndLon="-119.960056" />
             <Element xsi:type="Line" Filters="" StartLat="46.294889" StartLon="-119.960056" EndLat="46.57025" EndLon="-120.444639" />
             <Element xsi:type="Line" Filters="" StartLat="46.57025" StartLon="-120.444639" EndLat="46.8115" EndLon="-120.952167" />
             <Element xsi:type="Line" Filters="" StartLat="46.294889" StartLon="-119.960056" EndLat="46.57025" EndLon="-120.444639" />
+            <Element xsi:type="Line" Filters="" StartLat="46.57025" StartLon="-120.444639" EndLat="46.8115" EndLon="-120.952167" />
             <Element xsi:type="Line" Filters="" StartLat="46.57025" StartLon="-120.444639" EndLat="46.8115" EndLon="-120.952167" />
             <Element xsi:type="Line" Filters="" StartLat="36.395306" StartLon="-114.229583" EndLat="36.255056" EndLon="-114.449361" />
             <Element xsi:type="Line" Filters="" StartLat="36.255056" StartLon="-114.449361" EndLat="36.095028" EndLon="-114.614333" />
@@ -3077,10 +3074,8 @@
             <Element xsi:type="Line" Filters="" StartLat="39.971167" StartLon="-77.955889" EndLat="40.003167" EndLon="-79.405" />
             <Element xsi:type="Line" Filters="" StartLat="40.003167" StartLon="-79.405" EndLat="40.127639" EndLon="-79.605389" />
             <Element xsi:type="Line" Filters="" StartLat="40.127639" StartLon="-79.605389" EndLat="40.194472" EndLon="-79.71375" />
-            <Element xsi:type="Line" Filters="" StartLat="41.769778" StartLon="-73.600556" EndLat="41.646611" EndLon="-73.540472" />
-            <Element xsi:type="Line" Filters="" StartLat="41.646611" StartLon="-73.540472" EndLat="41.538778" EndLon="-73.488083" />
-            <Element xsi:type="Line" Filters="" StartLat="41.538778" StartLon="-73.488083" EndLat="41.326417" EndLon="-73.283222" />
-            <Element xsi:type="Line" Filters="" StartLat="41.326417" StartLon="-73.283222" EndLat="41.233278" EndLon="-73.193861" />
+            <Element xsi:type="Line" Filters="" StartLat="41.769778" StartLon="-73.600556" EndLat="41.538778" EndLon="-73.488083" />
+            <Element xsi:type="Line" Filters="" StartLat="41.538778" StartLon="-73.488083" EndLat="41.233278" EndLon="-73.193861" />
             <Element xsi:type="Line" Filters="" StartLat="42.747278" StartLon="-73.803194" EndLat="42.247083" EndLon="-73.812111" />
             <Element xsi:type="Line" Filters="" StartLat="42.247083" StartLon="-73.812111" EndLat="41.769778" EndLon="-73.600556" />
             <Element xsi:type="Line" Filters="" StartLat="42.178278" StartLon="-74.956944" EndLat="42.20525" EndLon="-74.530639" />
@@ -4263,15 +4258,17 @@
             <Element xsi:type="Line" Filters="" StartLat="28.010639" StartLon="-82.717361" EndLat="27.531167" EndLon="-82.622917" />
             <Element xsi:type="Line" Filters="" StartLat="27.531167" StartLon="-82.622917" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="28.010639" StartLon="-82.717361" EndLat="27.531167" EndLon="-82.622917" />
             <Element xsi:type="Line" Filters="" StartLat="27.531167" StartLon="-82.622917" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="30.81425" StartLon="-86.131417" EndLat="30.774722" EndLon="-84.84" />
             <Element xsi:type="Line" Filters="" StartLat="30.774722" StartLon="-84.84" EndLat="30.373583" EndLon="-84.07625" />
             <Element xsi:type="Line" Filters="" StartLat="30.373583" StartLon="-84.07625" EndLat="29.814222" EndLon="-83.706556" />
@@ -4280,15 +4277,17 @@
             <Element xsi:type="Line" Filters="" StartLat="28.010639" StartLon="-82.717361" EndLat="27.531167" EndLon="-82.622917" />
             <Element xsi:type="Line" Filters="" StartLat="27.531167" StartLon="-82.622917" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="27.1815" StartLon="-83.087556" EndLat="27.13425" EndLon="-82.840889" />
             <Element xsi:type="Line" Filters="" StartLat="27.13425" StartLon="-82.840889" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="31.647306" StartLon="-84.395167" EndLat="30.843917" EndLon="-84.193" />
             <Element xsi:type="Line" Filters="" StartLat="30.843917" StartLon="-84.193" EndLat="30.373583" EndLon="-84.07625" />
             <Element xsi:type="Line" Filters="" StartLat="30.373583" StartLon="-84.07625" EndLat="29.814222" EndLon="-83.706556" />
@@ -4297,20 +4296,23 @@
             <Element xsi:type="Line" Filters="" StartLat="28.010639" StartLon="-82.717361" EndLat="27.531167" EndLon="-82.622917" />
             <Element xsi:type="Line" Filters="" StartLat="27.531167" StartLon="-82.622917" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="25.891056" StartLon="-81.784" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="27.087833" StartLon="-82.191472" EndLat="26.758306" EndLon="-82.127667" />
             <Element xsi:type="Line" Filters="" StartLat="26.758306" StartLon="-82.127667" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="27.531167" StartLon="-82.622917" EndLat="26.915139" EndLon="-82.442583" />
             <Element xsi:type="Line" Filters="" StartLat="26.915139" StartLon="-82.442583" EndLat="26.530278" EndLon="-82.074333" />
-            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237028" EndLon="-81.779556" />
-            <Element xsi:type="Line" Filters="" StartLat="26.237028" StartLon="-81.779556" EndLat="26.070417" EndLon="-81.396889" />
-            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.913167" EndLon="-81.037" />
+            <Element xsi:type="Line" Filters="" StartLat="26.530278" StartLon="-82.074333" EndLat="26.237167" EndLon="-81.779667" />
+            <Element xsi:type="Line" Filters="" StartLat="26.237167" StartLon="-81.779667" EndLat="26.070417" EndLon="-81.396889" />
+            <Element xsi:type="Line" Filters="" StartLat="26.070417" StartLon="-81.396889" EndLat="25.949639" EndLon="-81.120194" />
+            <Element xsi:type="Line" Filters="" StartLat="25.949639" StartLon="-81.120194" EndLat="25.913167" EndLon="-81.037" />
             <Element xsi:type="Line" Filters="" StartLat="42.380056" StartLon="-88.667806" EndLat="42.3585" EndLon="-88.502889" />
             <Element xsi:type="Line" Filters="" StartLat="42.3585" StartLon="-88.502889" EndLat="42.344278" EndLon="-88.394917" />
             <Element xsi:type="Line" Filters="" StartLat="42.344278" StartLon="-88.394917" EndLat="42.300972" EndLon="-88.313806" />
@@ -6765,7 +6767,6 @@
             <Element xsi:type="Line" Filters="" StartLat="40.60125" StartLon="-103.670639" EndLat="40.357583" EndLon="-104.002972" />
             <Element xsi:type="Line" Filters="" StartLat="41.888639" StartLon="-94.459528" EndLat="41.512472" EndLon="-95.132417" />
             <Element xsi:type="Line" Filters="" StartLat="41.437611" StartLon="-93.648556" EndLat="41.512472" EndLon="-95.132417" />
-            <Element xsi:type="Line" Filters="" StartLat="42.611111" StartLon="-94.294806" EndLat="41.512472" EndLon="-95.132417" />
             <Element xsi:type="Line" Filters="" StartLat="35.59075" StartLon="-115.741694" EndLat="35.840806" EndLon="-115.445417" />
             <Element xsi:type="Line" Filters="" StartLat="34.962444" StartLon="-116.578167" EndLat="35.09825" EndLon="-116.399139" />
             <Element xsi:type="Line" Filters="" StartLat="35.09825" StartLon="-116.399139" EndLat="35.59075" EndLon="-115.741694" />

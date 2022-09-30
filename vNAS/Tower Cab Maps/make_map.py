@@ -8,10 +8,10 @@ styles = {
 	# (color, zIndex)
 	"whitepaint": ("#ffffff", 6),
 	"yellowpaint": ("#fff56e", 5),
-	"structure": ("#deddcc", 4),
+	"structure": ("#808080", 4),
 	"apron": ("#d1d1d1", 3),
 	"runway": ("#545454", 2),
-	"taxiway": ("#828282", 1)
+	"taxiway": ("#a6a6a6", 1)
 }
 
 ns = {

@@ -37,7 +37,7 @@ def makeLineString(placemark) -> list:
 def makePolygon(placemarks: list) -> list:
 	result = []
 	for p in placemarks:
-		coordinates = placemark.find(".//coordinates", ns).text
+		coordinates = p.find(".//coordinates", ns).text
 		linearRing = parseCoordinates(coordinates)
 		result.append(linearRing)
 	return result
@@ -83,6 +83,9 @@ for folder in root.findall("Document/Folder/Folder", ns):
 				placemarkQueue = []
 			else:
 				polygons.append(makePolygon([placemark]))
+	# Handle the case where the last item is an "inner"
+	if len(placemarkQueue) > 0:
+		polygons.append(makePolygon(placemarkQueue))
 	if len(lineStrings) > 0:
 		feature = {
 			"type": "Feature",

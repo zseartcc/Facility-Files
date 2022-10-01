@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.24488,
+            47.59391
+          ],
+          [
+            -122.24488,
+            47.59391
+          ],
+          [
+            -122.218796,
+            47.595993
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.2295,
+            47.583298
+          ],
+          [
+            -122.2295,
+            47.583298
+          ],
+          [
+            -122.23203,
+            47.599842
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.23457,
+            47.61639
+          ],
+          [
+            -122.23457,
+            47.61639
+          ],
+          [
+            -122.23698,
+            47.63294
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.239525,
+            47.64949
+          ],
+          [
+            -122.239525,
+            47.64949
+          ],
+          [
+            -122.242065,
+            47.666218
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.256134,
+            47.676464
+          ],
+          [
+            -122.256134,
+            47.676464
+          ],
+          [
+            -122.23149,
+            47.678185
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.24099,
+            47.576996
+          ],
+          [
+            -122.24099,
+            47.576996
+          ],
+          [
+            -122.2164,
+            47.578712
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    }
+  ]
+}

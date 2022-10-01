@@ -59,17 +59,11 @@ Seattle 4G Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:4G-CTR:5101:5277
 
 ; Seattle TRACON (S46)
 Seattle Approach:-:125.600:1W:W:SEA:APP:SEA:APP:1501:1677  ; Combined
-Seattle East Feeder:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1677
-Seattle West Feeder:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1677
-Seattle Final (Sea-Tac):-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1677
-Seattle Final (Boeing):-:125.900:1D:D:SEA:APP:SEA:D-APP:1501:1677
-Seattle Final (Boeing):-:125.900:1O:O:SEA:APP:SEA:O-APP:1501:1677
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:DEP:SEA:Y-DEP:1501:1677
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1677
-Seattle Departure East:-:119.200:1A:A:SEA:APP:SEA:A-APP:1501:1677
-Seattle Satellite Approach McChord/Combined:-:126.500:1N:N:SEA:APP:SEA:N-APP:1501:1677
-Seattle Approach Narrows/Bremerton:-:127.100:1K:K:SEA:APP:SEA:K-APP:1501:1677
-Seattle Satellite Paine:-:128.500:1P:P:SEA:APP:SEA:P-APP:1501:1677
+Seattle East Approach:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1677
+Seattle West Approach:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1677
+Seattle Final Sector:-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1677
+Seattle Yankee Sector:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1677
+Seattle Departure:-:119.200:1A:A:SEA:DEP:SEA:A-APP:1501:1677
 
 ; Portland TRACON (P80)
 Portland Approach:-:124.350:3A:N:PDX:APP:PDX:APP:1501:1677  ; Combined

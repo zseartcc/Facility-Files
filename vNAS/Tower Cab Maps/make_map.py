@@ -14,9 +14,7 @@ styles = {
 	"taxiway": ("#a6a6a6", 1)
 }
 
-ns = {
-	"": "http://www.opengis.net/kml/2.2"
-}
+ns = {"": "http://www.opengis.net/kml/2.2"}
 
 
 def parseCoordinates(text):

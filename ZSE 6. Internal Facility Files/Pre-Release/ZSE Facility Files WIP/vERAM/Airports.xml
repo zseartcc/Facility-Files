@@ -819,15 +819,15 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="PFCR" Name="DONLIN CREEK" Elevation="734" MagVar="-14" Frequency="0">
-    <Location Lon="-158.236404" Lat="62.032476" />
+  <Airport ID="PFCR" Name="DONLIN CREEK" Elevation="742" MagVar="-12" Frequency="0">
+    <Location Lon="-158.236232" Lat="62.032422" />
     <Runways>
-      <Runway ID="11" Heading="114" Length="4913" Width="75">
+      <Runway ID="12" Heading="116" Length="4984" Width="75">
         <StartLoc Lon="-158.247717" Lat="62.036589" />
-        <EndLoc Lon="-158.225092" Lat="62.028364" />
+        <EndLoc Lon="-158.22475" Lat="62.028256" />
       </Runway>
-      <Runway ID="29" Heading="294" Length="4913" Width="75">
-        <StartLoc Lon="-158.225092" Lat="62.028364" />
+      <Runway ID="30" Heading="296" Length="4984" Width="75">
+        <StartLoc Lon="-158.22475" Lat="62.028256" />
         <EndLoc Lon="-158.247717" Lat="62.036589" />
       </Runway>
     </Runways>
@@ -8019,6 +8019,19 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="E55" Name="OCEAN RIDGE" Elevation="934" MagVar="-13" Frequency="0">
+    <Location Lon="-123.530552" Lat="38.801708" />
+    <Runways>
+      <Runway ID="13" Heading="132" Length="2504" Width="50">
+        <StartLoc Lon="-123.533094" Lat="38.804511" />
+        <EndLoc Lon="-123.528011" Lat="38.798904" />
+      </Runway>
+      <Runway ID="31" Heading="312" Length="2504" Width="50">
+        <StartLoc Lon="-123.528011" Lat="38.798904" />
+        <EndLoc Lon="-123.533094" Lat="38.804511" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="3O1" Name="GUSTINE" Elevation="79" MagVar="-16" Frequency="0">
     <Location Lon="-120.96425" Lat="37.260556" />
     <Runways>
@@ -8755,23 +8768,23 @@
     </Runways>
   </Airport>
   <Airport ID="KNUQ" Name="MOFFETT FEDERAL AIRFIELD" Elevation="37" MagVar="-16" Frequency="0">
-    <Location Lon="-122.049131" Lat="37.416142" />
+    <Location Lon="-122.049129" Lat="37.416144" />
     <Runways>
       <Runway ID="14L" Heading="141" Length="9197" Width="200">
-        <StartLoc Lon="-122.054609" Lat="37.428924" />
-        <EndLoc Lon="-122.042601" Lat="37.405552" />
+        <StartLoc Lon="-122.054606" Lat="37.428923" />
+        <EndLoc Lon="-122.042598" Lat="37.405551" />
       </Runway>
       <Runway ID="32R" Heading="321" Length="9197" Width="200">
-        <StartLoc Lon="-122.042601" Lat="37.405552" />
-        <EndLoc Lon="-122.054609" Lat="37.428924" />
+        <StartLoc Lon="-122.042598" Lat="37.405551" />
+        <EndLoc Lon="-122.054606" Lat="37.428923" />
       </Runway>
-      <Runway ID="14R" Heading="141" Length="8122" Width="200">
-        <StartLoc Lon="-122.055028" Lat="37.425221" />
-        <EndLoc Lon="-122.044424" Lat="37.404581" />
+      <Runway ID="14R" Heading="141" Length="8121" Width="200">
+        <StartLoc Lon="-122.055028" Lat="37.425224" />
+        <EndLoc Lon="-122.044427" Lat="37.404587" />
       </Runway>
-      <Runway ID="32L" Heading="321" Length="8122" Width="200">
-        <StartLoc Lon="-122.044424" Lat="37.404581" />
-        <EndLoc Lon="-122.055028" Lat="37.425221" />
+      <Runway ID="32L" Heading="321" Length="8121" Width="200">
+        <StartLoc Lon="-122.044427" Lat="37.404587" />
+        <EndLoc Lon="-122.055028" Lat="37.425224" />
       </Runway>
     </Runways>
   </Airport>
@@ -10234,23 +10247,23 @@
     </Runways>
   </Airport>
   <Airport ID="KWVI" Name="WATSONVILLE MUNI" Elevation="163" MagVar="-14" Frequency="0">
-    <Location Lon="-121.789639" Lat="36.935722" />
+    <Location Lon="-121.789638" Lat="36.935732" />
     <Runways>
-      <Runway ID="02" Heading="18" Length="4501" Width="149">
-        <StartLoc Lon="-121.795796" Lat="36.929037" />
-        <EndLoc Lon="-121.787563" Lat="36.939482" />
+      <Runway ID="02" Heading="18" Length="4502" Width="149">
+        <StartLoc Lon="-121.795801" Lat="36.929034" />
+        <EndLoc Lon="-121.787565" Lat="36.939482" />
       </Runway>
-      <Runway ID="20" Heading="198" Length="4501" Width="149">
-        <StartLoc Lon="-121.787563" Lat="36.939482" />
-        <EndLoc Lon="-121.795796" Lat="36.929037" />
+      <Runway ID="20" Heading="198" Length="4502" Width="149">
+        <StartLoc Lon="-121.787565" Lat="36.939482" />
+        <EndLoc Lon="-121.795801" Lat="36.929034" />
       </Runway>
-      <Runway ID="09" Heading="85" Length="3998" Width="98">
-        <StartLoc Lon="-121.794073" Lat="36.938327" />
+      <Runway ID="09" Heading="86" Length="3998" Width="98">
+        <StartLoc Lon="-121.794074" Lat="36.938329" />
         <EndLoc Lon="-121.780594" Lat="36.936454" />
       </Runway>
-      <Runway ID="27" Heading="265" Length="3998" Width="98">
+      <Runway ID="27" Heading="266" Length="3998" Width="98">
         <StartLoc Lon="-121.780594" Lat="36.936454" />
-        <EndLoc Lon="-121.794073" Lat="36.938327" />
+        <EndLoc Lon="-121.794074" Lat="36.938329" />
       </Runway>
     </Runways>
   </Airport>
@@ -11264,19 +11277,6 @@
       <Runway ID="19" Heading="193" Length="8100" Width="100">
         <StartLoc Lon="-107.050395" Lat="37.296422" />
         <EndLoc Lon="-107.061621" Lat="37.276074" />
-      </Runway>
-    </Runways>
-  </Airport>
-  <Airport ID="7V2" Name="NORTH FORK VALLEY" Elevation="5798" MagVar="-13" Frequency="0">
-    <Location Lon="-107.645861" Lat="38.831306" />
-    <Runways>
-      <Runway ID="05" Heading="55" Length="4500" Width="60">
-        <StartLoc Lon="-107.653161" Lat="38.828967" />
-        <EndLoc Lon="-107.638544" Lat="38.833653" />
-      </Runway>
-      <Runway ID="23" Heading="235" Length="4500" Width="60">
-        <StartLoc Lon="-107.638544" Lat="38.833653" />
-        <EndLoc Lon="-107.653161" Lat="38.828967" />
       </Runway>
     </Runways>
   </Airport>
@@ -13634,6 +13634,19 @@
       <Runway ID="32L" Heading="318" Length="10114" Width="150">
         <StartLoc Lon="-85.565419" Lat="30.057959" />
         <EndLoc Lon="-85.588227" Lat="30.077445" />
+      </Runway>
+    </Runways>
+  </Airport>
+  <Airport ID="75FL" Name="SANDY CREEK AIRPARK" Elevation="18" MagVar="00" Frequency="0">
+    <Location Lon="-85.479153" Lat="30.102736" />
+    <Runways>
+      <Runway ID="09" Heading="93" Length="3175" Width="60">
+        <StartLoc Lon="-85.484167" Lat="30.103" />
+        <EndLoc Lon="-85.474139" Lat="30.102472" />
+      </Runway>
+      <Runway ID="27" Heading="273" Length="3175" Width="60">
+        <StartLoc Lon="-85.474139" Lat="30.102472" />
+        <EndLoc Lon="-85.484167" Lat="30.103" />
       </Runway>
     </Runways>
   </Airport>
@@ -17228,10 +17241,10 @@
     <Runways>
       <Runway ID="14" Heading="140" Length="4100" Width="75">
         <StartLoc Lon="-94.346939" Lat="42.01379" />
-        <EndLoc Lon="-94.337828" Lat="42.004822" />
+        <EndLoc Lon="-94.337829" Lat="42.004823" />
       </Runway>
       <Runway ID="32" Heading="320" Length="4100" Width="75">
-        <StartLoc Lon="-94.337828" Lat="42.004822" />
+        <StartLoc Lon="-94.337829" Lat="42.004823" />
         <EndLoc Lon="-94.346939" Lat="42.01379" />
       </Runway>
       <Runway ID="18" Heading="189" Length="1696" Width="150">
@@ -21129,15 +21142,15 @@
     </Runways>
   </Airport>
   <Airport ID="KCFJ" Name="CRAWFORDSVILLE RGNL" Elevation="800" MagVar="04" Frequency="0">
-    <Location Lon="-86.921083" Lat="39.974639" />
+    <Location Lon="-86.921075" Lat="39.974625" />
     <Runways>
-      <Runway ID="04" Heading="47" Length="5505" Width="75">
-        <StartLoc Lon="-86.927758" Lat="39.969094" />
-        <EndLoc Lon="-86.914386" Lat="39.980161" />
+      <Runway ID="04" Heading="47" Length="5506" Width="75">
+        <StartLoc Lon="-86.927763" Lat="39.969089" />
+        <EndLoc Lon="-86.914386" Lat="39.98016" />
       </Runway>
-      <Runway ID="22" Heading="227" Length="5505" Width="75">
-        <StartLoc Lon="-86.914386" Lat="39.980161" />
-        <EndLoc Lon="-86.927758" Lat="39.969094" />
+      <Runway ID="22" Heading="227" Length="5506" Width="75">
+        <StartLoc Lon="-86.914386" Lat="39.98016" />
+        <EndLoc Lon="-86.927763" Lat="39.969089" />
       </Runway>
     </Runways>
   </Airport>
@@ -27793,6 +27806,19 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="B10" Name="BOWMAN FLD" Elevation="324" MagVar="18" Frequency="0">
+    <Location Lon="-70.146083" Lat="44.41" />
+    <Runways>
+      <Runway ID="02" Heading="26" Length="2201" Width="120">
+        <StartLoc Lon="-70.146691" Lat="44.407019" />
+        <EndLoc Lon="-70.145487" Lat="44.412995" />
+      </Runway>
+      <Runway ID="20" Heading="206" Length="2201" Width="120">
+        <StartLoc Lon="-70.145487" Lat="44.412995" />
+        <EndLoc Lon="-70.146691" Lat="44.407019" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="KMVM" Name="MACHIAS VALLEY" Elevation="96" MagVar="19" Frequency="0">
     <Location Lon="-67.47859" Lat="44.703096" />
     <Runways>
@@ -27853,7 +27879,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KOWK" Name="CENTRAL MAINE /NORRIDGEWOCK" Elevation="270" MagVar="18" Frequency="0">
+  <Airport ID="KOWK" Name="CENTRAL MAINE/NORRIDGEWOCK" Elevation="270" MagVar="18" Frequency="0">
     <Location Lon="-69.866472" Lat="44.7155" />
     <Runways>
       <Runway ID="03" Heading="28" Length="3998" Width="80">
@@ -28078,6 +28104,19 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="ME5" Name="BANKS" Elevation="100" MagVar="17" Frequency="0">
+    <Location Lon="-68.428167" Lat="44.165389" />
+    <Runways>
+      <Runway ID="10" Heading="95" Length="1500" Width="30">
+        <StartLoc Lon="-68.43095" Lat="44.164956" />
+        <EndLoc Lon="-68.425361" Lat="44.165819" />
+      </Runway>
+      <Runway ID="28" Heading="275" Length="1500" Width="30">
+        <StartLoc Lon="-68.425361" Lat="44.165819" />
+        <EndLoc Lon="-68.43095" Lat="44.164956" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="13ME" Name="SOCATEAN BAY" Elevation="1179" MagVar="18" Frequency="0">
     <Location Lon="-69.80934" Lat="45.776373" />
     <Runways>
@@ -28285,19 +28324,6 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="39G" Name="AVOCA" Elevation="726" MagVar="06" Frequency="0">
-    <Location Lon="-82.669464" Lat="43.030478" />
-    <Runways>
-      <Runway ID="09" Heading="93" Length="2105" Width="100">
-        <StartLoc Lon="-82.673394" Lat="43.030328" />
-        <EndLoc Lon="-82.665533" Lat="43.030628" />
-      </Runway>
-      <Runway ID="27" Heading="273" Length="2105" Width="100">
-        <StartLoc Lon="-82.665533" Lat="43.030628" />
-        <EndLoc Lon="-82.673394" Lat="43.030328" />
-      </Runway>
-    </Runways>
-  </Airport>
   <Airport ID="KBAX" Name="HURON COUNTY MEML" Elevation="764" MagVar="05" Frequency="0">
     <Location Lon="-82.985417" Lat="43.780228" />
     <Runways>
@@ -28467,7 +28493,7 @@
     </Runways>
   </Airport>
   <Airport ID="KACB" Name="ANTRIM COUNTY" Elevation="623" MagVar="05" Frequency="0">
-    <Location Lon="-85.198346" Lat="44.988577" />
+    <Location Lon="-85.198347" Lat="44.988578" />
     <Runways>
       <Runway ID="02" Heading="22" Length="5003" Width="100">
         <StartLoc Lon="-85.201241" Lat="44.982032" />
@@ -29015,7 +29041,7 @@
     </Runways>
   </Airport>
   <Airport ID="KYIP" Name="WILLOW RUN" Elevation="716" MagVar="06" Frequency="0">
-    <Location Lon="-83.531461" Lat="42.240274" />
+    <Location Lon="-83.531462" Lat="42.240274" />
     <Runways>
       <Runway ID="05" Heading="53" Length="7543" Width="150">
         <StartLoc Lon="-83.53985" Lat="42.230625" />
@@ -29025,13 +29051,13 @@
         <StartLoc Lon="-83.519576" Lat="42.244816" />
         <EndLoc Lon="-83.53985" Lat="42.230625" />
       </Runway>
-      <Runway ID="09" Heading="95" Length="5001" Width="160">
-        <StartLoc Lon="-83.543328" Lat="42.243951" />
-        <EndLoc Lon="-83.524864" Lat="42.244296" />
+      <Runway ID="09" Heading="95" Length="5000" Width="160">
+        <StartLoc Lon="-83.543328" Lat="42.24395" />
+        <EndLoc Lon="-83.524868" Lat="42.244297" />
       </Runway>
-      <Runway ID="27" Heading="275" Length="5001" Width="160">
-        <StartLoc Lon="-83.524864" Lat="42.244296" />
-        <EndLoc Lon="-83.543328" Lat="42.243951" />
+      <Runway ID="27" Heading="275" Length="5000" Width="160">
+        <StartLoc Lon="-83.524868" Lat="42.244297" />
+        <EndLoc Lon="-83.543328" Lat="42.24395" />
       </Runway>
     </Runways>
   </Airport>
@@ -30244,7 +30270,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="51M" Name="OSCODA COUNTY DENNIS KAUFFMAN MEML" Elevation="1033" MagVar="05" Frequency="0">
+  <Airport ID="51M" Name="OSCODA COUNTY/DENNIS KAUFFMAN MEML" Elevation="1033" MagVar="05" Frequency="0">
     <Location Lon="-84.122042" Lat="44.674833" />
     <Runways>
       <Runway ID="10" Heading="94" Length="3000" Width="75">
@@ -30558,27 +30584,6 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="61D" Name="PLAINWELL MUNI" Elevation="722" MagVar="03" Frequency="0">
-    <Location Lon="-85.648046" Lat="42.467793" />
-    <Runways>
-      <Runway ID="01" Heading="10" Length="2550" Width="100">
-        <StartLoc Lon="-85.6495" Lat="42.464611" />
-        <EndLoc Lon="-85.648333" Lat="42.471556" />
-      </Runway>
-      <Runway ID="19" Heading="190" Length="2550" Width="100">
-        <StartLoc Lon="-85.648333" Lat="42.471556" />
-        <EndLoc Lon="-85.6495" Lat="42.464611" />
-      </Runway>
-      <Runway ID="09" Heading="92" Length="2650" Width="50">
-        <StartLoc Lon="-85.652111" Lat="42.467472" />
-        <EndLoc Lon="-85.642306" Lat="42.467556" />
-      </Runway>
-      <Runway ID="27" Heading="272" Length="2650" Width="50">
-        <StartLoc Lon="-85.642306" Lat="42.467556" />
-        <EndLoc Lon="-85.652111" Lat="42.467472" />
-      </Runway>
-    </Runways>
-  </Airport>
   <Airport ID="1D2" Name="CANTON-PLYMOUTH-METTETAL" Elevation="696" MagVar="05" Frequency="0">
     <Location Lon="-83.456333" Lat="42.347806" />
     <Runways>
@@ -30749,7 +30754,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KHYX" Name="SAGINAW COUNTY H W BROWNE" Elevation="602" MagVar="07" Frequency="0">
+  <Airport ID="KHYX" Name="SAGINAW COUNTY/H W BROWNE" Elevation="602" MagVar="07" Frequency="0">
     <Location Lon="-83.862302" Lat="43.433374" />
     <Runways>
       <Runway ID="05" Heading="52" Length="2952" Width="60">
@@ -31426,6 +31431,27 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="7Y9" Name="BIG FALLS MUNI" Elevation="1232" MagVar="-03" Frequency="0">
+    <Location Lon="-93.762376" Lat="48.200516" />
+    <Runways>
+      <Runway ID="03" Heading="32" Length="2850" Width="100">
+        <StartLoc Lon="-93.762775" Lat="48.198752" />
+        <EndLoc Lon="-93.756022" Lat="48.205131" />
+      </Runway>
+      <Runway ID="21" Heading="212" Length="2850" Width="100">
+        <StartLoc Lon="-93.756022" Lat="48.205131" />
+        <EndLoc Lon="-93.762775" Lat="48.198752" />
+      </Runway>
+      <Runway ID="11" Heading="118" Length="2602" Width="200">
+        <StartLoc Lon="-93.77023" Lat="48.200779" />
+        <EndLoc Lon="-93.761051" Lat="48.197144" />
+      </Runway>
+      <Runway ID="29" Heading="298" Length="2602" Width="200">
+        <StartLoc Lon="-93.761051" Lat="48.197144" />
+        <EndLoc Lon="-93.77023" Lat="48.200779" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="KFOZ" Name="BIGFORK MUNI" Elevation="1351" MagVar="-02" Frequency="0">
     <Location Lon="-93.650994" Lat="47.783934" />
     <Runways>
@@ -31843,7 +31869,7 @@
     </Runways>
   </Airport>
   <Airport ID="KFSE" Name="FOSSTON MUNI/ANDERSON FLD" Elevation="1279" MagVar="-03" Frequency="0">
-    <Location Lon="-95.773499" Lat="47.59282" />
+    <Location Lon="-95.773487" Lat="47.59283" />
     <Runways>
       <Runway ID="16" Heading="164" Length="3502" Width="75">
         <StartLoc Lon="-95.775032" Lat="47.597514" />
@@ -33014,6 +33040,27 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="KSYN" Name="STANTON AIRFIELD" Elevation="920" MagVar="-03" Frequency="0">
+    <Location Lon="-93.01632" Lat="44.475521" />
+    <Runways>
+      <Runway ID="09" Heading="87" Length="1996" Width="180">
+        <StartLoc Lon="-93.020144" Lat="44.475519" />
+        <EndLoc Lon="-93.012497" Lat="44.475522" />
+      </Runway>
+      <Runway ID="27" Heading="267" Length="1996" Width="180">
+        <StartLoc Lon="-93.012497" Lat="44.475522" />
+        <EndLoc Lon="-93.020144" Lat="44.475519" />
+      </Runway>
+      <Runway ID="18" Heading="177" Length="2582" Width="200">
+        <StartLoc Lon="-93.016319" Lat="44.479064" />
+        <EndLoc Lon="-93.016319" Lat="44.471981" />
+      </Runway>
+      <Runway ID="36" Heading="357" Length="2582" Width="200">
+        <StartLoc Lon="-93.016319" Lat="44.471981" />
+        <EndLoc Lon="-93.016319" Lat="44.479064" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="KSAZ" Name="STAPLES MUNI" Elevation="1288" MagVar="-01" Frequency="0">
     <Location Lon="-94.806602" Lat="46.380879" />
     <Runways>
@@ -33184,7 +33231,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KACQ" Name="WASECA MUNI" Elevation="1126" MagVar="-02" Frequency="0">
+  <Airport ID="KACQ" Name="WASECA MUNI/MAYNARD RICHARD STENSRUD FLD" Elevation="1126" MagVar="-02" Frequency="0">
     <Location Lon="-93.552944" Lat="44.073472" />
     <Runways>
       <Runway ID="15" Heading="152" Length="3399" Width="75">
@@ -36611,16 +36658,16 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="5U8" Name="GERALDINE" Elevation="3178" MagVar="-16" Frequency="0">
-    <Location Lon="-110.266139" Lat="47.596528" />
+  <Airport ID="5U8" Name="GERALDINE" Elevation="3185" MagVar="-16" Frequency="0">
+    <Location Lon="-110.265913" Lat="47.596455" />
     <Runways>
-      <Runway ID="07" Heading="74" Length="2900" Width="75">
-        <StartLoc Lon="-110.272028" Lat="47.596539" />
-        <EndLoc Lon="-110.260271" Lat="47.596539" />
+      <Runway ID="08" Heading="74" Length="2900" Width="60">
+        <StartLoc Lon="-110.271789" Lat="47.596443" />
+        <EndLoc Lon="-110.260038" Lat="47.596466" />
       </Runway>
-      <Runway ID="25" Heading="254" Length="2900" Width="75">
-        <StartLoc Lon="-110.260271" Lat="47.596539" />
-        <EndLoc Lon="-110.272028" Lat="47.596539" />
+      <Runway ID="26" Heading="254" Length="2900" Width="60">
+        <StartLoc Lon="-110.260038" Lat="47.596466" />
+        <EndLoc Lon="-110.271789" Lat="47.596443" />
       </Runway>
     </Runways>
   </Airport>
@@ -37973,15 +38020,15 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KGWW" Name="WAYNE EXEC JETPORT" Elevation="133" MagVar="08" Frequency="0">
-    <Location Lon="-77.964917" Lat="35.460556" />
+  <Airport ID="KGWW" Name="WAYNE EXEC JETPORT" Elevation="134" MagVar="08" Frequency="0">
+    <Location Lon="-77.964928" Lat="35.460555" />
     <Runways>
-      <Runway ID="05" Heading="47" Length="5500" Width="100">
+      <Runway ID="05" Heading="47" Length="5501" Width="100">
         <StartLoc Lon="-77.970708" Lat="35.454662" />
-        <EndLoc Lon="-77.959148" Lat="35.466447" />
+        <EndLoc Lon="-77.959146" Lat="35.466449" />
       </Runway>
-      <Runway ID="23" Heading="227" Length="5500" Width="100">
-        <StartLoc Lon="-77.959148" Lat="35.466447" />
+      <Runway ID="23" Heading="227" Length="5501" Width="100">
+        <StartLoc Lon="-77.959146" Lat="35.466449" />
         <EndLoc Lon="-77.970708" Lat="35.454662" />
       </Runway>
     </Runways>
@@ -37999,7 +38046,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="3A4" Name="SOUTHEAST GREENSBORO" Elevation="739" MagVar="06" Frequency="0">
+  <Airport ID="3A4" Name="GREENSBORO EXEC" Elevation="739" MagVar="06" Frequency="0">
     <Location Lon="-79.6855" Lat="35.941944" />
     <Runways>
       <Runway ID="17" Heading="170" Length="3063" Width="30">
@@ -39207,24 +39254,24 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KDVL" Name="DEVILS LAKE RGNL" Elevation="1470" MagVar="-07" Frequency="0">
-    <Location Lon="-98.91" Lat="48.116583" />
+  <Airport ID="KDVL" Name="DEVILS LAKE RGNL" Elevation="1469" MagVar="-07" Frequency="0">
+    <Location Lon="-98.909988" Lat="48.116591" />
     <Runways>
       <Runway ID="03" Heading="38" Length="4314" Width="75">
         <StartLoc Lon="-98.91473" Lat="48.110902" />
-        <EndLoc Lon="-98.90223" Lat="48.119254" />
+        <EndLoc Lon="-98.90223" Lat="48.119255" />
       </Runway>
       <Runway ID="21" Heading="218" Length="4314" Width="75">
-        <StartLoc Lon="-98.90223" Lat="48.119254" />
+        <StartLoc Lon="-98.90223" Lat="48.119255" />
         <EndLoc Lon="-98.91473" Lat="48.110902" />
       </Runway>
-      <Runway ID="13" Heading="131" Length="6401" Width="100">
-        <StartLoc Lon="-98.91976" Lat="48.124135" />
-        <EndLoc Lon="-98.90225" Lat="48.111083" />
+      <Runway ID="13" Heading="131" Length="6400" Width="100">
+        <StartLoc Lon="-98.919759" Lat="48.124135" />
+        <EndLoc Lon="-98.902251" Lat="48.111084" />
       </Runway>
-      <Runway ID="31" Heading="311" Length="6401" Width="100">
-        <StartLoc Lon="-98.90225" Lat="48.111083" />
-        <EndLoc Lon="-98.91976" Lat="48.124135" />
+      <Runway ID="31" Heading="311" Length="6400" Width="100">
+        <StartLoc Lon="-98.902251" Lat="48.111084" />
+        <EndLoc Lon="-98.919759" Lat="48.124135" />
       </Runway>
     </Runways>
   </Airport>
@@ -41567,6 +41614,19 @@
       </Runway>
     </Runways>
   </Airport>
+  <Airport ID="7K8" Name="MARTIN FLD" Elevation="1099" MagVar="-06" Frequency="0">
+    <Location Lon="-96.472167" Lat="42.455178" />
+    <Runways>
+      <Runway ID="14" Heading="142" Length="3320" Width="50">
+        <StartLoc Lon="-96.475389" Lat="42.459058" />
+        <EndLoc Lon="-96.468944" Lat="42.451297" />
+      </Runway>
+      <Runway ID="32" Heading="322" Length="3320" Width="50">
+        <StartLoc Lon="-96.468944" Lat="42.451297" />
+        <EndLoc Lon="-96.475389" Lat="42.459058" />
+      </Runway>
+    </Runways>
+  </Airport>
   <Airport ID="12K" Name="SUPERIOR MUNI" Elevation="1692" MagVar="-05" Frequency="0">
     <Location Lon="-98.061255" Lat="40.0462" />
     <Runways>
@@ -41669,7 +41729,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KLCG" Name="WAYNE MUNI/ STAN MORRIS FLD" Elevation="1432" MagVar="-06" Frequency="0">
+  <Airport ID="KLCG" Name="WAYNE MUNI/STAN MORRIS FLD" Elevation="1432" MagVar="-06" Frequency="0">
     <Location Lon="-96.982271" Lat="42.241606" />
     <Runways>
       <Runway ID="05" Heading="48" Length="3406" Width="60">
@@ -41985,6 +42045,19 @@
       <Runway ID="36" Heading="2" Length="3448" Width="50">
         <StartLoc Lon="-72.184202" Lat="43.381106" />
         <EndLoc Lon="-72.187237" Lat="43.390301" />
+      </Runway>
+    </Runways>
+  </Airport>
+  <Airport ID="1P1" Name="PLYMOUTH MUNI" Elevation="506" MagVar="16" Frequency="0">
+    <Location Lon="-71.75385" Lat="43.778254" />
+    <Runways>
+      <Runway ID="12" Heading="114" Length="2347" Width="90">
+        <StartLoc Lon="-71.758253" Lat="43.778722" />
+        <EndLoc Lon="-71.749447" Lat="43.777786" />
+      </Runway>
+      <Runway ID="30" Heading="294" Length="2347" Width="90">
+        <StartLoc Lon="-71.749447" Lat="43.777786" />
+        <EndLoc Lon="-71.758253" Lat="43.778722" />
       </Runway>
     </Runways>
   </Airport>
@@ -44085,24 +44158,24 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="88NV" Name="BLACK ROCK CITY" Elevation="3912" MagVar="-14" Frequency="0">
-    <Location Lon="-119.215922" Lat="40.757481" />
+  <Airport ID="88NV" Name="BLACK ROCK CITY" Elevation="3908" MagVar="-14" Frequency="0">
+    <Location Lon="-119.210768" Lat="40.761826" />
     <Runways>
-      <Runway ID="05L" Heading="46" Length="6022" Width="75">
-        <StartLoc Lon="-119.231664" Lat="40.751926" />
-        <EndLoc Lon="-119.212907" Lat="40.760276" />
+      <Runway ID="05L" Heading="52" Length="5914" Width="75">
+        <StartLoc Lon="-119.230006" Lat="40.755192" />
+        <EndLoc Lon="-119.210525" Lat="40.761831" />
       </Runway>
-      <Runway ID="23R" Heading="226" Length="6022" Width="75">
-        <StartLoc Lon="-119.212907" Lat="40.760276" />
-        <EndLoc Lon="-119.231664" Lat="40.751926" />
+      <Runway ID="23R" Heading="232" Length="5914" Width="75">
+        <StartLoc Lon="-119.210525" Lat="40.761831" />
+        <EndLoc Lon="-119.230006" Lat="40.755192" />
       </Runway>
-      <Runway ID="05R" Heading="46" Length="6015" Width="75">
-        <StartLoc Lon="-119.218911" Lat="40.754679" />
-        <EndLoc Lon="-119.200192" Lat="40.763046" />
+      <Runway ID="05R" Heading="52" Length="5949" Width="75">
+        <StartLoc Lon="-119.203648" Lat="40.761114" />
+        <EndLoc Lon="-119.184048" Lat="40.76779" />
       </Runway>
-      <Runway ID="23L" Heading="226" Length="6015" Width="75">
-        <StartLoc Lon="-119.200192" Lat="40.763046" />
-        <EndLoc Lon="-119.218911" Lat="40.754679" />
+      <Runway ID="23L" Heading="232" Length="5949" Width="75">
+        <StartLoc Lon="-119.184048" Lat="40.76779" />
+        <EndLoc Lon="-119.203648" Lat="40.761114" />
       </Runway>
     </Runways>
   </Airport>
@@ -44729,8 +44802,8 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="3C8" Name="CALVERTON EXEC AIRPARK" Elevation="75" MagVar="14" Frequency="0">
-    <Location Lon="-72.791906" Lat="40.915098" />
+  <Airport ID="3NY8" Name="CALVERTON EXEC AIRPARK" Elevation="75" MagVar="14" Frequency="0">
+    <Location Lon="-72.780396" Lat="40.914799" />
     <Runways>
       <Runway ID="14" Heading="145" Length="10001" Width="200">
         <StartLoc Lon="-72.794021" Lat="40.923829" />
@@ -46186,7 +46259,7 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KSDC" Name="WILLIAMSON-SODUS" Elevation="424" MagVar="12" Frequency="0">
+  <Airport ID="KSDC" Name="WILLIAMSON/SODUS" Elevation="424" MagVar="12" Frequency="0">
     <Location Lon="-77.119464" Lat="43.234598" />
     <Runways>
       <Runway ID="10" Heading="100" Length="3803" Width="60">
@@ -47129,15 +47202,15 @@
     </Runways>
   </Airport>
   <Airport ID="KLHQ" Name="FAIRFIELD COUNTY" Elevation="868" MagVar="06" Frequency="0">
-    <Location Lon="-82.657096" Lat="39.755638" />
+    <Location Lon="-82.657096" Lat="39.755639" />
     <Runways>
-      <Runway ID="10" Heading="100" Length="5004" Width="75">
-        <StartLoc Lon="-82.665972" Lat="39.756121" />
-        <EndLoc Lon="-82.64822" Lat="39.755155" />
+      <Runway ID="10" Heading="100" Length="5003" Width="75">
+        <StartLoc Lon="-82.665971" Lat="39.756122" />
+        <EndLoc Lon="-82.648221" Lat="39.755154" />
       </Runway>
-      <Runway ID="28" Heading="280" Length="5004" Width="75">
-        <StartLoc Lon="-82.64822" Lat="39.755155" />
-        <EndLoc Lon="-82.665972" Lat="39.756121" />
+      <Runway ID="28" Heading="280" Length="5003" Width="75">
+        <StartLoc Lon="-82.648221" Lat="39.755154" />
+        <EndLoc Lon="-82.665971" Lat="39.756122" />
       </Runway>
     </Runways>
   </Airport>
@@ -48036,19 +48109,6 @@
       <Runway ID="25" Heading="248" Length="4899" Width="75">
         <StartLoc Lon="-82.920692" Lat="39.170117" />
         <EndLoc Lon="-82.935962" Lat="39.163823" />
-      </Runway>
-    </Runways>
-  </Airport>
-  <Airport ID="80G" Name="TRI-CITY" Elevation="844" MagVar="06" Frequency="0">
-    <Location Lon="-81.736069" Lat="40.24786" />
-    <Runways>
-      <Runway ID="10" Heading="98" Length="3000" Width="100">
-        <StartLoc Lon="-81.741439" Lat="40.248008" />
-        <EndLoc Lon="-81.7307" Lat="40.247711" />
-      </Runway>
-      <Runway ID="28" Heading="278" Length="3000" Width="100">
-        <StartLoc Lon="-81.7307" Lat="40.247711" />
-        <EndLoc Lon="-81.741439" Lat="40.248008" />
       </Runway>
     </Runways>
   </Airport>
@@ -49991,11 +50051,11 @@
         <StartLoc Lon="-95.883134" Lat="36.186509" />
         <EndLoc Lon="-95.881311" Lat="36.213935" />
       </Runway>
-      <Runway ID="18R" Heading="180" Length="6101" Width="150">
+      <Runway ID="18R" Heading="180" Length="6101" Width="100">
         <StartLoc Lon="-95.89909" Lat="36.207221" />
         <EndLoc Lon="-95.900204" Lat="36.190487" />
       </Runway>
-      <Runway ID="36L" Heading="360" Length="6101" Width="150">
+      <Runway ID="36L" Heading="360" Length="6101" Width="100">
         <StartLoc Lon="-95.900204" Lat="36.190487" />
         <EndLoc Lon="-95.89909" Lat="36.207221" />
       </Runway>
@@ -50473,14 +50533,14 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="6S2" Name="FLORENCE MUNI" Elevation="51" MagVar="-19" Frequency="0">
+  <Airport ID="6S2" Name="FLORENCE MUNI" Elevation="51" MagVar="-15" Frequency="0">
     <Location Lon="-124.111367" Lat="43.982818" />
     <Runways>
-      <Runway ID="15" Heading="148" Length="3000" Width="60">
+      <Runway ID="15" Heading="152" Length="3000" Width="60">
         <StartLoc Lon="-124.1126" Lat="43.986835" />
         <EndLoc Lon="-124.110134" Lat="43.978801" />
       </Runway>
-      <Runway ID="33" Heading="328" Length="3000" Width="60">
+      <Runway ID="33" Heading="332" Length="3000" Width="60">
         <StartLoc Lon="-124.110134" Lat="43.978801" />
         <EndLoc Lon="-124.1126" Lat="43.986835" />
       </Runway>
@@ -55511,23 +55571,23 @@
       </Runway>
     </Runways>
   </Airport>
-  <Airport ID="KTYS" Name="MC GHEE TYSON" Elevation="987" MagVar="06" Frequency="0">
-    <Location Lon="-83.994069" Lat="35.81109" />
+  <Airport ID="KTYS" Name="MC GHEE TYSON" Elevation="986" MagVar="06" Frequency="0">
+    <Location Lon="-83.994067" Lat="35.811091" />
     <Runways>
       <Runway ID="05L" Heading="51" Length="10000" Width="150">
-        <StartLoc Lon="-84.006633" Lat="35.803374" />
-        <EndLoc Lon="-83.982862" Lat="35.822859" />
+        <StartLoc Lon="-84.006634" Lat="35.803374" />
+        <EndLoc Lon="-83.982861" Lat="35.822859" />
       </Runway>
       <Runway ID="23R" Heading="231" Length="10000" Width="150">
-        <StartLoc Lon="-83.982862" Lat="35.822859" />
-        <EndLoc Lon="-84.006633" Lat="35.803374" />
+        <StartLoc Lon="-83.982861" Lat="35.822859" />
+        <EndLoc Lon="-84.006634" Lat="35.803374" />
       </Runway>
       <Runway ID="05R" Heading="51" Length="9000" Width="150">
         <StartLoc Lon="-84.004003" Lat="35.80007" />
-        <EndLoc Lon="-83.98262" Lat="35.817603" />
+        <EndLoc Lon="-83.982613" Lat="35.817609" />
       </Runway>
       <Runway ID="23L" Heading="231" Length="9000" Width="150">
-        <StartLoc Lon="-83.98262" Lat="35.817603" />
+        <StartLoc Lon="-83.982613" Lat="35.817609" />
         <EndLoc Lon="-84.004003" Lat="35.80007" />
       </Runway>
     </Runways>
@@ -56110,15 +56170,15 @@
     </Runways>
   </Airport>
   <Airport ID="KUCY" Name="EVERETT-STEWART RGNL" Elevation="346" MagVar="-00" Frequency="0">
-    <Location Lon="-88.985704" Lat="36.379744" />
+    <Location Lon="-88.985702" Lat="36.379741" />
     <Runways>
       <Runway ID="01" Heading="6" Length="6503" Width="100">
-        <StartLoc Lon="-88.986929" Lat="36.370864" />
-        <EndLoc Lon="-88.984476" Lat="36.388616" />
+        <StartLoc Lon="-88.986929" Lat="36.370865" />
+        <EndLoc Lon="-88.984474" Lat="36.388616" />
       </Runway>
       <Runway ID="19" Heading="186" Length="6503" Width="100">
-        <StartLoc Lon="-88.984476" Lat="36.388616" />
-        <EndLoc Lon="-88.986929" Lat="36.370864" />
+        <StartLoc Lon="-88.984474" Lat="36.388616" />
+        <EndLoc Lon="-88.986929" Lat="36.370865" />
       </Runway>
     </Runways>
   </Airport>
@@ -57448,14 +57508,14 @@
     </Runways>
   </Airport>
   <Airport ID="KNGW" Name="CABANISS FLD NOLF" Elevation="32" MagVar="-05" Frequency="0">
-    <Location Lon="-97.43882" Lat="27.702419" />
+    <Location Lon="-97.438819" Lat="27.702419" />
     <Runways>
       <Runway ID="13" Heading="130" Length="4994" Width="150">
         <StartLoc Lon="-97.442756" Lat="27.706394" />
-        <EndLoc Lon="-97.431866" Lat="27.696662" />
+        <EndLoc Lon="-97.431865" Lat="27.696662" />
       </Runway>
       <Runway ID="31" Heading="310" Length="4994" Width="150">
-        <StartLoc Lon="-97.431866" Lat="27.696662" />
+        <StartLoc Lon="-97.431865" Lat="27.696662" />
         <EndLoc Lon="-97.442756" Lat="27.706394" />
       </Runway>
       <Runway ID="18" Heading="175" Length="4496" Width="150">
@@ -63152,7 +63212,7 @@
     </Runways>
   </Airport>
   <Airport ID="0VG" Name="LEE COUNTY" Elevation="1411" MagVar="06" Frequency="0">
-    <Location Lon="-83.217833" Lat="36.654083" />
+    <Location Lon="-83.217847" Lat="36.654085" />
     <Runways>
       <Runway ID="07" Heading="66" Length="5003" Width="75">
         <StartLoc Lon="-83.225236" Lat="36.650659" />
@@ -63281,6 +63341,19 @@
       <Runway ID="31" Heading="305" Length="5002" Width="100">
         <StartLoc Lon="-80.010827" Lat="36.627506" />
         <EndLoc Lon="-80.02585" Lat="36.633998" />
+      </Runway>
+    </Runways>
+  </Airport>
+  <Airport ID="VG54" Name="BEAR RIVER FLD" Elevation="1050" MagVar="10" Frequency="0">
+    <Location Lon="-78.763708" Lat="38.319014" />
+    <Runways>
+      <Runway ID="07" Heading="70" Length="2000" Width="90">
+        <StartLoc Lon="-78.766722" Lat="38.317639" />
+        <EndLoc Lon="-78.760694" Lat="38.320389" />
+      </Runway>
+      <Runway ID="25" Heading="250" Length="2000" Width="90">
+        <StartLoc Lon="-78.760694" Lat="38.320389" />
+        <EndLoc Lon="-78.766722" Lat="38.317639" />
       </Runway>
     </Runways>
   </Airport>
@@ -68969,4 +69042,4 @@
     </Runways>
   </Airport>
 </Airports>
-<!--AIRAC_EFFECTIVE_DATE 2022-09-08-->
+<!--AIRAC_EFFECTIVE_DATE 2022-10-06-->

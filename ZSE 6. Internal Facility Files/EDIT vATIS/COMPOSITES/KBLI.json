@@ -40,7 +40,7 @@
     },
     {
       "Name": "SOUTH ILS",
-      "AirportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
+      "AirportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
       "Notams": null,
       "ArbitraryText": null,
       "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."

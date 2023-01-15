@@ -22,28 +22,28 @@
       "AirportConditions": "VIS APCHS IN USE RWY 23. DEPTG RWY 23.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
     },
     {
       "Name": "23 ILS",
       "AirportConditions": "SIMUL ILS APCHS IN USE RWY 23. DEPTG RWY 23.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
     },
     {
       "Name": "5 VIS",
       "AirportConditions": "VIS APCHS IN USE RWY 5. DEPTG RWY 5.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
     },
     {
       "Name": "5 RNAV",
       "AirportConditions": "GPS APCHS IN USE RWY 5. DEPTG RWY 5.",
       "Notams": null,
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [ADVISE_ON_INIT_CONTACT]."
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]"
     }
   ],
   "AirportConditionDefinitions": [

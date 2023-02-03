@@ -1,0 +1,262 @@
+ZSE
+
+	[X] Description: AIRWAYS
+		TDM: False
+		BCG 4
+		Filters 4
+		Style ShortDashed
+		Thickness 1
+
+	[X] Description: Tracon Boundary
+		TDM: False
+		BCG 6
+		Filters 6
+		Style Solid
+		Thickness 1
+
+	[X] Description: 3MileRings
+		TDM: False
+		BCG 12
+		Filters 12
+		Style ShortDashed
+		Thickness 1
+
+	[X] Description: ARTCC BOUNDARIES
+		TDM: True
+		BCG 1
+		Filters 1
+		Style Solid
+		Thickness 4
+
+	[X] Description: airspace
+		TDM: False
+		BCG 7
+		Filters 7
+		Style Solid
+		Thickness 1
+
+	[X] Description: MVA MOSAIC
+		TDM: False
+		BCG 17
+		Filters 17
+		Style Solid
+		Thickness 1
+
+	[X] Description: TAV
+		TDM: False
+		BCG 11
+		Filters 11
+		Style Solid
+		Thickness 1
+
+	[X] Description: ALL_DPs
+		TDM: False
+		BCG 8
+		Filters 8
+		Style Solid
+		Thickness 1
+
+	[X] Description: ALL_STARs
+		TDM: False
+		BCG 18
+		Filters 18
+		Style Solid
+		Thickness 1
+
+	[X] Description: SAT F
+		TDM: True
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: YKM
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: PSC
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: GEG
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: EUG
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: MFR
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: MWH
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: NUW
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: LMT
+		TDM: False
+		BCG 14
+		Filters 14
+		Style Solid
+		Thickness 1
+
+	[X] Description: P80E
+		TDM: False
+		BCG 5
+		Filters 5
+		Style Solid
+		Thickness 1
+
+	[X] Description: P80 W
+		TDM: False
+		BCG 15
+		Filters 15
+		Style Solid
+		Thickness 1
+
+	[X] Description: S46N
+		TDM: False
+		BCG 15
+		Filters 15
+		Style Solid
+		Thickness 1
+
+	[X] Description: S46N fixes
+		TDM: False
+		BCG 15
+		Filters 15
+		Style Solid
+		Thickness 1
+
+	[X] Description: S46S
+		TDM: False
+		BCG 5
+		Filters 5
+		Style Solid
+		Thickness 1
+
+	[X] Description: S46S fixes
+		TDM: False
+		BCG 5
+		Filters 5
+		Style Solid
+		Thickness 1
+
+	[X] Description: SUA
+		TDM: False
+		BCG 3
+		Filters 3
+		Style Solid
+		Thickness 1
+
+	[X] Description: Airport Diagrams
+		TDM: True
+		BCG 19
+		Filters 19
+		Style Solid
+		Thickness 1
+
+	[X] Description: SECTOR BOUNDARIES
+		TDM: False
+		BCG 1
+		Filters 1
+		Style Solid
+		Thickness 2
+
+	[X] Description: HANDOFF
+		TDM: False
+		BCG 2
+		Filters 2
+		Style Solid
+		Thickness 2
+
+	[X] Description: WX STATIONS
+		TDM: True
+		Text Defaults: BCG 9
+		Filters 9
+		Size 1
+		Underline True
+		Opaque True
+		XOffset 3
+		YOffset 0
+
+	[X] Description: NAVAIDS
+		TDM: False
+		Symbol Defaults: BCG 13
+		Filters 13
+		Style VOR
+		Size 1
+
+	[X] Description: NAVAID TEXT
+		TDM: True
+		Text Defaults: BCG 13
+		Filters 13
+		Size 1
+		Underline False
+		Opaque False
+		XOffset 12
+		YOffset 0
+
+	[X] Description: AIRPORT DIAGRAM LABELS
+		TDM: True
+		BCG 19
+		Filters 19
+		Style Solid
+		Thickness 1
+
+	[X] Description: APT
+		TDM: False
+		Symbol Defaults: BCG 10
+		Filters 10
+		Style Airport
+		Size 1
+
+	[X] Description: AIRPORT TEXT
+		TDM: True
+		Text Defaults: BCG 10
+		Filters 10
+		Size 1
+		Underline False
+		Opaque False
+		XOffset 12
+		YOffset 0
+
+	[X] Description: VORLabel
+		TDM: False
+		Text Defaults: BCG 16
+		Filters 16
+		Size 1
+		Underline False
+		Opaque True
+		XOffset 10
+		YOffset 0
+		Symbol Defaults: BCG 16
+		Filters 16
+		Style VOR
+		Size 1

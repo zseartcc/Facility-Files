@@ -26,35 +26,84 @@
 
 ; Seattle Center (Each main position followed by its relief position)
 Seattle Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:CTR:5101:5277  ; Combined
-Seattle 01 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:01-CTR:5101:5277  ; Combined relief
+
+Seattle 01 Center:Seattle Center:120.300:S01:S:SEA:CTR:SEA:01-CTR:5101:5277
+Seattle 0B Center:Seattle Center:120.300:S01:S:SEA:CTR:SEA:01-CTR:5101:5277
+
 Seattle 02 Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:02-CTR:5101:5277
-Seattle 0B Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:0B-CTR:5101:5277
+Seattle 0C Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:02-CTR:5101:5277
+
 Seattle 03 Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:03-CTR:5101:5277
-Seattle 0C Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:0C-CTR:5101:5277
+Seattle 0D Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:03-CTR:5101:5277
+
+Seattle 04 Center:Seattle Center:124.200:S04:S:SEA:CTR:SEA:04-CTR:5101:5277
+Seattle 0E Center:Seattle Center:124.200:S04:S:SEA:CTR:SEA:04-CTR:5101:5277
+
+Seattle 05 Center:Seattle Center:128.150:S05:S:SEA:CTR:SEA:05-CTR:5101:5277
+Seattle 0F Center:Seattle Center:128.150:S05:S:SEA:CTR:SEA:05-CTR:5101:5277
+
 Seattle 06 Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:06-CTR:5101:5277
-Seattle 0F Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:0F-CTR:5101:5277
+Seattle 0G Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:06-CTR:5101:5277
+
 Seattle 07 Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:5101:5277
-Seattle 0G Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:0G-CTR:5101:5277
+Seattle 0H Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:5101:5277
+
+Seattle 08 Center:Seattle Center:123.950:S08:S:SEA:CTR:SEA:08-CTR:5101:5277
+Seattle 0J Center:Seattle Center:123.950:S08:S:SEA:CTR:SEA:08-CTR:5101:5277
+
+Seattle 09 Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:5101:5277
+Seattle 0K Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:5101:5277
+
+Seattle 10 Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:5101:5277
+Seattle 1A Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:5101:5277
+
 Seattle 11 Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:5101:5277
-Seattle 1A Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:1A-CTR:5101:5277
+Seattle 1B Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:5101:5277
+
 Seattle 12 Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:5101:5277
-Seattle 1B Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:1B-CTR:5101:5277
+Seattle 1C Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:5101:5277
+
 Seattle 13 Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:5101:5277
-Seattle 1C Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:1C-CTR:5101:5277
+Seattle 1D Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:5101:5277
+
 Seattle 14 Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:5101:5277
-Seattle 1D Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:1D-CTR:5101:5277
+Seattle 1E Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:5101:5277
+
 Seattle 15 Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:15-CTR:5101:5277
-Seattle 1E Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:1E-CTR:5101:5277
+Seattle 1F Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:15-CTR:5101:5277
+
 Seattle 16 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:16-CTR:5101:5277
-Seattle 1F Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:1F-CTR:5101:5277
+Seattle 1G Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:16-CTR:5101:5277  ; Combined relief
+
+Seattle 30 Center:Seattle Center:124.850:S30:S:SEA:CTR:SEA:30-CTR:5101:5277
+Seattle 3A Center:Seattle Center:124.850:S30:S:SEA:CTR:SEA:30-CTR:5101:5277
+
+Seattle 31 Center:Seattle Center:127.050:S31:S:SEA:CTR:SEA:31-CTR:5101:5277
+Seattle 3B Center:Seattle Center:127.050:S31:S:SEA:CTR:SEA:31-CTR:5101:5277
+
+Seattle 32 Center:Seattle Center:126.600:S32:S:SEA:CTR:SEA:32-CTR:5101:5277
+Seattle 3C Center:Seattle Center:126.600:S32:S:SEA:CTR:SEA:32-CTR:5101:5277
+
 Seattle 34 Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:34-CTR:5101:5277
-Seattle 3D Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:3D-CTR:5101:5277
+Seattle 3E Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:34-CTR:5101:5277
+
+Seattle 35 Center:Seattle Center:126.150:S35:S:SEA:CTR:SEA:35-CTR:5101:5277
+Seattle 3F Center:Seattle Center:126.150:S35:S:SEA:CTR:SEA:35-CTR:5101:5277
+
+Seattle 36 Center:Seattle Center:127.550:S36:S:SEA:CTR:SEA:36-CTR:5101:5277
+Seattle 3G Center:Seattle Center:127.550:S36:S:SEA:CTR:SEA:36-CTR:5101:5277
+
 Seattle 42 Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:42-CTR:5101:5277
-Seattle 4B Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:4B-CTR:5101:5277
+Seattle 4C Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:42-CTR:5101:5277
+
 Seattle 46 Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:5101:5277
-Seattle 4F Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:4F-CTR:5101:5277
+Seattle 4G Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:5101:5277
+
 Seattle 47 Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:5101:5277
-Seattle 4G Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:4G-CTR:5101:5277
+Seattle 4H Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:5101:5277
+
+Seattle 48 Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:5101:5277
+Seattle 4J Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:5101:5277
 
 
 ; Seattle TRACON (S46)

@@ -31,7 +31,7 @@
             <Element xsi:type="Text" Filters="" Lat="61.341339" Lon="-148.998881" Lines="A13 BOLD" />
             <Element xsi:type="Text" Filters="" Lat="61.249451" Lon="-150.035561" Lines="AK37 POINT MACKENZIE" />
             <Element xsi:type="Text" Filters="" Lat="61.174085" Lon="-149.998137" Lines="PANC TED STEVENS ANCHORAGE INTL" />
-            <Element xsi:type="Text" Filters="" Lat="61.213545" Lon="-149.844724" Lines="PAMR MERRILL FLD" />
+            <Element xsi:type="Text" Filters="" Lat="61.213546" Lon="-149.844709" Lines="PAMR MERRILL FLD" />
             <Element xsi:type="Text" Filters="" Lat="61.133061" Lon="-149.9419" Lines="A11 CAMPBELL LAKE SPB" />
             <Element xsi:type="Text" Filters="" Lat="61.251353" Lon="-149.806526" Lines="PAED ELMENDORF AFB" />
             <Element xsi:type="Text" Filters="" Lat="61.235383" Lon="-149.749275" Lines="AK91 ELMENDORF HOSPITAL" />
@@ -333,6 +333,7 @@
             <Element xsi:type="Text" Filters="" Lat="58.676493" Lon="-156.648691" Lines="PAKN KING SALMON" />
             <Element xsi:type="Text" Filters="" Lat="57.558531" Lon="-156.787685" Lines="AA05 UGASHIK NARROWS" />
             <Element xsi:type="Text" Filters="" Lat="58.646294" Lon="-156.577764" Lines="AK51 BIG CREEK" />
+            <Element xsi:type="Text" Filters="" Lat="59.093472" Lon="-156.455833" Lines="00AN KATMAI LODGE" />
             <Element xsi:type="Text" Filters="" Lat="59.931611" Lon="-164.028111" Lines="PAKI KIPNUK" />
             <Element xsi:type="Text" Filters="" Lat="58.190946" Lon="-152.370488" Lines="KKB KITOI BAY" />
             <Element xsi:type="Text" Filters="" Lat="67.736139" Lon="-164.5635" Lines="PAVL KIVALINA" />
@@ -386,6 +387,7 @@
             <Element xsi:type="Text" Filters="" Lat="61.356514" Lon="-142.733444" Lines="0AK5 YOUNG CREEK" />
             <Element xsi:type="Text" Filters="" Lat="61.61575" Lon="-149.706931" Lines="24AK TOAD LAKE STRIP" />
             <Element xsi:type="Text" Filters="" Lat="60.372389" Lon="-166.270194" Lines="PAMY MEKORYUK" />
+            <Element xsi:type="Text" Filters="" Lat="60.810393" Lon="-164.499472" Lines="PAEW MERTARVIK" />
             <Element xsi:type="Text" Filters="" Lat="55.131045" Lon="-131.578068" Lines="PAMM METLAKATLA" />
             <Element xsi:type="Text" Filters="" Lat="55.739636" Lon="-132.255018" Lines="84K MEYERS CHUCK" />
             <Element xsi:type="Text" Filters="" Lat="59.449944" Lon="-146.307241" Lines="PAMD MIDDLETON ISLAND" />
@@ -408,7 +410,6 @@
             <Element xsi:type="Text" Filters="" Lat="56.007536" Lon="-161.160367" Lines="PAOU NELSON LAGOON" />
             <Element xsi:type="Text" Filters="" Lat="64.5473" Lon="-149.073925" Lines="PANN NENANA MUNI" />
             <Element xsi:type="Text" Filters="" Lat="59.451528" Lon="-157.373167" Lines="PANW NEW STUYAHOK" />
-            <Element xsi:type="Text" Filters="" Lat="60.810393" Lon="-164.499472" Lines="PAEW NEWTOK" />
             <Element xsi:type="Text" Filters="" Lat="60.923654" Lon="-164.656214" Lines="WWT NEWTOK" />
             <Element xsi:type="Text" Filters="" Lat="60.773167" Lon="-151.230528" Lines="AK11 HIGH VISTA" />
             <Element xsi:type="Text" Filters="" Lat="60.469171" Lon="-164.704038" Lines="PAGT NIGHTMUTE" />
@@ -557,7 +558,7 @@
             <Element xsi:type="Text" Filters="" Lat="60.503597" Lon="-150.93555" Lines="7AK5 DAHLER HOMESTEAD" />
             <Element xsi:type="Text" Filters="" Lat="60.475818" Lon="-150.928879" Lines="7AK6 DAN FRANCE" />
             <Element xsi:type="Text" Filters="" Lat="60.535833" Lon="-150.811389" Lines="04AA FLYING W RANCH" />
-            <Element xsi:type="Text" Filters="" Lat="60.492653" Lon="-151.078939" Lines="SD1 SOLDOTNA HOSPITAL H" />
+            <Element xsi:type="Text" Filters="" Lat="60.492653" Lon="-151.078939" Lines="SD1 SOLDOTNA HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="60.475139" Lon="-151.039639" Lines="PASX SOLDOTNA" />
             <Element xsi:type="Text" Filters="" Lat="60.533611" Lon="-150.995556" Lines="L85 MACKEYS LAKES" />
             <Element xsi:type="Text" Filters="" Lat="60.489167" Lon="-150.801667" Lines="AK55 MOOSE RUN AIRSTRIP" />
@@ -1552,10 +1553,10 @@
             <Element xsi:type="Text" Filters="" Lat="33.688306" Lon="-112.082556" Lines="KDVT PHOENIX DEER VALLEY" />
             <Element xsi:type="Text" Filters="" Lat="33.639275" Lon="-111.996531" Lines="AZ95 ABRAZO SCOTTSDALE HOSP EMERG DEPT" />
             <Element xsi:type="Text" Filters="" Lat="33.521431" Lon="-112.019592" Lines="AZ94 BILTMORE GOLF COURSE" />
-            <Element xsi:type="Text" Filters="" Lat="33.568652" Lon="-112.070983" Lines="AZ98 JOHN C LINCOLN HELISTOP" />
+            <Element xsi:type="Text" Filters="" Lat="33.568652" Lon="-112.070983" Lines="AZ98 HH JOHN C LINCOLN HELISTOP" />
             <Element xsi:type="Text" Filters="" Lat="33.443656" Lon="-111.963478" Lines="0AZ7 SUNSTATE" />
             <Element xsi:type="Text" Filters="" Lat="33.482883" Lon="-112.079497" Lines="0AZ6 ST JOSEPH'S HOSPITAL" />
-            <Element xsi:type="Text" Filters="" Lat="33.665908" Lon="-112.115317" Lines="3AZ4 JOHN C LINCOLN DEER VALLEY HOSPITAL" />
+            <Element xsi:type="Text" Filters="" Lat="33.665908" Lon="-112.115317" Lines="3AZ4 HH DEER VALLEY HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="33.450044" Lon="-111.980145" Lines="2AZ0 HELICOPTER TRANSPORT INC/OFFICE" />
             <Element xsi:type="Text" Filters="" Lat="33.483376" Lon="-112.070148" Lines="AZ41 ABACUS TOWER" />
             <Element xsi:type="Text" Filters="" Lat="33.454722" Lon="-111.983889" Lines="AZ02 GATEWAY EAST KNXV TV" />
@@ -1597,8 +1598,8 @@
             <Element xsi:type="Text" Filters="" Lat="32.516306" Lon="-114.698389" Lines="44A ROLLE AIRFIELD" />
             <Element xsi:type="Text" Filters="" Lat="32.63644" Lon="-110.647288" Lines="E77 SAN MANUEL" />
             <Element xsi:type="Text" Filters="" Lat="33.622889" Lon="-111.910528" Lines="KSDL SCOTTSDALE" />
-            <Element xsi:type="Text" Filters="" Lat="33.67" Lon="-111.922222" Lines="32AZ HONOR HEALTH THOMPSON PEAK" />
-            <Element xsi:type="Text" Filters="" Lat="33.488014" Lon="-111.922392" Lines="AZ96 HONOR HEALTH SCOTTSDALE OSBORN MEDICAL CENTER" />
+            <Element xsi:type="Text" Filters="" Lat="33.67" Lon="-111.922222" Lines="32AZ HH SCOTTSDALE THOMPSON PEAK" />
+            <Element xsi:type="Text" Filters="" Lat="33.488014" Lon="-111.922392" Lines="AZ96 HH SCOTTSDALE OSBORN" />
             <Element xsi:type="Text" Filters="" Lat="33.625278" Lon="-111.921944" Lines="5AZ0 LYON AVIATION ROOFTOP" />
             <Element xsi:type="Text" Filters="" Lat="33.6245" Lon="-111.921333" Lines="6AZ0 LYON AVIATION SOUTH RAMP" />
             <Element xsi:type="Text" Filters="" Lat="33.625139" Lon="-111.921722" Lines="7AZ0 AVIATION RAMP AREA" />
@@ -1810,7 +1811,7 @@
             <Element xsi:type="Text" Filters="" Lat="34.528889" Lon="-114.431972" Lines="49X CHEMEHUEVI VALLEY" />
             <Element xsi:type="Text" Filters="" Lat="40.282361" Lon="-121.241167" Lines="O05 ROGERS FLD" />
             <Element xsi:type="Text" Filters="" Lat="40.288495" Lon="-121.243298" Lines="5Q2 USFS CHESTER" />
-            <Element xsi:type="Text" Filters="" Lat="39.795389" Lon="-121.858417" Lines="KCIC CHICO MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="39.795389" Lon="-121.858417" Lines="KCIC CHICO RGNL" />
             <Element xsi:type="Text" Filters="" Lat="39.741944" Lon="-121.850278" Lines="CL37 ENLOE HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="39.670717" Lon="-121.885811" Lines="4CA7 JOHNSEN" />
             <Element xsi:type="Text" Filters="" Lat="39.997214" Lon="-120.216857" Lines="CA11 BODAD" />
@@ -4510,7 +4511,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.262938" Lon="-83.787122" Lines="94GA SNOW HILL AIRSTRIP" />
             <Element xsi:type="Text" Filters="" Lat="33.600944" Lon="-84.549097" Lines="3GA4 STONEWALL" />
             <Element xsi:type="Text" Filters="" Lat="30.781372" Lon="-83.276219" Lines="KVLD VALDOSTA RGNL" />
-            <Element xsi:type="Text" Filters="" Lat="30.862" Lon="-83.285667" Lines="54GA S.G.M.C" />
+            <Element xsi:type="Text" Filters="" Lat="30.862" Lon="-83.285667" Lines="54GA SOUTH GEORGIA MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="30.887141" Lon="-83.41599" Lines="0GA8 PASO FINO FARM" />
             <Element xsi:type="Text" Filters="" Lat="30.950833" Lon="-83.234167" Lines="50GA MALLORY FLD" />
             <Element xsi:type="Text" Filters="" Lat="30.778889" Lon="-83.201944" Lines="7GA2 MCCLELLAN" />
@@ -4577,7 +4578,7 @@
             <Element xsi:type="Text" Filters="" Lat="21.675151" Lon="-157.946969" Lines="HI57 KAHUKU FIRE &amp; POLICE STATION" />
             <Element xsi:type="Text" Filters="" Lat="21.70487" Lon="-158.005579" Lines="HI58 TURTLE BAY RESORT" />
             <Element xsi:type="Text" Filters="" Lat="20.898649" Lon="-156.430459" Lines="PHOG KAHULUI" />
-            <Element xsi:type="Text" Filters="" Lat="19.738766" Lon="-156.045631" Lines="PHKO ELLISON ONIZUKA KONA INTL AT KEAHOLE" />
+            <Element xsi:type="Text" Filters="" Lat="19.738765" Lon="-156.045631" Lines="PHKO ELLISON ONIZUKA KONA INTL AT KEAHOLE" />
             <Element xsi:type="Text" Filters="" Lat="21.21104" Lon="-156.973597" Lines="PHLU KALAUPAPA" />
             <Element xsi:type="Text" Filters="" Lat="20.001327" Lon="-155.668107" Lines="PHMU WAIMEA-KOHALA" />
             <Element xsi:type="Text" Filters="" Lat="20.021739" Lon="-155.663469" Lines="HI18 LUCY HENRIQUES MEDICAL CENTER" />
@@ -4913,6 +4914,7 @@
             <Element xsi:type="Text" Filters="" Lat="43.825139" Lon="-115.331361" Lines="52U WEATHERBY USFS" />
             <Element xsi:type="Text" Filters="" Lat="43.813511" Lon="-115.135082" Lines="55H ATLANTA" />
             <Element xsi:type="Text" Filters="" Lat="43.80715" Lon="-115.130886" Lines="36ID DOROTHY ROEBER MEML" />
+            <Element xsi:type="Text" Filters="" Lat="43.816528" Lon="-115.114722" Lines="ID06 LAZY H RANCH" />
             <Element xsi:type="Text" Filters="" Lat="43.453611" Lon="-112.80725" Lines="U37 MIDWAY" />
             <Element xsi:type="Text" Filters="" Lat="43.432583" Lon="-113.055444" Lines="U46 BIG SOUTHERN BUTTE" />
             <Element xsi:type="Text" Filters="" Lat="43.21775" Lon="-113.227556" Lines="U48 COXS WELL" />
@@ -4941,6 +4943,7 @@
             <Element xsi:type="Text" Filters="" Lat="44.705278" Lon="-116.806944" Lines="ID77 CUDDY MEADOWS" />
             <Element xsi:type="Text" Filters="" Lat="43.308806" Lon="-113.936028" Lines="U65 CAREY" />
             <Element xsi:type="Text" Filters="" Lat="43.32375" Lon="-113.5905" Lines="0U7 HOLLOW TOP" />
+            <Element xsi:type="Text" Filters="" Lat="45.258194" Lon="-113.8375" Lines="ID50 FLYING COYOTE RAANCH" />
             <Element xsi:type="Text" Filters="" Lat="44.224891" Lon="-116.179577" Lines="ID44 HIDDEN LAKES" />
             <Element xsi:type="Text" Filters="" Lat="44.518325" Lon="-116.048711" Lines="ID55 CASCADE MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="44.53657" Lon="-115.350941" Lines="ID74 SULPHUR CREEK RANCH" />
@@ -5611,7 +5614,7 @@
             <Element xsi:type="Text" Filters="" Lat="41.386944" Lon="-88.265833" Lines="52IS DRESDEN POWER STATION" />
             <Element xsi:type="Text" Filters="" Lat="41.516697" Lon="-88.266731" Lines="87IL BUSHBY" />
             <Element xsi:type="Text" Filters="" Lat="38.047829" Lon="-89.997054" Lines="37LL DALE CURTEN FARM" />
-            <Element xsi:type="Text" Filters="" Lat="41.448278" Lon="-90.507528" Lines="KMLI QUAD CITIES INTL" />
+            <Element xsi:type="Text" Filters="" Lat="41.448209" Lon="-90.50777" Lines="KMLI QUAD CITIES INTL" />
             <Element xsi:type="Text" Filters="" Lat="41.467753" Lon="-90.532142" Lines="IS97 TRINITY MEDICAL CENTER - MOLINE" />
             <Element xsi:type="Text" Filters="" Lat="41.460034" Lon="-90.492911" Lines="I04 QUAD-CITY" />
             <Element xsi:type="Text" Filters="" Lat="41.377417" Lon="-87.67975" Lines="C56 BULT FLD" />
@@ -6286,7 +6289,7 @@
             <Element xsi:type="Text" Filters="" Lat="41.636981" Lon="-87.152257" Lines="2II5 BURNS INTL HARBOR" />
             <Element xsi:type="Text" Filters="" Lat="41.547003" Lon="-87.184425" Lines="8IN5 PORTAGE COMMUNITY HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="41.55875" Lon="-87.126111" Lines="3IN0 FLYING M" />
-            <Element xsi:type="Text" Filters="" Lat="40.451583" Lon="-84.989028" Lines="KPLD PORTLAND MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="40.451518" Lon="-84.991719" Lines="KPLD PORTLAND MUNI" />
             <Element xsi:type="Text" Filters="" Lat="38.133139" Lon="-87.785764" Lines="88IN SEIB" />
             <Element xsi:type="Text" Filters="" Lat="38.243325" Lon="-87.786822" Lines="7IN3 GARRETT FLD" />
             <Element xsi:type="Text" Filters="" Lat="39.5835" Lon="-86.952528" Lines="99II COOPER FLD" />
@@ -6591,7 +6594,7 @@
             <Element xsi:type="Text" Filters="" Lat="38.626983" Lon="-94.767781" Lines="7KS6 LINDERS COW-CHIP" />
             <Element xsi:type="Text" Filters="" Lat="39.061955" Lon="-98.525344" Lines="38K LUCAS" />
             <Element xsi:type="Text" Filters="" Lat="38.691722" Lon="-95.690167" Lines="39K VERSAAIR SERVICES" />
-            <Element xsi:type="Text" Filters="" Lat="38.340251" Lon="-98.228562" Lines="KLYO LYONS-RICE COUNTY MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="38.34025" Lon="-98.228556" Lines="KLYO LYONS-RICE COUNTY MUNI" />
             <Element xsi:type="Text" Filters="" Lat="38.278694" Lon="-98.07805" Lines="8KS MAXWELL AVIATION" />
             <Element xsi:type="Text" Filters="" Lat="38.012744" Lon="-94.858072" Lines="82KS GREG POST FARMS" />
             <Element xsi:type="Text" Filters="" Lat="39.818052" Lon="-101.348496" Lines="5KS8 JACK POORE" />
@@ -6818,6 +6821,7 @@
             <Element xsi:type="Text" Filters="" Lat="39.02785" Lon="-84.524364" Lines="3KY8 FIDELITY" />
             <Element xsi:type="Text" Filters="" Lat="36.923333" Lon="-84.120444" Lines="98KY BAPTIST HEALTH CORBIN" />
             <Element xsi:type="Text" Filters="" Lat="38.283403" Lon="-85.481904" Lines="82KY WOODLEDGE FARM" />
+            <Element xsi:type="Text" Filters="" Lat="38.806701" Lon="-84.557536" Lines="67KY SUNNY RIDGE LANDING" />
             <Element xsi:type="Text" Filters="" Lat="36.966" Lon="-83.022167" Lines="1KY9 ARH TRI CITY CLINIC" />
             <Element xsi:type="Text" Filters="" Lat="37.327" Lon="-86.154756" Lines="69KY LAKEVIEW" />
             <Element xsi:type="Text" Filters="" Lat="36.898667" Lon="-88.846724" Lines="74KY TERRY FLD" />
@@ -7118,7 +7122,6 @@
             <Element xsi:type="Text" Filters="" Lat="30.593175" Lon="-89.873478" Lines="2LA8 FOKKER FLD" />
             <Element xsi:type="Text" Filters="" Lat="30.085" Lon="-91.923889" Lines="16LA ARROW AVIATION COMPANY" />
             <Element xsi:type="Text" Filters="" Lat="29.783554" Lon="-93.208485" Lines="13LA EVERGREEN" />
-            <Element xsi:type="Text" Filters="" Lat="29.78035" Lon="-93.292786" Lines="24LA ERA HELICOPTERS CAMERON BASE" />
             <Element xsi:type="Text" Filters="" Lat="29.819387" Lon="-93.339876" Lines="LS75 CAMERON SHORE BASE" />
             <Element xsi:type="Text" Filters="" Lat="29.773611" Lon="-93.35" Lines="32LA JOHN W STONE OIL DISTRIBUTOR LLC" />
             <Element xsi:type="Text" Filters="" Lat="29.799722" Lon="-93.349444" Lines="24LS MIDSTREAM CAMERON WEST" />
@@ -7740,7 +7743,7 @@
             <Element xsi:type="Text" Filters="" Lat="38.999167" Lon="-76.455967" Lines="01MD ANNAPOLIS" />
             <Element xsi:type="Text" Filters="" Lat="38.977611" Lon="-76.63941" Lines="3MD4 FAIRVIEW" />
             <Element xsi:type="Text" Filters="" Lat="38.990667" Lon="-76.534167" Lines="20MD ANNE ARUNDEL MEDICAL CENTER" />
-            <Element xsi:type="Text" Filters="" Lat="39.325667" Lon="-76.413778" Lines="KMTN MARTIN STATE" />
+            <Element xsi:type="Text" Filters="" Lat="39.325661" Lon="-76.413756" Lines="KMTN MARTIN STATE" />
             <Element xsi:type="Text" Filters="" Lat="39.336111" Lon="-76.586667" Lines="8MD2 MONTEBELLO FILTRATION PLANT" />
             <Element xsi:type="Text" Filters="" Lat="39.402607" Lon="-76.504964" Lines="3MD7 GREEN TERRACE" />
             <Element xsi:type="Text" Filters="" Lat="39.287919" Lon="-76.625786" Lines="MD71 UNIVERSITY OF MARYLAND SHOCK TRAUMA CENTER" />
@@ -7796,7 +7799,7 @@
             <Element xsi:type="Text" Filters="" Lat="39.719442" Lon="-76.208414" Lines="6MD4 PEMBROKE FARM" />
             <Element xsi:type="Text" Filters="" Lat="38.018167" Lon="-75.826861" Lines="W41 CRISFIELD-SOMERSET COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="37.9975" Lon="-75.853203" Lines="MD52 MCCREADY MEML HOSPITAL" />
-            <Element xsi:type="Text" Filters="" Lat="39.606" Lon="-78.760486" Lines="1W3 MEXICO FARMS" />
+            <Element xsi:type="Text" Filters="" Lat="39.605988" Lon="-78.76046" Lines="1W3 MEXICO FARMS" />
             <Element xsi:type="Text" Filters="" Lat="39.646897" Lon="-78.7322" Lines="MD65 WESTERN MARYLAND HEALTH SYSTEM" />
             <Element xsi:type="Text" Filters="" Lat="39.615306" Lon="-78.761478" Lines="KCBE GREATER CUMBERLAND RGNL" />
             <Element xsi:type="Text" Filters="" Lat="38.143459" Lon="-76.356615" Lines="MD01 WINGFIELD" />
@@ -7886,7 +7889,7 @@
             <Element xsi:type="Text" Filters="" Lat="39.568989" Lon="-77.121371" Lines="MD56 THREE J" />
             <Element xsi:type="Text" Filters="" Lat="39.667192" Lon="-75.961236" Lines="16MD HIGH VALLEY" />
             <Element xsi:type="Text" Filters="" Lat="39.333434" Lon="-79.441437" Lines="2MD8 GREATER GORTNER" />
-            <Element xsi:type="Text" Filters="" Lat="39.412853" Lon="-79.401344" Lines="3MD2 GARRETT COUNTY MEML HOSPITAL" />
+            <Element xsi:type="Text" Filters="" Lat="39.412853" Lon="-79.401344" Lines="3MD2 GARRETT RGNL MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="39.429818" Lon="-79.453935" Lines="4MD2 WARD'S" />
             <Element xsi:type="Text" Filters="" Lat="39.468267" Lon="-79.425283" Lines="42MD HERRINGTON FLD" />
             <Element xsi:type="Text" Filters="" Lat="39.580806" Lon="-79.335944" Lines="2G4 GARRETT COUNTY" />
@@ -7940,7 +7943,7 @@
             <Element xsi:type="Text" Filters="" Lat="38.5075" Lon="-77.121617" Lines="MD05 FINAGIN AIRFIELD" />
             <Element xsi:type="Text" Filters="" Lat="39.608278" Lon="-77.007667" Lines="KDMW CARROLL COUNTY RGNL/JACK B POAGE FLD" />
             <Element xsi:type="Text" Filters="" Lat="39.467028" Lon="-77.017444" Lines="2W2 CLEARVIEW AIRPARK" />
-            <Element xsi:type="Text" Filters="" Lat="39.609447" Lon="-77.048119" Lines="07MD BAUGHER'S ORCHARD" />
+            <Element xsi:type="Text" Filters="" Lat="39.609047" Lon="-77.047997" Lines="07MD BAUGHER'S ORCHARD" />
             <Element xsi:type="Text" Filters="" Lat="39.558611" Lon="-76.990833" Lines="MD76 CARROLL HOSPITAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="39.637675" Lon="-77.144903" Lines="MD26 ALYSSA TAYLOR" />
             <Element xsi:type="Text" Filters="" Lat="39.682878" Lon="-77.097205" Lines="1MD8 MAYBERRY RUN" />
@@ -7956,7 +7959,7 @@
             <Element xsi:type="Text" Filters="" Lat="46.308333" Lon="-68.843611" Lines="ME86 LIBBY CAMPS" />
             <Element xsi:type="Text" Filters="" Lat="46.395833" Lon="-69.005" Lines="ME3 BRADFORD CAMPS" />
             <Element xsi:type="Text" Filters="" Lat="44.048473" Lon="-70.283508" Lines="KLEW AUBURN/LEWISTON MUNI" />
-            <Element xsi:type="Text" Filters="" Lat="44.32065" Lon="-69.797318" Lines="KAUG AUGUSTA STATE" />
+            <Element xsi:type="Text" Filters="" Lat="44.320687" Lon="-69.797309" Lines="KAUG AUGUSTA STATE" />
             <Element xsi:type="Text" Filters="" Lat="44.267569" Lon="-69.781711" Lines="M00 AUGUSTA" />
             <Element xsi:type="Text" Filters="" Lat="44.361811" Lon="-69.779844" Lines="5ME9 MAINE GENERAL MEDICAL CENTER/AUGUSTA" />
             <Element xsi:type="Text" Filters="" Lat="44.275256" Lon="-69.704881" Lines="30ME TOGUS VA LZ" />
@@ -7997,6 +8000,7 @@
             <Element xsi:type="Text" Filters="" Lat="45.08532" Lon="-70.216322" Lines="B21 SUGARLOAF RGNL" />
             <Element xsi:type="Text" Filters="" Lat="45.027854" Lon="-67.309434" Lines="ME06 FLYING ED" />
             <Element xsi:type="Text" Filters="" Lat="43.729067" Lon="-70.126983" Lines="ME21 CHEBEAGUE ISLAND SCHOOL" />
+            <Element xsi:type="Text" Filters="" Lat="44.503854" Lon="-70.071815" Lines="51ME BEAVER CREEK" />
             <Element xsi:type="Text" Filters="" Lat="46.202472" Lon="-69.240389" Lines="39B NUGENT CHAMBERLAIN LAKE" />
             <Element xsi:type="Text" Filters="" Lat="46.060875" Lon="-69.409444" Lines="1ME CHESUNCOOK LAKE HOUSE" />
             <Element xsi:type="Text" Filters="" Lat="45.883377" Lon="-69.232828" Lines="ME18 CHESUNCOOK FORESTRY DISTRICT" />
@@ -8086,6 +8090,7 @@
             <Element xsi:type="Text" Filters="" Lat="45.728381" Lon="-68.844486" Lines="70B MILLINOCKET" />
             <Element xsi:type="Text" Filters="" Lat="45.653267" Lon="-68.716978" Lines="ME50 MILLINOCKET RGNL" />
             <Element xsi:type="Text" Filters="" Lat="45.647833" Lon="-68.685556" Lines="KMLT MILLINOCKET MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="45.239167" Lon="-68.961528" Lines="63ME MILO FLD" />
             <Element xsi:type="Text" Filters="" Lat="43.758333" Lon="-69.321611" Lines="ME81 4 WINDS" />
             <Element xsi:type="Text" Filters="" Lat="43.764333" Lon="-69.314528" Lines="ME78 MONHEGAN ISLAND" />
             <Element xsi:type="Text" Filters="" Lat="43.986917" Lon="-70.618472" Lines="76B LONG LAKE" />
@@ -8529,7 +8534,7 @@
             <Element xsi:type="Text" Filters="" Lat="41.830603" Lon="-83.687438" Lines="4MI1 AIR RAHE" />
             <Element xsi:type="Text" Filters="" Lat="45.395583" Lon="-84.874333" Lines="96MI DICK HUVAERE'S" />
             <Element xsi:type="Text" Filters="" Lat="43.846839" Lon="-84.012794" Lines="52I GROSS" />
-            <Element xsi:type="Text" Filters="" Lat="42.467793" Lon="-85.648046" Lines="61D PLAINWELL MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="42.467791" Lon="-85.648013" Lines="61D PLAINWELL MUNI" />
             <Element xsi:type="Text" Filters="" Lat="42.447261" Lon="-85.654975" Lines="87MI ASCENSION BORGESS PIPP HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="42.347806" Lon="-83.456333" Lines="1D2 CANTON-PLYMOUTH-METTETAL" />
             <Element xsi:type="Text" Filters="" Lat="42.348056" Lon="-83.453889" Lines="MI79 EXEC" />
@@ -8554,7 +8559,7 @@
             <Element xsi:type="Text" Filters="" Lat="43.128633" Lon="-85.505186" Lines="35C WELLS" />
             <Element xsi:type="Text" Filters="" Lat="45.407083" Lon="-83.812861" Lines="KPZQ PRESQUE ISLE COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="42.793056" Lon="-83.026111" Lines="MI57 EAGLE" />
-            <Element xsi:type="Text" Filters="" Lat="42.796334" Lon="-82.97426" Lines="D98 ROMEO STATE" />
+            <Element xsi:type="Text" Filters="" Lat="42.796331" Lon="-82.974249" Lines="D98 ROMEO STATE" />
             <Element xsi:type="Text" Filters="" Lat="44.473696" Lon="-84.563674" Lines="3RC ROSCOMMON CONSERVATION" />
             <Element xsi:type="Text" Filters="" Lat="42.515078" Lon="-83.194167" Lines="32MI WILLIAM BEAUMONT HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="43.006972" Lon="-82.601308" Lines="4MI5 BPS" />
@@ -9019,7 +9024,6 @@
             <Element xsi:type="Text" Filters="" Lat="45.546222" Lon="-94.059389" Lines="KSTC ST CLOUD RGNL" />
             <Element xsi:type="Text" Filters="" Lat="43.969439" Lon="-94.622994" Lines="9MN7 ST JAMES MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="43.986354" Lon="-94.557974" Lines="KJYG ST JAMES MUNI" />
-            <Element xsi:type="Text" Filters="" Lat="46.934031" Lon="-92.412775" Lines="43MN SUPERIOR AERO ESTATES" />
             <Element xsi:type="Text" Filters="" Lat="44.997492" Lon="-92.855681" Lines="21D LAKE ELMO" />
             <Element xsi:type="Text" Filters="" Lat="44.955608" Lon="-93.093033" Lines="7MN1 REGIONS HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="44.942583" Lon="-93.107844" Lines="MY79 CHILDREN'S HOSPITAL - ST PAUL" />
@@ -9765,7 +9769,7 @@
             <Element xsi:type="Text" Filters="" Lat="34.347833" Lon="-89.519" Lines="0MS3 BAPTIST MEML HOSPITAL-NORTH MS" />
             <Element xsi:type="Text" Filters="" Lat="34.346292" Lon="-89.51965" Lines="24MS HOSPITAL WING OF OXFORD" />
             <Element xsi:type="Text" Filters="" Lat="34.384333" Lon="-89.536806" Lines="KUOX UNIVERSITY-OXFORD" />
-            <Element xsi:type="Text" Filters="" Lat="30.462781" Lon="-88.529228" Lines="KPQL TRENT LOTT INTL" />
+            <Element xsi:type="Text" Filters="" Lat="30.462772" Lon="-88.529229" Lines="KPQL TRENT LOTT INTL" />
             <Element xsi:type="Text" Filters="" Lat="30.377581" Lon="-88.533411" Lines="MS72 SINGING RIVER HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="30.370477" Lon="-88.556961" Lines="MS87 BEN L BRIGGS" />
             <Element xsi:type="Text" Filters="" Lat="30.331394" Lon="-88.509172" Lines="MS78 PASCAGOULA REFINERY PAD NR 1" />
@@ -10058,7 +10062,7 @@
             <Element xsi:type="Text" Filters="" Lat="46.317353" Lon="-113.305151" Lines="U05 RIDDICK FLD" />
             <Element xsi:type="Text" Filters="" Lat="46.329864" Lon="-113.29475" Lines="MT67 GRANITE COUNTY MEML HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="46.356944" Lon="-113.510278" Lines="1MT6 BOBCAT FLD" />
-            <Element xsi:type="Text" Filters="" Lat="46.345021" Lon="-113.620535" Lines="MT22 FJB AIRSTRIP" />
+            <Element xsi:type="Text" Filters="" Lat="46.345021" Lon="-113.620535" Lines="MT22 SQUAW ROCK AIRSTRIP" />
             <Element xsi:type="Text" Filters="" Lat="46.471563" Lon="-113.492461" Lines="3MT9 WILLOW" />
             <Element xsi:type="Text" Filters="" Lat="46.285556" Lon="-113.518056" Lines="MT82 WILDCAT FLD" />
             <Element xsi:type="Text" Filters="" Lat="47.473556" Lon="-114.907081" Lines="S34 PLAINS" />
@@ -10400,7 +10404,7 @@
             <Element xsi:type="Text" Filters="" Lat="35.799582" Lon="-80.396166" Lines="2NC6 FLYING M" />
             <Element xsi:type="Text" Filters="" Lat="35.781141" Lon="-80.303773" Lines="KEXX DAVIDSON COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="35.781106" Lon="-80.417128" Lines="48NC MORRISON FLD" />
-            <Element xsi:type="Text" Filters="" Lat="35.911786" Lon="-79.617646" Lines="2A5 CAUSEY" />
+            <Element xsi:type="Text" Filters="" Lat="35.911786" Lon="-79.617646" Lines="NC74 CAUSEY" />
             <Element xsi:type="Text" Filters="" Lat="35.873748" Lon="-79.527522" Lines="N61 HINSHAW (GREENACRES)" />
             <Element xsi:type="Text" Filters="" Lat="35.425956" Lon="-78.809439" Lines="42NR HARNETT HEALTH" />
             <Element xsi:type="Text" Filters="" Lat="35.486111" Lon="-78.850278" Lines="NR77 JOHNSON FLD" />
@@ -11038,12 +11042,12 @@
             <Element xsi:type="Text" Filters="" Lat="40.809039" Lon="-96.628033" Lines="NE60 ST ELIZABETH COMMUNITY HEALTH CENTER" />
             <Element xsi:type="Text" Filters="" Lat="40.789625" Lon="-96.698275" Lines="47NE BRYAN LGH MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="40.933335" Lon="-96.70057" Lines="NE42 DREAM FLD" />
-            <Element xsi:type="Text" Filters="" Lat="40.850889" Lon="-96.759111" Lines="KLNK LINCOLN" />
+            <Element xsi:type="Text" Filters="" Lat="40.850891" Lon="-96.759121" Lines="KLNK LINCOLN" />
             <Element xsi:type="Text" Filters="" Lat="41.703343" Lon="-97.744498" Lines="9NE4 JOHNSTON FLD" />
             <Element xsi:type="Text" Filters="" Lat="41.286361" Lon="-98.990028" Lines="0F4 LOUP CITY MUNI" />
             <Element xsi:type="Text" Filters="" Lat="42.824998" Lon="-98.425359" Lines="NE06 WOOLF BROTHERS" />
             <Element xsi:type="Text" Filters="" Lat="40.108335" Lon="-100.808766" Lines="19NE HOYT" />
-            <Element xsi:type="Text" Filters="" Lat="40.206278" Lon="-100.592083" Lines="KMCK MC COOK BEN NELSON RGNL" />
+            <Element xsi:type="Text" Filters="" Lat="40.206292" Lon="-100.592094" Lines="KMCK MC COOK BEN NELSON RGNL" />
             <Element xsi:type="Text" Filters="" Lat="41.843618" Lon="-97.416992" Lines="NE62 OCHSNER" />
             <Element xsi:type="Text" Filters="" Lat="40.915576" Lon="-101.55981" Lines="4NE0 REGIER BROTHERS" />
             <Element xsi:type="Text" Filters="" Lat="40.895041" Lon="-101.502361" Lines="46NE JANTZEN" />
@@ -11677,6 +11681,7 @@
             <Element xsi:type="Text" Filters="" Lat="35.702104" Lon="-104.062236" Lines="NM32 BELL RANCH WAGGONER" />
             <Element xsi:type="Text" Filters="" Lat="34.54325" Lon="-106.759889" Lines="NM88 SKYWAGON FARM" />
             <Element xsi:type="Text" Filters="" Lat="34.540172" Lon="-106.7779" Lines="NM40 FLYING H" />
+            <Element xsi:type="Text" Filters="" Lat="33.182528" Lon="-108.683203" Lines="NM16 SACATON" />
             <Element xsi:type="Text" Filters="" Lat="33.544527" Lon="-105.375539" Lines="NM84 G BAR F RANCH" />
             <Element xsi:type="Text" Filters="" Lat="32.337444" Lon="-104.263361" Lines="KCNM CAVERN CITY AIR TRML" />
             <Element xsi:type="Text" Filters="" Lat="32.350083" Lon="-104.251222" Lines="NM95 CAREFLIGHT 25" />
@@ -11868,6 +11873,7 @@
             <Element xsi:type="Text" Filters="" Lat="37.491889" Lon="-117.188417" Lines="0L4 LIDA JUNCTION" />
             <Element xsi:type="Text" Filters="" Lat="37.722059" Lon="-117.236366" Lines="NV50 GOLDFIELD" />
             <Element xsi:type="Text" Filters="" Lat="38.545077" Lon="-118.632403" Lines="KHTH HAWTHORNE INDUSTRIAL" />
+            <Element xsi:type="Text" Filters="" Lat="38.517258" Lon="-118.626814" Lines="NV28 MT GRANT HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="36.003644" Lon="-115.114678" Lines="NV25 ST ROSE DOMINICAN HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="36.072294" Lon="-115.029647" Lines="32NV HENDERSON HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="36.058242" Lon="-115.273114" Lines="64NV ST ROSE DOMINICAN SAN MARTIN CAMPUS" />
@@ -15183,7 +15189,7 @@
             <Element xsi:type="Text" Filters="" Lat="35.583365" Lon="-89.587222" Lines="M04 COVINGTON MUNI" />
             <Element xsi:type="Text" Filters="" Lat="35.515556" Lon="-89.677778" Lines="8TN9 BULL RUN" />
             <Element xsi:type="Text" Filters="" Lat="35.534444" Lon="-89.735" Lines="9TN7 BASKIN" />
-            <Element xsi:type="Text" Filters="" Lat="35.951292" Lon="-85.084978" Lines="KCSV CROSSVILLE MEML-WHITSON FLD" />
+            <Element xsi:type="Text" Filters="" Lat="35.951291" Lon="-85.084977" Lines="KCSV CROSSVILLE MEML-WHITSON FLD" />
             <Element xsi:type="Text" Filters="" Lat="35.883402" Lon="-84.968842" Lines="4TN2 BUCK CREEK RANCH" />
             <Element xsi:type="Text" Filters="" Lat="35.941947" Lon="-85.019536" Lines="57TN CUMBERLAND COUNTY HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="35.458333" Lon="-86.956944" Lines="9TN5 ASKEY FLD" />
@@ -15405,7 +15411,7 @@
             <Element xsi:type="Text" Filters="" Lat="35.205146" Lon="-85.898147" Lines="KUOS FRANKLIN COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="35.829078" Lon="-83.777149" Lines="1TN8 INTO THE WIND" />
             <Element xsi:type="Text" Filters="" Lat="36.328333" Lon="-83.825556" Lines="TN13 OLD VALLEY" />
-            <Element xsi:type="Text" Filters="" Lat="35.559389" Lon="-86.442472" Lines="KSYI BOMAR FLD/SHELBYVILLE MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="35.5594" Lon="-86.442472" Lines="KSYI BOMAR FLD/SHELBYVILLE MUNI" />
             <Element xsi:type="Text" Filters="" Lat="35.493569" Lon="-86.473728" Lines="TN15 BEDFORD HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="35.398889" Lon="-86.553889" Lines="8TN2 PLEASANT GROVE AIRPARK" />
             <Element xsi:type="Text" Filters="" Lat="35.985444" Lon="-85.809111" Lines="0A3 SMITHVILLE MUNI" />
@@ -15644,6 +15650,7 @@
             <Element xsi:type="Text" Filters="" Lat="34.603617" Lon="-102.859839" Lines="7TS9 HEFNER FARMS" />
             <Element xsi:type="Text" Filters="" Lat="33.601667" Lon="-97.775556" Lines="0F2 BOWIE MUNI" />
             <Element xsi:type="Text" Filters="" Lat="33.647667" Lon="-97.829" Lines="1XA1 SKY ACRES" />
+            <Element xsi:type="Text" Filters="" Lat="33.518175" Lon="-98.144758" Lines="67XA J-L RANCH" />
             <Element xsi:type="Text" Filters="" Lat="33.456581" Lon="-94.849317" Lines="TX35 MOLAIR" />
             <Element xsi:type="Text" Filters="" Lat="33.10745" Lon="-97.548108" Lines="TA87 CARTER-NORMAN" />
             <Element xsi:type="Text" Filters="" Lat="33.015833" Lon="-97.635" Lines="6TS2 DAUENHAUER FLD" />
@@ -15667,6 +15674,7 @@
             <Element xsi:type="Text" Filters="" Lat="30.291194" Lon="-96.526861" Lines="TX04 LUCKY STAR RANCH" />
             <Element xsi:type="Text" Filters="" Lat="30.283528" Lon="-96.459611" Lines="49TE K STAR RANCH" />
             <Element xsi:type="Text" Filters="" Lat="30.219675" Lon="-96.374403" Lines="11R BRENHAM MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="30.305419" Lon="-96.205244" Lines="1TT1 WASH CO AIR 1 BASE" />
             <Element xsi:type="Text" Filters="" Lat="33.143728" Lon="-97.804478" Lines="3TA7 JIM SEARS" />
             <Element xsi:type="Text" Filters="" Lat="33.17396" Lon="-97.828427" Lines="KXBP BRIDGEPORT MUNI" />
             <Element xsi:type="Text" Filters="" Lat="30.856293" Lon="-97.945853" Lines="TX23 FLF" />
@@ -15890,7 +15898,7 @@
             <Element xsi:type="Text" Filters="" Lat="28.814975" Lon="-99.758109" Lines="8TE4 H &amp; F PROPERTIES" />
             <Element xsi:type="Text" Filters="" Lat="29.083588" Lon="-97.266934" Lines="T71 CUERO MUNI" />
             <Element xsi:type="Text" Filters="" Lat="29.112919" Lon="-97.284344" Lines="2TE9 CUERO COMMUNITY HOSPITAL" />
-            <Element xsi:type="Text" Filters="" Lat="29.927567" Lon="-95.632786" Lines="2XA3 NORTH CYPRESS MEDICAL CENTER" />
+            <Element xsi:type="Text" Filters="" Lat="29.92755" Lon="-95.632833" Lines="2XA3 NORTH CYPRESS MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="29.986217" Lon="-95.685662" Lines="TS07 DRY CREEK" />
             <Element xsi:type="Text" Filters="" Lat="33.148059" Lon="-94.700149" Lines="8F5 GREATER MORRIS COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="36.091699" Lon="-102.415746" Lines="25TS MILLER AIRFIELD" />
@@ -15922,6 +15930,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.897233" Lon="-97.037695" Lines="KDFW DALLAS-FORT WORTH INTL" />
             <Element xsi:type="Text" Filters="" Lat="32.845945" Lon="-96.850877" Lines="KDAL DALLAS LOVE FLD" />
             <Element xsi:type="Text" Filters="" Lat="32.820447" Lon="-96.850331" Lines="38TX UTSW MEDICAL CENTER - CLEMENTS" />
+            <Element xsi:type="Text" Filters="" Lat="32.912225" Lon="-96.767511" Lines="85TS MEDICAL CITY DALLAS EAST" />
             <Element xsi:type="Text" Filters="" Lat="29.35885" Lon="-95.664667" Lines="4TA0 PRAIRIE AIRE FLD" />
             <Element xsi:type="Text" Filters="" Lat="29.331077" Lon="-95.70467" Lines="XS21 H &amp; S AIRFIELD" />
             <Element xsi:type="Text" Filters="" Lat="29.291844" Lon="-95.35929" Lines="77XS GARRETT RANCH" />
@@ -16130,6 +16139,7 @@
             <Element xsi:type="Text" Filters="" Lat="30.092986" Lon="-98.701236" Lines="25XA HEADWATERS" />
             <Element xsi:type="Text" Filters="" Lat="30.2521" Lon="-98.824486" Lines="35TE WIESER ANGUS RANCH" />
             <Element xsi:type="Text" Filters="" Lat="30.308803" Lon="-99.022228" Lines="08TT LZ TANGO CHARLIE" />
+            <Element xsi:type="Text" Filters="" Lat="30.220889" Lon="-98.776967" Lines="XA45 BOMA" />
             <Element xsi:type="Text" Filters="" Lat="28.966389" Lon="-95.290556" Lines="52TX HERCULES MARINE SERVICES CORP" />
             <Element xsi:type="Text" Filters="" Lat="28.971667" Lon="-95.283056" Lines="0XA3 MIDSTREAM FREEPORT" />
             <Element xsi:type="Text" Filters="" Lat="28.976913" Lon="-95.317438" Lines="9TA6 BUCCANEER SHORE FACILITY" />
@@ -16145,6 +16155,7 @@
             <Element xsi:type="Text" Filters="" Lat="34.654234" Lon="-102.691881" Lines="X54 BENGER AIR PARK" />
             <Element xsi:type="Text" Filters="" Lat="33.180556" Lon="-96.838333" Lines="13TA TEXAS HEALTH RESOURCES FRISCO HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="33.132222" Lon="-96.788889" Lines="TX80 EDS SUPERDROME" />
+            <Element xsi:type="Text" Filters="" Lat="33.152033" Lon="-96.838458" Lines="29TA MED CITY FRISCO" />
             <Element xsi:type="Text" Filters="" Lat="32.108122" Lon="-96.808519" Lines="TT66 ROWDY T RANCH" />
             <Element xsi:type="Text" Filters="" Lat="29.690083" Lon="-95.840474" Lines="X09 COVEY TRAILS" />
             <Element xsi:type="Text" Filters="" Lat="28.154456" Lon="-96.976934" Lines="9TE5 KALT RANCH" />
@@ -16345,7 +16356,7 @@
             <Element xsi:type="Text" Filters="" Lat="29.753839" Lon="-95.365494" Lines="4TS0 FIRST CITY FINANCIAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="29.562222" Lon="-95.090833" Lines="72TX JOHNSON SPACE CENTER" />
             <Element xsi:type="Text" Filters="" Lat="29.759167" Lon="-95.3675" Lines="XA19 DRV DOWNTOWN HOUSTON AQUARIUM" />
-            <Element xsi:type="Text" Filters="" Lat="29.728563" Lon="-95.594389" Lines="29TS WEST HOUSTON MEDICAL CENTER" />
+            <Element xsi:type="Text" Filters="" Lat="29.728556" Lon="-95.594494" Lines="29TS WEST HOUSTON MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="29.707686" Lon="-95.399292" Lines="64TS CHI BAYLOR ST LUKE'S MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="29.990069" Lon="-95.568069" Lines="20XA ST LUKE'S HOSPITAL AT THE VINTAGE" />
             <Element xsi:type="Text" Filters="" Lat="29.760506" Lon="-95.387439" Lines="66TS KHOU-TV" />
@@ -16522,7 +16533,7 @@
             <Element xsi:type="Text" Filters="" Lat="29.277125" Lon="-103.685795" Lines="T89 LAJITAS INTL" />
             <Element xsi:type="Text" Filters="" Lat="33.131389" Lon="-97.014194" Lines="30F LAKEVIEW" />
             <Element xsi:type="Text" Filters="" Lat="33.173453" Lon="-97.051398" Lines="5TX0 HIDDEN VALLEY AIRPARK" />
-            <Element xsi:type="Text" Filters="" Lat="29.395025" Lon="-94.986358" Lines="0TA0 HCA HOUSTON HEALTHCARE MAINLAND" />
+            <Element xsi:type="Text" Filters="" Lat="29.395008" Lon="-94.986342" Lines="0TA0 HCA HOUSTON HEALTHCARE MAINLAND" />
             <Element xsi:type="Text" Filters="" Lat="30.332778" Lon="-97.971944" Lines="9TS5 BAYLOR SCOTT AND WHITE MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="32.756306" Lon="-101.920222" Lines="KLUV LAMESA MUNI" />
             <Element xsi:type="Text" Filters="" Lat="32.748611" Lon="-101.779444" Lines="XA77 BENNY WHITE FLYING" />
@@ -16786,6 +16797,7 @@
             <Element xsi:type="Text" Filters="" Lat="29.716025" Lon="-98.124189" Lines="TE60 CHRISTUS SANTA ROSA HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="29.667726" Lon="-98.198899" Lines="48TS FOX" />
             <Element xsi:type="Text" Filters="" Lat="29.85833" Lon="-98.114625" Lines="57XA AUSMUS" />
+            <Element xsi:type="Text" Filters="" Lat="33.072828" Lon="-97.398339" Lines="XS05 FREEDOM" />
             <Element xsi:type="Text" Filters="" Lat="29.27334" Lon="-95.886903" Lines="1TX4 NEW GULF" />
             <Element xsi:type="Text" Filters="" Lat="30.884056" Lon="-93.742472" Lines="61R NEWTON MUNI" />
             <Element xsi:type="Text" Filters="" Lat="30.539156" Lon="-95.436225" Lines="XS09 ESTATES AIRPARK" />
@@ -16846,6 +16858,7 @@
             <Element xsi:type="Text" Filters="" Lat="33.636611" Lon="-95.45075" Lines="KPRX COX FLD" />
             <Element xsi:type="Text" Filters="" Lat="33.693268" Lon="-95.308711" Lines="72XS WHITAKER'S LANDING" />
             <Element xsi:type="Text" Filters="" Lat="33.689314" Lon="-95.548378" Lines="19TE PARIS RGNL MEDICAL CENTER" />
+            <Element xsi:type="Text" Filters="" Lat="33.577078" Lon="-95.656039" Lines="21TX AMBIA FARM" />
             <Element xsi:type="Text" Filters="" Lat="32.250425" Lon="-97.297236" Lines="TE16 COW PASTURE" />
             <Element xsi:type="Text" Filters="" Lat="32.261389" Lon="-97.275278" Lines="TX74 THOMAS FLYING FLD" />
             <Element xsi:type="Text" Filters="" Lat="29.660507" Lon="-95.201878" Lines="XS38 3321 WESTSIDE" />
@@ -17207,7 +17220,7 @@
             <Element xsi:type="Text" Filters="" Lat="28.474286" Lon="-98.583819" Lines="43TS AERO SAYLEE" />
             <Element xsi:type="Text" Filters="" Lat="33.321667" Lon="-95.5636" Lines="XA17 CHUCKSTER" />
             <Element xsi:type="Text" Filters="" Lat="32.336111" Lon="-97.969444" Lines="XA69 SHELTON PVT" />
-            <Element xsi:type="Text" Filters="" Lat="30.086735" Lon="-95.621402" Lines="TS52 TOMBALL RGNL MEDICAL CENTER" />
+            <Element xsi:type="Text" Filters="" Lat="30.086753" Lon="-95.621428" Lines="TS52 TOMBALL RGNL MEDICAL CENTER" />
             <Element xsi:type="Text" Filters="" Lat="30.061" Lon="-95.557778" Lines="TE49 H S I" />
             <Element xsi:type="Text" Filters="" Lat="29.941506" Lon="-95.529864" Lines="1XA9 LIFE FLIGHT NORTH FUEL" />
             <Element xsi:type="Text" Filters="" Lat="30.095218" Lon="-95.544941" Lines="TA96 HELICOPTER EXPRESS" />
@@ -17234,6 +17247,7 @@
             <Element xsi:type="Text" Filters="" Lat="29.634949" Lon="-99.482269" Lines="95TA THUNDER CREEK" />
             <Element xsi:type="Text" Filters="" Lat="29.713072" Lon="-99.545642" Lines="04TT 4D RANCH" />
             <Element xsi:type="Text" Filters="" Lat="29.585081" Lon="-99.55405" Lines="TS90 HIDDEN VALLEY RANCH" />
+            <Element xsi:type="Text" Filters="" Lat="29.600833" Lon="-99.520911" Lines="TS41 WARESVILLE" />
             <Element xsi:type="Text" Filters="" Lat="29.211333" Lon="-99.743583" Lines="KUVA GARNER FLD" />
             <Element xsi:type="Text" Filters="" Lat="29.450232" Lon="-99.683664" Lines="2XS7 ANNANDALE RANCH" />
             <Element xsi:type="Text" Filters="" Lat="29.487667" Lon="-100.014972" Lines="62TX LOS CERRITO" />
@@ -17358,7 +17372,7 @@
             <Element xsi:type="Text" Filters="" Lat="30.0859" Lon="-98.169642" Lines="4XS9 CAJUN HILLS RANCH" />
             <Element xsi:type="Text" Filters="" Lat="32.137181" Lon="-100.129889" Lines="88TE SCOTT AIRFIELD" />
             <Element xsi:type="Text" Filters="" Lat="31.779806" Lon="-103.201694" Lines="KINK WINKLER COUNTY" />
-            <Element xsi:type="Text" Filters="" Lat="29.85855" Lon="-94.354075" Lines="TE73 GRIFFITH RANCH" />
+            <Element xsi:type="Text" Filters="" Lat="29.855969" Lon="-94.353192" Lines="TE73 GRIFFITH RANCH" />
             <Element xsi:type="Text" Filters="" Lat="29.769666" Lon="-94.261297" Lines="5XS3 WILBER FARMS" />
             <Element xsi:type="Text" Filters="" Lat="29.818854" Lon="-94.430979" Lines="T90 CHAMBERS COUNTY/WINNIE STOWELL" />
             <Element xsi:type="Text" Filters="" Lat="29.826003" Lon="-94.511022" Lines="77XA XL RANCH" />
@@ -18305,6 +18319,7 @@
             <Element xsi:type="Text" Filters="" Lat="47.871364" Lon="-121.995244" Lines="W16 FIRST AIR FLD" />
             <Element xsi:type="Text" Filters="" Lat="47.872322" Lon="-121.922902" Lines="WN20 VAN DE PLASCH" />
             <Element xsi:type="Text" Filters="" Lat="48.423611" Lon="-117.363167" Lines="WA69 TACOMA COMMAND POST" />
+            <Element xsi:type="Text" Filters="" Lat="48.143889" Lon="-119.678889" Lines="WT55 AREA 55" />
             <Element xsi:type="Text" Filters="" Lat="46.550361" Lon="-122.266626" Lines="39P STROM FLD" />
             <Element xsi:type="Text" Filters="" Lat="47.142004" Lon="-119.237882" Lines="W20 MOSES LAKE MUNI" />
             <Element xsi:type="Text" Filters="" Lat="47.208583" Lon="-119.319139" Lines="KMWH GRANT COUNTY INTL" />
@@ -18343,7 +18358,7 @@
             <Element xsi:type="Text" Filters="" Lat="46.963986" Lon="-122.891553" Lines="0WN4 OLYMPIA" />
             <Element xsi:type="Text" Filters="" Lat="47.111485" Lon="-122.821247" Lines="6WA2 GOWER FLD" />
             <Element xsi:type="Text" Filters="" Lat="46.992389" Lon="-122.827833" Lines="44T HOSKINS FLD" />
-            <Element xsi:type="Text" Filters="" Lat="48.46441" Lon="-119.518054" Lines="KOMK OMAK" />
+            <Element xsi:type="Text" Filters="" Lat="48.464412" Lon="-119.518051" Lines="KOMK OMAK" />
             <Element xsi:type="Text" Filters="" Lat="48.397244" Lon="-119.547764" Lines="9WA5 MID-VALLEY HOSPITAL EMS" />
             <Element xsi:type="Text" Filters="" Lat="46.537607" Lon="-122.717893" Lines="WN59 NELSONS NITCH" />
             <Element xsi:type="Text" Filters="" Lat="46.585384" Lon="-122.626226" Lines="WN74 BURNT RIDGE AIRSTRIP" />
@@ -18682,6 +18697,7 @@
             <Element xsi:type="Text" Filters="" Lat="45.214641" Lon="-88.073298" Lines="3D1 CRIVITZ MUNI" />
             <Element xsi:type="Text" Filters="" Lat="45.506099" Lon="-91.980802" Lines="KUBE CUMBERLAND MUNI" />
             <Element xsi:type="Text" Filters="" Lat="45.584444" Lon="-91.925833" Lines="2WN2 SILVER LAKE" />
+            <Element xsi:type="Text" Filters="" Lat="45.540322" Lon="-92.053489" Lines="9WI7 CUMBERLAND HEALTHCARE" />
             <Element xsi:type="Text" Filters="" Lat="42.948887" Lon="-89.825278" Lines="WI43 ATKINS RIDGE" />
             <Element xsi:type="Text" Filters="" Lat="43.222214" Lon="-89.468175" Lines="WI65 DANE" />
             <Element xsi:type="Text" Filters="" Lat="43.268333" Lon="-89.484444" Lines="5WN2 EBERLE RANCH" />
@@ -18815,7 +18831,7 @@
             <Element xsi:type="Text" Filters="" Lat="45.332052" Lon="-88.535996" Lines="4WN3 LAKEWOOD AIRPARK" />
             <Element xsi:type="Text" Filters="" Lat="42.843639" Lon="-90.708417" Lines="5WI9 GRANT RGNL HEALTH CENTER" />
             <Element xsi:type="Text" Filters="" Lat="42.782528" Lon="-90.681083" Lines="73C LANCASTER MUNI" />
-            <Element xsi:type="Text" Filters="" Lat="46.154117" Lon="-89.211965" Lines="KLNL KINGS LAND O' LAKES" />
+            <Element xsi:type="Text" Filters="" Lat="46.154118" Lon="-89.211965" Lines="KLNL KINGS LAND O' LAKES" />
             <Element xsi:type="Text" Filters="" Lat="45.574964" Lon="-88.708445" Lines="90WI HERITAGE ACRES" />
             <Element xsi:type="Text" Filters="" Lat="46.788667" Lon="-90.758722" Lines="4R5 MAJOR GILBERT FLD" />
             <Element xsi:type="Text" Filters="" Lat="44.202761" Lon="-88.639554" Lines="WI91 LARSON" />
@@ -18916,7 +18932,7 @@
             <Element xsi:type="Text" Filters="" Lat="43.138895" Lon="-88.472321" Lines="0WI8 OCONOMOWOC" />
             <Element xsi:type="Text" Filters="" Lat="43.067507" Lon="-88.50871" Lines="WN46 BATTLE CREEK" />
             <Element xsi:type="Text" Filters="" Lat="44.874056" Lon="-87.90977" Lines="KOCQ OCONTO/J DOUGLAS BAKE MUNI" />
-            <Element xsi:type="Text" Filters="" Lat="44.951933" Lon="-87.808437" Lines="30W SWEETWATER BAY" />
+            <Element xsi:type="Text" Filters="" Lat="44.951933" Lon="-87.808437" Lines="16WI SWEETWATER BAY" />
             <Element xsi:type="Text" Filters="" Lat="44.865381" Lon="-88.128664" Lines="22WI HSHS ST CLARE MEML HOSPITAL" />
             <Element xsi:type="Text" Filters="" Lat="45.808294" Lon="-91.096274" Lines="WI37 RAINBOW" />
             <Element xsi:type="Text" Filters="" Lat="43.597497" Lon="-87.778976" Lines="2WI8 DAVIES" />

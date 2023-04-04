@@ -1,6 +1,6 @@
 ; ZSE POSITION ID FILE FOR VRC
 
-; Last updated 2022-04-02
+; Last updated 2022-09-30
 
 ; Use this file to create unique static controller position id's for your radar client.
 ; Amending this file only changes the way controllers appear to you, and does not affect
@@ -78,18 +78,16 @@ Spokane Approach:-:133.350:4C:E:GEG:APP:GEG:APP:6601:6677  ; Combined
 Spokane Approach:-:133.350:4G:E:GEG:APP:GEG:APP:6601:6677
 Spokane East Approach:-:133.350:4E:E:GEG:APP:GEG:E-APP:6601:6677
 Spokane West Approach:-:123.750:4W:W:GEG:APP:GEG:W-APP:6601:6677
-Spokane Approach Missoula:-:124.900:4M:M:GEG:APP:GEG:O-APP:6601:6677
+;Spokane Approach Missoula:-:124.900:4M:M:GEG:APP:GEG:O-APP:6601:6677
+
+; Spokane Approach (6's) (formerly Chinook) 
+Spokane Partial Combined Approach:Spokane Approach:128.750:6N:A:PSC:APP:PSC:APP:4601:4643
+Spokane Approach Pasco:Spokane Approach:128.750:6N:N:PSC:APP:PSC:APP:4601:4643
+Spokane Approach Yakima:Spokane Approach:123.800:6Y:Y:YKM:APP:YKM:APP:4601:4643
 
 ; Grant County Approach (5's)
 Grant County Approach:-:126.400:5A:A:MWH:APP:MWH:APP:3560:3577
 ; Grant County Approach:-:126.100:5D:D:MWH:APP:MWH:APP:3560:3577
-
-; Chinook Approach (6's)
-Chinook Approach:-:128.750:6C:A:PSC:APP:PSC:C-APP:4601:4643  ; Combined
-Chinook Approach Pasco:Chinook Approach:128.750:6N:A:PSC:APP:PSC:APP:4601:4643
-Chinook Approach Pasco North:Chinook Approach:128.750:6N:N:PSC:APP:PSC:N-APP:4601:4643
-Chinook Approach Pasco South:Chinook Approach:133.150:6S:S:PSC:APP:PSC:S-APP:4601:4643
-Chinook Approach Yakima:Chinook Approach:123.800:6Y:Y:YKM:APP:YKM:APP:4601:4643
 
 ; Cascade Approach (7's)
 Cascade Approach:-:119.600:7C:A:EUG:APP:EUG:C-APP:4726:4777  ; Combined

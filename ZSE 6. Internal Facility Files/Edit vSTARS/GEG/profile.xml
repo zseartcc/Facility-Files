@@ -4,7 +4,7 @@
     <Name>Spokane TRACON</Name>
     <VisibilityRange>150</VisibilityRange>
     <MagVar>-14.5</MagVar>
-    <Center Lon="-115.2806556" Lat="47.5734972" />
+    <Center Lon="-117.55195" Lat="47.61973" />
     <RadarSites>
       <RadarSite IsPrimary="true" Character="G" ID="GEG" Elevation="2389" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
         <Location Lon="-117.55195" Lat="47.61973" />
@@ -18,15 +18,25 @@
       <RadarSite IsPrimary="false" Character="S" ID="MSO" Elevation="3210" FloorSlope="0.3" PrimaryRange="55" SecondaryRange="40" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
         <Location Lon="-114.10088" Lat="46.91838" />
       </RadarSite>
+      <RadarSite IsPrimary="false" Character="G" ID="PSC" Elevation="450" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+        <Location Lon="-119.12221" Lat="46.280272" />
+      </RadarSite>
+      <RadarSite IsPrimary="false" Character="K" ID="YKM" Elevation="1056" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+        <Location Lon="-120.5386" Lat="46.56046" />
+      </RadarSite>
     </RadarSites>
     <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
-      <AirportData ID="KGEG" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
+      <AirportData ID="KGEG" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
       <AirportData ID="KSKA" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
       <AirportData ID="KSFF" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />
       <AirportData ID="KCOE" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="60" />
       <AirportData ID="KMSO" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KPSC" TowerList="2" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KALW" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KPDT" TowerList="0" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
+      <AirportData ID="KYKM" TowerList="3" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />
     </AirportData>
     <CALateralMinimum>3</CALateralMinimum>
     <CAVerticalMinimum>1000</CAVerticalMinimum>
@@ -45,6 +55,17 @@
       <RDVSFrequencySpec Frequency="24900" />
       <RDVSFrequencySpec Frequency="26200" />
       <RDVSFrequencySpec Frequency="21850" />
+      <RDVSFrequencySpec Frequency="28750" />
+      <RDVSFrequencySpec Frequency="33150" />
+      <RDVSFrequencySpec Frequency="23800" />
+      <RDVSFrequencySpec Frequency="18500" />
+      <RDVSFrequencySpec Frequency="19700" />
+      <RDVSFrequencySpec Frequency="24200" />
+      <RDVSFrequencySpec Frequency="26400" />
+      <RDVSFrequencySpec Frequency="35300" />
+      <RDVSFrequencySpec Frequency="21800" />
+      <RDVSFrequencySpec Frequency="33250" />
+      <RDVSFrequencySpec Frequency="21900" />
     </RDVSFrequencySpecs>
     <ScratchpadRules />
     <CoastSuspendListTimeout>5</CoastSuspendListTimeout>

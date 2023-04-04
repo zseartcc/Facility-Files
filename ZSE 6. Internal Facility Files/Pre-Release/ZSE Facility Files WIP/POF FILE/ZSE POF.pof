@@ -24,53 +24,49 @@
 ; 6601-6677 -- GEG, SKA, SFF
 
 
-; Seattle Center
+; Seattle Center (Each main position followed by its relief position)
 Seattle Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:CTR:5101:5277  ; Combined
-;Seattle 01 Center:Seattle Center:120.300:S01:S:SEA:CTR:SEA:01-CTR:5101:5277
+Seattle 01 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:01-CTR:5101:5277  ; Combined relief
 Seattle 02 Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:02-CTR:5101:5277
+Seattle 0B Center:Seattle Center:128.300:S02:S:SEA:CTR:SEA:0B-CTR:5101:5277
 Seattle 03 Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:03-CTR:5101:5277
-;Seattle 04 Center:Seattle Center:124.200:S04:S:SEA:CTR:SEA:04-CTR:5101:5277
-;Seattle 05 Center:Seattle Center:128.150:S05:S:SEA:CTR:SEA:05-CTR:5101:5277
+Seattle 0C Center:Seattle Center:125.100:S03:S:SEA:CTR:SEA:0C-CTR:5101:5277
 Seattle 06 Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:06-CTR:5101:5277
+Seattle 0F Center:Seattle Center:125.800:S06:S:SEA:CTR:SEA:0F-CTR:5101:5277
 Seattle 07 Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:07-CTR:5101:5277
-;Seattle 08 Center:Seattle Center:123.950:S08:S:SEA:CTR:SEA:08-CTR:5101:5277
-;Seattle 09 Center:Seattle Center:132.600:S09:S:SEA:CTR:SEA:09-CTR:5101:5277
-;Seattle 10 Center:Seattle Center:127.600:S10:S:SEA:CTR:SEA:10-CTR:5101:5277
+Seattle 0G Center:Seattle Center:128.450:S07:S:SEA:CTR:SEA:0G-CTR:5101:5277
 Seattle 11 Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:11-CTR:5101:5277
+Seattle 1A Center:Seattle Center:119.225:S11:S:SEA:CTR:SEA:1A-CTR:5101:5277
 Seattle 12 Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:12-CTR:5101:5277
+Seattle 1B Center:Seattle Center:134.950:S12:S:SEA:CTR:SEA:1B-CTR:5101:5277
 Seattle 13 Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:13-CTR:5101:5277
+Seattle 1C Center:Seattle Center:135.350:S13:S:SEA:CTR:SEA:1C-CTR:5101:5277
 Seattle 14 Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:14-CTR:5101:5277
+Seattle 1D Center:Seattle Center:134.900:S14:S:SEA:CTR:SEA:1D-CTR:5101:5277
 Seattle 15 Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:15-CTR:5101:5277
+Seattle 1E Center:Seattle Center:135.150:S15:S:SEA:CTR:SEA:1E-CTR:5101:5277
 Seattle 16 Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:16-CTR:5101:5277
-;Seattle 18 Center:Seattle Center:126.100:S18:S:SEA:CTR:SEA:18-CTR:5101:5277
-;Seattle 30 Center:Seattle Center:135.150:S30:S:SEA:CTR:SEA:30-CTR:5101:5277
-;Seattle 31 Center:Seattle Center:127.050:S31:S:SEA:CTR:SEA:31-CTR:5101:5277
-;Seattle 32 Center:Seattle Center:126.600:S32:S:SEA:CTR:SEA:32-CTR:5101:5277
+Seattle 1F Center:Seattle Center:135.450:S16:S:SEA:CTR:SEA:1F-CTR:5101:5277
 Seattle 34 Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:34-CTR:5101:5277
-;Seattle 35 Center:Seattle Center:126.150:S35:S:SEA:CTR:SEA:35-CTR:5101:5277
-;Seattle 36 Center:Seattle Center:124.850:S36:S:SEA:CTR:SEA:36-CTR:5101:5277
+Seattle 3D Center:Seattle Center:119.650:S34:S:SEA:CTR:SEA:3D-CTR:5101:5277
 Seattle 42 Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:42-CTR:5101:5277
+Seattle 4B Center:Seattle Center:132.075:S42:S:SEA:CTR:SEA:4B-CTR:5101:5277
 Seattle 46 Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:46-CTR:5101:5277
+Seattle 4F Center:Seattle Center:121.350:S46:S:SEA:CTR:SEA:4F-CTR:5101:5277
 Seattle 47 Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:47-CTR:5101:5277
-;Seattle 48 Center:Seattle Center:118.625:S48:S:SEA:CTR:SEA:48-CTR:5101:5277
+Seattle 4G Center:Seattle Center:118.550:S47:S:SEA:CTR:SEA:4G-CTR:5101:5277
 
 
 ; Seattle TRACON (S46)
-Seattle Combined Approach:-:125.600:1W:W:SEA:APP:SEA:APP:1501:1677
-Seattle East Feeder:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1677
-Seattle West Feeder:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1677
-Seattle Final (Sea-Tac):-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1677
-Seattle Final (Boeing):-:125.900:1D:D:SEA:APP:SEA:D-APP:1501:1677
-Seattle Final (Boeing):-:125.900:1O:O:SEA:APP:SEA:O-APP:1501:1677
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:DEP:SEA:Y-DEP:1501:1677
-Seattle Departure/Satellites:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1677
-Seattle Departure East:-:119.200:1A:A:SEA:APP:SEA:A-APP:1501:1677
-Seattle Satellite Approach McChord/Combined:-:126.500:1N:N:SEA:APP:SEA:N-APP:1501:1677
-Seattle Approach Narrows/Bremerton:-:127.100:1K:K:SEA:APP:SEA:K-APP:1501:1677
-Seattle Satellite Paine:-:128.500:1P:P:SEA:APP:SEA:P-APP:1501:1677
+Seattle Approach:-:125.600:1W:W:SEA:APP:SEA:APP:1501:1677  ; Combined
+Seattle East Approach:-:123.900:1E:E:SEA:APP:SEA:E-APP:1501:1677
+Seattle West Approach:-:125.600:1W:W:SEA:APP:SEA:W-APP:1501:1677
+Seattle Final Sector:-:133.650:1F:F:SEA:APP:SEA:F-APP:1501:1677
+Seattle Yankee Sector:-:120.400:1Y:Y:SEA:APP:SEA:Y-APP:1501:1677
+Seattle Departure:-:119.200:1A:A:SEA:DEP:SEA:A-APP:1501:1677
 
 ; Portland TRACON (P80)
-Portland Combined Approach:-:124.350:3A:N:PDX:APP:PDX:APP:1501:1677
+Portland Approach:-:124.350:3A:N:PDX:APP:PDX:APP:1501:1677  ; Combined
 Portland North Approach:-:124.350:3N:N:PDX:APP:PDX:N-APP:1501:1677
 Portland South Approach:-:118.100:3S:S:PDX:APP:PDX:S-APP:1501:1677
 Portland Final Approach:-:126.900:3F:F:PDX:APP:PDX:F-APP:1501:1677
@@ -78,7 +74,7 @@ Portland Final Approach:-:126.900:3F:F:PDX:APP:PDX:F-APP:1501:1677
 Portland Newberg Approach:-:126.000:3U:U:PDX:APP:PDX:U-APP:1501:1677
 
 ; Spokane Approach (4's)
-Spokane Combined Approach:-:133.350:4C:E:GEG:APP:GEG:APP:6601:6677
+Spokane Approach:-:133.350:4C:E:GEG:APP:GEG:APP:6601:6677  ; Combined
 Spokane Approach:-:133.350:4G:E:GEG:APP:GEG:APP:6601:6677
 Spokane East Approach:-:133.350:4E:E:GEG:APP:GEG:E-APP:6601:6677
 Spokane West Approach:-:123.750:4W:W:GEG:APP:GEG:W-APP:6601:6677
@@ -94,7 +90,7 @@ Grant County Approach:-:126.400:5A:A:MWH:APP:MWH:APP:3560:3577
 ; Grant County Approach:-:126.100:5D:D:MWH:APP:MWH:APP:3560:3577
 
 ; Cascade Approach (7's)
-Cascade Combined Approach:Cascade Approach:119.600:7C:A:EUG:APP:EUG:C-APP:4726:4777
+Cascade Approach:-:119.600:7C:A:EUG:APP:EUG:C-APP:4726:4777  ; Combined
 Cascade Approach Eugene:Cascade Approach:119.600:7W:A:EUG:APP:EUG:APP:4726:4762
 Cascade Approach Eugene East:Cascade Approach:119.600:7W:W:EUG:APP:EUG:W-APP:4726:4762
 Cascade Approach Eugene West:Cascade Approach:120.250:7E:E:EUG:APP:EUG:E-APP:4726:4762
@@ -102,7 +98,7 @@ Cascade Approach Medford:Cascade Approach:124.300:7M:M:MFR:APP:MFR:APP:4763:4777
 Kingsley Approach:-:123.675:8K:L:LMT:APP:LMT:APP:4701:4725
 
 ; Whidbey Approach (9's)
-Whidbey Combined Approach:Whidbey Approach:118.200:9W:W:NUW:APP:NUW:APP:4654:4677
+Whidbey Approach:-:118.200:9W:W:NUW:APP:NUW:APP:4654:4677  ; Combined
 Whidbey West Approach:-:118.200:9W:W:NUW:APP:NUW:W-APP:4654:4677
 Whidbey East Approach:-:120.700:9E:E:NUW:APP:NUW:E-APP:4654:4677
 
@@ -134,7 +130,7 @@ Felts Ground:-:121.700:4Z:-:SFF:GND:SFF:GND:6601:6677
 
 ; Grant County KMWH
 Grant County Tower:-:118.250:5T:T:MWH:TWR:MWH:TWR:3560:3577
-Grant County Tower:-:128.000:5W:W:MWH:TWR:MWH:W-TWR:3560:3577
+Grant County West Tower:-:128.000:5W:W:MWH:TWR:MWH:W-TWR:3560:3577
 Grant County Ground:-:121.900:5G:-:MWH:GND:MWH:GND:3560:3577
 
 ; Gray AAF KGRF

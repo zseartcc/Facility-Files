@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5813889,
+            48.1663889
+          ],
+          [
+            -122.5263889,
+            48.0955556
+          ],
+          [
+            -122.6880556,
+            48.1013889
+          ],
+          [
+            -122.6836111,
+            48.1663889
+          ],
+          [
+            -122.5813889,
+            48.1663889
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#505028",
+        "style": "solid",
+        "thickness": 0
+      }
+    }
+  ]
+}

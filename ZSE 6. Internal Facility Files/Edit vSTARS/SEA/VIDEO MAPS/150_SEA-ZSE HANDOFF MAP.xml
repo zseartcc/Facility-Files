@@ -1,9 +1,9 @@
 <VideoMap ShortName="ZSE-HO" LongName="SEA-ZSE HANDOFF MAP" STARSGroup="A" STARSTDMOnly="false" VisibleInList="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Colors>
-    <NamedColor Red="136" Green="137" Blue="127" Name="ZSEHO" />
+    <NamedColor Red="80" Green="80" Blue="40" Name="R80G80B40" />
   </Colors>
 <Elements>
-  <Element xsi:type="Line" Color="ZSEHO" StartLon="0" StartLat="0" EndLon="0" EndLat="0" Style="Solid" Thickness="0" />
+  <Element xsi:type="Line" Color="R80G80B40" StartLon="0" StartLat="0" EndLon="0" EndLat="0" Style="Solid" Thickness="0" />
   <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.4997861" StartLat="46.0001325" EndLon="-122.5378122" EndLat="46.09512" Style="Solid" Thickness="0" />
   <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.5378122" StartLat="46.09512" EndLon="-122.5831331" EndLat="46.33352" Style="Solid" Thickness="0" />
   <Element xsi:type="Line" Color="R80G80B40" StartLon="-122.5831331" StartLat="46.33352" EndLon="-122.5247747" EndLat="46.7085033" Style="Solid" Thickness="0" />

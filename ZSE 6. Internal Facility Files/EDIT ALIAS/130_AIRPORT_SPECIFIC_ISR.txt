@@ -4430,6 +4430,57 @@
 
 
 
+; MFR KLAMATHFALLS 
+ 
+ 
+.MFRKLAMATHFALLS .FD MFR_KLAMATHFALLS 
+ 
+.MFRKLAMATHFALLSDEL .MSG ZSE_ISR *** KLAMATHFALLS 1 ::: RNAV-PilotNav ::: RWY 14 :::  ::: Maint 6k ::: CRZ-5min(Listed) ::: DEP FREQ 124.3 
+ 
+.MFRKLAMATHFALLSGND .MSG ZSE_ISR *** KLAMATHFALLS 1 ::: RWY 14 :::  
+ 
+.MFRKLAMATHFALLSTWR .MSG ZSE_ISR *** KLAMATHFALLS 1 ::: RNAV-PilotNav :::  ::: DEP FREQ 124.3 
+ 
+.MFRKLAMATHFALLSDEP .MSG ZSE_ISR *** KLAMATHFALLS 1 ::: RNAV-PilotNav ::: Maint 6k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published :::  
+ 
+.MFRKLAMATHFALLSCTR .MSG ZSE_ISR *** KLAMATHFALLS 1 ::: CRZ-5min(Listed) ::: TopAlt Not Published 
+ 
+.TCRAFTMFRKLAMATHFALLS Cleared to $arr via  $route. Maintain 6k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. .  
+ 
+.TCRAFTMFRKLAMATHFALLSU Cleared to $arr via  $route. Maintain 6k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. .  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+; MFR SMKKY 
+ 
+ 
+.MFRSMKKY .FD MFR_SMKKY 
+ 
+.MFRSMKKYDEL .MSG ZSE_ISR *** SMKKY 1 ::: RNAV-PilotNav ::: RWY 14 :::  ::: Maint 6k ::: CRZ-5min(Listed) ::: DEP FREQ 124.3 
+ 
+.MFRSMKKYGND .MSG ZSE_ISR *** SMKKY 1 ::: RWY 14 :::  
+ 
+.MFRSMKKYTWR .MSG ZSE_ISR *** SMKKY 1 ::: RNAV-PilotNav :::  ::: DEP FREQ 124.3 
+ 
+.MFRSMKKYDEP .MSG ZSE_ISR *** SMKKY 1 ::: RNAV-PilotNav ::: Maint 6k issued by DEL ::: CRZ-5min(Listed) ::: TopAlt Not Published ::: Assign acft at or abv 6400 by BLAAZ 
+ 
+.MFRSMKKYCTR .MSG ZSE_ISR *** SMKKY 1 ::: CRZ-5min(Listed) ::: TopAlt Not Published 
+ 
+.TCRAFTMFRSMKKY Cleared to $arr via  $route. Maintain 6k. Expect $cruise 5min after departure. Departure frequency $freq($1), squawk $squawk. .  
+ 
+.TCRAFTMFRSMKKYU Cleared to $arr via  $route. Maintain 6k. Expect $cruise 5min after departure. Departure OFFLINE, squawk $squawk. .  
+
+
+
+
+
+
+
 
 ;-------------
 ; MMV AIRPORT

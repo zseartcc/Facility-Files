@@ -29,7 +29,6 @@
             <Element xsi:type="Text" Filters="" Lat="56.963917" Lon="-133.911889" Lines="AFE KAKE NDB/DME" />
             <Element xsi:type="Text" Filters="" Lat="55.342173" Lon="-131.690765" Lines="CMJ CLAM COVE NDB" />
             <Element xsi:type="Text" Filters="" Lat="58.737168" Lon="-156.778308" Lines="AUB CHINOOK NDB" />
-            <Element xsi:type="Text" Filters="" Lat="55.568621" Lon="-133.081396" Lines="AKW KLAWOCK NDB/DME" />
             <Element xsi:type="Text" Filters="" Lat="57.774816" Lon="-152.324587" Lines="RWO WOODY ISLAND NDB" />
             <Element xsi:type="Text" Filters="" Lat="66.901264" Lon="-162.564383" Lines="HHM HOTHAM NDB" />
             <Element xsi:type="Text" Filters="" Lat="70.32804" Lon="-149.635334" Lines="PYC PITSAND NDB" />
@@ -147,7 +146,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.223669" Lon="-82.297448" Lines="UQN ONYUN NDB" />
             <Element xsi:type="Text" Filters="" Lat="31.325807" Lon="-82.397779" Lines="AY WIKET NDB" />
             <Element xsi:type="Text" Filters="" Lat="33.935359" Lon="-83.589481" Lines="BMW BARROW COUNTY NDB" />
-            <Element xsi:type="Text" Filters="" Lat="13.453527" Lon="-215.263067" Lines="AJA MT MACAJNA NDB" />
+            <Element xsi:type="Text" Filters="" Lat="13.453505" Lon="-215.263067" Lines="AJA MT MACAJNA NDB" />
             <Element xsi:type="Text" Filters="" Lat="19.763356" Lon="-155.594356" Lines="BSF BRADSHAW NDB" />
             <Element xsi:type="Text" Filters="" Lat="21.324709" Lon="-158.049" Lines="HN EWABE NDB" />
             <Element xsi:type="Text" Filters="" Lat="20.880862" Lon="-156.442596" Lines="VYI VALLEY ISLAND NDB" />
@@ -369,7 +368,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.852701" Lon="-104.460518" Lines="ATS ARTESIA NDB" />
             <Element xsi:type="Text" Filters="" Lat="32.266792" Lon="-104.338512" Lines="CV CARLZ NDB" />
             <Element xsi:type="Text" Filters="" Lat="34.350695" Lon="-103.174406" Lines="CV HISAN NDB" />
-            <Element xsi:type="Text" Filters="" Lat="33.365367" Lon="-104.442236" Lines="RO TOPAN NDB" />
+            <Element xsi:type="Text" Filters="" Lat="33.365466" Lon="-104.442245" Lines="RO TOPAN NDB" />
             <Element xsi:type="Text" Filters="" Lat="33.489886" Lon="-105.404338" Lines="CEP CAPITAN NDB" />
             <Element xsi:type="Text" Filters="" Lat="43.000315" Lon="-78.650773" Lines="BU KLUMP NDB" />
             <Element xsi:type="Text" Filters="" Lat="42.873888" Lon="-78.816452" Lines="GB PLAZZ NDB" />
@@ -527,7 +526,6 @@
             <Element xsi:type="Text" Filters="" Lat="48.468598" Lon="-122.418413" Lines="BVS SKAGIT/BAY VIEW NDB" />
             <Element xsi:type="Text" Filters="" Lat="47.967739" Lon="-117.426329" Lines="DPY DEER PARK NDB" />
             <Element xsi:type="Text" Filters="" Lat="48.512136" Lon="-123.023862" Lines="FHR FRIDAY HARBOR NDB" />
-            <Element xsi:type="Text" Filters="" Lat="48.710192" Lon="-117.413576" Lines="ION IONE NDB" />
             <Element xsi:type="Text" Filters="" Lat="47.115711" Lon="-119.274509" Lines="MW PELLY NDB" />
             <Element xsi:type="Text" Filters="" Lat="48.150199" Lon="-123.670251" Lines="CL ELWHA NDB" />
             <Element xsi:type="Text" Filters="" Lat="46.175566" Lon="-118.196359" Lines="AL TRINA NDB" />
@@ -578,7 +576,7 @@
             <Element xsi:type="Text" Filters="" Lat="9.499463" Lon="-221.911516" Lines="YP YAP NDB/DME" />
             <Element xsi:type="Text" Filters="" Lat="51.871231" Lon="-176.674111" Lines="BER ADAK TACAN" />
             <Element xsi:type="Text" Filters="" Lat="61.167866" Lon="-149.960143" Lines="TED ANCHORAGE VOR/DME" />
-            <Element xsi:type="Text" Filters="" Lat="61.255002" Lon="-149.769141" Lines="EDF ELMENDORF TACAN" />
+            <Element xsi:type="Text" Filters="" Lat="61.255008" Lon="-149.769175" Lines="EDF ELMENDORF TACAN" />
             <Element xsi:type="Text" Filters="" Lat="55.060409" Lon="-131.578399" Lines="ANN ANNETTE ISLAND VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="60.784837" Lon="-161.82433" Lines="BET BETHEL VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="66.905008" Lon="-151.535883" Lines="BTT BETTLES VOR/DME" />
@@ -875,7 +873,7 @@
             <Element xsi:type="Text" Filters="" Lat="32.213443" Lon="-83.497256" Lines="VNA VIENNA VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="32.641" Lon="-83.590575" Lines="WRB ROBINS TACAN" />
             <Element xsi:type="Text" Filters="" Lat="31.269425" Lon="-82.556446" Lines="AYS WAYCROSS VORTAC" />
-            <Element xsi:type="Text" Filters="" Lat="13.454549" Lon="-215.266679" Lines="UNZ NIMITZ VORTAC" />
+            <Element xsi:type="Text" Filters="" Lat="13.454547" Lon="-215.266677" Lines="UNZ NIMITZ VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="13.591219" Lon="-215.053422" Lines="UAM ANDERSEN TACAN" />
             <Element xsi:type="Text" Filters="" Lat="20.200541" Lon="-155.843267" Lines="UPP UPOLU POINT VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="19.721351" Lon="-155.010954" Lines="ITO HILO VORTAC" />
@@ -1264,7 +1262,7 @@
             <Element xsi:type="Text" Filters="" Lat="35.657549" Lon="-105.135596" Lines="FTI FORT UNION VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="35.072269" Lon="-105.936081" Lines="OTO OTTO VOR" />
             <Element xsi:type="Text" Filters="" Lat="32.529202" Lon="-105.305241" Lines="PIO PINON VOR/DME" />
-            <Element xsi:type="Text" Filters="" Lat="33.337479" Lon="-104.621246" Lines="CME CHISUM VORTAC" />
+            <Element xsi:type="Text" Filters="" Lat="33.337475" Lon="-104.621245" Lines="CME CHISUM VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="35.540541" Lon="-106.064936" Lines="SAF SANTA FE VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="32.637685" Lon="-108.161067" Lines="SVC SILVER CITY VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="34.3389" Lon="-106.820469" Lines="ONM SOCORRO VORTAC" />
@@ -1698,7 +1696,7 @@
             <Element xsi:type="Text" Filters="" Lat="45.441703" Lon="-75.896934" Lines="YOW OTTAWA VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="18.037838" Lon="-63.118272" Lines="PJM SAINT MAARTEN VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="16.265194" Lon="-61.540139" Lines="PPR POINTE A PITRE VOR/DME" />
-            <Element xsi:type="Text" Filters="" Lat="50.68414" Lon="-127.365304" Lines="YZT PORT HARDY VOR/DME" />
+            <Element xsi:type="Text" Filters="" Lat="50.684517" Lon="-127.365964" Lines="YZT PORT HARDY VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="49.381554" Lon="-120.373718" Lines="YDC PRINCETON VORTAC" />
             <Element xsi:type="Text" Filters="" Lat="21.772242" Lon="-72.266019" Lines="PVN PROVIDENCIALES VOR/DME" />
             <Element xsi:type="Text" Filters="" Lat="19.759283" Lon="-70.570417" Lines="PTA PUERTO PLATA VOR/DME" />

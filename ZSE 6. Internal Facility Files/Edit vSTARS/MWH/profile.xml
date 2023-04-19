@@ -10,7 +10,6 @@
         <Location Lon="-119.32479" Lat="47.205449" />
       </RadarSite>
     </RadarSites>
-    <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
       <AirportData ID="KMWH" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="30" />

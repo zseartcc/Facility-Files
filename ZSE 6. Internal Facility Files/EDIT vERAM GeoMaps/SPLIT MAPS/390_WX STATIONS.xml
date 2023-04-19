@@ -42,7 +42,6 @@
             <Element xsi:type="Text" Filters="" Lat="61.51667" Lon="-166.13333" Lines="PAHP HOOPER BAY" />
             <Element xsi:type="Text" Filters="" Lat="55.2" Lon="-132.83333" Lines="PAHY HYDABURG" />
             <Element xsi:type="Text" Filters="" Lat="59.75" Lon="-154.9" Lines="PAIL ILIAMNA" />
-            <Element xsi:type="Text" Filters="" Lat="63.73333" Lon="-148.91667" Lines="PAIN MC KINLEY NTL PARK" />
             <Element xsi:type="Text" Filters="" Lat="58.35472" Lon="-134.57611" Lines="PAJN JUNEAU INTL" />
             <Element xsi:type="Text" Filters="" Lat="56.964" Lon="-133.913" Lines="PAFE KAKE" />
             <Element xsi:type="Text" Filters="" Lat="62.05" Lon="-163.3" Lines="PASM ST MARY'S" />
@@ -86,6 +85,7 @@
             <Element xsi:type="Text" Filters="" Lat="64.7272" Lon="-155.4697" Lines="PARY RUBY" />
             <Element xsi:type="Text" Filters="" Lat="52.22028" Lon="-174.20639" Lines="PAAK ATKA" />
             <Element xsi:type="Text" Filters="" Lat="61.78333" Lon="-166.03333" Lines="PACZ CAPE ROMANZOF LRRS" />
+            <Element xsi:type="Text" Filters="" Lat="66.08333" Lon="-162.75" Lines="PADE DEERING" />
             <Element xsi:type="Text" Filters="" Lat="61.25306" Lon="-149.79389" Lines="PAED ELMENDORF AFB" />
             <Element xsi:type="Text" Filters="" Lat="58.65" Lon="-162.06667" Lines="PAEH CAPE NEWENHAM LRRS" />
             <Element xsi:type="Text" Filters="" Lat="64.65" Lon="-147.1" Lines="PAEI EIELSON AFB" />
@@ -153,15 +153,15 @@
             <Element xsi:type="Text" Filters="" Lat="33.17833" Lon="-86.78167" Lines="KEET SHELBY COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="33.96667" Lon="-86.08333" Lines="KGAD NORTHEAST ALABAMA RGNL" />
             <Element xsi:type="Text" Filters="" Lat="31.41889" Lon="-87.04806" Lines="KGZH EVERGREEN RGNL/MIDDLETON FLD" />
-            <Element xsi:type="Text" Filters="" Lat="31.35" Lon="-85.66667" Lines="KHEY HANCHEY AHP (FORT RUCKER)" />
+            <Element xsi:type="Text" Filters="" Lat="31.35" Lon="-85.66667" Lines="KHEY HANCHEY AHP (FORT NOVOSEL)" />
             <Element xsi:type="Text" Filters="" Lat="34.64361" Lon="-86.78556" Lines="KHSV HUNTSVILLE INTL-CARL T JONES FLD" />
-            <Element xsi:type="Text" Filters="" Lat="31.35889" Lon="-85.74833" Lines="KLOR LOWE AHP (FORT RUCKER)" />
+            <Element xsi:type="Text" Filters="" Lat="31.35889" Lon="-85.74833" Lines="KLOR LOWE AHP (FORT NOVOSEL)" />
             <Element xsi:type="Text" Filters="" Lat="34.86139" Lon="-86.55722" Lines="KMDQ HUNTSVILLE EXEC TOM SHARP JR FLD" />
             <Element xsi:type="Text" Filters="" Lat="32.30028" Lon="-86.40611" Lines="KMGM MONTGOMERY RGNL (DANNELLY FLD)" />
             <Element xsi:type="Text" Filters="" Lat="30.68833" Lon="-88.24556" Lines="KMOB MOBILE RGNL" />
             <Element xsi:type="Text" Filters="" Lat="34.74389" Lon="-87.59944" Lines="KMSL NORTHWEST ALABAMA RGNL" />
             <Element xsi:type="Text" Filters="" Lat="32.38333" Lon="-86.36667" Lines="KMXF MAXWELL AFB" />
-            <Element xsi:type="Text" Filters="" Lat="31.27672" Lon="-85.71099" Lines="KOZR CAIRNS AAF (FORT RUCKER)" />
+            <Element xsi:type="Text" Filters="" Lat="31.27672" Lon="-85.71099" Lines="KOZR CAIRNS AAF (FORT NOVOSEL)" />
             <Element xsi:type="Text" Filters="" Lat="31.35" Lon="-85.85" Lines="KSXS SHELL AHP" />
             <Element xsi:type="Text" Filters="" Lat="33.21215" Lon="-87.61554" Lines="KTCL TUSCALOOSA NTL" />
             <Element xsi:type="Text" Filters="" Lat="31.86056" Lon="-86.01222" Lines="KTOI TROY MUNI AT N KENNETH CAMPBELL FLD" />
@@ -616,7 +616,6 @@
             <Element xsi:type="Text" Filters="" Lat="32.64528" Lon="-81.59639" Lines="KJYL PLANTATION AIRPARK" />
             <Element xsi:type="Text" Filters="" Lat="33.15417" Lon="-83.24056" Lines="KMLJ BALDWIN COUNTY RGNL" />
             <Element xsi:type="Text" Filters="" Lat="32.56444" Lon="-82.985" Lines="KDBN W H 'BUD' BARRON" />
-            <Element xsi:type="Text" Filters="" Lat="33.5975" Lon="-83.13889" Lines="K3J7 GREENE COUNTY RGNL" />
             <Element xsi:type="Text" Filters="" Lat="31.0559" Lon="-82.7741" Lines="KHOE HOMERVILLE" />
             <Element xsi:type="Text" Filters="" Lat="32.1951" Lon="-81.8696" Lines="KCWV CLAXTON-EVANS COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="30.90179" Lon="-83.88113" Lines="KTVI THOMASVILLE RGNL" />
@@ -1016,6 +1015,7 @@
             <Element xsi:type="Text" Filters="" Lat="42.42691" Lon="-73.28897" Lines="KPSF PITTSFIELD MUNI" />
             <Element xsi:type="Text" Filters="" Lat="42.07436" Lon="-70.21816" Lines="KPVC PROVINCETOWN MUNI" />
             <Element xsi:type="Text" Filters="" Lat="41.90861" Lon="-70.72806" Lines="KPYM PLYMOUTH MUNI" />
+            <Element xsi:type="Text" Filters="" Lat="41.87556" Lon="-71.02111" Lines="KTAN TAUNTON MUNI - KING FLD" />
             <Element xsi:type="Text" Filters="" Lat="42.0983" Lon="-70.6722" Lines="KGHG MARSHFIELD MUNI - GEORGE HARLOW FLD" />
             <Element xsi:type="Text" Filters="" Lat="38.81667" Lon="-76.85" Lines="KADW JOINT BASE ANDREWS" />
             <Element xsi:type="Text" Filters="" Lat="39.46667" Lon="-76.16667" Lines="KAPG PHILLIPS AAF" />
@@ -1924,6 +1924,7 @@
             <Element xsi:type="Text" Filters="" Lat="36.0559" Lon="-85.5307" Lines="KSRB UPPER CUMBERLAND RGNL" />
             <Element xsi:type="Text" Filters="" Lat="35.3973" Lon="-84.5626" Lines="KMMI MCMINN COUNTY" />
             <Element xsi:type="Text" Filters="" Lat="35.2115" Lon="-84.7998" Lines="KRZR CLEVELAND RGNL JETPORT" />
+            <Element xsi:type="Text" Filters="" Lat="35.6564" Lon="-88.1954" Lines="KPVE BEECH RIVER RGNL" />
             <Element xsi:type="Text" Filters="" Lat="35.6991" Lon="-85.8402" Lines="KRNC WARREN COUNTY MEML" />
             <Element xsi:type="Text" Filters="" Lat="35.20069" Lon="-90.05398" Lines="KM01 GENERAL DEWITT SPAIN" />
             <Element xsi:type="Text" Filters="" Lat="35.5594" Lon="-86.4425" Lines="KSYI BOMAR FLD/SHELBYVILLE MUNI" />
@@ -2084,6 +2085,7 @@
             <Element xsi:type="Text" Filters="" Lat="30.58556" Lon="-100.64833" Lines="KSOA SONORA MUNI" />
             <Element xsi:type="Text" Filters="" Lat="26.17871" Lon="-97.97401" Lines="KTXW MID VALLEY" />
             <Element xsi:type="Text" Filters="" Lat="29.21111" Lon="-99.74333" Lines="KUVA GARNER FLD" />
+            <Element xsi:type="Text" Filters="" Lat="33.17528" Lon="-97.82833" Lines="KXBP BRIDGEPORT MUNI" />
             <Element xsi:type="Text" Filters="" Lat="29.25417" Lon="-96.15417" Lines="KARM WHARTON RGNL" />
             <Element xsi:type="Text" Filters="" Lat="27.81167" Lon="-97.08861" Lines="KRAS MUSTANG BEACH" />
             <Element xsi:type="Text" Filters="" Lat="31.10611" Lon="-98.19583" Lines="KLZZ LAMPASAS" />
@@ -2174,6 +2176,7 @@
             <Element xsi:type="Text" Filters="" Lat="38.418037" Lon="-110.704038" Lines="KHVE HANKSVILLE" />
             <Element xsi:type="Text" Filters="" Lat="39.33133" Lon="-111.61273" Lines="K41U MANTI-EPHRAIM" />
             <Element xsi:type="Text" Filters="" Lat="40.145" Lon="-111.6677" Lines="KSPK SPANISH FORK MUNI/WOODHOUSE FLD" />
+            <Element xsi:type="Text" Filters="" Lat="37.93243" Lon="-109.34122" Lines="KU64 MONTICELLO" />
             <Element xsi:type="Text" Filters="" Lat="36.98274" Lon="-77.00137" Lines="KAKQ WAKEFIELD MUNI" />
             <Element xsi:type="Text" Filters="" Lat="36.68861" Lon="-78.05417" Lines="KAVC MECKLENBURG-BRUNSWICK RGNL" />
             <Element xsi:type="Text" Filters="" Lat="37.21667" Lon="-80.41667" Lines="KBCB VIRGINIA TECH/MONTGOMERY EXEC" />

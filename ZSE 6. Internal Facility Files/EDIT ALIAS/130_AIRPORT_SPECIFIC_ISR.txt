@@ -149,6 +149,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; 62S AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+; 62S RNAV (GPS)-A
+
+
+.62SRA .FD 62S_RNAV (GPS)-A
+
+.62SRAF .FF POCIT CERAX UCADU AMOSY HAKEL OYUPO GAVLE
+
+
+
+
+
+
+
+
+
 ;-------------
 ; 65S AIRPORT
 ;-------------
@@ -3699,6 +3736,42 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;-------------
+; JSY AIRPORT
+;-------------
+
+
+
+
+
+
+
+
+; JSY RNAV (GPS)-A
+
+
+.JSYRA .FD JSY_RNAV (GPS)-A
+
+.JSYRAF .FF STASY SLING STELE KLONE XUBIJ
 
 
 

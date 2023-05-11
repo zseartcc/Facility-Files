@@ -303,8 +303,8 @@
 ; KSEA
 .autotracks46on .autotrack .atlists46on
 .autotracks46off .autotrack .atlists46off
-.atlistp80on ksea kbfi kpae kolm ktiw krnt ktcm kgrf kshn kpwt kawo
-.atlistp80off -ksea -kbfi -kpae -kolm -ktiw -krnt -ktcm -kgrf -kshn -kpwt -kawo
+.atlists46on ksea kbfi kpae kolm ktiw krnt ktcm kgrf kshn kpwt kawo
+.atlists46off -ksea -kbfi -kpae -kolm -ktiw -krnt -ktcm -kgrf -kshn -kpwt -kawo
 
 ; KPDX
 .autotrackp80on .autotrack .atlistp80on

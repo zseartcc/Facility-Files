@@ -2,7 +2,6 @@ import json
 import sys
 import xml.etree.ElementTree as ET
 
-
 # Namespace definitions
 ns = {"": "http://www.opengis.net/kml/2.2"}
 

@@ -17,7 +17,7 @@ styles = {
 ns = {"": "http://www.opengis.net/kml/2.2"}
 
 
-def parseCoordinates(text):
+def parseCoordinates(text: str) -> list:
 	''' Convert from kml coordinates to GeoJSON coordinates '''
 	coords = []
 	for pt in text.strip().split(" "):
@@ -27,7 +27,7 @@ def parseCoordinates(text):
 	return coords
 
 
-def makeLineString(placemark) -> list:
+def makeLineString(placemark: ET.Element) -> list:
 	coordinates = placemark.find(".//coordinates", ns).text
 	return parseCoordinates(coordinates)
 
@@ -35,8 +35,7 @@ def makeLineString(placemark) -> list:
 def makePolygon(placemarks: list) -> list:
 	result = []
 	for p in placemarks:
-		coordinates = p.find(".//coordinates", ns).text
-		linearRing = parseCoordinates(coordinates)
+		linearRing = makeLineString(p)
 		result.append(linearRing)
 	return result
 
@@ -62,7 +61,7 @@ for folder in root.findall("Document/Folder/Folder", ns):
 	polygons = []
 	placemarkQueue = []
 	makeInnerRings = False
-	for placemark in folder.findall("Placemark", ns):
+	for placemark in folder.iterfind("Placemark", ns):
 		if placemark.find("LineString", ns):
 			# Add to MultiLineString
 			lineStrings.append(makeLineString(placemark))
@@ -84,6 +83,7 @@ for folder in root.findall("Document/Folder/Folder", ns):
 	# Handle the case where the last item is an "inner"
 	if len(placemarkQueue) > 0:
 		polygons.append(makePolygon(placemarkQueue))
+	# Store LineStrings and Polygons, as needed
 	if len(lineStrings) > 0:
 		feature = {
 			"type": "Feature",
@@ -118,7 +118,7 @@ final = {
 	"type": "FeatureCollection",
 	"features": features
 }
-with open(filename[:-3]+"geojson", "w") as file:
+with open(filename.rstrip(".kml") + ".geojson", "w") as file:
 	json.dump(final, file, indent=2)
 
 print("Complete!")

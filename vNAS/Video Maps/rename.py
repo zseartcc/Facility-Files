@@ -5,6 +5,6 @@ import os
 
 faaID = input("FAA 3LD: ")
 
-for file in os.listdir():
-	if file.endswith(".geojson"):
-		os.rename(file, f"{faaID}__"+file)
+for filename in os.listdir():
+	if filename.endswith(".geojson"):
+		os.rename(filename, faaID + "__" + filename)

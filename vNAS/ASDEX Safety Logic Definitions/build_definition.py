@@ -63,5 +63,5 @@ final = {
 with open(filename.strip(".kml")+".geojson", "w") as outFile:
 	json.dump(final, outFile, indent="  ")
 
-print("Complete!\n\nCheck output for keys set to null\nProofread all taxiway properties")
+print("Complete!\n\nCheck output for keys set to null\nProofread all hold short bar properties")
 input("\nPress ENTER . . . ")

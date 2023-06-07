@@ -1,4 +1,4 @@
-# Use to number files (e.g. 100_APD.xml, 110_VORs.xml, 120_MVA.xml, ...)
+# Use to (re)number files (e.g. 100_APD.xml, 110_VORs.xml, 120_MVA.xml, ...)
 
 import os
 n = 100

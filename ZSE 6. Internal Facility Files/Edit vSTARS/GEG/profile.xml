@@ -25,7 +25,6 @@
         <Location Lon="-120.5386" Lat="46.56046" />
       </RadarSite>
     </RadarSites>
-    <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
       <AirportData ID="KGEG" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />

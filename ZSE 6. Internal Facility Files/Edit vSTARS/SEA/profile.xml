@@ -17,7 +17,6 @@
         <Location Lon="-122.66503" Lat="48.32244" />
       </RadarSite>
     </RadarSites>
-    <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
       <AirportData ID="KSEA" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />

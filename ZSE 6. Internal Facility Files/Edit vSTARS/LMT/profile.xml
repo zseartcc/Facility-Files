@@ -13,7 +13,6 @@
         <Location Lon="-121.97216" Lat="42.068819" />
       </RadarSite>
     </RadarSites>
-    <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
       <AirportData ID="KLMT" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="60" />

@@ -16,7 +16,6 @@
         <Location Lon="-123.3233" Lat="44.2823" />
       </RadarSite>
     </RadarSites>
-    <RadarSite>-1</RadarSite>
     <TransitionAltitude>18000</TransitionAltitude>
     <AirportData>
       <AirportData ID="KPDX" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="80" />

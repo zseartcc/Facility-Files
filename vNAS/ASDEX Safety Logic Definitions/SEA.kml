@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SEA.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin18200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin830</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin283000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin283000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin830">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>KSEA ASDEX Safety Logic</name>
+		<open>1</open>
+		<Folder>
+			<name>Runways</name>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.3175694569067,47.46383603999893,0 -122.3181834358865,47.46383874914645,0 -122.3183833144136,47.44053943081873,0 -122.3177751000038,47.4405363373707,0 -122.3175694569067,47.46383603999893,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.3106979311131,47.46380863331461,0 -122.3113063967457,47.46381326448843,0 -122.3115363160561,47.437975076152,0 -122.3109294617138,47.43797186727549,0 -122.3106979311131,47.46380863331461,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.3074643822316,47.46379878193239,0 -122.3080738426776,47.46379996179062,0 -122.308366055874,47.43117808073848,0 -122.3077562152589,47.4311723975766,0 -122.3074643822316,47.46379878193239,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Hold Short Bars</name>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3066297034611,47.46358276831014,0 -122.3066264181756,47.46394837199172,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3171726591243,47.44224599238444,0 -122.3166508230547,47.44244638159526,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3093546443974,47.43930942911347,0 -122.3089005793415,47.43957784606191,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3103258665283,47.44040438022715,0 -122.30979458656,47.44060809977101,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3100895465585,47.43821879621228,0 -122.3100928558833,47.43787117480518,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3068524373045,47.43777835143774,0 -122.3068593335879,47.43834505519507,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3068677825151,47.43651431245608,0 -122.3068761674812,47.43595345262688,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3093640203858,47.44407418670008,0 -122.3088212657065,47.44428131152759,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3067852450942,47.44623488266182,0 -122.3067906868969,47.44558245124068,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.310260971768,47.44730135806663,0 -122.3097317896843,47.44750220157716,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3102293995908,47.45097994305138,0 -122.3097107197385,47.45077802999627,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3067257474372,47.45254951107674,0 -122.3067322345276,47.45179334892964,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3171491510477,47.44512146912003,0 -122.3166205302233,47.44532319340396,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3066944566227,47.4557510019899,0 -122.3067032964837,47.45511019449845,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3092690447069,47.4553878091399,0 -122.3087387323897,47.4551387135621,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3099393140718,47.45530414294124,0 -122.3099409229851,47.45478415279734,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3170678366512,47.45418152132767,0 -122.3165587547834,47.45395826644138,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3089380069805,47.46031011322792,0 -122.308941699191,47.45989823789869,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.309177946556,47.45981530550474,0 -122.3087184707474,47.45954443082584,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3098960530888,47.46031105953826,0 -122.3098997982011,47.45989779311966,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3101572777913,47.45872980565606,0 -122.3096403266309,47.45852614743962,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3121416138743,47.46388280424024,0 -122.3121470186721,47.46346016551882,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3167359550015,47.46390218641871,0 -122.3167371501433,47.4634927007556,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3170004267525,47.46212777058376,0 -122.316483983964,47.46192368628441,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3098771210864,47.46273026756692,0 -122.3098743835183,47.46314511151616,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3098636043953,47.46387522271429,0 -122.3098682184456,47.46346172470815,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.306631899867,47.46309271790526,0 -122.3066345062495,47.4626073476141,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3069305924376,47.4308952852717,0 -122.3069191701389,47.43199320928193,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3068609560744,47.43872747695785,0 -122.3068580178077,47.43935250615216,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3068264777786,47.44318162445012,0 -122.3068191310733,47.44378677986511,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.306771191891,47.44874874658321,0 -122.3067638437152,47.44938073156163,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3066802617884,47.45979971104963,0 -122.3066706119092,47.46036837801796,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3089058334479,47.46346306715759,0 -122.308899064121,47.46386933674646,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3089069265434,47.46272899866735,0 -122.3089064783461,47.46313536943546,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3096621630581,47.45405071064905,0 -122.3102275554837,47.45427801917982,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3092395740625,47.45207458224903,0 -122.3087845104849,47.45180528944058,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3093058156111,47.44620930782507,0 -122.308847511908,47.44647813879603,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16L - 34R</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.309148770653,47.43786452096815,0 -122.3091474017309,47.43827544645462,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3102809282223,47.4451821492722,0 -122.3097520757779,47.44538663971847,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3121886216484,47.46033620511283,0 -122.3121898602936,47.4598982254186,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3122343977722,47.45527459048021,0 -122.3122353344291,47.45483465138557,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3123035840863,47.44667787610373,0 -122.3123090005756,47.44624454650723,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3124286848845,47.44192877272538,0 -122.3122291918376,47.44231349967122,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16C - 34C</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3123797627905,47.43828730052704,0 -122.3123843216151,47.43788021475101,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3170142399932,47.45926089917934,0 -122.3165105052291,47.45903277298174,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3171199066575,47.4479933393631,0 -122.3165925222316,47.44819576181956,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>16R - 34L</name>
+				<styleUrl>#msn_ylw-pushpin18200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.3169517422684,47.44046613524808,0 -122.3169469932743,47.44087633432025,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

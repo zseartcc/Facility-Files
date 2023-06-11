@@ -429,6 +429,7 @@
 .tmach Maintain mach $1.
 .tunctrld No traffic observed between you and the $arr airport. Report IFR cancellation or missed approach this frequency. Radar service terminated. Frequency change approved.
 .tuc .tunctrld
+.tsvfr Radar service terminated, squawk 1200, maintain VFR, frequency change approved.
 
 ; Departure
 .thfr Hold for release.

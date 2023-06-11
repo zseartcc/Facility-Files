@@ -33,6 +33,7 @@ geomap = ET.Element("GeoMapObject", attrib={
 	})
 ET.SubElement(geomap, "LineDefaults", attrib={
 	"Bcg": "",
+	"Filters": "",
 	"Style": "Solid",
 	"Thickness": "1"
 	})
@@ -44,14 +45,16 @@ for line in kmlFile.iterfind(".//coordinates", ns):
 	# Skip points or empty line segments
 	if len(coords) < 2:
 		continue
-	element = ET.SubElement(elements, "Element", attrib={
-		"xsi:type": "Line",
-		"Filters": "",
-		"StartLat": coords[0][1],
-		"StartLon": coords[0][0],
-		"EndLat": coords[1][1],
-		"EndLon": coords[1][0]
-		})
+	# Split LineStrings into individual line segments
+	for i in range(len(coords)-1):
+		element = ET.SubElement(elements, "Element", attrib={
+			"xsi:type": "Line",
+			"Filters": "",
+			"StartLat": coords[i][1],
+			"StartLon": coords[i][0],
+			"EndLat": coords[i+1][1],
+			"EndLon": coords[i+1][0]
+			})
 
 
 outputFilename = inputFilename.strip(".kml") + ".xml"

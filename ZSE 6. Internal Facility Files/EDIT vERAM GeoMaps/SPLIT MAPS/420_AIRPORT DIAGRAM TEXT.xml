@@ -1,4 +1,4 @@
-		<GeoMapObject Description="AIRPORT DIAGRAM LABELS" TdmOnly="true">
+		<GeoMapObject Description="AIRPORT DIAGRAM LABELS" TdmOnly="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <LineDefaults Bcg="19" Filters="19" Style="Solid" Thickness="1" />
            <Elements>
 <Element xsi:type="Line" Filters="" StartLat="0" StartLon="0" EndLat="0" EndLon="0" />

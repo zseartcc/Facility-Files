@@ -41,6 +41,9 @@ elements = ET.SubElement(geomap, "Elements")
 
 for line in kmlFile.iterfind(".//coordinates", ns):
 	coords = cleanCoords(line.text)
+	# Skip points or empty line segments
+	if len(coords) < 2:
+		continue
 	element = ET.SubElement(elements, "Element", attrib={
 		"xsi:type": "Line",
 		"Filters": "",

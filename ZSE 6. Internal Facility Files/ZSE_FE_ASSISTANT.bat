@@ -15,8 +15,10 @@ IF EXIST "%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files"
 	SET IFF_PATH=%userprofile%\Documents\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE IF EXIST "%userprofile%\OneDrive\Documents\GitHub\Facility-Files\ZSE 6. Internal Facility Files" (
 	SET IFF_PATH=%userprofile%\OneDrive\Documents\GitHub\Facility-Files\ZSE 6. Internal Facility Files
+) ELSE IF EXIST "D:\GithubRepos\Facility-Files\ZSE 6. Internal Facility Files" (
+	SET IFF_PATH=D:\GithubRepos\Facility-Files\ZSE 6. Internal Facility Files
 ) ELSE (
-	SET /P IFF_PATH=ZSE 6. Internal Facility Files path: 
+	SET /P IFF_PATH=""ZSE 6. Internal Facility Files" path: "
 )
 
 

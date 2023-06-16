@@ -21,9 +21,8 @@ def parseCoordinates(text: str) -> list:
 	''' Convert from kml coordinates to GeoJSON coordinates '''
 	coords = []
 	for pt in text.strip().split(" "):
-		lon = float(pt.split(",")[0])
-		lat = float(pt.split(",")[1])
-		coords.append([lon, lat])
+		lon, lat, _ = pt.split(",")
+		coords.append([float(lon), float(lat)])
 	return coords
 
 

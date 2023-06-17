@@ -1,0 +1,36 @@
+; www.nhc.noaa.gov/gccalc.shtml
+; www.airnav.com/airports/
+
+#define blastpad 65535
+#define building 255
+#define BuildingTerminalLabels 8421440
+#define Green 32768
+#define helipad 33023
+#define HoldShort 65535
+#define ILSHoldShort 10485759
+#define	Lime 65280
+#define NonMovementAreaBoundary 12889939
+#define ramp 8421504
+#define RampLabels 4227200
+#define runway 16776960
+#define taxilane 16755200
+#define taxilane_labels 6473093
+#define taxiOld 16711935
+#define taxiway 16711680
+#define TaxiwayLabel 16777215
+
+[INFO]
+; Airport name
+foo
+bar
+; center lat
+; center lon
+60
+; dist between lines of lon
+; magnetic deviation
+1
+
+[SID]
+=Airport=                 N000.00.00.000 W000.00.00.000 N000.00.00.000 W000.00.00.000
+
+[LABELS]

@@ -1,0 +1,3606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KSFF.kml</name>
+	<Style id="sn_ylw-pushpin9101">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin212">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin21000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin22200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin21000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin15200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin32000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2910">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin910</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin310">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin32000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin34001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1320">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin910">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin34001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin350">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin22200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin272">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2910</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl800">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2600">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>KSFF</name>
+		<open>1</open>
+		<Folder>
+			<name>runway</name>
+			<Placemark>
+				<name>runway</name>
+				<styleUrl>#m_ylw-pushpin0000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3312357403057,47.67904925518695,0 -117.3315737273078,47.67935858307882,0 -117.3167556724963,47.68657913977722,0 -117.3164230082414,47.68626220450894,0 -117.3312357403057,47.67904925518695,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>runway</name>
+				<styleUrl>#m_ylw-pushpin0000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3240746548083,47.68096155640001,0 -117.3242517508116,47.68112560201978,0 -117.3155244180083,47.68537453479144,0 -117.3153515857966,47.68520772442869,0 -117.3240746548083,47.68096155640001,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>taxiway</name>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3312346147739,47.67904993981054,0 -117.3304744382887,47.67833538504434,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3302039989815,47.67839088355895,0 -117.3296296180096,47.6785154118506,0 -117.3295601899525,47.67873066913408,0 -117.3295454053457,47.67876876668686,0 -117.3295206233202,47.67880725779862,0 -117.3294842594084,47.67883801087734,0 -117.3294423909513,47.67885730696041,0 -117.3294079699659,47.67886732090484,0 -117.3293756440523,47.6788753624533,0 -117.3291284219458,47.67892715484111,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3289264741744,47.67897108692624,0 -117.3280958072212,47.67914746799699,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3279586812569,47.67917663938771,0 -117.3277745389049,47.67921753763395,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3276711430047,47.67923981486727,0 -117.3275130615663,47.67927174438291,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3273657873689,47.67930451479442,0 -117.3272033582741,47.67933897052004,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3268996952286,47.67940545685428,0 -117.3270526754503,47.67937086888501,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3265882029852,47.67947146428698,0 -117.3267469278912,47.67943695700537,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3262827280505,47.67953840015656,0 -117.3264415015622,47.67950179306822,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.325972404593,47.67960434088262,0 -117.3261296810772,47.67957079188137,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3256609656086,47.67967038977851,0 -117.325818242419,47.6796357928159,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3253550161136,47.6797399720064,0 -117.325507792535,47.6797043678574,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3250471272385,47.67970103788507,0 -117.3250828720438,47.6797069059469,0 -117.3251120749234,47.67972277739573,0 -117.3251245628337,47.67974232630154,0 -117.3251280930651,47.67976164930958,0 -117.325121027846,47.67978375616947,0 -117.3251021697155,47.67979956692134,0 -117.3250745157482,47.67981213587461,0 -117.3246068050008,47.67993056017274,0 -117.3245813046061,47.679930027546,0 -117.3245530308858,47.67992538764833,0 -117.324532445154,47.67991586652091,0 -117.324513543576,47.67990233861119,0 -117.3245096833164,47.67988710539263,0 -117.3245030326565,47.67986675216305,0 -117.3245111067179,47.67985377982645,0 -117.3245236458804,47.67984191048986,0 -117.3245452358377,47.67982922076004,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.324505812052,47.67995509414117,0 -117.3243537816613,47.67999435326102,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3241999591241,47.68003333381705,0 -117.3240470998501,47.68007100465844,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3238961757035,47.68010869425733,0 -117.3237462339425,47.68014693567064,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.323623256667,47.68006328193396,0 -117.3236458939995,47.68006565595094,0 -117.3236684782566,47.68007039440216,0 -117.3236843692848,47.6800794703621,0 -117.3236996221936,47.6800921416777,0 -117.3237039981389,47.68010624659458,0 -117.3237068581093,47.68012451981123,0 -117.3236993298548,47.68013993496822,0 -117.3236910688183,47.68014998280867,0 -117.3236753894663,47.6801616178645,0 -117.3236606070421,47.68017033890136,0 -117.3236354768571,47.68017766954905,0 -117.3230198516311,47.68033018005789,0 -117.322997920645,47.68033161737824,0 -117.3229759690848,47.68032793791647,0 -117.3229561927992,47.6803227800638,0 -117.3229408133229,47.68031539464145,0 -117.3229309381266,47.68030504890808,0 -117.3229210689946,47.68029026126671,0 -117.3229178053589,47.68027547019712,0 -117.3229211258984,47.68026216582222,0 -117.3229310386377,47.68025034827008,0 -117.3229387541207,47.68024000058293,0 -117.3229574676713,47.68023041069773,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3309401647722,47.67919418395421,0 -117.3309718910689,47.67915809073823,0 -117.3309994269478,47.67912942618938,0 -117.3310201809137,47.67910352125622,0 -117.3310271335526,47.67908222706431,0 -117.3310284118516,47.67906005048962,0 -117.3310255784487,47.67903510824423,0 -117.3310062724247,47.67900091671566,0 -117.3309787849018,47.67896949026162,0 -117.3309439041217,47.67893522163032,0 -117.330747615039,47.67875698618002,0 -117.3307191809808,47.67873824873384,0 -117.3306877392089,47.67872676837168,0 -117.330653646889,47.6787179632408,0 -117.3306208963363,47.67871268117855,0 -117.3305842622363,47.67871264374295,0 -117.3305332403007,47.6787213664495,0 -117.3255052939276,47.67980512227457,0 -117.3253143354465,47.67985250716676,0 -117.3252364657597,47.67989262742287,0 -117.3252111525105,47.67991448817217,0 -117.3251950203652,47.67993597997171,0 -117.3251828864912,47.67995751290627,0 -117.3251734264628,47.67997907253802,0 -117.3251719813329,47.68000336023246,0 -117.3251758781803,47.68002855859971,0 -117.3251891294958,47.68005287804744,0 -117.3252090686011,47.68007631473942,0 -117.3264121218104,47.6812060577754,0 -117.3264460178376,47.68123049255255,0 -117.3264831193422,47.68124538549354,0 -117.3265202000753,47.68125379019256,0 -117.3265656118127,47.681261302903,0 -117.3266069324948,47.68126510664909,0 -117.3266537564547,47.68126428540842,0 -117.3267047433774,47.68125328117115,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3262005354789,47.68149829409209,0 -117.3262295891149,47.68147365560128,0 -117.3262528553855,47.68145291169756,0 -117.3262780451171,47.68142176548621,0 -117.3262916370435,47.68139190293019,0 -117.3262859232291,47.68135032301303,0 -117.3262666623731,47.68131264424197,0 -117.3254593611673,47.68055051634534,0 -117.3250661616767,47.68018033850941,0 -117.3250259397025,47.68015118490248,0 -117.3248322305658,47.68005516489441,0 -117.3245738159496,47.68007040926742,0 -117.3245393769229,47.68007232212369,0 -117.3245011855947,47.68008115167086,0 -117.3244280948749,47.68009699060788,0 -117.3242339699722,47.6801403537993,0 -117.3240427181432,47.68019251800159,0 -117.323918200277,47.68023528391137,0 -117.3237025344766,47.6803394672177,0 -117.3236594069057,47.68036555691589,0 -117.3236482451637,47.68037768570654,0 -117.3236392384987,47.68039068274207,0 -117.3236397477343,47.68040665198782,0 -117.3236457255571,47.68042687445047,0 -117.3237774391079,47.68067148852455,0 -117.3237916757356,47.68069681664532,0 -117.323814848183,47.68071739192898,0 -117.3240738614215,47.68095968596011,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3239214168013,47.68103551330215,0 -117.3239123544979,47.68099254720644,0 -117.323874521438,47.68091685064104,0 -117.323846646499,47.68088134244096,0 -117.3238056541353,47.68084676944815,0 -117.3237160159171,47.68079444310804,0 -117.3236453618114,47.68075593379005,0 -117.3236081038466,47.68074366954784,0 -117.3234739677707,47.68077119300781,0 -117.3234322632363,47.68079142250257,0 -117.3224553213968,47.68126399505545,0 -117.3220575784567,47.68145997542319,0 -117.3219503374113,47.68151589476873,0 -117.3217105027364,47.68164339169706,0 -117.3215889596738,47.68170847693004,0 -117.3213942147321,47.68188035186161,0 -117.3214657276506,47.68201733669153,0 -117.3216378990056,47.68211030142926,0 -117.3217662014467,47.68208106438396,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3156250876934,47.68507350491806,0 -117.3155255612127,47.6850872132474,0 -117.3154880935462,47.6850871271863,0 -117.3154537684318,47.68508216171799,0 -117.3154287940852,47.68507090438673,0 -117.3154121438875,47.68505683897655,0 -117.3153066593128,47.68484503332669,0 -117.3154913369365,47.68468393815398,0 -117.3155146827871,47.68466831840539,0 -117.3155380288138,47.6846526984687,0 -117.3159109975421,47.68445385170811,0 -117.317183690826,47.68383565313843,0 -117.3204086183577,47.68226709108739,0 -117.3207699998429,47.68210736541388,0 -117.3208078011704,47.68209473740438,0 -117.3210725515178,47.68203631440168,0 -117.321221390885,47.68210830228297,0 -117.321243656865,47.68212452869822,0 -117.3212643164214,47.68215696558702,0 -117.321317167751,47.68226257118573,0 -117.3212416434408,47.68233618891936,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3217448720348,47.68086931563788,0 -117.3217024670588,47.68079142181044,0 -117.3216974015484,47.68076743914492,0 -117.3222034723336,47.68064067979404,0 -117.322892708391,47.68048726433239,0 -117.323219678315,47.68046062174633,0 -117.3233059181024,47.68050093879644,0 -117.3233361158207,47.68055183181355,0 -117.3233418466109,47.68058024208807,0 -117.3233457082405,47.68059684016454,0 -117.3233368937286,47.68061699493144,0 -117.323317360731,47.68063594061152,0 -117.3232061190116,47.68072786619068,0 -117.3231806996015,47.68074110552058,0 -117.323157996078,47.6807514878189,0 -117.323108626104,47.68076562731799,0 -117.3230507517039,47.68077878720285,0 -117.3229985889806,47.68077962278437,0 -117.3229450549529,47.68077285391524,0 -117.3228860570115,47.68076158322205,0 -117.3226005970814,47.68070211307712,0 -117.3221404791468,47.68093032610292,0 -117.3221488573139,47.68105796005086,0 -117.3221402290591,47.68113013386432,0 -117.3221191659838,47.68120974463104,0 -117.3221052904422,47.68123103194806,0 -117.3220197079045,47.68129661066681,0 -117.3219505092762,47.68122315087816,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3218507338082,47.68127294031429,0 -117.3218878330809,47.68138735389226,0 -117.3215081788927,47.68157230436879,0 -117.3214511753329,47.68159134590861,0 -117.3213884924093,47.68160846476709,0 -117.321258405843,47.68164161154611,0 -117.3211636376233,47.68166256851931,0 -117.3209184129814,47.68153608656664,0 -117.3207450558897,47.68138029763603,0 -117.3207139048942,47.68132517907032,0 -117.3206247351546,47.68114440054546,0 -117.3207682757574,47.68106519750659,0 -117.320842490666,47.68104256357482,0 -117.3208668537845,47.68109262291285,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3216302605548,47.68078434811939,0 -117.3214770340539,47.6808226750657,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3213265446072,47.68086100703317,0 -117.321172041607,47.68089930951606,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3210215985148,47.68093854642323,0 -117.3208711224859,47.68097503531891,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3198433124657,47.68134482270299,0 -117.3198240070829,47.68132311051099,0 -117.3198143801802,47.68130358222016,0 -117.3198096249295,47.68127213602183,0 -117.3199468418769,47.68123640026438,0 -117.3202175733322,47.68122166907308,0 -117.3204310993779,47.68133691675108,0 -117.320604784357,47.68147562718657,0 -117.320737179997,47.68161439204822,0 -117.3208454278892,47.68181779819079,0 -117.3206537399525,47.6819884679402,0 -117.3204425610081,47.68209978002552,0 -117.3190136397609,47.68280724430711,0 -117.3189860249697,47.6827908749599,0 -117.3189513280847,47.68275291273491,0 -117.3189144737932,47.68270436351418,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.318817072672,47.68275190515268,0 -117.3188431732811,47.68283394270733,0 -117.3188560805924,47.68288645108218,0 -117.3185614106904,47.68302380086454,0 -117.3184679127643,47.68291846811559,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3183742098812,47.68296894330163,0 -117.3184409573125,47.68308052945056,0 -117.3163527325297,47.68410722554808,0 -117.3162773326547,47.68412866897699,0 -117.3161963215015,47.68413997422631,0 -117.3161209546289,47.68414625007855,0 -117.3157571210386,47.68403665118035,0 -117.3153307938582,47.68424591486295,0 -117.3153513535842,47.68451661853381,0 -117.3153366864303,47.6845525864295,0 -117.3152337271793,47.68459065543715,0 -117.3150883138607,47.6846240805861,0 -117.3149671720244,47.68454475263398,0 -117.3150278065645,47.68446051079351,0 -117.3147675530403,47.68419865711023,0 -117.3145370972367,47.68420785050764,0 -117.3143122519056,47.68397588686999,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3142486843521,47.68391594197659,0 -117.3140082434279,47.68367361713858,0 -117.3139776559928,47.68362744157894,0 -117.3139683129459,47.68359082132265,0 -117.3139135484449,47.68287610124349,0 -117.3139168669345,47.68284041700632,0 -117.3139216062825,47.68280001184566,0 -117.3139380132607,47.68276678850904,0 -117.3139703429976,47.68273993720099,0 -117.3140273321352,47.68270993113136,0 -117.3141042204187,47.68268520470963,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3194885098644,47.68132500041833,0 -117.3196421030143,47.68128588050267,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3191874759252,47.68140090233134,0 -117.3193416177245,47.68136149979388,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3188827691256,47.68147700729817,0 -117.3190338694954,47.68143851206303,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3185818206196,47.68155306804028,0 -117.3187327848794,47.68151464735705,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.318431631151,47.68159196214092,0 -117.3182793194379,47.68163089801392,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3182711663909,47.68175053488242,0 -117.3182165185915,47.68164708008807,0 -117.3178434628513,47.68174024947658,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3176833764218,47.68178308977677,0 -117.3171267301613,47.68192256752271,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3168724497733,47.68198785554186,0 -117.3160816407154,47.68218477676545,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3158910023693,47.68223581030342,0 -117.3156688867255,47.68229281398153,0 -117.3147454115549,47.68252216107993,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3153520070403,47.68520683368465,0 -117.3152336777548,47.68509347677369,0 -117.3149557707878,47.68510584246357,0 -117.3149030113395,47.68505060160987,0 -117.3147860968874,47.68510575918519,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3146791400641,47.68500352474281,0 -117.3147893146937,47.68494811578217,0 -117.3147027239746,47.68486065927541,0 -117.3146737866747,47.68486006091882,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3146753874425,47.68478970569857,0 -117.3147276047263,47.68478646393864,0 -117.3148970266893,47.68476909744487,0 -117.3148856843463,47.68474159915721,0 -117.3148694659209,47.68471736450577,0 -117.3148433755775,47.68469207877191,0 -117.314710592715,47.68455962661113,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3145831208024,47.68443271202127,0 -117.314415414978,47.68426506609264,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.314313871534,47.68416071221469,0 -117.3138929712151,47.68373264629315,0 -117.3138600493509,47.68368921119849,0 -117.3138367262438,47.68364866018462,0 -117.3138269502907,47.68360429416626,0 -117.3137736795818,47.68289224130715,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3140420257078,47.68260088108217,0 -117.3151236094872,47.68232473955686,0 -117.3139770691376,47.68261788200225,0 -117.3139346643057,47.68263500368695,0 -117.3139155780056,47.68264785079829,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>taxiway</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3151882126497,47.68231050563476,0 -117.3153359449842,47.68227363662991,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3154901135216,47.68223330131999,0 -117.3156454614804,47.68219559047672,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3157967616417,47.68215576681943,0 -117.3159506153451,47.68211749151706,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3160990085116,47.68208061248181,0 -117.3162512875716,47.682042452416,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3164038366692,47.68200350142175,0 -117.3165549943506,47.68196443355544,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3167042022299,47.68192750527482,0 -117.3168564384392,47.68188841267912,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3170071403513,47.68185091446846,0 -117.3171586278724,47.68181329800386,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3173131385107,47.68177305897916,0 -117.3174642068548,47.68173579999354,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.317618452304,47.68169659495757,0 -117.3177658184965,47.68165870416988,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3179190738366,47.6816203889579,0 -117.3180733129791,47.68158128992196,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3182206956333,47.68154473864443,0 -117.3183752322447,47.68150534105174,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3185280681578,47.68146701461583,0 -117.3186792626018,47.68142771177873,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3188304116033,47.68138901514897,0 -117.3189830457053,47.68135155945308,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3191330230051,47.68131325047284,0 -117.3192854269938,47.6812755787506,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3194385349616,47.68123677393304,0 -117.31958982019,47.68119791429318,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3197442231587,47.68115800470952,0 -117.3198934662212,47.68112122294547,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3199378745222,47.68099605315283,0 -117.3199193340752,47.68101179042952,0 -117.3199131677966,47.68103504536573,0 -117.3199230114294,47.68105828652223,0 -117.3199427571607,47.68107656245515,0 -117.319973620738,47.68108653496538,0 -117.3200057045498,47.68108903078897,0 -117.320040237078,47.68107989970094,0 -117.3206598968594,47.68092413635685,0 -117.3206882831674,47.68091011957527,0 -117.3207034910702,47.68088970603832,0 -117.3207054954086,47.6808679944071,0 -117.3206941453845,47.68084760323307,0 -117.3206619840111,47.68082720779986,0 -117.3206222526047,47.68081955319195,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3228368408116,47.68037767234122,0 -117.3226848213206,47.68041664446292,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3225330010215,47.68045697435267,0 -117.3223798776471,47.6804928753412,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3222301203821,47.68053106054077,0 -117.3220747006657,47.68057115801233,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.321927385713,47.68060806784456,0 -117.3217749329434,47.68064717129077,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3216235714764,47.6806843164503,0 -117.3214698674197,47.68072367882318,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3210170184219,47.68083719271055,0 -117.3208631075137,47.68087605413535,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3213175798618,47.68076233633553,0 -117.3211633365046,47.6808021846425,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3164234472259,47.68626143091264,0 -117.3162923145669,47.68614964105184,0 -117.3162761558347,47.68614212082511,0 -117.3162549488103,47.68614053647693,0 -117.3162148807597,47.68614292940308,0 -117.3157113618812,47.68616458396178,0 -117.3154889031806,47.68593838823538,0 -117.3157328888867,47.68560081019402,0 -117.3155216991346,47.68537503285449,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3223972553996,47.68335208380325,0 -117.3224213044763,47.68332486265827,0 -117.3224339783241,47.6832959336071,0 -117.3224415994981,47.68326359781135,0 -117.3224391172701,47.68322274641297,0 -117.3224191018815,47.68318696421049,0 -117.3223928056015,47.68316117661405,0 -117.3218009697987,47.68261294526874,0 -117.3215434227048,47.68248066423028,0 -117.3214205134942,47.68250549824892,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3228660767884,47.68312178642875,0 -117.3227991724831,47.6831369497412,0 -117.3227462616502,47.68314417791446,0 -117.3227021783184,47.6831421768627,0 -117.3226604251133,47.6831360482328,0 -117.32261970069,47.68312296712815,0 -117.3225731725983,47.68309551667288,0 -117.3221881477493,47.68273358444365,0 -117.3219767903078,47.68253182796045,0 -117.3218693262227,47.68232523733675,0 -117.3219390279375,47.6822515880548,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin1910</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3166889806512,47.68613068924874,0 -117.3166234850729,47.68614232108983,0 -117.3165791809895,47.68614877875551,0 -117.3165214067439,47.68614615327609,0 -117.3164790414455,47.68614223991764,0 -117.3164366922575,47.68612536146134,0 -117.3164001337335,47.68609811417952,0 -117.3157160735026,47.68540252428081,0 -117.3157059290183,47.68537369508477,0 -117.3157099837419,47.68534260870035,0 -117.3157197071693,47.68531259272591,0 -117.3157371923662,47.68528421388056,0 -117.3157619420403,47.6852607337801,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ramp</name>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3276531886761,47.67867291732171,0 -117.3275751351736,47.67869287128974,0 -117.327638731574,47.67880436282917,0 -117.3277762137726,47.6787755572001,0 -117.32797858154,47.6791451770936,0 -117.3279599411777,47.67917664791252,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3277729753495,47.67921752678225,0 -117.3274788171864,47.67867284271728,0 -117.3270995201633,47.6787693844413,0 -117.3271250037111,47.67881020765863,0 -117.3267298640965,47.67890574825982,0 -117.3265958380031,47.67892828893146,0 -117.3265441658851,47.67892928143794,0 -117.3265086115115,47.67892162965622,0 -117.3264864808087,47.67933899929189,0 -117.3254866977439,47.67931477255612,0 -117.3253628663525,47.67910076027373,0 -117.3251896487873,47.67914427325318,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3244155190369,47.67933893786804,0 -117.3232266393133,47.6796492668457,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3226948944282,47.67977594973316,0 -117.3222396944437,47.67989382936577,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3208805121919,47.68023904360143,0 -117.3208195299561,47.68025648139162,0 -117.3209102188496,47.68042752821574,0 -117.3207809933523,47.68045944160893,0 -117.319913901201,47.6806653316433,0 -117.3193568940812,47.6808025426743,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3187923055261,47.68082038011476,0 -117.3186944521527,47.68065830030334,0 -117.3185723100907,47.68068503307486,0 -117.3185141523565,47.68059467266208,0 -117.3181320307952,47.68068824361481,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3208675588457,47.68109199420406,0 -117.3210035375125,47.6813218969944,0 -117.3215440762199,47.68117984141176,0 -117.3217503578387,47.68115488412143,0 -117.3217802328416,47.6811808850898,0 -117.3218144318662,47.68121787696513,0 -117.3218322300894,47.6812408620002,0 -117.3218500670512,47.68127485318205,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3219514518675,47.68122628319622,0 -117.3219007414288,47.6811484862086,0 -117.3218641344532,47.68108298621151,0 -117.3217463084463,47.68086921241478,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3198442349594,47.68134516917034,0 -117.3198736204111,47.68136749589394,0 -117.3199134684804,47.68138726625494,0 -117.3199561989451,47.68140020469517,0 -117.3199971247331,47.68140962584456,0 -117.3200447051201,47.68141217859255,0 -117.3200884793005,47.6814083323567,0 -117.3201430751652,47.68139788147158,0 -117.3203540685596,47.68134508393442,0 -117.3204059069601,47.68137257182486,0 -117.320443798753,47.68141135431818,0 -117.3204843955866,47.68145518868936,0 -117.3205270452141,47.68149535238761,0 -117.3205679824317,47.68153179728953,0 -117.3205908769168,47.68155528997923,0 -117.3206102117796,47.68157879676097,0 -117.3186675966929,47.68206940869224,0 -117.3186106346328,47.68209226798247,0 -117.3185889653025,47.68211324049727,0 -117.3185915483688,47.68213890925878,0 -117.3186055878097,47.68217133999742,0 -117.3186954986618,47.68232867165424,0 -117.3188909388486,47.68267221165624,0 -117.3189136574564,47.68270571226764,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3188159848707,47.68275117287526,0 -117.3187421883581,47.68261437719834,0 -117.3187237433978,47.68259684427233,0 -117.3187009661596,47.68259540676181,0 -117.3186771189056,47.68260128359893,0 -117.3186391867894,47.68261228162021,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.318403183946,47.68219789473422,0 -117.3183800942642,47.68213377194498,0 -117.3183546597924,47.68212462694496,0 -117.318315507693,47.68211856767643,0 -117.3182839522461,47.68212058385906,0 -117.3182374488337,47.68212863703803,0 -117.3182073300674,47.68214586718047,0 -117.3181801738689,47.68216412385392,0 -117.3181651349762,47.68218336035163,0 -117.3181636822842,47.68221069121784,0 -117.3181708347618,47.68223430370605,0 -117.3181772788762,47.68224918187564,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3187930663655,47.68081404712583,0 -117.3186872541547,47.68065718117717,0 -117.3185672003848,47.68068608091552,0 -117.3185098168658,47.68059447347564,0 -117.3181300239491,47.68068741323173,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3176940998301,47.68078856490092,0 -117.3173703467511,47.68086678754417,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3171929774652,47.68094508735092,0 -117.3169794902752,47.68099245031085,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3164455833386,47.68133413995452,0 -117.3161159202784,47.681415682063,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3154262580063,47.68178566983035,0 -117.3153554628279,47.68180221426676,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.315393319413,47.68185579565727,0 -117.315446349484,47.68195362259214,0 -117.3152722877615,47.68198977848597,0 -117.3151198727329,47.68170478439556,0 -117.3150431356734,47.68172197115584,0 -117.3149131755122,47.68189240728158,0 -117.3144239211049,47.68200965684979,0 -117.3143661411682,47.68191199193582,0 -117.3137929845482,47.68205188365321,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3129507307562,47.68224996142802,0 -117.3130169721083,47.68237263328857,0 -117.3128623186716,47.6824098995252,0 -117.3128031426819,47.68233933995509,0 -117.3127400086207,47.68227933362747,0 -117.3127009826622,47.68225055771751,0 -117.3126563630943,47.68222927877821,0 -117.3126061542893,47.68221550490253,0 -117.3125578188713,47.68220423995703,0 -117.3125038851522,47.68219922773302,0 -117.312448111019,47.68220047945239,0 -117.3123996192589,47.68221046947608,0 -117.3117821732446,47.68236703662942,0 -117.3115416319422,47.68242398271335,0 -117.3114938068139,47.68244446830371,0 -117.3114433575217,47.68247101204143,0 -117.311401550967,47.6824967012559,0 -117.3113622274084,47.68252650819836,0 -117.3113266129083,47.68255877696714,0 -117.3112984437369,47.68259340688863,0 -117.3112752992603,47.68262883050016,0 -117.3112603455013,47.68266291381158,0 -117.3112505451081,47.68270255711892,0 -117.3112467081926,47.68274808381829,0 -117.3112466753594,47.68293265025032,0 -117.3112435506304,47.68294881034389,0 -117.3112381862942,47.6829603714594,0 -117.3112306696345,47.68296542822117,0 -117.3112134908079,47.68297048253438,0 -117.3111920308582,47.6829740962088,0 -117.3111566252442,47.68297412975808,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3111586317299,47.68341347581624,0 -117.3111600169943,47.68346857739736,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3114391083313,47.68285130196368,0 -117.3113668441153,47.68285084946746,0 -117.3113656357235,47.68291643195465,0 -117.3114428502453,47.68291715403016,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3304808923079,47.67833753292311,0 -117.3304277667941,47.67829507496368,0 -117.3304277503749,47.67824143460043,0 -117.3304376808824,47.67814979759834,0 -117.3304481532652,47.67808894031612,0 -117.3304717320149,47.6780268282403,0 -117.3304918440141,47.67795954062928,0 -117.3305254554472,47.6778994829698,0 -117.330553222084,47.67785222428346,0 -117.3306029202799,47.67780200905699,0 -117.330708188695,47.67777738228646,0 -117.3307306280969,47.67781266236664,0 -117.3309028221755,47.67776730496292,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.330799693213,47.677578441583,0 -117.3306235669587,47.67762337152323,0 -117.3305791101054,47.6776418003297,0 -117.3305585924682,47.67765331730417,0 -117.3305414953938,47.67766598520699,0 -117.3305244004406,47.67768556156658,0 -117.3304423548598,47.67781337952651,0 -117.3303825350195,47.6779239232777,0 -117.3303620284828,47.67797228544139,0 -117.3303432298741,47.67802502900229,0 -117.3303226334054,47.67809657842982,0 -117.330308379688,47.678163855553,0 -117.3303020586665,47.67823967452443,0 -117.3302932892283,47.67833287015422,0 -117.3302181474987,47.67834946921546,0 -117.330202144638,47.6783892844316,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3291285009226,47.67892670717298,0 -117.3290914591419,47.67891873167771,0 -117.3290573780446,47.67890177806875,0 -117.3290336674694,47.67888282809971,0 -117.3289872033719,47.67880220127266,0 -117.3289206597431,47.67867073758778,0 -117.3289115424936,47.67864415988391,0 -117.3289130528865,47.67861553630821,0 -117.3289251926015,47.67859100043832,0 -117.3289403692178,47.67856748645971,0 -117.3289788092915,47.67855863244753,0 -117.3289339281009,47.67847972408805,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3286764976525,47.67863517106658,0 -117.3286988309497,47.67862714792094,0 -117.3287420164511,47.6786401756878,0 -117.3287792469295,47.67865721437146,0 -117.3288134999478,47.67867625851346,0 -117.3288343544188,47.67870532979838,0 -117.328937146966,47.67888176545258,0 -117.3289282375988,47.67897099349729,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3184689047931,47.6829198883415,0 -117.3183242173675,47.68267332647605,0 -117.3183184106145,47.68265908107513,0 -117.3183203340887,47.6826487317293,0 -117.318328983495,47.68263644240034,0 -117.3183472400536,47.68262868176469,0 -117.3183827910745,47.6826202756969,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ramp</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3183767840586,47.68297095162339,0 -117.3183574488431,47.68292797652346,0 -117.318023320906,47.68233214332166,0 -117.3179508568453,47.68220211528804,0 -117.3177572370205,47.68186361604097,0 -117.3177336590859,47.68182335613797,0 -117.3177161452763,47.68180173238996,0 -117.3176986295596,47.68178993692972,0 -117.3176854922061,47.681784038807,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3170050268174,47.68246402955157,0 -117.3173601304841,47.68237841383885,0 -117.3171245788556,47.68192237348376,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3168739380803,47.68198619929379,0 -117.316949862977,47.6821219787294,0 -117.3168175928272,47.68215370513546,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3162399102072,47.68229625061933,0 -117.3161503080924,47.68231786592338,0 -117.3160860984559,47.68218469908366,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3158933681798,47.68223817111544,0 -117.3159643389144,47.68237361494023,0 -117.3158887835182,47.68239246638251,0 -117.3160700862635,47.68269990631066,0 -117.316420049837,47.68260800246047,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3147860912283,47.68510613290483,0 -117.3110784414272,47.68691167337386,0 -117.3110450816556,47.68692570237317,0 -117.3110012992405,47.68693692307343,0 -117.3109470941795,47.68694533547001,0 -117.3108908052993,47.68695094076028,0 -117.3106823340803,47.68695231340687,0 -117.310189702933,47.68694890572349,0 -117.310194247015,47.68702570626586,0 -117.3101327844585,47.6870245146911,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3108133455493,47.68680529679427,0 -117.3108133198086,47.68688391078282,0 -117.3108740040172,47.68688289813589,0 -117.3109405264002,47.68687883690645,0 -117.3110025165698,47.68686459752357,0 -117.3110690488168,47.68683000385622,0 -117.3118413976708,47.68645647398899,0 -117.3118739977169,47.68643349248107,0 -117.3118910753592,47.68641677773434,0 -117.3118910817451,47.68639588135042,0 -117.3118771197038,47.68637498303937,0 -117.311856947581,47.68636035279084,0 -117.3118228057719,47.68634989988007,0 -117.3111631877186,47.6863466719621,0 -117.311160058756,47.68642503298236,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3124025215419,47.68586783792167,0 -117.3124918898472,47.6859668152406,0 -117.3122653840375,47.68607511186179,0 -117.3122375655302,47.68609516864069,0 -117.3122335863247,47.68611522864765,0 -117.3122613886373,47.68615000404503,0 -117.3123189882693,47.68619147033997,0 -117.3123646804924,47.68619147651398,0 -117.3124044160093,47.68618078290928,0 -117.3137893910417,47.68550697973526,0 -117.3138273635212,47.68548284558062,0 -117.3138568987859,47.68546013031413,0 -117.313875888232,47.68543599383478,0 -117.3138885538728,47.68539765731592,0 -117.3138906734415,47.68535931948852,0 -117.3131921198558,47.6853878149071,0 -117.3130922981329,47.6854597875833,0 -117.313104734459,47.68559776096654,0 -117.3129407732576,47.68560253893385,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3123490173329,47.68548607823484,0 -117.3122868708608,47.68548756404877,0 -117.3122713405941,47.68546664362382,0 -117.3122979825898,47.68543975221077,0 -117.3123357206923,47.68541734478115,0 -117.3124023078573,47.68540988285454,0 -117.3124866479618,47.68541288241171,0 -117.3125887458785,47.68540990758223,0 -117.3129816036486,47.68539352275724,0 -117.3129976357482,47.68540174347958,0 -117.313007725656,47.68541137012617,0 -117.3130068344639,47.68542059801262,0 -117.3130006409641,47.68542945649882,0 -117.3129727723987,47.68544873605411,0 -117.3129232317181,47.68545029702477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3108387204645,47.68544145510973,0 -117.3108411838682,47.68522869292849,0 -117.3109058299742,47.68522709059667,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3109004018936,47.68508771438325,0 -117.3108958546321,47.68496833834686,0 -117.3110013329375,47.68496423734089,0 -117.3110196790788,47.68495703632426,0 -117.3110334416028,47.68494263091813,0 -117.3110303952413,47.6849086701944,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3138380354045,47.68522202283915,0 -117.3139603204259,47.68521798896222,0 -117.314018930258,47.68517869931985,0 -117.3140686559191,47.68515239644291,0 -117.3141111277659,47.68513334227373,0 -117.3141869911819,47.68510341567964,0 -117.3142473611508,47.68508375929035,0 -117.3143000113554,47.68507349505909,0 -117.3143467928642,47.68507058677642,0 -117.3143973019539,47.68507460053151,0 -117.3144425483651,47.68508124865056,0 -117.3144958376441,47.68509022385485,0 -117.3145274822502,47.68507957677483,0 -117.3146815478953,47.68500223640864,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3119574219782,47.6854007020376,0 -117.3120154469023,47.68539352848419,0 -117.3120770241462,47.68539113809736,0 -117.3121113652812,47.68539034155248,0 -117.3121409694839,47.68539512522519,0 -117.3121539948093,47.68541027204184,0 -117.3121492574636,47.68542621572715,0 -117.3120746494595,47.68554260383656,0 -117.3120616229541,47.68555535860218,0 -117.3120462281217,47.68556731613245,0 -117.3120296490639,47.68558007083554,0 -117.3120071490601,47.6855936226049,0 -117.3119822808239,47.68560398556728,0 -117.3119550443176,47.68561195691049,0 -117.3119266238343,47.68561514510126,0 -117.3116649191258,47.68562550308688,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3147435906107,47.68252375703293,0 -117.3147513213466,47.68259037082059,0 -117.3148069780616,47.68257475795049,0 -117.3149353011183,47.68279749733679,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3141055859567,47.68268657768289,0 -117.3141516089318,47.68277548959887,0 -117.3141262086285,47.68278993664526,0 -117.3142527665062,47.68301837995183,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3151248451832,47.68232485939494,0 -117.3151305609756,47.68229352060155,0 -117.3151329553038,47.68227501816208,0 -117.3151210104583,47.68225731861333,0 -117.3150911391761,47.68225087960715,0 -117.3150648508928,47.68225168117635,0 -117.3131531107859,47.68274006342839,0 -117.3131956650937,47.6828216521716,0 -117.3139149576991,47.68264631789009,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3137721147446,47.68289341526273,0 -117.3137373717337,47.68279831865511,0 -117.3136786982745,47.68280416332882,0 -117.3136504472452,47.68281001170463,0 -117.3136156755697,47.68282171110656,0 -117.3135939062802,47.68296507841952,0 -117.3136609591812,47.68384218262541,0 -117.3134915530584,47.68384849761809,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3116490628869,47.68269453388731,0 -117.3117252234527,47.68269236268081,0 -117.3117381885139,47.68268690985208,0 -117.311736617399,47.68252654333242,0 -117.3117431071195,47.68250036197295,0 -117.3117495938177,47.68248399895914,0 -117.3117463576772,47.68246872550822,0 -117.3117252949442,47.68245999515687,0 -117.3116977475277,47.68246108224059,0 -117.3116685773345,47.6824698055758,0 -117.3116097846005,47.68248533049137,0 -117.3115518957968,47.68250688072057,0 -117.3115227241753,47.68251996773632,0 -117.3114999994365,47.68253276767472,0 -117.3114757295248,47.68254832247699,0 -117.3114468359867,47.68256932200638,0 -117.3114260310228,47.68258954476443,0 -117.3114075365075,47.68261132367275,0 -117.3113925086673,47.68263232515861,0 -117.3113763233598,47.68265954977666,0 -117.3113647597182,47.68268755296697,0 -117.3113601173538,47.68271283451726,0 -117.311433806222,47.68271082012591,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3134150728997,47.68299798139915,0 -117.3134473242041,47.68299527140741,0 -117.3134614356795,47.68298848813359,0 -117.3134735341033,47.68297220556481,0 -117.3134473596569,47.68286635581652,0 -117.3133223849389,47.68288126728605,0 -117.3132236069043,47.68292060802325,0 -117.3132014180115,47.68298031346592,0 -117.3132094764737,47.68299524154787,0 -117.3132336624794,47.68300202963521,0 -117.3132638969821,47.68300339045731,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3129811287103,47.68307058613434,0 -117.3130101923667,47.68306515500137,0 -117.3130457145747,47.68305863771009,0 -117.3130634778185,47.68304777024517,0 -117.3130683273289,47.6830271183697,0 -117.3130425112489,47.68296733150299,0 -117.3128762184523,47.6829911554643,0 -117.3127821290461,47.68303072846632,0 -117.3127857710239,47.68305534321831,0 -117.3127922252251,47.68306947471616,0 -117.312805140785,47.68307273731704,0 -117.3128261301158,47.68307274004675,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3147041739453,47.68456119662996,0 -117.3146806840553,47.68454825375611,0 -117.3146422422058,47.68454249816525,0 -117.3144713849514,47.68453672730981,0 -117.3143667338104,47.68453815294365,0 -117.3143482400088,47.68454216247433,0 -117.3143375210632,47.68454834554182,0 -117.3143298618356,47.6845638054384,0 -117.3143298506896,47.68460709566477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3145826354179,47.68443312436605,0 -117.314416807304,47.68446033280334,0 -117.3143547913035,47.68446667868407,0 -117.3142873832248,47.68447120872489,0 -117.3135260511702,47.68449674541039,0 -117.313491826084,47.68446950525836,0 -117.3134607337461,47.68436684294381,0 -117.3134420955355,47.684129366716,0 -117.3132955255857,47.6841272032053,0 -117.3133018490672,47.68430524590752,0 -117.3132221896828,47.68430952600517,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3144149574105,47.68426516272779,0 -117.3143691881499,47.68425888297873,0 -117.314280748955,47.68426691822915,0 -117.3141612378789,47.68427334062713,0 -117.3141158226541,47.68427977169163,0 -117.314096689736,47.68432321535542,0 -117.3138672292917,47.68433284251482,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3146726914996,47.68486132644322,0 -117.31426892593,47.68486127978807,0 -117.3142562187849,47.68486603036127,0 -117.3142449204624,47.68488218605292,0 -117.3142449086314,47.68492780587124,0 -117.3141051426488,47.6849306406061,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3146741212118,47.6847900455816,0 -117.314349415735,47.68478715698092,0 -117.314346612244,47.68470922272945,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3143174367017,47.6839776024451,0 -117.3146189880847,47.68383499850838,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3142563343647,47.68391724809733,0 -117.3143354324864,47.68388038387204,0 -117.3143602485587,47.68386377071167,0 -117.3143711028425,47.6838421262417,0 -117.3143800229767,47.68382262126503,0 -117.3143800301099,47.68379486269939,0 -117.3143561983795,47.68376913488854,0 -117.3143310093433,47.68374684215737,0 -117.3143175014481,47.68372661303185,0 -117.3144580875595,47.68366628215357,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3143142554693,47.68416201174723,0 -117.3142900407781,47.68418340006439,0 -117.3141281373999,47.6842006976199,0 -117.3141084685097,47.68419662078166,0 -117.314091827104,47.68418745116838,0 -117.3140767011868,47.6841691140975,0 -117.3140736822684,47.68414161083298,0 -117.3139420436157,47.68414668821993,0 -117.3138331014866,47.68414973096052,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3243126280404,47.6852503833997,0 -117.3242998726794,47.68521357471875,0 -117.3249286564078,47.68510684793498,0 -117.3249432344618,47.68514856436047,0 -117.3243126280404,47.6852503833997,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3133211785215,47.68381795071978,0 -117.313048860374,47.68382673019012,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3128786495298,47.68387430328698,0 -117.3126010950973,47.68387955518351,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3123829682484,47.6840273607375,0 -117.3120822377109,47.68402350019521,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3118967276035,47.68407045184091,0 -117.3117726493265,47.68407157893586,0 -117.311774368349,47.684008644534,0 -117.3116689873101,47.68400862985362,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3114361289435,47.68400974130152,0 -117.3111675764124,47.68401199133752,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125863492506,47.6836543421023,0 -117.3126595372295,47.68364130986006,0 -117.3126509386737,47.68360218309086,0 -117.3124895056474,47.68359346717665,0 -117.3123259124659,47.68361083450386,0 -117.3123108305192,47.68366010180681,0 -117.3123581850252,47.6836601081571,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125768378306,47.68343364212312,0 -117.312599035871,47.68343264877382,0 -117.3126197534692,47.68343364777432,0 -117.3126330703879,47.68343962717223,0 -117.3126463861532,47.68344959165374,0 -117.3126478558748,47.68348446142009,0 -117.3124850649866,47.68350934674637,0 -117.3123459654954,47.68348741017201,0 -117.3123282111295,47.68347445623877,0 -117.312325255557,47.68346050801589,0 -117.3123400572983,47.68344955099897,0 -117.3123578172528,47.68344357573891,0 -117.3124110926958,47.68344059405045,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3121280558595,47.68279954212624,0 -117.3121539013147,47.68280824652501,0 -117.312166821699,47.68282042953224,0 -117.3121745631029,47.68286393508207,0 -117.3121693830408,47.6828987379694,0 -117.3121590406603,47.68290917764497,0 -117.3121435302301,47.68291439607755,0 -117.3121073428907,47.68291439115734,0 -117.3120685707375,47.68291438587287,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3119400636947,47.68270991519796,0 -117.3118603790428,47.68271126235093,0 -117.3118482730365,47.68271805135401,0 -117.3118428828612,47.68272804759841,0 -117.3118442684109,47.68288737098122,0 -117.3118500004615,47.68290378688319,0 -117.3118672089891,47.68291247961512,0 -117.3118829859092,47.68291248179503,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3119363098772,47.68262663563071,0 -117.3118725146062,47.6826266268261,0 -117.3118565660586,47.68262572984568,0 -117.3118472642271,47.68262035989309,0 -117.3118419517861,47.68260783227564,0 -117.3118406440384,47.68253803947279,0 -117.311844639711,47.68251030192773,0 -117.3118566100402,47.68248167070509,0 -117.3118778835394,47.68245393552749,0 -117.3119151060588,47.68242530776589,0 -117.3119430229399,47.68240383691121,0 -117.311958973334,47.68239847042,0 -117.3119682735092,47.68240920904834,0 -117.3119709272782,47.6824235258665,0 -117.3119695780989,47.68248973925481,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3121753186956,47.68248951940233,0 -117.3121753564803,47.68236346166642,0 -117.3121786187492,47.6823437313147,0 -117.3123316783326,47.68230757870984,0 -117.3123512145199,47.68231415825643,0 -117.3123691212345,47.68232512219294,0 -117.3123788489809,47.68246433522361,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3130613547911,47.68264306967613,0 -117.3130033303504,47.68264406388119,0 -117.3129884529305,47.68264205869096,0 -117.3129795281326,47.68263504606638,0 -117.3129274843362,47.68253287211687,0 -117.3129066663662,47.68249380547047,0 -117.3129141113444,47.68247277197507,0 -117.3129334552351,47.68246375968901,0 -117.3129706520621,47.68245675298922,0 -117.3129899839875,47.68248980961192,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3117169206687,47.68620843800505,0 -117.3117147490339,47.68628078381737,0 -117.3121188266952,47.68628373336769,0 -117.3121682631846,47.68627939932216,0 -117.3122177018431,47.68626783063495,0 -117.3122284533744,47.6862519159338,0 -117.312224161575,47.68622876458244,0 -117.3122005260171,47.68620416369124,0 -117.311921189974,47.68594223240235,0 -117.3118661772906,47.68589539505934,0 -117.3116832204307,47.68589703404058,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3128647995866,47.68430930975996,0 -117.3128555407543,47.68414265211425,0 -117.312621016435,47.68414638062358,0 -117.3126247255753,47.68419274419591,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3124368958117,47.68419808508889,0 -117.312268906765,47.6842030888971,0 -117.3122577023654,47.68422067946636,0 -117.3122390337132,47.68423198614183,0 -117.3122073015979,47.68423575158542,0 -117.3120337128813,47.68424075428383,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3118377336871,47.68421936549458,0 -117.3116827521046,47.68422745769082,0 -117.3116808097655,47.68425868450048,0 -117.3116730765116,47.68426649019087,0 -117.3116498824135,47.6842716914596,0 -117.3116073623781,47.68427298662972,0 -117.3108424104472,47.68430471031935,0 -117.31084656875,47.68444337250793,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.310857883368,47.68454804351362,0 -117.31088077444,47.68467842142035,0 -117.3112655528423,47.68466303796688,0 -117.3112910323363,47.68466990344245,0 -117.3113165085905,47.684687061623,0 -117.3113236366368,47.6847259891325,0 -117.3113313345301,47.68488114431461,0 -117.3113255210682,47.68489157400974,0 -117.311310024828,47.68489939470967,0 -117.3112848466143,47.68490199875002,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3114991058901,47.68441666354942,0 -117.3114991057895,47.68440041517691,0 -117.3114991056959,47.68438541667409,0 -117.311506531954,47.68437541766112,0 -117.3115288108328,47.68436666846496,0 -117.3115548029201,47.68436666838637,0 -117.3115733688185,47.68438166682949,0 -117.3115993615128,47.68445665922158,0 -117.3115956486949,47.68450040484807,0 -117.311586366247,47.6845616487439,0 -117.3115603740817,47.68456414857997,0 -117.3115362384552,47.684561648911,0 -117.3115158159189,47.68454540059895,0 -117.3115102459917,47.68451665349237,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3120520393065,47.68449446583568,0 -117.312129189364,47.68449230113495,0 -117.3121259752986,47.68452043443482,0 -117.3121195464706,47.68453882932157,0 -117.3120986517896,47.68454748587529,0 -117.311958817454,47.68456696374219,0 -117.3117579056234,47.68454857006954,0 -117.3117434398779,47.68453774965807,0 -117.3117438250973,47.68452355253459,0 -117.3117537874501,47.68451311960263,0 -117.3117781400635,47.68450641262568,0 -117.3118257384626,47.68450343154575,0 -117.3118575570874,47.68449987737091,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3124618237358,47.68448153056016,0 -117.3123646328962,47.68448491591726,0 -117.3123495515726,47.68448604417618,0 -117.3123402892665,47.6844924756283,0 -117.3123349378837,47.68450328402113,0 -117.312332797505,47.68451553349122,0 -117.312341360327,47.68452562118928,0 -117.3123574153159,47.68453066492052,0 -117.3125158237644,47.68454147155197,0 -117.3126549657443,47.6845234559723,0 -117.3126806533767,47.68451552952174,0 -117.3126827935731,47.68449895669273,0 -117.3126720898837,47.68448454570028,0 -117.3126581754548,47.68447806087078,0 -117.3126431907631,47.68447445827988,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.313233076925,47.68445177311758,0 -117.313280096437,47.68444368093145,0 -117.3133071060122,47.68444544319986,0 -117.3133223822386,47.68445335362833,0 -117.3133270831225,47.68446759282221,0 -117.3133235589657,47.68449369823863,0 -117.3131708008403,47.68451822415372,0 -117.3131519997288,47.68451822447389,0 -117.3131414238456,47.68451110501627,0 -117.3131343729723,47.68449923907385,0 -117.3131308471812,47.68448341772073,0 -117.3131320212705,47.68445731237204,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3130591671245,47.68445810465473,0 -117.3130638683391,47.68448420990375,0 -117.3130638689682,47.68450161345312,0 -117.3130568191308,47.68451743498042,0 -117.3130462436863,47.68452218157596,0 -117.3130180419834,47.68452059988448,0 -117.3128735082519,47.68451031818197,0 -117.312857057145,47.68450557199904,0 -117.3128488312938,47.68449370606364,0 -117.3128488306886,47.68447472037199,0 -117.312853530702,47.68446680959944,0 -117.31287820693,47.68446127174555,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.313188091015,47.68514491021512,0 -117.3133752703611,47.68513330056153,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125337560002,47.68517525237084,0 -117.3124011767162,47.68516771135894,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3123843678024,47.68503697511951,0 -117.312537486078,47.68500428936209,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3133030800471,47.6849690792332,0 -117.3133908432844,47.68495902080758,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3112817078234,47.68542795752402,0 -117.3112001658754,47.68543240843258,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3123240384593,47.68569224057758,0 -117.3123457266202,47.68568220247423,0 -117.3123443702614,47.6856447885517,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3120669132467,47.68582674258767,0 -117.312043024546,47.68584818544798,0 -117.3120270988514,47.68586962823937,0 -117.3120270993699,47.68590179225662,0 -117.3120509890515,47.68593752988525,0 -117.3121412384256,47.68602508682798,0 -117.3121783995505,47.68603580787941,0 -117.3122261778003,47.68603223367593,0 -117.312255375548,47.68602687273219,0 -117.3122792643353,47.68600900359095,0 -117.3122951901206,47.68599470831003,0 -117.3122447564644,47.68594646271334,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3096559590617,47.6862025055805,0 -117.3096586447197,47.68627488196981,0 -117.3095538198579,47.68627307117131,0 -117.3095538151383,47.68641782402031,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3096292732266,47.68701954034836,0 -117.3096345895188,47.6869456090478,0 -117.3096363649588,47.68680847842256,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.312198470653,47.68261417326731,0 -117.3122716323886,47.68261159079766,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125225700422,47.68274297996724,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.317844137507,47.68174158106013,0 -117.317978573251,47.68199535409568,0 -117.318018453274,47.68198361168452,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3280971022751,47.67914568120186,0 -117.3280604669298,47.67913088178135,0 -117.327866802533,47.67875298881508,0 -117.3280434221226,47.67871016381233,0 -117.3280014955491,47.67862735728587,0 -117.3278819345189,47.67865419052414,0 -117.3278666008115,47.67862605074851,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3250448770998,47.67970432683215,0 -117.3245458752275,47.67982935064758,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3236191940694,47.68006402612464,0 -117.3229568043644,47.68023123268564,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin272</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3206206787728,47.68082057267809,0 -117.3199392658326,47.68099415760625,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>building</name>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3186417618793,47.68263880798914,0 -117.3183931665319,47.68220011448437,0 -117.3181804398631,47.68225137956562,0 -117.3184267947964,47.68269610353847,0 -117.3186417618793,47.68263880798914,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3291124066802,47.67842928734996,0 -117.3289105444845,47.67805617159161,0 -117.3281127447834,47.67825330121613,0 -117.3282247937866,47.67846008594472,0 -117.3283545158682,47.67842855159493,0 -117.3285050339695,47.67869571238798,0 -117.3286838128062,47.67865311753128,0 -117.3285921928514,47.6784916470582,0 -117.3288974164869,47.67841636587056,0 -117.3289305065957,47.67847709192175,0 -117.3291124066802,47.67842928734996,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3312955970153,47.67768122765519,0 -117.3309119038151,47.67777909228303,0 -117.3307974221539,47.67757266641576,0 -117.3311831577989,47.67747589928754,0 -117.3312955970153,47.67768122765519,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3302690706155,47.6776990074674,0 -117.329646476279,47.6778568992904,0 -117.3296014687091,47.67776923487346,0 -117.3302264305453,47.6776145309037,0 -117.3302690706155,47.6776990074674,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3278657726676,47.67862642153025,0 -117.3276578084532,47.6786707272469,0 -117.3275577850334,47.67847576306298,0 -117.3277604837667,47.67842968489433,0 -117.3278657726676,47.67862642153025,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3274840680318,47.6786689513112,0 -117.3270944633959,47.67876465098737,0 -117.3271181530871,47.67880541635304,0 -117.3267153842896,47.67889934219832,0 -117.3265732486601,47.67864411489206,0 -117.3269549567225,47.6785484168241,0 -117.3269338996445,47.67850765144264,0 -117.3273419298923,47.67840840787815,0 -117.3274840680318,47.6786689513112,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3264054679339,47.67920547585516,0 -117.3264102043475,47.67909086381137,0 -117.3255448758473,47.6790653648743,0 -117.32553777306,47.67918316020264,0 -117.3257458302652,47.67918794346406,0 -117.325738729853,47.67928186134044,0 -117.3258829519242,47.67928186653455,0 -117.3258900519553,47.67918954046154,0 -117.3264054679339,47.67920547585516,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3251721837042,47.6791450531974,0 -117.3250307660013,47.67889110081391,0 -117.3242723231561,47.67907992362031,0 -117.3243949510645,47.6792904232792,0 -117.3243008048686,47.67931329752018,0 -117.3243276059043,47.67936004484371,0 -117.3251721837042,47.6791450531974,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3225538000937,47.67951803834114,0 -117.3226964688624,47.6797761721198,0 -117.3232247081688,47.67965144396076,0 -117.3231970256666,47.67959981734545,0 -117.3230713561838,47.67962849040558,0 -117.3229542379983,47.67942054957829,0 -117.3225538000937,47.67951803834114,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3222407168507,47.67989321116735,0 -117.3220947371229,47.67963786911497,0 -117.3207348397241,47.67997907316552,0 -117.3208832726928,47.68023939542943,0 -117.3222407168507,47.67989321116735,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3197520653709,47.68051319795534,0 -117.3198018254642,47.68061952761208,0 -117.3198704920241,47.68060219799742,0 -117.3198910845599,47.68063571539437,0 -117.3199786339929,47.68061607596061,0 -117.3199597581877,47.68058140301456,0 -117.3202327069334,47.68051670664669,0 -117.3202052506018,47.68046816447878,0 -117.3201657670683,47.68047971824127,0 -117.3201297306025,47.68041730683148,0 -117.3197520653709,47.68051319795534,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3194067681343,47.68072127732712,0 -117.3194577402779,47.68067172190842,0 -117.3194053718257,47.68062596940306,0 -117.3193175999544,47.68064502295195,0 -117.3193204189421,47.68070506710094,0 -117.3194067681343,47.68072127732712,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3193741820194,47.68085470520788,0 -117.3192765397988,47.6806812361237,0 -117.3190154699227,47.68074634888979,0 -117.319025729623,47.68076170456816,0 -117.318786249106,47.68082002952312,0 -117.3188626208794,47.68096130031157,0 -117.3190952594457,47.68090604543667,0 -117.3191032385591,47.68092140091736,0 -117.3193741820194,47.68085470520788,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3184007099131,47.68198101964221,0 -117.3182770571079,47.68175988127601,0 -117.3179357959401,47.68183738467782,0 -117.3180637116655,47.68206426723549,0 -117.3184007099131,47.68198101964221,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3178877985368,47.68224126676137,0 -117.3177972861659,47.68208651223552,0 -117.3173233686811,47.68219874671867,0 -117.3174090650552,47.68235721163471,0 -117.3178877985368,47.68224126676137,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3170063059264,47.68246498841508,0 -117.31684255439,47.68214864939635,0 -117.3162417999758,47.68229669912853,0 -117.3164174363876,47.68260856392771,0 -117.3170063059264,47.68246498841508,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3159976001063,47.68271854452327,0 -117.3158243676689,47.68241090920903,0 -117.3154871719813,47.68249360572909,0 -117.315647797895,47.68280123992204,0 -117.3159976001063,47.68271854452327,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3152247328798,47.68308713977643,0 -117.3149336293874,47.68315709059478,0 -117.3149544097273,47.68319733628228,0 -117.3148192552221,47.68322706365969,0 -117.3147854861971,47.68316581991865,0 -117.3147101108809,47.68318505675741,0 -117.3147802472849,47.68330929433079,0 -117.3144579525639,47.68338798838475,0 -117.3142553430689,47.68301702579046,0 -117.3145672393652,47.68294008069068,0 -117.3146685452168,47.68312381198715,0 -117.3147517178122,47.68310282649536,0 -117.3146270328588,47.68287884917505,0 -117.3149072463752,47.68281090230768,0 -117.3149389087789,47.68287014104903,0 -117.3150896581804,47.68283341652995,0 -117.3152247328798,47.68308713977643,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3182550621738,47.68095311399478,0 -117.3181009488853,47.68063752839066,0 -117.3176815458281,47.68074129176283,0 -117.3178541592092,47.68105687950047,0 -117.3182550621738,47.68095311399478,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3177368711827,47.68152606900605,0 -117.3173669809633,47.6808699778886,0 -117.3171819494178,47.68091563239705,0 -117.3175518367204,47.68157587627981,0 -117.3177368711827,47.68152606900605,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3169782588981,47.68098678689304,0 -117.3171406211983,47.68126998401397,0 -117.3168739923098,47.68133056457927,0 -117.3168250422432,47.68123843354496,0 -117.3164434280834,47.68133800689885,0 -117.3163370463841,47.68115099472476,0 -117.3167731744845,47.68104094177456,0 -117.3167472279203,47.68099375189829,0 -117.3168848153516,47.6809605615733,0 -117.316908167024,47.68100425582211,0 -117.3169782588981,47.68098678689304,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3160676808416,47.68162950031885,0 -117.3159820126525,47.68146336804619,0 -117.3161196794372,47.68143016000686,0 -117.3160755510506,47.68133048160014,0 -117.3159300920928,47.68136543730449,0 -117.3158911536359,47.68128499461105,0 -117.3152599626972,47.68143704986085,0 -117.315444278851,47.68177980949901,0 -117.3160676808416,47.68162950031885,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.314952071844,47.68215979627454,0 -117.3148809596249,47.68200409481296,0 -117.3129773827285,47.68249486417832,0 -117.3130603510082,47.68264258492572,0 -117.314952071844,47.68215979627454,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3137960041493,47.68205662553771,0 -117.3136789750596,47.68184329546639,0 -117.3128390605792,47.68204745843578,0 -117.3129576750104,47.68226454661639,0 -117.3137960041493,47.68205662553771,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3144605628709,47.683664098444,0 -117.3146490750588,47.68385131010219,0 -117.3148841015026,47.68374825705833,0 -117.3146986871903,47.6835610005004,0 -117.3144605628709,47.683664098444,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3134862051657,47.68384648394816,0 -117.3134269013273,47.68299568918365,0 -117.3132599040947,47.6830007922741,0 -117.3133244505057,47.68385186267781,0 -117.3134862051657,47.68384648394816,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3130448724764,47.68387014801681,0 -117.3128822650088,47.68387535308395,0 -117.3128242773101,47.68307256823756,0 -117.3129830110858,47.68306475637121,0 -117.3130448724764,47.68387014801681,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125746923884,47.6834345656719,0 -117.3124118768017,47.68344422855247,0 -117.3123640702774,47.68274787639898,0 -117.3125220946021,47.682741436801,0 -117.3125746923884,47.6834345656719,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125461945637,47.6826757253952,0 -117.3122822896105,47.68268558237342,0 -117.3122603231857,47.68247336536772,0 -117.3125242281193,47.68245610532934,0 -117.3125461945637,47.6826757253952,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3120627104737,47.68291489284817,0 -117.3118843126792,47.68291281208455,0 -117.3118992899507,47.68407091730134,0 -117.3120825983737,47.68406784253471,0 -117.3120627104737,47.68291489284817,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3126096156885,47.6840215936219,0 -117.3125867425031,47.68365445854273,0 -117.3123576075621,47.68366061704643,0 -117.3123850617958,47.68402775208425,0 -117.3126096156885,47.6840215936219,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3116655803788,47.68400920062922,0 -117.3116657217705,47.68292014106107,0 -117.3114293901359,47.6829154845172,0 -117.3114364460884,47.68400918691643,0 -117.3116655803788,47.68400920062922,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3121232650827,47.68280129242623,0 -117.3119437393547,47.68279955581193,0 -117.311933519224,47.6824904916286,0 -117.3121976775419,47.68248877939588,0 -117.3121976623634,47.68261482224041,0 -117.3121155936168,47.68261481780816,0 -117.3121232650827,47.68280129242623,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3116545130423,47.68286628329356,0 -117.311651504384,47.68269190866485,0 -117.3114345126036,47.68269020997707,0 -117.3114405130256,47.68286941246241,0 -117.3116545130423,47.68286628329356,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3111559893531,47.6834092820683,0 -117.3111593350759,47.68297384058173,0 -117.3109859677144,47.6829738386872,0 -117.3109859546491,47.68341152451972,0 -117.3111559893531,47.6834092820683,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3111655795878,47.68401336432296,0 -117.3111655934733,47.6834666387506,0 -117.3109132279756,47.68346445763744,0 -117.3109196822969,47.68401553924791,0 -117.3111655795878,47.68401336432296,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3138616978399,47.68435624734308,0 -117.3138426929326,47.68415159185399,0 -117.3135251247938,47.68416255915536,0 -117.3135414142751,47.6843653872092,0 -117.3138616978399,47.68435624734308,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3143478393014,47.68470899129995,0 -117.3137406677479,47.6847302327956,0 -117.3137351204908,47.68462599992055,0 -117.3143413093255,47.68460436192122,0 -117.3143478393014,47.68470899129995,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3116789829758,47.68589819729115,0 -117.3116539486651,47.68562092855711,0 -117.3112098474679,47.68563777874506,0 -117.3112420426338,47.68591263710229,0 -117.3116789829758,47.68589819729115,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.312477658004,47.68582832187639,0 -117.3122197772468,47.68595609237324,0 -117.3120622085015,47.68582347749128,0 -117.3123200892824,47.68569088529947,0 -117.312477658004,47.68582832187639,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3129348370063,47.68560212101847,0 -117.3129224906703,47.68544942933779,0 -117.312643722811,47.68546016313555,0 -117.3126633548864,47.68561145409809,0 -117.3129348370063,47.68560212101847,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3126244659224,47.68563695103661,0 -117.3123448923796,47.68564477851262,0 -117.3123262728874,47.68548480140603,0 -117.3126128351876,47.68547383736683,0 -117.3126244659224,47.68563695103661,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3119551084961,47.6854926423667,0 -117.3119475341524,47.68540455549814,0 -117.3112838134345,47.68542877206222,0 -117.3112894902799,47.68551813543522,0 -117.3119551084961,47.6854926423667,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3112126397214,47.68553530095229,0 -117.3111998013374,47.68543229033837,0 -117.3108387539066,47.68544363821359,0 -117.3108577406715,47.68555166441999,0 -117.3112126397214,47.68553530095229,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3132300386472,47.68445151439153,0 -117.3132180430063,47.68429963638693,0 -117.3128639817386,47.68431136994285,0 -117.3128789259955,47.68446244298111,0 -117.3132300386472,47.68445151439153,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3126247644614,47.68419362019579,0 -117.3126430009885,47.6844749395234,0 -117.3124648896991,47.68448107954971,0 -117.3124398038907,47.68419822244431,0 -117.3126247644614,47.68419362019579,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3120520746477,47.6844951358454,0 -117.3118610564228,47.68450063636666,0 -117.3118392611995,47.68421956220568,0 -117.3120277409511,47.68421280140712,0 -117.3120520746477,47.6844951358454,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3115139134311,47.68451670531709,0 -117.3115021738755,47.68441648415531,0 -117.3108459722257,47.68444413537839,0 -117.3108596691057,47.68454567541617,0 -117.3115139134311,47.68451670531709,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3136765888781,47.684733843791,0 -117.3124996180217,47.68477964261466,0 -117.3124928890564,47.68467916671794,0 -117.3136711129721,47.68463304955207,0 -117.3136765888781,47.684733843791,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3124417541001,47.68481447099481,0 -117.3124322223461,47.68468335887327,0 -117.3113986299254,47.68472351168892,0 -117.3114100292724,47.68485257561288,0 -117.3124417541001,47.68481447099481,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3112850511108,47.68490176460967,0 -117.3112687196911,47.68472926831565,0 -117.3110152156542,47.68473659245131,0 -117.3110315462301,47.68490908893117,0 -117.3112850511108,47.68490176460967,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3109002678674,47.68508940974381,0 -117.3123808075299,47.68503523004805,0 -117.3123962179373,47.68516677806868,0 -117.3109163702022,47.68522507792745,0 -117.3109002678674,47.68508940974381,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3125414734477,47.68500285064521,0 -117.3125543343604,47.68511378176751,0 -117.3133164443883,47.68508435224179,0 -117.3133035820665,47.68496995446993,0 -117.3125414734477,47.68500285064521,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3141191166138,47.68503806158051,0 -117.3141111787654,47.68493463630401,0 -117.3133933520541,47.68495957202209,0 -117.3134012884977,47.68506299717151,0 -117.3141191166138,47.68503806158051,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3138301520115,47.68521998200659,0 -117.3138268877151,47.68511198720321,0 -117.3133783674937,47.68513180437566,0 -117.3133849047471,47.68523979918986,0 -117.3138301520115,47.68521998200659,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3131982942611,47.685246402797,0 -117.3131917567022,47.68514501990099,0 -117.3125369832833,47.68517363987738,0 -117.3125467934339,47.68527502303312,0 -117.3131982942611,47.685246402797,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.311718349467,47.68620506777413,0 -117.3117183715121,47.6860327174672,0 -117.3112300869165,47.68603624167293,0 -117.3112274242937,47.68620503805916,0 -117.311718349467,47.68620506777413,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3111632300857,47.68642380872677,0 -117.311160884452,47.68658800380668,0 -117.3108287050323,47.68658798226526,0 -117.3108310515675,47.68642535109861,0 -117.3111632300857,47.68642380872677,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3108086676731,47.68680412647315,0 -117.310814299328,47.68664179004895,0 -117.3103207877728,47.68664175641866,0 -117.3103207626369,47.68680409302576,0 -117.3108086676731,47.68680412647315,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3107532728911,47.68656106417499,0 -117.3107572304841,47.68642587940891,0 -117.3105452132559,47.68642283051526,0 -117.3105477015063,47.68656134041522,0 -117.3107532728911,47.68656106417499,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3104774106994,47.68655983203741,0 -117.3104752503026,47.68642475695778,0 -117.3102636958741,47.68642327400907,0 -117.3102658552754,47.6865612854561,0 -117.3104774106994,47.68655983203741,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3101862953847,47.68655883775943,0 -117.3101865434344,47.68642194307597,0 -117.3099769931919,47.68642072226776,0 -117.3099769705523,47.6865605832522,0 -117.3101862953847,47.68655883775943,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3099017432456,47.68658469167097,0 -117.3099035610484,47.68642071685729,0 -117.3095525196651,47.68641948461622,0 -117.3095489100039,47.68658225364773,0 -117.3099017432456,47.68658469167097,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.31024704141,47.68680278171344,0 -117.3102486234458,47.6866422244633,0 -117.3099665246508,47.68664223336604,0 -117.3099742867629,47.68680262806899,0 -117.31024704141,47.68680278171344,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3099212808489,47.68680551037559,0 -117.3099174301519,47.68664065595224,0 -117.3095924695901,47.68664063152313,0 -117.3095971166828,47.68680902890789,0 -117.3099212808489,47.68680551037559,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3101451163462,47.68713408962664,0 -117.3101458238303,47.68702662896521,0 -117.3099387918808,47.68702508740952,0 -117.3099410778009,47.68713331288536,0 -117.3101451163462,47.68713408962664,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3099036449925,47.68718962342486,0 -117.30990367186,47.68702512937558,0 -117.3095316384967,47.68702065554308,0 -117.309533810939,47.68718959565653,0 -117.3099036449925,47.68718962342486,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3111520139549,47.68620427679672,0 -117.3111520334348,47.68606449563488,0 -117.3109190343913,47.68606431464156,0 -117.3109149582044,47.6862062901672,0 -117.3111520139549,47.68620427679672,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3108662894065,47.68620355668112,0 -117.310864281285,47.68606704137615,0 -117.3106472985828,47.68606566178362,0 -117.3106472782649,47.68620217695768,0 -117.3108662894065,47.68620355668112,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3105783304403,47.68620080713663,0 -117.3105824058615,47.68606975283843,0 -117.3103775906318,47.68606564320778,0 -117.3103735138688,47.68620215817443,0 -117.3105783304403,47.68620080713663,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3102811993785,47.68620264693268,0 -117.3102832825121,47.68607211352128,0 -117.3100790659092,47.68607348753837,0 -117.3100769824716,47.68620263233297,0 -117.3102811993785,47.68620264693268,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.309984664175,47.68620203627944,0 -117.3099878999491,47.68606788721187,0 -117.3096560859595,47.68606327205273,0 -117.3096560627482,47.68620161463298,0 -117.309984664175,47.68620203627944,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>holdshort</name>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3161096806238,47.68579964486598,0 -117.3155860929741,47.6860332608972,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3157086710516,47.68557315260583,0 -117.3158313250661,47.68551935175761,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3149607128386,47.68510528227132,0 -117.3153495763071,47.68492940477326,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3222565685795,47.68279777489029,0 -117.3220924486023,47.68287633108103,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3219710691025,47.68252322350493,0 -117.3217920302362,47.68260846449754,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3214352342664,47.68196024672974,0 -117.3211721617325,47.68208514460849,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3238750863642,47.68077085197786,0 -117.3237652232071,47.68082217123071,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3261258276461,47.68093680490333,0 -117.3259508682272,47.68101794898602,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3258387257185,47.68066651558968,0 -117.325666478135,47.68074766063607,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3252422379931,47.68010811991766,0 -117.3250736020941,47.68018863972198,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin11100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3306703346284,47.67872097279319,0 -117.3306918519964,47.67866030181032,0 -117.3307777252571,47.67861988577194,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>movementarea</name>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3294166011307,47.678961403343,0 -117.3293740504158,47.67887755087634,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3249383042742,47.68010516915365,0 -117.3251724382961,47.6799907283581,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3233379136821,47.68055070696579,0 -117.3236369018943,47.6804030585165,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.321948630784,47.68122681548975,0 -117.3218500467495,47.68127299483884,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.321108194805,47.68163075260065,0 -117.3208224817205,47.6817718324631,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3189137612426,47.68270643879116,0 -117.3188104999382,47.68275229547003,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3184721537587,47.68291649077168,0 -117.3183710887315,47.68296530558036,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3150377301962,47.68459556740866,0 -117.3148505077317,47.68468872483956,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3146714223403,47.68486042850819,0 -117.3146714242481,47.6847910155301,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3147832680782,47.68510661766901,0 -117.3146769757985,47.6850034394046,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin2210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3304755837875,47.67833469113102,0 -117.3301994779928,47.67839074114147,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>blastpad</name>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin212</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3243757346742,47.6810651324017,0 -117.3241633944152,47.68104196664812,0 -117.3241936808111,47.68091007433267,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin212</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3244429018015,47.68103564780593,0 -117.3242264511795,47.68101248016493,0 -117.324258112601,47.68087597629806,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>twyrwy_labels</name>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3149557422806</longitude>
+					<latitude>47.6850893616182</latitude>
+					<altitude>0</altitude>
+					<heading>0.1047786755085636</heading>
+					<tilt>0</tilt>
+					<range>299.3742974616991</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3158676425545,47.68569788950257,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<gx:TimeStamp><when>2017-05-27</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3142754243516</longitude>
+					<latitude>47.6842692405765</latitude>
+					<altitude>0</altitude>
+					<heading>0.1052804313656759</heading>
+					<tilt>0</tilt>
+					<range>203.7498913706801</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3141153855135,47.68384789815123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3146780279143</longitude>
+					<latitude>47.68229092152062</latitude>
+					<altitude>0</altitude>
+					<heading>0.1047092973891784</heading>
+					<tilt>0</tilt>
+					<range>100.5610750947829</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3149769680782,47.68241243221023,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3240165915749</longitude>
+					<latitude>47.68001109013218</latitude>
+					<altitude>0</altitude>
+					<heading>0.09780423255866331</heading>
+					<tilt>0</tilt>
+					<range>132.2409976680836</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3242281267417,47.68008008666612,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3305222309345</longitude>
+					<latitude>47.67881276703503</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01070293353837744</heading>
+					<tilt>0</tilt>
+					<range>109.9963628506357</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.33089512362,47.67877505893562,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.320878586031</longitude>
+					<latitude>47.68196939717372</latitude>
+					<altitude>0</altitude>
+					<heading>0.04461062477400592</heading>
+					<tilt>0</tilt>
+					<range>411.816425698529</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3224541489117,47.68112422167733,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3177982009572</longitude>
+					<latitude>47.68275492360664</latitude>
+					<altitude>0</altitude>
+					<heading>0.00752915045159072</heading>
+					<tilt>0</tilt>
+					<range>250.5327619474021</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.318260563985,47.68324739032745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3254064781077</longitude>
+					<latitude>47.6806925543997</latitude>
+					<altitude>0</altitude>
+					<heading>0.09677655716571526</heading>
+					<tilt>0</tilt>
+					<range>204.5585021966789</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3259069809836,47.68083838423225,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.324976134593</longitude>
+					<latitude>47.68016822618116</latitude>
+					<altitude>0</altitude>
+					<heading>0.09709474896522949</heading>
+					<tilt>0</tilt>
+					<range>132.2409976649463</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3252549250145,47.68023562062823,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>D</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3195967357657</longitude>
+					<latitude>47.68164886892558</latitude>
+					<altitude>0</altitude>
+					<heading>0.00619928967234917</heading>
+					<tilt>0</tilt>
+					<range>311.6103397859079</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3207295219121,47.68147903311548,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>E</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3233131579858</longitude>
+					<latitude>47.68076145982646</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005372585998898498</heading>
+					<tilt>0</tilt>
+					<range>112.7792080111597</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.323529782507,47.68047113040463,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4L</name>
+				<LookAt>
+					<longitude>-117.332547680674</longitude>
+					<latitude>47.67888413385493</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006127958863868049</heading>
+					<tilt>5.919302274872678</tilt>
+					<range>511.8080245885676</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3334867568958,47.67878514146233,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22R</name>
+				<LookAt>
+					<longitude>-117.3150274724218</longitude>
+					<latitude>47.68537695119532</latitude>
+					<altitude>0</altitude>
+					<heading>0.0105982667787484</heading>
+					<tilt>19.20637955715676</tilt>
+					<range>511.8080245865742</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3151358115005,47.68757765890528,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22L</name>
+				<LookAt>
+					<longitude>-117.3150274724218</longitude>
+					<latitude>47.68537695119532</latitude>
+					<altitude>0</altitude>
+					<heading>0.0105982667787484</heading>
+					<tilt>19.20637955715676</tilt>
+					<range>511.8080245865742</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3139236412809,47.68614780680098,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4R</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-21</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3224426853927</longitude>
+					<latitude>47.68170531765784</latitude>
+					<altitude>0</altitude>
+					<heading>4.937605478149227</heading>
+					<tilt>0</tilt>
+					<range>780.312347440541</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1100</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3248978105044,47.68114539203881,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>A</name>
+				<LookAt>
+					<longitude>-117.3286330122884</longitude>
+					<latitude>47.67901170070132</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005292200785543633</heading>
+					<tilt>18.32948109475985</tilt>
+					<range>253.4023279509953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3287161086065,47.67903380302671,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ramp_labels</name>
+			<Placemark>
+				<name>GA Parking</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3199826511375</longitude>
+					<latitude>47.68022443888928</latitude>
+					<altitude>0</altitude>
+					<heading>0.005913947376007947</heading>
+					<tilt>0</tilt>
+					<range>619.5331272446376</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3234833131324,47.6798946680089,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seaplane base</name>
+				<LookAt>
+					<longitude>-117.3246086021192</longitude>
+					<latitude>47.68516674882732</latitude>
+					<altitude>0</altitude>
+					<heading>-6.361109362927034e-15</heading>
+					<tilt>0</tilt>
+					<range>94.21787418365588</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3249513182082,47.68526136838065,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>building_labels</name>
+			<Placemark>
+				<name>Parkwater Aviation</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3224793762408</longitude>
+					<latitude>47.67983633918652</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004756077548468305</heading>
+					<tilt>0</tilt>
+					<range>761.6005143938218</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3261800929265,47.67901516427937,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Western Aviation</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3198391157001</longitude>
+					<latitude>47.68035799694427</latitude>
+					<altitude>0</altitude>
+					<heading>0.006020077422068933</heading>
+					<tilt>0</tilt>
+					<range>396.5324006717682</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3214598402564,47.68002120118588,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SFF Aviation</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3185181749643</longitude>
+					<latitude>47.68082252778094</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001827150954130295</heading>
+					<tilt>0</tilt>
+					<range>291.0054389793233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3180139174109,47.68078194565663,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TWR</name>
+				<LookAt>
+					<gx:TimeStamp><when>2018-07-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-117.3188653700602</longitude>
+					<latitude>47.68060485908879</latitude>
+					<altitude>0</altitude>
+					<heading>0.006740066723761306</heading>
+					<tilt>0</tilt>
+					<range>168.4820161607306</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.3194683099584,47.68055149326282,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>helipad</name>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3271539011495,47.67917713762659,0 -117.3271067227848,47.67909047174365,0 -117.3272371915243,47.67905988382093,0 -117.3272837875944,47.67914694181992,0 -117.3271539011495,47.67917713762659,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3272410017578,47.67913835848258,0 -117.3272108570545,47.67908493228154,0 -117.3272256194858,47.67911184832064,0 -117.3271659438036,47.67912634504268,0 -117.3271819334741,47.67915285967467,0 -117.3271505740158,47.67910025266514,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3270151980501,47.67921170160585,0 -117.3268859275769,47.67924321154906,0 -117.3268410895778,47.67915575748442,0 -117.3269678416725,47.67912510780648,0 -117.3270151980501,47.67921170160585,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3269721199938,47.67920299678321,0 -117.3269419926212,47.67915037251458,0 -117.3269585905908,47.67918061718036,0 -117.3269093549336,47.67919304944419,0 -117.3269228786364,47.6792158468338,0 -117.3268915332024,47.67916362899771,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3271850691557,47.6789658116459,0 -117.3270570782918,47.67899730810221,0 -117.3270085026847,47.67891072014736,0 -117.3271364377459,47.67887842750383,0 -117.3271850691557,47.6789658116459,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3271463014891,47.6789554534276,0 -117.3271136855168,47.67890036871662,0 -117.3271309140552,47.67892977046036,0 -117.3270712396664,47.67894509640237,0 -117.3270884655393,47.67897036957429,0 -117.3270527889613,47.67891817412691,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3268842258503,47.67902297422628,0 -117.326855320245,47.67896498956315,0 -117.3268713080893,47.67899770468475,0 -117.3268214726463,47.67900971696992,0 -117.3268362295438,47.67903623317461,0 -117.3268036478232,47.67897699727328,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-117.3269186828609,47.67903126102004,0 -117.326789448591,47.67906275733911,0 -117.3267415224614,47.67897534066748,0 -117.3268700847913,47.67894387634702,0 -117.3269186828609,47.67903126102004,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

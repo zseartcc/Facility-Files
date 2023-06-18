@@ -66,7 +66,7 @@ for folder in root.findall("Document/Folder/Folder", ns):
 			lineStrings.append(makeLineString(placemark))
 		elif placemark.find("Polygon", ns):
 			# Add to MultiPolygon
-			name = placemark.find("name", ns).text
+			name = placemark.find("name", ns).text.lower()
 			if name == "outer":
 				makeInnerRings = True
 				placemarkQueue.append(placemark)

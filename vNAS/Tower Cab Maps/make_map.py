@@ -85,6 +85,10 @@ for folder in root.findall("Document/Folder/Folder", ns):
 	# Handle the case where the last item is an "inner"
 	if len(placemarkQueue) > 0:
 		polygons.append(makePolygon(placemarkQueue))
+	# Get additional properties, if present
+	description = folder.find("description", ns)
+	if description:
+		props = json.loads(description.text)
 	# Store LineStrings and Polygons, as needed
 	if len(lineStrings) > 0:
 		feature = {
@@ -100,6 +104,10 @@ for folder in root.findall("Document/Folder/Folder", ns):
 				"zIndex": zIndex
 			}
 		}
+		# Add additional properties, if present
+		if props:
+			for k,v in props.items():
+				feature["properties"][k] = v
 		features.append(feature)
 	if len(polygons) > 0:
 		feature = {
@@ -113,6 +121,10 @@ for folder in root.findall("Document/Folder/Folder", ns):
 				"zIndex": zIndex
 			}
 		}
+		# Add additional properties, if present
+		if props:
+			for k,v in props.items():
+				feature["properties"][k] = v
 		features.append(feature)
 
 # Output

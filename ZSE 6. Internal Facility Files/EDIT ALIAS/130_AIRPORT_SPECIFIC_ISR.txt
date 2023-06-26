@@ -1194,15 +1194,15 @@
 
 .BFICHINS .FD SEA_CHINS
 
-.BFICHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 11k 250kts, props cross @ 10k ::: BFI altim A$altim(KBFI)
+.BFICHINSCTR .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Descend via STARk ::: BFI altim A$altim(KBFI)
 
-.BFICHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
+.BFICHINSAPP .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
 
-.TBFICHINSCTRN Cross RADDY at and maintain 11k and 250kts (props cross RADDY at 10k). BFI Landing North. Altimeter A$altim(KBFI)
+.TBFICHINSCTRN Descend via the CHINS5 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 
 .TBFICHINSAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
-.TBFICHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY at 10k). BFI Landing South. Altimeter A$altim(KBFI)
+.TBFICHINSCTRS Descend via the CHINS5 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 
 .TBFICHINSAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
@@ -1222,11 +1222,11 @@
 
 .BFISKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: BFI altim A$altim(KBFI)
 
-.TBFISKYKOCTRN Descend via STAR. BFI Landing North. Altimeter A$altim(KBFI)
+.TBFISKYKOCTRN Descend via THE SKYKO1 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 
 .TBFISKYKOAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
-.TBFISKYKOCTRS Descend via STAR. BFI Landing South. Altimeter A$altim(KBFI)
+.TBFISKYKOCTRS Descend via the SKYKO1 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 
 .TBFISKYKOAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
@@ -1242,15 +1242,15 @@
 
 .BFIGLASR .FD SEA_GLASR
 
-.BFIGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Cross JAKSN @ 11k 250kts, props @ 10k ::: BFI altim A$altim(KBFI)
+.BFIGLASRCTR .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend via STAR ::: BFI altim A$altim(KBFI)
 
-.BFIGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: BFI altim A$altim(KBFI)
+.BFIGLASRAPP .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: BFI altim A$altim(KBFI)
 
-.TBFIGLASRCTRS Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). BFI Landing South. Altimeter A$altim(KBFI)
+.TBFIGLASRCTRS Descend via the GLASR2 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 
 .TBFIGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
-.TBFIGLASRCTRN Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). BFI Landing North. Altimeter A$altim(KBFI)
+.TBFIGLASRCTRN Descend via the GLASR2 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 
 .TBFIGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
@@ -1266,15 +1266,15 @@
 
 .BFIJAWBN .FD SEA_JAWBN
 
-.BFIJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 11k 250kts, other 10k 250kts ::: BFI altim A$altim(KBFI)
+.BFIJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Descend via STAR ::: BFI altim A$altim(KBFI)
 
 .BFIJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
 
-.TBFIJAWBNCTRN Cross JAWBN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). BFI Landing North. Altimeter A$altim(KBFI)
+.TBFIJAWBNCTRN Descend via the JAWBN6 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 
 .TBFIJAWBNAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
-.TBFIJAWBNCTRS Cross JAWBN at and maintain 11k and 250kts (non-jets cross at 10k and 250 kts). BFI Landing South. Altimeter A$altim(KBFI)
+.TBFIJAWBNCTRS Descend via the JAWBN6 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 
 .TBFIJAWBNAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
@@ -1290,15 +1290,15 @@
 
 .BFIOLM .FD SEA_OLM
 
-.BFIOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: BFI altim A$altim(KBFI)
+.BFIOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Descend via STAR ::: BFI altim A$altim(KBFI)
 
 .BFIOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: BFI altim A$altim(KBFI)
 
-.TBFIOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). BFI Landing North. Altimeter A$altim(KBFI)
+.TBFIOLMCTRN Descend via the OLM2 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 
 .TBFIOLMAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
 
-.TBFIOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). BFI Landing South. Altimeter A$altim(KBFI)
+.TBFIOLMCTRS Descend via the OLM2 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 
 .TBFIOLMAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
@@ -1467,10 +1467,11 @@
  
 .MADEE .FD BLI_MADEE 
  
-.MADEECTR .MSG ZSE_ISR *** MADEE 4 ::: RNAV ::: Handoff 30NM prior to CYYJ_APP airspace @ 9k ::: BLI A$altim(KBLI) 
+.BLIMADEECTR .MSG ZSE_ISR *** MADEE 4 ::: RNAV ::: Descend via STAR ::: Handoff 30NM prior to CYYJ_APP airspace @ 9k ::: BLI A$altim(KBLI) 
 
+.TBLIMADEECTRS Descend via the MADEE4 arrival. BLI Landing South. Altimeter A$altim(KBLI)
 
-
+.TBLIMADEECTRN Descend via the MADEE4 arrival. BLI Landing North. Altimeter A$altim(KBLI)
 
 
 
@@ -3085,15 +3086,15 @@
 
 .GEGGEG .FD GEG_GEG
 
-.GEGGEGDEL .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: ALL RWYS ::: CVS ::: CRZ-10min(Listed) ::: DEP FREQ 123.75(W), 133.35(E)
+.GEGGEGDEL .MSG ZSE_ISR *** GEG 7 ::: Vectored ::: ALL RWYS ::: CVS ::: CRZ-10min(Listed) ::: DEP FREQ 123.75(W), 133.35(E)
 
-.GEGGEGGND .MSG ZSE_ISR *** GEG 6 ::: ALL RWYS
+.GEGGEGGND .MSG ZSE_ISR *** GEG 7 ::: ALL RWYS
 
-.GEGGEGTWR .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: DEP FREQ 123.75(W), 133.35(E)
+.GEGGEGTWR .MSG ZSE_ISR *** GEG 7 ::: Vectored ::: DEP FREQ 123.75(W), 133.35(E)
 
-.GEGGEGDEP .MSG ZSE_ISR *** GEG 6 ::: Vectored ::: CVS issued by DEL ::: CRZ-10min(Listed) ::: TopAlt 6k ::: Vector to assigned route
+.GEGGEGDEP .MSG ZSE_ISR *** GEG 7 ::: Vectored ::: CVS issued by DEL ::: CRZ-10min(Listed) ::: TopAlt 6k ::: Vector to assigned route
 
-.GEGGEGCTR .MSG ZSE_ISR *** GEG 6 ::: CRZ-10min(Listed) ::: TopAlt 6k
+.GEGGEGCTR .MSG ZSE_ISR *** GEG 7 ::: CRZ-10min(Listed) ::: TopAlt 6k
 
 .TCRAFTGEGGEG Cleared to $arr via $route. Climb Via SID. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
 
@@ -5873,15 +5874,15 @@
 
 .PAECHINS .FD SEA_CHINS
 
-.PAECHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: PAE altim A$altim(KPAE)
+.PAECHINSCTR .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Descend via STAR ::: PAE altim A$altim(KPAE)
 
-.PAECHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: PAE altim A$altim(KPAE)
+.PAECHINSAPP .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: PAE altim A$altim(KPAE)
 
-.TPAECHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). PAE Landing North. Altimeter A$altim(KPAE)
+.TPAECHINSCTRN Descend via the CHINS5 arrival. PAE Landing North. Altimeter A$altim(KPAE)
 
 .TPAECHINSAPPN Expect vectors for the RNAV rwy 34L approach. Altimeter A$altim(KPAE)
 
-.TPAECHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). PAE Landing South. Altimeter A$altim(KPAE)
+.TPAECHINSCTRS Descend via the CHINS5 arrival. PAE Landing South. Altimeter A$altim(KPAE)
 
 .TPAECHINSAPPS Expect vectors for the ILS Z rwy 16R approach. Altimeter A$altim(KPAE)
 
@@ -5897,15 +5898,15 @@
 
 .PAEOLM .FD SEA_OLM
 
-.PAEOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: PAE altim A$altim(KPAE)
+.PAEOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Descend via STAR ::: PAE altim A$altim(KPAE)
 
 .PAEOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: PAE altim A$altim(KPAE)
 
-.TPAEOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). PAE Landing North. Altimeter A$altim(KPAE)
+.TPAEOLMCTRN Descend via the OLM2 arrivaL. PAE Landing North. Altimeter A$altim(KPAE)
 
 .TPAEOLMAPPN Expect vectors for the RNAV rwy 34L approach. Altimeter A$altim(KPAE)
 
-.TPAEOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). PAE Landing South. Altimeter A$altim(KPAE)
+.TPAEOLMCTRS Descend via the OLM2 arrival. PAE Landing South. Altimeter A$altim(KPAE)
 
 .TPAEOLMAPPS Expect vectors for the ILS Z rwy 16R approach. Altimeter A$altim(KPAE)
 
@@ -6601,7 +6602,7 @@
 
 .PDXHHOOD .FD PDX_HHOOD
 
-.PDXHHOODCTR .MSG ZSE_ISR *** HHOOD 4 ::: RNAV ::: [PDX] Descend via STAR __ [TTD] Cross HHOOD @ 8k __ [Other] Cross HHOOD @ 16k ::: A$altim(KPDX)
+.PDXHHOODCTR .MSG ZSE_ISR *** HHOOD 4 ::: RNAV ::: Descend via STAR::: A$altim(KPDX)
 
 .PDXHHOODAPP .MSG ZSE_ISR *** HHOOD 4 ::: RNAV ::: (Descend via STAR issued by CTR). [EAST OPS] After NNUTT vector to final __ [WEST OPS] Assign ILS 28L/R from SHAFR __ [SOUTH OPS] After SOOZN vector to final ::: A$altim(KPDX)
 
@@ -7567,15 +7568,15 @@
 
 .RNTCHINS .FD SEA_CHINS
 
-.RNTCHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [ALL OPS] J cross RADDY @ 11k, L & S cross @ 10k ::: RNT altim A$altim(KRNT)
+.RNTCHINSCTR .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Descend via STAR ::: RNT altim A$altim(KRNT)
 
-.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-11k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
+.RNTCHINSAPP .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Cross AUBRN btwen 10k-11k. Descend to 7k by midfield. Vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTCHINSCTRN Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRN Descend via the CHINS5 arrival. RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTCHINSCTRS Cross RADDY at and maintain 11k (non-jets cross RADDY at 10k). RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTCHINSCTRS Descend via the CHINS5 arrival. RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTCHINSAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
@@ -7595,11 +7596,11 @@
 
 .RNTSKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTSKYKOCTRN Descend via STAR. RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTSKYKOCTRN Descend via SKYKO1 arrival. RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTSKYKOAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTSKYKOCTRS Descend via STAR. RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTSKYKOCTRS Descend via SKYKO1 arrival. RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTSKYKOAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
@@ -7615,15 +7616,15 @@
 
 .RNTGLASR .FD SEA_GLASR
 
-.RNTGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 11k 250kts, props @ 10k ::: RNT altim A$altim(KRNT)
+.RNTGLASRCTR .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend via STAR ::: RNT altim A$altim(KRNT)
 
-.RNTGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: RNT altim A$altim(KRNT)
+.RNTGLASRAPP .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: RNT altim A$altim(KRNT)
 
-.TRNTGLASRCTRS Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTGLASRCTRS Descend via the GLASR2 arrival. RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTGLASRAPPS Descend and maintain 7k, depart WOODI heading 250. Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
-.TRNTGLASRCTRN Cross JAKSN at and maintain 11k and 250kts (props cross at 10k). RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTGLASRCTRN Descend via the GLASR2 arrival. RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTGLASRAPPN Descend and maintain 7k. Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
@@ -7639,15 +7640,15 @@
 
 .RNTOLM .FD SEA_OLM
 
-.RNTOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: RNT altim A$altim(KRNT)
+.RNTOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Descend via STAR ::: RNT altim A$altim(KRNT)
 
 .RNTOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: RNT altim A$altim(KRNT)
 
-.TRNTOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). RNT Landing North. Altimeter A$altim(KRNT)
+.TRNTOLMCTRN Descend via the OLM2 arrival. RNT Landing North. Altimeter A$altim(KRNT)
 
 .TRNTOLMAPPN Expect vectors for the RNAV rwy 34 approach. Altimeter A$altim(KRNT)
 
-.TRNTOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). RNT Landing South. Altimeter A$altim(KRNT)
+.TRNTOLMCTRS Descend via the OLM2 arrival. RNT Landing South. Altimeter A$altim(KRNT)
 
 .TRNTOLMAPPS Expect vectors for the RNAV Z rwy 16 approach. Altimeter A$altim(KRNT)
 
@@ -8439,15 +8440,15 @@
 
 .SEAELMAA .FD SEA_ELMAA
 
-.SEAELMAADEL .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: RWY 16L/R/C ::: CVO, HQM ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 120.4
+.SEAELMAADEL .MSG ZSE_ISR *** ELMAA 4 ::: PilotNav ::: RWY 16L/R/C ::: CVO, HQM ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 120.4
 
-.SEAELMAAGND .MSG ZSE_ISR *** ELMAA 3 ::: RWY 16L/R/C
+.SEAELMAAGND .MSG ZSE_ISR *** ELMAA 4 ::: RWY 16L/R/C
 
-.SEAELMAATWR .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: DEP FREQ 120.4
+.SEAELMAATWR .MSG ZSE_ISR *** ELMAA 4 ::: PilotNav ::: DEP FREQ 120.4
 
-.SEAELMAADEP .MSG ZSE_ISR *** ELMAA 3 ::: PilotNav ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k
+.SEAELMAADEP .MSG ZSE_ISR *** ELMAA 4 ::: PilotNav ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k
 
-.SEAELMAACTR .MSG ZSE_ISR *** ELMAA 3 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+.SEAELMAACTR .MSG ZSE_ISR *** ELMAA 4 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
 
 .TCRAFTSEAELMAA Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
 
@@ -8575,15 +8576,15 @@
 
 .SEAMONTN .FD SEA_MONTN
 
-.SEAMONTNDEL .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: ALL RWYS ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 119.2
+.SEAMONTNDEL .MSG ZSE_ISR *** MONTN 2 ::: Hybrid ::: ALL RWYS ::: CVS Exct Maint 7k ::: CRZ-15 NM from SEA(Listed) ::: DEP FREQ 119.2
 
-.SEAMONTNGND .MSG ZSE_ISR *** MONTN 1 ::: ALL RWYS
+.SEAMONTNGND .MSG ZSE_ISR *** MONTN 2 ::: ALL RWYS
 
-.SEAMONTNTWR .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: DEP FREQ 119.2
+.SEAMONTNTWR .MSG ZSE_ISR *** MONTN 2 ::: Hybrid ::: DEP FREQ 119.2
 
-.SEAMONTNDEP .MSG ZSE_ISR *** MONTN 1 ::: Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k __ [NORTH OPS] After NEZUG vector to assigned route __ [SOUTH OPS] After NICHY vector to assigned route
+.SEAMONTNDEP .MSG ZSE_ISR *** MONTN 2 ::: Hybrid ::: CVS Exct Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published ::: Assign 15k __ [NORTH OPS] After NEZUG vector to assigned route __ [SOUTH OPS] After NICHY vector to assigned route
 
-.SEAMONTNCTR .MSG ZSE_ISR *** MONTN 1 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
+.SEAMONTNCTR .MSG ZSE_ISR *** MONTN 2 ::: CRZ-15 NM from SEA(Listed) ::: TopAlt Not Published
 
 .TCRAFTSEAMONTN Cleared to $arr via $route. Climb Via SID Except Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
 
@@ -8643,15 +8644,15 @@
 
 .SEASEA .FD SEA_SEA
 
-.SEASEADEL .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: ALL RWYS ::: Maint 7k ::: CRZ-15 NM from SEA(Not-Listed) ::: DEP FREQ 119.2
+.SEASEADEL .MSG ZSE_ISR *** SEA 8 ::: Vectored ::: ALL RWYS ::: Maint 7k ::: CRZ-15 NM from SEA(Not-Listed) ::: DEP FREQ 119.2
 
-.SEASEAGND .MSG ZSE_ISR *** SEA 7 ::: ALL RWYS :::
+.SEASEAGND .MSG ZSE_ISR *** SEA 8 ::: ALL RWYS :::
 
-.SEASEATWR .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: DEP FREQ 119.2
+.SEASEATWR .MSG ZSE_ISR *** SEA 8 ::: Vectored ::: DEP FREQ 119.2
 
-.SEASEADEP .MSG ZSE_ISR *** SEA 7 ::: Vectored ::: Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. Vector to assigned route
+.SEASEADEP .MSG ZSE_ISR *** SEA 8 ::: Vectored ::: Maint 7k issued by DEL ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published ::: Assign 15k. Vector to assigned route
 
-.SEASEACTR .MSG ZSE_ISR *** SEA 7 ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published
+.SEASEACTR .MSG ZSE_ISR *** SEA 8 ::: CRZ-15 NM from SEA(Not-Listed) ::: TopAlt Not Published
 
 .TCRAFTSEASEA Cleared to $arr via $route. Maintain 7k. Expect $cruise 15 NM from SEA. Departure frequency $freq($1), squawk $squawk.
 
@@ -8728,15 +8729,15 @@
 
 .SEACHINS .FD SEA_CHINS
 
-.SEACHINSCTR .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: [SOUTH OPS] Cross RADDY @ 16k 270kts, props cross @ 10k __ [NORTH OPS] Cross RADDY @ 12k 250kts, props cross at 10k ::: SEA altim A$altim(KSEA)
+.SEACHINSCTR .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Descend via STAR ::: SEA altim A$altim(KSEA)
 
-.SEACHINSAPP .MSG ZSE_ISR *** CHINS 4 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: SEA altim A$altim(KSEA)
+.SEACHINSAPP .MSG ZSE_ISR *** CHINS 5 ::: Non-RNAV ::: Cross AUBRN btwen 10k-12k. Descend to 7k by midfield. Vector to final ::: SEA altim A$altim(KSEA)
 
-.TSEACHINSCTRN Cross RADDY at and maintain 12k and 250kts (props cross RADDY at 10k). SEA Landing North. Altimeter A$altim(KSEA)
+.TSEACHINSCTRN Descend via CHINS5 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 
 .TSEACHINSAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
 
-.TSEACHINSCTRS Cross RADDY at and maintain 16k and 270kts (props cross RADDY ay 10k). SEA Landing South. Altimeter A$altim(KSEA)
+.TSEACHINSCTRS Descend via CHINS5 arrival. SEA Landing South. Altimeter A$altim(KSEA)
 
 .TSEACHINSAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
 
@@ -8756,11 +8757,11 @@
 
 .SEASKYKOAPP .MSG ZSE_ISR *** SKYKO 1 ::: Non-RNAV ::: Descending via STAR. After HETHR vector to final ::: SEA altim A$altim(KSEA)
 
-.TSEASKYKOCTRN Descend via STAR. SEA Landing North. SEA altimeter A$altim(KSEA)
+.TSEASKYKOCTRN Descend via SKYKO1 arrival. SEA Landing North. SEA altimeter A$altim(KSEA)
 
 .TSEASKYKOAPPN Expect vectors for the ILS rwy 34R approach. SEA altimeter A$altim(KSEA)
 
-.TSEASKYKOCTRS Descend via STAR. SEA Landing South. SEA altimeter A$altim(KSEA)
+.TSEASKYKOCTRS Descend via SKYKO1 arrival. SEA Landing South. SEA altimeter A$altim(KSEA)
 
 .TSEASKYKOAPPS Expect vectors for the ILS rwy 16L approach. SEA altimeter A$altim(KSEA)
 
@@ -8778,15 +8779,15 @@
 
 .GLASR .FD SEA_GLASR
 
-.SEAGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 12k 250kts, props @ 10k __ [NORTH OPS] Cross JAKSN @ 16k 270kts, props @ 10k ::: SEA altim A$altim(KSEA)
+.SEAGLASRCTR .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend via STAR ::: SEA altim A$altim(KSEA)
 
-.SEAGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN (must be @ 7k by midfield). Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: SEA altim A$altim(KSEA)
+.SEAGLASRAPP .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend to 7k after JAKSN (must be @ 7k by midfield). Vector to final. (SOUTH OPS ONLY - Dept WOODI H250) ::: SEA altim A$altim(KSEA)
 
-.TSEAGLASRCTRS Cross JAKSN at and maintain 12k and 250kts (props cross at 10k). SEA Landing South. Altimeter A$altim(KSEA)
+.TSEAGLASRCTRS Descend via GLASR2 arrival. SEA Landing South. Altimeter A$altim(KSEA)
 
 .TSEAGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 16L approach. Altimeter A$altim(KSEA)
 
-.TSEAGLASRCTRN Cross JAKSN at and maintain 16k and 270kts (props cross at 10k). SEA Landing North. Altimeter A$altim(KSEA)
+.TSEAGLASRCTRN Descend via GLASR2 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 
 .TSEAGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34R approach. Altimeter A$altim(KSEA)
 
@@ -8826,15 +8827,15 @@
 
 .SEAJAWBN .FD SEA_JAWBN
 
-.SEAJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 12k 250kts, other 10k __ [BFI SOUTH] Cross JAWBN @ 11k 250kts ::: A$altim(KSEA)
+.SEAJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Descend via STAR ::: A$altim(KSEA)
 
 .SEAJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final ::: A$altim(KSEA)
 
-.TSEAJAWBNCTRN Cross JAWBN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). SEA Landing North. Altimeter A$altim(KSEA)
+.TSEAJAWBNCTRN Descend via the JAWBN6 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 
 .TSEAJAWBNAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
 
-.TSEAJAWBNCTRS Cross JAWBN at and maintain 12k and 250kts (non-jets cross at 10k and 250 kts). SEA Landing South. Altimeter A$altim(KSEA)
+.TSEAJAWBNCTRS Descend via the JAWBN6 arrival. SEA Landing South. Altimeter A$altim(KSEA)
 
 .TSEAJAWBNAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
 
@@ -8874,15 +8875,15 @@
 
 .SEAOLM .FD SEA_OLM
 
-.SEAOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: [SOUTH OPS] Cross OLM @ 17k 270kts, props @ 12k __ [NORTH OPS] Cross OLM @ 13k 270kts, props @ 12k ::: A$altim(KSEA)
+.SEAOLMCTR .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Descend via STAR ::: A$altim(KSEA)
 
 .SEAOLMAPP .MSG ZSE_ISR *** OLM 2 ::: Non-RNAV ::: Vector to final ::: A$altim(KSEA)
 
-.TSEAOLMCTRN Cross OLM at and maintain 13k and 270 kts (props cross at 12k). SEA Landing North. Altimeter A$altim(KSEA)
+.TSEAOLMCTRN Descend via the OLM2 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 
 .TSEAOLMAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
 
-.TSEAOLMCTRS Cross OLM at and maintain 17k and 270kts (props cross at 12k). SEA Landing South. Altimeter A$altim(KSEA)
+.TSEAOLMCTRS Descend via the OLM2 arrival. SEA Landing South. Altimeter A$altim(KSEA)
 
 .TSEAOLMAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
 
@@ -9918,15 +9919,15 @@
 
 .TCMELN .FD TCM_ELN
 
-.TCMELNCTR .MSG ZSE_ISR *** ELN 3 ::: RNAV ::: Descend via STAR ::: A$altim(KTCM)
+.TCMELNCTR .MSG ZSE_ISR *** ELN 4 ::: RNAV ::: Descend via STAR ::: A$altim(KTCM)
 
-.TCMELNAPP .MSG ZSE_ISR *** ELN 3 ::: RNAV ::: [RWY 16] Vector to final after WAALP __ [RWY 34] @ JETEM clrd ILS 34 apch ::: A$altim(KTCM)
+.TCMELNAPP .MSG ZSE_ISR *** ELN 4 ::: RNAV ::: [RWY 16] Vector to final after WAALP __ [RWY 34] @ JETEM clrd ILS 34 apch ::: A$altim(KTCM)
 
-.TTCMELNCTRN Descend via the ELN3 arrival. TCM Landing North. Altimeter A$altim(KTCM)
+.TTCMELNCTRN Descend via the ELN4 arrival. TCM Landing North. Altimeter A$altim(KTCM)
 
 .TTCMELNAPPN Cross JETEM at or above 3200. At JETEM clrd ILS 34 approach. Altimeter A$altim(KTCM)
 
-.TTCMELNCTRS Descend via the ELN3 arrival. TCM Landing South. Altimeter A$altim(KTCM)
+.TTCMELNCTRS Descend via the ELN4 arrival. TCM Landing South. Altimeter A$altim(KTCM)
 
 .TTCMELNAPPS Expect vectors for the ILS Z 16 apch. Altimeter A$altim(KTCM)
 
@@ -9942,15 +9943,15 @@
 
 .TCMGLASR .FD SEA_GLASR
 
-.TCMGLASRCTR .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: [SOUTH OPS] Cross JAKSN @ 12k 250kts, props @ 10k __ [NORTH OPS] Cross JAKSN @ 16k 270kts, props @ 10k ::: TCM altim A$altim(KTCM)
+.TCMGLASRCTR .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend via STAR ::: TCM altim A$altim(KTCM)
 
-.TCMGLASRAPP .MSG ZSE_ISR *** GLASR 1 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (Acft will fly dct SEA VORTAC after HETHR if no prior instructions given) ::: TCM altim A$altim(KTCM)
+.TCMGLASRAPP .MSG ZSE_ISR *** GLASR 2 ::: Non-RNAV ::: Descend to 7k after JAKSN. Vector to final. (Acft will fly dct SEA VORTAC after HETHR if no prior instructions given) ::: TCM altim A$altim(KTCM)
 
-.TTCMGLASRCTRS Cross JAKSN at and maintain 12k and 250kts (props cross at 10k). TCM Landing South. Altimeter A$altim(KTCM)
+.TTCMGLASRCTRS Descend via the GLASR2 arrival. TCM Landing South. Altimeter A$altim(KTCM)
 
 .TTCMGLASRAPPS Descend and maintain 7k. Expect vectors for the ILS Z rwy 16 approach. Altimeter A$altim(KTCM)
 
-.TTCMGLASRCTRN Cross JAKSN at and maintain 16k and 270kts (props cross at 10k). TCM Landing North. Altimeter A$altim(KTCM)
+.TTCMGLASRCTRN Descend via the GLASR2 arrival. TCM Landing North. Altimeter A$altim(KTCM)
 
 .TTCMGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34 approach. Altimeter A$altim(KTCM)
 
@@ -9966,15 +9967,15 @@
 
 .TCMJAWBN .FD SEA_JAWBN
 
-.TCMJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: [NORTH OPS] Jets cross JAWBN @ 16k 270kts, other 10k 250kts __ [SOUTH OPS] Jets cross JAWBN @ 12k 250kts, other 10k ::: TCM altim A$altim(KTCM)
+.TCMJAWBNCTR .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Descend via STAR ::: TCM altim A$altim(KTCM)
 
 .TCMJAWBNAPP .MSG ZSE_ISR *** JAWBN 6 ::: Non-RNAV ::: Vector to final. (Acft will fly dct SEA VORTAC after ALKIA if no prior instructions given) ::: TCM altim A$altim(KTCM)
 
-.TTCMJAWBNCTRN Cross JAKSN at and maintain 16k and 270kts (non-jets cross at 10k and 250kts). TCM Landing North. Altimeter A$altim(KTCM)
+.TTCMJAWBNCTRN Descend via the JAWBN6 arrival. TCM Landing North. Altimeter A$altim(KTCM)
 
 .TTCMJAWBNAPPN Expect vectors for the ILS rwy 34 approach. Altimeter A$altim(KTCM)
 
-.TTCMJAWBNCTRS Cross JAKSN at and maintain 12k and 250kts (non-jets cross at 10k and 250 kts). TCM Landing South. Altimeter A$altim(KTCM)
+.TTCMJAWBNCTRS Descend via the JAWBN6 arrival. TCM Landing South. Altimeter A$altim(KTCM)
 
 .TTCMJAWBNAPPS Expect vectors for the ILS Z rwy 16 approach. Altimeter A$altim(KTCM)
 
@@ -10780,13 +10781,17 @@
  
 .YVRGRIZZ .FD YVR_GRIZZ 
  
-.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
+.YVRGRIZZCTR .MSG ZSE_ISR *** GRIZZ 7 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(CYVR) 
  
-.YVRGRIZZAPP .MSG ZSE_ISR *** GRIZZ 6 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
+.YVRGRIZZAPP .MSG ZSE_ISR *** GRIZZ 7 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(CYVR) 
+
+.TYVRGRIZZCTR (Turbo)props Cross EGRET at 10k, Jets Cross EGRET at 12k. Altimeter A$altim(CYVR)
  
-.TYVRGRIZZCTR (Turbo)props cross EGRET at 10k, jets cross EGRET at 12k. YVR Landing West. Altimeter A$altim(KYVR) 
+.TYVRGRIZZCTRP Cross EGRET at 10k. Altimeter A$altim(CYVR) 
+
+.TYVRGRIZZCTRJ Cross EGRET at 12k. Altimeter A$altim(CYVR)
  
-.TYVRGRIZZAPP . Altimeter A$altim(KYVR) 
+.TYVRGRIZZAPP . Altimeter A$altim(CYVR) 
  
  
  
@@ -10802,13 +10807,13 @@
 
 .YVRPAINE .FD YVR_PAINE 
  
-.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(KYVR) 
+.YVRPAINECTR .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: Cross EGRET @ 10k(L&S), 12k(J) ::: A$altim(CYVR) 
  
-.YVRPAINEAPP .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(KYVR) 
+.YVRPAINEAPP .MSG ZSE_ISR *** PAINE 4 ::: RNAV ::: HANDOFF TO CYVR_APP ::: A$altim(CYVR) 
  
-.TYVRPAINECTR Jets cross EGRET at 12k, (turbo)props cross EGRET at 10k. YVR Landing West. Altimeter A$altim(KYVR) 
+.TYVRPAINECTR Jets cross EGRET at 12k, (turbo)props cross EGRET at 10k. YVR Landing West. Altimeter A$altim(CYVR) 
  
-.TYVRPAINEAPP . Altimeter A$altim(KYVR) 
+.TYVRPAINEAPP . Altimeter A$altim(CYVR) 
  
  
  
@@ -10843,10 +10848,10 @@
  
 .YYJDISCO .FD YYJ_DISCO 
  
-.YYJDISCOCTR .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: Cross DISCO @ 5k ::: A$altim(KYYJ) 
+.YYJDISCOCTR .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: Cross DISCO @ 5k ::: A$altim(CYYJ) 
  
-.YYJDISCOAPP .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: HANDOFF TO CYYJ_APP ::: A$altim(KYYJ) 
+.YYJDISCOAPP .MSG ZSE_ISR *** DISCO 4 ::: RNAV ::: HANDOFF TO CYYJ_APP ::: A$altim(CYYJ) 
  
-.TYYJDISCOCTRW Cross DISCO at 5k. YYJ Landing West. Altimeter A$altim(KYYJ) 
+.TYYJDISCOCTRW Cross DISCO at 5k. YYJ Landing West. Altimeter A$altim(CYYJ) 
  
-.TYYJDISCOAPPW . Altimeter A$altim(KYYJ) 
+.TYYJDISCOAPPW . Altimeter A$altim(CYYJ) 

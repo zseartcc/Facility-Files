@@ -35,6 +35,16 @@
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin3</styleUrl>
 		</Pair>
 		<Pair>
@@ -42,7 +52,7 @@
 			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin</styleUrl>
@@ -60,26 +70,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin3">
@@ -199,20 +189,11 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<LineStyle>
 			<color>ff7fffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7fffff</color>
+			<width>2</width>
 		</LineStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin1">
@@ -275,6 +256,21 @@
 			<color>80ffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -305,30 +301,6 @@
 			<color>80ffaa00</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7fffff</color>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin20">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7fffff</color>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -351,7 +323,7 @@
 			<name>taxiway</name>
 			<Placemark>
 				<name>awaw</name>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -365,7 +337,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -379,7 +351,7 @@
 			</Placemark>
 			<Placemark>
 				<name>outer</name>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -491,7 +463,7 @@
 			</Placemark>
 			<Placemark>
 				<name>inner</name>
-				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -505,7 +477,7 @@
 			</Placemark>
 			<Placemark>
 				<name>inner</name>
-				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -519,7 +491,7 @@
 			</Placemark>
 			<Placemark>
 				<name>inner</name>
-				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1421,39 +1393,20 @@
 					</coordinates>
 				</LineString>
 			</Placemark>
-			<Placemark>
-				<name>Untitled Path</name>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						-117.5193093081435,47.63158485686632,0 -117.5190541528764,47.63175027432705,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-			<Placemark>
-				<name>Untitled Path</name>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
-				<LineString>
-					<tessellate>1</tessellate>
-					<coordinates>
-						-117.5193179209551,47.63159138651086,0 -117.519067072125,47.63175535296913,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>yellowpaint</name>
+			<open>1</open>
 			<description>{
     &quot;thickness&quot;: 2
 }</description>
 			<Placemark>
 				<name>Untitled Path</name>
-				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						-117.5191223886418,47.63149702176063,0 -117.5187208090683,47.631466831672,0 
+						-117.5193104793042,47.63158784914116,0 -117.5190588256403,47.63175257176212,0 
 					</coordinates>
 				</LineString>
 			</Placemark>

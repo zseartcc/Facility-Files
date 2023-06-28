@@ -55,7 +55,16 @@ faaID = root.find("./Document/Folder/name", ns).text
 # Start parsin'
 features = []
 for folder in root.findall("Document/Folder/Folder", ns):
-	color, zIndex = styles[folder.find("name", ns).text]
+	# Get color and zIndex, if able
+	folderName = folder.find("name", ns).text
+	if folderName in styles:
+		color, zIndex = styles[folderName]
+	else:
+		# Defaults if folder name not recognized
+		print(f"Unrecognized folder name: '{folderName}'. Defaulting to color=#FFFFFF, zIndex=100")
+		color = "#ffffff"
+		zIndex = 100
+	# Parse each placemark
 	lineStrings = []
 	polygons = []
 	placemarkQueue = []
@@ -66,10 +75,10 @@ for folder in root.findall("Document/Folder/Folder", ns):
 			lineStrings.append(makeLineString(placemark))
 		elif placemark.find("Polygon", ns):
 			# Add to MultiPolygon
-			name = placemark.find("name", ns).text
-			if name:
-				# Don't try .lower() if name is None
-				name = name.lower()
+			name = placemark.find("name", ns)
+			if name is not None:
+				# Don't try to extract text if `name` is None
+				name = name.text.lower()
 			if name == "outer":
 				makeInnerRings = True
 				placemarkQueue.append(placemark)
@@ -87,42 +96,42 @@ for folder in root.findall("Document/Folder/Folder", ns):
 		polygons.append(makePolygon(placemarkQueue))
 	# Get additional properties, if present
 	description = folder.find("description", ns)
-	if description:
+	if description is not None:
 		props = json.loads(description.text)
 	# Store LineStrings and Polygons, as needed
 	if len(lineStrings) > 0:
 		feature = {
 			"type": "Feature",
-			"geometry": {
-				"type": "MultiLineString",
-				"coordinates": lineStrings
-			},
 			"properties": {
 				"color": color,
 				"thickness": 1,
 				"style": "solid",
 				"zIndex": zIndex
+			},
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": lineStrings
 			}
 		}
 		# Add additional properties, if present
-		if props:
+		if description is not None:
 			for k,v in props.items():
 				feature["properties"][k] = v
 		features.append(feature)
 	if len(polygons) > 0:
 		feature = {
 			"type": "Feature",
-			"geometry": {
-				"type": "MultiPolygon",
-				"coordinates": polygons
-			},
 			"properties": {
 				"color": color,
 				"zIndex": zIndex
+			},
+			"geometry": {
+				"type": "MultiPolygon",
+				"coordinates": polygons
 			}
 		}
 		# Add additional properties, if present
-		if props:
+		if description is not None:
 			for k,v in props.items():
 				feature["properties"][k] = v
 		features.append(feature)
@@ -134,6 +143,7 @@ final = {
 }
 with open(filename.rstrip(".kml") + ".geojson", "w") as file:
 	json.dump(final, file, indent=2)
+	file.write("\n")  # (Finish file with newline)
 
 print("Complete!")
 input("Press ENTER to continue . . . ")

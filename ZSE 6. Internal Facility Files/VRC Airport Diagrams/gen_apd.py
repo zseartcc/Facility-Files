@@ -4,7 +4,7 @@
 # ...
 # -gen_apd.py
 # -KPDX
-#	|_KPDX.kml
+#	| KPDX.kml
 # ...
 
 import sys
@@ -135,3 +135,4 @@ for mark in placemarks:
 paths_f.close()
 labels_f.close()
 print("*Completed*")
+input("\nPress ENTER to continue . . . ")

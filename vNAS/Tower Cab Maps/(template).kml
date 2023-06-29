@@ -10,13 +10,16 @@
 		<name>runway</name>
 	</Folder>
 	<Folder>
-		<name>taxiway</name>
-	</Folder>
-	<Folder>
 		<name>structure</name>
 	</Folder>
 	<Folder>
 		<name>yellowpaint</name>
+	</Folder>
+	<Folder>
+		<name>yellowpaint</name>
+		<description>{
+    &quot;thickness&quot;: 2
+}</description>
 	</Folder>
 	<Folder>
 		<name>whitepaint</name>

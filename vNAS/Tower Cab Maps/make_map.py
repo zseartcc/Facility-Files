@@ -77,7 +77,7 @@ for folder in root.findall("Document/Folder/Folder", ns):
 			# Add to MultiPolygon
 			name = placemark.find("name", ns)
 			if name is not None:
-				# Don't try to extract text if `name` is None
+				# Don't try to extract text if "<name>" doesn't exist
 				name = name.text.lower()
 			if name == "outer":
 				makeInnerRings = True
@@ -141,9 +141,10 @@ final = {
 	"type": "FeatureCollection",
 	"features": features
 }
-with open(filename.rstrip(".kml") + ".geojson", "w") as file:
+outputFilename = filename.rstrip(".kml") + ".geojson"
+with open(outputFilename, "w") as file:
 	json.dump(final, file, indent=2)
 	file.write("\n")  # (Finish file with newline)
 
-print("Complete!")
+print(f"Complete! See '{outputFilename}'")
 input("Press ENTER to continue . . . ")

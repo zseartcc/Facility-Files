@@ -215,10 +215,6 @@
 .ho .msg $atccallsign($1) *** HANDOFF *** $dist($2) $bear($2) of $uc($2), $squawk is $aircraft at $calt :: $3 $4 $5 $6 $7 $8 $9
 .apreq .msg $atccallsign($1) *** APREQ *** $aircraft :: $2 $3 $4 $5 $6 $7 $8 $9
 
-.MSOAR Request assumption of Missoula delegated airspace
-.MSOMC Missoula airspace is my control.
-.MSORLS Missoula airspace released as requested.
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -315,8 +311,8 @@
 ; KGEG
 .autotrackgegon .autotrack .atlistgegon
 .autotrackgegoff .autotrack .atlistgegoff
-.atlistgegon kgeg kska ksff kcoe kmso
-.atlistgegoff -kgeg -kska -ksff -kcoe -kmso
+.atlistgegon kgeg kska ksff kcoe
+.atlistgegoff -kgeg -kska -ksff -kcoe
 
 ; KPSC (Chinook)
 .autotrackpscon .autotrack .atlistpscon
@@ -358,10 +354,10 @@
 ; Scope De-Clutter/Diagram Setup
 
 ; Draw Towered Airports on Scope
-.FIELDS .FF KSEA KPDX KGEG KBLI KEUG KHIO KLMT KMFR KMSO KMWH KOLM KOTH KPDT KPSC KRDM KSFF KSLE KUAO KYKM CYVR
+.FIELDS .FF KSEA KPDX KGEG KBLI KEUG KHIO KLMT KMFR KMWH KOLM KOTH KPDT KPSC KRDM KSFF KSLE KUAO KYKM CYVR
 
 ; Draw VORs on Scope
-.VORs .FF ALW AST BKE BOI BTG BYI BZN COE CPN CTB CVO CVV DBS DLN DNJ DSD EAT ELN EPH EUG EVW FCA GEG GTF HIA HLN HQM HUH IDA ILR IMB LIA LKT LKV LMT LTJ MLD MLP MQG MSO MWH OED OLM ONP OTH PAE PDT PIH PSC PUW RBG REO SEA TCM TOU TWR UBG YKM YBW YDC YNY YPK YQL YVR YXC YYC YYJ YZT ACV AHC BAM BQU BVL CEC CIC DTA ELY ENI FFU FJS FMG FOT HZN ILA INA LCU LHO LLC LWL MYV OGD PVU RBL RDD SDO SWR TCH
+.VORs .FF ALW AST BKE BOI BTG BYI BZN COE CPN CTB CVO CVV DBS DLN DNJ DSD EAT ELN EPH EUG EVW FCA GEG GTF HIA HLN HQM HUH IDA ILR IMB LIA LKT LKV LMT LTJ MLD MLP MQG MWH OED OLM ONP OTH PAE PDT PIH PSC PUW RBG REO SEA TCM TOU TWR UBG YKM YBW YDC YNY YPK YQL YVR YXC YYC YYJ YZT ACV AHC BAM BQU BVL CEC CIC DTA ELY ENI FFU FJS FMG FOT HZN ILA INA LCU LHO LLC LWL MYV OGD PVU RBL RDD SDO SWR TCH
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

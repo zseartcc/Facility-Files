@@ -1,7 +1,8 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-130,49]},"properties":{"isLineDefaults":true,"bcg":3,"filters":[3],"style":"Solid","thickness":1}},
+{
       "type": "Feature",
       "geometry": {
         "type": "LineString",

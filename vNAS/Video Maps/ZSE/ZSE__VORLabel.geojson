@@ -1,7 +1,9 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-127.365306,51.115]},"properties":{"isTextDefaults":true,"bcg":16,"filters":[16],"size":1,"underline":false,"opaque":true,"xOffset":0,"yOffset":0}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-127.365306,51.115]},"properties":{"isSymbolDefaults":true,"bcg":16,"filters":[16],"style":"Vor","size":1}},
+{
       "type": "Feature",
       "geometry": {
         "type": "Point",

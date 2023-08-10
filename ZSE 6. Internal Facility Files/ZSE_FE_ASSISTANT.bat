@@ -1597,31 +1597,31 @@ GOTO HELLO2
 
 CLS
 
-ECHO.
-ECHO.
-ECHO  *** EDIT ALIAS Files to ZSE Pre-Release Folder ***
-ECHO.
-ECHO.
-ECHO  Has there been a change in AIRAC CYLCE?
-ECHO.
-ECHO.
+rem ECHO.
+rem ECHO.
+rem ECHO  *** EDIT ALIAS Files to ZSE Pre-Release Folder ***
+rem ECHO.
+rem ECHO.
+rem ECHO  Has there been a change in AIRAC CYLCE?
+rem ECHO.
+rem ECHO.
 
-set AIRAC_STATUS=AIRAC_STATUS_Not_Set
+SET AIRAC_STATUS=NO_CHG
 
-SET /P USERSELECT=Type Y or N and press Enter: 
-	SET USERSELECT=%USERSELECT: =%
+rem SET /P USERSELECT=Type Y or N and press Enter: 
+rem 	SET USERSELECT=%USERSELECT: =%
 	
-	if /i %USERSELECT%==Y SET AIRAC_STATUS=CHG
-	if /i %USERSELECT%==N SET AIRAC_STATUS=NO_CHG
+rem 	if /i %USERSELECT%==Y SET AIRAC_STATUS=CHG
+rem 	if /i %USERSELECT%==N SET AIRAC_STATUS=NO_CHG
 
-	if /i NOT %USERSELECT%==Y if /i NOT %USERSELECT%==N (
+rem 	if /i NOT %USERSELECT%==Y if /i NOT %USERSELECT%==N (
 		
-		ECHO.
-		ECHO.
-		ECHO %USERSELECT% is not a recognized response. Try again...
-		pause
-		goto ALIASE2PR
-	)
+rem 		ECHO.
+rem 		ECHO.
+rem 		ECHO %USERSELECT% is not a recognized response. Try again...
+rem 		pause
+rem 		goto ALIASE2PR
+rem 	)
 
 ECHO.
 ECHO.

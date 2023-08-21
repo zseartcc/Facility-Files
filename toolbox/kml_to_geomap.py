@@ -40,21 +40,82 @@ ET.SubElement(geomap, "LineDefaults", attrib={
 elements = ET.SubElement(geomap, "Elements")
 
 
+def process_line_segment(start_coords, end_coords, elements,zindex):
+    element = ET.SubElement(elements, "Element", attrib={
+        "xsi:type": "Line",
+        "Filters": "",
+        "StartLat": start_coords[1],
+        "StartLon": start_coords[0],
+        "EndLat": end_coords[1],
+        "EndLon": end_coords[0],
+        "Zindex": zindex,
+    })
+
+def process_polygon(coordinates, elements,zindex):
+    polygon_element = ET.SubElement(elements, "Element", attrib={
+        "xsi:type": "Polygon",
+        "Filters": "",
+        "Coordinates": " ".join(f"{lon},{lat},0" for lon, lat in coordinates),
+        "Zindex": zindex,
+    })
+
+
 for line in kmlFile.iterfind(".//coordinates", ns):
-	coords = cleanCoords(line.text)
-	# Skip points or empty line segments
-	if len(coords) < 2:
-		continue
-	# Split LineStrings into individual line segments
-	for i in range(len(coords)-1):
-		element = ET.SubElement(elements, "Element", attrib={
-			"xsi:type": "Line",
-			"Filters": "",
-			"StartLat": coords[i][1],
-			"StartLon": coords[i][0],
-			"EndLat": coords[i+1][1],
-			"EndLon": coords[i+1][0]
-			})
+    coords = cleanCoords(line.text)
+    parent_folder = None
+    zindex = 1
+
+    # Find the parent Folder element
+    parent = line
+    while parent is not None:
+        parent = parent.getprevious()
+        if parent is not None and parent.tag.endswith("Folder"):
+            parent_folder = parent.find(".//name", ns).text
+            break
+
+    if parent_folder == "runway":
+        zindex = 2
+    elif parent_folder == "whitepaint":
+        zindex = 3
+    elif parent_folder == "yellowpaint":
+        zindex = 4
+    elif parent_folder == "structure":
+        zindex = 5
+    # Skip points or empty line segments
+    if len(coords) < 2:
+        continue
+    # Split LineStrings into individual line segments
+    for i in range(len(coords)-1):
+        process_line_segment(coords[i], coords[i+1], elements,zindex)
+
+for polygon_coords in kmlFile.iterfind(".//Polygon//coordinates", ns):
+    parent_folder = None
+    zindex = 1
+
+    # Find the parent Folder element
+    parent = polygon_coords
+    while parent is not None:
+        parent = parent.getprevious()
+        if parent is not None and parent.tag.endswith("Folder"):
+            parent_folder = parent.find(".//name", ns).text
+            break
+
+    if parent_folder == "runway":
+        zindex = 2
+    elif parent_folder == "whitepaint":
+        zindex = 3
+    elif parent_folder == "yellowpaint":
+        zindex = 4
+    elif parent_folder == "structure":
+        zindex = 5
+    
+
+    polygon_coords_text = polygon_coords.text
+    polygon_coords_cleaned = cleanCoords(polygon_coords_text)
+    # Skip polygons with too few coordinates
+    if len(polygon_coords_cleaned) < 3:
+        continue
+    process_polygon(polygon_coords_cleaned, elements,zindex)
 
 
 outputFilename = inputFilename.strip(".kml") + ".xml"

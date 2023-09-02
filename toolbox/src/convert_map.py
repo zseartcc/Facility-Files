@@ -19,8 +19,6 @@
 
 from tkinter import Tk
 from tkinter.filedialog import askopenfile, asksaveasfile
-from fetools.geomath import ddtodms
-from fetools import pause
 from sys import exit
 import re
 import os
@@ -209,5 +207,4 @@ elif choice == '4':
     writeMap("AutoCAD script", ".scr", writeAutoCad)
 
 print("\nCompleted! Be sure to verify the converted map's name and colors.")
-print("(For vERAM and vSTARS, also check group and TdmOnly settings.)")
-pause()
+input("(For vERAM and vSTARS, also check group and TdmOnly settings.)\n\nPress any button to end task")

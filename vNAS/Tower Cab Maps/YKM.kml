@@ -12,6 +12,7 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
+<<<<<<< Updated upstream
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -23,12 +24,26 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin00">
+=======
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+>>>>>>> Stashed changes
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+<<<<<<< Updated upstream
 			<styleUrl>#sh_ylw-pushpin10</styleUrl>
 		</Pair>
 	</StyleMap>
@@ -43,13 +58,33 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin4">
+=======
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+>>>>>>> Stashed changes
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+<<<<<<< Updated upstream
 			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+=======
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+>>>>>>> Stashed changes
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
@@ -60,6 +95,12 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
+=======
+		<PolyStyle>
+			<color>80ff00aa</color>
+		</PolyStyle>
+>>>>>>> Stashed changes
 	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
@@ -69,6 +110,40 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
+=======
+		<PolyStyle>
+			<color>80ff00aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+>>>>>>> Stashed changes
 	</Style>
 	<Style id="sh_ylw-pushpin1">
 		<IconStyle>
@@ -78,6 +153,7 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
 		<PolyStyle>
 			<color>80ff00ff</color>
 		</PolyStyle>
@@ -104,6 +180,12 @@
 		</IconStyle>
 		<PolyStyle>
 			<color>80ff00ff</color>
+=======
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+>>>>>>> Stashed changes
 		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin2">
@@ -114,8 +196,15 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
 		<PolyStyle>
 			<color>8000aaff</color>
+=======
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+>>>>>>> Stashed changes
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
@@ -126,6 +215,7 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
 		<PolyStyle>
 			<color>80ff00ff</color>
 		</PolyStyle>
@@ -140,6 +230,12 @@
 		</IconStyle>
 		<PolyStyle>
 			<color>80ff00ff</color>
+=======
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+>>>>>>> Stashed changes
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin0">
@@ -150,11 +246,21 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
 		<PolyStyle>
 			<color>8000aaff</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin4">
+=======
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+>>>>>>> Stashed changes
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -162,8 +268,29 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+<<<<<<< Updated upstream
 		<PolyStyle>
 			<color>80ff00ff</color>
+=======
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8000ffff</color>
+>>>>>>> Stashed changes
 		</PolyStyle>
 	</Style>
 	<Folder>
@@ -171,6 +298,7 @@
 		<open>1</open>
 		<Folder>
 			<name>taxiway</name>
+<<<<<<< Updated upstream
 			<open>1</open>
 		</Folder>
 		<Folder>
@@ -178,12 +306,25 @@
 			<Placemark>
 				<name>Untitled Polygon</name>
 				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+=======
+		</Folder>
+		<Folder>
+			<name>runway</name>
+			<open>1</open>
+			<Placemark>
+				<name>Untitled Polygon</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5601888260627,46.57294887668373,0 -120.560418012926,46.57254034298487,0 -120.530529248948,46.56503834669649,0 -120.5303111509259,46.56544940579753,0 -120.5601888260627,46.57294887668373,0 
+=======
+								-120.5601888260627,46.57294887668373,0 -120.560418012926,46.57254034298487,0 -120.530529248948,46.56503834669649,0 -120.5303111509259,46.56544940579752,0 -120.5601888260627,46.57294887668373,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -191,7 +332,11 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+=======
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -206,6 +351,7 @@
 		</Folder>
 		<Folder>
 			<name>taxiway</name>
+<<<<<<< Updated upstream
 			<Placemark>
 				<name>Untitled Polygon</name>
 				<styleUrl>#msn_ylw-pushpin00</styleUrl>
@@ -966,18 +1112,32 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+=======
+		</Folder>
+		<Folder>
+			<name>structure</name>
+>>>>>>> Stashed changes
 		</Folder>
 		<Folder>
 			<name>yellowpaint</name>
 			<open>1</open>
 			<Placemark>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<name>rr</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5599536390937,46.57265583812649,0 -120.5603106703998,46.57254128233516,0 -120.5602886283629,46.57253334921569,0 -120.5599326607912,46.57265035498163,0 -120.560097152814,46.57289778446588,0 -120.5601158562988,46.5728999997084,0 -120.5599536390937,46.57265583812649,0 
+=======
+								-120.5602358182448,46.57284973835429,0 -120.5601386908747,46.57270203886718,0 -120.5603483964477,46.57263223526379,0 -120.5603550186926,46.57262161300471,0 -120.5601193097064,46.57269821788076,0 -120.5602296816701,46.57285957453959,0 -120.5602358182448,46.57284973835429,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -985,13 +1145,35 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5602287257383,46.57285983115524,0 -120.5602367245881,46.5728476554532,0 -120.5601407375201,46.57270154737245,0 -120.5603504220301,46.57263202772643,0 -120.5603527073667,46.57262063755896,0 -120.560120740331,46.57269761975024,0 -120.5602287257383,46.57285983115524,0 
+=======
+								-120.5599502997126,46.57265445213435,0 -120.5603027519985,46.57253915137456,0 -120.5602865641955,46.57253459902365,0 -120.5599319044833,46.57265091136606,0 -120.560098657245,46.57289662160895,0 -120.5601148451232,46.5728996565309,0 -120.5599502997126,46.57265445213435,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>test</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-120.5601208763989,46.57249257034139,0 -120.5601039528114,46.57248801796712,0 -120.559745613843,46.57260385051878,0 -120.559914113308,46.57284863794497,0 -120.5599295653567,46.57285319035815,0 -120.5597654806315,46.57260837286886,0 -120.5601208763989,46.57249257034139,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -999,13 +1181,21 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.559764716199,46.57260874979858,0 -120.5601197336487,46.57249331368638,0 -120.5601020978443,46.57248646127245,0 -120.5597447934497,46.57260296318832,0 -120.5599139119176,46.57285079768274,0 -120.5599304810702,46.5728539398058,0 -120.559764716199,46.57260874979858,0 
+=======
+								-120.5595784353435,46.57256194007817,0 -120.5599335953347,46.57244839562922,0 -120.5599174075918,46.57244181994248,0 -120.5595608212774,46.57255599234857,0 -120.5597271123356,46.57280333923328,0 -120.5597440359847,46.57280738585258,0 -120.5595784353435,46.57256194007817,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1013,13 +1203,21 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5595783901863,46.57256130931712,0 -120.5599318741433,46.57244534655102,0 -120.559918072231,46.57243902122161,0 -120.5595607544011,46.57255761947178,0 -120.559727142743,46.57280325271286,0 -120.5597432450747,46.57280694254391,0 -120.5595783901863,46.57256130931712,0 
+=======
+								-120.5303873359369,46.56535343185734,0 -120.5305917391155,46.56528883734768,0 -120.5304966346603,46.56514995205173,0 -120.530488117897,46.56515775943986,0 -120.5305732860318,46.56528414128369,0 -120.5303930138136,46.56534172079265,0 -120.5303873359369,46.56535343185734,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1027,13 +1225,21 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5305927698289,46.56528858329052,0 -120.5305002057783,46.56514559903536,0 -120.5304917908755,46.5651604760065,0 -120.5305735357268,46.56528197132052,0 -120.5303932159868,46.56533817314361,0 -120.5303884074257,46.56535305010758,0 -120.5305927698289,46.56528858329052,0 
+=======
+								-120.53077857081,46.56533391522897,0 -120.5306073324805,46.56506997596698,0 -120.5305839113663,46.56506509639055,0 -120.5307620553382,46.5653303602102,0 -120.5303795087138,46.56545332699301,0 -120.5303972521109,46.56545820660459,0 -120.53077857081,46.56533391522897,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1041,13 +1247,21 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5307810021078,46.56533485805495,0 -120.5306063283772,46.56506712836691,0 -120.5305854958442,46.56506437395069,0 -120.5307617719627,46.56532934924445,0 -120.5303795729921,46.56545329824735,0 -120.5307810021078,46.56533485805495,0 
+=======
+								-120.5309637445442,46.56538214571236,0 -120.5307879392329,46.5651174341381,0 -120.5307694862109,46.56511450642413,0 -120.5309483409776,46.56537790432875,0 -120.5305650847036,46.56550038374393,0 -120.5305842476144,46.56550526332439,0 -120.5309637445442,46.56538214571236,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1055,18 +1269,27 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
+<<<<<<< Updated upstream
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5309652913385,46.56538223366742,0 -120.5307930201189,46.56511725864547,0 -120.5307721875475,46.5651139533819,0 -120.5309468623672,46.56537672487641,0 -120.5305662658028,46.56550012357513,0 -120.5305830922107,46.56550563243177,0 -120.5309652913385,46.56538223366742,0 
+=======
+								-120.5309743883235,46.56516493763511,0 -120.530958064463,46.56516152198502,0 -120.531135500851,46.56542380511461,0 -120.5307543739424,46.56554823698174,0 -120.530769278453,46.56555214062399,0 -120.531151115086,46.56542850097758,0 -120.5309743883235,46.56516493763511,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+<<<<<<< Updated upstream
 			<Placemark>
 				<name>Untitled Polygon</name>
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
@@ -1332,21 +1555,39 @@
 				<name>Untitled Polygon [1:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+=======
+		</Folder>
+		<Folder>
+			<name>whitepaint</name>
+			<open>1</open>
+			<Placemark>
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5593904475159,46.57271482912915,0 -120.5593963083538,46.57269938478316,0 -120.5588365963322,46.57255971343865,0 -120.5588278048905,46.57257582924692,0 -120.5593904475159,46.57271482912915,0 
+=======
+								-120.5593904475159,46.57271482912915,0 -120.5593963083538,46.57269938478316,0 -120.5588365963322,46.57255971343866,0 -120.5588278048905,46.57257582924692,0 -120.5593904475159,46.57271482912915,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [2:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1359,9 +1600,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [3:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1374,24 +1620,38 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [4:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5594363573896,46.57262686349587,0 -120.5594441718218,46.57261209064403,0 -120.5588805534295,46.5724704049831,0 -120.5588737156402,46.5724871922931,0 -120.5594363573896,46.57262686349587,0 
+=======
+								-120.5594363573896,46.57262686349587,0 -120.5594441718218,46.57261209064403,0 -120.5588805534295,46.57247040498311,0 -120.5588737156402,46.5724871922931,0 -120.5594363573896,46.57262686349587,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [5:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1404,9 +1664,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [6:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1419,9 +1684,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [7:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1434,9 +1704,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [8:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1449,9 +1724,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [9:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1464,39 +1744,62 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [10:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5595363017555,46.57243404237633,0 -120.5595460697538,46.57241994100449,0 -120.5589844067789,46.57227758434775,0 -120.5589756154593,46.57229168569075,0 -120.5595363017555,46.57243404237633,0 
+=======
+								-120.5595363017555,46.57243404237632,0 -120.5595460697538,46.57241994100448,0 -120.5589844067789,46.57227758434775,0 -120.5589756154593,46.57229168569074,0 -120.5595363017555,46.57243404237632,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [11:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5595509537097,46.57240449665709,0 -120.5595607216949,46.57238905229669,0 -120.5589980821669,46.57224669568457,0 -120.558992221255,46.57226281151376,0 -120.5595509537097,46.57240449665709,0 
+=======
+								-120.5595509537097,46.57240449665709,0 -120.5595607216949,46.57238905229669,0 -120.5589980821669,46.57224669568456,0 -120.558992221255,46.57226281151376,0 -120.5595509537097,46.57240449665709,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [12:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1509,9 +1812,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [13:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>inner</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1524,9 +1832,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [14:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>outer</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1539,39 +1852,62 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [15:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.53169411911,46.5657634844934,0 -120.531701817344,46.56575201689368,0 -120.5311449763914,46.56561175920745,0 -120.5311334289216,46.5656258731239,0 -120.53169411911,46.5657634844934,0 
+=======
+								-120.53169411911,46.5657634844934,0 -120.531701817344,46.56575201689368,0 -120.5311449763914,46.56561175920746,0 -120.5311334289216,46.5656258731239,0 -120.53169411911,46.5657634844934,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [16:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5317077156436,46.56573487009345,0 -120.5317180419051,46.56572067087041,0 -120.531157603199,46.5655812612322,0 -120.5311482155898,46.56559610582458,0 -120.5317077156436,46.56573487009345,0 
+=======
+								-120.5317077156436,46.56573487009344,0 -120.5317180419051,46.56572067087041,0 -120.531157603199,46.5655812612322,0 -120.5311482155898,46.56559610582458,0 -120.5317077156436,46.56573487009344,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [17:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1584,9 +1920,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [18:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1599,24 +1940,38 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [19:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5317546530173,46.56564644769713,0 -120.5317621630097,46.56563353930698,0 -120.5312017249353,46.56549090281152,0 -120.5311951536149,46.56550832908948,0 -120.5317546530173,46.56564644769713,0 
+=======
+								-120.5317546530173,46.56564644769713,0 -120.5317621630097,46.56563353930697,0 -120.5312017249353,46.56549090281152,0 -120.5311951536149,46.56550832908948,0 -120.5317546530173,46.56564644769713,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [20:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1629,9 +1984,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [21:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1644,9 +2004,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [22:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1659,9 +2024,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [23:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1674,9 +2044,14 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [24:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1689,24 +2064,38 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [25:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5318565170031,46.56545359110627,0 -120.5318640269563,46.56544197354714,0 -120.5313045292976,46.56529933756593,0 -120.5312951417779,46.5653148275882,0 -120.5318565170031,46.56545359110627,0 
+=======
+								-120.5318565170031,46.56545359110626,0 -120.5318640269563,46.56544197354714,0 -120.5313045292976,46.56529933756593,0 -120.5312951417779,46.5653148275882,0 -120.5318565170031,46.56545359110626,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [26:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1719,24 +2108,38 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [27:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5321545767242,46.56569656945961,0 -120.5321180560068,46.56568846997834,0 -120.5320944945695,46.56572896800179,0 -120.5319307405164,46.56564635250773,0 -120.5319201377929,46.5656568819857,0 -120.5321204126248,46.56575569659032,0 -120.5321545767242,46.56569656945961,0 
+=======
+								-120.5321545767242,46.56569656945961,0 -120.5321180560068,46.56568846997833,0 -120.5320944945695,46.56572896800179,0 -120.5319307405164,46.56564635250773,0 -120.5319201377929,46.5656568819857,0 -120.5321204126248,46.56575569659032,0 -120.5321545767242,46.56569656945961,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [28:Polygon]</name>
 				<snippet></snippet>
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+=======
+				<name>Untitled Polygon</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+>>>>>>> Stashed changes
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1749,8 +2152,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [29:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1764,8 +2171,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [30:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1779,8 +2190,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [31:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1794,8 +2209,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [32:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1809,8 +2228,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [33:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1824,38 +2247,58 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [34:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5334505953523,46.56583854035609,0 -120.5334610912892,46.56582410791532,0 -120.5331818982593,46.56575338947618,0 -120.5331714022858,46.56576854351252,0 -120.5334505953523,46.56583854035609,0 
+=======
+								-120.5334505953523,46.5658385403561,0 -120.5334610912892,46.56582410791532,0 -120.5331818982593,46.56575338947618,0 -120.5331714022858,46.56576854351252,0 -120.5334505953523,46.5658385403561,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [35:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5356091866744,46.56635517026464,0 -120.5350498256572,46.56621471696447,0 -120.5350099432416,46.56629201359489,0 -120.5355725388593,46.56643560573018,0 -120.5356091866744,46.56635517026464,0 
+=======
+								-120.5356091866744,46.56635517026464,0 -120.5350498256572,46.56621471696447,0 -120.5350099432416,46.5662920135949,0 -120.5355725388593,46.56643560573018,0 -120.5356091866744,46.56635517026464,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [36:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1869,8 +2312,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [37:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1884,8 +2331,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [38:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1899,8 +2350,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [39:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1914,8 +2369,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [40:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1929,8 +2388,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [41:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1944,38 +2407,58 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [42:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5389227952945,46.56750071666847,0 -120.538932039453,46.56748518016227,0 -120.538645449382,46.56741244677151,0 -120.5386403139756,46.56742939557558,0 -120.5389227952945,46.56750071666847,0 
+=======
+								-120.5389227952945,46.56750071666848,0 -120.538932039453,46.56748518016227,0 -120.538645449382,46.56741244677151,0 -120.5386403139756,46.56742939557558,0 -120.5389227952945,46.56750071666848,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [43:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5390306427142,46.56730015471695,0 -120.539036805296,46.56728603066013,0 -120.5387512433739,46.56721541616553,0 -120.5387450807321,46.56722954020529,0 -120.5390306427142,46.56730015471695,0 
+=======
+								-120.5390306427142,46.56730015471695,0 -120.539036805296,46.56728603066013,0 -120.5387512433739,46.56721541616553,0 -120.5387450807321,46.56722954020528,0 -120.5390306427142,46.56730015471695,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [44:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1989,23 +2472,35 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [45:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.540796736257,46.56795345696127,0 -120.5405193863738,46.56788496515805,0 -120.5405060336282,46.56789838332632,0 -120.5407895469155,46.56796828733984,0 -120.540796736257,46.56795345696127,0 
+=======
+								-120.540796736257,46.56795345696126,0 -120.5405193863738,46.56788496515805,0 -120.5405060336282,46.56789838332632,0 -120.5407895469155,46.56796828733984,0 -120.540796736257,46.56795345696126,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [46:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2019,8 +2514,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [47:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2034,23 +2533,35 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [48:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
+<<<<<<< Updated upstream
 								-120.5427242263983,46.56822776468465,0 -120.5427325673858,46.56821271179394,0 -120.5424531406904,46.56814174894141,0 -120.5424437569942,46.56815823541842,0 -120.5427242263983,46.56822776468465,0 
+=======
+								-120.5427242263983,46.56822776468466,0 -120.5427325673858,46.56821271179394,0 -120.5424531406904,46.56814174894141,0 -120.5424437569942,46.56815823541842,0 -120.5427242263983,46.56822776468466,0 
+>>>>>>> Stashed changes
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [49:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2064,8 +2575,12 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
+<<<<<<< Updated upstream
 				<name>Untitled Polygon [50:Polygon]</name>
 				<snippet></snippet>
+=======
+				<name>Untitled Polygon</name>
+>>>>>>> Stashed changes
 				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2078,6 +2593,7 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+<<<<<<< Updated upstream
 			<Placemark>
 				<name>Untitled Polygon [51:Polygon]</name>
 				<snippet></snippet>
@@ -2918,6 +3434,8 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+=======
+>>>>>>> Stashed changes
 		</Folder>
 	</Folder>
 </Document>

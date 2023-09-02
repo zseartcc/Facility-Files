@@ -81,8 +81,7 @@
 ; Quick Reference Pages
 
 .COMMANDS .OPENURL https://docs.google.com/document/d/1S2VIBptdUzZTP9B4shXyFPhAtxTP6d6_7md5Y3OoRCg  ; vats.im/zse-commands
-.FEEDBACK .OPENURL https://docs.google.com/forms/d/e/1FAIpQLScL-cVWTUY_Kf6DR1YidcBEkiVglKIMvUjVVbVMLUI0e1eZqQ/viewform  ; vats.im/zse-feedback
-.CHANGELOG .OPENURL https://docs.google.com/document/d/1csWtxWXDbbzZVXlLGqMnU-Bgz6DgQ47VWMH7BRt3r_Q  ; vats.im/zse-changelog
+.FEEDBACK .OPENURL https://zseartcc.org/feedback  ; zseartcc.org/feedback
 .CID .OPENURL https://stats.vatsim.net/stats/$1
 
 
@@ -430,6 +429,7 @@
 ; Departure
 .thfr Hold for release.
 .trfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now- $time Zulu. Frequency change approved.
+.TLMASEA Leaving my airspace, Seattle Center is closed, radar service terminated, frequency change approved (122.8).
 
 ; Approach
 .tdva Descend via the $uc($1) arrival. $arr altimeter $altim($arr).  Landing $2.
@@ -441,8 +441,14 @@
 ; En-Route
 .trcdb Radar Contact $dist($1) miles $bear($1) of $uc($1)
 .posdb .msg ZSE_ISR $aircraft: $dist($1) miles $bear($1) of $uc($1)
-.tlma Leaving my airspace, radar service terminated, frequency change approved.
-
+.tlma Leaving my airspace, radar service terminated, frequency change approved (122.800).
+.TLMAOAK Leaving my airspace to the South, Oakland Center is closed, radar service terminated, frequency change approved (122.8).
+.TLMASLC Leaving my airspace to the East, Salt Lake City Center is closed, radar service terminated, frequency change approved (122.8).
+.TLMAZVR Leaving my airspace to the North, Vancouver Center is closed, radar service terminated, frequency change approved (122.8).
+.TLMAYVR Leaving my airspace to the North, Vancouver Approach is closed, radar service terminated, frequency change approved (122.8).
+.TLMAYYJ Leaving my airspace to the North, Vitoria Terminal is closed, radar service terminated, frequency change approved (122.8).
+.TLMAZAK Leaving my airspace to the West, San Fransisco Radio is closed, Squawk 2000, radar service terminated, frequency change approved (122.8).
+.TLMAZEG Leaving my airspace, to the North, Edmonton Center is closed, radar service terminated, frequency change approved (122.8).
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;                           Alternate Aliases

@@ -1,8 +1,8 @@
-; Created by Kyle Sanders and Teddy Serligman
+; Updated by Alexander Lennon - 09/05/24
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2308
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2408
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT
@@ -83,25 +83,38 @@
 .COMMANDS .OPENURL https://docs.google.com/document/d/1S2VIBptdUzZTP9B4shXyFPhAtxTP6d6_7md5Y3OoRCg  ; vats.im/zse-commands
 .FEEDBACK .OPENURL https://zseartcc.org/feedback  ; zseartcc.org/feedback
 .CID .OPENURL https://stats.vatsim.net/stats/$1
-
-
-.HOLDTRACKING .OPENURL https://docs.google.com/spreadsheets/d/1nYgm-xaoJWab-5xYKk37MqsVW6-OVqihrpC3UX1P0Ow/edit
+.ZSEDOCS .OPENURL https://zseartcc.org/documents
+.SEASPRULES .OPENURL https://zseartcc.org/documents/view/275
 
 
 ; LOA Quick Reference Page
 
 .ZLCLOA .OPENURL https://zseartcc.org/documents/view/218
 .ZOALOA .OPENURL https://zseartcc.org/documents/view/217
+.ZVRLOA .OPENURL https://zseartcc.org/documents/view/246
+.EUGZSELOA .OPENURL https://zseartcc.org/documents/view/227
+.MFRZSELOA .OPENURL https://zseartcc.org/documents/view/278
+.LMTZSELOA .OPENURL https://zseartcc.org/documents/view/284
+.P80ZSELOA .OPENURL https://zseartcc.org/documents/view/233
+.RDMZSELOA .OPENURL https://zseartcc.org/documents/view/283
+.S46PAELOA .OPENURL https://zseartcc.org/documents/view/285
+.S46SEALOA .OPENURL https://zseartcc.org/documents/view/273
+.S46ZSELOA .OPENURL https://zseartcc.org/documents/view/232
 
 
 ; SOP Quick Reference Page
-.SEASOP .OPENURL https://zseartcc.org/documents/view/188
+.SEASOP .OPENURL https://zseartcc.org/documents/view/272
+.S46SOP .OPENURL https://zseartcc.org/documents/view/274
 .PDXSOP .OPENURL https://zseartcc.org/documents/view/187
 .ZSESOP .OPENURL https://zseartcc.org/documents/view/206
-.SOP100 .OPENURL https://zseartcc.org/documents/view/110
+.EUGSOP .OPENURL https://zseartcc.org/documents/view/276
+.LMTSOP .OPENURL https://zseartcc.org/documents/view/282
+
 
 ; ZSE References
 .routes .OPENURL https://zseartcc.org/info/prefroutes
+.STRIPMARKING .OPENURL https://zseartcc.org/documents/view/265
+.RADARCHEATSHEET .OPENURL https://zseartcc.org/documents/view/258
 
 
 ; EXTERNAL SITE REFERENCE COMMANDS
@@ -112,7 +125,7 @@
 .REGISTRATION .OPENURL https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/forming_nnumber/
 
 ; Route of Flight
-.ROF .OPENURL https://skyvector.com/?fpl=$dep%20undefined%20$arr
+.ROF .OPENURL https://niles.xyz/rof/$aircraft
 .ROFFA .OPENURL https://flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
 .SKYVECTOR .OPENURL https://skyvector.com
 
@@ -120,7 +133,7 @@
 .NAVAID .openurl https://www.airnav.com/cgi-bin/navaid-info?id=$1
 .GOOGLE .openurl https://www.google.com/search?q=$1%20$2%20$3%20$4%20$5%20$6%20$7%20$8%20$9
 .EQUIP .openurl https://flightaware.com/about/faq_aircraft_flight_plan_suffix.rvt
-.65 .openurl https://www.faa.gov/air_traffic/publications/atpubs/atc_html/
+.65W .openurl https://www.faa.gov/air_traffic/publications/atpubs/atc_html/
 .65P .openurl https://www.faa.gov/documentLibrary/media/Order/7110.65Y_ATC_Bsc_w_Chg_1_2_dtd_7-16-20.pdf
 .65PDF .65P
 .CHARTS .openurl https://www.airnav.com/airport/$1#ifr
@@ -141,6 +154,7 @@
 ; GENERAL
 
 ; Military
+.Route .MSG ZSE_ISR $route
 .OVERHEAD .MSG ZSE_ISR *** WIND ### @ ##. PATTERN ALTITUDE ###. (Right/Left) TURNS. REPORT INITIAL RUNWAY ##. ____ [Initial Report] BREAK AT (numbers/midfield/departure end). REPORT BREAK. ____ [Break Report] CHECK GEAR DOWN. RWY ## CLEARED TO LAND.
 .MILCT .MSG ZSE_ISR *** Military aircraft (except Cargo and Transport types) CHANGE TO DEPARTURE, WIND---@-- RWY-- CLEARED FOR TAKEOFF
 .MILCL .MSG ZSE_ISR Wind $wind($arr). Check Wheels Down. RWY ## Cleared to Land.
@@ -233,35 +247,35 @@
 .WW .MSG ZSE_ISR ::: $dep Wind $wind($dep) _ A$altim($dep) --------------- $arr Wind $wind($arr) _ A$altim($arr)
 .ALIAS .reloadaliases
 
-; Convenience commands for setting autotrack for STARS ERAM users in CRC
+; Convenience commands for setting autotrack for STARS and ERAM users in CRC
 
 ; All of S16
-.autotrackallon .autotrack .atlists46on .atlistp80on .atlistgegon .atlistpscon .atlisteugon .atlistmwhon .atlistlmton .atlistnuwon .atlistotherson
-.autotrackalloff .autotrack .atlists46off .atlistp80off .atlistgegoff .atlistpscoff .atlisteugoff .atlistmwhoff .atlistlmtoff .atlistnuwoff .atlistothersoff
+.autotrackallon .autotrack .atlists46on .atlistp80on .atlistgegon .atlisteugon .atlistmwhon .atlistlmton .atlistnuwon .atlistotherson
+.autotrackalloff .autotrack .atlists46off .atlistp80off .atlistgegoff .atlisteugoff .atlistmwhoff .atlistlmtoff .atlistnuwoff .atlistothersoff
 
 ; KSEA
 .autotracks46on .autotrack .atlists46on
 .autotracks46off .autotrack .atlists46off
-.atlists46on ksea kbfi kpae kolm ktiw krnt ktcm kgrf kshn kpwt kawo
-.atlists46off -ksea -kbfi -kpae -kolm -ktiw -krnt -ktcm -kgrf -kshn -kpwt -kawo
+.atlists46on ksea kbfi kpae kolm ktiw krnt ktcm kgrf
+.atlists46off -ksea -kbfi -kpae -kolm -ktiw -krnt -ktcm -kgrf
 
 ; KPDX
 .autotrackp80on .autotrack .atlistp80on
 .autotrackp80off .autotrack .atlistp80off
-.atlistp80on kpdx khio kttd kvuo kuao kspb kmmv
-.atlistp80off -kpdx -khio -kttd -kvuo -kuao -kspb -kmmv
+.atlistp80on kpdx khio kttd kuao
+.atlistp80off -kpdx -khio -kttd -kuao
 
 ; KGEG
 .autotrackgegon .autotrack .atlistgegon
 .autotrackgegoff .autotrack .atlistgegoff
-.atlistgegon kgeg kska ksff kcoe kpsc kalw kpdt kykm
-.atlistgegoff -kgeg -kska -ksff -kcoe -kpsc -kalw -kpdt -kykm
+.atlistgegon kgeg kska ksff kpsc kalw kpdt kykm
+.atlistgegoff -kgeg -kska -ksff -kpsc -kalw -kpdt -kykm
 
 ; KEUG (Cascade)
 .autotrackeugon .autotrack .atlisteugon
 .autotrackeugoff .autotrack .atlisteugoff
-.atlisteugon keug kmfr kcvo
-.atlisteugoff -keug -kmfr -kcvo
+.atlisteugon keug kmfr
+.atlisteugoff -keug -kmfr
 
 ; KMWH (Grant County)
 .autotrackmwhon .autotrack .atlistmwhon
@@ -278,14 +292,14 @@
 ; KNUW (Whidbey)
 .autotracknuwon .autotrack .atlistnuwon
 .autotracknuwoff .autotrack .atlistnuwoff
-.atlistnuwon knuw kclm kors kfhr kbvs know
-.atlistnuwoff -knuw -kclm -kors -kfhr -kbvs -know
+.atlistnuwon knuw
+.atlistnuwoff -knuw
 
 ; OTHERS (outside of TRACONs)
 .autotrackotherson .autotrack .atlistotherson
 .autotrackothersoff .autotrack .atlistothersoff
-.atlistotherson kast koth ksle krdm klws konp
-.atlistothersoff -kast -koth -ksle -krdm -klws -konp
+.atlistotherson koth ksle krdm klws
+.atlistothersoff -koth -ksle -krdm -klws
 
 
 ; Scope De-Clutter/Diagram Setup
@@ -309,7 +323,7 @@
 .tcon Contact $radioname($1) on $freq($1).
 .tctc .tcon $1
 .tmon Monitor $radioname($1) on $freq($1).
-.tnoatc No further ATC available.  Frequency change to advisory (122.800) approved.
+.tnoatc No further ATC available.  Frequency change to the CTAF frequency approved.
 .thanks Thanks for flying with us in ZSE.  C'ya.
 
 .tBRB *** NOTAM: $radioname() will be back in $1 minutes. ***
@@ -323,10 +337,10 @@
 .THOTMIC ATTENTION ALL AIRCRAFT: Someone is continuing to press the MIC button. Please check your connections and resolve this issue as it is disrupting communications on this frequency.
 .TEQUIP What is your equipment suffix code?
 
-.newpilot .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. When you get a moment, we recommend you head to the VATSIM Pilot Resource Center (https://www.vatsim.net/pilot-resource-centre) to learn more about flying on the network and to our website (https://laartcc.org) to find charts, learn about local information, and join the ZLA community.
-.newpilotbusy .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. I'm too busy at the moment to help, so I recommend you head to the VATSIM Pilot Resource Center (https://www.vatsim.net/pilot-resource-centre) to learn more about flying on the network and to our website (https://laartcc.org) to find charts, learn about local information, and join the ZLA community.
+.newpilot .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. When you get a moment, we recommend you head to the VATSIM Pilot Resource Center (https://www.vatsim.net/pilot-resource-centre).
+.newpilotbusy .msg $aircraft Hello, welcome to VATSIM! We're glad to have you flying with us. I'm too busy at the moment to help, so I recommend you head to the VATSIM Pilot Resource Center (https://www.vatsim.net/pilot-resource-centre).
 .wrongcallsign .msg $aircraft Hello, it appears you are not using the correct ICAO callsign for your airline. The correct callsign should be $uc($1). When you have a moment, please log back in with the correct callsign.
-.badairlinecs .msg $aircraft Hello, it appears you are using an invalid callsign. When operating as an air carrier, you should file and connect as the 3 letter ICAO code and flight number (e.x. AAL123). When you have a moment, please log back in and file with the correct callsign.
+.badairlinecs .msg $aircraft Hello, it appears you are using an invalid callsign. When operating as an air carrier, you should file and connect as the 3 letter ICAO code and flight number (e.x. AAL123, ASA123, UAL123). When you have a moment, please log back in and file with the correct callsign.
 .badnovembercs .msg $aircraft Hello, it appears you are using an invalid general aviation callsign. Please connect and/or file using 5 letters in the alphabet if operating under an international callsign (e.x. DEHBG) or a valid November-type callsign (e.x. N12345). Formatting instructions for a valid november callsign can be found at https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/forming_nnumber
 .rwylogin .msg $aircraft Hello, it appears you have logged in while on an active runway. You may be preventing other aircraft from using the runway. Please disconnect, move your aircraft to a parking area, and reconnect. Do not slew your aircraft while still connected. Thank you.
 .twylogin .msg $aircraft Hello, it appears you have logged in while on a taxiway. You may be blocking other aircraft from moving. Please disconnect, move your aircraft to a parking area, and reconnect. Do not slew your aircraft while still connected. Thank you.
@@ -344,10 +358,12 @@
 .trbc Read Back Correct.
 .tREFILE your flight plan not on file, please refile your flight plan.
 .tinvalt cruise altitude $uc($cruise) not valid for your direction of flight, would you like $uc($1) or $uc($2)?
+.acarspdc I sent you a PDC, if you did not receive it please disconnect and reconnect. You should get a message immediately from ACARS containing your PDC.
 
 ; General CRAFT
-.TCRAFTU Cleared to $arr via $route. Departure frequency is with UNICOM 122.800, squawk $squawk
+.TCRAFTU Cleared to $arr via $route. Departure frequency is OFFLINE, squawk $squawk
 .TCRAFT Cleared to $arr. Fly heading $1 expect radar vectors on course $route. Maint $2. Departure frequency $freq($3), squawk $squawk
+.TCRAFTAF Cleared to $arr. As Filed. $route. Maint $1. Departure frequency $freq($2), squawk $squawk
 .TNOPDC .msg $aircraft ***ADVISORY*** A Pre-Departure Clearance (PDC) was unable to be sent to you due to a lack of sufficient information in your flight plan. Please contact $radioname($1) on $freq($1) for your clearance.
 
 ; Ground
@@ -377,14 +393,14 @@
 .tdm Descend and maintain $1
 .tspd Maintain $1 knots.
 .tmach Maintain mach $1.
-.tunctrld No traffic observed between you and the $arr airport. Report IFR cancellation or missed approach this frequency. Radar service terminated. Frequency change approved.
+.tunctrld No traffic observed between you and the $arr airport. Report IFR cancellation or missed approach this frequency. Radar service terminated. Frequency change to advisory approved.
 .tuc .tunctrld
-.tsvfr Radar service terminated, squawk 1200, maintain VFR, frequency change approved.
+.tsvfr Radar service terminated, squawk 1200, maintain VFR, Frequency change to advisory approved.
 
 ; Departure
 .thfr Hold for release.
-.trfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now- $time Zulu. Frequency change approved.
-.TLMASEA Leaving my airspace, Seattle Center is closed, radar service terminated, frequency change approved (122.8).
+.trfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now- $time Zulu. Frequency change to advisory approved.
+.TLMASEA Leaving my airspace, Seattle Center is closed, radar service terminated, frequency change approved.
 
 ; Approach
 .tdva Descend via the $uc($1) arrival. $arr altimeter $altim($arr).  Landing $2.
@@ -396,14 +412,14 @@
 ; En-Route
 .trcdb Radar Contact $dist($1) miles $bear($1) of $uc($1)
 .posdb .msg ZSE_ISR $aircraft: $dist($1) miles $bear($1) of $uc($1)
-.tlma Leaving my airspace, radar service terminated, frequency change approved (122.800).
-.TLMAOAK Leaving my airspace to the South, Oakland Center is closed, radar service terminated, frequency change approved (122.8).
-.TLMASLC Leaving my airspace to the East, Salt Lake City Center is closed, radar service terminated, frequency change approved (122.8).
-.TLMAZVR Leaving my airspace to the North, Vancouver Center is closed, radar service terminated, frequency change approved (122.8).
-.TLMAYVR Leaving my airspace to the North, Vancouver Approach is closed, radar service terminated, frequency change approved (122.8).
-.TLMAYYJ Leaving my airspace to the North, Vitoria Terminal is closed, radar service terminated, frequency change approved (122.8).
-.TLMAZAK Leaving my airspace to the West, San Fransisco Radio is closed, Squawk 2000, radar service terminated, frequency change approved (122.8).
-.TLMAZEG Leaving my airspace, to the North, Edmonton Center is closed, radar service terminated, frequency change approved (122.8).
+.tlma Leaving my airspace, radar service terminated, frequency change approved.
+.TLMAOAK Leaving my airspace to the South, Oakland Center is closed, radar service terminated, frequency change approved.
+.TLMASLC Leaving my airspace to the East, Salt Lake City Center is closed, radar service terminated, frequency change approved.
+.TLMAZVR Leaving my airspace to the North, Vancouver Center is closed, radar service terminated, frequency change approved.
+.TLMAYVR Leaving my airspace to the North, Vancouver Approach is closed, radar service terminated, frequency change approved.
+.TLMAYYJ Leaving my airspace to the North, Vitoria Terminal is closed, radar service terminated, frequency change approved.
+.TLMAZAK Leaving my airspace to the West, San Francisco Radio is closed, radar service terminated, squawk 2000, frequency change approved.
+.TLMAZEG Leaving my airspace to the North, Edmonton Center is closed, radar service terminated, frequency change approved.
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;                           Alternate Aliases
@@ -419,6 +435,7 @@
 
 ; Reroute warning
 .PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
+.acarsREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
 
 ; Base templates
 .PDCGEN .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 

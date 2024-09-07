@@ -1,4 +1,5 @@
-; Updated by Alexander Lennon - 09/05/24
+; Updated by Alexander Lennon - 09/07/24
+; ^ If anything is broken, blame him! ^ ;P
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
@@ -199,6 +200,8 @@
 .idMETROAIR .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METRO AIR
 .idCXA .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
 .idCANADIANEXPRESS .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
+.idFDC .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
+.idFREIGHTDOG .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -362,7 +365,7 @@
 
 ; General CRAFT
 .TCRAFTU Cleared to $arr via $route. Departure frequency is OFFLINE, squawk $squawk
-.TCRAFT Cleared to $arr. Fly heading $1 expect radar vectors on course $route. Maint $2. Departure frequency $freq($3), squawk $squawk
+.TCRAFT Cleared to $arr. Fly Runway Heading, expect radar vectors on course $route. Maint $1. Departure frequency $freq($2), squawk $squawk
 .TCRAFTAF Cleared to $arr. As Filed. $route. Maint $1. Departure frequency $freq($2), squawk $squawk
 .TNOPDC .msg $aircraft ***ADVISORY*** A Pre-Departure Clearance (PDC) was unable to be sent to you due to a lack of sufficient information in your flight plan. Please contact $radioname($1) on $freq($1) for your clearance.
 
@@ -373,12 +376,15 @@
 .tcross Cross $uc($1)
 .tpb Push back into the alley at pilot's discretion.  Call when ready for taxi, holding short of $uc($1).
 .tpbo Push back onto $uc($1) approved, face $2.
+.tnoatc No further ATC available. Monitor CTAF $1.
+.tcurrent Information $3 now current. $1 altimeter $altim($2).  Advise on next contact you have information $3.
 
 ; Tower
 .tluaw Runway $uc($1), line up and wait.
-.tcl Runway $uc($1), Wind $winds, cleared to land.
-.tct Runway $uc($1), Wind $winds, cleared for takeoff.
+.tcl Wind $winds, Runway $uc($1), cleared to land.
+.tct Wind $winds, Runway $uc($1), cleared for takeoff.
 .tlmalocal Leaving my airspace, frequency change approved.
+.tnoatcu No further ATC available, frequency change approved.
 
 ; Radar-General
 .tsq squawk $squawk
@@ -434,20 +440,9 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Reroute warning
-.PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
+.PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
 .acarsREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
-
-; Base templates
-.PDCGEN .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *MAINTAIN $1* | DEP $2 | 
-.PDCGENCV .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID* | DEP $1 | 
-.PDCGENCVX .msg $aircraft *** THIS CLEARANCE *MAY* CONTAIN INFORMATION CHANGED AFTER THE FLIGHT PLAN WAS FILED.  PLEASE READ THE ENTIRE CLEARANCE CAREFULLY. *** PRE-DEPARTURE CLEARANCE START | CALLSIGN: $aircraft | TYPE: $type($aircraft) | DEP: $dep | ARR: $arr | TRANSPONDER: $squawk | CRZ ALT: $cruise | APPROVED ROUTE: $route | *CLIMB VIA SID EXCEPT MAINTAIN $1* | DEP $2 | 
-
-; Airport specific templates
-.PDCENDPDX  ADDITIONAL INFO: >>CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI. PUSH ONTO TWY K OR T REQ ATC CLNC.<< .PDCEND
-.PDCENDSEA ADDITIONAL INFO: >>PUSHBACK AT PILOT'S DISCRETION. CONTACT APPROPRIATE CONTROLLER WITH CURRENT ATIS FOR TAXI.<< .PDCEND
-.PDCENDSEARAMP ADDITIONAL INFO: >>RAMP CONTROL IN EFFECT.  CONTACT $uc($radioname($1)) ON $freq($1) FOR PUSH AND START CLEARANCE.<< .PDCEND
-.PDCEND THIS MESSAGE SERVES AS YOUR PRE-DEPARTURE CLEARANCE. NO NEED TO REPLY UNLESS YOU HAVE QUESTIONS -END-
-.PDCEXPECT *** EXPECT RUNWAY $uc($1) FOR DEPARTURE ***
+.TREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

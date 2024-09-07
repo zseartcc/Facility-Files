@@ -242,12 +242,9 @@
 
 
 ; General Commands
-.WHERE .AN DBL
-.NOAN .noanchors
-.DOF .rsb $dep $arr
+.NOM .NOMARKERS
 .METAR .msg ZSE_ISR *** $metar($1)
 .W .MSG ZSE_ISR K$1 Wind $wind(K$1) ::: Altimeter $altim(K$1)
-.WW .MSG ZSE_ISR ::: $dep Wind $wind($dep) _ A$altim($dep) --------------- $arr Wind $wind($arr) _ A$altim($arr)
 .ALIAS .reloadaliases
 
 ; Convenience commands for setting autotrack for STARS and ERAM users in CRC

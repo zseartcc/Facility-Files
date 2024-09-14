@@ -353,6 +353,7 @@
 .startransition .msg $aircraft Hello, it appears that you've flown directly to a fix on your arrival procedure that is a part of the common routing. Please note that the arrival you are flying has published transitions. If you were routed via one by ATC or as part of your original filed flight plan, be sure to select the appropriate arrival transition in your FMC.
 .whatisdvia .msg $aircraft When ATC gives you "Descend via the (STAR NAME), (AIRPORT) Landing (Direction)". It means you can start descending when you reach your TOD and the direction the airport is landing. So follow what the "Arrival Route Description" says in the Chart, Thanks.
 .whatiscfix .msg $aircraft When ATC gives you "Cross (FIX) at xxx, It means to put that Altitude crossing restriction in your FMC so you get a new TOD and you can start descending to meet that crossing.
+.whatispd .msg $aircraft When ATC gives you "At pilots discretion descend and maintain xxx". It means that you can descend when you are ready but you have to stop at that altitude until given further descent instructions.
 
 ; Clearance Delivery
 .trbc Read Back Correct.

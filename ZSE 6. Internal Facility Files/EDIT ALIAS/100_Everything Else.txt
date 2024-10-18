@@ -143,6 +143,7 @@
 .CHARTSA .openurl https://www.airnav.com/airport/$arr#ifr
 .CHARTSD .openurl https://www.airnav.com/airport/$dep#ifr
 .RWATIS .openurl https://datis.clowd.io/$1
+.who .lasttx
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

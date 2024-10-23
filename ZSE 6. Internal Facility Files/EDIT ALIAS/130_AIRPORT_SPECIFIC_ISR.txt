@@ -1844,9 +1844,9 @@
 
 
 ; PDX HHOOD
-.TPDXHHOODCTRE Descend via the HHOOD4 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXHHOODCTRE Descend via the HHOOD5 arrival. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXHHOODAPPE Expect vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
-.TPDXHHOODCTRW Descend via the HHOOD4 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXHHOODCTRW Descend via the HHOOD5 arrival. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXHHOODAPPW At SHAFR clrd ILS 28R approach. Altimeter A$altim(KPDX)
 
 
@@ -1865,9 +1865,9 @@
 
 
 ; PDX TMBRS
-.TPDXTMBRSCTRE Descend via the TMBRS2 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXTMBRSCTRE Descend via the TMBRS3 arrival. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXTMBRSAPPE Expect vectors to final after PUBBB. Altimeter A$altim(KPDX)
-.TPDXTMBRSCTRW Descend via the TMBRS2 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXTMBRSCTRW Descend via the TMBRS3 arrival. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXTMBRSAPPW Expect vectors to final after ICEAX. Altimeter A$altim(KPDX)
 
 

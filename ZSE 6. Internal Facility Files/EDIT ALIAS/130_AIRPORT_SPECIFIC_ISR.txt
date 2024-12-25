@@ -361,9 +361,9 @@
 
 
 ; BFI JAWBN
-.TBFIJAWBNCTRN Descend via the JAWBN6 arrival. BFI Landing North. Altimeter A$altim(KBFI)
+.TBFIJAWBNCTRN Descend via the JAWBN7 arrival. BFI Landing North. Altimeter A$altim(KBFI)
 .TBFIJAWBNAPPN Expect vectors for the ILS rwy 32L approach. Altimeter A$altim(KBFI)
-.TBFIJAWBNCTRS Descend via the JAWBN6 arrival. BFI Landing South. Altimeter A$altim(KBFI)
+.TBFIJAWBNCTRS Descend via the JAWBN7 arrival. BFI Landing South. Altimeter A$altim(KBFI)
 .TBFIJAWBNAPPS Expect vectors for the ILS rwy 14R approach. Altimeter A$altim(KBFI)
 
 
@@ -2452,9 +2452,9 @@
 
 
 ; SEA JAWBN
-.TSEAJAWBNCTRN Descend via the JAWBN6 arrival. SEA Landing North. Altimeter A$altim(KSEA)
+.TSEAJAWBNCTRN Descend via the JAWBN7 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 .TSEAJAWBNAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
-.TSEAJAWBNCTRS Descend via the JAWBN6 arrival. SEA Landing South. Altimeter A$altim(KSEA)
+.TSEAJAWBNCTRS Descend via the JAWBN7 arrival. SEA Landing South. Altimeter A$altim(KSEA)
 .TSEAJAWBNAPPS Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
 
 
@@ -2791,9 +2791,9 @@
 
 
 ; TCM JAWBN
-.TTCMJAWBNCTRN Descend via the JAWBN6 arrival. TCM Landing North. Altimeter A$altim(KTCM)
+.TTCMJAWBNCTRN Descend via the JAWBN7 arrival. TCM Landing North. Altimeter A$altim(KTCM)
 .TTCMJAWBNAPPN Expect vectors for the ILS rwy 34 approach. Altimeter A$altim(KTCM)
-.TTCMJAWBNCTRS Descend via the JAWBN6 arrival. TCM Landing South. Altimeter A$altim(KTCM)
+.TTCMJAWBNCTRS Descend via the JAWBN7 arrival. TCM Landing South. Altimeter A$altim(KTCM)
 .TTCMJAWBNAPPS Expect vectors for the ILS Z rwy 16 approach. Altimeter A$altim(KTCM)
 
 

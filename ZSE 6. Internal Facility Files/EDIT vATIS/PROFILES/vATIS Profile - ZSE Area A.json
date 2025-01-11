@@ -1,0 +1,3865 @@
+{
+"name": "ZSE Area A",
+  "id": "d1e616b5-bee9-427a-9a34-484b89fc6c6f",
+  "stations": [
+    {
+      "id": "f34c2297-47e9-408c-9bdf-720e20b305f9",
+      "identifier": "KSEA",
+      "name": "Seattle",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "M"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 118000000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "f0d3ccea-eadd-485f-8443-bbcbddcf5a14",
+          "name": "SOUTH VIS ",
+          "airportConditions": "CHARTED VISUAL APPROACH RWYS 16R AND 16L, APCH IN USE. DEPG RWYS 16L AND 16C, SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+          "notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "504f2382-4510-4725-b0ae-03d05c69a644",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS RY 16R, ILS RY 16L, APCH IN USE. DEPTG RWYS 16L AND 16C. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+          "notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "13c62a97-c214-452d-b368-91bc0337f72a",
+          "name": "SOUTH LOW VIS",
+          "airportConditions": "ILS RWYS 16R AND 16L, APCHS IN USE. DEPTG RWY 16L. SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+          "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "abfe65b9-f36a-40b2-91d8-a75f027c53ec",
+          "name": "NORTH VIS",
+          "airportConditions": "CHARTED VISUAL APPROACH RWYS 34L AND 34R, APCH IN USE. DEPG RWYS 34R AND 34C.",
+          "notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "5eee31dd-b3ff-4732-b0c3-7eae0bf5beda",
+          "name": "NORTH ILS",
+          "airportConditions": "ILS RY 34L, ILS RY 34R, APCH IN USE. DEPTG RWYS 34R AND 34C.",
+          "notams": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "bc88819d-0f9c-47c8-9776-d6a7d2b6e831",
+          "name": "NORTH LOW VIS",
+          "airportConditions": "ILS RWY 34L AND 34R, APCHS IN USE. DEPTG RWYS 34R.",
+          "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS. ASDEX IN USE. ACFT MUST OPER XPNDR ON MODE *C ON ALL TWYS AND RWYS. ARRS ADVS IF YOU HAVE 2 RWY SCENERY.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d706c3ee-8c11-4272-bed3-4e2d3bee151d",
+          "name": "16L Only",
+          "airportConditions": "CHARTED VISUAL APPROACH OR ILS RWY 16L, APCHS IN USE. DEPG RWY 16L, SIMUL APCHS IN USE TO SEA APRT AND BFI. TFC BELOW YOU ON FINAL.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "3f742980-af2b-4c2c-abd5-0da265f4348e",
+          "name": "34R Only",
+          "airportConditions": "CHARTED VISUAL APPROACH RWYS 34L AND 34R, APCH IN USE. DEPG RWYS 34R AND 34C.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "SEA_APRT",
+          "text": "SEA APRT",
+          "voice": "SEATTLE AIRPORT"
+        },
+        {
+          "variableName": "BFI",
+          "text": "BFI",
+          "voice": "BOEING FIELD"
+        },
+        {
+          "variableName": "PROCS",
+          "text": "PROCS",
+          "voice": "PROCEDURES"
+        },
+        {
+          "variableName": "MODE_C",
+          "text": "MODE C",
+          "voice": "MODE CHARLIE"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY TYPE ACFT, DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "CTC RAMP CONTROL PRIOR TO PUSH AND START.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "FLOW RESTRICTIONS IN EFCT FOR SFO",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "CLSD TFC PATTERNS UNAVBL.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "VFR CLASS BRAVO TRANSITION UNAVBL.",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "6b59e18e-f468-4497-8aab-f730ba357202",
+      "identifier": "KBFI",
+      "name": "Boeing Field",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "N",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 127750000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "4b96b2df-d731-4b09-ad84-1701e7ee12ef",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCHS IN USE. HARBOR VIS APCH IN USE RWY 14R. LDG AND DEPTG RWYS 14L AND 14R.",
+          "notams": "SIMUL APCHS IN USE TO BFI AND SEA APRT. TFC ABOVE YOU ON FINAL.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "bac74640-40cd-4e7b-9a2f-504247254547",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 14R.",
+          "notams": "SIMUL APCHS IN USE TO BFI AND SEA APRT. TFC ABOVE YOU ON FINAL.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "896b03d2-9b0d-4c61-a780-bcc4e8aabffa",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 32R AND 32L.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "b5d164df-0027-484c-8e85-9ea3998143e5",
+          "name": "NORTH ILS",
+          "airportConditions": "ILS APCHS IN USE RWY 32L. LDG AND DEPTG RWY 32L.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "BFI",
+          "text": "BFI",
+          "voice": "BOEING FIELD"
+        },
+        {
+          "variableName": "SEA_APRT",
+          "text": "SEA APRT",
+          "voice": "SEATTLE AIRPORT"
+        },
+        {
+          "variableName": "MODE_C",
+          "text": "MODE C",
+          "voice": "MODE CHARLIE"
+        },
+        {
+          "variableName": "PROCS",
+          "text": "PROCS",
+          "voice": "PROCEDURES"
+        },
+        {
+          "variableName": "SEA_NOT_TAKING",
+          "text": "SEA NOT TAKING",
+          "voice": "SEATTLE NOT TAKING"
+        },
+        {
+          "variableName": "REQS",
+          "text": "REQS",
+          "voice": "REQUIRES"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "GO AROUNDS REQS TO OVER FLY THE FIELD AT OR BELOW 1,500 UNTIL 3.9nm S of BFI",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "REMAIN CLR OF SEA CLASS BRAVO AIRSPACE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "dfaaa0c2-a7e7-4e5a-8fd7-c41accc595e5",
+      "identifier": "KPAE",
+      "name": "Paine Field",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 128650000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "9995769e-9897-4648-9683-72f91b938429",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS RWY 16R APCH IN USE. LDG AND DEPTG RWY 16L AND 16R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "350c14fb-4483-442f-afe8-b25bbc39a6d3",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 16L AND 16R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "015cb5f8-8372-4d90-b32c-9a2fddf35b93",
+          "name": "NORTH RNAV",
+          "airportConditions": "RNAV RWY 34L APCH IN USE. LDG AND DEPTG RWY 34L AND 34R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e6be1fc0-1556-4be8-9b02-fea2bc20a6e5",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 34L AND 34R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "3b0130b4-b089-4409-a062-ccce82f4bfac",
+      "identifier": "KRNT",
+      "name": "Renton",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 126950000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "bf83719c-55e8-4112-aabd-31513f5b91b6",
+          "name": "SOUTH RNAV",
+          "airportConditions": "RNAV APCH IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "48e296ca-285b-4ffc-a513-cbc7ac279d81",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "faa655b8-8346-4090-935b-d7e82b7983d3",
+          "name": "NORTH RNAV",
+          "airportConditions": "RNAV APCH IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a171a124-5ae7-4d2a-bcd9-145c97ae9b23",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "SEA_NOT_TAKING",
+          "text": "SEA NOT TAKING",
+          "voice": "SEATTLE NOT TAKING"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "57b8ab86-aff8-4568-940b-73dc3feff834",
+      "identifier": "KBLI",
+      "name": "Bellingham",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 134450000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "70657304-bbcf-4542-ac2e-4e0180b6d8b3",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "724ecc07-bb3f-4cd3-aedd-d6b9892b7b3b",
+          "name": "NORTH RNAV",
+          "airportConditions": "RNAV APCH IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "8b582f09-7672-46e8-8dce-e0cb8b3cb0a7",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "70856116-1c46-4798-8266-2d7f16cd7afc",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "e49d70fa-ee45-468a-9a22-6b6e9d9aed28",
+      "identifier": "KGRF",
+      "name": "Gray AAF",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 124650000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "bc1da0f7-bde2-409d-b556-c3bcaf19ba8e",
+          "name": "15 ILS",
+          "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 15.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "ce62a75e-e8ab-49f1-aa2c-e4eb86845e9c",
+          "name": "15 VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 15.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "18eee6b7-23bb-4a6d-bb4f-8e35a346b872",
+          "name": "33 RNAV",
+          "airportConditions": "RNAV APCH IN USE. LDG AND DEPTG RWY 33.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a7510417-114f-4726-9cf5-2c292ea298a6",
+          "name": "33 VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 33.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "f3455edb-28dc-4ff6-9bf3-ee319b05dc54",
+      "identifier": "KNUW",
+      "name": "Whidbey",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 134150000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "a9ae384c-6d9b-4dcb-a452-c3f25ff2596a",
+          "name": "25 RNAV",
+          "airportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 25.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "ed7f8317-1719-4b51-a443-3a0b82d9b7ee",
+          "name": "25 VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 25.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "13a63a7c-27cc-44f0-9104-37ccf40883a2",
+          "name": "7 RNAV",
+          "airportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 7.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7e5ae7a7-2e31-4cf0-a001-1fd51ef7571d",
+          "name": "7 VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 7.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "0b012ac8-eba9-48ca-bea2-f9b0abbead8c",
+      "identifier": "KOLM",
+      "name": "Olympia",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 135725000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "55a4ac57-c20f-459d-ad2f-3f1b9caab174",
+          "name": "17 ILS",
+          "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 17.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a56ffdf9-9cba-4f11-9f61-a6205d87f2a1",
+          "name": "17 VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "916a0797-55e7-4ca3-ab9b-c86003689d55",
+          "name": "35 GPS",
+          "airportConditions": "GPS APCHS IN USE. LDG AND DEPTG RWY 35.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a3b51921-88dd-42ec-bc6f-b7385ea3aa56",
+          "name": "35 VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "1d2be4d8-34df-4361-8e56-a5145b82637b",
+      "identifier": "KTCM",
+      "name": "McChord",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 135825000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "2cc022dc-946d-4072-9af3-5eae74f172f8",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "81c4192e-fb06-4e34-8dbb-b6f3e4eb64d9",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 16.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "c3433bcd-2112-4d4a-bb0a-4bc0ba76b3f5",
+          "name": "NORTH ILS",
+          "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "b4a51686-39c3-48fb-9395-ab4f89fa32be",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RNAV APCHS AVBL ON RQST.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "id": "9523d2bc-6601-4854-b43a-b9935374a561",
+      "identifier": "KTIW",
+      "name": "Tacoma",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 124050000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": false,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "aa9456a5-dced-4cf3-8459-d75d750ecddb",
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 17.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a3da4fa0-ec74-4706-9294-4999a3b46714",
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 17.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2cfa49e6-9050-4c7c-a287-35c4993b482e",
+          "name": "NORTH GPS",
+          "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 35.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "14ee751b-ccc9-4662-bdf3-3b372ecf0277",
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 35.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "SEA_NOT_TAKING",
+          "text": "SEA NOT TAKING",
+          "voice": "SEATTLE NOT TAKING"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "SEA NOT TAKING SFC AREA TRANSITIONS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

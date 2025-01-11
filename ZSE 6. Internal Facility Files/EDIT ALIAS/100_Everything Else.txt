@@ -88,30 +88,46 @@
 .CID .OPENURL https://stats.vatsim.net/stats/$1
 .ZSEDOCS .OPENURL https://zseartcc.org/documents
 .SEASPRULES .OPENURL https://zseartcc.org/documents/view/275
+.S46SPR .OPENURL https://zseartcc.org/documents/view/275
+.PDXTAXIWAYS .OPENURL https://zseartcc.org/documents/view/306
+.SEATAXIWAYS .OPENURL https://zseartcc.org/documents/view/305
 
 
 ; LOA Quick Reference Page
 
+.LMTZSELOA .OPENURL https://zseartcc.org/documents/view/284
+.MWHZSELOA .OPENURL https://zseartcc.org/documents/view/290
+.RDMZSELOA .OPENURL https://zseartcc.org/documents/view/283
 .ZLCLOA .OPENURL https://zseartcc.org/documents/view/218
 .ZOALOA .OPENURL https://zseartcc.org/documents/view/217
 .ZVRLOA .OPENURL https://zseartcc.org/documents/view/246
 .EUGZSELOA .OPENURL https://zseartcc.org/documents/view/227
 .MFRZSELOA .OPENURL https://zseartcc.org/documents/view/278
-.LMTZSELOA .OPENURL https://zseartcc.org/documents/view/284
+.EUGMFRLOA .OPENURL https://zseartcc.org/documents/view/287
+.P80PDXLOA .OPENURL https://zseartcc.org/documents/view/296
 .P80ZSELOA .OPENURL https://zseartcc.org/documents/view/233
-.RDMZSELOA .OPENURL https://zseartcc.org/documents/view/283
+.RNTBFILOA .OPENURL https://zseartcc.org/documents/view/303
+.S46BFILOA .OPENURL https://zseartcc.org/documents/view/304
+.S46OLMLOA .OPENURL https://zseartcc.org/documents/view/300
 .S46PAELOA .OPENURL https://zseartcc.org/documents/view/285
+.S46RNTLOA .OPENURL https://zseartcc.org/documents/view/301
 .S46SEALOA .OPENURL https://zseartcc.org/documents/view/273
+.SEABFILOA .OPENURL https://zseartcc.org/documents/view/302
+.S46TIWLOA .OPENURL https://zseartcc.org/documents/view/299
 .S46ZSELOA .OPENURL https://zseartcc.org/documents/view/232
 
 
 ; SOP Quick Reference Page
-.SEASOP .OPENURL https://zseartcc.org/documents/view/272
-.S46SOP .OPENURL https://zseartcc.org/documents/view/274
-.PDXSOP .OPENURL https://zseartcc.org/documents/view/187
-.ZSESOP .OPENURL https://zseartcc.org/documents/view/206
+.BFISOP .OPENURL https://zseartcc.org/documents/view/298
 .EUGSOP .OPENURL https://zseartcc.org/documents/view/276
 .LMTSOP .OPENURL https://zseartcc.org/documents/view/282
+.MWHSOP .OPENURL https://zseartcc.org/documents/view/291
+.P80SOP .OPENURL https://zseartcc.org/documents/view/295
+.PDXSOP .OPENURL https://zseartcc.org/documents/view/187
+.S46SOP .OPENURL https://zseartcc.org/documents/view/274
+.SEASOP .OPENURL https://zseartcc.org/documents/view/272
+.ZSESOP .OPENURL https://zseartcc.org/documents/view/206
+.TRACONSOP .OPENURL https://zseartcc.org/documents/view/292
 
 
 ; ZSE References

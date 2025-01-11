@@ -205,7 +205,12 @@
 .idCANADIANEXPRESS .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
 .idFDC .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
 .idFREIGHTDOG .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
+.idPFL .MSG ZSE_ISR *** 3LD: PFL ___ TELEPHONY: PRO FLIGHT
+.idPROFLIGHT .MSG ZSE_ISR *** 3LD: PFL ___ TELEPHONY: PRO FLIGHT
 
+;Other VORs
+.NAVYPK .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
+.NAVPITTMEADOWS .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

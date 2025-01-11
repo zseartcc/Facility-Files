@@ -1,0 +1,1 @@
+copy *.txt ZSE_ALIASES.txt

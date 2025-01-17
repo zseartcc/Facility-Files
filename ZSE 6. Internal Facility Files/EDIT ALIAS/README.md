@@ -8,6 +8,8 @@ Cancel these two lines by putting a **";"** in front of them. Or just delete the
 
 ;.idPALESTINIAN .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: PALESTINIAN
 
+PALESTINIAN or PNW is now defunct and was replaced by the Virtual Airline "TIMBERLINE"
+
 #
 
 ; .idPFL .MSG FAA_ISR *** 3LD: PFL ___ TELEPHONY: PACIFICFLYER

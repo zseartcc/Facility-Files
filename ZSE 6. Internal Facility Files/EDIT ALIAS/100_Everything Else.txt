@@ -410,6 +410,7 @@
 .tpbo Push back onto $uc($1) approved, face $2.
 .tnoatc No further ATC available. Monitor CTAF $1.
 .tcurrent Information $3 now current. $1 altimeter $altim($2).  Advise on next contact you have information $3.
+.seattleramp .msg $aircraft All gates and ramps at SEA require clearance for pushback/taxi. Information on Seattle Ramp procedures can be found at https://vats.im/searamp
 
 ; Tower
 .tluaw Runway $uc($1), line up and wait.

@@ -387,6 +387,28 @@
       "externalGenerator": {
         "enabled": false
       }
+    },
+    {
+      "id": "7d690466-05bf-4446-9671-00aef3046c65",
+      "ordinal": 6,
+      "name": "SOUTH LOW VIS",
+      "airportConditions": "ILS RWYS 16R AND 16L , APCH IN USE. DEPTG RWY 16L. SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
+      "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+      "externalGenerator": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "89bf9f58-fecc-4fab-8f59-37526f921562",
+      "ordinal": 7,
+      "name": "NORTH LOW VIS",
+      "airportConditions": "ILS RWYS 34L AND 34R , APCH IN USE. DEPTG RWY 34R",
+      "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+      "externalGenerator": {
+        "enabled": false
+      }
     }
   ],
   "contractions": [

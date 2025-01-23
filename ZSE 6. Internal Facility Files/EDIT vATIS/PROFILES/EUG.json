@@ -1,13 +1,12 @@
 {
-"name": "EUG/MFR",
-  "id": "d1e616b5-bee9-427a-9a34-484b89fc6c6f",
-  "updateUrl": "https://zseartcc.org/downloads/file/163",
-  "updateSerial": 2025012301,
+  "version": 1,
+  "name": "EUG/MFR",
+  "id": "c2517fa3-53ac-42eb-86ff-20e3fd6fea3e",
   "stations": [
     {
-      "id": "e7605e79-a5c1-41fb-94a7-f0b957c0dacf",
+      "id": "6c0532cb-3c46-486d-8189-22cd190b40fb",
       "identifier": "KEUG",
-      "name": "Eugene",
+      "name": "Mahlon Sweet FLD",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -23,8 +22,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": true,
-            "magneticDegrees": -20
+            "enabled": false,
+            "magneticDegrees": 0
           },
           "standard": {
             "template": {
@@ -118,7 +117,7 @@
             },
             "GS": {
               "text": "GS",
-              "spoken": "small hail, snow pellets"
+              "spoken": "small hail"
             },
             "UP": {
               "text": "UP",
@@ -305,10 +304,16 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
+            "text": "...ADVS YOU HAVE INFO {letter}.",
             "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
           }
         }
@@ -317,7 +322,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 125225000,
       "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -325,37 +329,41 @@
       },
       "presets": [
         {
-          "id": "f1175b23-4777-4da8-8da6-2ae7263c9224",
-          "name": "SOUTH ILS",
-          "airportConditions": "SIMUL ILS APCHS IN USE. LDG AND DEPTG RWYS 16R AND 16L.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "7aa68e3a-ce66-42f9-aae8-e73b36d218d7",
+          "id": "fadc63e7-a95f-4cc9-a19a-abeaafbcde55",
+          "ordinal": 0,
           "name": "SOUTH VIS",
-          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 16R AND 16L.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS 16L AND 16R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "5ab36580-f5b6-4c55-80be-989c59047730",
-          "name": "NORTH RNAV",
-          "airportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWYS 34L AND 34R.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "id": "23fbcad8-c831-4133-aa18-115fc0ea5129",
+          "ordinal": 1,
+          "name": "SOUTH ILS",
+          "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS 16L AND 16R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "fbc5e62f-9154-4fe6-912b-7b209414750e",
+          "id": "3e2361d4-3c7f-4ced-8539-973c2f29c92e",
+          "ordinal": 2,
           "name": "NORTH VIS",
-          "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 34L AND 34R.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS 34L AND 34R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "c8491f01-d5fa-4e81-9711-ba5bb41b2f0d",
+          "ordinal": 3,
+          "name": "NORTH GPS",
+          "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS 34L AND 34R.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -364,12 +372,12 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "RNAV APCHS AVBL ON RQST.",
+          "text": "RNAV APCHS AVBL ON RQST",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "text": "VFR ACFT SAY DRCTN OF FLT",
           "ordinal": 2,
           "enabled": false
         }
@@ -377,9 +385,9 @@
       "notamDefinitions": []
     },
     {
-      "id": "6bf9e20a-8bba-4122-a13a-99626272c9f7",
+      "id": "479976e6-580a-4cbd-87e6-26b848f56fc8",
       "identifier": "KMFR",
-      "name": "Medford",
+      "name": "Rogue Valley INTL",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -387,6 +395,9 @@
       },
       "atisFormat": {
         "observationTime": {
+          "standardUpdateTime": [
+            53
+          ],
           "template": {
             "text": "{time}Z",
             "voice": "{time} ZULU {special}"
@@ -490,7 +501,7 @@
             },
             "GS": {
               "text": "GS",
-              "spoken": "small hail, snow pellets"
+              "spoken": "small hail"
             },
             "UP": {
               "text": "UP",
@@ -677,10 +688,16 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
+            "text": "...ADVS YOU HAVE INFO {letter}.",
             "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
           }
         }
@@ -689,7 +706,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 127250000,
       "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -697,46 +713,51 @@
       },
       "presets": [
         {
-          "id": "07827075-5f3a-4d7c-b006-50991e953c51",
+          "id": "8474b399-7b68-44db-88f7-e743904d32ae",
+          "ordinal": 0,
           "name": "L14/D32 (ODO)",
           "airportConditions": "EXPC ILS, RNAV, OR VISUAL APPCH RWY 14. DEPTG RWY 32.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "6d360c13-ec31-4dab-91cd-93af3ddc34d3",
-          "name": "NORTH VIS",
-          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 32.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "97e6f1f7-2d3d-4abb-a0d7-2dd25b399822",
-          "name": "NORTH RNAV",
-          "airportConditions": "RNAV APCH IN USE. LDG AND DEPTG RWY 32.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "93c7ece0-4dd7-48ca-81fa-13aa94361a56",
+          "id": "c270d6ab-e33a-48f7-b478-e10ac447e529",
+          "ordinal": 1,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 14.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "ff48974b-ca46-4d59-bed6-233e00185755",
+          "id": "0d55b345-4910-4024-b1a6-e91bd97079e2",
+          "ordinal": 2,
           "name": "SOUTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 14.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING]",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "659e5030-3aad-4488-bb3e-2bb1c3600fad",
+          "ordinal": 3,
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 32.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "b3905bfb-2dc4-4914-95ef-6c2c7c20959d",
+          "ordinal": 4,
+          "name": "NORTH GPS",
+          "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 32.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -745,12 +766,12 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "LOC AND VOR APCHS AVBL ON RQST.",
-          "ordinal": 1,
+          "text": "VFR ACFT SAY DRCTN OF FLT",
+          "ordinal": 0,
           "enabled": false
         },
         {
-          "text": "VFR ACFT SAY DRCTN OF FLT.",
+          "text": "LOC AND VOR APCHS AVBL ON RQST",
           "ordinal": 2,
           "enabled": false
         }

@@ -369,7 +369,7 @@
       "id": "9e4c41ff-5e25-44d9-b06a-5a91bb7b7cce",
       "ordinal": 4,
       "name": "9/22 VMC",
-      "airportConditions": "VIS APCH RWY 9 IN USE. DEPTG RWYS 9 AND 22.",
+      "airportConditions": "VIS APCH RWY 9 IN USE. DEPTG RWYS ^9 AND ^22.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -379,7 +379,7 @@
       "id": "1abe12dd-eb6c-40ec-a11d-17d1a512bc3e",
       "ordinal": 5,
       "name": "9/22 IMC",
-      "airportConditions": "GPS APCH RWY 9 IN USE. DEPTG RWYS 9 AND 22.",
+      "airportConditions": "GPS APCH RWY 9 IN USE. DEPTG RWYS ^9 AND ^22.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -389,7 +389,7 @@
       "id": "f854004d-2349-4486-a394-fafb73ee02cc",
       "ordinal": 6,
       "name": "9/4 VMC",
-      "airportConditions": "VIS APCH RWY 9 IN USE. LDG AND DEPTG RWYS 9 AND 4.",
+      "airportConditions": "VIS APCH RWY 9 IN USE. LDG AND DEPTG RWYS ^9 AND ^4.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -399,7 +399,7 @@
       "id": "ce357d19-9c07-4f77-9114-b14006e11eac",
       "ordinal": 7,
       "name": "9/4 IMC",
-      "airportConditions": "GPS APCH RWY 9 IN USE. LDG AND DEPTG RWYS 9 AND 4.",
+      "airportConditions": "GPS APCH RWY 9 IN USE. LDG AND DEPTG RWYS ^9 AND ^4.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -409,7 +409,7 @@
       "id": "434cb686-f1e4-4d63-b11a-2fde58fb49fb",
       "ordinal": 8,
       "name": "27/4 VMC",
-      "airportConditions": "VIS APCH RWY 27 IN USE. LDG AND DEPTG RWYS 27 AND 4.",
+      "airportConditions": "VIS APCH RWY 27 IN USE. LDG AND DEPTG RWYS ^27 AND ^4.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -419,7 +419,7 @@
       "id": "22a81107-0070-41f5-8473-5286f8c0031d",
       "ordinal": 9,
       "name": "27/4 IMC",
-      "airportConditions": "ILS APCH RWY 27 IN USE. LDG AND DEPTG RWYS 27 AND 4.",
+      "airportConditions": "ILS APCH RWY 27 IN USE. LDG AND DEPTG RWYS ^27 AND ^4.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -429,7 +429,7 @@
       "id": "dfced057-9e7c-4df3-86f7-84272061e9e8",
       "ordinal": 10,
       "name": "27/22 VMC",
-      "airportConditions": "VIS APCH RWY 27 IN USE. DEPTG RWYS 27 AND 22.",
+      "airportConditions": "VIS APCH RWY 27 IN USE. DEPTG RWYS ^27 AND ^22.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -439,7 +439,7 @@
       "id": "9582ac11-8116-4cb6-85d9-5cc53db1509e",
       "ordinal": 11,
       "name": "27/22 IMC",
-      "airportConditions": "ILS APCH IN USE RWY 27. DEPTG RWYS 27 AND 22.",
+      "airportConditions": "ILS APCH IN USE RWY 27. DEPTG RWYS ^27 AND ^22.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false

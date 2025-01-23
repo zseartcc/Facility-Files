@@ -329,7 +329,7 @@
       "id": "f59a245f-a9df-4d99-af62-447c34a0ec84",
       "ordinal": 0,
       "name": "SOUTH VIS",
-      "airportConditions": "CHARTED VISUAL APPROACH RWY 14R , APCH IN USE. DEPG RWYS 14R AND 14L, SIMUL APCHS IN USE TO SEA AND BFI. TFC ABOVE YOU ON FINAL.",
+      "airportConditions": "CHARTED VISUAL APPROACH RWY 14R , APCH IN USE. DEPG RWYS ^14R AND ^14L, SIMUL APCHS IN USE TO SEA AND BFI. TFC ABOVE YOU ON FINAL.",
       "notams": "",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
@@ -340,7 +340,7 @@
       "id": "3a9de27c-8a16-401b-ada1-172b7ff53329",
       "ordinal": 1,
       "name": "SOUTH ILS",
-      "airportConditions": "ILS RWY 14R , APCH IN USE. DEPG RWYS 14R AND 14L, SIMUL APCHS IN USE TO SEA AND BFI. TFC ABOVE YOU ON FINAL.",
+      "airportConditions": "ILS RWY 14R , APCH IN USE. DEPG RWYS ^14R AND ^14L, SIMUL APCHS IN USE TO SEA AND BFI. TFC ABOVE YOU ON FINAL.",
       "notams": "",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
@@ -351,7 +351,7 @@
       "id": "62b8108f-2b46-489b-8a1f-928b22949f3e",
       "ordinal": 2,
       "name": "NORTH VIS",
-      "airportConditions": "VIS APPROACH RWY 32L , APCH IN USE. DEPG RWYS 32L AND 32R.",
+      "airportConditions": "VIS APPROACH RWY 32L , APCH IN USE. DEPG RWYS ^32L AND ^32R.",
       "notams": "",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
@@ -362,7 +362,7 @@
       "id": "399a28c7-04f6-4acb-8249-a6978be2ba28",
       "ordinal": 3,
       "name": "NORTH ILS",
-      "airportConditions": "ILS RWY 32L , APCH IN USE. DEPG RWYS 32L AND 32R.",
+      "airportConditions": "ILS RWY 32L , APCH IN USE. DEPG RWYS ^32L AND ^32R.",
       "notams": "",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {

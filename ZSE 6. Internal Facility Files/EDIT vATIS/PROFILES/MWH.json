@@ -329,7 +329,7 @@
       "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
       "useDecimalTerminology": false,
       "atisVoice": {
-        "useTextToSpeech": true,
+        "useTextToSpeech": false,
         "voice": "Default"
       },
       "presets": [

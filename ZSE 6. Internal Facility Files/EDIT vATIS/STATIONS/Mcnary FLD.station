@@ -329,7 +329,7 @@
       "id": "d0493c74-72b2-4689-b441-428fc63599a6",
       "ordinal": 0,
       "name": "SOUTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 13 AND 16.",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^13 AND ^16.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -339,7 +339,7 @@
       "id": "fc8ba348-8169-40dd-900b-f6cb98230df6",
       "ordinal": 1,
       "name": "SOUTH GPS",
-      "airportConditions": "GPS RWY 13 , APCH IN USE. DEPTG RWY 13 AND 16.",
+      "airportConditions": "GPS RWY 13 , APCH IN USE. DEPTG RWYS ^13 AND ^16.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -349,7 +349,7 @@
       "id": "8ba688cb-2e46-43fe-bb97-261c87fda32e",
       "ordinal": 2,
       "name": "NORTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 31 AND 34.",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^31 AND ^34.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -359,7 +359,7 @@
       "id": "3a4d95cd-3a9b-4bb0-a8ca-d8fd6134656d",
       "ordinal": 3,
       "name": "NORTH ILS",
-      "airportConditions": "ILS RWY 31 , APCH IN USE. DEPTG RWY 31 AND 34.",
+      "airportConditions": "ILS RWY 31 , APCH IN USE. DEPTG RWYS ^31 AND ^34.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -374,12 +374,12 @@
       "enabled": false
     },
     {
-      "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 31 ARR PLAN TO H/S OF RWY 16-34, 3,150 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+      "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 31 ARR PLAN TO H/S OF RWY 34, 3,150 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
       "ordinal": 2,
       "enabled": false
     },
     {
-      "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 34 ARR PLAN TO H/S OF RWY 13-31, 3,050 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+      "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 34 ARR PLAN TO H/S OF RWY 31, 3,050 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
       "ordinal": 3,
       "enabled": false
     }

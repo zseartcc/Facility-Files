@@ -1,6 +1,6 @@
 {
-  "identifier": "KLMT",
-  "name": "Klamath RGNL",
+  "identifier": "KEUG",
+  "name": "Mahlon Sweet FLD",
   "atisType": "Combined",
   "codeRange": {
     "low": "A",
@@ -8,9 +8,6 @@
   },
   "atisFormat": {
     "observationTime": {
-      "standardUpdateTime": [
-        53
-      ],
       "template": {
         "text": "{time}Z",
         "voice": "{time} ZULU {special}"
@@ -19,8 +16,8 @@
     "surfaceWind": {
       "speakLeadingZero": false,
       "magneticVariation": {
-        "enabled": true,
-        "magneticDegrees": -20
+        "enabled": false,
+        "magneticDegrees": 0
       },
       "standard": {
         "template": {
@@ -317,7 +314,7 @@
   },
   "notamsBeforeFreeText": false,
   "airportConditionsBeforeFreeText": false,
-  "frequency": 126500000,
+  "frequency": 125225000,
   "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
   "useDecimalTerminology": false,
   "atisVoice": {
@@ -326,120 +323,40 @@
   },
   "presets": [
     {
-      "id": "cbb541ab-49be-48c8-b35f-a0cb445a6893",
+      "id": "fadc63e7-a95f-4cc9-a19a-abeaafbcde55",
       "ordinal": 0,
       "name": "SOUTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 14.",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^16L AND ^16R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "3f9af6ae-915e-4e64-9c50-1c4bd527a53c",
+      "id": "23fbcad8-c831-4133-aa18-115fc0ea5129",
       "ordinal": 1,
-      "name": "SOUTH GPS",
-      "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 14.",
+      "name": "SOUTH ILS",
+      "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^16L AND ^16R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "b55905a3-4616-4541-82c6-fdd50aa7a505",
+      "id": "3e2361d4-3c7f-4ced-8539-973c2f29c92e",
       "ordinal": 2,
       "name": "NORTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 32.",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^34L AND ^34R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "ccf2a7ff-f405-49ca-9350-ed1eb305a94b",
+      "id": "c8491f01-d5fa-4e81-9711-ba5bb41b2f0d",
       "ordinal": 3,
-      "name": "NORTH ILS",
-      "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 32.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "7fb4a42e-c2d6-4a14-a4cf-157b6a650f45",
-      "ordinal": 4,
-      "name": "8/32 VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^8 AND ^32.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "a696e573-ca14-4886-968e-b5c5b3dfd317",
-      "ordinal": 5,
-      "name": "8/32 IMC",
-      "airportConditions": "ILS RWY 32 , APCH IN USE. DEPTG RWYS ^8 AND ^32.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "abcde31d-49f6-495f-ae7d-7a4e0aca5c3a",
-      "ordinal": 6,
-      "name": "26/32 VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^26 AND ^32.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "4f4d0300-c67a-4eec-b866-5b007c2864bb",
-      "ordinal": 7,
-      "name": "26/32 IMC",
-      "airportConditions": "ILS RWY 32 , APCH IN USE. DEPTG RWYS ^26 AND ^32.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "b4ca7584-d421-42cc-916a-07c84373a3f7",
-      "ordinal": 8,
-      "name": "8/14 VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^8 AND ^14.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "1072b957-e889-45eb-b35c-e4182e396724",
-      "ordinal": 9,
-      "name": "8/14 IMC",
-      "airportConditions": "GPS RWY 14 , APCH IN USE. DEPTG RWYS ^8 AND ^14.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "e96d8214-1b6b-4273-a4f3-cc1220bf59f0",
-      "ordinal": 10,
-      "name": "26/14 VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^26 AND ^14.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "2a884d7f-f3ac-4239-97c6-a12b31780d54",
-      "ordinal": 11,
-      "name": "26/14 IMC",
-      "airportConditions": "GPS RWY 14 , APCH IN USE. DEPTG RWYS ^26 AND ^14.",
+      "name": "NORTH GPS",
+      "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^34L AND ^34R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -449,12 +366,12 @@
   "contractions": [],
   "airportConditionDefinitions": [
     {
-      "text": "VFR ACFT SAY DRCTN OF FLT",
+      "text": "RNAV APCHS AVBL ON RQST",
       "ordinal": 1,
       "enabled": false
     },
     {
-      "text": "RNAV APCH AVBL ON RQST",
+      "text": "VFR ACFT SAY DRCTN OF FLT",
       "ordinal": 2,
       "enabled": false
     }

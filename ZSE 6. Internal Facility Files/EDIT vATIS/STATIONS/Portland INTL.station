@@ -329,7 +329,7 @@
       "id": "9f7eee73-e1f7-415b-8547-7ac122f41661",
       "ordinal": 0,
       "name": "EAST VIS (DAY)",
-      "airportConditions": "SIMUL VIS APCHS IN USE RWYS 10L AND 10R. JET ACFT EXPT THE COLUMBIA VIS APCH. DEPTG RWYS 10L AND 10R.",
+      "airportConditions": "SIMUL VIS APCH IN USE RWYS ^10L AND ^10R. JET ACFT EXPT THE COLUMBIA VIS APCH. DEPTG RWYS ^10L AND ^10R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -339,7 +339,7 @@
       "id": "eb4a6908-e10d-4ad7-bd87-6e6ed31936f7",
       "ordinal": 1,
       "name": "EAST VIS (NIGHT)",
-      "airportConditions": "VISUAL, RWY 10L, SIMUL, VISUAL, RWY 10R , APCH IN USE. DEPTG RWYS 10L AND 10R.",
+      "airportConditions": "VISUAL, RWY 10L, SIMUL, VISUAL, RWY 10R , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -349,7 +349,7 @@
       "id": "81af4b8a-a6cd-495d-84cb-223298cf9eca",
       "ordinal": 2,
       "name": "EAST ILS",
-      "airportConditions": "ILS RWYS 10R AND 10L , APCH IN USE. DEPTG RWYS 10L AND 10R.",
+      "airportConditions": "ILS RWYS ^10R AND ^10L , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -359,7 +359,7 @@
       "id": "c007d530-3f0e-4348-9857-dcc87f6b7dd1",
       "ordinal": 3,
       "name": "EAST LOW VIS",
-      "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 10R APCH IN USE. DEPTG RWYS 10L AND 10R.",
+      "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 10R APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
       "notams": "OPER XPNDR ON MODE C ON ALL TWYS AND RWYS.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
@@ -370,7 +370,7 @@
       "id": "698b61b0-f9ac-4208-9b7b-921bbe81e7e2",
       "ordinal": 4,
       "name": "WEST VIS (DAY)",
-      "airportConditions": "SIMUL VIS APCHS IN USE RWYS 28L AND 28R. JET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS 28L AND 28R.",
+      "airportConditions": "SIMUL VIS APCH IN USE RWYS ^28L AND ^28R. JET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS ^28L AND ^28R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -380,7 +380,7 @@
       "id": "c1694681-90c1-4c75-add9-28ba8585fa57",
       "ordinal": 5,
       "name": "WEST VIS (NIGHT)",
-      "airportConditions": "VISUAL, RWY 28L, SIMUL, VISUAL, RWY 28R , APCH IN USE. DEPTG RWYS 28L AND 28R.",
+      "airportConditions": "VISUAL, RWY 28L, SIMUL, VISUAL, RWY 28R , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -390,7 +390,7 @@
       "id": "8ccd5c05-8f85-418d-bd0e-4d49a94708aa",
       "ordinal": 6,
       "name": "WEST ILS",
-      "airportConditions": "ILS RWYS 28R AND 28L , APCH IN USE. DEPTG RWYS 28L AND 28R.",
+      "airportConditions": "ILS RWYS ^28R AND ^28L , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -400,7 +400,7 @@
       "id": "edc8b3e6-2e2d-46fd-8d0d-800c0ce99a24",
       "ordinal": 7,
       "name": "WEST LOW VIS",
-      "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 28L APCHS IN USE. DEPTG RWYS 28L AND 28R.",
+      "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 28L APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
       "notams": "OPER XPNDR ON MODE C ON ALL TWYS AND RWYS.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
@@ -437,7 +437,7 @@
   ],
   "airportConditionDefinitions": [
     {
-      "text": "RNAV APCHS AVBL ON RQST",
+      "text": "RNAV APCH AVBL ON RQST",
       "ordinal": 1,
       "enabled": false
     },

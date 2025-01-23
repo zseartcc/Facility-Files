@@ -4,9 +4,9 @@ Requires this [vATIS](https://vatis.app/) app
 
 # Updating vATIS Profiles
 
-If you make an edit, Explain the Edit in the commit message
+- If you make an edit, Explain the Edit in the commit message
 
-Upload updates to the ZSE Website [Here](https://zseartcc.org/downloads) under vATIS Files
+- Upload updates to the ZSE Website [Here](https://zseartcc.org/downloads) under vATIS Files
 
 # Stations
 

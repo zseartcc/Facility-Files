@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "name": "KMWH",
+  "id": "1ce0e2e6-30bd-473e-9c61-2c632e84f269",
+  "stations": [
+    {
+      "id": "475e3b37-2fdd-4acd-8070-0d0d859990f7",
+      "identifier": "KMWH",
+      "name": "Grant County INTL",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "standardUpdateTime": [
+            53
+          ],
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": true,
+            "magneticDegrees": -20
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}.",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 119050000,
+      "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "b4de147a-ecb4-438f-891d-8a1aeff17649",
+          "ordinal": 0,
+          "name": "SOUTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS 14L, 14R, 18, AND 22.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "9760cfcb-9553-4dbc-9fbf-75d9f7b81fab",
+          "ordinal": 1,
+          "name": "SOUTH GPS",
+          "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS 14L, 14R, 18, AND 22.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "52b399f2-90e5-4f4e-b4d8-b6d49e9f830f",
+          "ordinal": 2,
+          "name": "NORTH VIS",
+          "airportConditions": "VIS APCH IN USE. LDG DEPTG RWYS 32R, 32L, 36, and 4.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "31107f73-e8ce-4ebc-aa90-6a9b5fcafa1b",
+          "ordinal": 3,
+          "name": "NORTH ILS",
+          "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS 32R, 32L, 36, AND 4.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "VFR ACFT SAY DRCTN OF FLT",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 4 ARR PLAN TO H/S OF RWY 14L-32R, 4,700 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 14L ARR PLAN TO H/S OF RWY 4-22, 7,550 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 22 ARR PLAN TO H/S OF RWY 14L-32R, 4,650 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 32R ARR PLAN TO H/S OF RWY 4-22, 5,050 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    }
+  ]
+}

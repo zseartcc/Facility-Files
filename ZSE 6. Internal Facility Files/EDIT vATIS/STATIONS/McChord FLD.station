@@ -1,6 +1,6 @@
 {
-  "identifier": "KTCM",
-  "name": "McChord FLD",
+  "identifier": "KTTD",
+  "name": "Portland-Troutdale",
   "atisType": "Combined",
   "codeRange": {
     "low": "A",
@@ -317,49 +317,49 @@
   },
   "notamsBeforeFreeText": false,
   "airportConditionsBeforeFreeText": false,
-  "frequency": 135825000,
+  "frequency": 135625000,
   "idsEndpoint": "https://ids.zseartcc.org/remote/atis",
   "useDecimalTerminology": false,
   "atisVoice": {
-    "useTextToSpeech": true,
+    "useTextToSpeech": false,
     "voice": "Default"
   },
   "presets": [
     {
-      "id": "13a7a622-c688-4b44-b310-63fdc8186d73",
+      "id": "db0933ee-5479-47a8-be10-925308ef1ef7",
       "ordinal": 0,
-      "name": "SOUTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 16.",
+      "name": "EAST VIS",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 7.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "9af2cff7-da9d-4206-917d-8906c6d5a877",
+      "id": "6e680227-8e6c-4d8b-b5e2-b46a05011c13",
       "ordinal": 1,
-      "name": "SOUTH ILS",
-      "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 16.",
+      "name": "EAST GPS",
+      "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 7.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "0089adcc-858e-4fed-8f38-b10beb6b2e88",
+      "id": "9b4427c6-3f8f-426d-b80a-1f8b6437e023",
       "ordinal": 2,
-      "name": "NORTH VIS",
-      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 34.",
+      "name": "WEST VIS",
+      "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 25.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
       }
     },
     {
-      "id": "2e4514c5-8469-48bc-91d0-7b465e48c31b",
+      "id": "6271c182-c862-4968-9122-0c6c36ccb5d8",
       "ordinal": 3,
-      "name": "NORTH ILS",
-      "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 34.",
+      "name": "WEST GPS",
+      "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 25.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -369,7 +369,7 @@
   "contractions": [],
   "airportConditionDefinitions": [
     {
-      "text": "RNAV APCHS AVBL ON RQST",
+      "text": "VFR ACFT SAY DRCTN OF FLT",
       "ordinal": 1,
       "enabled": false
     }

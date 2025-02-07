@@ -338,18 +338,24 @@
 ; KMWH (Grant County)
 .autotrackmwhon .autotrack .atlistmwhon
 .autotrackmwhoff .autotrack .atlistmwhoff
+.MWH .autotrack KMWH
+.MWHoff .autotrack -KMWH
 .atlistmwhon kmwh
 .atlistmwhoff -kmwh
 
 ; KLMT (Kingsley)
 .autotracklmton .autotrack .atlistlmton
 .autotracklmtoff .autotrack .atlistlmtoff
+.LMT .autotrack KLMT
+.LMToff .autotrack -KLMT
 .atlistlmton klmt
 .atlistlmtoff -klmt
 
 ; KNUW (Whidbey)
 .autotracknuwon .autotrack .atlistnuwon
 .autotracknuwoff .autotrack .atlistnuwoff
+.NUW .autotrack KNUW
+.NUWoff .autotrack -KNUW
 .atlistnuwon knuw
 .atlistnuwoff -knuw
 

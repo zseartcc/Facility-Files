@@ -1829,7 +1829,7 @@
     "notams": {
       "template": {
         "text": "NOTAMS... {notams}",
-        "voice": "NOTICES TO AIR MISSIONS: {notams}"
+        "voice": "NOTICE TO AIRMEN: {notams}"
       }
     },
     "closingStatement": {

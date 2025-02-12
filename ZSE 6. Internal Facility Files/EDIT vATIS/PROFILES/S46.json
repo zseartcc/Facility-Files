@@ -2,7 +2,7 @@
   "name": "S46",
   "id": "a1d06011-b905-4c58-a9a6-16c5e1f48c7d",
   "updateUrl": "https://zseartcc.org/downloads/file/169",
-  "updateSerial": 2025013102,
+  "updateSerial": 2025021203,
   "stations": [
     {
       "id": "370be229-5cbc-469c-b0a5-569e2dbc5a88",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

@@ -2,7 +2,7 @@
   "name": "ZSE",
   "id": "afc47506-e969-4e18-94a4-a0d94ba16926",
   "updateUrl": "https://zseartcc.org/downloads/file/170",
-  "updateSerial": 2025013102,
+  "updateSerial": 2025021202,
   "stations": [
     {
       "id": "31e95e81-6bbf-4170-bb16-c6afd5193bd8",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

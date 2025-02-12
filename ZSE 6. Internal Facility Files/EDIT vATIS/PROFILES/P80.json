@@ -2,7 +2,7 @@
   "name": "P80",
   "id": "eacad202-94a9-4d73-b339-18260a06190a",
   "updateUrl": "https://zseartcc.org/downloads/file/167",
-  "updateSerial": 2025013101,
+  "updateSerial": 2025021202,
   "stations": [
     {
       "id": "682bf264-ccf5-4f29-a1c5-c1ed37c49ef1",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

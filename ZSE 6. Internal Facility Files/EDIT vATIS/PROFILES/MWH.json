@@ -2,7 +2,7 @@
   "name": "MWH",
   "id": "cf40f6f0-1ec4-452d-951f-8298fea758ac",
   "updateUrl": "https://zseartcc.org/downloads/file/165",
-  "updateSerial": 2025013101,
+  "updateSerial": 2025021202,
   "stations": [
     {
       "id": "475e3b37-2fdd-4acd-8070-0d0d859990f7",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

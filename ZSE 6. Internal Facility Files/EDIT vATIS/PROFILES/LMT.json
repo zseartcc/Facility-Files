@@ -2,7 +2,7 @@
   "name": "LMT",
   "id": "3d2c3fbb-035e-47bb-b508-3ab43949133b",
   "updateUrl": "https://zseartcc.org/downloads/file/164",
-  "updateSerial": 2025013101,
+  "updateSerial": 2025021202,
   "stations": [
     {
       "id": "396c961e-336d-4e57-94a5-9796cc24b750",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

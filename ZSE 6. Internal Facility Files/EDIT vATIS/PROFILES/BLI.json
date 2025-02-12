@@ -2,7 +2,7 @@
   "name": "BLI",
   "id": "359ac1f7-5cc0-468d-bed8-d91d70d48e95",
   "updateUrl": "https://zseartcc.org/downloads/file/172",
-  "updateSerial": 2025013101,
+  "updateSerial": 2025021202,
   "stations": [
     {
       "id": "3aac7cfe-ba4e-4875-a027-ecb97030ed10",
@@ -1839,7 +1839,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {

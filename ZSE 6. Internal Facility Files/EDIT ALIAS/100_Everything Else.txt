@@ -69,6 +69,52 @@
 
 ; HOLDING
 
+;CHINS
+.HBRUKK Hold South East of BRUKK as published, Maintain FL$1, Expect Further Clearance at $2
+.HSUNED Hold East of SUNED as published, Maintain $1, Expect Further Clearance at $2
+.HRADDY Hold East of RADDY as published, Maintain $1, Expect Further Clearance at $2
+
+;GLASR
+.HTEMPL Hold East of TEMPL as published, Maintain FL$1, Expect Further Clearance at $2
+.HJAKSN Hold East of JAKSN as published, Maintain $1, Expect Further Clearance at $2
+
+;HAWKZ
+.HLMT Hold South of LMT as published, Maintain FL$1, Expect Further Clearance at $2
+.HKNGDM Hold South of KNGDM as published, Maintain FL$1, Expect Further Clearance at $2
+.HWRUSL Hold South of WRUSL as published, Maintain FL$1, Expect Further Clearance at $2
+.HLKV Hold South East of LKV as published, Maintain FL$1, Expect Further Clearance at $2
+.HBLYTZ Hold South East of BLYTZ as published, Maintain FL$1, Expect Further Clearance at $2
+.HESLEY Hold South East of ESLEY as published, Maintain FL$1, Expect Further Clearance at $2
+.HBTG Hold South of BTG as published, Maintain FL$1, Expect Further Clearance at $2
+.HHAWKZ Hold South of HAWKZ as published, Maintain $1, Expect Further Clearance at $2
+.HAAYRR Hold West of AAYRR as published, Maintain FL$1, Expect Further Clearance at $2
+
+;MARNR/JAWBN/OLM
+.HMARNR Hold North West of MARNR as published, Maintain $1, Expect Further Clearance at $2
+.HJAWBN Hold North West of JAWBN as published, Maintain $1, Expect Further Clearance at $2
+.HOLM Hold South of OLM as published, Maintain $1, Expect Further Clearance at $2
+
+;SKYKO
+.HODESS Hold South East of ODESS as published, Maintain FL$1, Expect Further Clearance at $2
+.HEPH Hold South East of EPH as published, Maintain FL$1, Expect Further Clearance at $2
+.HSKYKO Hold South East of SKYKO as published, Maintain $1, Expect Further Clearance at $2
+
+;KRATR/HELNS
+.HHELNS Hold North of HELNS as published, Maintain $1, Expect Further Clearance at $2
+
+;HHOOD
+.HLUUND Hold East of LUUND as published, Maintain FL$1, Expect Further Clearance at $2
+.HJKNOX Hold East of JKNOX as published, Maintain FL$1, Expect Further Clearance at $2
+.HJOTBA Hold East of JOTBA as published, Maintain FL$1, Expect Further Clearance at $2
+.HSODDA Hold East of SODDA as published, Maintain FL$1, Expect Further Clearance at $2
+
+;TMBRS/OCITY
+.HMOXEE Hold South of MOXEE as published, Maintain FL$1, Expect Further Clearance at $2
+.HPORTL Hold South of PORTL as published, Maintain $1, Expect Further Clearance at $2
+.HVANTZ Hold South of VANTZ as published, Maintain $1, Expect Further Clearance at $2
+.HSPNSR Hold South of SPNSR as published, Maintain FL$1, Expect Further Clearance at $2
+.HGALLO Hold South of GALLO as published, Maintain FL$1, Expect Further Clearance at $2
+
 ; Event Wallop
 .EVENTWALLOP .wallop $aircraft B8. Despite repeated attempts on frequency, $aircraft is not following published arrival route or following basic ATC instructions such as flying headings. $aircraft is also causing conflict with other traffic and actively disrupting an official VATSIM event, please ghost $aircraft as soon as possible. Thank you!
 

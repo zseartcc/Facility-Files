@@ -2,7 +2,7 @@
   "name": "NUW",
   "id": "205c83a1-6f0a-4269-a094-0fa5b647a10b",
   "updateUrl": "https://zseartcc.org/downloads/file/166",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "1c2161c5-fd73-4716-815f-ad5b5289eee4",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

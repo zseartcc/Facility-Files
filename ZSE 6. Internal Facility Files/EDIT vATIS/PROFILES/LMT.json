@@ -2,7 +2,7 @@
   "name": "LMT",
   "id": "3d2c3fbb-035e-47bb-b508-3ab43949133b",
   "updateUrl": "https://zseartcc.org/downloads/file/164",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "396c961e-336d-4e57-94a5-9796cc24b750",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

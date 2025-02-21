@@ -2,7 +2,7 @@
   "name": "GEG APP",
   "id": "57dac8e3-4549-4044-92f1-086a2e1aff3f",
   "updateUrl": "https://zseartcc.org/downloads/file/162",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "69e85921-9966-4dbe-9ff9-9d292648f5c3",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3757,6 +3761,10 @@
             "text": "undetermined",
             "voice": "undetermined"
           },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
           "types": {
             "FEW": {
               "text": "FEW{altitude}",
@@ -5668,6 +5676,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -7665,6 +7677,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

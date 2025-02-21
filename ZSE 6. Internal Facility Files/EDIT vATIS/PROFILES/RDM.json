@@ -2,7 +2,7 @@
   "name": "RDM",
   "id": "a9954549-8c10-4a88-9864-0ba09d7b9013",
   "updateUrl": "https://zseartcc.org/downloads/file/173",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "c452bcdc-faed-4472-af29-cdb8965ebdf5",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

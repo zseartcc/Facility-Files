@@ -2,7 +2,7 @@
   "name": "BLI",
   "id": "359ac1f7-5cc0-468d-bed8-d91d70d48e95",
   "updateUrl": "https://zseartcc.org/downloads/file/172",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "3aac7cfe-ba4e-4875-a027-ecb97030ed10",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

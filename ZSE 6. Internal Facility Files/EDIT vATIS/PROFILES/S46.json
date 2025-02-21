@@ -2,7 +2,7 @@
   "name": "S46",
   "id": "a1d06011-b905-4c58-a9a6-16c5e1f48c7d",
   "updateUrl": "https://zseartcc.org/downloads/file/169",
-  "updateSerial": 2025021203,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "370be229-5cbc-469c-b0a5-569e2dbc5a88",
@@ -1754,10 +1754,14 @@
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
-          "isAltitudeInHundreds": true,
+          "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3758,6 +3762,10 @@
             "text": "undetermined",
             "voice": "undetermined"
           },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
           "types": {
             "FEW": {
               "text": "FEW{altitude}",
@@ -5721,6 +5729,10 @@
             "text": "undetermined",
             "voice": "undetermined"
           },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
           "types": {
             "FEW": {
               "text": "FEW{altitude}",
@@ -7627,6 +7639,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -9549,6 +9565,10 @@
             "text": "undetermined",
             "voice": "undetermined"
           },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
           "types": {
             "FEW": {
               "text": "FEW{altitude}",
@@ -11455,6 +11475,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -13368,6 +13392,10 @@
             "text": "undetermined",
             "voice": "undetermined"
           },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
           "types": {
             "FEW": {
               "text": "FEW{altitude}",
@@ -15274,6 +15302,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

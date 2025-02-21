@@ -1745,13 +1745,17 @@
       }
     },
     "clouds": {
-      "identifyCeilingLayer": true,
-      "convertToMetric": false,
-      "isAltitudeInHundreds": false,
-      "undeterminedLayerAltitude": {
-        "text": "undetermined",
-        "voice": "undetermined"
-      },
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
+          },
       "types": {
         "FEW": {
           "text": "FEW{altitude}",

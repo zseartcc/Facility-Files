@@ -2,7 +2,7 @@
   "name": "SLE",
   "id": "a4b91cac-0bbb-4925-a6db-018f0c81ebcc",
   "updateUrl": "https://zseartcc.org/downloads/file/171",
-  "updateSerial": 2025021203,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "e3cdd235-0b03-4d9a-8f92-92d742bd8016",
@@ -1758,6 +1758,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

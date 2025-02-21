@@ -2,7 +2,7 @@
   "name": "EUG APP",
   "id": "7c2eb1cf-3088-4686-92a4-8d588ec94fcb",
   "updateUrl": "https://zseartcc.org/downloads/file/163",
-  "updateSerial": 2025021202,
+  "updateSerial": 2025022003,
   "stations": [
     {
       "id": "6c0532cb-3c46-486d-8189-22cd190b40fb",
@@ -1755,6 +1755,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -3667,6 +3671,10 @@
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
+          },
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED C-B CLOUDS"
           },
           "types": {
             "FEW": {

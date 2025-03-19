@@ -1,9 +1,9 @@
-; Updated by Alexander Lennon - 02/12/25
+; Updated by Alexander Lennon - 03/19/25
 ; ^ If anything is broken, blame him! ^ ;P
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2502
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2503
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT
@@ -64,6 +64,9 @@
 .ct .ctaf$1$2$3$4
 .ctaf$1$2$3$4
 
+; Different way to look up callsign (Testing -AL)
+.123CS .openurl https://123atc.com/call-sign/$1
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -78,53 +81,70 @@
 ; Event Routing
 
 
-; HOLDING
+; Published Holds
+
+.Phold Cleared to $uc($1), Hold $uc($2) as published, Expect Further Clearance at $3
 
 ;CHINS
-.HBRUKK Hold South East of BRUKK as published, Maintain FL$1, Expect Further Clearance at $2
-.HSUNED Hold East of SUNED as published, Maintain $1, Expect Further Clearance at $2
-.HRADDY Hold East of RADDY as published, Maintain $1, Expect Further Clearance at $2
+.HBRUKK Cleared to BRUKK, Hold Southeast as published, Expect Further Clearance at $1
+.HSUNED Cleared to SUNED, Hold East as published, Expect Further Clearance at $1
+.HRADDY Cleared to RADDY, Hold East as published, Expect Further Clearance at $1
 
 ;GLASR
-.HTEMPL Hold East of TEMPL as published, Maintain FL$1, Expect Further Clearance at $2
-.HJAKSN Hold East of JAKSN as published, Maintain $1, Expect Further Clearance at $2
+.HTEMPL Cleared to TEMPL, Hold East as published, Expect Further Clearance at $1
+.HJAKSN Cleared to JAKSN, Hold East as published, Expect Further Clearance at $1
 
 ;HAWKZ
-.HLMT Hold South of LMT as published, Maintain FL$1, Expect Further Clearance at $2
-.HKNGDM Hold South of KNGDM as published, Maintain FL$1, Expect Further Clearance at $2
-.HWRUSL Hold South of WRUSL as published, Maintain FL$1, Expect Further Clearance at $2
-.HLKV Hold South East of LKV as published, Maintain FL$1, Expect Further Clearance at $2
-.HBLYTZ Hold South East of BLYTZ as published, Maintain FL$1, Expect Further Clearance at $2
-.HESLEY Hold South East of ESLEY as published, Maintain FL$1, Expect Further Clearance at $2
-.HBTG Hold South of BTG as published, Maintain FL$1, Expect Further Clearance at $2
-.HHAWKZ Hold South of HAWKZ as published, Maintain $1, Expect Further Clearance at $2
-.HAAYRR Hold West of AAYRR as published, Maintain FL$1, Expect Further Clearance at $2
+.HLMT Cleared to LMT, Hold South as published, Expect Further Clearance at $1
+.HKNGDM Cleared to KNGDM, Hold South as published, Expect Further Clearance at $1
+.HWRUSL Cleared to WRUSL, Hold South as published, Expect Further Clearance at $1
+.HLKV Cleared to LKV, Hold Southeast as published, Expect Further Clearance at $1
+.HBLYTZ Cleared to BLYTZ, Hold Southeast as published, Expect Further Clearance at $1
+.HESLEY Cleared to ESLEY, Hold Southeast as published, Expect Further Clearance at $1
+.HBTG Cleared to BTG, Hold South as published, Expect Further Clearance at $1
+.HHAWKZ Cleared to HAWKZ, Hold South as published, Expect Further Clearance at $1
+.HAAYRR Cleared to AAYRR, Hold West as published, Expect Further Clearance at $1
 
 ;MARNR/JAWBN/OLM
-.HMARNR Hold North West of MARNR as published, Maintain $1, Expect Further Clearance at $2
-.HJAWBN Hold North West of JAWBN as published, Maintain $1, Expect Further Clearance at $2
-.HOLM Hold South of OLM as published, Maintain $1, Expect Further Clearance at $2
+.HMARNR Cleared to MARNR, Hold West as published, Expect Further Clearance at $1
+.HJAWBN Cleared to JAWBN, Hold West as published, Expect Further Clearance at $1
+.HOLM Cleared to OLM, Hold South as published, Expect Further Clearance at $1
 
 ;SKYKO
-.HODESS Hold South East of ODESS as published, Maintain FL$1, Expect Further Clearance at $2
-.HEPH Hold South East of EPH as published, Maintain FL$1, Expect Further Clearance at $2
-.HSKYKO Hold South East of SKYKO as published, Maintain $1, Expect Further Clearance at $2
+.HODESS Cleared to ODESS, Hold East as published, Expect Further Clearance at $1
+.HEPH Cleared to EPH, Hold East as published, Expect Further Clearance at $1
+.HSKYKO Cleared to SKYKO, Hold Southeast as published, Expect Further Clearance at $1
 
 ;KRATR/HELNS
-.HHELNS Hold North of HELNS as published, Maintain $1, Expect Further Clearance at $2
+.HHELNS Cleared to HELNS, Hold North as published, Expect Further Clearance at $1
 
 ;HHOOD
-.HLUUND Hold East of LUUND as published, Maintain FL$1, Expect Further Clearance at $2
-.HJKNOX Hold East of JKNOX as published, Maintain FL$1, Expect Further Clearance at $2
-.HJOTBA Hold East of JOTBA as published, Maintain FL$1, Expect Further Clearance at $2
-.HSODDA Hold East of SODDA as published, Maintain FL$1, Expect Further Clearance at $2
+.HLUUND Cleared to LUUND, Hold East as published, Expect Further Clearance at $1
+.HJKNOX Cleared to JKNOX, Hold East as published, Expect Further Clearance at $1
+.HJOTBA Cleared to JOTBA, Hold East as published, Expect Further Clearance at $1
+.HSODDA Cleared to SODDA, Hold East as published, Expect Further Clearance at $1
 
 ;TMBRS/OCITY
-.HMOXEE Hold South of MOXEE as published, Maintain FL$1, Expect Further Clearance at $2
-.HPORTL Hold South of PORTL as published, Maintain $1, Expect Further Clearance at $2
-.HVANTZ Hold South of VANTZ as published, Maintain $1, Expect Further Clearance at $2
-.HSPNSR Hold South of SPNSR as published, Maintain FL$1, Expect Further Clearance at $2
-.HGALLO Hold South of GALLO as published, Maintain FL$1, Expect Further Clearance at $2
+.HMOXEE Cleared to MOXEE, Hold South as published, Expect Further Clearance at $1
+.HPORTL Cleared to PORTL, Hold South as published, Expect Further Clearance at $1
+.HVANTZ Cleared to VANTZ, Hold South as published, Expect Further Clearance at $1
+.HSPNSR Cleared to SPNSR, Hold South as published, Expect Further Clearance at $1
+.HGALLO Cleared to GALLO, Hold South as published, Expect Further Clearance at $1
+
+;Non-Published/Non-Stadared Hold
+;Minute legs
+.minhold Cleared to $uc($1), Hold $uc($2) on the $3 Radial, $4 minute legs, $uc($5) turns, Expect Further Clearance at $6
+;Mile legs
+.milehold Cleared to $uc($1), Hold $uc($2) on the $3 Radial, $4 mile legs, $uc($5) turns, Expect Further Clearance at $6
+
+;Non-Published/Stadared Hold (Right turns, 1 minute or 1.5 minutes above 14,000)
+.stdhold Cleared to $uc($1), Hold $uc($2) on the $3 Radial, Expect Further Clearance at $4
+
+;Cancel Holds. (C)(hold)(LRC,AF,RV,DCT)
+.choldlrc Cleared to $arr via last routing cleared.
+.choldaf Cleared to $arr via last routing cleared.
+.choldrv Cleared to $arr via radar vectors.
+.cholddct Cleared to $arr via direct $uc($1)
 
 ; Event Wallop
 .EVENTWALLOP .wallop $aircraft B8. Despite repeated attempts on frequency, $aircraft is not following published arrival route or following basic ATC instructions such as flying headings. $aircraft is also causing conflict with other traffic and actively disrupting an official VATSIM event, please ghost $aircraft as soon as possible. Thank you!
@@ -240,10 +260,10 @@
 .RFD .MSG ZSE_ISR *** $aircraft Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now $time. Frequency change approved.
 
 ; Holding instructions
-.HOLDING .MSG ZSE_ISR *** HOLD (direction) OF (waypoint). ON THE (radial, course, bearing, track, azimuth, airway, or route).(leg length of hold if applicable).(state Left Turns, if right turns are not to be assumed).MAINTAIN (altitude).EXPECT FURTHER CLEARANCE (time).
+.HOLDING .MSG ZSE_ISR *** HOLD (direction) OF (fix/waypoint) ON (specified radial, course, bearing, track, airway, azimuth(s), or route.).(number of minutes/miles) LEFT/RIGHT TURNS. EXPECT FURTHER CLEARANCE $ftime(30).
 
 ; IFR Procedures Phraseology Help
-.OTP .MSG ZSE_ISR *** CLIMB TO AND REPORT REACHING VFR ON TOP, TOPS REPORTED (altitude, if none "NO TOPS REPORTED"), IF NOT ON TOP AT (altitude), MAINTAIN (altitude), AND ADVISE. MAINTAIN VFR ON TOP.
+.OTP .MSG ZSE_ISR *** CLIMB TO AND REPORT REACHING VFR ON TOP, TOPS REPORTED (altitude, if none "NO TOPS REPORTED"), IF NOT ON TOP AT (altitude), MAINTAIN (altitude), AND ADVISE. | MAINTAIN VFR ON TOP.
 
 ;VIRTUAL AIRLINE CALLSIGNS
 .idPACIFIC .MSG ZSE_ISR *** 3LD: PAY ___ TELEPHONY: PACIFIC

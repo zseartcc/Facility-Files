@@ -1,9 +1,9 @@
-; Updated by Alexander Lennon - 03/19/25
-; ^ If anything is broken, blame him! ^ ;P
+; Updated by Alexander Lennon - 04/11/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2503
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2504
+.AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
 ;    SPECIAL EVENT

@@ -1,11 +1,10 @@
 {
   "name": "P80",
-  "id": "eacad202-94a9-4d73-b339-18260a06190a",
   "updateUrl": "https://zseartcc.org/downloads/file/167",
-  "updateSerial": 2025022003,
+  "updateSerial": 2025041104,
   "stations": [
     {
-      "id": "682bf264-ccf5-4f29-a1c5-c1ed37c49ef1",
+      "ordinal": 0,
       "identifier": "KPDX",
       "name": "Portland INTL",
       "atisType": "Combined",
@@ -139,9 +138,21 @@
               "text": "-FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
+            "-FZDZPL": {
+              "text": "-FZDZPL",
+              "spoken": "Light Freezing Drizzle And Ice Pellets"
+            },
             "-FZDZRA": {
               "text": "-FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
+            },
+            "-FZDZSG": {
+              "text": "-FZDZSG",
+              "spoken": "Light Freezing Drizzle And Snow Grains"
+            },
+            "-FZDZSN": {
+              "text": "-FZDZSN",
+              "spoken": "Light Freezing Drizzle And Snow"
             },
             "-FZRA": {
               "text": "-FZRA",
@@ -150,6 +161,18 @@
             "-FZRADZ": {
               "text": "-FZRADZ",
               "spoken": "Light Freezing Rain And Drizzle"
+            },
+            "-FZRAPL": {
+              "text": "-FZRAPL",
+              "spoken": "Light Freezing Rain And Ice Pellets"
+            },
+            "-FZRASG": {
+              "text": "-FZRASG",
+              "spoken": "Light Freezing Rain And Snow Grains"
+            },
+            "-FZRASN": {
+              "text": "-FZRASN",
+              "spoken": "Light Freezing Rain And Snow"
             },
             "-FZUP": {
               "text": "-FZUP",
@@ -635,9 +658,21 @@
               "text": "+FZDZ",
               "spoken": "Heavy Freezing Drizzle"
             },
+            "+FZDZPL": {
+              "text": "+FZDZPL",
+              "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+            },
             "+FZDZRA": {
               "text": "+FZDZRA",
               "spoken": "Heavy Freezing Drizzle And Rain"
+            },
+            "+FZDZSG": {
+              "text": "+FZDZSG",
+              "spoken": "Heavy Freezing Drizzle And Snow Grains"
+            },
+            "+FZDZSN": {
+              "text": "+FZDZSN",
+              "spoken": "Heavy Freezing Drizzle And Snow"
             },
             "+FZRA": {
               "text": "+FZRA",
@@ -646,6 +681,18 @@
             "+FZRADZ": {
               "text": "+FZRADZ",
               "spoken": "Heavy Freezing Rain And Drizzle"
+            },
+            "+FZRAPL": {
+              "text": "+FZRAPL",
+              "spoken": "Heavy Freezing Rain And Ice Pellets"
+            },
+            "+FZRASG": {
+              "text": "+FZRASG",
+              "spoken": "Heavy Freezing Rain And Snow Grains"
+            },
+            "+FZRASN": {
+              "text": "+FZRASN",
+              "spoken": "Heavy Freezing Rain And Snow"
             },
             "+FZUP": {
               "text": "+FZUP",
@@ -1191,9 +1238,21 @@
               "text": "FZDZ",
               "spoken": "Freezing Drizzle"
             },
+            "FZDZPL": {
+              "text": "FZDZPL",
+              "spoken": "Freezing Drizzle And Ice Pellets"
+            },
             "FZDZRA": {
               "text": "FZDZRA",
               "spoken": "Freezing Drizzle And Rain"
+            },
+            "FZDZSG": {
+              "text": "FZDZSG",
+              "spoken": "Freezing Drizzle And Snow Grains"
+            },
+            "FZDZSN": {
+              "text": "FZDZSN",
+              "spoken": "Freezing Drizzle And Snow"
             },
             "FZFG": {
               "text": "FZFG",
@@ -1206,6 +1265,18 @@
             "FZRADZ": {
               "text": "FZRADZ",
               "spoken": "Freezing Rain And Drizzle"
+            },
+            "FZRAPL": {
+              "text": "FZRAPL",
+              "spoken": "Freezing Rain And Ice Pellets"
+            },
+            "FZRASG": {
+              "text": "FZRASG",
+              "spoken": "Freezing Rain And Snow Grains"
+            },
+            "FZRASN": {
+              "text": "FZRASN",
+              "spoken": "Freezing Rain And Snow"
             },
             "FZUP": {
               "text": "FZUP",
@@ -1234,6 +1305,10 @@
             "MIFG": {
               "text": "MIFG",
               "spoken": "Shallow Fog"
+            },
+            "NSW": {
+              "text": "NSW",
+              "spoken": "No Significant Weather"
             },
             "PL": {
               "text": "PL",
@@ -1861,11 +1936,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "9f7eee73-e1f7-415b-8547-7ac122f41661",
           "ordinal": 0,
           "name": "EAST VIS (DAY)",
           "airportConditions": "SIMUL VIS APCH IN USE RWYS ^10L AND ^10R. JET ACFT EXPT THE COLUMBIA VIS APCH. DEPTG RWYS ^10L AND ^10R.",
@@ -1875,7 +1950,6 @@
           }
         },
         {
-          "id": "eb4a6908-e10d-4ad7-bd87-6e6ed31936f7",
           "ordinal": 1,
           "name": "EAST VIS (NIGHT)",
           "airportConditions": "VISUAL, RWY 10L, SIMUL, VISUAL, RWY 10R , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1885,7 +1959,6 @@
           }
         },
         {
-          "id": "81af4b8a-a6cd-495d-84cb-223298cf9eca",
           "ordinal": 2,
           "name": "EAST ILS",
           "airportConditions": "ILS RWYS ^10R AND ^10L , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1895,7 +1968,6 @@
           }
         },
         {
-          "id": "c007d530-3f0e-4348-9857-dcc87f6b7dd1",
           "ordinal": 3,
           "name": "EAST LOW VIS",
           "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 10R APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1906,7 +1978,6 @@
           }
         },
         {
-          "id": "698b61b0-f9ac-4208-9b7b-921bbe81e7e2",
           "ordinal": 4,
           "name": "WEST VIS (DAY)",
           "airportConditions": "SIMUL VIS APCH IN USE RWYS ^28L AND ^28R. JET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS ^28L AND ^28R.",
@@ -1916,7 +1987,6 @@
           }
         },
         {
-          "id": "c1694681-90c1-4c75-add9-28ba8585fa57",
           "ordinal": 5,
           "name": "WEST VIS (NIGHT)",
           "airportConditions": "VISUAL, RWY 28L, SIMUL, VISUAL, RWY 28R , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1926,7 +1996,6 @@
           }
         },
         {
-          "id": "8ccd5c05-8f85-418d-bd0e-4d49a94708aa",
           "ordinal": 6,
           "name": "WEST ILS",
           "airportConditions": "ILS RWYS ^28R AND ^28L , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1936,7 +2005,6 @@
           }
         },
         {
-          "id": "edc8b3e6-2e2d-46fd-8d0d-800c0ce99a24",
           "ordinal": 7,
           "name": "WEST LOW VIS",
           "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 28L APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1976,20 +2044,20 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RNAV APCH AVBL ON RQST",
+          "text": "RNAV APCH AVBL ON RQST.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "VFR ACFT SAY DRCTN OF FLT",
+          "text": "VFR ACFT SAY DRCTN OF FLT.",
           "ordinal": 2,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC",
-          "ordinal": 0,
+          "text": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+          "ordinal": 1,
           "enabled": true
         },
         {
@@ -1998,19 +2066,19 @@
           "enabled": false
         },
         {
-          "text": "GATE HOLD PROCS ARE IN EFCT FOR ALL ACFT. ALL ACFT CTC GND ON 121.9 PRIOR TO PUSH AND START",
+          "text": "GATE HOLD PROCS ARE IN EFCT FOR ALL ACFT. ALL ACFT CTC GND ON 121.9 PRIOR TO PUSH AND START.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "FLOW RESTRICTIONS IN EFCT FOR SFO",
+          "text": "FLOW RESTRICTIONS IN EFCT FOR SFO.",
           "ordinal": 4,
           "enabled": false
         }
       ]
     },
     {
-      "id": "c3d7fde3-b6a8-4a70-a811-83ae52ac6e92",
+      "ordinal": 1,
       "identifier": "KHIO",
       "name": "Portland-Hillsboro",
       "atisType": "Combined",
@@ -2144,9 +2212,21 @@
               "text": "-FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
+            "-FZDZPL": {
+              "text": "-FZDZPL",
+              "spoken": "Light Freezing Drizzle And Ice Pellets"
+            },
             "-FZDZRA": {
               "text": "-FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
+            },
+            "-FZDZSG": {
+              "text": "-FZDZSG",
+              "spoken": "Light Freezing Drizzle And Snow Grains"
+            },
+            "-FZDZSN": {
+              "text": "-FZDZSN",
+              "spoken": "Light Freezing Drizzle And Snow"
             },
             "-FZRA": {
               "text": "-FZRA",
@@ -2155,6 +2235,18 @@
             "-FZRADZ": {
               "text": "-FZRADZ",
               "spoken": "Light Freezing Rain And Drizzle"
+            },
+            "-FZRAPL": {
+              "text": "-FZRAPL",
+              "spoken": "Light Freezing Rain And Ice Pellets"
+            },
+            "-FZRASG": {
+              "text": "-FZRASG",
+              "spoken": "Light Freezing Rain And Snow Grains"
+            },
+            "-FZRASN": {
+              "text": "-FZRASN",
+              "spoken": "Light Freezing Rain And Snow"
             },
             "-FZUP": {
               "text": "-FZUP",
@@ -2640,9 +2732,21 @@
               "text": "+FZDZ",
               "spoken": "Heavy Freezing Drizzle"
             },
+            "+FZDZPL": {
+              "text": "+FZDZPL",
+              "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+            },
             "+FZDZRA": {
               "text": "+FZDZRA",
               "spoken": "Heavy Freezing Drizzle And Rain"
+            },
+            "+FZDZSG": {
+              "text": "+FZDZSG",
+              "spoken": "Heavy Freezing Drizzle And Snow Grains"
+            },
+            "+FZDZSN": {
+              "text": "+FZDZSN",
+              "spoken": "Heavy Freezing Drizzle And Snow"
             },
             "+FZRA": {
               "text": "+FZRA",
@@ -2651,6 +2755,18 @@
             "+FZRADZ": {
               "text": "+FZRADZ",
               "spoken": "Heavy Freezing Rain And Drizzle"
+            },
+            "+FZRAPL": {
+              "text": "+FZRAPL",
+              "spoken": "Heavy Freezing Rain And Ice Pellets"
+            },
+            "+FZRASG": {
+              "text": "+FZRASG",
+              "spoken": "Heavy Freezing Rain And Snow Grains"
+            },
+            "+FZRASN": {
+              "text": "+FZRASN",
+              "spoken": "Heavy Freezing Rain And Snow"
             },
             "+FZUP": {
               "text": "+FZUP",
@@ -3196,9 +3312,21 @@
               "text": "FZDZ",
               "spoken": "Freezing Drizzle"
             },
+            "FZDZPL": {
+              "text": "FZDZPL",
+              "spoken": "Freezing Drizzle And Ice Pellets"
+            },
             "FZDZRA": {
               "text": "FZDZRA",
               "spoken": "Freezing Drizzle And Rain"
+            },
+            "FZDZSG": {
+              "text": "FZDZSG",
+              "spoken": "Freezing Drizzle And Snow Grains"
+            },
+            "FZDZSN": {
+              "text": "FZDZSN",
+              "spoken": "Freezing Drizzle And Snow"
             },
             "FZFG": {
               "text": "FZFG",
@@ -3211,6 +3339,18 @@
             "FZRADZ": {
               "text": "FZRADZ",
               "spoken": "Freezing Rain And Drizzle"
+            },
+            "FZRAPL": {
+              "text": "FZRAPL",
+              "spoken": "Freezing Rain And Ice Pellets"
+            },
+            "FZRASG": {
+              "text": "FZRASG",
+              "spoken": "Freezing Rain And Snow Grains"
+            },
+            "FZRASN": {
+              "text": "FZRASN",
+              "spoken": "Freezing Rain And Snow"
             },
             "FZUP": {
               "text": "FZUP",
@@ -3239,6 +3379,10 @@
             "MIFG": {
               "text": "MIFG",
               "spoken": "Shallow Fog"
+            },
+            "NSW": {
+              "text": "NSW",
+              "spoken": "No Significant Weather"
             },
             "PL": {
               "text": "PL",
@@ -3866,11 +4010,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "fe3d5dc1-ae7c-44fd-abcc-de4659dfb503",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^13R AND ^13L.",
@@ -3880,7 +4024,6 @@
           }
         },
         {
-          "id": "55f6b165-5da3-41c5-a129-752caed188c2",
           "ordinal": 1,
           "name": "SOUTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^13R AND ^13L.",
@@ -3890,7 +4033,6 @@
           }
         },
         {
-          "id": "cf9b7182-0816-4e10-8b04-07b0d4570d9a",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^31L AND ^31R.",
@@ -3900,7 +4042,6 @@
           }
         },
         {
-          "id": "4162e348-2c4e-4c78-8967-7bf649137f2d",
           "ordinal": 3,
           "name": "NORTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTGS RWY 31L AND 31R.",
@@ -3913,7 +4054,7 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 13R , ARR PLAN TO H/S OF RWY 2-20, 4,922 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS",
+          "text": "LAND AND HOLD SHORT OPERATIONS ARE IN EFFECT. LANDING RWY 13R , ARR PLAN TO H/S OF RWY 2-20, 4,922 FT AVBL. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "ordinal": 1,
           "enabled": false
         }
@@ -3921,7 +4062,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "82712e2d-50a6-4d9e-bc2b-80306d849c9b",
+      "ordinal": 2,
       "identifier": "KUAO",
       "name": "Aurora State",
       "atisType": "Combined",
@@ -4055,9 +4196,21 @@
               "text": "-FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
+            "-FZDZPL": {
+              "text": "-FZDZPL",
+              "spoken": "Light Freezing Drizzle And Ice Pellets"
+            },
             "-FZDZRA": {
               "text": "-FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
+            },
+            "-FZDZSG": {
+              "text": "-FZDZSG",
+              "spoken": "Light Freezing Drizzle And Snow Grains"
+            },
+            "-FZDZSN": {
+              "text": "-FZDZSN",
+              "spoken": "Light Freezing Drizzle And Snow"
             },
             "-FZRA": {
               "text": "-FZRA",
@@ -4066,6 +4219,18 @@
             "-FZRADZ": {
               "text": "-FZRADZ",
               "spoken": "Light Freezing Rain And Drizzle"
+            },
+            "-FZRAPL": {
+              "text": "-FZRAPL",
+              "spoken": "Light Freezing Rain And Ice Pellets"
+            },
+            "-FZRASG": {
+              "text": "-FZRASG",
+              "spoken": "Light Freezing Rain And Snow Grains"
+            },
+            "-FZRASN": {
+              "text": "-FZRASN",
+              "spoken": "Light Freezing Rain And Snow"
             },
             "-FZUP": {
               "text": "-FZUP",
@@ -4551,9 +4716,21 @@
               "text": "+FZDZ",
               "spoken": "Heavy Freezing Drizzle"
             },
+            "+FZDZPL": {
+              "text": "+FZDZPL",
+              "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+            },
             "+FZDZRA": {
               "text": "+FZDZRA",
               "spoken": "Heavy Freezing Drizzle And Rain"
+            },
+            "+FZDZSG": {
+              "text": "+FZDZSG",
+              "spoken": "Heavy Freezing Drizzle And Snow Grains"
+            },
+            "+FZDZSN": {
+              "text": "+FZDZSN",
+              "spoken": "Heavy Freezing Drizzle And Snow"
             },
             "+FZRA": {
               "text": "+FZRA",
@@ -4562,6 +4739,18 @@
             "+FZRADZ": {
               "text": "+FZRADZ",
               "spoken": "Heavy Freezing Rain And Drizzle"
+            },
+            "+FZRAPL": {
+              "text": "+FZRAPL",
+              "spoken": "Heavy Freezing Rain And Ice Pellets"
+            },
+            "+FZRASG": {
+              "text": "+FZRASG",
+              "spoken": "Heavy Freezing Rain And Snow Grains"
+            },
+            "+FZRASN": {
+              "text": "+FZRASN",
+              "spoken": "Heavy Freezing Rain And Snow"
             },
             "+FZUP": {
               "text": "+FZUP",
@@ -5107,9 +5296,21 @@
               "text": "FZDZ",
               "spoken": "Freezing Drizzle"
             },
+            "FZDZPL": {
+              "text": "FZDZPL",
+              "spoken": "Freezing Drizzle And Ice Pellets"
+            },
             "FZDZRA": {
               "text": "FZDZRA",
               "spoken": "Freezing Drizzle And Rain"
+            },
+            "FZDZSG": {
+              "text": "FZDZSG",
+              "spoken": "Freezing Drizzle And Snow Grains"
+            },
+            "FZDZSN": {
+              "text": "FZDZSN",
+              "spoken": "Freezing Drizzle And Snow"
             },
             "FZFG": {
               "text": "FZFG",
@@ -5122,6 +5323,18 @@
             "FZRADZ": {
               "text": "FZRADZ",
               "spoken": "Freezing Rain And Drizzle"
+            },
+            "FZRAPL": {
+              "text": "FZRAPL",
+              "spoken": "Freezing Rain And Ice Pellets"
+            },
+            "FZRASG": {
+              "text": "FZRASG",
+              "spoken": "Freezing Rain And Snow Grains"
+            },
+            "FZRASN": {
+              "text": "FZRASN",
+              "spoken": "Freezing Rain And Snow"
             },
             "FZUP": {
               "text": "FZUP",
@@ -5150,6 +5363,10 @@
             "MIFG": {
               "text": "MIFG",
               "spoken": "Shallow Fog"
+            },
+            "NSW": {
+              "text": "NSW",
+              "spoken": "No Significant Weather"
             },
             "PL": {
               "text": "PL",
@@ -5777,11 +5994,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "e2dd88f9-2614-44ad-a6b2-38ba2453ce79",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 17.",
@@ -5791,7 +6008,6 @@
           }
         },
         {
-          "id": "1420cdc1-3594-4192-9c8c-5e41bc97118a",
           "ordinal": 1,
           "name": "SOUTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 17.",
@@ -5801,7 +6017,6 @@
           }
         },
         {
-          "id": "23d6f05e-e100-4779-add8-17bb74eb0423",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 35.",
@@ -5811,7 +6026,6 @@
           }
         },
         {
-          "id": "936bd07d-e2e7-4d64-81ca-b84039fa0694",
           "ordinal": 3,
           "name": "NORTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 35.",
@@ -5837,7 +6051,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "edb84ee9-da87-4bfa-bfb0-2946129ef9a7",
+      "ordinal": 3,
       "identifier": "KTTD",
       "name": "Portland-Troutdale",
       "atisType": "Combined",
@@ -5971,9 +6185,21 @@
               "text": "-FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
+            "-FZDZPL": {
+              "text": "-FZDZPL",
+              "spoken": "Light Freezing Drizzle And Ice Pellets"
+            },
             "-FZDZRA": {
               "text": "-FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
+            },
+            "-FZDZSG": {
+              "text": "-FZDZSG",
+              "spoken": "Light Freezing Drizzle And Snow Grains"
+            },
+            "-FZDZSN": {
+              "text": "-FZDZSN",
+              "spoken": "Light Freezing Drizzle And Snow"
             },
             "-FZRA": {
               "text": "-FZRA",
@@ -5982,6 +6208,18 @@
             "-FZRADZ": {
               "text": "-FZRADZ",
               "spoken": "Light Freezing Rain And Drizzle"
+            },
+            "-FZRAPL": {
+              "text": "-FZRAPL",
+              "spoken": "Light Freezing Rain And Ice Pellets"
+            },
+            "-FZRASG": {
+              "text": "-FZRASG",
+              "spoken": "Light Freezing Rain And Snow Grains"
+            },
+            "-FZRASN": {
+              "text": "-FZRASN",
+              "spoken": "Light Freezing Rain And Snow"
             },
             "-FZUP": {
               "text": "-FZUP",
@@ -6467,9 +6705,21 @@
               "text": "+FZDZ",
               "spoken": "Heavy Freezing Drizzle"
             },
+            "+FZDZPL": {
+              "text": "+FZDZPL",
+              "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+            },
             "+FZDZRA": {
               "text": "+FZDZRA",
               "spoken": "Heavy Freezing Drizzle And Rain"
+            },
+            "+FZDZSG": {
+              "text": "+FZDZSG",
+              "spoken": "Heavy Freezing Drizzle And Snow Grains"
+            },
+            "+FZDZSN": {
+              "text": "+FZDZSN",
+              "spoken": "Heavy Freezing Drizzle And Snow"
             },
             "+FZRA": {
               "text": "+FZRA",
@@ -6478,6 +6728,18 @@
             "+FZRADZ": {
               "text": "+FZRADZ",
               "spoken": "Heavy Freezing Rain And Drizzle"
+            },
+            "+FZRAPL": {
+              "text": "+FZRAPL",
+              "spoken": "Heavy Freezing Rain And Ice Pellets"
+            },
+            "+FZRASG": {
+              "text": "+FZRASG",
+              "spoken": "Heavy Freezing Rain And Snow Grains"
+            },
+            "+FZRASN": {
+              "text": "+FZRASN",
+              "spoken": "Heavy Freezing Rain And Snow"
             },
             "+FZUP": {
               "text": "+FZUP",
@@ -7023,9 +7285,21 @@
               "text": "FZDZ",
               "spoken": "Freezing Drizzle"
             },
+            "FZDZPL": {
+              "text": "FZDZPL",
+              "spoken": "Freezing Drizzle And Ice Pellets"
+            },
             "FZDZRA": {
               "text": "FZDZRA",
               "spoken": "Freezing Drizzle And Rain"
+            },
+            "FZDZSG": {
+              "text": "FZDZSG",
+              "spoken": "Freezing Drizzle And Snow Grains"
+            },
+            "FZDZSN": {
+              "text": "FZDZSN",
+              "spoken": "Freezing Drizzle And Snow"
             },
             "FZFG": {
               "text": "FZFG",
@@ -7038,6 +7312,18 @@
             "FZRADZ": {
               "text": "FZRADZ",
               "spoken": "Freezing Rain And Drizzle"
+            },
+            "FZRAPL": {
+              "text": "FZRAPL",
+              "spoken": "Freezing Rain And Ice Pellets"
+            },
+            "FZRASG": {
+              "text": "FZRASG",
+              "spoken": "Freezing Rain And Snow Grains"
+            },
+            "FZRASN": {
+              "text": "FZRASN",
+              "spoken": "Freezing Rain And Snow"
             },
             "FZUP": {
               "text": "FZUP",
@@ -7066,6 +7352,10 @@
             "MIFG": {
               "text": "MIFG",
               "spoken": "Shallow Fog"
+            },
+            "NSW": {
+              "text": "NSW",
+              "spoken": "No Significant Weather"
             },
             "PL": {
               "text": "PL",
@@ -7693,11 +7983,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "db0933ee-5479-47a8-be10-925308ef1ef7",
           "ordinal": 0,
           "name": "EAST VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 7.",
@@ -7707,7 +7997,6 @@
           }
         },
         {
-          "id": "6e680227-8e6c-4d8b-b5e2-b46a05011c13",
           "ordinal": 1,
           "name": "EAST GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 7.",
@@ -7717,7 +8006,6 @@
           }
         },
         {
-          "id": "9b4427c6-3f8f-426d-b80a-1f8b6437e023",
           "ordinal": 2,
           "name": "WEST VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 25.",
@@ -7727,7 +8015,6 @@
           }
         },
         {
-          "id": "6271c182-c862-4968-9122-0c6c36ccb5d8",
           "ordinal": 3,
           "name": "WEST GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 25.",

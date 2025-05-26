@@ -78,6 +78,12 @@
         "voice": "VISIBILITY {visibility}"
       }
     },
+    "runwayVisualRange": {
+      "neutralTendency": "Neutral",
+      "goingUpTendency": "Going Up",
+      "goingDownTendency": "Going Down",
+      "template": {}
+    },
     "presentWeather": {
       "presentWeatherTypes": {
         "-DS": {
@@ -132,9 +138,21 @@
           "text": "-FZDZ",
           "spoken": "Light Freezing Drizzle"
         },
+        "-FZDZPL": {
+          "text": "-FZDZPL",
+          "spoken": "Light Freezing Drizzle And Ice Pellets"
+        },
         "-FZDZRA": {
           "text": "-FZDZRA",
           "spoken": "Light Freezing Drizzle And Rain"
+        },
+        "-FZDZSG": {
+          "text": "-FZDZSG",
+          "spoken": "Light Freezing Drizzle And Snow Grains"
+        },
+        "-FZDZSN": {
+          "text": "-FZDZSN",
+          "spoken": "Light Freezing Drizzle And Snow"
         },
         "-FZRA": {
           "text": "-FZRA",
@@ -143,6 +161,18 @@
         "-FZRADZ": {
           "text": "-FZRADZ",
           "spoken": "Light Freezing Rain And Drizzle"
+        },
+        "-FZRAPL": {
+          "text": "-FZRAPL",
+          "spoken": "Light Freezing Rain And Ice Pellets"
+        },
+        "-FZRASG": {
+          "text": "-FZRASG",
+          "spoken": "Light Freezing Rain And Snow Grains"
+        },
+        "-FZRASN": {
+          "text": "-FZRASN",
+          "spoken": "Light Freezing Rain And Snow"
         },
         "-FZUP": {
           "text": "-FZUP",
@@ -628,9 +658,21 @@
           "text": "+FZDZ",
           "spoken": "Heavy Freezing Drizzle"
         },
+        "+FZDZPL": {
+          "text": "+FZDZPL",
+          "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+        },
         "+FZDZRA": {
           "text": "+FZDZRA",
           "spoken": "Heavy Freezing Drizzle And Rain"
+        },
+        "+FZDZSG": {
+          "text": "+FZDZSG",
+          "spoken": "Heavy Freezing Drizzle And Snow Grains"
+        },
+        "+FZDZSN": {
+          "text": "+FZDZSN",
+          "spoken": "Heavy Freezing Drizzle And Snow"
         },
         "+FZRA": {
           "text": "+FZRA",
@@ -639,6 +681,18 @@
         "+FZRADZ": {
           "text": "+FZRADZ",
           "spoken": "Heavy Freezing Rain And Drizzle"
+        },
+        "+FZRAPL": {
+          "text": "+FZRAPL",
+          "spoken": "Heavy Freezing Rain And Ice Pellets"
+        },
+        "+FZRASG": {
+          "text": "+FZRASG",
+          "spoken": "Heavy Freezing Rain And Snow Grains"
+        },
+        "+FZRASN": {
+          "text": "+FZRASN",
+          "spoken": "Heavy Freezing Rain And Snow"
         },
         "+FZUP": {
           "text": "+FZUP",
@@ -1184,9 +1238,21 @@
           "text": "FZDZ",
           "spoken": "Freezing Drizzle"
         },
+        "FZDZPL": {
+          "text": "FZDZPL",
+          "spoken": "Freezing Drizzle And Ice Pellets"
+        },
         "FZDZRA": {
           "text": "FZDZRA",
           "spoken": "Freezing Drizzle And Rain"
+        },
+        "FZDZSG": {
+          "text": "FZDZSG",
+          "spoken": "Freezing Drizzle And Snow Grains"
+        },
+        "FZDZSN": {
+          "text": "FZDZSN",
+          "spoken": "Freezing Drizzle And Snow"
         },
         "FZFG": {
           "text": "FZFG",
@@ -1199,6 +1265,18 @@
         "FZRADZ": {
           "text": "FZRADZ",
           "spoken": "Freezing Rain And Drizzle"
+        },
+        "FZRAPL": {
+          "text": "FZRAPL",
+          "spoken": "Freezing Rain And Ice Pellets"
+        },
+        "FZRASG": {
+          "text": "FZRASG",
+          "spoken": "Freezing Rain And Snow Grains"
+        },
+        "FZRASN": {
+          "text": "FZRASN",
+          "spoken": "Freezing Rain And Snow"
         },
         "FZUP": {
           "text": "FZUP",
@@ -1227,6 +1305,10 @@
         "MIFG": {
           "text": "MIFG",
           "spoken": "Shallow Fog"
+        },
+        "NSW": {
+          "text": "NSW",
+          "spoken": "No Significant Weather"
         },
         "PL": {
           "text": "PL",
@@ -1745,17 +1827,23 @@
       }
     },
     "clouds": {
-        "identifyCeilingLayer": true,
-        "convertToMetric": false,
-        "isAltitudeInHundreds": false,
-        "undeterminedLayerAltitude": {
-           "text": "undetermined",
-          "voice": "undetermined"
-        },
-        "automaticCbDetection": {
-          "text": "//////CB",
-          "voice": "RADAR DETECTED C-B CLOUDS"
-        },
+      "identifyCeilingLayer": true,
+      "identifyCeilingLayerTextAtis": false,
+      "textAtisCeilingPrefix": "CIG",
+      "cloudCeilingLayerTypes": [
+        "BKN",
+        "OVC"
+      ],
+      "convertToMetric": false,
+      "isAltitudeInHundreds": false,
+      "undeterminedLayerAltitude": {
+        "text": "undetermined",
+        "voice": "undetermined"
+      },
+      "automaticCbDetection": {
+        "text": "//////CB",
+        "voice": "RADAR DETECTED C-B CLOUDS"
+      },
       "types": {
         "FEW": {
           "text": "FEW{altitude}",
@@ -1826,6 +1914,22 @@
         "voice": "ALTIMETER {altimeter}"
       }
     },
+    "trend": {
+      "nosigText": "NOSIG",
+      "nosigVoice": "No Significant Changes",
+      "becomingText": "BECMG",
+      "becomingVoice": "Becoming",
+      "temporaryText": "TEMPO",
+      "temporaryVoice": "Temporary",
+      "template": {}
+    },
+    "windShear": {
+      "runwayText": "WS R{Runway}",
+      "runwayVoice": "Wind Shear Runway {Runway}",
+      "allRunwayText": "WS ALL RWY",
+      "allRunwayVoice": "Wind Shear All Runways",
+      "template": {}
+    },
     "transitionLevel": {
       "values": [],
       "template": {
@@ -1854,12 +1958,12 @@
   "useDecimalTerminology": false,
   "atisVoice": {
     "useTextToSpeech": true,
-    "voice": "Default"
+    "voice": "Default",
+    "speechRate": 180
   },
   "presets": [
     {
-      "id": "9d82d526-e34f-4ec6-b29a-894cd032ee20",
-      "ordinal": 0,
+      "ordinal": 1,
       "name": "SOUTH VIS",
       "airportConditions": "CHARTED VISUAL APPROACH RWYS ^16R AND ^16L , APCH IN USE. DEPG RWYS ^16L AND ^16C, SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
       "notams": "",
@@ -1869,19 +1973,7 @@
       }
     },
     {
-      "id": "9cf9a0e1-3449-4939-b856-1f8bc527c3d8",
       "ordinal": 1,
-      "name": "SOUTH ILS",
-      "airportConditions": "ILS RWYS ^16R AND ^16L , APCH IN USE. DEPTG RWYS ^16L AND ^16C. SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
-      "notams": "",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "76f73f1a-36f2-4daf-8368-beaa37fa1e09",
-      "ordinal": 2,
       "name": "NORTH VIS",
       "airportConditions": "CHARTED VISUAL APPROACH RWYS ^34L AND ^34R, APCH IN USE. DEPG RWYS ^34R AND ^34C.",
       "notams": "",
@@ -1891,8 +1983,17 @@
       }
     },
     {
-      "id": "6ea0c9e7-5c8f-491a-b01f-c57f92212d20",
       "ordinal": 3,
+      "name": "SOUTH ILS",
+      "airportConditions": "ILS RWYS ^16R AND ^16L , APCH IN USE. DEPTG RWYS ^16L AND ^16C. SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
+      "notams": "",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+      "externalGenerator": {
+        "enabled": false
+      }
+    },
+    {
+      "ordinal": 4,
       "name": "NORTH ILS",
       "airportConditions": "ILS RWYS ^34L AND ^34R , APCH IN USE. DEPTG RWYS ^34R AND ^34C.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
@@ -1901,28 +2002,7 @@
       }
     },
     {
-      "id": "f8eb4bbb-3af7-4dbf-b223-a4899d22e885",
-      "ordinal": 4,
-      "name": "16L Only",
-      "airportConditions": "CHARTED VISUAL APPROACH OR ILS RWY 16L , APCH IN USE. DEPG RWY 16L, SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "7cff48af-e9ba-4e02-9fbc-2e81f10e9269",
       "ordinal": 5,
-      "name": "34R Only",
-      "airportConditions": "CHARTED VISUAL APPROACH OR ILS RWY 34R , APCH IN USE. DEPG RWY 34R.",
-      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
-      "externalGenerator": {
-        "enabled": false
-      }
-    },
-    {
-      "id": "7d690466-05bf-4446-9671-00aef3046c65",
-      "ordinal": 6,
       "name": "SOUTH LOW VIS",
       "airportConditions": "ILS RWYS ^16R AND ^16L , APCH IN USE. DEPTG RWY 16L. SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
       "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS.",
@@ -1932,11 +2012,28 @@
       }
     },
     {
-      "id": "89bf9f58-fecc-4fab-8f59-37526f921562",
-      "ordinal": 7,
+      "ordinal": 6,
       "name": "NORTH LOW VIS",
       "airportConditions": "ILS RWYS ^34L AND ^34R , APCH IN USE. DEPTG RWY 34R",
       "notams": "LOW VISIBILITY PROCS IN EFCT. DO NOT ENTER ILS CRITCAL AREAS.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+      "externalGenerator": {
+        "enabled": false
+      }
+    },
+    {
+      "ordinal": 7,
+      "name": "16L Only",
+      "airportConditions": "CHARTED VISUAL OR ILS RWY 16L , APCH IN USE. DEPG RWY 16L, SIMUL APCHS IN USE TO SEA AND BFI. TFC BELOW YOU ON FINAL.",
+      "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+      "externalGenerator": {
+        "enabled": false
+      }
+    },
+    {
+      "ordinal": 8,
+      "name": "34R Only",
+      "airportConditions": "CHARTED VISUAL OR ILS RWY 34R , APCH IN USE. DEPG RWY 34R.",
       "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
       "externalGenerator": {
         "enabled": false
@@ -1967,34 +2064,34 @@
   ],
   "airportConditionDefinitions": [
     {
-      "text": "DEPG ACFT PLAN AND BRIEF NUMBERS FOR BOTH RWYS ^16L AND ^16C",
+      "text": "DEPG ACFT PLAN AND BRIEF NUMBERS FOR BOTH RWYS ^16L AND ^16C.",
       "ordinal": 1,
       "enabled": false
     },
     {
-      "text": "DEPG ACFT PLAN AND BRIEF NUMBERS FOR BOTH RWYS ^34R AND ^34C",
+      "text": "DEPG ACFT PLAN AND BRIEF NUMBERS FOR BOTH RWYS ^34R AND ^34C.",
       "ordinal": 2,
       "enabled": false
     },
     {
-      "text": "RNAV APCHS AVBL ON RQST",
+      "text": "RNAV APCHS AVBL ON RQST.",
       "ordinal": 3,
       "enabled": false
     }
   ],
   "notamDefinitions": [
     {
-      "text": "ARRS ADVS IF YOU HAVE 2 RWY SCENERY",
+      "text": "ALL ACFT CALL FOR PUSH AND START.",
       "ordinal": 1,
       "enabled": true
     },
     {
-      "text": "CTC RAMP CONTROL PRIOR TO PUSH AND START",
+      "text": "CTC RAMP CONTROL PRIOR TO PUSH AND START.",
       "ordinal": 2,
       "enabled": false
     },
     {
-      "text": "FLOW RESTRICTIONS IN EFCT FOR SFO",
+      "text": "FLOW RESTRICTIONS IN EFCT FOR SFO.",
       "ordinal": 3,
       "enabled": false
     }

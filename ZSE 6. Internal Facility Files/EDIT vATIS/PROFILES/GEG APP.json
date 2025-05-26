@@ -1,11 +1,10 @@
 {
   "name": "GEG APP",
-  "id": "57dac8e3-4549-4044-92f1-086a2e1aff3f",
   "updateUrl": "https://zseartcc.org/downloads/file/162",
-  "updateSerial": 2025022003,
+  "updateSerial": 2025052604,
   "stations": [
     {
-      "id": "69e85921-9966-4dbe-9ff9-9d292648f5c3",
+      "ordinal": 0,
       "identifier": "KGEG",
       "name": "Spokane INTL",
       "atisType": "Combined",
@@ -85,6 +84,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -1753,6 +1758,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1833,6 +1844,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1861,11 +1888,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "4b6d3ebc-bb18-4518-bd7a-2e039951a459",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 21.",
@@ -1875,7 +1902,6 @@
           }
         },
         {
-          "id": "8fe08bed-c4b4-4cda-81d7-270abf2f98a5",
           "ordinal": 1,
           "name": "SOUTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 21.",
@@ -1885,7 +1911,6 @@
           }
         },
         {
-          "id": "55487842-a465-4287-b18f-e6fc867151cd",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 3.",
@@ -1895,7 +1920,6 @@
           }
         },
         {
-          "id": "ee3a1d50-c456-4d70-b731-0badb5ebb701",
           "ordinal": 3,
           "name": "NORTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 3.",
@@ -1905,7 +1929,6 @@
           }
         },
         {
-          "id": "b1906dd2-7853-4309-809c-f7674afa557d",
           "ordinal": 4,
           "name": "3/8 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^3 AND ^8.",
@@ -1915,7 +1938,6 @@
           }
         },
         {
-          "id": "5b4f08f7-2112-474a-b3e0-7f5c3536e841",
           "ordinal": 5,
           "name": "3/8 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^3 AND ^8.",
@@ -1925,7 +1947,6 @@
           }
         },
         {
-          "id": "4b0ffc66-0c61-425c-9512-005e439b3993",
           "ordinal": 6,
           "name": "3/26 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^3 AND ^26.",
@@ -1935,7 +1956,6 @@
           }
         },
         {
-          "id": "d2a8e86b-dbc8-4018-a5ac-999fe8723037",
           "ordinal": 7,
           "name": "3/26 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^3 AND ^26.",
@@ -1945,7 +1965,6 @@
           }
         },
         {
-          "id": "b88e30d9-dbca-449f-a0fe-695b7a1f42ed",
           "ordinal": 8,
           "name": "21/26 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^21 AND ^26.",
@@ -1955,7 +1974,6 @@
           }
         },
         {
-          "id": "194e9a26-a129-4589-a798-46df723c2b0b",
           "ordinal": 9,
           "name": "21/26 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^21 AND ^26.",
@@ -1965,7 +1983,6 @@
           }
         },
         {
-          "id": "330e4e8e-894b-4bca-bcea-2bbdab84c38b",
           "ordinal": 10,
           "name": "8/21 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^21 AND ^8.",
@@ -1975,7 +1992,6 @@
           }
         },
         {
-          "id": "24dd75f5-a37f-4d14-8b69-dcf951fb3c5d",
           "ordinal": 11,
           "name": "8/21 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^21 AND ^8.",
@@ -2007,7 +2023,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "f557e985-c8c1-4afd-8347-e41c5950df43",
+      "ordinal": 0,
       "identifier": "KSFF",
       "name": "Felts FLD",
       "atisType": "Combined",
@@ -2087,6 +2103,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -3755,6 +3777,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -3835,6 +3863,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -3863,11 +3907,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "3d11e67c-8c3f-439b-975a-6fb91a3792b0",
           "ordinal": 0,
           "name": "22 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^22R AND ^22L.",
@@ -3877,7 +3921,6 @@
           }
         },
         {
-          "id": "e1ff1fb7-7c5c-4f51-9a88-2a4dd5045c4e",
           "ordinal": 1,
           "name": "22 ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^22R AND ^22L.",
@@ -3887,7 +3930,6 @@
           }
         },
         {
-          "id": "e2745a4c-0267-4638-b8cb-e8b954453b32",
           "ordinal": 2,
           "name": "4 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^4L AND ^4R.",
@@ -3897,7 +3939,6 @@
           }
         },
         {
-          "id": "5e15d6ec-6aa7-4128-9ebe-53e4513c01ef",
           "ordinal": 3,
           "name": "4 GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^4L AND ^4R.",
@@ -3923,7 +3964,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "9278fcb9-35a1-415a-aa90-784918aecd1a",
+      "ordinal": 0,
       "identifier": "KYKM",
       "name": "Yakima Air TRML",
       "atisType": "Combined",
@@ -4003,6 +4044,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -5671,6 +5718,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -5751,6 +5804,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -5779,11 +5848,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "0c2c92d8-8de5-4644-857d-b67a18996faf",
           "ordinal": 0,
           "name": "9 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 9.",
@@ -5793,7 +5862,6 @@
           }
         },
         {
-          "id": "e9671a1a-448a-4e3e-80dd-7166406dd137",
           "ordinal": 1,
           "name": "9 GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 9.",
@@ -5803,7 +5871,6 @@
           }
         },
         {
-          "id": "65a1ddb3-fe66-4923-be83-7d503a9c5c6e",
           "ordinal": 2,
           "name": "27 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 27.",
@@ -5813,7 +5880,6 @@
           }
         },
         {
-          "id": "909e9572-fbce-46f0-a7cc-0ce59ebb69cf",
           "ordinal": 3,
           "name": "27 ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 27.",
@@ -5823,7 +5889,6 @@
           }
         },
         {
-          "id": "9e4c41ff-5e25-44d9-b06a-5a91bb7b7cce",
           "ordinal": 4,
           "name": "9/22 VMC",
           "airportConditions": "VIS APCH RWY 9 IN USE. DEPTG RWYS ^9 AND ^22.",
@@ -5833,7 +5898,6 @@
           }
         },
         {
-          "id": "1abe12dd-eb6c-40ec-a11d-17d1a512bc3e",
           "ordinal": 5,
           "name": "9/22 IMC",
           "airportConditions": "GPS APCH RWY 9 IN USE. DEPTG RWYS ^9 AND ^22.",
@@ -5843,7 +5907,6 @@
           }
         },
         {
-          "id": "f854004d-2349-4486-a394-fafb73ee02cc",
           "ordinal": 6,
           "name": "9/4 VMC",
           "airportConditions": "VIS APCH RWY 9 IN USE. LDG AND DEPTG RWYS ^9 AND ^4.",
@@ -5853,7 +5916,6 @@
           }
         },
         {
-          "id": "ce357d19-9c07-4f77-9114-b14006e11eac",
           "ordinal": 7,
           "name": "9/4 IMC",
           "airportConditions": "GPS APCH RWY 9 IN USE. LDG AND DEPTG RWYS ^9 AND ^4.",
@@ -5863,7 +5925,6 @@
           }
         },
         {
-          "id": "434cb686-f1e4-4d63-b11a-2fde58fb49fb",
           "ordinal": 8,
           "name": "27/4 VMC",
           "airportConditions": "VIS APCH RWY 27 IN USE. LDG AND DEPTG RWYS ^27 AND ^4.",
@@ -5873,7 +5934,6 @@
           }
         },
         {
-          "id": "22a81107-0070-41f5-8473-5286f8c0031d",
           "ordinal": 9,
           "name": "27/4 IMC",
           "airportConditions": "ILS APCH RWY 27 IN USE. LDG AND DEPTG RWYS ^27 AND ^4.",
@@ -5883,7 +5943,6 @@
           }
         },
         {
-          "id": "dfced057-9e7c-4df3-86f7-84272061e9e8",
           "ordinal": 10,
           "name": "27/22 VMC",
           "airportConditions": "VIS APCH RWY 27 IN USE. DEPTG RWYS ^27 AND ^22.",
@@ -5893,7 +5952,6 @@
           }
         },
         {
-          "id": "9582ac11-8116-4cb6-85d9-5cc53db1509e",
           "ordinal": 11,
           "name": "27/22 IMC",
           "airportConditions": "ILS APCH IN USE RWY 27. DEPTG RWYS ^27 AND ^22.",
@@ -5924,7 +5982,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "e9612329-f17b-4fd0-8e56-4c10a5657262",
+      "ordinal": 0,
       "identifier": "KPSC",
       "name": "Tri-Cites",
       "atisType": "Combined",
@@ -6004,6 +6062,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -7672,6 +7736,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -7752,6 +7822,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -7780,11 +7866,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "7b1b2858-17b0-4338-8317-c43ab71eb781",
           "ordinal": 0,
           "name": "21 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^21R AND ^21L.",
@@ -7794,7 +7880,6 @@
           }
         },
         {
-          "id": "86379c31-173c-450d-8d55-79f7437d1f1d",
           "ordinal": 1,
           "name": "21 ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^21R AND ^21L.",
@@ -7804,7 +7889,6 @@
           }
         },
         {
-          "id": "509b1865-c4ec-4bd0-9dba-3882ceaaba36",
           "ordinal": 2,
           "name": "3 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^3L AND ^3R.",
@@ -7814,7 +7898,6 @@
           }
         },
         {
-          "id": "8edd6d53-7583-4ac8-84b6-1179689484fc",
           "ordinal": 3,
           "name": "3 GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^3L AND ^3R.",
@@ -7824,7 +7907,6 @@
           }
         },
         {
-          "id": "dc40ce95-0b89-4020-a33e-7be7bed23203",
           "ordinal": 4,
           "name": "12 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 12.",
@@ -7834,7 +7916,6 @@
           }
         },
         {
-          "id": "589e0490-3f69-4af9-b1d0-832189dceda1",
           "ordinal": 5,
           "name": "12 GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 12.",
@@ -7844,7 +7925,6 @@
           }
         },
         {
-          "id": "9a176a6d-5d7d-480c-9f4a-91be8541cb33",
           "ordinal": 6,
           "name": "30 VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 30.",
@@ -7854,7 +7934,6 @@
           }
         },
         {
-          "id": "1e6d9a75-f478-4a6b-8620-8ff83375429e",
           "ordinal": 7,
           "name": "30 GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 30.",
@@ -7864,7 +7943,6 @@
           }
         },
         {
-          "id": "cc03b76c-6e21-44c1-baf9-f69b63c05443",
           "ordinal": 8,
           "name": "30/21 VMC",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^30 , ^21R AND ^21L.",
@@ -7874,7 +7952,6 @@
           }
         },
         {
-          "id": "a82e6466-4015-4be9-9fce-2d06eea095bf",
           "ordinal": 9,
           "name": "30/21 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^30 , ^21R AND ^21L.",
@@ -7884,7 +7961,6 @@
           }
         },
         {
-          "id": "af4281d0-aedb-47a5-a596-0b0760f07f54",
           "ordinal": 10,
           "name": "3/30 VMC",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^30 , ^3L AND ^3R.",
@@ -7894,7 +7970,6 @@
           }
         },
         {
-          "id": "3f03f32f-6d26-4694-af20-8fe2c425b7b7",
           "ordinal": 11,
           "name": "3/30 IMC",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^30 , ^3L AND ^3R.",
@@ -7904,7 +7979,6 @@
           }
         },
         {
-          "id": "79bd3b13-3ef7-46b2-997b-2306ff85cb7b",
           "ordinal": 12,
           "name": "12/3 VMC",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^12 , ^3L AND ^3R.",
@@ -7914,7 +7988,6 @@
           }
         },
         {
-          "id": "4fc63c4b-f44c-45ae-854c-a554e580ae71",
           "ordinal": 13,
           "name": "12/3 IMC",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^12 , ^3L AND ^3R.",
@@ -7924,7 +7997,6 @@
           }
         },
         {
-          "id": "e3c51bab-29bf-47bc-98c8-71e97ea44be1",
           "ordinal": 14,
           "name": "21/12 VMC",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^12 , ^21R AND ^21L.",
@@ -7934,7 +8006,6 @@
           }
         },
         {
-          "id": "14bf6e53-f898-4113-afb4-4b4473b6bf7b",
           "ordinal": 15,
           "name": "12/21 IMC",
           "airportConditions": "ILS AND GPS APCH IN USE. LDG AND DEPTG RWYS ^12 , ^21R AND ^21L.",
@@ -7964,5 +8035,6 @@
       ],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }

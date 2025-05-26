@@ -78,6 +78,12 @@
         "voice": "VISIBILITY {visibility}"
       }
     },
+    "runwayVisualRange": {
+      "neutralTendency": "Neutral",
+      "goingUpTendency": "Going Up",
+      "goingDownTendency": "Going Down",
+      "template": {}
+    },
     "presentWeather": {
       "presentWeatherTypes": {
         "-DS": {
@@ -132,9 +138,21 @@
           "text": "-FZDZ",
           "spoken": "Light Freezing Drizzle"
         },
+        "-FZDZPL": {
+          "text": "-FZDZPL",
+          "spoken": "Light Freezing Drizzle And Ice Pellets"
+        },
         "-FZDZRA": {
           "text": "-FZDZRA",
           "spoken": "Light Freezing Drizzle And Rain"
+        },
+        "-FZDZSG": {
+          "text": "-FZDZSG",
+          "spoken": "Light Freezing Drizzle And Snow Grains"
+        },
+        "-FZDZSN": {
+          "text": "-FZDZSN",
+          "spoken": "Light Freezing Drizzle And Snow"
         },
         "-FZRA": {
           "text": "-FZRA",
@@ -143,6 +161,18 @@
         "-FZRADZ": {
           "text": "-FZRADZ",
           "spoken": "Light Freezing Rain And Drizzle"
+        },
+        "-FZRAPL": {
+          "text": "-FZRAPL",
+          "spoken": "Light Freezing Rain And Ice Pellets"
+        },
+        "-FZRASG": {
+          "text": "-FZRASG",
+          "spoken": "Light Freezing Rain And Snow Grains"
+        },
+        "-FZRASN": {
+          "text": "-FZRASN",
+          "spoken": "Light Freezing Rain And Snow"
         },
         "-FZUP": {
           "text": "-FZUP",
@@ -628,9 +658,21 @@
           "text": "+FZDZ",
           "spoken": "Heavy Freezing Drizzle"
         },
+        "+FZDZPL": {
+          "text": "+FZDZPL",
+          "spoken": "Heavy Freezing Drizzle And Ice Pellets"
+        },
         "+FZDZRA": {
           "text": "+FZDZRA",
           "spoken": "Heavy Freezing Drizzle And Rain"
+        },
+        "+FZDZSG": {
+          "text": "+FZDZSG",
+          "spoken": "Heavy Freezing Drizzle And Snow Grains"
+        },
+        "+FZDZSN": {
+          "text": "+FZDZSN",
+          "spoken": "Heavy Freezing Drizzle And Snow"
         },
         "+FZRA": {
           "text": "+FZRA",
@@ -639,6 +681,18 @@
         "+FZRADZ": {
           "text": "+FZRADZ",
           "spoken": "Heavy Freezing Rain And Drizzle"
+        },
+        "+FZRAPL": {
+          "text": "+FZRAPL",
+          "spoken": "Heavy Freezing Rain And Ice Pellets"
+        },
+        "+FZRASG": {
+          "text": "+FZRASG",
+          "spoken": "Heavy Freezing Rain And Snow Grains"
+        },
+        "+FZRASN": {
+          "text": "+FZRASN",
+          "spoken": "Heavy Freezing Rain And Snow"
         },
         "+FZUP": {
           "text": "+FZUP",
@@ -1184,9 +1238,21 @@
           "text": "FZDZ",
           "spoken": "Freezing Drizzle"
         },
+        "FZDZPL": {
+          "text": "FZDZPL",
+          "spoken": "Freezing Drizzle And Ice Pellets"
+        },
         "FZDZRA": {
           "text": "FZDZRA",
           "spoken": "Freezing Drizzle And Rain"
+        },
+        "FZDZSG": {
+          "text": "FZDZSG",
+          "spoken": "Freezing Drizzle And Snow Grains"
+        },
+        "FZDZSN": {
+          "text": "FZDZSN",
+          "spoken": "Freezing Drizzle And Snow"
         },
         "FZFG": {
           "text": "FZFG",
@@ -1199,6 +1265,18 @@
         "FZRADZ": {
           "text": "FZRADZ",
           "spoken": "Freezing Rain And Drizzle"
+        },
+        "FZRAPL": {
+          "text": "FZRAPL",
+          "spoken": "Freezing Rain And Ice Pellets"
+        },
+        "FZRASG": {
+          "text": "FZRASG",
+          "spoken": "Freezing Rain And Snow Grains"
+        },
+        "FZRASN": {
+          "text": "FZRASN",
+          "spoken": "Freezing Rain And Snow"
         },
         "FZUP": {
           "text": "FZUP",
@@ -1227,6 +1305,10 @@
         "MIFG": {
           "text": "MIFG",
           "spoken": "Shallow Fog"
+        },
+        "NSW": {
+          "text": "NSW",
+          "spoken": "No Significant Weather"
         },
         "PL": {
           "text": "PL",
@@ -1745,17 +1827,23 @@
       }
     },
     "clouds": {
-        "identifyCeilingLayer": true,
-        "convertToMetric": false,
-        "isAltitudeInHundreds": false,
-        "undeterminedLayerAltitude": {
-           "text": "undetermined",
-          "voice": "undetermined"
-        },
-        "automaticCbDetection": {
-          "text": "//////CB",
-          "voice": "RADAR DETECTED C-B CLOUDS"
-        },
+      "identifyCeilingLayer": true,
+      "identifyCeilingLayerTextAtis": false,
+      "textAtisCeilingPrefix": "CIG",
+      "cloudCeilingLayerTypes": [
+        "BKN",
+        "OVC"
+      ],
+      "convertToMetric": false,
+      "isAltitudeInHundreds": false,
+      "undeterminedLayerAltitude": {
+        "text": "undetermined",
+        "voice": "undetermined"
+      },
+      "automaticCbDetection": {
+        "text": "//////CB",
+        "voice": "RADAR DETECTED C-B CLOUDS"
+      },
       "types": {
         "FEW": {
           "text": "FEW{altitude}",
@@ -1826,6 +1914,22 @@
         "voice": "ALTIMETER {altimeter}"
       }
     },
+    "trend": {
+      "nosigText": "NOSIG",
+      "nosigVoice": "No Significant Changes",
+      "becomingText": "BECMG",
+      "becomingVoice": "Becoming",
+      "temporaryText": "TEMPO",
+      "temporaryVoice": "Temporary",
+      "template": {}
+    },
+    "windShear": {
+      "runwayText": "WS R{Runway}",
+      "runwayVoice": "Wind Shear Runway {Runway}",
+      "allRunwayText": "WS ALL RWY",
+      "allRunwayVoice": "Wind Shear All Runways",
+      "template": {}
+    },
     "transitionLevel": {
       "values": [],
       "template": {
@@ -1854,11 +1958,11 @@
   "useDecimalTerminology": false,
   "atisVoice": {
     "useTextToSpeech": true,
-    "voice": "Default"
+    "voice": "Default",
+    "speechRate": 180
   },
   "presets": [
     {
-      "id": "9f7eee73-e1f7-415b-8547-7ac122f41661",
       "ordinal": 0,
       "name": "EAST VIS (DAY)",
       "airportConditions": "SIMUL VIS APCH IN USE RWYS ^10L AND ^10R. JET ACFT EXPT THE COLUMBIA VIS APCH. DEPTG RWYS ^10L AND ^10R.",
@@ -1868,7 +1972,6 @@
       }
     },
     {
-      "id": "eb4a6908-e10d-4ad7-bd87-6e6ed31936f7",
       "ordinal": 1,
       "name": "EAST VIS (NIGHT)",
       "airportConditions": "VISUAL, RWY 10L, SIMUL, VISUAL, RWY 10R , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1878,7 +1981,6 @@
       }
     },
     {
-      "id": "81af4b8a-a6cd-495d-84cb-223298cf9eca",
       "ordinal": 2,
       "name": "EAST ILS",
       "airportConditions": "ILS RWYS ^10R AND ^10L , APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1888,7 +1990,6 @@
       }
     },
     {
-      "id": "c007d530-3f0e-4348-9857-dcc87f6b7dd1",
       "ordinal": 3,
       "name": "EAST LOW VIS",
       "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 10R APCH IN USE. DEPTG RWYS ^10L AND ^10R.",
@@ -1899,7 +2000,6 @@
       }
     },
     {
-      "id": "698b61b0-f9ac-4208-9b7b-921bbe81e7e2",
       "ordinal": 4,
       "name": "WEST VIS (DAY)",
       "airportConditions": "SIMUL VIS APCH IN USE RWYS ^28L AND ^28R. JET ACFT EXPT THE MILL VIS APCH. DEPTG RWYS ^28L AND ^28R.",
@@ -1909,7 +2009,6 @@
       }
     },
     {
-      "id": "c1694681-90c1-4c75-add9-28ba8585fa57",
       "ordinal": 5,
       "name": "WEST VIS (NIGHT)",
       "airportConditions": "VISUAL, RWY 28L, SIMUL, VISUAL, RWY 28R , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1919,7 +2018,6 @@
       }
     },
     {
-      "id": "8ccd5c05-8f85-418d-bd0e-4d49a94708aa",
       "ordinal": 6,
       "name": "WEST ILS",
       "airportConditions": "ILS RWYS ^28R AND ^28L , APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1929,7 +2027,6 @@
       }
     },
     {
-      "id": "edc8b3e6-2e2d-46fd-8d0d-800c0ce99a24",
       "ordinal": 7,
       "name": "WEST LOW VIS",
       "airportConditions": "LOW VISIBILITY OPS IN EFCT. ILS RWY 28L APCH IN USE. DEPTG RWYS ^28L AND ^28R.",
@@ -1969,20 +2066,20 @@
   ],
   "airportConditionDefinitions": [
     {
-      "text": "RNAV APCH AVBL ON RQST",
+      "text": "RNAV APCH AVBL ON RQST.",
       "ordinal": 1,
       "enabled": false
     },
     {
-      "text": "VFR ACFT SAY DRCTN OF FLT",
+      "text": "VFR ACFT SAY DRCTN OF FLT.",
       "ordinal": 2,
       "enabled": false
     }
   ],
   "notamDefinitions": [
     {
-      "text": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC",
-      "ordinal": 0,
+      "text": "PUSHBACK ONTO TWYS T AND K REQS ATC CLNC.",
+      "ordinal": 1,
       "enabled": true
     },
     {
@@ -1991,12 +2088,12 @@
       "enabled": false
     },
     {
-      "text": "GATE HOLD PROCS ARE IN EFCT FOR ALL ACFT. ALL ACFT CTC GND ON 121.9 PRIOR TO PUSH AND START",
+      "text": "GATE HOLD PROCS ARE IN EFCT FOR ALL ACFT. ALL ACFT CTC GND ON 121.9 PRIOR TO PUSH AND START.",
       "ordinal": 3,
       "enabled": false
     },
     {
-      "text": "FLOW RESTRICTIONS IN EFCT FOR SFO",
+      "text": "FLOW RESTRICTIONS IN EFCT FOR SFO.",
       "ordinal": 4,
       "enabled": false
     }

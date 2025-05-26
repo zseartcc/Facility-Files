@@ -1,11 +1,10 @@
 {
   "name": "EUG APP",
-  "id": "7c2eb1cf-3088-4686-92a4-8d588ec94fcb",
   "updateUrl": "https://zseartcc.org/downloads/file/163",
-  "updateSerial": 2025022003,
+  "updateSerial": 2025052604,
   "stations": [
     {
-      "id": "6c0532cb-3c46-486d-8189-22cd190b40fb",
+      "ordinal": 0,
       "identifier": "KEUG",
       "name": "Mahlon Sweet FLD",
       "atisType": "Combined",
@@ -81,6 +80,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1750,6 +1755,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1830,6 +1841,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1858,11 +1885,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "fadc63e7-a95f-4cc9-a19a-abeaafbcde55",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^16L AND ^16R.",
@@ -1872,7 +1899,6 @@
           }
         },
         {
-          "id": "23fbcad8-c831-4133-aa18-115fc0ea5129",
           "ordinal": 1,
           "name": "SOUTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^16L AND ^16R.",
@@ -1882,7 +1908,6 @@
           }
         },
         {
-          "id": "3e2361d4-3c7f-4ced-8539-973c2f29c92e",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^34L AND ^34R.",
@@ -1892,7 +1917,6 @@
           }
         },
         {
-          "id": "c8491f01-d5fa-4e81-9711-ba5bb41b2f0d",
           "ordinal": 3,
           "name": "NORTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^34L AND ^34R.",
@@ -1918,7 +1942,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "479976e6-580a-4cbd-87e6-26b848f56fc8",
+      "ordinal": 0,
       "identifier": "KMFR",
       "name": "Rogue Valley INTL",
       "atisType": "Combined",
@@ -1998,6 +2022,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -3666,6 +3696,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -3746,6 +3782,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -3774,11 +3826,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "8474b399-7b68-44db-88f7-e743904d32ae",
           "ordinal": 0,
           "name": "L14/D32 (ODO)",
           "airportConditions": "EXPC ILS, RNAV, OR VISUAL APPCH RWY 14. DEPTG RWY 32.",
@@ -3788,7 +3840,6 @@
           }
         },
         {
-          "id": "c270d6ab-e33a-48f7-b478-e10ac447e529",
           "ordinal": 1,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 14.",
@@ -3798,7 +3849,6 @@
           }
         },
         {
-          "id": "0d55b345-4910-4024-b1a6-e91bd97079e2",
           "ordinal": 2,
           "name": "SOUTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 14.",
@@ -3808,7 +3858,6 @@
           }
         },
         {
-          "id": "659e5030-3aad-4488-bb3e-2bb1c3600fad",
           "ordinal": 3,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 32.",
@@ -3818,7 +3867,6 @@
           }
         },
         {
-          "id": "b3905bfb-2dc4-4914-95ef-6c2c7c20959d",
           "ordinal": 4,
           "name": "NORTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWY 32.",
@@ -3843,5 +3891,6 @@
       ],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }

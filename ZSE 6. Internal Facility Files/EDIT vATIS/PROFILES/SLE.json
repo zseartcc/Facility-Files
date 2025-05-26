@@ -1,11 +1,10 @@
 {
   "name": "SLE",
-  "id": "a4b91cac-0bbb-4925-a6db-018f0c81ebcc",
   "updateUrl": "https://zseartcc.org/downloads/file/171",
-  "updateSerial": 2025022003,
+  "updateSerial": 2025052604,
   "stations": [
     {
-      "id": "e3cdd235-0b03-4d9a-8f92-92d742bd8016",
+      "ordinal": 0,
       "identifier": "KSLE",
       "name": "Mcnary FLD",
       "atisType": "Combined",
@@ -84,6 +83,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1753,6 +1758,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1833,6 +1844,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1861,11 +1888,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "d0493c74-72b2-4689-b441-428fc63599a6",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^13 AND ^16.",
@@ -1875,7 +1902,6 @@
           }
         },
         {
-          "id": "fc8ba348-8169-40dd-900b-f6cb98230df6",
           "ordinal": 1,
           "name": "SOUTH GPS",
           "airportConditions": "GPS RWY 13 , APCH IN USE. DEPTG RWYS ^13 AND ^16.",
@@ -1885,7 +1911,6 @@
           }
         },
         {
-          "id": "8ba688cb-2e46-43fe-bb97-261c87fda32e",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^31 AND ^34.",
@@ -1895,7 +1920,6 @@
           }
         },
         {
-          "id": "3a4d95cd-3a9b-4bb0-a8ca-d8fd6134656d",
           "ordinal": 3,
           "name": "NORTH ILS",
           "airportConditions": "ILS RWY 31 , APCH IN USE. DEPTG RWYS ^31 AND ^34.",
@@ -1925,5 +1949,6 @@
       ],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }

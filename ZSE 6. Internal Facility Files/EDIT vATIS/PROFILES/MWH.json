@@ -1,11 +1,10 @@
 {
   "name": "MWH",
-  "id": "cf40f6f0-1ec4-452d-951f-8298fea758ac",
   "updateUrl": "https://zseartcc.org/downloads/file/165",
-  "updateSerial": 2025022003,
+  "updateSerial": 2025052604,
   "stations": [
     {
-      "id": "475e3b37-2fdd-4acd-8070-0d0d859990f7",
+      "ordinal": 0,
       "identifier": "KMWH",
       "name": "Grant County INTL",
       "atisType": "Combined",
@@ -84,6 +83,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1753,6 +1758,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1833,6 +1844,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1861,11 +1888,11 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
-        "voice": "Default"
+        "voice": "Default",
+        "speechRate": 180
       },
       "presets": [
         {
-          "id": "b4de147a-ecb4-438f-891d-8a1aeff17649",
           "ordinal": 0,
           "name": "SOUTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS ^14L, ^14R, ^18, AND ^22.",
@@ -1875,7 +1902,6 @@
           }
         },
         {
-          "id": "9760cfcb-9553-4dbc-9fbf-75d9f7b81fab",
           "ordinal": 1,
           "name": "SOUTH GPS",
           "airportConditions": "GPS APCH IN USE. LDG AND DEPTG RWYS ^14L, ^14R, ^18, AND ^22.",
@@ -1885,7 +1911,6 @@
           }
         },
         {
-          "id": "52b399f2-90e5-4f4e-b4d8-b6d49e9f830f",
           "ordinal": 2,
           "name": "NORTH VIS",
           "airportConditions": "VIS APCH IN USE. LDG DEPTG RWYS ^32R, ^32L, ^36, and ^4.",
@@ -1895,7 +1920,6 @@
           }
         },
         {
-          "id": "31107f73-e8ce-4ebc-aa90-6a9b5fcafa1b",
           "ordinal": 3,
           "name": "NORTH ILS",
           "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWYS ^32R, ^32L, ^36, AND ^4.",
@@ -1935,5 +1959,6 @@
       ],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }

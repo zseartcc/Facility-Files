@@ -200,7 +200,7 @@
 .LMTSOP .OPENURL https://zseartcc.org/documents/view/282
 .MWHSOP .OPENURL https://zseartcc.org/documents/view/291
 .P80SOP .OPENURL https://zseartcc.org/documents/view/295
-.PDXSOP .OPENURL https://zseartcc.org/documents/view/187
+.PDXSOP .OPENURL https://zseartcc.org/documents/view/294
 .S46SOP .OPENURL https://zseartcc.org/documents/view/274
 .SEASOP .OPENURL https://zseartcc.org/documents/view/272
 .ZSESOP .OPENURL https://zseartcc.org/documents/view/206
@@ -230,8 +230,9 @@
 .GOOGLE .openurl https://www.google.com/search?q=$1%20$2%20$3%20$4%20$5%20$6%20$7%20$8%20$9
 .EQUIP .openurl https://flightaware.com/about/faq_aircraft_flight_plan_suffix.rvt
 .65W .openurl https://www.faa.gov/air_traffic/publications/atpubs/atc_html/
-.65P .openurl https://www.faa.gov/documentLibrary/media/Order/7110.65Y_ATC_Bsc_w_Chg_1_2_dtd_7-16-20.pdf
+.65P .openurl https://www.faa.gov/documentLibrary/media/Order/7110.65BB_Basic_dtd_2-20-25.pdf
 .65PDF .65P
+.65WEB .65W
 .CHARTS .openurl https://www.airnav.com/airport/$1#ifr
 .CHARTSA .openurl https://www.airnav.com/airport/$arr#ifr
 .CHARTSD .openurl https://www.airnav.com/airport/$dep#ifr
@@ -459,6 +460,9 @@
 
 
 ; General
+
+.radiocheck We heard you! Radio checks can be disruptive in a busy environment and take up valuable frequency time. Instead, please listen to the frequency to ensure you can hear the controller or nearby pilots. Then, call up normally with your request (allow time for a busy controller to get back to you). If you think you have an audio issue, you may need to verify your hardware and/or restart your pilot client. See https://vpilot.rosscarlson.dev/Documentation or https://docs.xpilot-project.org/docs/ for help.
+
 .tcon Contact $radioname($1) on $freq($1).
 .tctc .tcon $1
 .tmon Monitor $radioname($1) on $freq($1).

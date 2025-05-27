@@ -461,7 +461,7 @@
 
 ; General
 
-.radiocheck We heard you! Radio checks can be disruptive in a busy environment and take up valuable frequency time. Instead, please listen to the frequency to ensure you can hear the controller or nearby pilots. Then, call up normally with your request (allow time for a busy controller to get back to you). If you think you have an audio issue, you may need to verify your hardware and/or restart your pilot client. See https://vpilot.rosscarlson.dev/Documentation or https://docs.xpilot-project.org/docs/ for help.
+.radiocheck .msg $aircraft We heard you! Radio checks can be disruptive in a busy environment and take up valuable frequency time. Instead, please listen to the frequency to ensure you can hear the controller or nearby pilots. Then, call up normally with your request (allow time for a busy controller to get back to you). If you think you have an audio issue, you may need to verify your hardware and/or restart your pilot client. See https://vpilot.rosscarlson.dev/Documentation or https://docs.xpilot-project.org/docs/ for help.
 
 .tcon Contact $radioname($1) on $freq($1).
 .tctc .tcon $1

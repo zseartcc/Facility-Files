@@ -1,14 +1,16 @@
-; Updated by Alexander Lennon - 05/11/25
+; Updated by Alexander Lennon - 06/08/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2505 (15MAY-12JUN 2025)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2506 (12JUN-10JUL 2025)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
+;    Testing commands
 ;    SPECIAL EVENT
 ;        Event Routing
 ;        HOLDING
+;    Event WALLOP
 ;    WEBSITE REFERENCE 
 ;        Quick Reference Pages
 ;        LOA Quick Reference Page
@@ -18,21 +20,22 @@
 ;        Route of Flight
 ;        Other
 ;    PRASEOLOGY HELP
+;	 General
 ;        Military
 ;        Released for Departure (Uncontrolled Field)
 ;        Holding instructions
 ;        IFR Procedures Phraseology Help
-;        3LD - TELEPHONY
+;        3LD - VIRTUAL AIRLINE CALLSIGNS
+;    Other VORs not in "NAVAID ISR"
 ;    GROUND TO GROUND COMMUNICATION
 ;        Notifications
 ;        Departure Release Requests
 ;        Other
 ;    SCOPE SOFTWARE TRICKS
 ;        General Commands
+;	 Auto-track commands
 ;        View Commands
 ;        Scope De-Clutter/Diagram Setup
-;            Draw Airways on Scope
-;            Draw Airways Navaids on Scope
 ;            Draw Towered Airports on Scope
 ;            Draw VORs on Scope
 ;    TEXT TO PILOTS
@@ -45,6 +48,8 @@
 ;        Departure
 ;        Approach
 ;        En-Route
+;    Alternate Aliases
+;    PDC Templates
 ;    CHARTS
 ;        FAA Chart Recall
 ;    ISR
@@ -53,6 +58,7 @@
 ;        NAVAID
 ;        STAR/DP Fixes
 ;        Airway Fixes
+;    Telephony
 
 
 
@@ -60,9 +66,6 @@
 ;;;;;;;;;;;;;;;;
 ;;    TEST    ;;
 ;;;;;;;;;;;;;;;;
-
-.ct .ctaf$1$2$3$4
-.ctaf$1$2$3$4
 
 ; Different way to look up callsign (Testing -AL)
 .123CS .openurl https://123atc.com/call-sign/$1
@@ -146,7 +149,15 @@
 .choldrv Cleared to $arr via radar vectors.
 .cholddct Cleared to $arr via direct $uc($1)
 
-; Event Wallop
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  			Event Wallop
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 .EVENTWALLOP .wallop $aircraft B8. Despite repeated attempts on frequency, $aircraft is not following published arrival route or following basic ATC instructions such as flying headings. $aircraft is also causing conflict with other traffic and actively disrupting an official VATSIM event, please ghost $aircraft as soon as possible. Thank you!
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -212,8 +223,13 @@
 .STRIPMARKING .OPENURL https://zseartcc.org/documents/view/265
 .RADARCHEATSHEET .OPENURL https://zseartcc.org/documents/view/258
 
-
-; EXTERNAL SITE REFERENCE COMMANDS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;		 EXTERNAL SITE REFERENCE COMMANDS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Aircraft
 .ICAO .openurl https://www.icao.int/publications/DOC8643/Pages/Search.aspx
@@ -306,8 +322,14 @@
 .idETX .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
 .idSPARK .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;			Other VORs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;Other VORs
 .NAVYPK .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
 .NAVPITTMEADOWS .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
 
@@ -441,8 +463,13 @@
 .SATS .atlistotherson
 .SATSoff .atlistothersoff
 
-
-; Scope De-Clutter/Diagram Setup
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;		 Scope De-Clutter/Diagram Setup
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Draw Towered Airports on Scope
 .FIELDS .FF KSEA KPDX KGEG KBLI KEUG KHIO KLMT KMFR KMWH KOLM KOTH KPDT KPSC KRDM KSFF KSLE KUAO KYKM CYVR KALW KLWS KSKA KNUW KPAE KBFI KRNT KTIW KTCM KGRF KTTD 

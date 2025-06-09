@@ -2600,16 +2600,16 @@
 
 ; SEA SKYKO
 .TSEASKYKOCTRN Descend via SKYKO1 arrival. SEA Landing North. SEA altimeter A$altim(KSEA)
-.TSEASKYKOAPPN Expect vectors for the ILS rwy 34R approach. SEA altimeter A$altim(KSEA)
+.TSEASKYKOAPPN Expect vectors for the ILS rwy 34L approach. SEA altimeter A$altim(KSEA)
 .TSEASKYKOCTRS Descend via SKYKO1 arrival. SEA Landing South. SEA altimeter A$altim(KSEA)
-.TSEASKYKOAPPS Expect vectors for the ILS rwy 16L approach. SEA altimeter A$altim(KSEA)
+.TSEASKYKOAPPS Expect vectors for the ILS rwy 16R approach. SEA altimeter A$altim(KSEA)
 
 
 ; SEA GLASR
 .TSEAGLASRCTRS Descend via GLASR3 arrival. SEA Landing South. Altimeter A$altim(KSEA)
-.TSEAGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 16L approach. Altimeter A$altim(KSEA)
+.TSEAGLASRAPPS Depart WOODI heading 250, descend and maintain 7k. Expect vectors for the ILS rwy 16R approach. Altimeter A$altim(KSEA)
 .TSEAGLASRCTRN Descend via GLASR3 arrival. SEA Landing North. Altimeter A$altim(KSEA)
-.TSEAGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34R approach. Altimeter A$altim(KSEA)
+.TSEAGLASRAPPN Descend and maintain 7k. Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
 
 
 ; SEA HAWKZ
@@ -2630,7 +2630,7 @@
 .TSEAMARNRCTRN Descend via the MARNR8 arrival. SEA Landing North. Altimeter A$altim(KSEA)
 .TSEAMARNRAPPN Expect vectors for the ILS rwy 34L approach. Altimeter A$altim(KSEA)
 .TSEAMARNRCTRS Descend via the MARNR8 arrival. SEA Landing South. Altimeter A$altim(KSEA)
-.TSEAMARNRAPPS At GRIFY cleared ILS rwy 16L approach. Altimeter A$altim(KSEA)
+.TSEAMARNRAPPS At GRIFY cleared ILS rwy 16R approach. Altimeter A$altim(KSEA)
 
 
 ; SEA OLM

@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 06/08/25
+; Updated by Alexander Lennon - 06/19/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2506 (12JUN-10JUL 2025)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2507 (10JUL-07AUG 2025)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -253,7 +253,6 @@
 .CHARTSA .openurl https://www.airnav.com/airport/$arr#ifr
 .CHARTSD .openurl https://www.airnav.com/airport/$dep#ifr
 .RWATIS .openurl https://datis.clowd.io/$1
-.who .lasttx
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -606,6 +605,7 @@
 .APT .APT$1
 .NAV .NAV$1$2$3$4
 .ID .ID$1$2$3$4
+.who .lasttx
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

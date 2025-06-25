@@ -1,0 +1,97 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;      Consolidated      ;;;;;
+;;;;;     Wake Turbulence    ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+.CWTAA .MSG ZSE_ISR *** A behind A: 3 NM On Approach | 3 NM Directly Behind
+.CWTBA .MSG ZSE_ISR *** B behind A: 5 NM On Approach | 5 NM Directly Behind
+.CWTCA .MSG ZSE_ISR *** C behind A: 6 NM On Approach | 6 NM Directly Behind
+.CWTDA .MSG ZSE_ISR *** D behind A: 6 NM On Approach | 6 NM Directly Behind
+.CWTEA .MSG ZSE_ISR *** E behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTFA .MSG ZSE_ISR *** F behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTGA .MSG ZSE_ISR *** G behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTHA .MSG ZSE_ISR *** H behind A: 8 NM On Approach | 8 NM Directly Behind
+.CWTIA .MSG ZSE_ISR *** I behind A: 8 NM On Approach | 8 NM Directly Behind
+
+.CWTAB .MSG ZSE_ISR *** A behind B: 3 NM On Approach | 3 NM Directly Behind
+.CWTBB .MSG ZSE_ISR *** B behind B: 3 NM On Approach | 3 NM Directly Behind
+.CWTCB .MSG ZSE_ISR *** C behind B: 4 NM On Approach | 4 NM Directly Behind
+.CWTDB .MSG ZSE_ISR *** D behind B: 4 NM On Approach | 4 NM Directly Behind
+.CWTEB .MSG ZSE_ISR *** E behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTFB .MSG ZSE_ISR *** F behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTGB .MSG ZSE_ISR *** G behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTHB .MSG ZSE_ISR *** H behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTIB .MSG ZSE_ISR *** I behind B: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAC .MSG ZSE_ISR *** A behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTBC .MSG ZSE_ISR *** B behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTCC .MSG ZSE_ISR *** C behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTDC .MSG ZSE_ISR *** D behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTEC .MSG ZSE_ISR *** E behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTFC .MSG ZSE_ISR *** F behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTGC .MSG ZSE_ISR *** G behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTHC .MSG ZSE_ISR *** H behind C: 5 NM On Approach | 5 NM Directly Behind
+.CWTIC .MSG ZSE_ISR *** I behind C: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAD .MSG ZSE_ISR *** A behind D: 3 NM On Approach | 3 NM Directly Behind
+.CWTBD .MSG ZSE_ISR *** B behind D: 3 NM On Approach | 3 NM Directly Behind
+.CWTCD .MSG ZSE_ISR *** C behind D: 4 NM On Approach | 4 NM Directly Behind
+.CWTDD .MSG ZSE_ISR *** D behind D: 4 NM On Approach | 4 NM Directly Behind
+.CWTED .MSG ZSE_ISR *** E behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTFD .MSG ZSE_ISR *** F behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTGD .MSG ZSE_ISR *** G behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTHD .MSG ZSE_ISR *** H behind D: 6 NM On Approach | 5 NM Directly Behind
+.CWTID .MSG ZSE_ISR *** I behind D: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAE .MSG ZSE_ISR *** A behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTBE .MSG ZSE_ISR *** B behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTCE .MSG ZSE_ISR *** C behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTDE .MSG ZSE_ISR *** D behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTEE .MSG ZSE_ISR *** E behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTFE .MSG ZSE_ISR *** F behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTGE .MSG ZSE_ISR *** G behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTHE .MSG ZSE_ISR *** H behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTIE .MSG ZSE_ISR *** I behind E: 4 NM On Approach | 4 NM Directly Behind
+
+.CWTAF .MSG ZSE_ISR *** A behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTBF .MSG ZSE_ISR *** B behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTCF .MSG ZSE_ISR *** C behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTDF .MSG ZSE_ISR *** D behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTEF .MSG ZSE_ISR *** E behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTFF .MSG ZSE_ISR *** F behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTGF .MSG ZSE_ISR *** G behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTHF .MSG ZSE_ISR *** H behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTHF .MSG ZSE_ISR *** I behind F: 4 NM On Approach | 3 NM Directly Behind
+
+.CWTAG .MSG ZSE_ISR *** A behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTBG .MSG ZSE_ISR *** B behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTCG .MSG ZSE_ISR *** C behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTDG .MSG ZSE_ISR *** D behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTEG .MSG ZSE_ISR *** E behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTFG .MSG ZSE_ISR *** F behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTGG .MSG ZSE_ISR *** G behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTHG .MSG ZSE_ISR *** H behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTIG .MSG ZSE_ISR *** I behind G: 3 NM On Approach | 3 NM Directly Behind
+
+.CWTAH .MSG ZSE_ISR *** A behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTBH .MSG ZSE_ISR *** B behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTCH .MSG ZSE_ISR *** C behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTDH .MSG ZSE_ISR *** D behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTEH .MSG ZSE_ISR *** E behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTFH .MSG ZSE_ISR *** F behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTHH .MSG ZSE_ISR *** G behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTHH .MSG ZSE_ISR *** H behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTIH .MSG ZSE_ISR *** I behind H: 3 NM On Approach | 3 NM Directly Behind
+
+.CWTAI .MSG ZSE_ISR *** A behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTBI .MSG ZSE_ISR *** B behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTCI .MSG ZSE_ISR *** C behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTDI .MSG ZSE_ISR *** D behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTEI .MSG ZSE_ISR *** E behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTFI .MSG ZSE_ISR *** F behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTGI .MSG ZSE_ISR *** G behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTHI .MSG ZSE_ISR *** H behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTII .MSG ZSE_ISR *** I behind I: 3 NM On Approach | 3 NM Directly Behind

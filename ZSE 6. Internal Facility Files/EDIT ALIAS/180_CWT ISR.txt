@@ -64,7 +64,7 @@
 .CWTFF .MSG ZSE_ISR *** F behind F: 3 NM On Approach | 3 NM Directly Behind
 .CWTGF .MSG ZSE_ISR *** G behind F: 3 NM On Approach | 3 NM Directly Behind
 .CWTHF .MSG ZSE_ISR *** H behind F: 3 NM On Approach | 3 NM Directly Behind
-.CWTHF .MSG ZSE_ISR *** I behind F: 4 NM On Approach | 3 NM Directly Behind
+.CWTIF .MSG ZSE_ISR *** I behind F: 4 NM On Approach | 3 NM Directly Behind
 ; Lower Large in front
 .CWTAG .MSG ZSE_ISR *** A behind G: 3 NM On Approach | 3 NM Directly Behind
 .CWTBG .MSG ZSE_ISR *** B behind G: 3 NM On Approach | 3 NM Directly Behind
@@ -82,7 +82,7 @@
 .CWTDH .MSG ZSE_ISR *** D behind H: 3 NM On Approach | 3 NM Directly Behind
 .CWTEH .MSG ZSE_ISR *** E behind H: 3 NM On Approach | 3 NM Directly Behind
 .CWTFH .MSG ZSE_ISR *** F behind H: 3 NM On Approach | 3 NM Directly Behind
-.CWTHH .MSG ZSE_ISR *** G behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTGH .MSG ZSE_ISR *** G behind H: 3 NM On Approach | 3 NM Directly Behind
 .CWTHH .MSG ZSE_ISR *** H behind H: 3 NM On Approach | 3 NM Directly Behind
 .CWTIH .MSG ZSE_ISR *** I behind H: 3 NM On Approach | 3 NM Directly Behind
 ; Lower Small in front

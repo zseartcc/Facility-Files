@@ -1785,7 +1785,7 @@
 .P70 .MSG ZSE_ISR *** MFR: POTTIER | MDL: P-70 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | ENG NUM: 1 | Class: LandPlane
 .P750 .MSG ZSE_ISR *** MFR: PACIFIC AEROSPACE | MDL: 750XL | FAA Wake: Small | CWT: I | SRS: I | ADG: I | ENG NUM: 1 | Class: LandPlane
 .P8 .MSG ZSE_ISR *** MFR: BOEING | MDL: 737-800 Poseidon | FAA Wake: Large | CWT: F | SRS: III | ADG: III | ENG NUM: 2 | Class: LandPlane
-.P80 .MSG ZSE_ISR *** MFR: POTTIER | MDL: P-80 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | ENG NUM: 1 | Class: LandPlane
+.ACFT_P80 .MSG ZSE_ISR *** MFR: POTTIER | MDL: P-80 | FAA Wake: Small | CWT: I | SRS: I | ADG:  | ENG NUM: 1 | Class: LandPlane
 .P82 .MSG ZSE_ISR *** MFR: NORTH AMERICAN | MDL: F-82 Twin Mustang | FAA Wake: Small+ | CWT: H | SRS: III | ADG:  | ENG NUM: 2 | Class: LandPlane
 .PA11 .MSG ZSE_ISR *** MFR: AMERICAN LEGEND | MDL: AL-11C Legend Cub Special | FAA Wake: Small | CWT: I | SRS: I | ADG: I | ENG NUM: 1 | Class: LandPlane
 .PA12 .MSG ZSE_ISR *** MFR: BACKCOUNTRY | MDL: PA-12 Super Cruiser | FAA Wake: Small | CWT: I | SRS: I | ADG: I | ENG NUM: 1 | Class: LandPlane

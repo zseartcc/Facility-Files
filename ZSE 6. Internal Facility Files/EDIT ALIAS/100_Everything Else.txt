@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 09/04/25
+; Updated by Alexander Lennon - 09/18/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2509 (04SEP-02OCT 2025)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2510 (02OCT-30OCT 2025)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -187,18 +187,33 @@
 
 ; LOA Quick Reference Page
 
+; Others
 .LMTZSELOA .OPENURL https://zseartcc.org/documents/view/284
 .MWHZSELOA .OPENURL https://zseartcc.org/documents/view/290
 .RDMZSELOA .OPENURL https://zseartcc.org/documents/view/283
+
+; Center
 .ZLCLOA .OPENURL https://zseartcc.org/documents/view/218
 .ZOALOA .OPENURL https://zseartcc.org/documents/view/217
 .ZVRLOA .OPENURL https://zseartcc.org/documents/view/246
+
+; EUG
 .EUGZSELOA .OPENURL https://zseartcc.org/documents/view/277
 .MFRZSELOA .OPENURL https://zseartcc.org/documents/view/278
 .EUGMFRLOA .OPENURL https://zseartcc.org/documents/view/287
+
+; GEG
+.GEGCOELOA .OPENURL https://zseartcc.org/documents/view/322
+.GEGPSCLOA .OPENURL https://zseartcc.org/documents/view/321
+.GEGYKMLOA .OPENURL https://zseartcc.org/documents/view/324
+.GEGZSELOA .OPENURL https://zseartcc.org/documents/view/325
+
+; P80
 .P80PDXLOA .OPENURL https://zseartcc.org/documents/view/308
 .P80PDXLOA .OPENURL https://zseartcc.org/documents/view/296
 .P80ZSELOA .OPENURL https://zseartcc.org/documents/view/233
+
+; S46
 .RNTBFILOA .OPENURL https://zseartcc.org/documents/view/303
 .S46BFILOA .OPENURL https://zseartcc.org/documents/view/304
 .S46OLMLOA .OPENURL https://zseartcc.org/documents/view/300
@@ -213,15 +228,18 @@
 ; SOP Quick Reference Page
 .BFISOP .OPENURL https://zseartcc.org/documents/view/298
 .EUGSOP .OPENURL https://zseartcc.org/documents/view/276
+.GEGSOP .OPENURL https://zseartcc.org/documents/view/320
 .HIOSOP .OPENURL https://zseartcc.org/documents/view/317
 .LMTSOP .OPENURL https://zseartcc.org/documents/view/282
 .MWHSOP .OPENURL https://zseartcc.org/documents/view/291
+.NUWSOP .OPENURL https://zseartcc.org/documents/view/323
 .P80SOP .OPENURL https://zseartcc.org/documents/view/295
 .PDXSOP .OPENURL https://zseartcc.org/documents/view/294
 .S46SOP .OPENURL https://zseartcc.org/documents/view/274
 .SEASOP .OPENURL https://zseartcc.org/documents/view/272
 .ZSESOP .OPENURL https://zseartcc.org/documents/view/206
-.TRACONSOP .OPENURL https://zseartcc.org/documents/view/292
+
+.AIRPORTSOP .OPENURL https://zseartcc.org/documents/view/288
 
 
 ; ZSE References

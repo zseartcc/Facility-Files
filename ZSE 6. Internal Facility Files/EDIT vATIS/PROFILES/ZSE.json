@@ -1,7 +1,7 @@
 {
   "name": "ZSE",
   "updateUrl": "https://zseartcc.org/downloads/file/170",
-  "updateSerial": 2025052605,
+  "updateSerial": 2025091806,
   "stations": [
     {
       "ordinal": 1,
@@ -4212,7 +4212,7 @@
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
-        "high": "Z"
+        "high": "M"
       },
       "atisFormat": {
         "observationTime": {
@@ -6298,7 +6298,18 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "1200-500 LOW VISIBILITY PROCEDURES ARE IN EFFECT.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "500-300 LOW VISIBILITY PROCEDURES ARE IN EFFECT.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ]
     },
     {
       "ordinal": 4,

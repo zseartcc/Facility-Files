@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 09/18/25
+; Updated by Alexander Lennon - 10/29/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2510 (02OCT-30OCT 2025)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2511 (30OCT - 27NOV 2025)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -201,6 +201,7 @@
 .EUGZSELOA .OPENURL https://zseartcc.org/documents/view/277
 .MFRZSELOA .OPENURL https://zseartcc.org/documents/view/278
 .EUGMFRLOA .OPENURL https://zseartcc.org/documents/view/287
+.MFREUGLOA .OPENURL https://zseartcc.org/documents/view/287
 
 ; GEG
 .GEGCOELOA .OPENURL https://zseartcc.org/documents/view/322
@@ -209,7 +210,7 @@
 .GEGZSELOA .OPENURL https://zseartcc.org/documents/view/325
 
 ; P80
-.P80PDXLOA .OPENURL https://zseartcc.org/documents/view/308
+.P80HIOLOA .OPENURL https://zseartcc.org/documents/view/308
 .P80PDXLOA .OPENURL https://zseartcc.org/documents/view/296
 .P80ZSELOA .OPENURL https://zseartcc.org/documents/view/233
 

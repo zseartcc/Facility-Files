@@ -277,7 +277,7 @@
 .CHARTS .openurl https://www.airnav.com/airport/$1#ifr
 .CHARTSA .openurl https://www.airnav.com/airport/$arr#ifr
 .CHARTSD .openurl https://www.airnav.com/airport/$dep#ifr
-.RWATIS .openurl https://datis.clowd.io/$1
+.RWATIS .openurl https://atis.info/$1
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

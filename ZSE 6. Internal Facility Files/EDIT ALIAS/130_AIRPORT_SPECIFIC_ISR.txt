@@ -450,14 +450,16 @@
 .TCRAFTKLSHN Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
 .TCRAFTKLSHNU Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
 
-
 .TCRAFTBLIKLSHN Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
 .TCRAFTBLIKLSHNU Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
 
+;BLI BLI T CRAFT
+.TCRAFTBLIBLI Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk.
+.TCRAFTBLIBLIU Cleared to $arr via $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk.
 
-;BLI MADEE 
-.TBLIMADEECTRS Descend via the MADEE5 arrival. BLI Landing South. Altimeter A$altim(KBLI)
-.TBLIMADEECTRN Descend via the MADEE5 arrival. BLI Landing North. Altimeter A$altim(KBLI)
+;BLI MADEE
+.TBLIMADEECTRS Descend via the MADEE6 arrival. BLI Landing South. Altimeter A$altim(KBLI)
+.TBLIMADEECTRN Descend via the MADEE6 arrival. BLI Landing North. Altimeter A$altim(KBLI)
 
 
 
@@ -1705,6 +1707,34 @@
 ; ONP ONP T CRAFT
 .TCRAFTONPONP Cleared to $arr. Depart via the ONP1 Obstacle Departure Procedure. $route. Maintain 4k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
 .TCRAFTONPONPU Cleared to $arr. Depart via the ONP1 Obstacle Departure Procedure. $route. Maintain 4k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+
+
+
+
+;-------------
+; ORS AIRPORT
+;-------------
+
+
+; ORS RNAV (GPS) RWY 16
+.ORSR16F .FF CALBI APDON SQURL EASTD CANDL
+
+
+; ORS RNAV (GPS) RWY 34
+.ORSR34F .FF WBEB OKAYA CVV ORCUS
+
+
+; ORS RNAV (GPS) A
+.ORSRAF .FF NAKHU FEGBA ORCUS CVV
+
+; ORS FEGBA
+.TCRAFTORSFEGBA Cleared to $arr. Depart via the FEGBA3 Departure. $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+.TCRAFTORSFEGBAU Cleared to $arr. Depart via the FEGBA3 Departure. $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
+
+; ORS SQURL ODP
+.TCRAFTORSSQURL Cleared to $arr. Depart via the SQURL1 Obstacle Departure Procedure. $route. Maintain 3k. Expect $cruise 10min after departure. Departure frequency $freq($1), squawk $squawk. Hold For Release
+.TCRAFTORSSQURLU Cleared to $arr. Depart via the SQURL Obstacle Departure Procedure. $route. Maintain 3k. Expect $cruise 10min after departure. Departure OFFLINE, squawk $squawk. Hold For Release
 
 
 

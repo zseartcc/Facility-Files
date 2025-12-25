@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 11/10/25
+; Updated by Alexander Lennon - 12/24/25
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2512 (27NOV - 25DEC 2025)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2513 (25DEC 2025 - 22JAN 2026)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -196,6 +196,8 @@
 .ZLCLOA .OPENURL https://zseartcc.org/documents/view/218
 .ZOALOA .OPENURL https://zseartcc.org/documents/view/217
 .ZVRLOA .OPENURL https://zseartcc.org/documents/view/246
+.NUWLOA .OPENURL https://zseartcc.org/documents/view/
+
 
 ; EUG
 .EUGZSELOA .OPENURL https://zseartcc.org/documents/view/277
@@ -224,6 +226,12 @@
 .SEABFILOA .OPENURL https://zseartcc.org/documents/view/302
 .S46TIWLOA .OPENURL https://zseartcc.org/documents/view/299
 .S46ZSELOA .OPENURL https://zseartcc.org/documents/view/232
+.S46NUWLOA .OPENURL https://zseartcc.org/documents/view/
+
+;NUW
+.NUWS46LOA .OPENURL https://zseartcc.org/documents/view/
+.NUWZSELOA .OPENURL https://zseartcc.org/documents/view/
+.NUWZVRLOA .OPENURL https://zseartcc.org/documents/view/
 
 
 ; SOP Quick Reference Page

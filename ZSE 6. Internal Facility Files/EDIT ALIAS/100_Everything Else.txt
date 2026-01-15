@@ -353,6 +353,9 @@
 .idTIMBERLINE .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: TIMBERLINE
 .idETX .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
 .idSPARK .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
+.idNWA .MSG FAA_ISR *** 3LD: NWA ___ TELEPHONY: NORTHWEST
+.idNORTHWEST .MSG FAA_ISR *** 3LD: NWA ___ TELEPHONY: NORTHWEST
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

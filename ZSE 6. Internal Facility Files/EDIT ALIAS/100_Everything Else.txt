@@ -357,6 +357,11 @@
 .idNORTHWEST .MSG FAA_ISR *** 3LD: NWA ___ TELEPHONY: NORTHWEST
 
 
+; Not in JO 7340.2 yet, a of AIRAC 2601
+.idPFA .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
+.idPARISAIR .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

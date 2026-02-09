@@ -1,7 +1,7 @@
 {
   "name": "EUG APP",
   "updateUrl": "https://zseartcc.org/downloads/file/163",
-  "updateSerial": 2025052604,
+  "updateSerial": 2026020805,
   "stations": [
     {
       "ordinal": 0,
@@ -22,8 +22,8 @@
         "surfaceWind": {
           "speakLeadingZero": false,
           "magneticVariation": {
-            "enabled": false,
-            "magneticDegrees": 0
+            "enabled": true,
+            "magneticDegrees": -20
           },
           "standard": {
             "template": {

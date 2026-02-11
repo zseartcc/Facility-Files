@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 1/12/26
+; Updated by Alexander Lennon - 02/11/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2601 (22JAN - 19FEB)
+.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2602 (19FEB - 19MAR)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -360,6 +360,8 @@
 ; Not in JO 7340.2 yet, a of AIRAC 2601
 .idPFA .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
 .idPARISAIR .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
+.idPOD .MSG ZSE_ISR *** 3LD: POD ___ TELEPHONY: AIR POD
+.idAIRPOD .MSG ZSE_ISR *** 3LD: POD ___ TELEPHONY: AIR POD
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -657,13 +659,4 @@
 .PDCREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
 .acarsREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
 .TREROUTE .msg $aircraft *** THE PDC YOU ARE ABOUT TO RECEIVE FROM ACARS, CONTAINS A FULL REROUTE TO YOUR DESTINATION.  IF YOU ARE UNABLE TO FLY THE AMENDED ROUTE OR IF YOU HAVE QUESTIONS, PLEASE CONTACT $radioname() ON $freq(). ***
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;                           FAA Chart Recall
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

@@ -2041,38 +2041,38 @@
 
 
 ; PDX HELNS
-.TPDXHELNSCTRE Cross KRATR at and maintain 12k (props 10k) and 270kts. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXHELNSCTRE Cross KRATR at and maintain 12k (props 10k) and at or less than 250kts. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXHELNSAPPE Expect vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
-.TPDXHELNSCTRW Cross KRATR at and maintain 12k (props 10k) and 270kts. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXHELNSCTRW Cross KRATR at and maintain 12k (props 10k) and at or less than 250kts. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXHELNSAPPW Expect vectors for the ILS rwy 28R approach. Altimeter A$altim(KPDX)
 
 
 ; PDX HHOOD
-.TPDXHHOODCTRE Descend via the HHOOD5 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXHHOODCTRE Descend via the HHOOD6 arrival. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXHHOODAPPE Expect vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
-.TPDXHHOODCTRW Descend via the HHOOD5 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXHHOODCTRW Descend via the HHOOD6 arrival. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXHHOODAPPW At SHAFR clrd ILS 28R approach. Altimeter A$altim(KPDX)
 
 
 ; PDX KRATR
-.TPDXKRATRCTRE Descend via the KRATR2 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXKRATRCTRE Descend via the KRATR3 arrival. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXKRATRAPPE Except vectors for the ILS rwy 10L approach. Altimeter A$altim(KPDX)
-.TPDXKRATRCTRW Descend via the KRATR2 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXKRATRCTRW Descend via the KRATR3 arrival. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXKRATRAPPW Expect vectors for the ILS rwy 28R approach. Altimeter A$altim(KPDX)
 
 
 ; PDX OCITY
-.TPDXOCITYCTRE Cross VANTZ at and maintain 12k (props 10k) and 250kts. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXOCITYCTRE Cross VANTZ at and maintain 12k (props 10k) and at or less than 250kts. PDX Landing East. Altimeter A$altim(KPDX)
 .TPDXOCITYAPPE Expect vectors for the ILS rwy 10R approach. Altimeter A$altim(KPDX)
-.TPDXOCITYCTRW Cross VANTZ at and maintain 12k (props 10k) and 250kts. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXOCITYCTRW Cross VANTZ at and maintain 12k (props 10k) and at or less than 250kts. PDX Landing West. Altimeter A$altim(KPDX)
 .TPDXOCITYAPPW Expect vectors for the ILS rwy 28L approach. Altimeter A$altim(KPDX)
 
 
 ; PDX TMBRS
-.TPDXTMBRSCTRE Descend via the TMBRS3 arrival. PDX Landing East. Altimeter A$altim(KPDX)
-.TPDXTMBRSAPPE Expect vectors to final after PUBBB. Altimeter A$altim(KPDX)
-.TPDXTMBRSCTRW Descend via the TMBRS3 arrival. PDX Landing West. Altimeter A$altim(KPDX)
-.TPDXTMBRSAPPW Expect vectors to final after ICEAX. Altimeter A$altim(KPDX)
+.TPDXTMBRSCTRE Descend via the TMBRS4 arrival. PDX Landing East. Altimeter A$altim(KPDX)
+.TPDXTMBRSAPPE Expect vectors for the ILS rwy 10R approach. Altimeter A$altim(KPDX)
+.TPDXTMBRSCTRW Descend via the TMBRS4 arrival. PDX Landing West. Altimeter A$altim(KPDX)
+.TPDXTMBRSAPPW Expect vectors for the ILS rwy 28L approach. Altimeter A$altim(KPDX)
 
 
 

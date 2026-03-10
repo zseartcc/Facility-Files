@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 02/27/26
+; Updated by Alexander Lennon - 03/10/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .msg ZSE_ISR *** Made for AIRAC cycle 2603 (19MAR - 16APR)
+.WHICHAIRAC .echo Made for AIRAC cycle 2603 (19MAR - 16APR)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -62,15 +62,16 @@
 ;    Consolidated Wake Turbulence (CWT)
 ;    AIRCRAFT TYPE IDENTIFICATION
 
-
-
+; New commands for CRC
+; .echo
+; Will put the alias in your frequency chat that only you can see
+; .note
+; Will open a new tab in the message window called "NOTE"
+; Use "\n" for a newline character.
 
 ;;;;;;;;;;;;;;;;
 ;;    TEST    ;;
 ;;;;;;;;;;;;;;;;
-
-; Different way to look up callsign (Testing -AL)
-.123CS .openurl https://123atc.com/call-sign/$1
 
 
 
@@ -300,68 +301,68 @@
 ; GENERAL
 
 ; Military
-.Route .MSG ZSE_ISR $route
-.OVERHEAD .MSG ZSE_ISR *** WIND ### @ ##. PATTERN ALTITUDE ###. (Right/Left) TURNS. REPORT INITIAL RUNWAY ##. ____ [Initial Report] BREAK AT (numbers/midfield/departure end). REPORT BREAK. ____ [Break Report] CHECK GEAR DOWN. RWY ## CLEARED TO LAND.
-.MILCT .MSG ZSE_ISR *** Military aircraft (except Cargo and Transport types) CHANGE TO DEPARTURE, WIND---@-- RWY-- CLEARED FOR TAKEOFF
-.MILCL .MSG ZSE_ISR Wind $wind($arr). Check Wheels Down. RWY ## Cleared to Land.
+.Route .echo $fullroute
+.OVERHEAD .echo WIND $winds. PATTERN ALTITUDE ###. (Right/Left) TURNS. REPORT INITIAL RUNWAY ##. ____ [Initial Report] BREAK AT (numbers/midfield/departure end). REPORT BREAK. ____ [Break Report] CHECK GEAR DOWN. RWY ## CLEARED TO LAND.
+.MILCT .echo Military aircraft (except Cargo and Transport types) CHANGE TO DEPARTURE, WIND---@-- RWY-- CLEARED FOR TAKEOFF
+.MILCL .echo Wind $winds. Check Wheels Down. RWY ## Cleared to Land.
 
 ; Released for Departure (Uncontrolled Field)
-.RFD .MSG ZSE_ISR *** $aircraft Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now $time. Frequency change approved.
+.RFD .echo $aircraft Released for departure. Clearance void if not off by $ftime(5). If not off by $ftime(5), advise $radioname() on $freq() not later than $ftime(10) of intentions. Time now $time.
 
 ; Holding instructions
-.HOLDING .MSG ZSE_ISR *** HOLD (direction) OF (fix/waypoint) ON (specified radial, course, bearing, track, airway, azimuth(s), or route.).(number of minutes/miles) LEFT/RIGHT TURNS. EXPECT FURTHER CLEARANCE $ftime(30).
+.HOLDING .echo HOLD (direction) OF (fix/waypoint) ON (specified radial, course, bearing, track, airway, azimuth(s), or route.).(number of minutes/miles) LEFT/RIGHT TURNS. EXPECT FURTHER CLEARANCE $ftime(30).
 
 ; IFR Procedures Phraseology Help
-.OTP .MSG ZSE_ISR *** CLIMB TO AND REPORT REACHING VFR ON TOP, TOPS REPORTED (altitude, if none "NO TOPS REPORTED"), IF NOT ON TOP AT (altitude), MAINTAIN (altitude), AND ADVISE. | MAINTAIN VFR ON TOP.
+.OTP .echo CLIMB TO AND REPORT REACHING VFR ON TOP, TOPS REPORTED (altitude, if none "NO TOPS REPORTED"), IF NOT ON TOP AT (altitude), MAINTAIN (altitude), AND ADVISE. | MAINTAIN VFR ON TOP.
 
 ;VIRTUAL AIRLINE CALLSIGNS
-.idPACIFIC .MSG ZSE_ISR *** 3LD: PAY ___ TELEPHONY: PACIFIC
-.idPAY .MSG ZSE_ISR *** 3LD: PAY ___ TELEPHONY: PACIFIC
-.idJANET .MSG ZSE_ISR *** 3LD: WWW ___ TELEPHONY: JANET
-.idWWW .MSG ZSE_ISR *** 3LD: WWW ___ TELEPHONY: JANET
-.idEGF .MSG ZSE_ISR *** 3LD: EGF ___ TELEPHONY: EAGLEFLIGHT
-.idEAGLEFLIGHT .MSG ZSE_ISR *** 3LD: EGF ___ TELEPHONY: EAGLEFLIGHT
-.idAWE .MSG ZSE_ISR *** 3LD: AWE ___ TELEPHONY: CACTUS
-.idCACTUS .MSG ZSE_ISR *** 3LD: AWE ___ TELEPHONY: CACTUS
-.idHUA .msg ZSE_ISR *** 3LD: HUA ___ TELEPHONY: HUKOBU
-.idHUKOBU .msg ZSE_ISR *** 3LD: HUA ___ TELEPHONE: HUKOBU
-.idVCP .MSG ZSE_ISR *** 3LD: VCP ___ TELEPHONY: ALPACA
-.idALPACA .MSG ZSE_ISR *** 3LD: VCP ___ TELEPHONY: ALPACA
-.idUWU .MSG ZSE_ISR *** 3LD: UWU ___ TELEPHONY: OOWOO
-.idOOWOO .MSG ZSE_ISR *** 3LD: UWU ___ TELEPHONY: OOWOO
-.idTPC .MSG ZSE_ISR *** 3LD: TPC ___ TELEPHONY: PILOTCLUB
-.idPILOTCLUB .MSG ZSE_ISR *** 3LD: TPC ___ TELEPHONY: PILOTCLUB
-.idSPK .MSG ZSE_ISR *** 3LD: SPK ___ TELEPHONY: EMBER
-.idEMBER .MSG ZSE_ISR *** 3LD: SPK ___ TELEPHONY: EMBER
-.idSPC .MSG ZSE_ISR *** 3LD: SPC ___ TELEPHONY: SPARK CARGO
-.idSPARKCARGO .MSG ZSE_ISR *** 3LD: SPC ___ TELEPHONY: SPARK CARGO
-.idSPS .MSG ZSE_ISR *** 3LD: SPS ___ TELEPHONY: SPARK SPECIAL
-.idSPARKSPECIAL .MSG ZSE_ISR *** 3LD: SPS ___ TELEPHONY: SPARK SPECIAL
-.idWAT .MSG ZSE_ISR *** 3LD: WAT ___ TELEPHONY: WALKER
-.idWALKER .MSG ZSE_ISR *** 3LD: WAT ___ TELEPHONY: WALKER
-.idCPC .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
-.idEMPRESS .MSG ZSE_ISR *** 3LD: CPC ___ TELEPHONY: EMPRESS
-.idMET .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METRO AIR
-.idMETROAIR .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METRO AIR
-.idCXA .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
-.idCANADIANEXPRESS .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: CANADIAN EXPRESS
-.idFDC .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
-.idFREIGHTDOG .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: FREIGHT DOG
-.idPFL .MSG ZSE_ISR *** 3LD: PFL ___ TELEPHONY: PRO FLIGHT
-.idPROFLIGHT .MSG ZSE_ISR *** 3LD: PFL ___ TELEPHONY: PRO FLIGHT
-.idPNW .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: TIMBERLINE
-.idTIMBERLINE .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: TIMBERLINE
-.idETX .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
-.idSPARK .MSG FAA_ISR *** 3LD: ETX ___ TELEPHONY: SPARK
-.idNWA .MSG FAA_ISR *** 3LD: NWA ___ TELEPHONY: NORTHWEST
-.idNORTHWEST .MSG FAA_ISR *** 3LD: NWA ___ TELEPHONY: NORTHWEST
+.idPACIFIC .echo \n3LD: PAY\nTELEPHONY: PACIFIC
+.idPAY .echo \n3LD: PAY\nTELEPHONY: PACIFIC
+.idJANET .echo \n3LD: WWW\nTELEPHONY: JANET
+.idWWW .echo \n3LD: WWW\nTELEPHONY: JANET
+.idEGF .echo \n3LD: EGF\nTELEPHONY: EAGLEFLIGHT
+.idEAGLEFLIGHT .echo \n3LD: EGF\nTELEPHONY: EAGLEFLIGHT
+.idAWE .echo \n3LD: AWE\nTELEPHONY: CACTUS
+.idCACTUS .echo \n3LD: AWE\nTELEPHONY: CACTUS
+.idHUA .echo \n3LD: HUA\nTELEPHONY: HUKOBU
+.idHUKOBU .echo \n3LD: HUA\nTELEPHONE: HUKOBU
+.idVCP .echo \n3LD: VCP\nTELEPHONY: ALPACA
+.idALPACA .echo \n3LD: VCP\nTELEPHONY: ALPACA
+.idUWU .echo \n3LD: UWU\nTELEPHONY: OOWOO
+.idOOWOO .echo \n3LD: UWU\nTELEPHONY: OOWOO
+.idTPC .echo \n3LD: TPC\nTELEPHONY: PILOTCLUB
+.idPILOTCLUB .echo \n3LD: TPC\nTELEPHONY: PILOTCLUB
+.idSPK .echo \n3LD: SPK\nTELEPHONY: EMBER
+.idEMBER .echo \n3LD: SPK\nTELEPHONY: EMBER
+.idSPC .echo \n3LD: SPC\nTELEPHONY: SPARK CARGO
+.idSPARKCARGO .echo \n3LD: SPC\nTELEPHONY: SPARK CARGO
+.idSPS .echo \n3LD: SPS\nTELEPHONY: SPARK SPECIAL
+.idSPARKSPECIAL .echo \n3LD: SPS\nTELEPHONY: SPARK SPECIAL
+.idWAT .echo \n3LD: WAT\nTELEPHONY: WALKER
+.idWALKER .echo \n3LD: WAT\nTELEPHONY: WALKER
+.idCPC .echo \n3LD: CPC\nTELEPHONY: EMPRESS
+.idEMPRESS .echo \n3LD: CPC\nTELEPHONY: EMPRESS
+.idMET .echo \n3LD: MET\nTELEPHONY: METRO AIR
+.idMETROAIR .echo \n3LD: MET\nTELEPHONY: METRO AIR
+.idCXA .echo \n3LD: CXA\nTELEPHONY: CANADIAN EXPRESS
+.idCANADIANEXPRESS .echo \n3LD: CXA\nTELEPHONY: CANADIAN EXPRESS
+.idFDC .echo \n3LD: FDC\nTELEPHONY: FREIGHT DOG
+.idFREIGHTDOG .echo \n3LD: FDC\nTELEPHONY: FREIGHT DOG
+.idPFL .echo \n3LD: PFL\nTELEPHONY: PRO FLIGHT
+.idPROFLIGHT .echo \n3LD: PFL\nTELEPHONY: PRO FLIGHT
+.idPNW .echo \n3LD: PNW\nTELEPHONY: TIMBERLINE
+.idTIMBERLINE .echo \n3LD: PNW\nTELEPHONY: TIMBERLINE
+.idETX .echo \n3LD: ETX\nTELEPHONY: SPARK
+.idSPARK .echo \n3LD: ETX\nTELEPHONY: SPARK
+.idNWA .echo \n3LD: NWA\nTELEPHONY: NORTHWEST
+.idNORTHWEST .echo \n3LD: NWA\nTELEPHONY: NORTHWEST
 
 
 ; Not in JO 7340.2 yet, a of AIRAC 2603
-.idPFA .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
-.idPARISAIR .MSG ZSE_ISR *** 3LD: PFA ___ TELEPHONY: PARIS AIR
-.idPOD .MSG ZSE_ISR *** 3LD: POD ___ TELEPHONY: AIR POD
-.idAIRPOD .MSG ZSE_ISR *** 3LD: POD ___ TELEPHONY: AIR POD
+.idPFA .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
+.idPARISAIR .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
+.idPOD .echo \n3LD: POD\nTELEPHONY: AIR POD
+.idAIRPOD .echo \n3LD: POD\nTELEPHONY: AIR POD
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -372,8 +373,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-.NAVYPK .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
-.NAVPITTMEADOWS .MSG ZSE_ISR *** YPK 112.40 PITT MEADOWS VOR
+.NAVYPK .echo \nYPK 112.40\nPITT MEADOWS VOR
+.NAVPITTMEADOWS .echo \nYPK 112.40\nPITT MEADOWS VOR
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -387,7 +388,7 @@
 ; Notifications
 .DNM .MSG $atccallsign($1) *** $dep :: $aircraft :: $type($aircraft) :: $2 $3 :: $4 $5 $6 $7 $8 $9 :: $route :: $alt
 .ANM .MSG $atccallsign($1) *** $arr :: $aircraft :: $2 $3 $4 $5 $6 $7 $8 $9
-.RC .MSG $atccallsign($1) *** $aircraft rolling rwy $2 :: $3 $4 $5 $6 $7 $8 $9
+.RC .MSG $atccallsign($1) *** $aircraft rolling rwy $2, $sid :: $3 $4 $5 $6 $7 $8 $9
 .RT .MSG $atccallsign($1) *** $aircraft rejected takeoff rwy $2 :: $3 $4 $5 $6 $7 $8 $9
 .LD .MSG $atccallsign($1) *** $aircraft landed :: $2 $3 $4 $5 $6 $7 $8 $9
 
@@ -414,8 +415,8 @@
 
 ; General Commands
 .NOM .NOMARKERS
-.METAR .msg ZSE_ISR *** $metar($1)
-.W .MSG ZSE_ISR K$1 Wind $wind(K$1) ::: Altimeter $altim(K$1)
+.METAR .echo $metar($1)
+.W .echo K$1 Wind $wind(K$1) ::: Altimeter $altim(K$1)
 .ALIAS .reloadaliases
 
 ; Convenience commands for setting autotrack for STARS and ERAM users in CRC
@@ -535,7 +536,7 @@
 .tcon Contact $radioname($1) on $freq($1).
 .tctc .tcon $1
 .tmon Monitor $radioname($1) on $freq($1).
-.tnoatc No further ATC available.  Frequency change to the CTAF frequency approved.
+.tnoatc No further ATC available.  Frequency change approved.
 .thanks Thanks for flying with us in ZSE.  C'ya.
 
 .tBRB *** NOTAM: $radioname() will be back in $1 minutes. ***
@@ -610,18 +611,18 @@
 .tdm Descend and maintain $1
 .tspd Maintain $1 knots.
 .tmach Maintain mach $1.
-.tunctrld No traffic observed between you and the $arr airport. Report IFR cancellation or missed approach this frequency. Radar service terminated. Frequency change to advisory approved.
+.tunctrld No traffic observed between you and $arr airport. Report cancellation of IFR this frequency. Change to advisory frequency approved.
 .tuc .tunctrld
 .tsvfr Radar service terminated, squawk 1200, maintain VFR, Frequency change to advisory approved.
 
 ; Departure
 .thfr Hold for release.
-.trfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() not later than $ftime(15) of intentions. Time now- $time Zulu. Frequency change to advisory approved.
+.trfd Released for departure. Clearance void if not off by $ftime(5). If not off by $ftime(5), advise $radioname() on $freq() not later than $ftime(10) of intentions. Time now- $time Zulu.
 .TLMASEA Leaving my airspace, Seattle Center is closed, radar service terminated, frequency change approved.
 .TLMAzse Leaving my airspace, Seattle Center is closed, radar service terminated, frequency change approved.
 
 ; Approach
-.tdva Descend via the $uc($1) arrival. $arr altimeter $altim($arr).  Landing $2.
+.tdva Descend via the $star arrival. Landing $1. $arr altimeter $altim($arr).
 .tptac $dist($1) miles from $uc($1), Fly heading $2. Maintain $3 until established on the localizer. Cleared $4 runway $5 approach.
 .tptacils $dist($1) miles from $uc($1), Fly heading $2. Maintain $3 until established on the localizer. Cleared ILS runway $4 approach.
 .trfis Airport is at your $oclock($arr), $dist($arr) miles, report in sight
@@ -629,7 +630,7 @@
 
 ; En-Route
 .trcdb Radar Contact $dist($1) miles $bear($1) of $uc($1)
-.posdb .msg ZSE_ISR $aircraft: $dist($1) miles $bear($1) of $uc($1)
+.posdb .echo $aircraft: $dist($1) miles $bear($1) of $uc($1)
 .tlma Leaving my airspace, radar service terminated, frequency change approved.
 .TLMAOAK Leaving my airspace to the South, Oakland Center is closed, radar service terminated, frequency change approved.
 .TLMAzoa Leaving my airspace to the South, Oakland Center is closed, radar service terminated, frequency change approved.

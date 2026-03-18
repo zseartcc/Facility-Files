@@ -271,7 +271,7 @@
 .REGISTRATION .OPENURL https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/forming_nnumber/
 
 ; Route of Flight
-.ROF .OPENURL https://niles.xyz/rof/$aircraft
+.ROF .OPENURL https://skyvector.com/?fpl=$urlescape($fullroute)
 .ROFFA .OPENURL https://flightaware.com/analysis/route.rvt?origin=$dep&destination=$arr
 .SKYVECTOR .OPENURL https://skyvector.com
 

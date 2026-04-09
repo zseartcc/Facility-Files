@@ -83,7 +83,7 @@
 .CWTDH .echo \nD behind H: \n3 NM On Approach\n3 NM Directly Behind
 .CWTEH .echo \nE behind H: \n3 NM On Approach\n3 NM Directly Behind
 .CWTFH .echo \nF behind H: \n3 NM On Approach\n3 NM Directly Behind
-.CWTHH .echo \nG behind H: \n3 NM On Approach\n3 NM Directly Behind
+.CWTGH .echo \nG behind H: \n3 NM On Approach\n3 NM Directly Behind
 .CWTHH .echo \nH behind H: \n3 NM On Approach\n3 NM Directly Behind
 .CWTIH .echo \nI behind H: \n3 NM On Approach\n3 NM Directly Behind
 ; Lower Small in front

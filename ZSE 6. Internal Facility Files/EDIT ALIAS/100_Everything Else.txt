@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 03/10/26
+; Updated by Alexander Lennon - 04/09/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .echo Made for AIRAC cycle 2603 (19MAR - 16APR)
+.WHICHAIRAC .echo Made for AIRAC cycle 2604 (16APR - 14MAY)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -358,7 +358,7 @@
 .idNORTHWEST .echo \n3LD: NWA\nTELEPHONY: NORTHWEST
 
 
-; Not in JO 7340.2 yet, a of AIRAC 2603
+; Not in JO 7340.2 yet, a of AIRAC 2604
 .idPFA .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
 .idPARISAIR .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
 .idPOD .echo \n3LD: POD\nTELEPHONY: AIR POD

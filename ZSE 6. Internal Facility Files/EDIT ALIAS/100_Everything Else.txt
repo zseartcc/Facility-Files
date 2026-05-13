@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 04/09/26
+; Updated by Alexander Lennon - 05/12/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .echo Made for AIRAC cycle 2604 (16APR - 14MAY)
+.WHICHAIRAC .echo Made for AIRAC cycle 2605 (14MAY - 11JUN)
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -248,6 +248,8 @@
 .S46SOP .OPENURL https://zseartcc.org/documents/view/274
 .SEASOP .OPENURL https://zseartcc.org/documents/view/272
 .ZSESOP .OPENURL https://zseartcc.org/documents/view/206
+;Add BFI VFR PDF to website documents then add below
+.bfivfr .OPENURL https://zseartcc.org/documents/view/
 
 .AIRPORTSOP .OPENURL https://zseartcc.org/documents/view/288
 

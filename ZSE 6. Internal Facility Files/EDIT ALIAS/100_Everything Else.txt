@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 05/12/26
+; Updated by Alexander Lennon - 05/27/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .echo Made for AIRAC cycle 2605 (14MAY - 11JUN)
+.WHICHAIRAC .echo Made for AIRAC cycle 2606 ( 11JUN - 09JUL )
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -248,8 +248,6 @@
 .S46SOP .OPENURL https://zseartcc.org/documents/view/274
 .SEASOP .OPENURL https://zseartcc.org/documents/view/272
 .ZSESOP .OPENURL https://zseartcc.org/documents/view/206
-;Add BFI VFR PDF to website documents then add below
-.bfivfr .OPENURL https://zseartcc.org/documents/view/
 
 .AIRPORTSOP .OPENURL https://zseartcc.org/documents/view/288
 
@@ -258,6 +256,7 @@
 .routes .OPENURL https://zseartcc.org/info/prefroutes
 .STRIPMARKING .OPENURL https://zseartcc.org/documents/view/265
 .RADARCHEATSHEET .OPENURL https://zseartcc.org/documents/view/258
+.bfivfr .OPENURL https://zseartcc.org/documents/view/330
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -282,7 +281,7 @@
 .GOOGLE .openurl https://www.google.com/search?q=$1%20$2%20$3%20$4%20$5%20$6%20$7%20$8%20$9
 .EQUIP .openurl https://flightaware.com/about/faq_aircraft_flight_plan_suffix.rvt
 .65W .openurl https://www.faa.gov/air_traffic/publications/atpubs/atc_html/
-.65P .openurl https://www.faa.gov/documentLibrary/media/Order/7110.65BB_Basic_dtd_2-20-25.pdf
+.65P .openurl https://www.faa.gov/documentLibrary/media/Order/7110.65BB_Bsc_w_Chg_1_and_2_dtd_1-22-26_Final.pdf
 .65PDF .65P
 .65WEB .65W
 .CHARTS .openurl https://www.airnav.com/airport/$1#ifr
@@ -615,7 +614,7 @@
 .tmach Maintain mach $1.
 .tunctrld No traffic observed between you and $arr airport. Report cancellation of IFR this frequency. Change to advisory frequency approved.
 .tuc .tunctrld
-.tsvfr Radar service terminated, squawk 1200, maintain VFR, Frequency change to advisory approved.
+.tsvfr Radar service terminated, squawk 1200, maintain VFR, frequency change approved.
 
 ; Departure
 .thfr Hold for release.

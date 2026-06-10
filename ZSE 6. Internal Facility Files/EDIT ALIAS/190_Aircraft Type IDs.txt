@@ -882,7 +882,7 @@
 .acEC55 .echo \nMFR: AIRBUS HELICOPTERS\nMDL: EC-155\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 2\nClass: Helicopter
 .acEC6 .echo \nMFR: CROSES\nMDL: EC-6 Criquet\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane
 .acEC75 .echo \nMFR: AIRBUS HELICOPTERS-HARBIN\nMDL: EC-175\nFAA Wake: Small+\nCWT: I\nSRS: I\nADG: \nENG NUM: 2\nClass: Helicopter
-.acECHO .echo \nMFR: TECNAM\nMDL: P-92 Eaglet\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane
+.acecho .echo \nMFR: TECNAM\nMDL: P-92 Eaglet\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane
 .acEDGE .echo \nMFR: ZIVKo \nMDL: Edge 540\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane
 .acEDGT .echo \nMFR: ZIVKo \nMDL: Edge 540 T\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane
 .acEF2 .echo \nMFR: BYE AEROSPACE\nMDL: eFlyer 2\nFAA Wake: Small\nCWT: I\nSRS: I\nADG: \nENG NUM: 1\nClass: LandPlane

@@ -7,7 +7,7 @@
 
 
 ; Super in front
-.CWTAA .echo \nA behind A: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAA .echo \nA behind A: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTBA .echo \nB behind A: \n5 NM On Approach\n5 NM Directly Behind
 .CWTCA .echo \nC behind A: \n6 NM On Approach\n6 NM Directly Behind
 .CWTDA .echo \nD behind A: \n6 NM On Approach\n6 NM Directly Behind
@@ -17,7 +17,7 @@
 .CWTHA .echo \nH behind A: \n8 NM On Approach\n8 NM Directly Behind
 .CWTIA .echo \nI behind A: \n8 NM On Approach\n8 NM Directly Behind
 ; Upper Heavy in front
-.CWTAB .echo \nA behind B: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAB .echo \nA behind B: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTBB .echo \nB behind B: \n3 NM On Approach\n3 NM Directly Behind
 .CWTCB .echo \nC behind B: \n4 NM On Approach\n4 NM Directly Behind
 .CWTDB .echo \nD behind B: \n4 NM On Approach\n4 NM Directly Behind
@@ -27,17 +27,17 @@
 .CWTHB .echo \nH behind B: \n5 NM On Approach\n5 NM Directly Behind
 .CWTIB .echo \nI behind B: \n6 NM On Approach\n5 NM Directly Behind
 ; Lower Heavy in front
-.CWTAC .echo \nA behind C: \n3 NM On Approach\n3 NM Directly Behind
-.CWTBC .echo \nB behind C: \n3 NM On Approach\n3 NM Directly Behind
-.CWTCC .echo \nC behind C: \n3 NM On Approach\n3 NM Directly Behind
-.CWTDC .echo \nD behind C: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAC .echo \nA behind C: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTBC .echo \nB behind C: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTCC .echo \nC behind C: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTDC .echo \nD behind C: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTEC .echo \nE behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
 .CWTFC .echo \nF behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
 .CWTGC .echo \nG behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
 .CWTHC .echo \nH behind C: \n5 NM On Approach\n5 NM Directly Behind
 .CWTIC .echo \nI behind C: \n6 NM On Approach\n5 NM Directly Behind
 ; Non-Pairwise Heavy in front
-.CWTAD .echo \nA behind D: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAD .echo \nA behind D: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTBD .echo \nB behind D: \n3 NM On Approach\n3 NM Directly Behind
 .CWTCD .echo \nC behind D: \n4 NM On Approach\n4 NM Directly Behind
 .CWTDD .echo \nD behind D: \n4 NM On Approach\n4 NM Directly Behind
@@ -47,24 +47,24 @@
 .CWTHD .echo \nH behind D: \n6 NM On Approach\n5 NM Directly Behind
 .CWTID .echo \nI behind D: \n6 NM On Approach\n5 NM Directly Behind
 ; B757 in front
-.CWTAE .echo \nA behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTBE .echo \nB behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTCE .echo \nC behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTDE .echo \nD behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTEE .echo \nE behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTFE .echo \nF behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTGE .echo \nG behind E: \n3 NM On Approach\n3 NM Directly Behind
-.CWTHE .echo \nH behind E: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAE .echo \nA behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTBE .echo \nB behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTCE .echo \nC behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTDE .echo \nD behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTEE .echo \nE behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTFE .echo \nF behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTGE .echo \nG behind E: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTHE .echo \nH behind E: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTIE .echo \nI behind E: \n4 NM On Approach\n4 NM Directly Behind
 ; Upper Large in front
-.CWTAF .echo \nA behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTBF .echo \nB behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTCF .echo \nC behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTDF .echo \nD behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTEF .echo \nE behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTFF .echo \nF behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTGF .echo \nG behind F: \n3 NM On Approach\n3 NM Directly Behind
-.CWTHF .echo \nH behind F: \n3 NM On Approach\n3 NM Directly Behind
+.CWTAF .echo \nA behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTBF .echo \nB behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTCF .echo \nC behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTDF .echo \nD behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTEF .echo \nE behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTFF .echo \nF behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTGF .echo \nG behind F: \n2.5 NM On Approach\n3 NM Directly Behind
+.CWTHF .echo \nH behind F: \n2.5 NM On Approach\n3 NM Directly Behind
 .CWTHF .echo \nI behind F: \n4 NM On Approach\n3 NM Directly Behind
 ; Lower Large in front
 .CWTAG .echo \nA behind G: \n3 NM On Approach\n3 NM Directly Behind

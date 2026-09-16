@@ -50,12 +50,6 @@ Cancel these lines by putting a **";"** in front of them. Or just delete them.
 
 ;.idSAF .MSG ZSE_ISR *** 3LD: SHP ___ TELEPHONY: SAF
 
-## Not updated in FAA JO 7340.2P
-- Change **VISTA AM** to **ICONIC**
-
-.idVJA .MSG ZSE_ISR *** 3LD: VJA ___ TELEPHONY: ICONIC
-
-.idICONIC .MSG ZSE_ISR *** 3LD: VJA ___ TELEPHONY: ICONIC
 
 # How to merge all files into 1
 Download all 8 .txt files and the "Merger.bat" into their own file on your computer.

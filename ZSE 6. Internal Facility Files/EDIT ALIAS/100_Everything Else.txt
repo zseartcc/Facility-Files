@@ -1,8 +1,8 @@
-; Updated by Alexander Lennon - 07/29/26
+; Updated by Alexander Lennon - 09/16/26
 ; See vats.im/zse-commands for details
 ; Please reach out to <fe@zseartcc.org> with any comments or questions
 
-.WHICHAIRAC .echo Made for AIRAC cycle 2608 ( 06AUG-03SEP )
+.WHICHAIRAC .echo Made for AIRAC cycle 2610 ( 01OCT-29OCT )
 .AIRAC .WHICHAIRAC
 
 ; ALIAS FILE TABLE OF CONTENTS:
@@ -199,6 +199,10 @@
 .ZVRLOA .OPENURL https://zseartcc.org/documents/view/246
 .NUWLOA .OPENURL https://zseartcc.org/documents/view/
 
+;BDN
+.BDNSOP .OPENURL https://zseartcc.org/documents/view/
+.BDNZSELOA .OPENURL https://zseartcc.org/documents/view/
+
 
 ; EUG
 .EUGZSELOA .OPENURL https://zseartcc.org/documents/view/277
@@ -359,11 +363,7 @@
 .idNORTHWEST .echo \n3LD: NWA\nTELEPHONY: NORTHWEST
 
 
-; Not in JO 7340.2 yet, a of AIRAC 2604
-.idPFA .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
-.idPARISAIR .echo \n3LD: PFA\nTELEPHONY: PARIS AIR
-.idPOD .echo \n3LD: POD\nTELEPHONY: AIR POD
-.idAIRPOD .echo \n3LD: POD\nTELEPHONY: AIR POD
+; Not in JO 7340.2 yet, a of AIRAC 2610
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

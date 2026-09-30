@@ -4,23 +4,23 @@ Cancel these lines by putting a **";"** in front of them. Or just delete them.
 
 ## Now a VA
 
-;.idPNW .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: PALESTINIAN
-
-;.idPFL .MSG FAA_ISR *** 3LD: PFL ___ TELEPHONY: PACIFICFLYER
-
-;.idSPK .MSG ZSE_ISR *** 3LD: SPK ___ TELEPHONY: SOLSTAS LAB
-
-;.idCXA .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: XIAMEN AIR
-
 ;.idFDC .MSG ZSE_ISR *** 3LD: FDC ___ TELEPHONY: DIAMOND AIRLINE
 
 ;.idMET .MSG ZSE_ISR *** 3LD: MET ___ TELEPHONY: METMAN
+
+;.idPFL .MSG FAA_ISR *** 3LD: PFL ___ TELEPHONY: PACIFICFLYER
+
+;.idPNW .MSG FAA_ISR *** 3LD: PNW ___ TELEPHONY: PALESTINIAN
 
 ;.idSPC .MSG ZSE_ISR *** 3LD: SPC ___ TELEPHONY: PORT
 
 ;.idSPS .MSG ZSE_ISR *** 3LD: SPS ___ TELEPHONY: SALDUERO
 
 ;.idNWA .MSG ZSE_ISR *** 3LD: NWA ___ TELEPHONY: SOLEIL NIGER
+
+;.idSPK .MSG ZSE_ISR *** 3LD: SPK ___ TELEPHONY: SOLSTAS LAB
+
+;.idCXA .MSG ZSE_ISR *** 3LD: CXA ___ TELEPHONY: XIAMEN AIR
 
 ## Duplicates
 
@@ -29,8 +29,6 @@ Cancel these lines by putting a **";"** in front of them. Or just delete them.
 ;.idAWA .MSG ZSE_ISR *** 3LD: AWW ___ TELEPHONY: AWA
 
 ;.idCAL .MSG ZSE_ISR *** 3LD: ICL ___ TELEPHONY: CAL
-
-;.idSZL .MSG ZSE_ISR *** 3LD: SZL ___ TELEPHONY: ESWATINI
 
 ;.idHOG .MSG ZSE_ISR *** 3LD: HDM ___ TELEPHONY: HOG
 

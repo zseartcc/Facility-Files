@@ -7,94 +7,93 @@
 
 
 ; Super in front
-.CWTAA .echo \nA behind A: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBA .echo \nB behind A: \n5 NM On Approach\n5 NM Directly Behind
-.CWTCA .echo \nC behind A: \n6 NM On Approach\n6 NM Directly Behind
-.CWTDA .echo \nD behind A: \n6 NM On Approach\n6 NM Directly Behind
-.CWTEA .echo \nE behind A: \n7 NM On Approach\n7 NM Directly Behind
-.CWTFA .echo \nF behind A: \n7 NM On Approach\n7 NM Directly Behind
-.CWTGA .echo \nG behind A: \n7 NM On Approach\n7 NM Directly Behind
-.CWTHA .echo \nH behind A: \n8 NM On Approach\n8 NM Directly Behind
-.CWTIA .echo \nI behind A: \n8 NM On Approach\n8 NM Directly Behind
+.CWTAA .echo \nA behind A:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBA .echo \nB behind A:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTCA .echo \nC behind A:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s6 NM
+.CWTDA .echo \nD behind A:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s6 NM
+.CWTEA .echo \nE behind A:\nOn Approach:\t\s\s7 NM\nDirectly Behind:\s\s7 NM
+.CWTFA .echo \nF behind A:\nOn Approach:\t\s\s7 NM\nDirectly Behind:\s\s7 NM
+.CWTGA .echo \nG behind A:\nOn Approach:\t\s\s7 NM\nDirectly Behind:\s\s7 NM
+.CWTHA .echo \nH behind A:\nOn Approach:\t\s\s8 NM\nDirectly Behind:\s\s8 NM
+.CWTIA .echo \nI behind A:\nOn Approach:\t\s\s8 NM\nDirectly Behind:\s\s8 NM
 ; Upper Heavy in front
-.CWTAB .echo \nA behind B: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBB .echo \nB behind B: \n3 NM On Approach\n3 NM Directly Behind
-.CWTCB .echo \nC behind B: \n4 NM On Approach\n4 NM Directly Behind
-.CWTDB .echo \nD behind B: \n4 NM On Approach\n4 NM Directly Behind
-.CWTEB .echo \nE behind B: \n5 NM On Approach\n5 NM Directly Behind
-.CWTFB .echo \nF behind B: \n5 NM On Approach\n5 NM Directly Behind
-.CWTGB .echo \nG behind B: \n5 NM On Approach\n5 NM Directly Behind
-.CWTHB .echo \nH behind B: \n5 NM On Approach\n5 NM Directly Behind
-.CWTIB .echo \nI behind B: \n6 NM On Approach\n5 NM Directly Behind
+.CWTAB .echo \nA behind B:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBB .echo \nB behind B:\nOn Approach:\t\s\s3 NM\nDirectly Behind:\s\s3 NM
+.CWTCB .echo \nC behind B:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s4 NM
+.CWTDB .echo \nD behind B:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s4 NM
+.CWTEB .echo \nE behind B:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTFB .echo \nF behind B:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTGB .echo \nG behind B:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTHB .echo \nH behind B:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTIB .echo \nI behind B:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s5 NM
 ; Lower Heavy in front
-.CWTAC .echo \nA behind C: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBC .echo \nB behind C: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCC .echo \nC behind C: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDC .echo \nD behind C: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEC .echo \nE behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
-.CWTFC .echo \nF behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
-.CWTGC .echo \nG behind C: \n3.5 NM On Approach\n3.5 NM Directly Behind
-.CWTHC .echo \nH behind C: \n5 NM On Approach\n5 NM Directly Behind
-.CWTIC .echo \nI behind C: \n6 NM On Approach\n5 NM Directly Behind
+.CWTAC .echo \nA behind C:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBC .echo \nB behind C:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCC .echo \nC behind C:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDC .echo \nD behind C:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEC .echo \nE behind C:\nOn Approach:\t\s\s3.5 NM\nDirectly Behind:\s\s3.5 NM
+.CWTFC .echo \nF behind C:\nOn Approach:\t\s\s3.5 NM\nDirectly Behind:\s\s3.5 NM
+.CWTGC .echo \nG behind C:\nOn Approach:\t\s\s3.5 NM\nDirectly Behind:\s\s3.5 NM
+.CWTHC .echo \nH behind C:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTIC .echo \nI behind C:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s5 NM
 ; Non-Pairwise Heavy in front
-.CWTAD .echo \nA behind D: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBD .echo \nB behind D: \n3 NM On Approach\n3 NM Directly Behind
-.CWTCD .echo \nC behind D: \n4 NM On Approach\n4 NM Directly Behind
-.CWTDD .echo \nD behind D: \n4 NM On Approach\n4 NM Directly Behind
-.CWTED .echo \nE behind D: \n5 NM On Approach\n5 NM Directly Behind
-.CWTFD .echo \nF behind D: \n5 NM On Approach\n5 NM Directly Behind
-.CWTGD .echo \nG behind D: \n5 NM On Approach\n5 NM Directly Behind
-.CWTHD .echo \nH behind D: \n6 NM On Approach\n5 NM Directly Behind
-.CWTID .echo \nI behind D: \n6 NM On Approach\n5 NM Directly Behind
+.CWTAD .echo \nA behind D:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBD .echo \nB behind D:\nOn Approach:\t\s\s3 NM\nDirectly Behind:\s\s3 NM
+.CWTCD .echo \nC behind D:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s4 NM
+.CWTDD .echo \nD behind D:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s4 NM
+.CWTED .echo \nE behind D:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTFD .echo \nF behind D:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTGD .echo \nG behind D:\nOn Approach:\t\s\s5 NM\nDirectly Behind:\s\s5 NM
+.CWTHD .echo \nH behind D:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s5 NM
+.CWTID .echo \nI behind D:\nOn Approach:\t\s\s6 NM\nDirectly Behind:\s\s5 NM
 ; B757 in front
-.CWTAE .echo \nA behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBE .echo \nB behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCE .echo \nC behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDE .echo \nD behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEE .echo \nE behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTFE .echo \nF behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTGE .echo \nG behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTHE .echo \nH behind E: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTIE .echo \nI behind E: \n4 NM On Approach\n4 NM Directly Behind
+.CWTAE .echo \nA behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBE .echo \nB behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCE .echo \nC behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDE .echo \nD behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEE .echo \nE behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTFE .echo \nF behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTGE .echo \nG behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTHE .echo \nH behind E:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTIE .echo \nI behind E:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s4 NM
 ; Upper Large in front
-.CWTAF .echo \nA behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBF .echo \nB behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCF .echo \nC behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDF .echo \nD behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEF .echo \nE behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTFF .echo \nF behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTGF .echo \nG behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTHF .echo \nH behind F: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTIF .echo \nI behind F: \n4 NM On Approach\n3 NM Directly Behind
+.CWTAF .echo \nA behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBF .echo \nB behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCF .echo \nC behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDF .echo \nD behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEF .echo \nE behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTFF .echo \nF behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTGF .echo \nG behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTHF .echo \nH behind F:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTIF .echo \nI behind F:\nOn Approach:\t\s\s4 NM\nDirectly Behind:\s\s3 NM
 ; Lower Large in front
-.CWTAG .echo \nA behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBG .echo \nB behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCG .echo \nC behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDG .echo \nD behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEG .echo \nE behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTFG .echo \nF behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTGG .echo \nG behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTHG .echo \nH behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTIG .echo \nI behind G: \nMIN Separation On Approach\nMIN Separation Directly Behind
+.CWTAG .echo \nA behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBG .echo \nB behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCG .echo \nC behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDG .echo \nD behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEG .echo \nE behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTFG .echo \nF behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTGG .echo \nG behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTHG .echo \nH behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTIG .echo \nI behind G:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
 ; Upper Small in front
-.CWTAH .echo \nA behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBH .echo \nB behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCH .echo \nC behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDH .echo \nD behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEH .echo \nE behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTFH .echo \nF behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTGH .echo \nG behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTHH .echo \nH behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTIH .echo \nI behind H: \nMIN Separation On Approach\nMIN Separation Directly Behind
+.CWTAH .echo \nA behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBH .echo \nB behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCH .echo \nC behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDH .echo \nD behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEH .echo \nE behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTFH .echo \nF behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTGH .echo \nG behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTHH .echo \nH behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTIH .echo \nI behind H:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
 ; Lower Small in front
-.CWTAI .echo \nA behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTBI .echo \nB behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTCI .echo \nC behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTDI .echo \nD behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTEI .echo \nE behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTFI .echo \nF behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTGI .echo \nG behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTHI .echo \nH behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
-.CWTII .echo \nI behind I: \nMIN Separation On Approach\nMIN Separation Directly Behind
+.CWTAI .echo \nA behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTBI .echo \nB behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTCI .echo \nC behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTDI .echo \nD behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTEI .echo \nE behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTFI .echo \nF behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTGI .echo \nG behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTHI .echo \nH behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
+.CWTII .echo \nI behind I:\nOn Approach:\t\s\sMIN Separation\nDirectly Behind:\s\sMIN Separation
 
- 
